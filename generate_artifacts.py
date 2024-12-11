@@ -27,6 +27,7 @@ BANNED_IOC_TYPES = [
     "edtCam",  # not used any more and lots of IOC name duplications come from it
     "hpi_6012",  # most recent build has a missing file so we can't check against it
     "gigEcam",  # annoying typo breaks some things (should have been gigECam)
+    "imp",  # we use wave8 now, too many same-named IOCs
     "leviton",  # renamed to pdu_snmp, also similar name typo hell
     "Leviton",  # renamed to pdu_snmp, also similar name typo hell
     "Levitons",  # renamed to pdu_snmp, also similar name typo hell
