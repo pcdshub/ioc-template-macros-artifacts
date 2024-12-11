@@ -1,0 +1,12 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+
+$$LOOP(RFOF_TX)
+file rfof.req
+{
+    { IOC = "$$IOC_PV", BASE  = "$$BASE" }
+
+}
+$$ENDLOOP(RFOF_TX)

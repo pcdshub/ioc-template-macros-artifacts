@@ -1,0 +1,48 @@
+# MODS IOC instance autosave file
+
+file lockerman.tpl-req
+{
+	{ IOC = "IOC:LAS:LHN:LLG2:01" }
+}
+
+file pidLoop.tpl-req
+{
+	{ BASE = "LAS:LHN:LLG2:01", LOOP = "FREQ" }
+}
+
+file pidLoop.tpl-req
+{
+	{ BASE = "LAS:LHN:LLG2:01", LOOP = "PHAS" }
+}
+
+file tpr_delay.tpl-req
+{
+    { BASE = "LAS:LHN:LLG2:01", TRIG = "CBD", TPR_BASE = "LAS:LHN:TPR:01", TPR_TRIG = "01" }
+    { BASE = "LAS:LHN:LLG2:01", TRIG = "AMP", TPR_BASE = "LAS:LHN:TPR:01", TPR_TRIG = "03" }
+}
+
+file atca_phase.tpl-req
+{
+    { BASE = "LAS:LHN:LLG2:01" }
+}
+
+file combined_control.tpl-req
+{
+    { BASE = "LAS:LHN:LLG2:01" }
+}
+
+file bucket_jump.tpl-req
+{
+	{ BASE = "LAS:LHN:LLG2:01" }
+}
+
+file calibrate.tpl-req
+{
+	{ BASE = "LAS:LHN:LLG2:01" }
+}
+
+file goose_trig.tpl-req
+{
+	{ BASE = "LAS:LHN:LLG2:01" }
+}
+

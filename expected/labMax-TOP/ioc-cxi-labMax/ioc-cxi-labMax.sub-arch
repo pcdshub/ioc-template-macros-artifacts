@@ -1,0 +1,20 @@
+file archive_iocAdmin.tpl-arch
+{
+	{
+		IOC = CXI:EXP:IOC:LEM,
+	}
+}
+
+file archive_SR.tpl-arch
+{
+	{
+		IOC = CXI:EXP:IOC:LEM,
+	}
+}
+
+file archive_labMax-Top.tpl-arch
+{
+	{
+		P = CXI:EXP:LEM:01,
+	}
+}

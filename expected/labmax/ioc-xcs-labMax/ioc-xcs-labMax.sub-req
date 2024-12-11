@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{
+		IOC = XCS:LPW:01,
+	}
+}
+
+file autosave_labMax-Top.tpl-req
+{
+	{
+		P = XCS:LPW:01,
+	}
+
+}

@@ -1,0 +1,60 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:delay:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:delay:OphydSetpoint    }
+}

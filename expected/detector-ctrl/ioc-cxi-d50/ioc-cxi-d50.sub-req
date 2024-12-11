@@ -1,0 +1,16 @@
+# Generate detector control module autosave requests
+file det-ioc.req
+{
+	{ IOC = "CXI:IOC:D50" }
+}
+
+file detector.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "CXI:DS2"  }
+}
+
+
+
+

@@ -1,0 +1,90 @@
+# Generate archive request 
+file ims_archive.tpl-arch
+{
+    pattern { MOTOR      }
+            
+            
+            { HXX:UM6:MMS:08 }
+            { HXX:UM6:CLZ:01  }
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            }
+
+file device_with_2states.tpl-arch
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+                        
+            
+            
+            }
+
+file device_with_3states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            
+            
+            { HXX:UM6:PIM,  "DIODE", "YAG",   "OUT"  }
+                        }
+
+file device_with_4states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-arch
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8   }
+            }
+
+file device_with_9states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-arch
+{
+    pattern { ILK                         }
+            }
+

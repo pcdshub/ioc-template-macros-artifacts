@@ -1,0 +1,16 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "IOC:XPP:ROB:140K" }
+}
+
+
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "XPP:ROB:140K"  }
+}
+
+
+

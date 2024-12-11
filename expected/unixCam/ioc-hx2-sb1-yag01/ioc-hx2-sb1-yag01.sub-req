@@ -1,0 +1,38 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       HX2:SB1:YAG:IOC
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       HX2:SB1:YAG:IOC,
+                EVR             =       HX2:EVR:YAG
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       HX2:SB1:CVV:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       HX2:SB1:CVV:01 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       HX2:SB1:CVV:01 }
+}
+

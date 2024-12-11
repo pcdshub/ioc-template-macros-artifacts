@@ -1,0 +1,59 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:XPP:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{XPP:MCS2:01, 1 }
+	{XPP:MCS2:01, 2 }
+	{XPP:MCS2:01, 3 }
+	{XPP:MCS2:01, 4 }
+	{XPP:MCS2:01, 5 }
+	{XPP:MCS2:01, 6 }
+	{XPP:MCS2:01, 7 }
+	{XPP:MCS2:01, 8 }
+	{XPP:MCS2:01, 9 }
+	{XPP:MCS2:01, 10 }
+	{XPP:MCS2:01, 11 }
+	{XPP:MCS2:01, 12 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { XPP:LIB:MCS:01 }
+    { XPP:LIB:MCS:02 }
+    { XPP:LIB:MCS:03 }
+    { XPP:LIB:MCS:04 }
+    { XPP:LIB:MCS:05 }
+    { XPP:LIB:MCS:06 }
+    { XPP:LIB:MCS:07 }
+    { XPP:LIB:MCS:08 }
+    { XPP:LIB:MCS:09 }
+    { XPP:LIB:MCS:10 }
+    { XPP:LIB:MCS:11 }
+    { XPP:LIB:MCS:12 }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+        }

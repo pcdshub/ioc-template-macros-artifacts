@@ -1,0 +1,19 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       HX2:SB1:YAG:IOC,
+                EVR             =       HX2:EVR:YAG
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       HX2:SB1:CVV:01  }
+}
+

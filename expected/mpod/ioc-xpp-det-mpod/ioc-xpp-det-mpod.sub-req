@@ -1,0 +1,40 @@
+#
+# mpod Autosave request file for ioc-xpp-det-mpod
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "XPP:IOC:DETPRT:MPOD" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XPP:DETPRT:MPD:CH",             "0" }
+	{ "XPP:DETPRT:MPD:CH",             "1" }
+	{ "XPP:DETPRT:MPD:CH",             "2" }
+	{ "XPP:DETPRT:MPD:CH",             "3" }
+	{ "XPP:DETPRT:MPD:CH",             "4" }
+	{ "XPP:DETPRT:MPD:CH",             "5" }
+	{ "XPP:DETPRT:MPD:CH",             "6" }
+	{ "XPP:DETPRT:MPD:CH",             "7" }
+	{ "XPP:DETPRT:MPD:CH",             "100" }
+	{ "XPP:DETPRT:MPD:CH",             "101" }
+	{ "XPP:DETPRT:MPD:CH",             "102" }
+	{ "XPP:DETPRT:MPD:CH",             "103" }
+	{ "XPP:DETPRT:MPD:CH",             "104" }
+	{ "XPP:DETPRT:MPD:CH",             "105" }
+	{ "XPP:DETPRT:MPD:CH",             "106" }
+	{ "XPP:DETPRT:MPD:CH",             "107" }
+	{ "XPP:DETPRT:MPD:CH",             "200" }
+	{ "XPP:DETPRT:MPD:CH",             "201" }
+	{ "XPP:DETPRT:MPD:CH",             "202" }
+	{ "XPP:DETPRT:MPD:CH",             "203" }
+	{ "XPP:DETPRT:MPD:CH",             "204" }
+	{ "XPP:DETPRT:MPD:CH",             "205" }
+	{ "XPP:DETPRT:MPD:CH",             "206" }
+	{ "XPP:DETPRT:MPD:CH",             "207" }
+}

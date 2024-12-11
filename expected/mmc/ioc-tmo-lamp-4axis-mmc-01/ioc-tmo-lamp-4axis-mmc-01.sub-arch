@@ -1,0 +1,14 @@
+# Generate archive request 
+file mmca_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            
+            { TMO:LAMP:MMC:01 }
+            
+            { TMO:LAMP:MMC:02 }
+            
+            { TMO:LAMP:MMC:03 }
+            
+            { TMO:LAMP:MMC:04 }
+            }
+

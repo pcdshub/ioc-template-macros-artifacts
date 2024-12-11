@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:LAS:FTL:RFOF:FF:01" }
+}
+
+file fiber_stretcher.archive
+{
+    { IOC = "IOC:LAS:FTL:RFOF:FF:01", BASE  = "LAS:FTL:RFOF:FF:01" }
+}

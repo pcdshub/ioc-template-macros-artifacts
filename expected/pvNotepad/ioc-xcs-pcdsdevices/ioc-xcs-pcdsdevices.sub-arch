@@ -1,0 +1,75 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:delay:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:delay:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:24:pseudo:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:24:pseudo:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:26:pseudo:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:26:pseudo:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy_with_vernier:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy_with_vernier:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:theta:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:theta:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:wavelength:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:wavelength:OphydSetpoint    }
+}

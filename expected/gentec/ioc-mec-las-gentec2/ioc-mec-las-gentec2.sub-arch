@@ -1,0 +1,11 @@
+# gentec IOC instance archive file
+
+# Generate archive PV list for IOC
+file gentec-ioc.archive
+{
+	pattern
+	{ IOC,     BASE  }
+	{IOC:MEC:LAS:GENTEC:02, MEC:LAS:GENTEC:02}
+}
+
+

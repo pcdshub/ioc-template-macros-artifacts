@@ -1,0 +1,7 @@
+# Each pgpRogue IOC needs one of these
+
+file rogue-ioc.archive
+{
+	{	IOC = "TST:IOC:PGP:01"	}
+}
+

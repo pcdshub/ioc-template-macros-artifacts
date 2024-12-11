@@ -1,0 +1,14 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:LAS:FTL:SGN:01" }
+}
+
+file rssma100x.archive
+{
+    { IOC = "IOC:LAS:FTL:SGN:01", BASE  = "LAS:FTL:SGN:01" }
+}
+

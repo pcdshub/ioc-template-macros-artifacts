@@ -1,0 +1,22 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       XPP:R30:IOC:27,
+                EVR             =       XPP:R30:EVR:27
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       XPP:OPAL1K:1  }
+        {       CAM             =       XPP:OPAL1K:2  }
+        {       CAM             =       XPP:PULNIX:1  }
+        {       CAM             =       XPP:PULNIX:2  }
+}
+

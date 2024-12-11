@@ -1,0 +1,105 @@
+# IMS archive list
+XPP:SB3:MMS:15.DESC         86400    monitor
+XPP:SB3:MMS:15.TYPE         86400    monitor
+XPP:SB3:MMS:15.PORT         86400    monitor
+XPP:SB3:MMS:15.LM           86400    monitor
+XPP:SB3:MMS:15.SM           86400    monitor
+XPP:SB3:MMS:15.SF           86400    monitor
+XPP:SB3:MMS:15.STSV         86400    monitor
+XPP:SB3:MMS:15.ERSV         86400    monitor
+XPP:SB3:MMS:15.EE           86400    monitor
+XPP:SB3:MMS:15.EL           86400    monitor
+XPP:SB3:MMS:15.ME           86400    monitor
+XPP:SB3:MMS:15.MS           86400    monitor
+XPP:SB3:MMS:15.MT           86400    monitor
+XPP:SB3:MMS:15.HT           86400    monitor
+XPP:SB3:MMS:15.ES           86400    monitor
+XPP:SB3:MMS:15.RCMX         86400    monitor
+XPP:SB3:MMS:15.RC           86400    monitor
+XPP:SB3:MMS:15.HCMX         86400    monitor
+XPP:SB3:MMS:15.HC           86400    monitor
+XPP:SB3:MMS:15.DVER         86400    monitor
+XPP:SB3:MMS:15.MODE         86400    monitor
+XPP:SB3:MMS:15.EGU          86400    monitor
+XPP:SB3:MMS:15.UREV         86400    monitor
+XPP:SB3:MMS:15.FREV         86400    monitor
+XPP:SB3:MMS:15.SREV         86400    monitor
+XPP:SB3:MMS:15.MRES         86400    monitor
+XPP:SB3:MMS:15.ERES         86400    monitor
+XPP:SB3:MMS:15.DIR          86400    monitor
+XPP:SB3:MMS:15.OFF          86400    monitor
+XPP:SB3:MMS:15.FOFF         86400    monitor
+XPP:SB3:MMS:15.HTYP         86400    monitor
+XPP:SB3:MMS:15.HEGE         86400    monitor
+XPP:SB3:MMS:15.BDST         86400    monitor
+XPP:SB3:MMS:15.HDST         86400    monitor
+XPP:SB3:MMS:15.DLLM         86400    monitor
+XPP:SB3:MMS:15.DHLM         86400    monitor
+XPP:SB3:MMS:15.LLM          86400    monitor
+XPP:SB3:MMS:15.HLM          86400    monitor
+XPP:SB3:MMS:15.RTRY         86400    monitor
+XPP:SB3:MMS:15.RDBD         86400    monitor
+XPP:SB3:MMS:15.PDBD         86400    monitor
+XPP:SB3:MMS:15.PREC         86400    monitor
+XPP:SB3:MMS:15.SBAS         86400    monitor
+XPP:SB3:MMS:15.SMAX         86400    monitor
+XPP:SB3:MMS:15.S            86400    monitor
+XPP:SB3:MMS:15.VBAS         86400    monitor
+XPP:SB3:MMS:15.VMAX         86400    monitor
+XPP:SB3:MMS:15.VELO         86400    monitor
+XPP:SB3:MMS:15.BS           86400    monitor
+XPP:SB3:MMS:15.BVEL         86400    monitor
+XPP:SB3:MMS:15.HS           86400    monitor
+XPP:SB3:MMS:15.HVEL         86400    monitor
+XPP:SB3:MMS:15.ACCL         86400    monitor
+XPP:SB3:MMS:15.BACC         86400    monitor
+XPP:SB3:MMS:15.HACC         86400    monitor
+XPP:SB3:MMS:15.TWV          86400    monitor
+XPP:SB3:MMS:15.HOMD         86400    monitor
+XPP:SB3:MMS:15.EGAG         86400    monitor
+XPP:SB3:MMS:15.ERBL         86400    monitor
+XPP:SB3:MMS:15.ESKL         86400    monitor
+
+XPP:SB3:MMS:15.DLVL         86400    monitor
+
+XPP:SB3:MMS:15.S1           86400    monitor
+XPP:SB3:MMS:15.S2           86400    monitor
+XPP:SB3:MMS:15.S3           86400    monitor
+XPP:SB3:MMS:15.S4           86400    monitor
+XPP:SB3:MMS:15.S9           86400    monitor
+
+XPP:SB3:MMS:15.RES          86400    monitor
+
+XPP:SB3:MMS:15.VAL          2        monitor
+XPP:SB3:MMS:15.DVAL         2        monitor
+XPP:SB3:MMS:15.RVAL         2        monitor
+XPP:SB3:MMS:15.RRBV         0.2      monitor
+XPP:SB3:MMS:15.DRBV         0.2      monitor
+XPP:SB3:MMS:15.RBV          0.2      monitor
+
+XPP:SB3:MMS:15.ERBV         0.2      monitor
+
+XPP:SB3:MMS:15.DIFF         0.2      monitor
+
+XPP:SB3:MMS:15.RCNT         86400    monitor
+XPP:SB3:MMS:15.MISS         86400    monitor
+
+XPP:SB3:MMS:15.LLS          86400    monitor
+XPP:SB3:MMS:15.HLS          86400    monitor
+
+XPP:SB3:MMS:15.ATHM         86400    monitor
+
+XPP:SB3:MMS:15.MIP          0.2      monitor
+XPP:SB3:MMS:15.MOVN         0.2      monitor
+XPP:SB3:MMS:15.DMOV         0.2      monitor
+XPP:SB3:MMS:15.MSTA         0.2      monitor
+XPP:SB3:MMS:15.HCSV         86400    monitor
+
+XPP:SB3:MMS:15:SAVED_RAW    86400    monitor
+XPP:SB3:MMS:15:SAVED_P      86400    monitor
+
+XPP:SB3:MMS:15:FW_MEANS     86400    monitor
+XPP:SB3:MMS:15:REV_MEANS    86400    monitor
+
+XPP:SB3:MMS:15:CFG_FILE     86400    monitor
+

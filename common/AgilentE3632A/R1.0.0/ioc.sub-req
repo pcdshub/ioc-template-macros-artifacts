@@ -1,0 +1,21 @@
+# AgilentE3632A IOC instance autosave file
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.tpl-req
+{
+        {      IOC    =  "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" }
+}
+
+# Generate autosave PV list for IOC specific PV's
+file AgilentE3632A-ioc.req
+{
+	{ IOC = "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" }
+}
+
+# Generate autosave PV list for each serial device
+$$LOOP(AGILENT)
+file AgilentE3632A.tpl-req
+{
+	{ DEV = "$$PV" } 
+}
+$$ENDLOOP(AGILENT)

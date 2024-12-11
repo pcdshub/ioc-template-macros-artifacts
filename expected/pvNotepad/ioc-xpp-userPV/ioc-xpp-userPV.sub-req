@@ -1,0 +1,847 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARI1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARI2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARS1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ARS2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:F1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:F2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:F3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_VAL:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_VAL:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_VAL:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:NEVT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:RUNNO    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:BEGIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:END    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:WAIT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:DCONNECT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CONNECT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CONF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:EXP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:COLLDONE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_DESC:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_DESC:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_DESC:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_VAL:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_VAL:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:STR_VAL:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_DESC:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_DESC:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:DAQ:CPV:NUM_DESC:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:BIN:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:VARS:FLOAT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:04:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:04:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:04:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:04:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:06:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:06:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:06:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:06:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:07:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:07:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:07:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:R39:140K:07:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:MCC:EPHOT:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:CCM:E    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:CCM:Theta0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:FS3:T0_SHIFTER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:LeCroyScope_P1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:LeCroyScope_P2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:LeCroyScope_P3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:LeCroyScope_P4    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E_PULSE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E_LEAK    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TIME_DELAY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:FS3_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:FS3_MAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:EVR0_OSC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:EVR0_GATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:SDG0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E_PULSE2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:E_LEAK2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:VIT:T0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:VIT:TD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LXT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LXTTC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:CP_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:CP_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OUT_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OUT_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:CP_TRA_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:CP_TRA_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_H_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_H_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_V_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_V_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_F_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:L1_F_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:NEW_7_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:NEW_7_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OPA_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OPA_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OPA_COMP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:OPA_COMP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_COMP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_COMP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSH_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSH_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSV_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSV_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSF_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_LENSF_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_DELAY_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:LAS:TT_DELAY_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:TIMETOOL:TTALL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:TIMETOOL:TTALL2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:USER:ENCODER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ISTAR:GateMode    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:ISTAR:MCPGain    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:CCM:THETA0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:CCM:DSPACING    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:CCM:GR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:CCM:GD    }
+}
+

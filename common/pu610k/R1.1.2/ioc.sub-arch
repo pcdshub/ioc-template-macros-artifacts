@@ -1,0 +1,17 @@
+# pu610k IOC instance archive file
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file pu610k.archive
+{
+	pattern
+	{ IOC,     BASE,    CHAN      }
+$$LOOP(PU610K)
+	{$$IOC_PV, $$BASE,  CH$$INDEX }
+$$ENDLOOP(PU610K)
+}
+
+

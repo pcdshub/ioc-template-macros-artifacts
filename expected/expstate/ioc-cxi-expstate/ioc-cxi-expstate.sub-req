@@ -1,0 +1,6 @@
+file exp_state.tpl-req
+{
+    pattern { P                       }
+            { IOC:CXI:0:EXPSTATE:   }
+            { IOC:CXI:1:EXPSTATE:   }
+}

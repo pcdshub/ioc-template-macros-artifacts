@@ -1,0 +1,15 @@
+# IOC archive file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file detprot_ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+$$LOOP(BLOCKER)
+file detprot.archive
+{
+    { NAME = "$$NAME" }
+}
+$$ENDLOOP(BLOCKER)

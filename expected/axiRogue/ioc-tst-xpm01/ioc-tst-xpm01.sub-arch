@@ -1,0 +1,7 @@
+# Each axiRogue IOC needs one of these
+
+file rogue-ioc.archive
+{
+	{	IOC = "TST:IOC:XPM:01"	}
+}
+

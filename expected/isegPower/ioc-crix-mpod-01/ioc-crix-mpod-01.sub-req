@@ -1,0 +1,62 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "CRIX:MPOD:01:IOC" }
+}
+
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "CRIX:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "CRIX:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "2",
+		DEV			= "CRIX:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "3",
+		DEV			= "CRIX:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "4",
+		DEV			= "CRIX:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "CRIX:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "5",
+		DEV			= "CRIX:MPOD:01"
+	}
+}

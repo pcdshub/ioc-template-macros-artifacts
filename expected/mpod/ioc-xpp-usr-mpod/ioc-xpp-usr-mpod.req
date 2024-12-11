@@ -1,0 +1,208 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+XPP:IOC:USR:MPOD:ACCESS
+XPP:IOC:USR:MPOD:CA_CLNT_CNT.HIGH
+XPP:IOC:USR:MPOD:CA_CLNT_CNT.HIHI
+XPP:IOC:USR:MPOD:CA_CONN_CNT.HIGH
+XPP:IOC:USR:MPOD:CA_CONN_CNT.HIHI
+XPP:IOC:USR:MPOD:SUSP_TASK_CNT.HIHI
+XPP:IOC:USR:MPOD:FD_FREE.LOW
+XPP:IOC:USR:MPOD:FD_FREE.LOLO
+XPP:IOC:USR:MPOD:IOC_CPU_LOAD.HIGH
+XPP:IOC:USR:MPOD:IOC_CPU_LOAD.HIHI
+XPP:IOC:USR:MPOD:MEM_FREE.LOW
+XPP:IOC:USR:MPOD:MEM_FREE.LOLO
+XPP:IOC:USR:MPOD:START_CNT
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:0:SetCurrent
+XPP:R39:MPD:CH:0:SetSwitch
+XPP:R39:MPD:CH:0:SetVoltage
+XPP:R39:MPD:CH:0:GetVoltage.DESC
+XPP:R39:MPD:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:1:SetCurrent
+XPP:R39:MPD:CH:1:SetSwitch
+XPP:R39:MPD:CH:1:SetVoltage
+XPP:R39:MPD:CH:1:GetVoltage.DESC
+XPP:R39:MPD:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:2:SetCurrent
+XPP:R39:MPD:CH:2:SetSwitch
+XPP:R39:MPD:CH:2:SetVoltage
+XPP:R39:MPD:CH:2:GetVoltage.DESC
+XPP:R39:MPD:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:3:SetCurrent
+XPP:R39:MPD:CH:3:SetSwitch
+XPP:R39:MPD:CH:3:SetVoltage
+XPP:R39:MPD:CH:3:GetVoltage.DESC
+XPP:R39:MPD:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:4:SetCurrent
+XPP:R39:MPD:CH:4:SetSwitch
+XPP:R39:MPD:CH:4:SetVoltage
+XPP:R39:MPD:CH:4:GetVoltage.DESC
+XPP:R39:MPD:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:5:SetCurrent
+XPP:R39:MPD:CH:5:SetSwitch
+XPP:R39:MPD:CH:5:SetVoltage
+XPP:R39:MPD:CH:5:GetVoltage.DESC
+XPP:R39:MPD:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:6:SetCurrent
+XPP:R39:MPD:CH:6:SetSwitch
+XPP:R39:MPD:CH:6:SetVoltage
+XPP:R39:MPD:CH:6:GetVoltage.DESC
+XPP:R39:MPD:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:7:SetCurrent
+XPP:R39:MPD:CH:7:SetSwitch
+XPP:R39:MPD:CH:7:SetVoltage
+XPP:R39:MPD:CH:7:GetVoltage.DESC
+XPP:R39:MPD:CH:7:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:100:SetCurrent
+XPP:R39:MPD:CH:100:SetSwitch
+XPP:R39:MPD:CH:100:SetVoltage
+XPP:R39:MPD:CH:100:GetVoltage.DESC
+XPP:R39:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:101:SetCurrent
+XPP:R39:MPD:CH:101:SetSwitch
+XPP:R39:MPD:CH:101:SetVoltage
+XPP:R39:MPD:CH:101:GetVoltage.DESC
+XPP:R39:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:102:SetCurrent
+XPP:R39:MPD:CH:102:SetSwitch
+XPP:R39:MPD:CH:102:SetVoltage
+XPP:R39:MPD:CH:102:GetVoltage.DESC
+XPP:R39:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:103:SetCurrent
+XPP:R39:MPD:CH:103:SetSwitch
+XPP:R39:MPD:CH:103:SetVoltage
+XPP:R39:MPD:CH:103:GetVoltage.DESC
+XPP:R39:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:104:SetCurrent
+XPP:R39:MPD:CH:104:SetSwitch
+XPP:R39:MPD:CH:104:SetVoltage
+XPP:R39:MPD:CH:104:GetVoltage.DESC
+XPP:R39:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:105:SetCurrent
+XPP:R39:MPD:CH:105:SetSwitch
+XPP:R39:MPD:CH:105:SetVoltage
+XPP:R39:MPD:CH:105:GetVoltage.DESC
+XPP:R39:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:106:SetCurrent
+XPP:R39:MPD:CH:106:SetSwitch
+XPP:R39:MPD:CH:106:SetVoltage
+XPP:R39:MPD:CH:106:GetVoltage.DESC
+XPP:R39:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:107:SetCurrent
+XPP:R39:MPD:CH:107:SetSwitch
+XPP:R39:MPD:CH:107:SetVoltage
+XPP:R39:MPD:CH:107:GetVoltage.DESC
+XPP:R39:MPD:CH:107:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:200:SetCurrent
+XPP:R39:MPD:CH:200:SetSwitch
+XPP:R39:MPD:CH:200:SetVoltage
+XPP:R39:MPD:CH:200:GetVoltage.DESC
+XPP:R39:MPD:CH:200:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:201:SetCurrent
+XPP:R39:MPD:CH:201:SetSwitch
+XPP:R39:MPD:CH:201:SetVoltage
+XPP:R39:MPD:CH:201:GetVoltage.DESC
+XPP:R39:MPD:CH:201:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:202:SetCurrent
+XPP:R39:MPD:CH:202:SetSwitch
+XPP:R39:MPD:CH:202:SetVoltage
+XPP:R39:MPD:CH:202:GetVoltage.DESC
+XPP:R39:MPD:CH:202:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:203:SetCurrent
+XPP:R39:MPD:CH:203:SetSwitch
+XPP:R39:MPD:CH:203:SetVoltage
+XPP:R39:MPD:CH:203:GetVoltage.DESC
+XPP:R39:MPD:CH:203:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:204:SetCurrent
+XPP:R39:MPD:CH:204:SetSwitch
+XPP:R39:MPD:CH:204:SetVoltage
+XPP:R39:MPD:CH:204:GetVoltage.DESC
+XPP:R39:MPD:CH:204:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:205:SetCurrent
+XPP:R39:MPD:CH:205:SetSwitch
+XPP:R39:MPD:CH:205:SetVoltage
+XPP:R39:MPD:CH:205:GetVoltage.DESC
+XPP:R39:MPD:CH:205:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:206:SetCurrent
+XPP:R39:MPD:CH:206:SetSwitch
+XPP:R39:MPD:CH:206:SetVoltage
+XPP:R39:MPD:CH:206:GetVoltage.DESC
+XPP:R39:MPD:CH:206:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:207:SetCurrent
+XPP:R39:MPD:CH:207:SetSwitch
+XPP:R39:MPD:CH:207:SetVoltage
+XPP:R39:MPD:CH:207:GetVoltage.DESC
+XPP:R39:MPD:CH:207:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:300:SetCurrent
+XPP:R39:MPD:CH:300:SetSwitch
+XPP:R39:MPD:CH:300:SetVoltage
+XPP:R39:MPD:CH:300:GetVoltage.DESC
+XPP:R39:MPD:CH:300:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:301:SetCurrent
+XPP:R39:MPD:CH:301:SetSwitch
+XPP:R39:MPD:CH:301:SetVoltage
+XPP:R39:MPD:CH:301:GetVoltage.DESC
+XPP:R39:MPD:CH:301:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:302:SetCurrent
+XPP:R39:MPD:CH:302:SetSwitch
+XPP:R39:MPD:CH:302:SetVoltage
+XPP:R39:MPD:CH:302:GetVoltage.DESC
+XPP:R39:MPD:CH:302:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:303:SetCurrent
+XPP:R39:MPD:CH:303:SetSwitch
+XPP:R39:MPD:CH:303:SetVoltage
+XPP:R39:MPD:CH:303:GetVoltage.DESC
+XPP:R39:MPD:CH:303:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:304:SetCurrent
+XPP:R39:MPD:CH:304:SetSwitch
+XPP:R39:MPD:CH:304:SetVoltage
+XPP:R39:MPD:CH:304:GetVoltage.DESC
+XPP:R39:MPD:CH:304:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:305:SetCurrent
+XPP:R39:MPD:CH:305:SetSwitch
+XPP:R39:MPD:CH:305:SetVoltage
+XPP:R39:MPD:CH:305:GetVoltage.DESC
+XPP:R39:MPD:CH:305:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:306:SetCurrent
+XPP:R39:MPD:CH:306:SetSwitch
+XPP:R39:MPD:CH:306:SetVoltage
+XPP:R39:MPD:CH:306:GetVoltage.DESC
+XPP:R39:MPD:CH:306:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XPP:R39:MPD:CH:307:SetCurrent
+XPP:R39:MPD:CH:307:SetSwitch
+XPP:R39:MPD:CH:307:SetVoltage
+XPP:R39:MPD:CH:307:GetVoltage.DESC
+XPP:R39:MPD:CH:307:SetVoltage.DESC

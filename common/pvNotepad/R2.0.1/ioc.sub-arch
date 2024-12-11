@@ -1,0 +1,63 @@
+$$LOOP(ARRAY_1)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:ARRAY:01 }
+}
+$$ENDLOOP(ARRAY_1)
+$$LOOP(ARRAY_10)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:ARRAY:01 }
+            { $$HUTCH:NOTE:ARRAY:02 }
+            { $$HUTCH:NOTE:ARRAY:03 }
+            { $$HUTCH:NOTE:ARRAY:04 }
+            { $$HUTCH:NOTE:ARRAY:05 }
+            { $$HUTCH:NOTE:ARRAY:06 }
+            { $$HUTCH:NOTE:ARRAY:07 }
+            { $$HUTCH:NOTE:ARRAY:08 }
+            { $$HUTCH:NOTE:ARRAY:09 }
+            { $$HUTCH:NOTE:ARRAY:10 }
+}
+$$ENDLOOP(ARRAY_10)
+$$LOOP(ARRAY_20)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:ARRAY:01 }
+            { $$HUTCH:NOTE:ARRAY:02 }
+            { $$HUTCH:NOTE:ARRAY:03 }
+            { $$HUTCH:NOTE:ARRAY:04 }
+            { $$HUTCH:NOTE:ARRAY:05 }
+            { $$HUTCH:NOTE:ARRAY:06 }
+            { $$HUTCH:NOTE:ARRAY:07 }
+            { $$HUTCH:NOTE:ARRAY:08 }
+            { $$HUTCH:NOTE:ARRAY:09 }
+            { $$HUTCH:NOTE:ARRAY:10 }
+            { $$HUTCH:NOTE:ARRAY:11 }
+            { $$HUTCH:NOTE:ARRAY:12 }
+            { $$HUTCH:NOTE:ARRAY:13 }
+            { $$HUTCH:NOTE:ARRAY:14 }
+            { $$HUTCH:NOTE:ARRAY:15 }
+            { $$HUTCH:NOTE:ARRAY:16 }
+            { $$HUTCH:NOTE:ARRAY:17 }
+            { $$HUTCH:NOTE:ARRAY:18 }
+            { $$HUTCH:NOTE:ARRAY:19 }
+            { $$HUTCH:NOTE:ARRAY:20 }
+}
+$$ENDLOOP(ARRAY_20)
+$$LOOP(SPECIAL)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$PV    }
+}
+$$ENDLOOP(SPECIAL)
+$$LOOP(HUTCH)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$PV    }
+}
+$$ENDLOOP(HUTCH)

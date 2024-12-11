@@ -1,0 +1,16 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "CXI:IOC:D51" }
+}
+
+file detector.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:DS1"  }
+}
+
+
+
+

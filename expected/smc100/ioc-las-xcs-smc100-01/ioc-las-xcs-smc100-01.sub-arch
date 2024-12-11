@@ -1,0 +1,5 @@
+# Generate archive request 
+file smc100.tpl-arch
+{
+    { MOTOR="LAS:FS4:MMN:FQ" }
+}

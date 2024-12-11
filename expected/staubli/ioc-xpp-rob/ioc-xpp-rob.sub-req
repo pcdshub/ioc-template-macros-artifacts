@@ -1,0 +1,13 @@
+# IOC autosave file
+
+# Generate IOC archive request 
+file staubli_ioc.req
+{
+    { IOC = "IOC:XPP:ROB" }
+}
+
+file staubli_autosave.req
+{
+    { NAME = "XPP:ROB" }
+}
+

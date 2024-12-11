@@ -1,0 +1,20 @@
+file archive_iocAdmin.tpl-arch
+{
+	{
+		IOC = XPP:R35:IOC:43:LPW:02,
+	}
+}
+
+file archive_SR.tpl-arch
+{
+	{
+		IOC = XPP:R35:IOC:43:LPW:02,
+	}
+}
+
+file archive_labMax-Top.tpl-arch
+{
+	{
+		P = XPP:USR:LPW:01,
+	}
+}

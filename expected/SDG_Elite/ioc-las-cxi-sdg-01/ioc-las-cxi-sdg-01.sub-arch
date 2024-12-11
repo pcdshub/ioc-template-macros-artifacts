@@ -1,0 +1,27 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:LAS:CXI:SDG:01" }
+}
+
+file archive_SR.tpl-arch
+{
+        {
+                IOC = "IOC:LAS:CXI:SDG:01" 
+#how to define IOC?
+        }
+
+}
+
+
+
+#
+file sdg.tpl-arch 
+#sdg.archive
+{
+    { IOC = "IOC:LAS:CXI:SDG:01", BASE  = "LAS:CXI:SDG:01" }
+}
+#

@@ -1,0 +1,44 @@
+#
+# gigECam Archive file for $$IOCNAME
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file ADBase.tpl-arch
+{
+    {   P = "$$CAM",	R = ":" 	}
+}
+
+file prosilica.tpl-arch
+{
+    {   P = "$$CAM",	R = ":" 	}
+}
+
+# Bring in the pcds plugin archive pv's
+file pcdsPlugins.archive
+{
+    {   CAM = "$$CAM"	}
+}
+
+#file cross.tpl-arch
+#{
+#    {   P = "$$CAM",	R = ":" 	}
+#}
+
+$$LOOP(EVR)
+# Generate one set for each EVR
+file archive_pmc_evr.tpl-arch
+{
+	{	EVR = "$$EVR_PV"	}
+}
+$$ENDLOOP(EVR)
+

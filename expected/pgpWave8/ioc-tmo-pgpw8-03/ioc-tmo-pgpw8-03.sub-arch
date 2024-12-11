@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "HSDK4:W8:IOC:01", PREFIX = "HSDK4:W8:01" }
+}
+

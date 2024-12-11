@@ -1,0 +1,15 @@
+# evg IOC instance autosave file
+
+file evg-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file evg.req
+{
+	pattern
+	{ BASE }
+$$LOOP(EVG)
+	{ "$$BASE" }
+$$ENDLOOP(EVG)
+}

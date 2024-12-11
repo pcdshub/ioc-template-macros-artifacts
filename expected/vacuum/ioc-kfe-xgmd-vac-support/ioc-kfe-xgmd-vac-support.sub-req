@@ -1,0 +1,26 @@
+# vacuum IOC instance autosave file
+
+file vacuum-ioc.req
+{
+	{ IOC = "IOC:KFE:XGMD:VAC:SUPPORT" }
+}
+
+
+	
+		
+		
+		
+		
+			file autosave_937b_pr.tpl-req
+	{
+		{ device = "EM2K0:XGMD:GPI:10" }
+	}
+		
+		
+		
+		
+			file autosave_937b_pr.tpl-req
+	{
+		{ device = "EM2K0:XGMD:GPI:50" }
+	}
+	

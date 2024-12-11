@@ -1,0 +1,21 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "EM2K0:XGMD:SHV:01:IOC"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "EM2K0:XGMD:SHV:01:IOC"	}
+}
+
+file iseg_16Ch.archive
+{
+	{
+		P			= "EM2K0:XGMD:SHV:01",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "EM2K0:XGMD:SHV:01"
+	}
+}

@@ -1,0 +1,9 @@
+# menhir IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file menhir-ioc.req
+{
+	pattern
+	{ IOC,     BASE  }
+	{IOC:MENHIR:TST:01, MENHIR:TST:01}
+}

@@ -1,0 +1,39 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "TST:MPOD:IOC"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "TST:MPOD:IOC"	}
+}
+
+file iseg_16Ch.archive
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "TST:MPOD:01"
+	}
+}
+file iseg_8Ch.archive
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "TST:MPOD:01"
+	}
+}
+file iseg_8Ch.archive
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "2",
+		DEV			= "TST:MPOD:01"
+	}
+}

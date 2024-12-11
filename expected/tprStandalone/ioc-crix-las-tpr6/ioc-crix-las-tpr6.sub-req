@@ -1,0 +1,8 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "CRIX:IOC:LAS:TPR:06" }
+}
+

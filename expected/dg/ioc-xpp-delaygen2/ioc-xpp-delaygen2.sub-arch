@@ -1,0 +1,10 @@
+# IOC archive file
+## Replace CXI:MOB:IOC:DDG with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_delaygen.archive
+{
+	{ IOC = "XPP:IOC:DDG:02", DG = "XPP:DDG:02" }
+}
+

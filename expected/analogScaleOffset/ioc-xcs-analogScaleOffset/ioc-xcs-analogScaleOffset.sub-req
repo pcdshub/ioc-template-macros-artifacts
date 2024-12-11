@@ -1,0 +1,37 @@
+# IOC autosave file
+
+#Generate autosave request for ioc-XCS-analogScaleOffset.req
+file analogScaleOffset-ioc.req
+{
+    { IOC = "XCS:USER:REGULATOR" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:REG", NUM = "01" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:REG", NUM = "02" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:OXY", NUM = "01" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:PTD", NUM = "02" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:PTD", NUM = "01" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XCS:USR:PTD", NUM = "03" }
+}

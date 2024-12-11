@@ -1,0 +1,14 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:TST:GSD:01" }
+}
+
+
+file rssmb100x.req
+{
+    { BASE = "TST:GSD:01" }
+}

@@ -1,0 +1,126 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:LAS:OPCPA:QMINI:01:APP_DIR 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:APP_DIR1 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:APP_DIR2 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:CA_CLNT_CNT 1 monitor 
+IOC:LAS:OPCPA:QMINI:01:CA_CONN_CNT 1 monitor 
+IOC:LAS:OPCPA:QMINI:01:EPICS_VERS 30 monitor
+IOC:LAS:OPCPA:QMINI:01:FD_CNT 1 monitor 
+IOC:LAS:OPCPA:QMINI:01:FD_FREE 1 monitor 
+IOC:LAS:OPCPA:QMINI:01:FD_MAX 1 monitor 
+IOC:LAS:OPCPA:QMINI:01:HOSTNAME 30 monitor
+IOC:LAS:OPCPA:QMINI:01:KERNEL_VERS 30 monitor
+IOC:LAS:OPCPA:QMINI:01:RECORD_CNT 10 monitor
+IOC:LAS:OPCPA:QMINI:01:START_CNT 30 monitor
+IOC:LAS:OPCPA:QMINI:01:STARTTOD 30 monitor
+IOC:LAS:OPCPA:QMINI:01:ST_SCRIPT 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:ST_SCRIPT1 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:ST_SCRIPT2 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:SUSP_TASK_CNT 30 monitor 
+IOC:LAS:OPCPA:QMINI:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:LAS:OPCPA:QMINI:01:SYS_CPU_LOAD 10
+IOC:LAS:OPCPA:QMINI:01:LOAD 10 
+IOC:LAS:OPCPA:QMINI:01:MEM_BLK_FREE 10 
+IOC:LAS:OPCPA:QMINI:01:MEM_FREE 10 
+IOC:LAS:OPCPA:QMINI:01:MEM_USED 10 
+IOC:LAS:OPCPA:QMINI:01:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:LAS:OPCPA:QMINI:01:SR_rebootStatus			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_rebootStatusStr		1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_statusStr				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_0_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_0_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_1_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_1_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_2_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_2_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_3_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_3_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_4_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_4_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_5_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_5_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_6_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_6_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_7_Status				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_7_StatusStr			1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_0_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_1_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_2_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_3_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_4_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_5_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_6_State				1 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:LAS:OPCPA:QMINI:01:SR_recentlyStr			30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_rebootTime			30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_0_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_1_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_2_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_3_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_4_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_5_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_6_Name				30 monitor
+IOC:LAS:OPCPA:QMINI:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:LAS:OPCPA:QMINI:01:SR_heartbeat				30
+IOC:LAS:OPCPA:QMINI:01:SR_0_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_1_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_2_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_3_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_4_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_5_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_6_Time				30
+IOC:LAS:OPCPA:QMINI:01:SR_7_Time				30
+
+# Archive list for Qseries spectrometers
+LAS:OPCPA:QMINI:01:START_EXPOSURE.SCAN       10   monitor
+LAS:OPCPA:QMINI:01:ADJUST_OFFSET             10   monitor
+LAS:OPCPA:QMINI:01:CORRECT_NONLINEARITY      10   monitor
+LAS:OPCPA:QMINI:01:REMOVE_BAD_PIXELS         10   monitor
+LAS:OPCPA:QMINI:01:SUBTRACT_DARK             10   monitor
+LAS:OPCPA:QMINI:01:REMOVE_TEMP_BAD_PIXELS    10   monitor
+LAS:OPCPA:QMINI:01:NORMALIZE_EXPOSURE        10   monitor
+LAS:OPCPA:QMINI:01:SENSITIVITY_CAL           10   monitor
+LAS:OPCPA:QMINI:01:CORRECT_PRNU              10   monitor
+LAS:OPCPA:QMINI:01:ADDITIONAL_FILTERING      10   monitor
+LAS:OPCPA:QMINI:01:SCALE_TO_16BIT            10   monitor
+LAS:OPCPA:QMINI:01:TRIG_MODE                 10   monitor
+LAS:OPCPA:QMINI:01:SET_TRIG_PIN              10   monitor
+LAS:OPCPA:QMINI:01:SET_TRIG_EDGE             10   monitor
+LAS:OPCPA:QMINI:01:PROCESSING_STEPS          10   monitor
+LAS:OPCPA:QMINI:01:SET_EXPOSURE_TIME         10   monitor
+LAS:OPCPA:QMINI:01:SET_TRIG_MODE             10   monitor
+LAS:OPCPA:QMINI:01:SET_TRIG_DELAY            10   monitor
+LAS:OPCPA:QMINI:01:SET_IO_CONFIG             10   monitor
+LAS:OPCPA:QMINI:01:SET_PROCESSING_STEPS      10   monitor
+LAS:OPCPA:QMINI:01:DESCRIPTION               10   monitor
+LAS:OPCPA:QMINI:01:WIDTH                     10   monitor
+LAS:OPCPA:QMINI:01:W0_GUESS                  10   monitor
+LAS:OPCPA:QMINI:01:FIT_ON                    10   monitor
+LAS:OPCPA:QMINI:01:W0_FIT                    10   monitor
+LAS:OPCPA:QMINI:01:FWHM                      10   monitor
+LAS:OPCPA:QMINI:01:AMPLITUDE                 10   monitor
+LAS:OPCPA:QMINI:01:STDEV                     10   monitor
+LAS:OPCPA:QMINI:01:CHISQ                     10   monitor
+LAS:OPCPA:QMINI:01:WS		60 monitor
+LAS:OPCPA:QMINI:01:WE		60 monitor
+LAS:OPCPA:QMINI:01:WL		60 monitor
+LAS:OPCPA:QMINI:01:WH		60 monitor
+LAS:OPCPA:QMINI:01:CNT_THRESH	60 monitor
+LAS:OPCPA:QMINI:01:WC		10 monitor
+LAS:OPCPA:QMINI:01:COUNTS		10 monitor

@@ -1,0 +1,13 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "XPP:R30:IOC:27:EVR" }
+}
+
+file autosave_evr_SLAC.req
+{
+    { EVR = "XPP:R30:EVR:27" }
+}
+

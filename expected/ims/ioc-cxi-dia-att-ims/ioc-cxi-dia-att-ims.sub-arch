@@ -1,0 +1,126 @@
+# Generate archive request 
+file ims_archive.tpl-arch
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            { CXI:DIA:MMS:01  }
+            
+            { CXI:DIA:MMS:02  }
+            
+            { CXI:DIA:MMS:03  }
+            
+            { CXI:DIA:MMS:04  }
+            
+            { CXI:DIA:MMS:05  }
+            
+            { CXI:DIA:MMS:06  }
+            
+            { CXI:DIA:MMS:07  }
+            
+            { CXI:DIA:MMS:08  }
+            
+            { CXI:DIA:MMS:09  }
+            
+            { CXI:DIA:MMS:10  }
+            
+            { CXI:DIA:MMS:11  }
+            
+            }
+
+file device_with_2states.tpl-arch
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            { CXI:DIA:PPATT:MIRROR,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:20UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:40UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:80UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:10240UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:320UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:640UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:1280UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:2560UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:5120UM,        "IN",   "OUT"  }
+            
+            { CXI:DIA:ATT:160UM,        "IN",   "OUT"  }
+            
+            }
+
+file device_with_3states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-arch
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8   }
+            }
+
+file device_with_9states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-arch
+{
+    pattern { ILK                         }
+            }
+

@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:QRIX:SPD:01" }
+}
+
+file SmarPod.archive
+{
+    { IOC = "IOC:QRIX:SPD:01", BASE  = "QRIX:SPD:01" }
+}

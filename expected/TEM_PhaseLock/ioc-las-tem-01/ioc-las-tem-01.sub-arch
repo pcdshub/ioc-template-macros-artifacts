@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:LAS:TEM:01" }
+}
+
+file TEM_PhaseLock.archive
+{
+    { IOC = "IOC:LAS:TEM:01", BASE  = "LAS:TEM:01" }
+}

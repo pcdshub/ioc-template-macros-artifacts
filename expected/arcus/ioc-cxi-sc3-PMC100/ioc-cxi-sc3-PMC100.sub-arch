@@ -1,0 +1,14 @@
+# Generate archive request 
+file arcus_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            
+            { CXI:SC3:MZM:01 }
+            
+            { CXI:SC3:MZM:02 }
+            
+            { CXI:SC3:MZM:03 }
+            
+            { CXI:SC3:MZM:04 }
+            }
+

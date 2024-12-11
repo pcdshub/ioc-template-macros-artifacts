@@ -1,0 +1,472 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:NEVT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:RUNNO    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:BEGIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:END    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:WAIT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:DCONNECT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CONNECT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CONF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:EXP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:COLLDONE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:MCC:EPHOT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:FS5:T0_SHIFTER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:T0_MONITOR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_PULSE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_LEAK    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:TIME_DELAY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:FS5_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:FS5_MAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:EVR0_OSC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:EVR0_GATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:SDG0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_PULSE2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_LEAK2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:VIT:T0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:VIT:TD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LXT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USER:LXTTC    }
+}
+

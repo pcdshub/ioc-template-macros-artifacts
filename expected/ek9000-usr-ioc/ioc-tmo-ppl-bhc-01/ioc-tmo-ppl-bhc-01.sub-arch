@@ -1,0 +1,204 @@
+
+# This is the archiver file for the IOC
+
+# Example of what's in the config cmd
+#
+# EK9000(NAME=ek9k1,IP=192.168.1.3,PORT=502,SLAVES=4)
+# TERMINAL(EK9000=ek9k1,=TestTerm1-BI,TYPE=EL1004,SLAVE=4,CHANNELS=4) # 4 channels on this device
+# ALIAS(RECORD=TestTerm1-BI,ALIAS=cheese)
+#
+# IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+        { IOC = IOC:TMO:USR:BHC:01 }
+}
+
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:TC:1 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:TC:2 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:TC:3 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:TC:4 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:1 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:2 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:3 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:4 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:5 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:6 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:7 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:8 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:9 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:10 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:11 }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AIN:12 }
+}
+
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:1 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:2 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:3 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:4 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:5 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:6 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:7 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:8 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:9 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:10 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:11 }
+}
+file terminal_ao.tpl-arch
+{
+	{ REC=TMO:USR:BHC:AOUT:12 }
+}
+
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:1 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:2 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:3 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:4 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:5 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:6 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:7 }
+}
+file terminal_bi.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BIN:8 }
+}
+
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:1 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:2 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:3 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:4 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:5 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:6 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:7 }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TMO:USR:BHC:BOUT:8 }
+}
+
+
+
+
+
+
+
+
+
+

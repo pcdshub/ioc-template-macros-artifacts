@@ -1,0 +1,16 @@
+#
+# gigECam Archive file for ioc-sample
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "XXX:IOC:GIGE:2"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "XXX:IOC:GIGE:2"	}
+}
+
+

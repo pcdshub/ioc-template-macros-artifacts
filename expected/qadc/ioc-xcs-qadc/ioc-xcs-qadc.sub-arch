@@ -1,0 +1,10 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+
+file archive_qadc134.archive
+{
+	{ IOC = "IOC:XCS:QADC:01", BASE = "XCS:QADC:01" }
+}

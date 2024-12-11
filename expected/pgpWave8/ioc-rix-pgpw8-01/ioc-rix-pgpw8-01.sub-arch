@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "MR3K2:FIM:W8:IOC:01", PREFIX = "MR3K2:FIM:W8:01" }
+}
+

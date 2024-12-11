@@ -1,0 +1,6 @@
+$$LOOP(ECC)
+file autosave.req
+{
+	{ BASE = $$NAME }
+}
+$$ENDLOOP(ECC)

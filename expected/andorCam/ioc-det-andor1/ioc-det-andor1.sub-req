@@ -1,0 +1,10 @@
+#
+# gigECam Autosave request file for ioc-det-andor1
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "DET:IOC:CAM:ANDOR1" }
+}
+

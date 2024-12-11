@@ -1,0 +1,38 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:MEC:LAS:MCS:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:MEC:LAS:MCS:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{MEC:LAS:MCS:01,  0 }
+	{MEC:LAS:MCS:01,  1 }
+	{MEC:LAS:MCS:01,  2 }
+	{MEC:LAS:MCS:01,  3 }
+	{MEC:LAS:MCS:01,  4 }
+	{MEC:LAS:MCS:01,  5 }
+	{MEC:LAS:MCS:01,  6 }
+	{MEC:LAS:MCS:01,  7 }
+	{MEC:LAS:MCS:01,  8 }
+	{MEC:LAS:MCS:01,  9 }
+	{MEC:LAS:MCS:01,  10 }
+	{MEC:LAS:MCS:01,  11 }
+	{MEC:LAS:MCS:01,  12 }
+	{MEC:LAS:MCS:01,  13 }
+	{MEC:LAS:MCS:01,  14 }
+	{MEC:LAS:MCS:01,  15 }
+	{MEC:LAS:MCS:01,  16 }
+	{MEC:LAS:MCS:01,  17 }
+}
+
+

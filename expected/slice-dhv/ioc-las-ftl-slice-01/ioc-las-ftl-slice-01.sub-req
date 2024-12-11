@@ -1,0 +1,6 @@
+# ell IOC instance autosave file
+
+file slice-ioc.req
+{
+	{ IOC = "IOC:LAS:FTL:SLICE:01", BASE = "LAS:FTL:SLICE:01" }
+}

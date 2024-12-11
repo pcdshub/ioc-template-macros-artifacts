@@ -1,0 +1,29 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:VAC:SUPPORT" }
+}
+
+
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "PC1K1:ZOS:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PC1K1:ZOS:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR1K2:SWITCH:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV1K1:PLEG:PIP:01" }
+}
+
+
+

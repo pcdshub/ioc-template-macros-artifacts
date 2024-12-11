@@ -1,0 +1,10 @@
+# thermocon IOC instance autosave file
+
+file hpm900.req
+{
+	{ IOC = "IOC:TMO:IP1:GC", BASE="TMO:IP1:HAZ" }
+}
+file hpm900.req
+{
+	{ IOC = "IOC:TMO:IP1:GC", BASE="TMO:IP1:NONHAZ" }
+}

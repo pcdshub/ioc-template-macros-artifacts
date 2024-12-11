@@ -1,0 +1,16 @@
+# Generate autosave request 
+file mmc_autosave.tpl-req
+{
+    pattern { CTRL   }
+            { XPP:USR:2AXIS:MMC:01 }
+}
+
+file mmca_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            
+            { XPP:USR:MMC:01 }
+            
+            { XPP:USR:MMC:02 }
+            }
+

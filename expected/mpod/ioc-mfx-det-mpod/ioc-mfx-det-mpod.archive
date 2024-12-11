@@ -1,0 +1,1409 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+MFX:IOC:DET:MPOD:APP_DIR 30 monitor 
+MFX:IOC:DET:MPOD:APP_DIR1 30 monitor 
+MFX:IOC:DET:MPOD:APP_DIR2 30 monitor 
+MFX:IOC:DET:MPOD:CA_CLNT_CNT 1 monitor 
+MFX:IOC:DET:MPOD:CA_CONN_CNT 1 monitor 
+MFX:IOC:DET:MPOD:EPICS_VERS 30 monitor
+MFX:IOC:DET:MPOD:FD_CNT 1 monitor 
+MFX:IOC:DET:MPOD:FD_FREE 1 monitor 
+MFX:IOC:DET:MPOD:FD_MAX 1 monitor 
+MFX:IOC:DET:MPOD:HOSTNAME 30 monitor
+MFX:IOC:DET:MPOD:KERNEL_VERS 30 monitor
+MFX:IOC:DET:MPOD:RECORD_CNT 10 monitor
+MFX:IOC:DET:MPOD:START_CNT 30 monitor
+MFX:IOC:DET:MPOD:STARTTOD 30 monitor
+MFX:IOC:DET:MPOD:ST_SCRIPT 30 monitor 
+MFX:IOC:DET:MPOD:ST_SCRIPT1 30 monitor 
+MFX:IOC:DET:MPOD:ST_SCRIPT2 30 monitor 
+MFX:IOC:DET:MPOD:SUSP_TASK_CNT 30 monitor 
+MFX:IOC:DET:MPOD:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+MFX:IOC:DET:MPOD:SYS_CPU_LOAD 10
+MFX:IOC:DET:MPOD:LOAD 10 
+MFX:IOC:DET:MPOD:MEM_BLK_FREE 10 
+MFX:IOC:DET:MPOD:MEM_FREE 10 
+MFX:IOC:DET:MPOD:MEM_USED 10 
+MFX:IOC:DET:MPOD:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+MFX:IOC:DET:MPOD:SR_rebootStatus			1 monitor
+MFX:IOC:DET:MPOD:SR_status				1 monitor
+MFX:IOC:DET:MPOD:SR_rebootStatusStr		1 monitor
+MFX:IOC:DET:MPOD:SR_statusStr				1 monitor
+MFX:IOC:DET:MPOD:SR_0_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_0_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_1_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_1_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_2_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_2_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_3_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_3_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_4_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_4_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_5_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_5_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_6_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_6_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_7_Status				1 monitor
+MFX:IOC:DET:MPOD:SR_7_StatusStr			1 monitor
+MFX:IOC:DET:MPOD:SR_0_State				1 monitor
+MFX:IOC:DET:MPOD:SR_1_State				1 monitor
+MFX:IOC:DET:MPOD:SR_2_State				1 monitor
+MFX:IOC:DET:MPOD:SR_3_State				1 monitor
+MFX:IOC:DET:MPOD:SR_4_State				1 monitor
+MFX:IOC:DET:MPOD:SR_5_State				1 monitor
+MFX:IOC:DET:MPOD:SR_6_State				1 monitor
+MFX:IOC:DET:MPOD:SR_7_State				1 monitor
+
+# Archive these values only when they change
+MFX:IOC:DET:MPOD:SR_recentlyStr			30 monitor
+MFX:IOC:DET:MPOD:SR_rebootTime			30 monitor
+MFX:IOC:DET:MPOD:SR_0_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_1_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_2_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_3_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_4_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_5_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_6_Name				30 monitor
+MFX:IOC:DET:MPOD:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+MFX:IOC:DET:MPOD:SR_heartbeat				30
+MFX:IOC:DET:MPOD:SR_0_Time				30
+MFX:IOC:DET:MPOD:SR_1_Time				30
+MFX:IOC:DET:MPOD:SR_2_Time				30
+MFX:IOC:DET:MPOD:SR_3_Time				30
+MFX:IOC:DET:MPOD:SR_4_Time				30
+MFX:IOC:DET:MPOD:SR_5_Time				30
+MFX:IOC:DET:MPOD:SR_6_Time				30
+MFX:IOC:DET:MPOD:SR_7_Time				30
+
+# Archive values for mpod channel
+MFX:DET:MPD:CH:000:GetCurrent			1		monitor
+MFX:DET:MPD:CH:000:GetVoltage			1		monitor
+MFX:DET:MPD:CH:000:SetCurrent			1		monitor
+MFX:DET:MPD:CH:000:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:000:SetSwitch			1		monitor
+MFX:DET:MPD:CH:000:SetVoltage			1		monitor
+MFX:DET:MPD:CH:000:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:000:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:000:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:000:GetStatusString		1
+MFX:DET:MPD:CH:000:GetStatusString		1
+MFX:DET:MPD:CH:000:Stat_OnOff			1
+MFX:DET:MPD:CH:000:Stat_Inhibit			1
+MFX:DET:MPD:CH:000:Stat_VSenseLow		1
+MFX:DET:MPD:CH:000:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:000:Stat_VTermHigh		1
+MFX:DET:MPD:CH:000:Stat_CurrHigh			1
+MFX:DET:MPD:CH:000:Stat_TempHigh			1
+MFX:DET:MPD:CH:000:Stat_PowerHigh		1
+MFX:DET:MPD:CH:000:Stat_Bit8			1
+MFX:DET:MPD:CH:000:Stat_CommTimeout		1
+MFX:DET:MPD:CH:000:Stat_CurrLim			1
+MFX:DET:MPD:CH:000:Stat_VRampUp			1
+MFX:DET:MPD:CH:000:Stat_VRampDown		1
+MFX:DET:MPD:CH:000:Stat_EnaKill			1
+MFX:DET:MPD:CH:000:Stat_EmerOff			1
+MFX:DET:MPD:CH:000:Stat_Bit15			1
+MFX:DET:MPD:CH:000:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:000:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:000:GetVoltage.DESC		10
+MFX:DET:MPD:CH:000:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:001:GetCurrent			1		monitor
+MFX:DET:MPD:CH:001:GetVoltage			1		monitor
+MFX:DET:MPD:CH:001:SetCurrent			1		monitor
+MFX:DET:MPD:CH:001:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:001:SetSwitch			1		monitor
+MFX:DET:MPD:CH:001:SetVoltage			1		monitor
+MFX:DET:MPD:CH:001:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:001:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:001:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:001:GetStatusString		1
+MFX:DET:MPD:CH:001:GetStatusString		1
+MFX:DET:MPD:CH:001:Stat_OnOff			1
+MFX:DET:MPD:CH:001:Stat_Inhibit			1
+MFX:DET:MPD:CH:001:Stat_VSenseLow		1
+MFX:DET:MPD:CH:001:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:001:Stat_VTermHigh		1
+MFX:DET:MPD:CH:001:Stat_CurrHigh			1
+MFX:DET:MPD:CH:001:Stat_TempHigh			1
+MFX:DET:MPD:CH:001:Stat_PowerHigh		1
+MFX:DET:MPD:CH:001:Stat_Bit8			1
+MFX:DET:MPD:CH:001:Stat_CommTimeout		1
+MFX:DET:MPD:CH:001:Stat_CurrLim			1
+MFX:DET:MPD:CH:001:Stat_VRampUp			1
+MFX:DET:MPD:CH:001:Stat_VRampDown		1
+MFX:DET:MPD:CH:001:Stat_EnaKill			1
+MFX:DET:MPD:CH:001:Stat_EmerOff			1
+MFX:DET:MPD:CH:001:Stat_Bit15			1
+MFX:DET:MPD:CH:001:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:001:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:001:GetVoltage.DESC		10
+MFX:DET:MPD:CH:001:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:002:GetCurrent			1		monitor
+MFX:DET:MPD:CH:002:GetVoltage			1		monitor
+MFX:DET:MPD:CH:002:SetCurrent			1		monitor
+MFX:DET:MPD:CH:002:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:002:SetSwitch			1		monitor
+MFX:DET:MPD:CH:002:SetVoltage			1		monitor
+MFX:DET:MPD:CH:002:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:002:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:002:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:002:GetStatusString		1
+MFX:DET:MPD:CH:002:GetStatusString		1
+MFX:DET:MPD:CH:002:Stat_OnOff			1
+MFX:DET:MPD:CH:002:Stat_Inhibit			1
+MFX:DET:MPD:CH:002:Stat_VSenseLow		1
+MFX:DET:MPD:CH:002:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:002:Stat_VTermHigh		1
+MFX:DET:MPD:CH:002:Stat_CurrHigh			1
+MFX:DET:MPD:CH:002:Stat_TempHigh			1
+MFX:DET:MPD:CH:002:Stat_PowerHigh		1
+MFX:DET:MPD:CH:002:Stat_Bit8			1
+MFX:DET:MPD:CH:002:Stat_CommTimeout		1
+MFX:DET:MPD:CH:002:Stat_CurrLim			1
+MFX:DET:MPD:CH:002:Stat_VRampUp			1
+MFX:DET:MPD:CH:002:Stat_VRampDown		1
+MFX:DET:MPD:CH:002:Stat_EnaKill			1
+MFX:DET:MPD:CH:002:Stat_EmerOff			1
+MFX:DET:MPD:CH:002:Stat_Bit15			1
+MFX:DET:MPD:CH:002:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:002:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:002:GetVoltage.DESC		10
+MFX:DET:MPD:CH:002:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:003:GetCurrent			1		monitor
+MFX:DET:MPD:CH:003:GetVoltage			1		monitor
+MFX:DET:MPD:CH:003:SetCurrent			1		monitor
+MFX:DET:MPD:CH:003:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:003:SetSwitch			1		monitor
+MFX:DET:MPD:CH:003:SetVoltage			1		monitor
+MFX:DET:MPD:CH:003:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:003:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:003:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:003:GetStatusString		1
+MFX:DET:MPD:CH:003:GetStatusString		1
+MFX:DET:MPD:CH:003:Stat_OnOff			1
+MFX:DET:MPD:CH:003:Stat_Inhibit			1
+MFX:DET:MPD:CH:003:Stat_VSenseLow		1
+MFX:DET:MPD:CH:003:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:003:Stat_VTermHigh		1
+MFX:DET:MPD:CH:003:Stat_CurrHigh			1
+MFX:DET:MPD:CH:003:Stat_TempHigh			1
+MFX:DET:MPD:CH:003:Stat_PowerHigh		1
+MFX:DET:MPD:CH:003:Stat_Bit8			1
+MFX:DET:MPD:CH:003:Stat_CommTimeout		1
+MFX:DET:MPD:CH:003:Stat_CurrLim			1
+MFX:DET:MPD:CH:003:Stat_VRampUp			1
+MFX:DET:MPD:CH:003:Stat_VRampDown		1
+MFX:DET:MPD:CH:003:Stat_EnaKill			1
+MFX:DET:MPD:CH:003:Stat_EmerOff			1
+MFX:DET:MPD:CH:003:Stat_Bit15			1
+MFX:DET:MPD:CH:003:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:003:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:003:GetVoltage.DESC		10
+MFX:DET:MPD:CH:003:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:004:GetCurrent			1		monitor
+MFX:DET:MPD:CH:004:GetVoltage			1		monitor
+MFX:DET:MPD:CH:004:SetCurrent			1		monitor
+MFX:DET:MPD:CH:004:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:004:SetSwitch			1		monitor
+MFX:DET:MPD:CH:004:SetVoltage			1		monitor
+MFX:DET:MPD:CH:004:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:004:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:004:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:004:GetStatusString		1
+MFX:DET:MPD:CH:004:GetStatusString		1
+MFX:DET:MPD:CH:004:Stat_OnOff			1
+MFX:DET:MPD:CH:004:Stat_Inhibit			1
+MFX:DET:MPD:CH:004:Stat_VSenseLow		1
+MFX:DET:MPD:CH:004:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:004:Stat_VTermHigh		1
+MFX:DET:MPD:CH:004:Stat_CurrHigh			1
+MFX:DET:MPD:CH:004:Stat_TempHigh			1
+MFX:DET:MPD:CH:004:Stat_PowerHigh		1
+MFX:DET:MPD:CH:004:Stat_Bit8			1
+MFX:DET:MPD:CH:004:Stat_CommTimeout		1
+MFX:DET:MPD:CH:004:Stat_CurrLim			1
+MFX:DET:MPD:CH:004:Stat_VRampUp			1
+MFX:DET:MPD:CH:004:Stat_VRampDown		1
+MFX:DET:MPD:CH:004:Stat_EnaKill			1
+MFX:DET:MPD:CH:004:Stat_EmerOff			1
+MFX:DET:MPD:CH:004:Stat_Bit15			1
+MFX:DET:MPD:CH:004:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:004:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:004:GetVoltage.DESC		10
+MFX:DET:MPD:CH:004:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:005:GetCurrent			1		monitor
+MFX:DET:MPD:CH:005:GetVoltage			1		monitor
+MFX:DET:MPD:CH:005:SetCurrent			1		monitor
+MFX:DET:MPD:CH:005:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:005:SetSwitch			1		monitor
+MFX:DET:MPD:CH:005:SetVoltage			1		monitor
+MFX:DET:MPD:CH:005:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:005:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:005:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:005:GetStatusString		1
+MFX:DET:MPD:CH:005:GetStatusString		1
+MFX:DET:MPD:CH:005:Stat_OnOff			1
+MFX:DET:MPD:CH:005:Stat_Inhibit			1
+MFX:DET:MPD:CH:005:Stat_VSenseLow		1
+MFX:DET:MPD:CH:005:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:005:Stat_VTermHigh		1
+MFX:DET:MPD:CH:005:Stat_CurrHigh			1
+MFX:DET:MPD:CH:005:Stat_TempHigh			1
+MFX:DET:MPD:CH:005:Stat_PowerHigh		1
+MFX:DET:MPD:CH:005:Stat_Bit8			1
+MFX:DET:MPD:CH:005:Stat_CommTimeout		1
+MFX:DET:MPD:CH:005:Stat_CurrLim			1
+MFX:DET:MPD:CH:005:Stat_VRampUp			1
+MFX:DET:MPD:CH:005:Stat_VRampDown		1
+MFX:DET:MPD:CH:005:Stat_EnaKill			1
+MFX:DET:MPD:CH:005:Stat_EmerOff			1
+MFX:DET:MPD:CH:005:Stat_Bit15			1
+MFX:DET:MPD:CH:005:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:005:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:005:GetVoltage.DESC		10
+MFX:DET:MPD:CH:005:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:006:GetCurrent			1		monitor
+MFX:DET:MPD:CH:006:GetVoltage			1		monitor
+MFX:DET:MPD:CH:006:SetCurrent			1		monitor
+MFX:DET:MPD:CH:006:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:006:SetSwitch			1		monitor
+MFX:DET:MPD:CH:006:SetVoltage			1		monitor
+MFX:DET:MPD:CH:006:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:006:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:006:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:006:GetStatusString		1
+MFX:DET:MPD:CH:006:GetStatusString		1
+MFX:DET:MPD:CH:006:Stat_OnOff			1
+MFX:DET:MPD:CH:006:Stat_Inhibit			1
+MFX:DET:MPD:CH:006:Stat_VSenseLow		1
+MFX:DET:MPD:CH:006:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:006:Stat_VTermHigh		1
+MFX:DET:MPD:CH:006:Stat_CurrHigh			1
+MFX:DET:MPD:CH:006:Stat_TempHigh			1
+MFX:DET:MPD:CH:006:Stat_PowerHigh		1
+MFX:DET:MPD:CH:006:Stat_Bit8			1
+MFX:DET:MPD:CH:006:Stat_CommTimeout		1
+MFX:DET:MPD:CH:006:Stat_CurrLim			1
+MFX:DET:MPD:CH:006:Stat_VRampUp			1
+MFX:DET:MPD:CH:006:Stat_VRampDown		1
+MFX:DET:MPD:CH:006:Stat_EnaKill			1
+MFX:DET:MPD:CH:006:Stat_EmerOff			1
+MFX:DET:MPD:CH:006:Stat_Bit15			1
+MFX:DET:MPD:CH:006:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:006:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:006:GetVoltage.DESC		10
+MFX:DET:MPD:CH:006:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:007:GetCurrent			1		monitor
+MFX:DET:MPD:CH:007:GetVoltage			1		monitor
+MFX:DET:MPD:CH:007:SetCurrent			1		monitor
+MFX:DET:MPD:CH:007:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:007:SetSwitch			1		monitor
+MFX:DET:MPD:CH:007:SetVoltage			1		monitor
+MFX:DET:MPD:CH:007:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:007:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:007:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:007:GetStatusString		1
+MFX:DET:MPD:CH:007:GetStatusString		1
+MFX:DET:MPD:CH:007:Stat_OnOff			1
+MFX:DET:MPD:CH:007:Stat_Inhibit			1
+MFX:DET:MPD:CH:007:Stat_VSenseLow		1
+MFX:DET:MPD:CH:007:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:007:Stat_VTermHigh		1
+MFX:DET:MPD:CH:007:Stat_CurrHigh			1
+MFX:DET:MPD:CH:007:Stat_TempHigh			1
+MFX:DET:MPD:CH:007:Stat_PowerHigh		1
+MFX:DET:MPD:CH:007:Stat_Bit8			1
+MFX:DET:MPD:CH:007:Stat_CommTimeout		1
+MFX:DET:MPD:CH:007:Stat_CurrLim			1
+MFX:DET:MPD:CH:007:Stat_VRampUp			1
+MFX:DET:MPD:CH:007:Stat_VRampDown		1
+MFX:DET:MPD:CH:007:Stat_EnaKill			1
+MFX:DET:MPD:CH:007:Stat_EmerOff			1
+MFX:DET:MPD:CH:007:Stat_Bit15			1
+MFX:DET:MPD:CH:007:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:007:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:007:GetVoltage.DESC		10
+MFX:DET:MPD:CH:007:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:008:GetCurrent			1		monitor
+MFX:DET:MPD:CH:008:GetVoltage			1		monitor
+MFX:DET:MPD:CH:008:SetCurrent			1		monitor
+MFX:DET:MPD:CH:008:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:008:SetSwitch			1		monitor
+MFX:DET:MPD:CH:008:SetVoltage			1		monitor
+MFX:DET:MPD:CH:008:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:008:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:008:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:008:GetStatusString		1
+MFX:DET:MPD:CH:008:GetStatusString		1
+MFX:DET:MPD:CH:008:Stat_OnOff			1
+MFX:DET:MPD:CH:008:Stat_Inhibit			1
+MFX:DET:MPD:CH:008:Stat_VSenseLow		1
+MFX:DET:MPD:CH:008:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:008:Stat_VTermHigh		1
+MFX:DET:MPD:CH:008:Stat_CurrHigh			1
+MFX:DET:MPD:CH:008:Stat_TempHigh			1
+MFX:DET:MPD:CH:008:Stat_PowerHigh		1
+MFX:DET:MPD:CH:008:Stat_Bit8			1
+MFX:DET:MPD:CH:008:Stat_CommTimeout		1
+MFX:DET:MPD:CH:008:Stat_CurrLim			1
+MFX:DET:MPD:CH:008:Stat_VRampUp			1
+MFX:DET:MPD:CH:008:Stat_VRampDown		1
+MFX:DET:MPD:CH:008:Stat_EnaKill			1
+MFX:DET:MPD:CH:008:Stat_EmerOff			1
+MFX:DET:MPD:CH:008:Stat_Bit15			1
+MFX:DET:MPD:CH:008:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:008:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:008:GetVoltage.DESC		10
+MFX:DET:MPD:CH:008:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:009:GetCurrent			1		monitor
+MFX:DET:MPD:CH:009:GetVoltage			1		monitor
+MFX:DET:MPD:CH:009:SetCurrent			1		monitor
+MFX:DET:MPD:CH:009:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:009:SetSwitch			1		monitor
+MFX:DET:MPD:CH:009:SetVoltage			1		monitor
+MFX:DET:MPD:CH:009:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:009:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:009:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:009:GetStatusString		1
+MFX:DET:MPD:CH:009:GetStatusString		1
+MFX:DET:MPD:CH:009:Stat_OnOff			1
+MFX:DET:MPD:CH:009:Stat_Inhibit			1
+MFX:DET:MPD:CH:009:Stat_VSenseLow		1
+MFX:DET:MPD:CH:009:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:009:Stat_VTermHigh		1
+MFX:DET:MPD:CH:009:Stat_CurrHigh			1
+MFX:DET:MPD:CH:009:Stat_TempHigh			1
+MFX:DET:MPD:CH:009:Stat_PowerHigh		1
+MFX:DET:MPD:CH:009:Stat_Bit8			1
+MFX:DET:MPD:CH:009:Stat_CommTimeout		1
+MFX:DET:MPD:CH:009:Stat_CurrLim			1
+MFX:DET:MPD:CH:009:Stat_VRampUp			1
+MFX:DET:MPD:CH:009:Stat_VRampDown		1
+MFX:DET:MPD:CH:009:Stat_EnaKill			1
+MFX:DET:MPD:CH:009:Stat_EmerOff			1
+MFX:DET:MPD:CH:009:Stat_Bit15			1
+MFX:DET:MPD:CH:009:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:009:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:009:GetVoltage.DESC		10
+MFX:DET:MPD:CH:009:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:010:GetCurrent			1		monitor
+MFX:DET:MPD:CH:010:GetVoltage			1		monitor
+MFX:DET:MPD:CH:010:SetCurrent			1		monitor
+MFX:DET:MPD:CH:010:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:010:SetSwitch			1		monitor
+MFX:DET:MPD:CH:010:SetVoltage			1		monitor
+MFX:DET:MPD:CH:010:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:010:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:010:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:010:GetStatusString		1
+MFX:DET:MPD:CH:010:GetStatusString		1
+MFX:DET:MPD:CH:010:Stat_OnOff			1
+MFX:DET:MPD:CH:010:Stat_Inhibit			1
+MFX:DET:MPD:CH:010:Stat_VSenseLow		1
+MFX:DET:MPD:CH:010:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:010:Stat_VTermHigh		1
+MFX:DET:MPD:CH:010:Stat_CurrHigh			1
+MFX:DET:MPD:CH:010:Stat_TempHigh			1
+MFX:DET:MPD:CH:010:Stat_PowerHigh		1
+MFX:DET:MPD:CH:010:Stat_Bit8			1
+MFX:DET:MPD:CH:010:Stat_CommTimeout		1
+MFX:DET:MPD:CH:010:Stat_CurrLim			1
+MFX:DET:MPD:CH:010:Stat_VRampUp			1
+MFX:DET:MPD:CH:010:Stat_VRampDown		1
+MFX:DET:MPD:CH:010:Stat_EnaKill			1
+MFX:DET:MPD:CH:010:Stat_EmerOff			1
+MFX:DET:MPD:CH:010:Stat_Bit15			1
+MFX:DET:MPD:CH:010:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:010:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:010:GetVoltage.DESC		10
+MFX:DET:MPD:CH:010:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:011:GetCurrent			1		monitor
+MFX:DET:MPD:CH:011:GetVoltage			1		monitor
+MFX:DET:MPD:CH:011:SetCurrent			1		monitor
+MFX:DET:MPD:CH:011:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:011:SetSwitch			1		monitor
+MFX:DET:MPD:CH:011:SetVoltage			1		monitor
+MFX:DET:MPD:CH:011:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:011:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:011:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:011:GetStatusString		1
+MFX:DET:MPD:CH:011:GetStatusString		1
+MFX:DET:MPD:CH:011:Stat_OnOff			1
+MFX:DET:MPD:CH:011:Stat_Inhibit			1
+MFX:DET:MPD:CH:011:Stat_VSenseLow		1
+MFX:DET:MPD:CH:011:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:011:Stat_VTermHigh		1
+MFX:DET:MPD:CH:011:Stat_CurrHigh			1
+MFX:DET:MPD:CH:011:Stat_TempHigh			1
+MFX:DET:MPD:CH:011:Stat_PowerHigh		1
+MFX:DET:MPD:CH:011:Stat_Bit8			1
+MFX:DET:MPD:CH:011:Stat_CommTimeout		1
+MFX:DET:MPD:CH:011:Stat_CurrLim			1
+MFX:DET:MPD:CH:011:Stat_VRampUp			1
+MFX:DET:MPD:CH:011:Stat_VRampDown		1
+MFX:DET:MPD:CH:011:Stat_EnaKill			1
+MFX:DET:MPD:CH:011:Stat_EmerOff			1
+MFX:DET:MPD:CH:011:Stat_Bit15			1
+MFX:DET:MPD:CH:011:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:011:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:011:GetVoltage.DESC		10
+MFX:DET:MPD:CH:011:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:012:GetCurrent			1		monitor
+MFX:DET:MPD:CH:012:GetVoltage			1		monitor
+MFX:DET:MPD:CH:012:SetCurrent			1		monitor
+MFX:DET:MPD:CH:012:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:012:SetSwitch			1		monitor
+MFX:DET:MPD:CH:012:SetVoltage			1		monitor
+MFX:DET:MPD:CH:012:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:012:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:012:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:012:GetStatusString		1
+MFX:DET:MPD:CH:012:GetStatusString		1
+MFX:DET:MPD:CH:012:Stat_OnOff			1
+MFX:DET:MPD:CH:012:Stat_Inhibit			1
+MFX:DET:MPD:CH:012:Stat_VSenseLow		1
+MFX:DET:MPD:CH:012:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:012:Stat_VTermHigh		1
+MFX:DET:MPD:CH:012:Stat_CurrHigh			1
+MFX:DET:MPD:CH:012:Stat_TempHigh			1
+MFX:DET:MPD:CH:012:Stat_PowerHigh		1
+MFX:DET:MPD:CH:012:Stat_Bit8			1
+MFX:DET:MPD:CH:012:Stat_CommTimeout		1
+MFX:DET:MPD:CH:012:Stat_CurrLim			1
+MFX:DET:MPD:CH:012:Stat_VRampUp			1
+MFX:DET:MPD:CH:012:Stat_VRampDown		1
+MFX:DET:MPD:CH:012:Stat_EnaKill			1
+MFX:DET:MPD:CH:012:Stat_EmerOff			1
+MFX:DET:MPD:CH:012:Stat_Bit15			1
+MFX:DET:MPD:CH:012:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:012:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:012:GetVoltage.DESC		10
+MFX:DET:MPD:CH:012:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:013:GetCurrent			1		monitor
+MFX:DET:MPD:CH:013:GetVoltage			1		monitor
+MFX:DET:MPD:CH:013:SetCurrent			1		monitor
+MFX:DET:MPD:CH:013:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:013:SetSwitch			1		monitor
+MFX:DET:MPD:CH:013:SetVoltage			1		monitor
+MFX:DET:MPD:CH:013:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:013:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:013:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:013:GetStatusString		1
+MFX:DET:MPD:CH:013:GetStatusString		1
+MFX:DET:MPD:CH:013:Stat_OnOff			1
+MFX:DET:MPD:CH:013:Stat_Inhibit			1
+MFX:DET:MPD:CH:013:Stat_VSenseLow		1
+MFX:DET:MPD:CH:013:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:013:Stat_VTermHigh		1
+MFX:DET:MPD:CH:013:Stat_CurrHigh			1
+MFX:DET:MPD:CH:013:Stat_TempHigh			1
+MFX:DET:MPD:CH:013:Stat_PowerHigh		1
+MFX:DET:MPD:CH:013:Stat_Bit8			1
+MFX:DET:MPD:CH:013:Stat_CommTimeout		1
+MFX:DET:MPD:CH:013:Stat_CurrLim			1
+MFX:DET:MPD:CH:013:Stat_VRampUp			1
+MFX:DET:MPD:CH:013:Stat_VRampDown		1
+MFX:DET:MPD:CH:013:Stat_EnaKill			1
+MFX:DET:MPD:CH:013:Stat_EmerOff			1
+MFX:DET:MPD:CH:013:Stat_Bit15			1
+MFX:DET:MPD:CH:013:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:013:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:013:GetVoltage.DESC		10
+MFX:DET:MPD:CH:013:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:014:GetCurrent			1		monitor
+MFX:DET:MPD:CH:014:GetVoltage			1		monitor
+MFX:DET:MPD:CH:014:SetCurrent			1		monitor
+MFX:DET:MPD:CH:014:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:014:SetSwitch			1		monitor
+MFX:DET:MPD:CH:014:SetVoltage			1		monitor
+MFX:DET:MPD:CH:014:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:014:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:014:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:014:GetStatusString		1
+MFX:DET:MPD:CH:014:GetStatusString		1
+MFX:DET:MPD:CH:014:Stat_OnOff			1
+MFX:DET:MPD:CH:014:Stat_Inhibit			1
+MFX:DET:MPD:CH:014:Stat_VSenseLow		1
+MFX:DET:MPD:CH:014:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:014:Stat_VTermHigh		1
+MFX:DET:MPD:CH:014:Stat_CurrHigh			1
+MFX:DET:MPD:CH:014:Stat_TempHigh			1
+MFX:DET:MPD:CH:014:Stat_PowerHigh		1
+MFX:DET:MPD:CH:014:Stat_Bit8			1
+MFX:DET:MPD:CH:014:Stat_CommTimeout		1
+MFX:DET:MPD:CH:014:Stat_CurrLim			1
+MFX:DET:MPD:CH:014:Stat_VRampUp			1
+MFX:DET:MPD:CH:014:Stat_VRampDown		1
+MFX:DET:MPD:CH:014:Stat_EnaKill			1
+MFX:DET:MPD:CH:014:Stat_EmerOff			1
+MFX:DET:MPD:CH:014:Stat_Bit15			1
+MFX:DET:MPD:CH:014:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:014:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:014:GetVoltage.DESC		10
+MFX:DET:MPD:CH:014:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:015:GetCurrent			1		monitor
+MFX:DET:MPD:CH:015:GetVoltage			1		monitor
+MFX:DET:MPD:CH:015:SetCurrent			1		monitor
+MFX:DET:MPD:CH:015:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:015:SetSwitch			1		monitor
+MFX:DET:MPD:CH:015:SetVoltage			1		monitor
+MFX:DET:MPD:CH:015:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:015:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:015:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:015:GetStatusString		1
+MFX:DET:MPD:CH:015:GetStatusString		1
+MFX:DET:MPD:CH:015:Stat_OnOff			1
+MFX:DET:MPD:CH:015:Stat_Inhibit			1
+MFX:DET:MPD:CH:015:Stat_VSenseLow		1
+MFX:DET:MPD:CH:015:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:015:Stat_VTermHigh		1
+MFX:DET:MPD:CH:015:Stat_CurrHigh			1
+MFX:DET:MPD:CH:015:Stat_TempHigh			1
+MFX:DET:MPD:CH:015:Stat_PowerHigh		1
+MFX:DET:MPD:CH:015:Stat_Bit8			1
+MFX:DET:MPD:CH:015:Stat_CommTimeout		1
+MFX:DET:MPD:CH:015:Stat_CurrLim			1
+MFX:DET:MPD:CH:015:Stat_VRampUp			1
+MFX:DET:MPD:CH:015:Stat_VRampDown		1
+MFX:DET:MPD:CH:015:Stat_EnaKill			1
+MFX:DET:MPD:CH:015:Stat_EmerOff			1
+MFX:DET:MPD:CH:015:Stat_Bit15			1
+MFX:DET:MPD:CH:015:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:015:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:015:GetVoltage.DESC		10
+MFX:DET:MPD:CH:015:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:100:GetCurrent			1		monitor
+MFX:DET:MPD:CH:100:GetVoltage			1		monitor
+MFX:DET:MPD:CH:100:SetCurrent			1		monitor
+MFX:DET:MPD:CH:100:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:100:SetSwitch			1		monitor
+MFX:DET:MPD:CH:100:SetVoltage			1		monitor
+MFX:DET:MPD:CH:100:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:100:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:100:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:100:GetStatusString		1
+MFX:DET:MPD:CH:100:GetStatusString		1
+MFX:DET:MPD:CH:100:Stat_OnOff			1
+MFX:DET:MPD:CH:100:Stat_Inhibit			1
+MFX:DET:MPD:CH:100:Stat_VSenseLow		1
+MFX:DET:MPD:CH:100:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:100:Stat_VTermHigh		1
+MFX:DET:MPD:CH:100:Stat_CurrHigh			1
+MFX:DET:MPD:CH:100:Stat_TempHigh			1
+MFX:DET:MPD:CH:100:Stat_PowerHigh		1
+MFX:DET:MPD:CH:100:Stat_Bit8			1
+MFX:DET:MPD:CH:100:Stat_CommTimeout		1
+MFX:DET:MPD:CH:100:Stat_CurrLim			1
+MFX:DET:MPD:CH:100:Stat_VRampUp			1
+MFX:DET:MPD:CH:100:Stat_VRampDown		1
+MFX:DET:MPD:CH:100:Stat_EnaKill			1
+MFX:DET:MPD:CH:100:Stat_EmerOff			1
+MFX:DET:MPD:CH:100:Stat_Bit15			1
+MFX:DET:MPD:CH:100:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:100:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:100:GetVoltage.DESC		10
+MFX:DET:MPD:CH:100:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:101:GetCurrent			1		monitor
+MFX:DET:MPD:CH:101:GetVoltage			1		monitor
+MFX:DET:MPD:CH:101:SetCurrent			1		monitor
+MFX:DET:MPD:CH:101:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:101:SetSwitch			1		monitor
+MFX:DET:MPD:CH:101:SetVoltage			1		monitor
+MFX:DET:MPD:CH:101:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:101:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:101:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:101:GetStatusString		1
+MFX:DET:MPD:CH:101:GetStatusString		1
+MFX:DET:MPD:CH:101:Stat_OnOff			1
+MFX:DET:MPD:CH:101:Stat_Inhibit			1
+MFX:DET:MPD:CH:101:Stat_VSenseLow		1
+MFX:DET:MPD:CH:101:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:101:Stat_VTermHigh		1
+MFX:DET:MPD:CH:101:Stat_CurrHigh			1
+MFX:DET:MPD:CH:101:Stat_TempHigh			1
+MFX:DET:MPD:CH:101:Stat_PowerHigh		1
+MFX:DET:MPD:CH:101:Stat_Bit8			1
+MFX:DET:MPD:CH:101:Stat_CommTimeout		1
+MFX:DET:MPD:CH:101:Stat_CurrLim			1
+MFX:DET:MPD:CH:101:Stat_VRampUp			1
+MFX:DET:MPD:CH:101:Stat_VRampDown		1
+MFX:DET:MPD:CH:101:Stat_EnaKill			1
+MFX:DET:MPD:CH:101:Stat_EmerOff			1
+MFX:DET:MPD:CH:101:Stat_Bit15			1
+MFX:DET:MPD:CH:101:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:101:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:101:GetVoltage.DESC		10
+MFX:DET:MPD:CH:101:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:102:GetCurrent			1		monitor
+MFX:DET:MPD:CH:102:GetVoltage			1		monitor
+MFX:DET:MPD:CH:102:SetCurrent			1		monitor
+MFX:DET:MPD:CH:102:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:102:SetSwitch			1		monitor
+MFX:DET:MPD:CH:102:SetVoltage			1		monitor
+MFX:DET:MPD:CH:102:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:102:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:102:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:102:GetStatusString		1
+MFX:DET:MPD:CH:102:GetStatusString		1
+MFX:DET:MPD:CH:102:Stat_OnOff			1
+MFX:DET:MPD:CH:102:Stat_Inhibit			1
+MFX:DET:MPD:CH:102:Stat_VSenseLow		1
+MFX:DET:MPD:CH:102:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:102:Stat_VTermHigh		1
+MFX:DET:MPD:CH:102:Stat_CurrHigh			1
+MFX:DET:MPD:CH:102:Stat_TempHigh			1
+MFX:DET:MPD:CH:102:Stat_PowerHigh		1
+MFX:DET:MPD:CH:102:Stat_Bit8			1
+MFX:DET:MPD:CH:102:Stat_CommTimeout		1
+MFX:DET:MPD:CH:102:Stat_CurrLim			1
+MFX:DET:MPD:CH:102:Stat_VRampUp			1
+MFX:DET:MPD:CH:102:Stat_VRampDown		1
+MFX:DET:MPD:CH:102:Stat_EnaKill			1
+MFX:DET:MPD:CH:102:Stat_EmerOff			1
+MFX:DET:MPD:CH:102:Stat_Bit15			1
+MFX:DET:MPD:CH:102:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:102:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:102:GetVoltage.DESC		10
+MFX:DET:MPD:CH:102:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:103:GetCurrent			1		monitor
+MFX:DET:MPD:CH:103:GetVoltage			1		monitor
+MFX:DET:MPD:CH:103:SetCurrent			1		monitor
+MFX:DET:MPD:CH:103:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:103:SetSwitch			1		monitor
+MFX:DET:MPD:CH:103:SetVoltage			1		monitor
+MFX:DET:MPD:CH:103:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:103:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:103:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:103:GetStatusString		1
+MFX:DET:MPD:CH:103:GetStatusString		1
+MFX:DET:MPD:CH:103:Stat_OnOff			1
+MFX:DET:MPD:CH:103:Stat_Inhibit			1
+MFX:DET:MPD:CH:103:Stat_VSenseLow		1
+MFX:DET:MPD:CH:103:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:103:Stat_VTermHigh		1
+MFX:DET:MPD:CH:103:Stat_CurrHigh			1
+MFX:DET:MPD:CH:103:Stat_TempHigh			1
+MFX:DET:MPD:CH:103:Stat_PowerHigh		1
+MFX:DET:MPD:CH:103:Stat_Bit8			1
+MFX:DET:MPD:CH:103:Stat_CommTimeout		1
+MFX:DET:MPD:CH:103:Stat_CurrLim			1
+MFX:DET:MPD:CH:103:Stat_VRampUp			1
+MFX:DET:MPD:CH:103:Stat_VRampDown		1
+MFX:DET:MPD:CH:103:Stat_EnaKill			1
+MFX:DET:MPD:CH:103:Stat_EmerOff			1
+MFX:DET:MPD:CH:103:Stat_Bit15			1
+MFX:DET:MPD:CH:103:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:103:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:103:GetVoltage.DESC		10
+MFX:DET:MPD:CH:103:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:104:GetCurrent			1		monitor
+MFX:DET:MPD:CH:104:GetVoltage			1		monitor
+MFX:DET:MPD:CH:104:SetCurrent			1		monitor
+MFX:DET:MPD:CH:104:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:104:SetSwitch			1		monitor
+MFX:DET:MPD:CH:104:SetVoltage			1		monitor
+MFX:DET:MPD:CH:104:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:104:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:104:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:104:GetStatusString		1
+MFX:DET:MPD:CH:104:GetStatusString		1
+MFX:DET:MPD:CH:104:Stat_OnOff			1
+MFX:DET:MPD:CH:104:Stat_Inhibit			1
+MFX:DET:MPD:CH:104:Stat_VSenseLow		1
+MFX:DET:MPD:CH:104:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:104:Stat_VTermHigh		1
+MFX:DET:MPD:CH:104:Stat_CurrHigh			1
+MFX:DET:MPD:CH:104:Stat_TempHigh			1
+MFX:DET:MPD:CH:104:Stat_PowerHigh		1
+MFX:DET:MPD:CH:104:Stat_Bit8			1
+MFX:DET:MPD:CH:104:Stat_CommTimeout		1
+MFX:DET:MPD:CH:104:Stat_CurrLim			1
+MFX:DET:MPD:CH:104:Stat_VRampUp			1
+MFX:DET:MPD:CH:104:Stat_VRampDown		1
+MFX:DET:MPD:CH:104:Stat_EnaKill			1
+MFX:DET:MPD:CH:104:Stat_EmerOff			1
+MFX:DET:MPD:CH:104:Stat_Bit15			1
+MFX:DET:MPD:CH:104:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:104:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:104:GetVoltage.DESC		10
+MFX:DET:MPD:CH:104:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:105:GetCurrent			1		monitor
+MFX:DET:MPD:CH:105:GetVoltage			1		monitor
+MFX:DET:MPD:CH:105:SetCurrent			1		monitor
+MFX:DET:MPD:CH:105:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:105:SetSwitch			1		monitor
+MFX:DET:MPD:CH:105:SetVoltage			1		monitor
+MFX:DET:MPD:CH:105:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:105:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:105:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:105:GetStatusString		1
+MFX:DET:MPD:CH:105:GetStatusString		1
+MFX:DET:MPD:CH:105:Stat_OnOff			1
+MFX:DET:MPD:CH:105:Stat_Inhibit			1
+MFX:DET:MPD:CH:105:Stat_VSenseLow		1
+MFX:DET:MPD:CH:105:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:105:Stat_VTermHigh		1
+MFX:DET:MPD:CH:105:Stat_CurrHigh			1
+MFX:DET:MPD:CH:105:Stat_TempHigh			1
+MFX:DET:MPD:CH:105:Stat_PowerHigh		1
+MFX:DET:MPD:CH:105:Stat_Bit8			1
+MFX:DET:MPD:CH:105:Stat_CommTimeout		1
+MFX:DET:MPD:CH:105:Stat_CurrLim			1
+MFX:DET:MPD:CH:105:Stat_VRampUp			1
+MFX:DET:MPD:CH:105:Stat_VRampDown		1
+MFX:DET:MPD:CH:105:Stat_EnaKill			1
+MFX:DET:MPD:CH:105:Stat_EmerOff			1
+MFX:DET:MPD:CH:105:Stat_Bit15			1
+MFX:DET:MPD:CH:105:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:105:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:105:GetVoltage.DESC		10
+MFX:DET:MPD:CH:105:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:106:GetCurrent			1		monitor
+MFX:DET:MPD:CH:106:GetVoltage			1		monitor
+MFX:DET:MPD:CH:106:SetCurrent			1		monitor
+MFX:DET:MPD:CH:106:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:106:SetSwitch			1		monitor
+MFX:DET:MPD:CH:106:SetVoltage			1		monitor
+MFX:DET:MPD:CH:106:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:106:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:106:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:106:GetStatusString		1
+MFX:DET:MPD:CH:106:GetStatusString		1
+MFX:DET:MPD:CH:106:Stat_OnOff			1
+MFX:DET:MPD:CH:106:Stat_Inhibit			1
+MFX:DET:MPD:CH:106:Stat_VSenseLow		1
+MFX:DET:MPD:CH:106:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:106:Stat_VTermHigh		1
+MFX:DET:MPD:CH:106:Stat_CurrHigh			1
+MFX:DET:MPD:CH:106:Stat_TempHigh			1
+MFX:DET:MPD:CH:106:Stat_PowerHigh		1
+MFX:DET:MPD:CH:106:Stat_Bit8			1
+MFX:DET:MPD:CH:106:Stat_CommTimeout		1
+MFX:DET:MPD:CH:106:Stat_CurrLim			1
+MFX:DET:MPD:CH:106:Stat_VRampUp			1
+MFX:DET:MPD:CH:106:Stat_VRampDown		1
+MFX:DET:MPD:CH:106:Stat_EnaKill			1
+MFX:DET:MPD:CH:106:Stat_EmerOff			1
+MFX:DET:MPD:CH:106:Stat_Bit15			1
+MFX:DET:MPD:CH:106:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:106:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:106:GetVoltage.DESC		10
+MFX:DET:MPD:CH:106:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:107:GetCurrent			1		monitor
+MFX:DET:MPD:CH:107:GetVoltage			1		monitor
+MFX:DET:MPD:CH:107:SetCurrent			1		monitor
+MFX:DET:MPD:CH:107:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:107:SetSwitch			1		monitor
+MFX:DET:MPD:CH:107:SetVoltage			1		monitor
+MFX:DET:MPD:CH:107:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:107:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:107:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:107:GetStatusString		1
+MFX:DET:MPD:CH:107:GetStatusString		1
+MFX:DET:MPD:CH:107:Stat_OnOff			1
+MFX:DET:MPD:CH:107:Stat_Inhibit			1
+MFX:DET:MPD:CH:107:Stat_VSenseLow		1
+MFX:DET:MPD:CH:107:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:107:Stat_VTermHigh		1
+MFX:DET:MPD:CH:107:Stat_CurrHigh			1
+MFX:DET:MPD:CH:107:Stat_TempHigh			1
+MFX:DET:MPD:CH:107:Stat_PowerHigh		1
+MFX:DET:MPD:CH:107:Stat_Bit8			1
+MFX:DET:MPD:CH:107:Stat_CommTimeout		1
+MFX:DET:MPD:CH:107:Stat_CurrLim			1
+MFX:DET:MPD:CH:107:Stat_VRampUp			1
+MFX:DET:MPD:CH:107:Stat_VRampDown		1
+MFX:DET:MPD:CH:107:Stat_EnaKill			1
+MFX:DET:MPD:CH:107:Stat_EmerOff			1
+MFX:DET:MPD:CH:107:Stat_Bit15			1
+MFX:DET:MPD:CH:107:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:107:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:107:GetVoltage.DESC		10
+MFX:DET:MPD:CH:107:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:200:GetCurrent			1		monitor
+MFX:DET:MPD:CH:200:GetVoltage			1		monitor
+MFX:DET:MPD:CH:200:SetCurrent			1		monitor
+MFX:DET:MPD:CH:200:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:200:SetSwitch			1		monitor
+MFX:DET:MPD:CH:200:SetVoltage			1		monitor
+MFX:DET:MPD:CH:200:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:200:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:200:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:200:GetStatusString		1
+MFX:DET:MPD:CH:200:GetStatusString		1
+MFX:DET:MPD:CH:200:Stat_OnOff			1
+MFX:DET:MPD:CH:200:Stat_Inhibit			1
+MFX:DET:MPD:CH:200:Stat_VSenseLow		1
+MFX:DET:MPD:CH:200:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:200:Stat_VTermHigh		1
+MFX:DET:MPD:CH:200:Stat_CurrHigh			1
+MFX:DET:MPD:CH:200:Stat_TempHigh			1
+MFX:DET:MPD:CH:200:Stat_PowerHigh		1
+MFX:DET:MPD:CH:200:Stat_Bit8			1
+MFX:DET:MPD:CH:200:Stat_CommTimeout		1
+MFX:DET:MPD:CH:200:Stat_CurrLim			1
+MFX:DET:MPD:CH:200:Stat_VRampUp			1
+MFX:DET:MPD:CH:200:Stat_VRampDown		1
+MFX:DET:MPD:CH:200:Stat_EnaKill			1
+MFX:DET:MPD:CH:200:Stat_EmerOff			1
+MFX:DET:MPD:CH:200:Stat_Bit15			1
+MFX:DET:MPD:CH:200:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:200:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:200:GetVoltage.DESC		10
+MFX:DET:MPD:CH:200:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:201:GetCurrent			1		monitor
+MFX:DET:MPD:CH:201:GetVoltage			1		monitor
+MFX:DET:MPD:CH:201:SetCurrent			1		monitor
+MFX:DET:MPD:CH:201:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:201:SetSwitch			1		monitor
+MFX:DET:MPD:CH:201:SetVoltage			1		monitor
+MFX:DET:MPD:CH:201:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:201:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:201:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:201:GetStatusString		1
+MFX:DET:MPD:CH:201:GetStatusString		1
+MFX:DET:MPD:CH:201:Stat_OnOff			1
+MFX:DET:MPD:CH:201:Stat_Inhibit			1
+MFX:DET:MPD:CH:201:Stat_VSenseLow		1
+MFX:DET:MPD:CH:201:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:201:Stat_VTermHigh		1
+MFX:DET:MPD:CH:201:Stat_CurrHigh			1
+MFX:DET:MPD:CH:201:Stat_TempHigh			1
+MFX:DET:MPD:CH:201:Stat_PowerHigh		1
+MFX:DET:MPD:CH:201:Stat_Bit8			1
+MFX:DET:MPD:CH:201:Stat_CommTimeout		1
+MFX:DET:MPD:CH:201:Stat_CurrLim			1
+MFX:DET:MPD:CH:201:Stat_VRampUp			1
+MFX:DET:MPD:CH:201:Stat_VRampDown		1
+MFX:DET:MPD:CH:201:Stat_EnaKill			1
+MFX:DET:MPD:CH:201:Stat_EmerOff			1
+MFX:DET:MPD:CH:201:Stat_Bit15			1
+MFX:DET:MPD:CH:201:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:201:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:201:GetVoltage.DESC		10
+MFX:DET:MPD:CH:201:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:202:GetCurrent			1		monitor
+MFX:DET:MPD:CH:202:GetVoltage			1		monitor
+MFX:DET:MPD:CH:202:SetCurrent			1		monitor
+MFX:DET:MPD:CH:202:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:202:SetSwitch			1		monitor
+MFX:DET:MPD:CH:202:SetVoltage			1		monitor
+MFX:DET:MPD:CH:202:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:202:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:202:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:202:GetStatusString		1
+MFX:DET:MPD:CH:202:GetStatusString		1
+MFX:DET:MPD:CH:202:Stat_OnOff			1
+MFX:DET:MPD:CH:202:Stat_Inhibit			1
+MFX:DET:MPD:CH:202:Stat_VSenseLow		1
+MFX:DET:MPD:CH:202:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:202:Stat_VTermHigh		1
+MFX:DET:MPD:CH:202:Stat_CurrHigh			1
+MFX:DET:MPD:CH:202:Stat_TempHigh			1
+MFX:DET:MPD:CH:202:Stat_PowerHigh		1
+MFX:DET:MPD:CH:202:Stat_Bit8			1
+MFX:DET:MPD:CH:202:Stat_CommTimeout		1
+MFX:DET:MPD:CH:202:Stat_CurrLim			1
+MFX:DET:MPD:CH:202:Stat_VRampUp			1
+MFX:DET:MPD:CH:202:Stat_VRampDown		1
+MFX:DET:MPD:CH:202:Stat_EnaKill			1
+MFX:DET:MPD:CH:202:Stat_EmerOff			1
+MFX:DET:MPD:CH:202:Stat_Bit15			1
+MFX:DET:MPD:CH:202:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:202:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:202:GetVoltage.DESC		10
+MFX:DET:MPD:CH:202:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:203:GetCurrent			1		monitor
+MFX:DET:MPD:CH:203:GetVoltage			1		monitor
+MFX:DET:MPD:CH:203:SetCurrent			1		monitor
+MFX:DET:MPD:CH:203:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:203:SetSwitch			1		monitor
+MFX:DET:MPD:CH:203:SetVoltage			1		monitor
+MFX:DET:MPD:CH:203:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:203:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:203:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:203:GetStatusString		1
+MFX:DET:MPD:CH:203:GetStatusString		1
+MFX:DET:MPD:CH:203:Stat_OnOff			1
+MFX:DET:MPD:CH:203:Stat_Inhibit			1
+MFX:DET:MPD:CH:203:Stat_VSenseLow		1
+MFX:DET:MPD:CH:203:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:203:Stat_VTermHigh		1
+MFX:DET:MPD:CH:203:Stat_CurrHigh			1
+MFX:DET:MPD:CH:203:Stat_TempHigh			1
+MFX:DET:MPD:CH:203:Stat_PowerHigh		1
+MFX:DET:MPD:CH:203:Stat_Bit8			1
+MFX:DET:MPD:CH:203:Stat_CommTimeout		1
+MFX:DET:MPD:CH:203:Stat_CurrLim			1
+MFX:DET:MPD:CH:203:Stat_VRampUp			1
+MFX:DET:MPD:CH:203:Stat_VRampDown		1
+MFX:DET:MPD:CH:203:Stat_EnaKill			1
+MFX:DET:MPD:CH:203:Stat_EmerOff			1
+MFX:DET:MPD:CH:203:Stat_Bit15			1
+MFX:DET:MPD:CH:203:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:203:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:203:GetVoltage.DESC		10
+MFX:DET:MPD:CH:203:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:204:GetCurrent			1		monitor
+MFX:DET:MPD:CH:204:GetVoltage			1		monitor
+MFX:DET:MPD:CH:204:SetCurrent			1		monitor
+MFX:DET:MPD:CH:204:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:204:SetSwitch			1		monitor
+MFX:DET:MPD:CH:204:SetVoltage			1		monitor
+MFX:DET:MPD:CH:204:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:204:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:204:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:204:GetStatusString		1
+MFX:DET:MPD:CH:204:GetStatusString		1
+MFX:DET:MPD:CH:204:Stat_OnOff			1
+MFX:DET:MPD:CH:204:Stat_Inhibit			1
+MFX:DET:MPD:CH:204:Stat_VSenseLow		1
+MFX:DET:MPD:CH:204:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:204:Stat_VTermHigh		1
+MFX:DET:MPD:CH:204:Stat_CurrHigh			1
+MFX:DET:MPD:CH:204:Stat_TempHigh			1
+MFX:DET:MPD:CH:204:Stat_PowerHigh		1
+MFX:DET:MPD:CH:204:Stat_Bit8			1
+MFX:DET:MPD:CH:204:Stat_CommTimeout		1
+MFX:DET:MPD:CH:204:Stat_CurrLim			1
+MFX:DET:MPD:CH:204:Stat_VRampUp			1
+MFX:DET:MPD:CH:204:Stat_VRampDown		1
+MFX:DET:MPD:CH:204:Stat_EnaKill			1
+MFX:DET:MPD:CH:204:Stat_EmerOff			1
+MFX:DET:MPD:CH:204:Stat_Bit15			1
+MFX:DET:MPD:CH:204:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:204:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:204:GetVoltage.DESC		10
+MFX:DET:MPD:CH:204:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:205:GetCurrent			1		monitor
+MFX:DET:MPD:CH:205:GetVoltage			1		monitor
+MFX:DET:MPD:CH:205:SetCurrent			1		monitor
+MFX:DET:MPD:CH:205:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:205:SetSwitch			1		monitor
+MFX:DET:MPD:CH:205:SetVoltage			1		monitor
+MFX:DET:MPD:CH:205:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:205:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:205:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:205:GetStatusString		1
+MFX:DET:MPD:CH:205:GetStatusString		1
+MFX:DET:MPD:CH:205:Stat_OnOff			1
+MFX:DET:MPD:CH:205:Stat_Inhibit			1
+MFX:DET:MPD:CH:205:Stat_VSenseLow		1
+MFX:DET:MPD:CH:205:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:205:Stat_VTermHigh		1
+MFX:DET:MPD:CH:205:Stat_CurrHigh			1
+MFX:DET:MPD:CH:205:Stat_TempHigh			1
+MFX:DET:MPD:CH:205:Stat_PowerHigh		1
+MFX:DET:MPD:CH:205:Stat_Bit8			1
+MFX:DET:MPD:CH:205:Stat_CommTimeout		1
+MFX:DET:MPD:CH:205:Stat_CurrLim			1
+MFX:DET:MPD:CH:205:Stat_VRampUp			1
+MFX:DET:MPD:CH:205:Stat_VRampDown		1
+MFX:DET:MPD:CH:205:Stat_EnaKill			1
+MFX:DET:MPD:CH:205:Stat_EmerOff			1
+MFX:DET:MPD:CH:205:Stat_Bit15			1
+MFX:DET:MPD:CH:205:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:205:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:205:GetVoltage.DESC		10
+MFX:DET:MPD:CH:205:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:206:GetCurrent			1		monitor
+MFX:DET:MPD:CH:206:GetVoltage			1		monitor
+MFX:DET:MPD:CH:206:SetCurrent			1		monitor
+MFX:DET:MPD:CH:206:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:206:SetSwitch			1		monitor
+MFX:DET:MPD:CH:206:SetVoltage			1		monitor
+MFX:DET:MPD:CH:206:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:206:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:206:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:206:GetStatusString		1
+MFX:DET:MPD:CH:206:GetStatusString		1
+MFX:DET:MPD:CH:206:Stat_OnOff			1
+MFX:DET:MPD:CH:206:Stat_Inhibit			1
+MFX:DET:MPD:CH:206:Stat_VSenseLow		1
+MFX:DET:MPD:CH:206:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:206:Stat_VTermHigh		1
+MFX:DET:MPD:CH:206:Stat_CurrHigh			1
+MFX:DET:MPD:CH:206:Stat_TempHigh			1
+MFX:DET:MPD:CH:206:Stat_PowerHigh		1
+MFX:DET:MPD:CH:206:Stat_Bit8			1
+MFX:DET:MPD:CH:206:Stat_CommTimeout		1
+MFX:DET:MPD:CH:206:Stat_CurrLim			1
+MFX:DET:MPD:CH:206:Stat_VRampUp			1
+MFX:DET:MPD:CH:206:Stat_VRampDown		1
+MFX:DET:MPD:CH:206:Stat_EnaKill			1
+MFX:DET:MPD:CH:206:Stat_EmerOff			1
+MFX:DET:MPD:CH:206:Stat_Bit15			1
+MFX:DET:MPD:CH:206:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:206:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:206:GetVoltage.DESC		10
+MFX:DET:MPD:CH:206:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:207:GetCurrent			1		monitor
+MFX:DET:MPD:CH:207:GetVoltage			1		monitor
+MFX:DET:MPD:CH:207:SetCurrent			1		monitor
+MFX:DET:MPD:CH:207:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:207:SetSwitch			1		monitor
+MFX:DET:MPD:CH:207:SetVoltage			1		monitor
+MFX:DET:MPD:CH:207:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:207:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:207:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:207:GetStatusString		1
+MFX:DET:MPD:CH:207:GetStatusString		1
+MFX:DET:MPD:CH:207:Stat_OnOff			1
+MFX:DET:MPD:CH:207:Stat_Inhibit			1
+MFX:DET:MPD:CH:207:Stat_VSenseLow		1
+MFX:DET:MPD:CH:207:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:207:Stat_VTermHigh		1
+MFX:DET:MPD:CH:207:Stat_CurrHigh			1
+MFX:DET:MPD:CH:207:Stat_TempHigh			1
+MFX:DET:MPD:CH:207:Stat_PowerHigh		1
+MFX:DET:MPD:CH:207:Stat_Bit8			1
+MFX:DET:MPD:CH:207:Stat_CommTimeout		1
+MFX:DET:MPD:CH:207:Stat_CurrLim			1
+MFX:DET:MPD:CH:207:Stat_VRampUp			1
+MFX:DET:MPD:CH:207:Stat_VRampDown		1
+MFX:DET:MPD:CH:207:Stat_EnaKill			1
+MFX:DET:MPD:CH:207:Stat_EmerOff			1
+MFX:DET:MPD:CH:207:Stat_Bit15			1
+MFX:DET:MPD:CH:207:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:207:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:207:GetVoltage.DESC		10
+MFX:DET:MPD:CH:207:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:300:GetCurrent			1		monitor
+MFX:DET:MPD:CH:300:GetVoltage			1		monitor
+MFX:DET:MPD:CH:300:SetCurrent			1		monitor
+MFX:DET:MPD:CH:300:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:300:SetSwitch			1		monitor
+MFX:DET:MPD:CH:300:SetVoltage			1		monitor
+MFX:DET:MPD:CH:300:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:300:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:300:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:300:GetStatusString		1
+MFX:DET:MPD:CH:300:GetStatusString		1
+MFX:DET:MPD:CH:300:Stat_OnOff			1
+MFX:DET:MPD:CH:300:Stat_Inhibit			1
+MFX:DET:MPD:CH:300:Stat_VSenseLow		1
+MFX:DET:MPD:CH:300:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:300:Stat_VTermHigh		1
+MFX:DET:MPD:CH:300:Stat_CurrHigh			1
+MFX:DET:MPD:CH:300:Stat_TempHigh			1
+MFX:DET:MPD:CH:300:Stat_PowerHigh		1
+MFX:DET:MPD:CH:300:Stat_Bit8			1
+MFX:DET:MPD:CH:300:Stat_CommTimeout		1
+MFX:DET:MPD:CH:300:Stat_CurrLim			1
+MFX:DET:MPD:CH:300:Stat_VRampUp			1
+MFX:DET:MPD:CH:300:Stat_VRampDown		1
+MFX:DET:MPD:CH:300:Stat_EnaKill			1
+MFX:DET:MPD:CH:300:Stat_EmerOff			1
+MFX:DET:MPD:CH:300:Stat_Bit15			1
+MFX:DET:MPD:CH:300:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:300:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:300:GetVoltage.DESC		10
+MFX:DET:MPD:CH:300:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:301:GetCurrent			1		monitor
+MFX:DET:MPD:CH:301:GetVoltage			1		monitor
+MFX:DET:MPD:CH:301:SetCurrent			1		monitor
+MFX:DET:MPD:CH:301:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:301:SetSwitch			1		monitor
+MFX:DET:MPD:CH:301:SetVoltage			1		monitor
+MFX:DET:MPD:CH:301:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:301:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:301:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:301:GetStatusString		1
+MFX:DET:MPD:CH:301:GetStatusString		1
+MFX:DET:MPD:CH:301:Stat_OnOff			1
+MFX:DET:MPD:CH:301:Stat_Inhibit			1
+MFX:DET:MPD:CH:301:Stat_VSenseLow		1
+MFX:DET:MPD:CH:301:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:301:Stat_VTermHigh		1
+MFX:DET:MPD:CH:301:Stat_CurrHigh			1
+MFX:DET:MPD:CH:301:Stat_TempHigh			1
+MFX:DET:MPD:CH:301:Stat_PowerHigh		1
+MFX:DET:MPD:CH:301:Stat_Bit8			1
+MFX:DET:MPD:CH:301:Stat_CommTimeout		1
+MFX:DET:MPD:CH:301:Stat_CurrLim			1
+MFX:DET:MPD:CH:301:Stat_VRampUp			1
+MFX:DET:MPD:CH:301:Stat_VRampDown		1
+MFX:DET:MPD:CH:301:Stat_EnaKill			1
+MFX:DET:MPD:CH:301:Stat_EmerOff			1
+MFX:DET:MPD:CH:301:Stat_Bit15			1
+MFX:DET:MPD:CH:301:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:301:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:301:GetVoltage.DESC		10
+MFX:DET:MPD:CH:301:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:302:GetCurrent			1		monitor
+MFX:DET:MPD:CH:302:GetVoltage			1		monitor
+MFX:DET:MPD:CH:302:SetCurrent			1		monitor
+MFX:DET:MPD:CH:302:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:302:SetSwitch			1		monitor
+MFX:DET:MPD:CH:302:SetVoltage			1		monitor
+MFX:DET:MPD:CH:302:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:302:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:302:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:302:GetStatusString		1
+MFX:DET:MPD:CH:302:GetStatusString		1
+MFX:DET:MPD:CH:302:Stat_OnOff			1
+MFX:DET:MPD:CH:302:Stat_Inhibit			1
+MFX:DET:MPD:CH:302:Stat_VSenseLow		1
+MFX:DET:MPD:CH:302:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:302:Stat_VTermHigh		1
+MFX:DET:MPD:CH:302:Stat_CurrHigh			1
+MFX:DET:MPD:CH:302:Stat_TempHigh			1
+MFX:DET:MPD:CH:302:Stat_PowerHigh		1
+MFX:DET:MPD:CH:302:Stat_Bit8			1
+MFX:DET:MPD:CH:302:Stat_CommTimeout		1
+MFX:DET:MPD:CH:302:Stat_CurrLim			1
+MFX:DET:MPD:CH:302:Stat_VRampUp			1
+MFX:DET:MPD:CH:302:Stat_VRampDown		1
+MFX:DET:MPD:CH:302:Stat_EnaKill			1
+MFX:DET:MPD:CH:302:Stat_EmerOff			1
+MFX:DET:MPD:CH:302:Stat_Bit15			1
+MFX:DET:MPD:CH:302:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:302:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:302:GetVoltage.DESC		10
+MFX:DET:MPD:CH:302:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:303:GetCurrent			1		monitor
+MFX:DET:MPD:CH:303:GetVoltage			1		monitor
+MFX:DET:MPD:CH:303:SetCurrent			1		monitor
+MFX:DET:MPD:CH:303:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:303:SetSwitch			1		monitor
+MFX:DET:MPD:CH:303:SetVoltage			1		monitor
+MFX:DET:MPD:CH:303:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:303:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:303:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:303:GetStatusString		1
+MFX:DET:MPD:CH:303:GetStatusString		1
+MFX:DET:MPD:CH:303:Stat_OnOff			1
+MFX:DET:MPD:CH:303:Stat_Inhibit			1
+MFX:DET:MPD:CH:303:Stat_VSenseLow		1
+MFX:DET:MPD:CH:303:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:303:Stat_VTermHigh		1
+MFX:DET:MPD:CH:303:Stat_CurrHigh			1
+MFX:DET:MPD:CH:303:Stat_TempHigh			1
+MFX:DET:MPD:CH:303:Stat_PowerHigh		1
+MFX:DET:MPD:CH:303:Stat_Bit8			1
+MFX:DET:MPD:CH:303:Stat_CommTimeout		1
+MFX:DET:MPD:CH:303:Stat_CurrLim			1
+MFX:DET:MPD:CH:303:Stat_VRampUp			1
+MFX:DET:MPD:CH:303:Stat_VRampDown		1
+MFX:DET:MPD:CH:303:Stat_EnaKill			1
+MFX:DET:MPD:CH:303:Stat_EmerOff			1
+MFX:DET:MPD:CH:303:Stat_Bit15			1
+MFX:DET:MPD:CH:303:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:303:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:303:GetVoltage.DESC		10
+MFX:DET:MPD:CH:303:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:304:GetCurrent			1		monitor
+MFX:DET:MPD:CH:304:GetVoltage			1		monitor
+MFX:DET:MPD:CH:304:SetCurrent			1		monitor
+MFX:DET:MPD:CH:304:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:304:SetSwitch			1		monitor
+MFX:DET:MPD:CH:304:SetVoltage			1		monitor
+MFX:DET:MPD:CH:304:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:304:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:304:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:304:GetStatusString		1
+MFX:DET:MPD:CH:304:GetStatusString		1
+MFX:DET:MPD:CH:304:Stat_OnOff			1
+MFX:DET:MPD:CH:304:Stat_Inhibit			1
+MFX:DET:MPD:CH:304:Stat_VSenseLow		1
+MFX:DET:MPD:CH:304:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:304:Stat_VTermHigh		1
+MFX:DET:MPD:CH:304:Stat_CurrHigh			1
+MFX:DET:MPD:CH:304:Stat_TempHigh			1
+MFX:DET:MPD:CH:304:Stat_PowerHigh		1
+MFX:DET:MPD:CH:304:Stat_Bit8			1
+MFX:DET:MPD:CH:304:Stat_CommTimeout		1
+MFX:DET:MPD:CH:304:Stat_CurrLim			1
+MFX:DET:MPD:CH:304:Stat_VRampUp			1
+MFX:DET:MPD:CH:304:Stat_VRampDown		1
+MFX:DET:MPD:CH:304:Stat_EnaKill			1
+MFX:DET:MPD:CH:304:Stat_EmerOff			1
+MFX:DET:MPD:CH:304:Stat_Bit15			1
+MFX:DET:MPD:CH:304:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:304:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:304:GetVoltage.DESC		10
+MFX:DET:MPD:CH:304:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:305:GetCurrent			1		monitor
+MFX:DET:MPD:CH:305:GetVoltage			1		monitor
+MFX:DET:MPD:CH:305:SetCurrent			1		monitor
+MFX:DET:MPD:CH:305:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:305:SetSwitch			1		monitor
+MFX:DET:MPD:CH:305:SetVoltage			1		monitor
+MFX:DET:MPD:CH:305:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:305:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:305:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:305:GetStatusString		1
+MFX:DET:MPD:CH:305:GetStatusString		1
+MFX:DET:MPD:CH:305:Stat_OnOff			1
+MFX:DET:MPD:CH:305:Stat_Inhibit			1
+MFX:DET:MPD:CH:305:Stat_VSenseLow		1
+MFX:DET:MPD:CH:305:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:305:Stat_VTermHigh		1
+MFX:DET:MPD:CH:305:Stat_CurrHigh			1
+MFX:DET:MPD:CH:305:Stat_TempHigh			1
+MFX:DET:MPD:CH:305:Stat_PowerHigh		1
+MFX:DET:MPD:CH:305:Stat_Bit8			1
+MFX:DET:MPD:CH:305:Stat_CommTimeout		1
+MFX:DET:MPD:CH:305:Stat_CurrLim			1
+MFX:DET:MPD:CH:305:Stat_VRampUp			1
+MFX:DET:MPD:CH:305:Stat_VRampDown		1
+MFX:DET:MPD:CH:305:Stat_EnaKill			1
+MFX:DET:MPD:CH:305:Stat_EmerOff			1
+MFX:DET:MPD:CH:305:Stat_Bit15			1
+MFX:DET:MPD:CH:305:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:305:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:305:GetVoltage.DESC		10
+MFX:DET:MPD:CH:305:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:306:GetCurrent			1		monitor
+MFX:DET:MPD:CH:306:GetVoltage			1		monitor
+MFX:DET:MPD:CH:306:SetCurrent			1		monitor
+MFX:DET:MPD:CH:306:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:306:SetSwitch			1		monitor
+MFX:DET:MPD:CH:306:SetVoltage			1		monitor
+MFX:DET:MPD:CH:306:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:306:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:306:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:306:GetStatusString		1
+MFX:DET:MPD:CH:306:GetStatusString		1
+MFX:DET:MPD:CH:306:Stat_OnOff			1
+MFX:DET:MPD:CH:306:Stat_Inhibit			1
+MFX:DET:MPD:CH:306:Stat_VSenseLow		1
+MFX:DET:MPD:CH:306:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:306:Stat_VTermHigh		1
+MFX:DET:MPD:CH:306:Stat_CurrHigh			1
+MFX:DET:MPD:CH:306:Stat_TempHigh			1
+MFX:DET:MPD:CH:306:Stat_PowerHigh		1
+MFX:DET:MPD:CH:306:Stat_Bit8			1
+MFX:DET:MPD:CH:306:Stat_CommTimeout		1
+MFX:DET:MPD:CH:306:Stat_CurrLim			1
+MFX:DET:MPD:CH:306:Stat_VRampUp			1
+MFX:DET:MPD:CH:306:Stat_VRampDown		1
+MFX:DET:MPD:CH:306:Stat_EnaKill			1
+MFX:DET:MPD:CH:306:Stat_EmerOff			1
+MFX:DET:MPD:CH:306:Stat_Bit15			1
+MFX:DET:MPD:CH:306:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:306:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:306:GetVoltage.DESC		10
+MFX:DET:MPD:CH:306:SetVoltage.DESC		10
+# Archive values for mpod channel
+MFX:DET:MPD:CH:307:GetCurrent			1		monitor
+MFX:DET:MPD:CH:307:GetVoltage			1		monitor
+MFX:DET:MPD:CH:307:SetCurrent			1		monitor
+MFX:DET:MPD:CH:307:SetCurrent_snmp		1		monitor
+MFX:DET:MPD:CH:307:SetSwitch			1		monitor
+MFX:DET:MPD:CH:307:SetVoltage			1		monitor
+MFX:DET:MPD:CH:307:GetCurrentMeasurement		1
+MFX:DET:MPD:CH:307:GetTerminalVoltageMeasurement	1
+MFX:DET:MPD:CH:307:GetVoltageMeasurement		1
+MFX:DET:MPD:CH:307:GetStatusString		1
+MFX:DET:MPD:CH:307:GetStatusString		1
+MFX:DET:MPD:CH:307:Stat_OnOff			1
+MFX:DET:MPD:CH:307:Stat_Inhibit			1
+MFX:DET:MPD:CH:307:Stat_VSenseLow		1
+MFX:DET:MPD:CH:307:Stat_VSenseHigh		1
+MFX:DET:MPD:CH:307:Stat_VTermHigh		1
+MFX:DET:MPD:CH:307:Stat_CurrHigh			1
+MFX:DET:MPD:CH:307:Stat_TempHigh			1
+MFX:DET:MPD:CH:307:Stat_PowerHigh		1
+MFX:DET:MPD:CH:307:Stat_Bit8			1
+MFX:DET:MPD:CH:307:Stat_CommTimeout		1
+MFX:DET:MPD:CH:307:Stat_CurrLim			1
+MFX:DET:MPD:CH:307:Stat_VRampUp			1
+MFX:DET:MPD:CH:307:Stat_VRampDown		1
+MFX:DET:MPD:CH:307:Stat_EnaKill			1
+MFX:DET:MPD:CH:307:Stat_EmerOff			1
+MFX:DET:MPD:CH:307:Stat_Bit15			1
+MFX:DET:MPD:CH:307:Alarm_OnOffRamp		1
+MFX:DET:MPD:CH:307:Alarm_MinMax			1
+
+MFX:DET:MPD:CH:307:GetVoltage.DESC		10
+MFX:DET:MPD:CH:307:SetVoltage.DESC		10

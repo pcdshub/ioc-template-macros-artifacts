@@ -1,0 +1,83 @@
+#
+# gigECam Archive file for ioc-mfx-gige-lbl-02
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:MFX:GIGE:LBL:02"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:MFX:GIGE:LBL:02"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "MFX:GIGE:LBL:02"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", STREAM = ""    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", ROI = "ROI1"  }
+        {   CAM = "MFX:GIGE:LBL:02", ROI = "ROI2"  }
+        {   CAM = "MFX:GIGE:LBL:02", ROI = "ROI3"  }
+        {   CAM = "MFX:GIGE:LBL:02", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", STATS = "Stats1"  }
+        {   CAM = "MFX:GIGE:LBL:02", STATS = "Stats2"  }
+        {   CAM = "MFX:GIGE:LBL:02", STATS = "Stats3"  }
+        {   CAM = "MFX:GIGE:LBL:02", STATS = "Stats4"  }
+        {   CAM = "MFX:GIGE:LBL:02", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "MFX:GIGE:LBL:02", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "MFX:GIGE:LBL:02"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "MFX:GIGE:LBL:02", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "MFX:GIGE:LBL:02", R = ":"	}
+}
+
+

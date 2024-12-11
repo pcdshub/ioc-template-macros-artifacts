@@ -1,0 +1,25 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:TST:VAC" }
+}
+
+
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "TMO:PBT:PIP:09" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TMO:PBT:PIP:06" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TMO:PBT:PIP:07" }
+}
+
+
+

@@ -1,0 +1,11 @@
+# Generate IOC archive request 
+file archive_protura.archive
+{
+	{ IOC = "IOC:MFX:ROB:PRTA",  }
+	
+}
+
+file protura.archive
+{
+	{ MOTOR = "MFX:ROB:MMS:08:LE"}
+}

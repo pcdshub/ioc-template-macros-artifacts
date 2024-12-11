@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_lakeshore335_ioc.archive
+{
+	{ IOC="IOC:XCS:TCT:LS335" }
+}
+
+file archive_lakeshore335.archive
+{
+	{ TCT="XCS:USR:TCT:03" }
+}

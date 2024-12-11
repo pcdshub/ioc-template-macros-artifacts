@@ -1,0 +1,135 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:DET:MBL2:CSPAD:APP_DIR1 30 monitor 
+IOC:DET:MBL2:CSPAD:APP_DIR2 30 monitor 
+IOC:DET:MBL2:CSPAD:BSP_REV 30 monitor
+IOC:DET:MBL2:CSPAD:CA_CLNT_CNT 1 monitor 
+IOC:DET:MBL2:CSPAD:CA_CONN_CNT 1 monitor 
+IOC:DET:MBL2:CSPAD:EPICS_VERS 30 monitor
+IOC:DET:MBL2:CSPAD:FD_CNT 1 monitor 
+IOC:DET:MBL2:CSPAD:FD_FREE 1 monitor 
+IOC:DET:MBL2:CSPAD:FD_MAX 1 monitor 
+IOC:DET:MBL2:CSPAD:HOSTNAME 30 monitor
+IOC:DET:MBL2:CSPAD:KERNEL_VERS 30 monitor
+IOC:DET:MBL2:CSPAD:RECORD_CNT 10 monitor
+IOC:DET:MBL2:CSPAD:STARTTOD 30 monitor
+IOC:DET:MBL2:CSPAD:ST_SCRIPT1 30 monitor 
+IOC:DET:MBL2:CSPAD:ST_SCRIPT2 30 monitor 
+IOC:DET:MBL2:CSPAD:SUSP_TASK_CNT 30 monitor 
+IOC:DET:MBL2:CSPAD:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:DET:MBL2:CSPAD:DAT_MBUF_FREE 10
+IOC:DET:MBL2:CSPAD:DAT_MBUF_MAX 10
+IOC:DET:MBL2:CSPAD:LOAD 30 
+IOC:DET:MBL2:CSPAD:MEM_BLK_FREE 30 
+IOC:DET:MBL2:CSPAD:MEM_FREE 30 
+IOC:DET:MBL2:CSPAD:MEM_USED 30 
+IOC:DET:MBL2:CSPAD:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:DET:MBL2:CSPAD:SR_rebootStatus			1 monitor
+IOC:DET:MBL2:CSPAD:SR_status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_rebootStatusStr		1 monitor
+IOC:DET:MBL2:CSPAD:SR_statusStr				1 monitor
+IOC:DET:MBL2:CSPAD:SR_0_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_0_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_1_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_1_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_2_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_2_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_3_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_3_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_4_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_4_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_5_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_5_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_6_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_6_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_7_Status				1 monitor
+IOC:DET:MBL2:CSPAD:SR_7_StatusStr			1 monitor
+IOC:DET:MBL2:CSPAD:SR_0_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_1_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_2_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_3_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_4_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_5_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_6_State				1 monitor
+IOC:DET:MBL2:CSPAD:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:DET:MBL2:CSPAD:SR_recentlyStr			30 monitor
+IOC:DET:MBL2:CSPAD:SR_rebootTime			30 monitor
+IOC:DET:MBL2:CSPAD:SR_0_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_1_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_2_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_3_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_4_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_5_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_6_Name				30 monitor
+IOC:DET:MBL2:CSPAD:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:DET:MBL2:CSPAD:SR_heartbeat				30
+IOC:DET:MBL2:CSPAD:SR_0_Time				30
+IOC:DET:MBL2:CSPAD:SR_1_Time				30
+IOC:DET:MBL2:CSPAD:SR_2_Time				30
+IOC:DET:MBL2:CSPAD:SR_3_Time				30
+IOC:DET:MBL2:CSPAD:SR_4_Time				30
+IOC:DET:MBL2:CSPAD:SR_5_Time				30
+IOC:DET:MBL2:CSPAD:SR_6_Time				30
+IOC:DET:MBL2:CSPAD:SR_7_Time				30
+
+# Archive values for detector control module
+DET:MBL2:CSPAD:TEMP0   		1    monitor
+DET:MBL2:CSPAD:TEMP1   		1    monitor
+DET:MBL2:CSPAD:TEMP2   		1    monitor
+DET:MBL2:CSPAD:TEMP3   		1    monitor
+DET:MBL2:CSPAD:MAXDLV                10        monitor
+DET:MBL2:CSPAD:MAXALV                10        monitor
+DET:MBL2:CSPAD:MAXHV                 10        monitor
+DET:MBL2:CSPAD:MONSTAT               10        monitor
+DET:MBL2:CSPAD:HVQ0_WARNING          30        monitor
+DET:MBL2:CSPAD:HVQ0_ALARM            30        monitor
+DET:MBL2:CSPAD:HVQ1_WARNING          30        monitor
+DET:MBL2:CSPAD:HVQ1_ALARM            30        monitor
+DET:MBL2:CSPAD:HVQ2_WARNING          30        monitor
+DET:MBL2:CSPAD:HVQ2_ALARM            30        monitor
+DET:MBL2:CSPAD:HVQ3_WARNING          30        monitor
+DET:MBL2:CSPAD:HVQ3_ALARM            30        monitor
+DET:MBL2:CSPAD:DLV_WARNING           30        monitor
+DET:MBL2:CSPAD:DLV_ALARM             30        monitor
+DET:MBL2:CSPAD:ALV_WARNING           30        monitor
+DET:MBL2:CSPAD:ALV_ALARM             30        monitor
+DET:MBL2:CSPAD:TEMP_WARNING          30        monitor
+DET:MBL2:CSPAD:TEMP_ALARM            30        monitor
+DET:MBL2:CSPAD:BIAS                  30        monitor
+DET:MBL2:CSPAD:BIAS_IDLE             30        monitor
+DET:MBL2:CSPAD:AVDD_SET              30        monitor
+DET:MBL2:CSPAD:DVDD_SET              30        monitor
+DET:MBL2:CSPAD:DO_PROC_ALARM         30        monitor
+DET:MBL2:CSPAD:MONSTAT               10        monitor
+DET:MBL2:CSPAD:N_PROC_ALARM          10        monitor
+
+DET:MBL2:CSPAD:QUAD0:TEMP0_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD0:TEMP1_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD0:TEMP2_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD0:TEMP3_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD1:TEMP0_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD1:TEMP1_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD1:TEMP2_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD1:TEMP3_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD2:TEMP0_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD2:TEMP1_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD2:TEMP2_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD2:TEMP3_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD3:TEMP0_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD3:TEMP1_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD3:TEMP2_DISP      30        monitor
+DET:MBL2:CSPAD:QUAD3:TEMP3_DISP      30        monitor

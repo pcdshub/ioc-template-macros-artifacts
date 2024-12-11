@@ -1,0 +1,6 @@
+file exp_state.tpl-arch
+{
+    pattern { P                       }
+            { IOC:MFX:0:EXPSTATE:   }
+            { IOC:MFX:1:EXPSTATE:   }
+}

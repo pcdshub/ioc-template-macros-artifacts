@@ -1,0 +1,128 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:XPP:ROB:APP_DIR 30 monitor 
+IOC:XPP:ROB:APP_DIR1 30 monitor 
+IOC:XPP:ROB:APP_DIR2 30 monitor 
+IOC:XPP:ROB:CA_CLNT_CNT 1 monitor 
+IOC:XPP:ROB:CA_CONN_CNT 1 monitor 
+IOC:XPP:ROB:EPICS_VERS 30 monitor
+IOC:XPP:ROB:FD_CNT 1 monitor 
+IOC:XPP:ROB:FD_FREE 1 monitor 
+IOC:XPP:ROB:FD_MAX 1 monitor 
+IOC:XPP:ROB:HOSTNAME 30 monitor
+IOC:XPP:ROB:KERNEL_VERS 30 monitor
+IOC:XPP:ROB:RECORD_CNT 10 monitor
+IOC:XPP:ROB:START_CNT 30 monitor
+IOC:XPP:ROB:STARTTOD 30 monitor
+IOC:XPP:ROB:ST_SCRIPT 30 monitor 
+IOC:XPP:ROB:ST_SCRIPT1 30 monitor 
+IOC:XPP:ROB:ST_SCRIPT2 30 monitor 
+IOC:XPP:ROB:SUSP_TASK_CNT 30 monitor 
+IOC:XPP:ROB:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:XPP:ROB:SYS_CPU_LOAD 10
+IOC:XPP:ROB:LOAD 10 
+IOC:XPP:ROB:MEM_BLK_FREE 10 
+IOC:XPP:ROB:MEM_FREE 10 
+IOC:XPP:ROB:MEM_USED 10 
+IOC:XPP:ROB:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:XPP:ROB:SR_rebootStatus			1 monitor
+IOC:XPP:ROB:SR_status				1 monitor
+IOC:XPP:ROB:SR_rebootStatusStr		1 monitor
+IOC:XPP:ROB:SR_statusStr				1 monitor
+IOC:XPP:ROB:SR_0_Status				1 monitor
+IOC:XPP:ROB:SR_0_StatusStr			1 monitor
+IOC:XPP:ROB:SR_1_Status				1 monitor
+IOC:XPP:ROB:SR_1_StatusStr			1 monitor
+IOC:XPP:ROB:SR_2_Status				1 monitor
+IOC:XPP:ROB:SR_2_StatusStr			1 monitor
+IOC:XPP:ROB:SR_3_Status				1 monitor
+IOC:XPP:ROB:SR_3_StatusStr			1 monitor
+IOC:XPP:ROB:SR_4_Status				1 monitor
+IOC:XPP:ROB:SR_4_StatusStr			1 monitor
+IOC:XPP:ROB:SR_5_Status				1 monitor
+IOC:XPP:ROB:SR_5_StatusStr			1 monitor
+IOC:XPP:ROB:SR_6_Status				1 monitor
+IOC:XPP:ROB:SR_6_StatusStr			1 monitor
+IOC:XPP:ROB:SR_7_Status				1 monitor
+IOC:XPP:ROB:SR_7_StatusStr			1 monitor
+IOC:XPP:ROB:SR_0_State				1 monitor
+IOC:XPP:ROB:SR_1_State				1 monitor
+IOC:XPP:ROB:SR_2_State				1 monitor
+IOC:XPP:ROB:SR_3_State				1 monitor
+IOC:XPP:ROB:SR_4_State				1 monitor
+IOC:XPP:ROB:SR_5_State				1 monitor
+IOC:XPP:ROB:SR_6_State				1 monitor
+IOC:XPP:ROB:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:XPP:ROB:SR_recentlyStr			30 monitor
+IOC:XPP:ROB:SR_rebootTime			30 monitor
+IOC:XPP:ROB:SR_0_Name				30 monitor
+IOC:XPP:ROB:SR_1_Name				30 monitor
+IOC:XPP:ROB:SR_2_Name				30 monitor
+IOC:XPP:ROB:SR_3_Name				30 monitor
+IOC:XPP:ROB:SR_4_Name				30 monitor
+IOC:XPP:ROB:SR_5_Name				30 monitor
+IOC:XPP:ROB:SR_6_Name				30 monitor
+IOC:XPP:ROB:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:XPP:ROB:SR_heartbeat				30
+IOC:XPP:ROB:SR_0_Time				30
+IOC:XPP:ROB:SR_1_Time				30
+IOC:XPP:ROB:SR_2_Time				30
+IOC:XPP:ROB:SR_3_Time				30
+IOC:XPP:ROB:SR_4_Time				30
+IOC:XPP:ROB:SR_5_Time				30
+IOC:XPP:ROB:SR_6_Time				30
+IOC:XPP:ROB:SR_7_Time				30
+
+# Archive Robot position values only when they change
+XPP:ROB:POS:X             60  monitor
+XPP:ROB:POS:Y             60  monitor
+XPP:ROB:POS:Z             60  monitor
+XPP:ROB:POS:RX            60  monitor
+XPP:ROB:POS:RY            60  monitor
+XPP:ROB:POS:RZ            60  monitor
+XPP:ROB:POS:AZI           60  monitor
+XPP:ROB:POS:ELE           60  monitor
+XPP:ROB:POS:RAD           60  monitor
+
+XPP:ROB:COORD:IP:X        60  monitor
+XPP:ROB:COORD:IP:Y        60  monitor
+XPP:ROB:COORD:IP:Z        60  monitor
+XPP:ROB:COORD:IP:RX       60  monitor
+XPP:ROB:COORD:IP:RY       60  monitor
+XPP:ROB:COORD:IP:RZ       60  monitor
+
+XPP:ROB:COORD:TCP:X       60  monitor
+XPP:ROB:COORD:TCP:Y       60  monitor
+XPP:ROB:COORD:TCP:Z       60  monitor
+XPP:ROB:COORD:TCP:RX      60  monitor
+XPP:ROB:COORD:TCP:RY      60  monitor
+XPP:ROB:COORD:TCP:RZ      60  monitor
+
+XPP:ROB:WORLD:X           60  monitor
+XPP:ROB:WORLD:Y           60  monitor
+XPP:ROB:WORLD:Z           60  monitor
+XPP:ROB:WORLD:RX          60  monitor
+XPP:ROB:WORLD:RY          60  monitor
+XPP:ROB:WORLD:RZ          60  monitor
+
+XPP:ROB:POS:J1            60  monitor
+XPP:ROB:POS:J2            60  monitor
+XPP:ROB:POS:J3            60  monitor
+XPP:ROB:POS:J4            60  monitor
+XPP:ROB:POS:J5            60  monitor
+XPP:ROB:POS:J6            60  monitor
+

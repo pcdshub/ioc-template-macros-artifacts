@@ -1,0 +1,40 @@
+#
+# mpod Archive file for ioc-cxi-usr-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "CXI:IOC:USR:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "CXI:USR:MPD:CH",             "0" }
+	{ "CXI:USR:MPD:CH",             "1" }
+	{ "CXI:USR:MPD:CH",             "2" }
+	{ "CXI:USR:MPD:CH",             "3" }
+	{ "CXI:USR:MPD:CH",             "4" }
+	{ "CXI:USR:MPD:CH",             "5" }
+	{ "CXI:USR:MPD:CH",             "6" }
+	{ "CXI:USR:MPD:CH",             "7" }
+	{ "CXI:USR:MPD:CH",             "100" }
+	{ "CXI:USR:MPD:CH",             "101" }
+	{ "CXI:USR:MPD:CH",             "102" }
+	{ "CXI:USR:MPD:CH",             "103" }
+	{ "CXI:USR:MPD:CH",             "104" }
+	{ "CXI:USR:MPD:CH",             "105" }
+	{ "CXI:USR:MPD:CH",             "106" }
+	{ "CXI:USR:MPD:CH",             "107" }
+	{ "CXI:USR:MPD:CH",             "200" }
+	{ "CXI:USR:MPD:CH",             "201" }
+	{ "CXI:USR:MPD:CH",             "202" }
+	{ "CXI:USR:MPD:CH",             "203" }
+	{ "CXI:USR:MPD:CH",             "204" }
+	{ "CXI:USR:MPD:CH",             "205" }
+	{ "CXI:USR:MPD:CH",             "206" }
+	{ "CXI:USR:MPD:CH",             "207" }
+}

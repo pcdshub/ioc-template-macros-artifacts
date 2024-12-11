@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "RIX:FIM:W8:IOC:04", PREFIX = "RIX:FIM:W8:04" }
+}
+

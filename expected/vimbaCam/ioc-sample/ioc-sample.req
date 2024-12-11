@@ -1,0 +1,30 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+XXX:IOC:GIGE:2:ACCESS
+XXX:IOC:GIGE:2:CA_CLNT_CNT.HIGH
+XXX:IOC:GIGE:2:CA_CLNT_CNT.HIHI
+XXX:IOC:GIGE:2:CA_CONN_CNT.HIGH
+XXX:IOC:GIGE:2:CA_CONN_CNT.HIHI
+XXX:IOC:GIGE:2:SUSP_TASK_CNT.HIHI
+XXX:IOC:GIGE:2:FD_FREE.LOW
+XXX:IOC:GIGE:2:FD_FREE.LOLO
+XXX:IOC:GIGE:2:IOC_CPU_LOAD.HIGH
+XXX:IOC:GIGE:2:IOC_CPU_LOAD.HIHI
+XXX:IOC:GIGE:2:MEM_FREE.LOW
+XXX:IOC:GIGE:2:MEM_FREE.LOLO
+XXX:IOC:GIGE:2:START_CNT
+# ADGenICam_settings.req includes ADBase_settings, which seems to be OK
+# because of the info in the .db file.  So we just include the settings from
+# ADGenICam_settings here.
+XXX:CAM:GIGE:2:FrameRateEnable
+XXX:CAM:GIGE:2:TriggerSource
+XXX:CAM:GIGE:2:TriggerOverlap
+XXX:CAM:GIGE:2:ExposureMode
+XXX:CAM:GIGE:2:ExposureAuto
+XXX:CAM:GIGE:2:GainAuto
+XXX:CAM:GIGE:2:PixelFormat
+# ADVimba_settings:
+XXX:CAM:GIGE:2:TimeStampMode
+XXX:CAM:GIGE:2:UniqueIdMode
+XXX:CAM:GIGE:2:ConvertPixelFormat

@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-im4k4-gige
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IM4K4:PPM:CAM:IOC"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IM4K4:PPM:CAM:IOC"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "IM4K4:PPM:CAM"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STREAM = "IMAGE3"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", ROI = "ROI1"  }
+        {   CAM = "IM4K4:PPM:CAM", ROI = "ROI2"  }
+        {   CAM = "IM4K4:PPM:CAM", ROI = "ROI3"  }
+        {   CAM = "IM4K4:PPM:CAM", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", STATS = "Stats1"  }
+        {   CAM = "IM4K4:PPM:CAM", STATS = "Stats2"  }
+        {   CAM = "IM4K4:PPM:CAM", STATS = "Stats3"  }
+        {   CAM = "IM4K4:PPM:CAM", STATS = "Stats4"  }
+        {   CAM = "IM4K4:PPM:CAM", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "IM4K4:PPM:CAM", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "IM4K4:PPM:CAM"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "IM4K4:PPM:CAM", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "IM4K4:PPM:CAM", R = ":"	}
+}
+
+

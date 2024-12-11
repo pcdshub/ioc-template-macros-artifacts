@@ -1,0 +1,19 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       XRT:R44:IOC:38,
+                EVR             =       XRT:R44:EVR:38
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       MEC:HXM:CVV:01  }
+}
+

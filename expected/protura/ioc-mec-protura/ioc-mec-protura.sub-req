@@ -1,0 +1,13 @@
+file autosave_protura.req
+{
+	{ IOC = "MEC:HOM:IOC:01",  }
+}
+
+file protura.req
+{
+	{ BASE = "HXX:HXM:MMS:01:EN"}
+}
+file protura.req
+{
+	{ BASE = "HXX:HXM:MMS:02:EN"}
+}

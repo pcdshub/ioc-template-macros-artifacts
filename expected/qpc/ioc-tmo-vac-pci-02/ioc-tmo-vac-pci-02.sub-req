@@ -1,0 +1,26 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO:VAC:PIP:02" }
+}
+
+file archive_SR.tpl-arch
+{
+    { IOC = "IOC:TMO:VAC:PIP:02" }
+}
+
+file qpc_controller
+{
+    { BASE = ""}    
+}
+
+file qpc_channel.archive
+{
+    { CH_BASE = "" , CHANNEL = "1"}
+    { CH_BASE = "" , CHANNEL = "2"}
+    { CH_BASE = "" , CHANNEL = "3"}
+    { CH_BASE = "" , CHANNEL = "4"}
+}

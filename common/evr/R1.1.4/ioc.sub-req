@@ -1,0 +1,17 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$IF(EVR_TYPE,CPCI)
+file autosave_evr_PMC.req
+$$ELSE(EVR_TYPE)
+file autosave_evr_$$(EVR_TYPE).req
+$$ENDIF(EVR_TYPE)
+{
+    { EVR = "$$EVR_PV" }
+}
+

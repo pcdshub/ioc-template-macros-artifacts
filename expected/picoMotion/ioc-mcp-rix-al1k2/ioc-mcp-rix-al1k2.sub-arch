@@ -1,0 +1,18 @@
+# motion IOC instance archive file
+
+# Generate archive PV list for IOC
+file pico-ioc.archive
+{
+	{ IOC = AL1K2:L2SI:MCP:IOC }
+}
+
+
+# Generate archive PV list for motors
+file archive_motor_noSYNC.tpl-arch
+{
+        { MOTOR = AL1K2:L2SI:MCP:01}
+        { MOTOR = AL1K2:L2SI:MCP:02}
+        { MOTOR = AL1K2:L2SI:MCP:03}
+        { MOTOR = AL1K2:L2SI:MCP:04}
+}
+

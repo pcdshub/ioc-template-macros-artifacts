@@ -1,0 +1,15 @@
+# IOC autosave file
+
+# Generate IOC archive request 
+file staubli_ioc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(ROBOT)
+file staubli_autosave.req
+{
+    { NAME = "$$NAME" }
+}
+
+$$ENDLOOP(ROBOT)

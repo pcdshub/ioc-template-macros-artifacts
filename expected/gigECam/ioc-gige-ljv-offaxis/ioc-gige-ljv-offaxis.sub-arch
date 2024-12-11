@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-gige-ljv-offaxis
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XCS:GIGE:LJV:OFFAXIS"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XCS:GIGE:LJV:OFFAXIS"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "XCS:GIGE:LJV:OFFAXIS"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", ROI = "ROI1"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", ROI = "ROI2"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", ROI = "ROI3"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STATS = "Stats1"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STATS = "Stats2"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STATS = "Stats3"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STATS = "Stats4"  }
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJV:OFFAXIS", OVER = "Over1"    }
+    }
+
+
+            
+file image_meta.archive
+{
+    {   CAM = "XCS:GIGE:LJV:OFFAXIS"    }
+}
+
+
+file archive_evr_SLAC.archive
+{
+	{	EVR = "XCS:EVR:GIGE:LJV:OFFAXIS"	}
+}
+
+file prosilica.tpl-arch
+{
+	{	P = "XCS:GIGE:LJV:OFFAXIS", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "XCS:GIGE:LJV:OFFAXIS", R = ":"	}
+}
+
+

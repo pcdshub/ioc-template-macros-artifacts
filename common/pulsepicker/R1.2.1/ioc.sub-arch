@@ -1,0 +1,30 @@
+
+# Generate archive PV list for IOC
+file motion-ioc.archive
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+
+# Generate archive PV list for motors
+file archive_motor-mc.tpl-arch
+{
+        { MOTOR = "$$LOC:$$SYS:MMS:$$PP_MOTOR" }
+        { MOTOR = "$$LOC:$$SYS:MMS:$$XT_MOTOR" }
+        { MOTOR = "$$LOC:$$SYS:MMS:$$YT_MOTOR" }
+}
+
+#archive list for records specific to pulse picker motor
+file pulse-motor-ims.tpl-arch
+{
+        { MOTOR = "$$LOC:$$SYS:MMS:$$PP_MOTOR" }
+}
+
+# Archive list for soft-position-monitor on the Y axis
+file soft-position-monitor.tpl-arch
+{
+ {
+    ROOTPV = "$$LOC:$$SYS:MMS:$$PP_MOTOR"
+    POSNAME = "IN_BEAM"
+ }
+}

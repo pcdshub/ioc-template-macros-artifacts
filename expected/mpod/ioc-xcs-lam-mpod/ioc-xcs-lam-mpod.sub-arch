@@ -1,0 +1,32 @@
+#
+# mpod Archive file for ioc-xcs-lam-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "XCS:IOC:LAM:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XCS:LAM:MPD:CH",             "0" }
+	{ "XCS:LAM:MPD:CH",             "1" }
+	{ "XCS:LAM:MPD:CH",             "2" }
+	{ "XCS:LAM:MPD:CH",             "3" }
+	{ "XCS:LAM:MPD:CH",             "4" }
+	{ "XCS:LAM:MPD:CH",             "5" }
+	{ "XCS:LAM:MPD:CH",             "6" }
+	{ "XCS:LAM:MPD:CH",             "7" }
+	{ "XCS:LAM:MPD:CH",             "100" }
+	{ "XCS:LAM:MPD:CH",             "101" }
+	{ "XCS:LAM:MPD:CH",             "102" }
+	{ "XCS:LAM:MPD:CH",             "103" }
+	{ "XCS:LAM:MPD:CH",             "104" }
+	{ "XCS:LAM:MPD:CH",             "105" }
+	{ "XCS:LAM:MPD:CH",             "106" }
+	{ "XCS:LAM:MPD:CH",             "107" }
+}

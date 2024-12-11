@@ -1,0 +1,22 @@
+# Generate detector control module autosave requests
+file det-ioc.req
+{
+	{ IOC = "IOC:XCS:LAM:140K" }
+}
+
+
+file detector-140k.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "XCS:LAM:140K:01"  }
+}
+file detector-140k.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "XCS:LAM:140K:02"  }
+}
+
+
+

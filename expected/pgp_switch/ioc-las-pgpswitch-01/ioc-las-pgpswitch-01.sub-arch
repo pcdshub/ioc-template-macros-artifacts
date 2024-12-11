@@ -1,0 +1,4 @@
+file pgp_switch.tpl-arch
+{
+    { BASE = "LAS:PSW:01" }
+}

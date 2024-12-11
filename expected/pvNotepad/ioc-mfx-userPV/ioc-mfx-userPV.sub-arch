@@ -1,0 +1,125 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:NSHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:NSTEPS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:ISTEP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:ISSCAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:TIMETOOL:TTALL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:SET1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:SET2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REF1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REF2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:VER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:UND    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:DIFF_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:I0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:RATIO    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:DROPPED    }
+}

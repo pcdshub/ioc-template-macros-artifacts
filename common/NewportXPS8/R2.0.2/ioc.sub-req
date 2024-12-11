@@ -1,0 +1,13 @@
+# Generate autosave request 
+$$IF(POS1)
+file XPS8_arbitrary_autosave.tpl-req
+{
+    { DEVICE="$$DEVICE", POS1="$$POS1", POS2="$$POS2", POS3="$$POS3", POS4="$$POS4", POS5="$$POS5", POS6="$$POS6", POS7="$$POS7", POS8="$$POS8" }
+}
+$$ELSE(POS1)
+file XPS8_autosave.tpl-req
+{
+    { DEVICE="$$DEVICE", C1="$$C1", C2="$$C2", C3="$$C3", C4="$$C4", C5="$$C5", C6="$$C6", C7="$$C7", C8="$$C8" }
+}
+$$ENDIF(POS1)
+

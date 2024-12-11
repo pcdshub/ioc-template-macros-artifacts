@@ -1,0 +1,54 @@
+# MODS IOC instance autosave file
+
+file lockerman.tpl-req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(FREQLOCK)
+file pidLoop.tpl-req
+{
+	{ BASE = "$$BASE_PV", LOOP = "FREQ" }
+}
+$$ENDLOOP(FREQLOCK)
+
+$$LOOP(PHASLOCK)
+file pidLoop.tpl-req
+{
+	{ BASE = "$$BASE_PV", LOOP = "PHAS" }
+}
+$$ENDLOOP(PHASLOCK)
+
+$$LOOP(TIMECONTROL)
+file tpr_delay.tpl-req
+{
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_1", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_1" }
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_2", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_2" }
+}
+
+file atca_phase.tpl-req
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file combined_control.tpl-req
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file bucket_jump.tpl-req
+{
+	{ BASE = "$$BASE_PV" }
+}
+
+file calibrate.tpl-req
+{
+	{ BASE = "$$BASE_PV" }
+}
+
+file goose_trig.tpl-req
+{
+	{ BASE = "$$BASE_PV" }
+}
+$$ENDLOOP(TIMECONTROL)
+

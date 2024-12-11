@@ -1,0 +1,72 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+$$LOOP(EPIX)
+file detector-epix.tpl-arch
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+
+$$IF(QUAD)
+$$ELSE(QUAD)
+file peltier.tpl-arch
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+$$ENDIF(QUAD)
+
+$$IF(PGPBOX)
+file archive_epix$$IF(QUAD,Quad,)Mon.archive
+{
+	{ IOC = "$$IOC_PV", BASE = "$$BASE:$$NAME" }
+}
+$$ENDIF(PGPBOX)
+$$ENDLOOP(EPIX)
+
+$$LOOP(EPIXHR)
+file detector-epix.tpl-arch
+{
+    { PRED = "$$BASE:$$NAME" }
+}
+
+file peltier.tpl-arch
+{
+    { PRED = "$$BASE:$$NAME" }
+}
+
+$$IF(PGPBOX)
+file archive_epixHrMod.archive
+{
+    { IOC = "$$IOC_PV", BASE = "$$BASE:$$NAME" }
+}
+$$ENDIF(PGPBOX)
+$$ENDLOOP(EPIXHR)
+
+$$LOOP(EPIX2M)
+file detector-epix.tpl-arch
+{
+	pattern
+	{ PRED }
+	{ "$$BASE:$$NAME:Q0" }
+	{ "$$BASE:$$NAME:Q1" }
+	{ "$$BASE:$$NAME:Q2" }
+	{ "$$BASE:$$NAME:Q3" }
+}
+
+file archive_epixQuadMon.archive
+{
+	pattern
+	{ BASE }
+	{ "$$BASE:$$NAME:Q0" }
+	{ "$$BASE:$$NAME:Q1" }
+	{ "$$BASE:$$NAME:Q2" }
+	{ "$$BASE:$$NAME:Q3" }
+}
+$$ENDLOOP(EPIX2M)
+
+file archive_SR.archive
+{
+	{ IOC = "$$IOC_PV" }
+}

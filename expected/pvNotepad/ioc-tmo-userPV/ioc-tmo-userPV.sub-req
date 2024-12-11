@@ -1,0 +1,442 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:DPHI_REQUEST    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:DPHI_STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:ABORT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:LAST_NUM_SHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:ABORT_EN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sStatus    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sPost1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sPost2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:TIMETOOL:TTALL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:TIMETOOL:SHM:TTALL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:4    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:5    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:6    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:7    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:8    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:9    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:11    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:12    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:13    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:14    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:15    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { KFE:MR1K1:Transmisstion    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TMO:MR2K4:Transmisstion    }
+}
+

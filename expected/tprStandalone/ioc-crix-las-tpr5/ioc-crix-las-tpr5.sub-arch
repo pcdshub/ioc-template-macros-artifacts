@@ -1,0 +1,16 @@
+# Each tpr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "CRIX:IOC:LAS:TPR:05"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "CRIX:IOC:LAS:TPR:05"	}
+}
+
+file pcie_tprTrig.archive
+{
+        {       DEV = "CRIX:LAS:TPR:05"        }
+}

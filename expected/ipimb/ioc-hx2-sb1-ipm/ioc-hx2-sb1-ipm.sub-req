@@ -1,0 +1,15 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_ipimb.req
+{
+	{ RECNAME = "HX2:SB1:IPM:01" }
+	{ RECNAME = "HX2:SB1:IPM:02" }
+}
+
+file autosave_evr_PMC.req
+{
+	{ EVR = "HX2:EVR:IPM" }
+}

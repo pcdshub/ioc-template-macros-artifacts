@@ -1,0 +1,26 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "TMO:MPOD:FIM:IOC:02" }
+}
+
+file iseg_12Ch.req
+{
+	{
+		P			= "MR9K8:FIM:SHV",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "MR9K8:FIM:SHV"
+	}
+}
+file iseg_12Ch.req
+{
+	{
+		P			= "MR9K9:FIM:SHV",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "MR9K9:FIM:SHV"
+	}
+}

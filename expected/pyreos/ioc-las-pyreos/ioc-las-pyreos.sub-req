@@ -1,0 +1,16 @@
+# pyreos IOC instance autosave file
+
+file pyreos.req
+{
+	{ BASE = "LAS:PYR", IOC = "IOC:LAS:PYR:0" }
+}
+
+file pyreos_evr.req
+{
+	{ BASE = "LAS:PYR", IOC = "IOC:LAS:PYR:0" }
+}
+
+file autosave_evr_SLAC.req
+{
+	{ EVR = "EVR:LAS:PYR:01" }
+}

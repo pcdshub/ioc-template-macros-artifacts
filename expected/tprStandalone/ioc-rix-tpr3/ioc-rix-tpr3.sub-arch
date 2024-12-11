@@ -1,0 +1,16 @@
+# Each tpr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "RIX:IOC:CAM:TPR:03"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "RIX:IOC:CAM:TPR:03"	}
+}
+
+file pcie_tprTrig.archive
+{
+        {       DEV = "RIX:CAM:TPR:03"        }
+}

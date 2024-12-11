@@ -1,0 +1,17 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { DET:PROT:PICKER:READ_DF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { DET:PROT:PICKER:S_CLOSE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { DET:PROT:TRIGGER    }
+}
+

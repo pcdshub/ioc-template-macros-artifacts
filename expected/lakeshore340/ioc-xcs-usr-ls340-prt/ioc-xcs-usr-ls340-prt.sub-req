@@ -1,0 +1,9 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file lakeshore_ioc.req
+{
+    { IOC = "XCS:IOC:TCT:PRT" }
+}
+

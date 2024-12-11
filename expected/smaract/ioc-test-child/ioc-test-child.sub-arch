@@ -1,0 +1,75 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LAS:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{LAS:TST:MCS2:02, 1 }
+	{LAS:TST:MCS2:02, 2 }
+	{LAS:TST:MCS2:02, 4 }
+	{LAS:TST:MCS2:02, 5 }
+	{LAS:TST:MCS2:02, 7 }
+	{LAS:TST:MCS2:02, 8 }
+	{LAS:TST:MCS2:02, 10 }
+	{LAS:TST:MCS2:02, 12 }
+	{LAS:TST:MCS2:02, 13 }
+	{LAS:TST:MCS2:02, 14 }
+	{LAS:TST:MCS2:02, 16 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { TEST:TEST_STAGE_A }
+    { TEST:TEST_STAGE_B }
+    { TEST:TEST_STAGE_C }
+    { TEST:TEST_STAGE_D }
+    { TEST:TEST_STAGE_E }
+    { TEST:TEST_STAGE_F }
+    { TEST:TEST_STAGE_G }
+    { TEST:TEST_STAGE_H }
+    { TEST:TEST_STAGE_I }
+    { TEST:TEST_STAGE_J }
+    { TEST:TEST_STAGE_K }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+        }
+
+file smaract_module.archive
+{
+    pattern
+    { BASE, MOD }
+
+    { LAS:TST:MCS2:02,  0 }
+
+    { LAS:TST:MCS2:02,  1 }
+
+    { LAS:TST:MCS2:02,  2 }
+
+    { LAS:TST:MCS2:02,  3 }
+
+    { LAS:TST:MCS2:02,  4 }
+
+    { LAS:TST:MCS2:02,  5 }
+}

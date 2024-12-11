@@ -1,0 +1,16 @@
+# lc20 IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file lc20-ioc.req
+{
+        { IOC = "XCS:LC20:IOC:01" }
+}
+
+# Generate autosave PV list for each serial device
+file lc20.tpl-req
+{
+        
+        { DEV="XCS:SDS:LC20:01" }
+        
+        { DEV="XCS:SDS:LC20:02" }
+        }

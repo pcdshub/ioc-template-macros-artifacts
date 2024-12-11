@@ -1,0 +1,51 @@
+# vacuum IOC instance autosave file
+
+file vacuum-ioc.req
+{
+	{ IOC = "IOC:LFE:VAC:SUPPORT" }
+}
+
+	
+		
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "TV1L0:GPI:01" }
+	}
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "TV2L0:GPI:01" }
+	}
+		
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "TV2L0:GPI:02" }
+	}
+		
+		
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "SL1L0:POWER:GPI:01" }
+	}
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "AT2L0:SOLID:GPI:01" }
+	}
+		
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "SP1L0:KMONO:GPI:01" }
+	}
+		
+		
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "PA1L0:GPI:01" }
+	}
+			file autosave_937a_pr.tpl-req
+	{
+		{ device = "MR1L0:HOMS:GPI:01" }
+	}
+	
+	
+		
+	

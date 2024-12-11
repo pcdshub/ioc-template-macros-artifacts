@@ -1,0 +1,12 @@
+# IOC archive file
+
+file pidLoop.tpl-arch
+{
+    { BASE = "LAS:FTL:LLG2:01", LOOP = "FREQ" }
+}
+
+file pidLoop.tpl-arch
+{
+    { BASE = "LAS:FTL:LLG2:01", LOOP = "PHAS" }
+}
+

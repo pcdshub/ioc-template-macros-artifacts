@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_imp2.archive
+{
+	{ IOC = "IOC:MFX:BMMON" }
+}
+
+file archive_evr_SLAC.archive
+{
+	{ EVR = "EVR:MFX:BMMON" }
+}

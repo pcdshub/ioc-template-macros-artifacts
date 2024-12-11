@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file wfsIoc.archive
+{
+	{	IOC = "IOC:LM1K4:INJ_DP2_TF1_WF1"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:LM1K4:INJ_DP2_TF1_WF1"	}
+}
+
+file wfs.archive
+{
+    { CAM = "LM1K4:INJ_DP2_TF1_WF1" }
+}

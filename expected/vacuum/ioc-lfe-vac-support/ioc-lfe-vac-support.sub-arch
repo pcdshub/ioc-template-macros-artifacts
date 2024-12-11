@@ -1,0 +1,179 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:LFE:VAC:SUPPORT" }
+}
+
+file archive_937a_cc.tpl-arch
+{
+	{ device = "TV1L0:GCC:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "TV2L0:GCC:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "TV1L0:GPI:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "TV2L0:GPI:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "TV2L0:GCC:02" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "TV2L0:GPI:02" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "SL1L0:POWER:GCC:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "AT2L0:SOLID:GCC:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "SL1L0:POWER:GPI:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "AT2L0:SOLID:GPI:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "SP1L0:KMONO:GCC:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "SP1L0:KMONO:GPI:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "PA1L0:GCC:01" }
+}
+file archive_937a_cc.tpl-arch
+{
+	{ device = "MR1L0:HOMS:GCC:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "PA1L0:GPI:01" }
+}
+file archive_937a_pr.tpl-arch
+{
+	{ device = "MR1L0:HOMS:GPI:01" }
+}
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV2L0:GFS:01" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV5L0:GFS:01" }
+}
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSL0:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSL0:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSL0:PIP:03" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSL0:PIP:04" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSL0:PIP:05" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "IM1L0:XTES:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV2L0:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV2L0:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV2L0:PIP:03" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "SP1L0:KMONO:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR1L0:HOMS:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "BT2L0:PLEG:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR2L0:HOMS:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV3L0:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "ST1L0:XTES:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR1L1:TXI:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV4L0:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV4L0:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV5L0:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV5L0:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "SL1L0:POWER:PIN:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "AT2L0:SOLID:PIN:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PA1L0:PIN:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PA2L0:PIN:01" }
+}
+

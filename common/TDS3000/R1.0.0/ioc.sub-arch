@@ -1,0 +1,9 @@
+# TDS3000 IOC instance archive file
+
+# Generate archive PV list for IOC
+file TDS3000-ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+

@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO:FPS:03" }
+}
+
+file isegfps.archive
+{
+    { IOC = "IOC:TMO:FPS:03", BASE  = "TMO:FPS:03" }
+}

@@ -1,0 +1,13 @@
+# agilent5322 IOC instance archive file
+
+# Generate archive PV list for IOC
+file agilent5322-ioc.archive
+{
+	{ IOC = "LAS:LHN:IOC:CNT:05:FQ" }
+}
+
+# Generate archive PV list for each serial device
+file agilent5322.tpl-arch
+{
+	{ DEVICE = "LAS:LHN:CNT:05:FQ" }
+}

@@ -1,0 +1,10 @@
+# Generate archive request 
+file mmca_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            
+            { TMO:CVMI:MMC:05 }
+            
+            { TMO:CVMI:MMC:06 }
+            }
+

@@ -1,0 +1,23 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_ipimbIoc.archive
+{
+	{ IOC = "XCS:R04:IOC:34" }
+}
+
+file archive_evr_PMC.archive
+{
+	{ EVR = "XCS:R04:EVR:34" }
+}
+
+file archive_ipimb.archive
+{
+	{ RECNAME = "XCS:DG1:IMB:01" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "XCS:DG1:IMB:02" }
+}

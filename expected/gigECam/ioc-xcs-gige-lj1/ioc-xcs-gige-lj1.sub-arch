@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-xcs-gige-lj1
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XCS:GIGE:LJ1"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XCS:GIGE:LJ1"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "XCS:GIGE:LJ1"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", ROI = "ROI1"  }
+        {   CAM = "XCS:GIGE:LJ1", ROI = "ROI2"  }
+        {   CAM = "XCS:GIGE:LJ1", ROI = "ROI3"  }
+        {   CAM = "XCS:GIGE:LJ1", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", STATS = "Stats1"  }
+        {   CAM = "XCS:GIGE:LJ1", STATS = "Stats2"  }
+        {   CAM = "XCS:GIGE:LJ1", STATS = "Stats3"  }
+        {   CAM = "XCS:GIGE:LJ1", STATS = "Stats4"  }
+        {   CAM = "XCS:GIGE:LJ1", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "XCS:GIGE:LJ1", OVER = "Over1"    }
+    }
+
+
+            
+file image_meta.archive
+{
+    {   CAM = "XCS:GIGE:LJ1"    }
+}
+
+
+file archive_evr_SLAC.archive
+{
+	{	EVR = "XCS:GIGE:EVR:LJ1"	}
+}
+
+file prosilica.tpl-arch
+{
+	{	P = "XCS:GIGE:LJ1", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "XCS:GIGE:LJ1", R = ":"	}
+}
+
+

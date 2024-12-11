@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:CXI:TTK" }
+}
+
+file thermotek.archive
+{
+    { IOC = "IOC:CXI:TTK", P  = "CXI:JF4M:TTK" }
+}

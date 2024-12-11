@@ -1,0 +1,25 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file lakeshore_ioc.archive
+{
+    { IOC = "XCS:IOC:TCT" }
+}
+
+file lakeshore_archive.archive
+{
+    { NAME = "XCS:USR:TCT:01" }
+}
+file lakeshore_archive.archive
+{
+    { NAME = "XCS:USR:TCT:02" }
+}
+file lakeshore_archive.archive
+{
+    { NAME = "XCS:USR:TCT:03" }
+}
+file lakeshore_archive.archive
+{
+    { NAME = "XCS:USR:TCT:04" }
+}

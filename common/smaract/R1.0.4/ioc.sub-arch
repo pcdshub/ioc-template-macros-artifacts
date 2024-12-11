@@ -1,0 +1,33 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+$$LOOP(SMARACT)
+$$IF(ALL)
+$$LOOP(COUNT)
+	{$$BASE,  $$INDEX }
+$$ENDLOOP(COUNT)
+$$ENDIF(ALL)
+$$ENDLOOP(SMARACT)
+$$LOOP(AXIS)
+	{$$SMARACTBASE, $$CHANNEL }
+$$ENDLOOP(AXIS)
+$$LOOP(CUSTOMAXIS)
+	{$$CUSTOMBASE, $$CHANNEL }
+$$ENDLOOP(CUSTOMAXIS)
+}
+
+

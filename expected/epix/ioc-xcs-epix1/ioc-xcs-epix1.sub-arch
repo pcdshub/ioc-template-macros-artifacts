@@ -1,0 +1,26 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file detector-epix.tpl-arch
+{
+	{ PRED = "XCS:EPIX:01" }
+}
+
+file peltier.tpl-arch
+{
+	{ PRED = "XCS:EPIX:01" }
+}
+
+file archive_epixMon.archive
+{
+	{ IOC = "IOC:XCS:EPIX", BASE = "XCS:EPIX:01" }
+}
+
+
+
+file archive_SR.archive
+{
+	{ IOC = "IOC:XCS:EPIX" }
+}

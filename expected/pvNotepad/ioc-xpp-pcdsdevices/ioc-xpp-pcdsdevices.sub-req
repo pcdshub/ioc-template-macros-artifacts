@@ -1,0 +1,167 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:delay:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:delay:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:delay:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:delay:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:delay:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:delay:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:22:pseudo:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:22:pseudo:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:24:pseudo:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:24:pseudo:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy_with_vernier:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy_with_vernier:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:theta:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:theta:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:wavelength:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:wavelength:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_chi:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_eta:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_phi:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_chi:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_eta:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { :e_phi:OphydSetpoint    }
+}
+

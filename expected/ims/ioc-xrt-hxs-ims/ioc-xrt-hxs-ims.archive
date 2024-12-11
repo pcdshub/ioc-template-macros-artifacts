@@ -1,0 +1,785 @@
+# IMS archive list
+STEP:XRT1:441:MOTR.DESC         86400    monitor
+STEP:XRT1:441:MOTR.TYPE         86400    monitor
+STEP:XRT1:441:MOTR.PORT         86400    monitor
+STEP:XRT1:441:MOTR.LM           86400    monitor
+STEP:XRT1:441:MOTR.SM           86400    monitor
+STEP:XRT1:441:MOTR.SF           86400    monitor
+STEP:XRT1:441:MOTR.STSV         86400    monitor
+STEP:XRT1:441:MOTR.ERSV         86400    monitor
+STEP:XRT1:441:MOTR.EE           86400    monitor
+STEP:XRT1:441:MOTR.EL           86400    monitor
+STEP:XRT1:441:MOTR.ME           86400    monitor
+STEP:XRT1:441:MOTR.MS           86400    monitor
+STEP:XRT1:441:MOTR.MT           86400    monitor
+STEP:XRT1:441:MOTR.HT           86400    monitor
+STEP:XRT1:441:MOTR.ES           86400    monitor
+STEP:XRT1:441:MOTR.RCMX         86400    monitor
+STEP:XRT1:441:MOTR.RC           86400    monitor
+STEP:XRT1:441:MOTR.HCMX         86400    monitor
+STEP:XRT1:441:MOTR.HC           86400    monitor
+STEP:XRT1:441:MOTR.DVER         86400    monitor
+STEP:XRT1:441:MOTR.MODE         86400    monitor
+STEP:XRT1:441:MOTR.EGU          86400    monitor
+STEP:XRT1:441:MOTR.UREV         86400    monitor
+STEP:XRT1:441:MOTR.FREV         86400    monitor
+STEP:XRT1:441:MOTR.SREV         86400    monitor
+STEP:XRT1:441:MOTR.MRES         86400    monitor
+STEP:XRT1:441:MOTR.ERES         86400    monitor
+STEP:XRT1:441:MOTR.DIR          86400    monitor
+STEP:XRT1:441:MOTR.OFF          86400    monitor
+STEP:XRT1:441:MOTR.FOFF         86400    monitor
+STEP:XRT1:441:MOTR.HTYP         86400    monitor
+STEP:XRT1:441:MOTR.HEGE         86400    monitor
+STEP:XRT1:441:MOTR.BDST         86400    monitor
+STEP:XRT1:441:MOTR.HDST         86400    monitor
+STEP:XRT1:441:MOTR.DLLM         86400    monitor
+STEP:XRT1:441:MOTR.DHLM         86400    monitor
+STEP:XRT1:441:MOTR.LLM          86400    monitor
+STEP:XRT1:441:MOTR.HLM          86400    monitor
+STEP:XRT1:441:MOTR.RTRY         86400    monitor
+STEP:XRT1:441:MOTR.RDBD         86400    monitor
+STEP:XRT1:441:MOTR.PDBD         86400    monitor
+STEP:XRT1:441:MOTR.PREC         86400    monitor
+STEP:XRT1:441:MOTR.SBAS         86400    monitor
+STEP:XRT1:441:MOTR.SMAX         86400    monitor
+STEP:XRT1:441:MOTR.S            86400    monitor
+STEP:XRT1:441:MOTR.VBAS         86400    monitor
+STEP:XRT1:441:MOTR.VMAX         86400    monitor
+STEP:XRT1:441:MOTR.VELO         86400    monitor
+STEP:XRT1:441:MOTR.BS           86400    monitor
+STEP:XRT1:441:MOTR.BVEL         86400    monitor
+STEP:XRT1:441:MOTR.HS           86400    monitor
+STEP:XRT1:441:MOTR.HVEL         86400    monitor
+STEP:XRT1:441:MOTR.ACCL         86400    monitor
+STEP:XRT1:441:MOTR.BACC         86400    monitor
+STEP:XRT1:441:MOTR.HACC         86400    monitor
+STEP:XRT1:441:MOTR.TWV          86400    monitor
+STEP:XRT1:441:MOTR.HOMD         86400    monitor
+STEP:XRT1:441:MOTR.EGAG         86400    monitor
+STEP:XRT1:441:MOTR.ERBL         86400    monitor
+STEP:XRT1:441:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:441:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:441:MOTR.S1           86400    monitor
+STEP:XRT1:441:MOTR.S2           86400    monitor
+STEP:XRT1:441:MOTR.S3           86400    monitor
+STEP:XRT1:441:MOTR.S4           86400    monitor
+STEP:XRT1:441:MOTR.S9           86400    monitor
+
+STEP:XRT1:441:MOTR.RES          86400    monitor
+
+STEP:XRT1:441:MOTR.VAL          2        monitor
+STEP:XRT1:441:MOTR.DVAL         2        monitor
+STEP:XRT1:441:MOTR.RVAL         2        monitor
+STEP:XRT1:441:MOTR.RRBV         0.2      monitor
+STEP:XRT1:441:MOTR.DRBV         0.2      monitor
+STEP:XRT1:441:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:441:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:441:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:441:MOTR.RCNT         86400    monitor
+STEP:XRT1:441:MOTR.MISS         86400    monitor
+
+STEP:XRT1:441:MOTR.LLS          86400    monitor
+STEP:XRT1:441:MOTR.HLS          86400    monitor
+
+STEP:XRT1:441:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:441:MOTR.MIP          0.2      monitor
+STEP:XRT1:441:MOTR.MOVN         0.2      monitor
+STEP:XRT1:441:MOTR.DMOV         0.2      monitor
+STEP:XRT1:441:MOTR.MSTA         0.2      monitor
+STEP:XRT1:441:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:441:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:441:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:441:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:441:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:441:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:442:MOTR.DESC         86400    monitor
+STEP:XRT1:442:MOTR.TYPE         86400    monitor
+STEP:XRT1:442:MOTR.PORT         86400    monitor
+STEP:XRT1:442:MOTR.LM           86400    monitor
+STEP:XRT1:442:MOTR.SM           86400    monitor
+STEP:XRT1:442:MOTR.SF           86400    monitor
+STEP:XRT1:442:MOTR.STSV         86400    monitor
+STEP:XRT1:442:MOTR.ERSV         86400    monitor
+STEP:XRT1:442:MOTR.EE           86400    monitor
+STEP:XRT1:442:MOTR.EL           86400    monitor
+STEP:XRT1:442:MOTR.ME           86400    monitor
+STEP:XRT1:442:MOTR.MS           86400    monitor
+STEP:XRT1:442:MOTR.MT           86400    monitor
+STEP:XRT1:442:MOTR.HT           86400    monitor
+STEP:XRT1:442:MOTR.ES           86400    monitor
+STEP:XRT1:442:MOTR.RCMX         86400    monitor
+STEP:XRT1:442:MOTR.RC           86400    monitor
+STEP:XRT1:442:MOTR.HCMX         86400    monitor
+STEP:XRT1:442:MOTR.HC           86400    monitor
+STEP:XRT1:442:MOTR.DVER         86400    monitor
+STEP:XRT1:442:MOTR.MODE         86400    monitor
+STEP:XRT1:442:MOTR.EGU          86400    monitor
+STEP:XRT1:442:MOTR.UREV         86400    monitor
+STEP:XRT1:442:MOTR.FREV         86400    monitor
+STEP:XRT1:442:MOTR.SREV         86400    monitor
+STEP:XRT1:442:MOTR.MRES         86400    monitor
+STEP:XRT1:442:MOTR.ERES         86400    monitor
+STEP:XRT1:442:MOTR.DIR          86400    monitor
+STEP:XRT1:442:MOTR.OFF          86400    monitor
+STEP:XRT1:442:MOTR.FOFF         86400    monitor
+STEP:XRT1:442:MOTR.HTYP         86400    monitor
+STEP:XRT1:442:MOTR.HEGE         86400    monitor
+STEP:XRT1:442:MOTR.BDST         86400    monitor
+STEP:XRT1:442:MOTR.HDST         86400    monitor
+STEP:XRT1:442:MOTR.DLLM         86400    monitor
+STEP:XRT1:442:MOTR.DHLM         86400    monitor
+STEP:XRT1:442:MOTR.LLM          86400    monitor
+STEP:XRT1:442:MOTR.HLM          86400    monitor
+STEP:XRT1:442:MOTR.RTRY         86400    monitor
+STEP:XRT1:442:MOTR.RDBD         86400    monitor
+STEP:XRT1:442:MOTR.PDBD         86400    monitor
+STEP:XRT1:442:MOTR.PREC         86400    monitor
+STEP:XRT1:442:MOTR.SBAS         86400    monitor
+STEP:XRT1:442:MOTR.SMAX         86400    monitor
+STEP:XRT1:442:MOTR.S            86400    monitor
+STEP:XRT1:442:MOTR.VBAS         86400    monitor
+STEP:XRT1:442:MOTR.VMAX         86400    monitor
+STEP:XRT1:442:MOTR.VELO         86400    monitor
+STEP:XRT1:442:MOTR.BS           86400    monitor
+STEP:XRT1:442:MOTR.BVEL         86400    monitor
+STEP:XRT1:442:MOTR.HS           86400    monitor
+STEP:XRT1:442:MOTR.HVEL         86400    monitor
+STEP:XRT1:442:MOTR.ACCL         86400    monitor
+STEP:XRT1:442:MOTR.BACC         86400    monitor
+STEP:XRT1:442:MOTR.HACC         86400    monitor
+STEP:XRT1:442:MOTR.TWV          86400    monitor
+STEP:XRT1:442:MOTR.HOMD         86400    monitor
+STEP:XRT1:442:MOTR.EGAG         86400    monitor
+STEP:XRT1:442:MOTR.ERBL         86400    monitor
+STEP:XRT1:442:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:442:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:442:MOTR.S1           86400    monitor
+STEP:XRT1:442:MOTR.S2           86400    monitor
+STEP:XRT1:442:MOTR.S3           86400    monitor
+STEP:XRT1:442:MOTR.S4           86400    monitor
+STEP:XRT1:442:MOTR.S9           86400    monitor
+
+STEP:XRT1:442:MOTR.RES          86400    monitor
+
+STEP:XRT1:442:MOTR.VAL          2        monitor
+STEP:XRT1:442:MOTR.DVAL         2        monitor
+STEP:XRT1:442:MOTR.RVAL         2        monitor
+STEP:XRT1:442:MOTR.RRBV         0.2      monitor
+STEP:XRT1:442:MOTR.DRBV         0.2      monitor
+STEP:XRT1:442:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:442:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:442:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:442:MOTR.RCNT         86400    monitor
+STEP:XRT1:442:MOTR.MISS         86400    monitor
+
+STEP:XRT1:442:MOTR.LLS          86400    monitor
+STEP:XRT1:442:MOTR.HLS          86400    monitor
+
+STEP:XRT1:442:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:442:MOTR.MIP          0.2      monitor
+STEP:XRT1:442:MOTR.MOVN         0.2      monitor
+STEP:XRT1:442:MOTR.DMOV         0.2      monitor
+STEP:XRT1:442:MOTR.MSTA         0.2      monitor
+STEP:XRT1:442:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:442:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:442:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:442:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:442:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:442:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:443:MOTR.DESC         86400    monitor
+STEP:XRT1:443:MOTR.TYPE         86400    monitor
+STEP:XRT1:443:MOTR.PORT         86400    monitor
+STEP:XRT1:443:MOTR.LM           86400    monitor
+STEP:XRT1:443:MOTR.SM           86400    monitor
+STEP:XRT1:443:MOTR.SF           86400    monitor
+STEP:XRT1:443:MOTR.STSV         86400    monitor
+STEP:XRT1:443:MOTR.ERSV         86400    monitor
+STEP:XRT1:443:MOTR.EE           86400    monitor
+STEP:XRT1:443:MOTR.EL           86400    monitor
+STEP:XRT1:443:MOTR.ME           86400    monitor
+STEP:XRT1:443:MOTR.MS           86400    monitor
+STEP:XRT1:443:MOTR.MT           86400    monitor
+STEP:XRT1:443:MOTR.HT           86400    monitor
+STEP:XRT1:443:MOTR.ES           86400    monitor
+STEP:XRT1:443:MOTR.RCMX         86400    monitor
+STEP:XRT1:443:MOTR.RC           86400    monitor
+STEP:XRT1:443:MOTR.HCMX         86400    monitor
+STEP:XRT1:443:MOTR.HC           86400    monitor
+STEP:XRT1:443:MOTR.DVER         86400    monitor
+STEP:XRT1:443:MOTR.MODE         86400    monitor
+STEP:XRT1:443:MOTR.EGU          86400    monitor
+STEP:XRT1:443:MOTR.UREV         86400    monitor
+STEP:XRT1:443:MOTR.FREV         86400    monitor
+STEP:XRT1:443:MOTR.SREV         86400    monitor
+STEP:XRT1:443:MOTR.MRES         86400    monitor
+STEP:XRT1:443:MOTR.ERES         86400    monitor
+STEP:XRT1:443:MOTR.DIR          86400    monitor
+STEP:XRT1:443:MOTR.OFF          86400    monitor
+STEP:XRT1:443:MOTR.FOFF         86400    monitor
+STEP:XRT1:443:MOTR.HTYP         86400    monitor
+STEP:XRT1:443:MOTR.HEGE         86400    monitor
+STEP:XRT1:443:MOTR.BDST         86400    monitor
+STEP:XRT1:443:MOTR.HDST         86400    monitor
+STEP:XRT1:443:MOTR.DLLM         86400    monitor
+STEP:XRT1:443:MOTR.DHLM         86400    monitor
+STEP:XRT1:443:MOTR.LLM          86400    monitor
+STEP:XRT1:443:MOTR.HLM          86400    monitor
+STEP:XRT1:443:MOTR.RTRY         86400    monitor
+STEP:XRT1:443:MOTR.RDBD         86400    monitor
+STEP:XRT1:443:MOTR.PDBD         86400    monitor
+STEP:XRT1:443:MOTR.PREC         86400    monitor
+STEP:XRT1:443:MOTR.SBAS         86400    monitor
+STEP:XRT1:443:MOTR.SMAX         86400    monitor
+STEP:XRT1:443:MOTR.S            86400    monitor
+STEP:XRT1:443:MOTR.VBAS         86400    monitor
+STEP:XRT1:443:MOTR.VMAX         86400    monitor
+STEP:XRT1:443:MOTR.VELO         86400    monitor
+STEP:XRT1:443:MOTR.BS           86400    monitor
+STEP:XRT1:443:MOTR.BVEL         86400    monitor
+STEP:XRT1:443:MOTR.HS           86400    monitor
+STEP:XRT1:443:MOTR.HVEL         86400    monitor
+STEP:XRT1:443:MOTR.ACCL         86400    monitor
+STEP:XRT1:443:MOTR.BACC         86400    monitor
+STEP:XRT1:443:MOTR.HACC         86400    monitor
+STEP:XRT1:443:MOTR.TWV          86400    monitor
+STEP:XRT1:443:MOTR.HOMD         86400    monitor
+STEP:XRT1:443:MOTR.EGAG         86400    monitor
+STEP:XRT1:443:MOTR.ERBL         86400    monitor
+STEP:XRT1:443:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:443:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:443:MOTR.S1           86400    monitor
+STEP:XRT1:443:MOTR.S2           86400    monitor
+STEP:XRT1:443:MOTR.S3           86400    monitor
+STEP:XRT1:443:MOTR.S4           86400    monitor
+STEP:XRT1:443:MOTR.S9           86400    monitor
+
+STEP:XRT1:443:MOTR.RES          86400    monitor
+
+STEP:XRT1:443:MOTR.VAL          2        monitor
+STEP:XRT1:443:MOTR.DVAL         2        monitor
+STEP:XRT1:443:MOTR.RVAL         2        monitor
+STEP:XRT1:443:MOTR.RRBV         0.2      monitor
+STEP:XRT1:443:MOTR.DRBV         0.2      monitor
+STEP:XRT1:443:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:443:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:443:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:443:MOTR.RCNT         86400    monitor
+STEP:XRT1:443:MOTR.MISS         86400    monitor
+
+STEP:XRT1:443:MOTR.LLS          86400    monitor
+STEP:XRT1:443:MOTR.HLS          86400    monitor
+
+STEP:XRT1:443:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:443:MOTR.MIP          0.2      monitor
+STEP:XRT1:443:MOTR.MOVN         0.2      monitor
+STEP:XRT1:443:MOTR.DMOV         0.2      monitor
+STEP:XRT1:443:MOTR.MSTA         0.2      monitor
+STEP:XRT1:443:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:443:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:443:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:443:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:443:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:443:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:444:MOTR.DESC         86400    monitor
+STEP:XRT1:444:MOTR.TYPE         86400    monitor
+STEP:XRT1:444:MOTR.PORT         86400    monitor
+STEP:XRT1:444:MOTR.LM           86400    monitor
+STEP:XRT1:444:MOTR.SM           86400    monitor
+STEP:XRT1:444:MOTR.SF           86400    monitor
+STEP:XRT1:444:MOTR.STSV         86400    monitor
+STEP:XRT1:444:MOTR.ERSV         86400    monitor
+STEP:XRT1:444:MOTR.EE           86400    monitor
+STEP:XRT1:444:MOTR.EL           86400    monitor
+STEP:XRT1:444:MOTR.ME           86400    monitor
+STEP:XRT1:444:MOTR.MS           86400    monitor
+STEP:XRT1:444:MOTR.MT           86400    monitor
+STEP:XRT1:444:MOTR.HT           86400    monitor
+STEP:XRT1:444:MOTR.ES           86400    monitor
+STEP:XRT1:444:MOTR.RCMX         86400    monitor
+STEP:XRT1:444:MOTR.RC           86400    monitor
+STEP:XRT1:444:MOTR.HCMX         86400    monitor
+STEP:XRT1:444:MOTR.HC           86400    monitor
+STEP:XRT1:444:MOTR.DVER         86400    monitor
+STEP:XRT1:444:MOTR.MODE         86400    monitor
+STEP:XRT1:444:MOTR.EGU          86400    monitor
+STEP:XRT1:444:MOTR.UREV         86400    monitor
+STEP:XRT1:444:MOTR.FREV         86400    monitor
+STEP:XRT1:444:MOTR.SREV         86400    monitor
+STEP:XRT1:444:MOTR.MRES         86400    monitor
+STEP:XRT1:444:MOTR.ERES         86400    monitor
+STEP:XRT1:444:MOTR.DIR          86400    monitor
+STEP:XRT1:444:MOTR.OFF          86400    monitor
+STEP:XRT1:444:MOTR.FOFF         86400    monitor
+STEP:XRT1:444:MOTR.HTYP         86400    monitor
+STEP:XRT1:444:MOTR.HEGE         86400    monitor
+STEP:XRT1:444:MOTR.BDST         86400    monitor
+STEP:XRT1:444:MOTR.HDST         86400    monitor
+STEP:XRT1:444:MOTR.DLLM         86400    monitor
+STEP:XRT1:444:MOTR.DHLM         86400    monitor
+STEP:XRT1:444:MOTR.LLM          86400    monitor
+STEP:XRT1:444:MOTR.HLM          86400    monitor
+STEP:XRT1:444:MOTR.RTRY         86400    monitor
+STEP:XRT1:444:MOTR.RDBD         86400    monitor
+STEP:XRT1:444:MOTR.PDBD         86400    monitor
+STEP:XRT1:444:MOTR.PREC         86400    monitor
+STEP:XRT1:444:MOTR.SBAS         86400    monitor
+STEP:XRT1:444:MOTR.SMAX         86400    monitor
+STEP:XRT1:444:MOTR.S            86400    monitor
+STEP:XRT1:444:MOTR.VBAS         86400    monitor
+STEP:XRT1:444:MOTR.VMAX         86400    monitor
+STEP:XRT1:444:MOTR.VELO         86400    monitor
+STEP:XRT1:444:MOTR.BS           86400    monitor
+STEP:XRT1:444:MOTR.BVEL         86400    monitor
+STEP:XRT1:444:MOTR.HS           86400    monitor
+STEP:XRT1:444:MOTR.HVEL         86400    monitor
+STEP:XRT1:444:MOTR.ACCL         86400    monitor
+STEP:XRT1:444:MOTR.BACC         86400    monitor
+STEP:XRT1:444:MOTR.HACC         86400    monitor
+STEP:XRT1:444:MOTR.TWV          86400    monitor
+STEP:XRT1:444:MOTR.HOMD         86400    monitor
+STEP:XRT1:444:MOTR.EGAG         86400    monitor
+STEP:XRT1:444:MOTR.ERBL         86400    monitor
+STEP:XRT1:444:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:444:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:444:MOTR.S1           86400    monitor
+STEP:XRT1:444:MOTR.S2           86400    monitor
+STEP:XRT1:444:MOTR.S3           86400    monitor
+STEP:XRT1:444:MOTR.S4           86400    monitor
+STEP:XRT1:444:MOTR.S9           86400    monitor
+
+STEP:XRT1:444:MOTR.RES          86400    monitor
+
+STEP:XRT1:444:MOTR.VAL          2        monitor
+STEP:XRT1:444:MOTR.DVAL         2        monitor
+STEP:XRT1:444:MOTR.RVAL         2        monitor
+STEP:XRT1:444:MOTR.RRBV         0.2      monitor
+STEP:XRT1:444:MOTR.DRBV         0.2      monitor
+STEP:XRT1:444:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:444:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:444:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:444:MOTR.RCNT         86400    monitor
+STEP:XRT1:444:MOTR.MISS         86400    monitor
+
+STEP:XRT1:444:MOTR.LLS          86400    monitor
+STEP:XRT1:444:MOTR.HLS          86400    monitor
+
+STEP:XRT1:444:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:444:MOTR.MIP          0.2      monitor
+STEP:XRT1:444:MOTR.MOVN         0.2      monitor
+STEP:XRT1:444:MOTR.DMOV         0.2      monitor
+STEP:XRT1:444:MOTR.MSTA         0.2      monitor
+STEP:XRT1:444:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:444:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:444:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:444:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:444:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:444:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:445:MOTR.DESC         86400    monitor
+STEP:XRT1:445:MOTR.TYPE         86400    monitor
+STEP:XRT1:445:MOTR.PORT         86400    monitor
+STEP:XRT1:445:MOTR.LM           86400    monitor
+STEP:XRT1:445:MOTR.SM           86400    monitor
+STEP:XRT1:445:MOTR.SF           86400    monitor
+STEP:XRT1:445:MOTR.STSV         86400    monitor
+STEP:XRT1:445:MOTR.ERSV         86400    monitor
+STEP:XRT1:445:MOTR.EE           86400    monitor
+STEP:XRT1:445:MOTR.EL           86400    monitor
+STEP:XRT1:445:MOTR.ME           86400    monitor
+STEP:XRT1:445:MOTR.MS           86400    monitor
+STEP:XRT1:445:MOTR.MT           86400    monitor
+STEP:XRT1:445:MOTR.HT           86400    monitor
+STEP:XRT1:445:MOTR.ES           86400    monitor
+STEP:XRT1:445:MOTR.RCMX         86400    monitor
+STEP:XRT1:445:MOTR.RC           86400    monitor
+STEP:XRT1:445:MOTR.HCMX         86400    monitor
+STEP:XRT1:445:MOTR.HC           86400    monitor
+STEP:XRT1:445:MOTR.DVER         86400    monitor
+STEP:XRT1:445:MOTR.MODE         86400    monitor
+STEP:XRT1:445:MOTR.EGU          86400    monitor
+STEP:XRT1:445:MOTR.UREV         86400    monitor
+STEP:XRT1:445:MOTR.FREV         86400    monitor
+STEP:XRT1:445:MOTR.SREV         86400    monitor
+STEP:XRT1:445:MOTR.MRES         86400    monitor
+STEP:XRT1:445:MOTR.ERES         86400    monitor
+STEP:XRT1:445:MOTR.DIR          86400    monitor
+STEP:XRT1:445:MOTR.OFF          86400    monitor
+STEP:XRT1:445:MOTR.FOFF         86400    monitor
+STEP:XRT1:445:MOTR.HTYP         86400    monitor
+STEP:XRT1:445:MOTR.HEGE         86400    monitor
+STEP:XRT1:445:MOTR.BDST         86400    monitor
+STEP:XRT1:445:MOTR.HDST         86400    monitor
+STEP:XRT1:445:MOTR.DLLM         86400    monitor
+STEP:XRT1:445:MOTR.DHLM         86400    monitor
+STEP:XRT1:445:MOTR.LLM          86400    monitor
+STEP:XRT1:445:MOTR.HLM          86400    monitor
+STEP:XRT1:445:MOTR.RTRY         86400    monitor
+STEP:XRT1:445:MOTR.RDBD         86400    monitor
+STEP:XRT1:445:MOTR.PDBD         86400    monitor
+STEP:XRT1:445:MOTR.PREC         86400    monitor
+STEP:XRT1:445:MOTR.SBAS         86400    monitor
+STEP:XRT1:445:MOTR.SMAX         86400    monitor
+STEP:XRT1:445:MOTR.S            86400    monitor
+STEP:XRT1:445:MOTR.VBAS         86400    monitor
+STEP:XRT1:445:MOTR.VMAX         86400    monitor
+STEP:XRT1:445:MOTR.VELO         86400    monitor
+STEP:XRT1:445:MOTR.BS           86400    monitor
+STEP:XRT1:445:MOTR.BVEL         86400    monitor
+STEP:XRT1:445:MOTR.HS           86400    monitor
+STEP:XRT1:445:MOTR.HVEL         86400    monitor
+STEP:XRT1:445:MOTR.ACCL         86400    monitor
+STEP:XRT1:445:MOTR.BACC         86400    monitor
+STEP:XRT1:445:MOTR.HACC         86400    monitor
+STEP:XRT1:445:MOTR.TWV          86400    monitor
+STEP:XRT1:445:MOTR.HOMD         86400    monitor
+STEP:XRT1:445:MOTR.EGAG         86400    monitor
+STEP:XRT1:445:MOTR.ERBL         86400    monitor
+STEP:XRT1:445:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:445:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:445:MOTR.S1           86400    monitor
+STEP:XRT1:445:MOTR.S2           86400    monitor
+STEP:XRT1:445:MOTR.S3           86400    monitor
+STEP:XRT1:445:MOTR.S4           86400    monitor
+STEP:XRT1:445:MOTR.S9           86400    monitor
+
+STEP:XRT1:445:MOTR.RES          86400    monitor
+
+STEP:XRT1:445:MOTR.VAL          2        monitor
+STEP:XRT1:445:MOTR.DVAL         2        monitor
+STEP:XRT1:445:MOTR.RVAL         2        monitor
+STEP:XRT1:445:MOTR.RRBV         0.2      monitor
+STEP:XRT1:445:MOTR.DRBV         0.2      monitor
+STEP:XRT1:445:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:445:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:445:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:445:MOTR.RCNT         86400    monitor
+STEP:XRT1:445:MOTR.MISS         86400    monitor
+
+STEP:XRT1:445:MOTR.LLS          86400    monitor
+STEP:XRT1:445:MOTR.HLS          86400    monitor
+
+STEP:XRT1:445:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:445:MOTR.MIP          0.2      monitor
+STEP:XRT1:445:MOTR.MOVN         0.2      monitor
+STEP:XRT1:445:MOTR.DMOV         0.2      monitor
+STEP:XRT1:445:MOTR.MSTA         0.2      monitor
+STEP:XRT1:445:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:445:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:445:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:445:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:445:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:445:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:446:MOTR.DESC         86400    monitor
+STEP:XRT1:446:MOTR.TYPE         86400    monitor
+STEP:XRT1:446:MOTR.PORT         86400    monitor
+STEP:XRT1:446:MOTR.LM           86400    monitor
+STEP:XRT1:446:MOTR.SM           86400    monitor
+STEP:XRT1:446:MOTR.SF           86400    monitor
+STEP:XRT1:446:MOTR.STSV         86400    monitor
+STEP:XRT1:446:MOTR.ERSV         86400    monitor
+STEP:XRT1:446:MOTR.EE           86400    monitor
+STEP:XRT1:446:MOTR.EL           86400    monitor
+STEP:XRT1:446:MOTR.ME           86400    monitor
+STEP:XRT1:446:MOTR.MS           86400    monitor
+STEP:XRT1:446:MOTR.MT           86400    monitor
+STEP:XRT1:446:MOTR.HT           86400    monitor
+STEP:XRT1:446:MOTR.ES           86400    monitor
+STEP:XRT1:446:MOTR.RCMX         86400    monitor
+STEP:XRT1:446:MOTR.RC           86400    monitor
+STEP:XRT1:446:MOTR.HCMX         86400    monitor
+STEP:XRT1:446:MOTR.HC           86400    monitor
+STEP:XRT1:446:MOTR.DVER         86400    monitor
+STEP:XRT1:446:MOTR.MODE         86400    monitor
+STEP:XRT1:446:MOTR.EGU          86400    monitor
+STEP:XRT1:446:MOTR.UREV         86400    monitor
+STEP:XRT1:446:MOTR.FREV         86400    monitor
+STEP:XRT1:446:MOTR.SREV         86400    monitor
+STEP:XRT1:446:MOTR.MRES         86400    monitor
+STEP:XRT1:446:MOTR.ERES         86400    monitor
+STEP:XRT1:446:MOTR.DIR          86400    monitor
+STEP:XRT1:446:MOTR.OFF          86400    monitor
+STEP:XRT1:446:MOTR.FOFF         86400    monitor
+STEP:XRT1:446:MOTR.HTYP         86400    monitor
+STEP:XRT1:446:MOTR.HEGE         86400    monitor
+STEP:XRT1:446:MOTR.BDST         86400    monitor
+STEP:XRT1:446:MOTR.HDST         86400    monitor
+STEP:XRT1:446:MOTR.DLLM         86400    monitor
+STEP:XRT1:446:MOTR.DHLM         86400    monitor
+STEP:XRT1:446:MOTR.LLM          86400    monitor
+STEP:XRT1:446:MOTR.HLM          86400    monitor
+STEP:XRT1:446:MOTR.RTRY         86400    monitor
+STEP:XRT1:446:MOTR.RDBD         86400    monitor
+STEP:XRT1:446:MOTR.PDBD         86400    monitor
+STEP:XRT1:446:MOTR.PREC         86400    monitor
+STEP:XRT1:446:MOTR.SBAS         86400    monitor
+STEP:XRT1:446:MOTR.SMAX         86400    monitor
+STEP:XRT1:446:MOTR.S            86400    monitor
+STEP:XRT1:446:MOTR.VBAS         86400    monitor
+STEP:XRT1:446:MOTR.VMAX         86400    monitor
+STEP:XRT1:446:MOTR.VELO         86400    monitor
+STEP:XRT1:446:MOTR.BS           86400    monitor
+STEP:XRT1:446:MOTR.BVEL         86400    monitor
+STEP:XRT1:446:MOTR.HS           86400    monitor
+STEP:XRT1:446:MOTR.HVEL         86400    monitor
+STEP:XRT1:446:MOTR.ACCL         86400    monitor
+STEP:XRT1:446:MOTR.BACC         86400    monitor
+STEP:XRT1:446:MOTR.HACC         86400    monitor
+STEP:XRT1:446:MOTR.TWV          86400    monitor
+STEP:XRT1:446:MOTR.HOMD         86400    monitor
+STEP:XRT1:446:MOTR.EGAG         86400    monitor
+STEP:XRT1:446:MOTR.ERBL         86400    monitor
+STEP:XRT1:446:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:446:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:446:MOTR.S1           86400    monitor
+STEP:XRT1:446:MOTR.S2           86400    monitor
+STEP:XRT1:446:MOTR.S3           86400    monitor
+STEP:XRT1:446:MOTR.S4           86400    monitor
+STEP:XRT1:446:MOTR.S9           86400    monitor
+
+STEP:XRT1:446:MOTR.RES          86400    monitor
+
+STEP:XRT1:446:MOTR.VAL          2        monitor
+STEP:XRT1:446:MOTR.DVAL         2        monitor
+STEP:XRT1:446:MOTR.RVAL         2        monitor
+STEP:XRT1:446:MOTR.RRBV         0.2      monitor
+STEP:XRT1:446:MOTR.DRBV         0.2      monitor
+STEP:XRT1:446:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:446:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:446:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:446:MOTR.RCNT         86400    monitor
+STEP:XRT1:446:MOTR.MISS         86400    monitor
+
+STEP:XRT1:446:MOTR.LLS          86400    monitor
+STEP:XRT1:446:MOTR.HLS          86400    monitor
+
+STEP:XRT1:446:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:446:MOTR.MIP          0.2      monitor
+STEP:XRT1:446:MOTR.MOVN         0.2      monitor
+STEP:XRT1:446:MOTR.DMOV         0.2      monitor
+STEP:XRT1:446:MOTR.MSTA         0.2      monitor
+STEP:XRT1:446:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:446:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:446:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:446:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:446:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:446:MOTR:CFG_FILE     86400    monitor
+
+# IMS archive list
+STEP:XRT1:447:MOTR.DESC         86400    monitor
+STEP:XRT1:447:MOTR.TYPE         86400    monitor
+STEP:XRT1:447:MOTR.PORT         86400    monitor
+STEP:XRT1:447:MOTR.LM           86400    monitor
+STEP:XRT1:447:MOTR.SM           86400    monitor
+STEP:XRT1:447:MOTR.SF           86400    monitor
+STEP:XRT1:447:MOTR.STSV         86400    monitor
+STEP:XRT1:447:MOTR.ERSV         86400    monitor
+STEP:XRT1:447:MOTR.EE           86400    monitor
+STEP:XRT1:447:MOTR.EL           86400    monitor
+STEP:XRT1:447:MOTR.ME           86400    monitor
+STEP:XRT1:447:MOTR.MS           86400    monitor
+STEP:XRT1:447:MOTR.MT           86400    monitor
+STEP:XRT1:447:MOTR.HT           86400    monitor
+STEP:XRT1:447:MOTR.ES           86400    monitor
+STEP:XRT1:447:MOTR.RCMX         86400    monitor
+STEP:XRT1:447:MOTR.RC           86400    monitor
+STEP:XRT1:447:MOTR.HCMX         86400    monitor
+STEP:XRT1:447:MOTR.HC           86400    monitor
+STEP:XRT1:447:MOTR.DVER         86400    monitor
+STEP:XRT1:447:MOTR.MODE         86400    monitor
+STEP:XRT1:447:MOTR.EGU          86400    monitor
+STEP:XRT1:447:MOTR.UREV         86400    monitor
+STEP:XRT1:447:MOTR.FREV         86400    monitor
+STEP:XRT1:447:MOTR.SREV         86400    monitor
+STEP:XRT1:447:MOTR.MRES         86400    monitor
+STEP:XRT1:447:MOTR.ERES         86400    monitor
+STEP:XRT1:447:MOTR.DIR          86400    monitor
+STEP:XRT1:447:MOTR.OFF          86400    monitor
+STEP:XRT1:447:MOTR.FOFF         86400    monitor
+STEP:XRT1:447:MOTR.HTYP         86400    monitor
+STEP:XRT1:447:MOTR.HEGE         86400    monitor
+STEP:XRT1:447:MOTR.BDST         86400    monitor
+STEP:XRT1:447:MOTR.HDST         86400    monitor
+STEP:XRT1:447:MOTR.DLLM         86400    monitor
+STEP:XRT1:447:MOTR.DHLM         86400    monitor
+STEP:XRT1:447:MOTR.LLM          86400    monitor
+STEP:XRT1:447:MOTR.HLM          86400    monitor
+STEP:XRT1:447:MOTR.RTRY         86400    monitor
+STEP:XRT1:447:MOTR.RDBD         86400    monitor
+STEP:XRT1:447:MOTR.PDBD         86400    monitor
+STEP:XRT1:447:MOTR.PREC         86400    monitor
+STEP:XRT1:447:MOTR.SBAS         86400    monitor
+STEP:XRT1:447:MOTR.SMAX         86400    monitor
+STEP:XRT1:447:MOTR.S            86400    monitor
+STEP:XRT1:447:MOTR.VBAS         86400    monitor
+STEP:XRT1:447:MOTR.VMAX         86400    monitor
+STEP:XRT1:447:MOTR.VELO         86400    monitor
+STEP:XRT1:447:MOTR.BS           86400    monitor
+STEP:XRT1:447:MOTR.BVEL         86400    monitor
+STEP:XRT1:447:MOTR.HS           86400    monitor
+STEP:XRT1:447:MOTR.HVEL         86400    monitor
+STEP:XRT1:447:MOTR.ACCL         86400    monitor
+STEP:XRT1:447:MOTR.BACC         86400    monitor
+STEP:XRT1:447:MOTR.HACC         86400    monitor
+STEP:XRT1:447:MOTR.TWV          86400    monitor
+STEP:XRT1:447:MOTR.HOMD         86400    monitor
+STEP:XRT1:447:MOTR.EGAG         86400    monitor
+STEP:XRT1:447:MOTR.ERBL         86400    monitor
+STEP:XRT1:447:MOTR.ESKL         86400    monitor
+
+STEP:XRT1:447:MOTR.DLVL         86400    monitor
+
+STEP:XRT1:447:MOTR.S1           86400    monitor
+STEP:XRT1:447:MOTR.S2           86400    monitor
+STEP:XRT1:447:MOTR.S3           86400    monitor
+STEP:XRT1:447:MOTR.S4           86400    monitor
+STEP:XRT1:447:MOTR.S9           86400    monitor
+
+STEP:XRT1:447:MOTR.RES          86400    monitor
+
+STEP:XRT1:447:MOTR.VAL          2        monitor
+STEP:XRT1:447:MOTR.DVAL         2        monitor
+STEP:XRT1:447:MOTR.RVAL         2        monitor
+STEP:XRT1:447:MOTR.RRBV         0.2      monitor
+STEP:XRT1:447:MOTR.DRBV         0.2      monitor
+STEP:XRT1:447:MOTR.RBV          0.2      monitor
+
+STEP:XRT1:447:MOTR.ERBV         0.2      monitor
+
+STEP:XRT1:447:MOTR.DIFF         0.2      monitor
+
+STEP:XRT1:447:MOTR.RCNT         86400    monitor
+STEP:XRT1:447:MOTR.MISS         86400    monitor
+
+STEP:XRT1:447:MOTR.LLS          86400    monitor
+STEP:XRT1:447:MOTR.HLS          86400    monitor
+
+STEP:XRT1:447:MOTR.ATHM         86400    monitor
+
+STEP:XRT1:447:MOTR.MIP          0.2      monitor
+STEP:XRT1:447:MOTR.MOVN         0.2      monitor
+STEP:XRT1:447:MOTR.DMOV         0.2      monitor
+STEP:XRT1:447:MOTR.MSTA         0.2      monitor
+STEP:XRT1:447:MOTR.HCSV         86400    monitor
+
+STEP:XRT1:447:MOTR:SAVED_RAW    86400    monitor
+STEP:XRT1:447:MOTR:SAVED_P      86400    monitor
+
+STEP:XRT1:447:MOTR:FW_MEANS     86400    monitor
+STEP:XRT1:447:MOTR:REV_MEANS    86400    monitor
+
+STEP:XRT1:447:MOTR:CFG_FILE     86400    monitor
+
+# "5-state" archive list
+XRT:HXS:CRYSTAL:Si(110)R50_SET     86400  monitor
+XRT:HXS:CRYSTAL:Si(110)R50_DELTA   86400  monitor
+XRT:HXS:CRYSTAL:Si(100)R50_SET     86400  monitor
+XRT:HXS:CRYSTAL:Si(100)R50_DELTA   86400  monitor
+XRT:HXS:CRYSTAL:Si(100)R200_SET     86400  monitor
+XRT:HXS:CRYSTAL:Si(100)R200_DELTA   86400  monitor
+XRT:HXS:CRYSTAL:Si(111)R200_SET     86400  monitor
+XRT:HXS:CRYSTAL:Si(111)R200_DELTA   86400  monitor
+XRT:HXS:CRYSTAL:OUT_SET     86400  monitor
+XRT:HXS:CRYSTAL:OUT_DELTA   86400  monitor
+
+XRT:HXS:CRYSTAL.ONST              86400  monitor
+XRT:HXS:CRYSTAL.ONSV              86400  monitor
+XRT:HXS:CRYSTAL.TWST              86400  monitor
+XRT:HXS:CRYSTAL.TWSV              86400  monitor
+XRT:HXS:CRYSTAL.THST              86400  monitor
+XRT:HXS:CRYSTAL.THSV              86400  monitor
+XRT:HXS:CRYSTAL.FRST              86400  monitor
+XRT:HXS:CRYSTAL.FRSV              86400  monitor
+XRT:HXS:CRYSTAL.FVST              86400  monitor
+XRT:HXS:CRYSTAL.FVSV              86400  monitor
+
+# "6-state" archive list
+XRT:HXS:FILTER:Open_SET     86400  monitor
+XRT:HXS:FILTER:Open_DELTA   86400  monitor
+XRT:HXS:FILTER:Copper_SET     86400  monitor
+XRT:HXS:FILTER:Copper_DELTA   86400  monitor
+XRT:HXS:FILTER:Nickel_SET     86400  monitor
+XRT:HXS:FILTER:Nickel_DELTA   86400  monitor
+XRT:HXS:FILTER:SST_SET     86400  monitor
+XRT:HXS:FILTER:SST_DELTA   86400  monitor
+XRT:HXS:FILTER:Zn_SET     86400  monitor
+XRT:HXS:FILTER:Zn_DELTA   86400  monitor
+XRT:HXS:FILTER:Ti_SET     86400  monitor
+XRT:HXS:FILTER:Ti_DELTA   86400  monitor
+
+XRT:HXS:FILTER.ONST              86400  monitor
+XRT:HXS:FILTER.ONSV              86400  monitor
+XRT:HXS:FILTER.TWST              86400  monitor
+XRT:HXS:FILTER.TWSV              86400  monitor
+XRT:HXS:FILTER.THST              86400  monitor
+XRT:HXS:FILTER.THSV              86400  monitor
+XRT:HXS:FILTER.FRST              86400  monitor
+XRT:HXS:FILTER.FRSV              86400  monitor
+XRT:HXS:FILTER.FVST              86400  monitor
+XRT:HXS:FILTER.FVSV              86400  monitor
+XRT:HXS:FILTER.SXST              86400  monitor
+XRT:HXS:FILTER.SXSV              86400  monitor
+

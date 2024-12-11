@@ -1,0 +1,30 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:MEC:LAS:MCS:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{MEC:LAS:MCS:01:m1 }
+	{MEC:LAS:MCS:01:m2 }
+	{MEC:LAS:MCS:01:m3 }
+	{MEC:LAS:MCS:01:m4 }
+	{MEC:LAS:MCS:01:m5 }
+	{MEC:LAS:MCS:01:m6 }
+	{MEC:LAS:MCS:01:m7 }
+	{MEC:LAS:MCS:01:m8 }
+	{MEC:LAS:MCS:01:m9 }
+	{MEC:LAS:MCS:01:m10 }
+	{MEC:LAS:MCS:01:m11 }
+	{MEC:LAS:MCS:01:m12 }
+	{MEC:LAS:MCS:01:m13 }
+	{MEC:LAS:MCS:01:m14 }
+	{MEC:LAS:MCS:01:m15 }
+	{MEC:LAS:MCS:01:m16 }
+	{MEC:LAS:MCS:01:m17 }
+	{MEC:LAS:MCS:01:m18 }
+}

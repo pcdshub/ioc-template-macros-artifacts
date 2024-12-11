@@ -1,0 +1,25 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:CRIX:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{CRIX:MCS2:01, 1 }
+	{CRIX:MCS2:01, 2 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { CRIX:MCS2:01:QUESTAR_TIP }
+    { CRIX:MCS2:01:QUESTAR_TILT }
+}
+
+

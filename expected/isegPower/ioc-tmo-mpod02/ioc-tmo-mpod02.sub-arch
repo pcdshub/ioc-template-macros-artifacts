@@ -1,0 +1,102 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "TMO:MPOD:02:IOC"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "TMO:MPOD:02:IOC"	}
+}
+
+file iseg_24Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_24Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_24Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "2",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_16Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "3",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_16Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "4",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_4Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "5",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_4Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "6",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_4Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "7",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_4Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "8",
+		DEV			= "TMO:MPOD:02"
+	}
+}
+file iseg_4Ch.archive
+{
+	{
+		P			= "TMO:MPOD:02",
+		R			= ":",
+		MODULE_ID	= "9",
+		DEV			= "TMO:MPOD:02"
+	}
+}

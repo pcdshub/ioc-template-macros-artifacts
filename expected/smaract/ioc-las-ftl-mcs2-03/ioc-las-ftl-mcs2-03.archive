@@ -1,0 +1,85 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:LAS:FTL:MCS:03:APP_DIR1 30 monitor 
+IOC:LAS:FTL:MCS:03:APP_DIR2 30 monitor 
+IOC:LAS:FTL:MCS:03:BSP_REV 30 monitor
+IOC:LAS:FTL:MCS:03:CA_CLNT_CNT 1 monitor 
+IOC:LAS:FTL:MCS:03:CA_CONN_CNT 1 monitor 
+IOC:LAS:FTL:MCS:03:EPICS_VERS 30 monitor
+IOC:LAS:FTL:MCS:03:FD_CNT 1 monitor 
+IOC:LAS:FTL:MCS:03:FD_FREE 1 monitor 
+IOC:LAS:FTL:MCS:03:FD_MAX 1 monitor 
+IOC:LAS:FTL:MCS:03:HOSTNAME 30 monitor
+IOC:LAS:FTL:MCS:03:KERNEL_VERS 30 monitor
+IOC:LAS:FTL:MCS:03:RECORD_CNT 10 monitor
+IOC:LAS:FTL:MCS:03:STARTTOD 30 monitor
+IOC:LAS:FTL:MCS:03:ST_SCRIPT1 30 monitor 
+IOC:LAS:FTL:MCS:03:ST_SCRIPT2 30 monitor 
+IOC:LAS:FTL:MCS:03:SUSP_TASK_CNT 30 monitor 
+IOC:LAS:FTL:MCS:03:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:LAS:FTL:MCS:03:DAT_MBUF_FREE 10
+IOC:LAS:FTL:MCS:03:DAT_MBUF_MAX 10
+IOC:LAS:FTL:MCS:03:LOAD 30 
+IOC:LAS:FTL:MCS:03:MEM_BLK_FREE 30 
+IOC:LAS:FTL:MCS:03:MEM_FREE 30 
+IOC:LAS:FTL:MCS:03:MEM_USED 30 
+IOC:LAS:FTL:MCS:03:SYS_MBUF_FREE 30 
+# BASE is LAS:FTL:MCS:03, INDEX is 1
+# Template for SmarAct MCS2.
+LAS:FTL:MCS:03:m1.RBV                   30 monitor  
+LAS:FTL:MCS:03:m1.DESC                  30 monitor  
+LAS:FTL:MCS:03:m1.TWV                   30 monitor
+LAS:FTL:MCS:03:m1.OFF                   30 monitor
+LAS:FTL:MCS:03:m1.FOFF                  30 monitor
+LAS:FTL:MCS:03:m1.DIR                   30 monitor
+LAS:FTL:MCS:03:m1.SET                   30 monitor
+LAS:FTL:MCS:03:m1.HLM                   30 monitor
+LAS:FTL:MCS:03:m1.LLM                   30 monitor
+LAS:FTL:MCS:03:m1.DHLM                  30 monitor
+LAS:FTL:MCS:03:m1.DLLM                  30 monitor
+LAS:FTL:MCS:03:m1.VELO                  30 monitor
+LAS:FTL:MCS:03:m1.SBAS                  30 monitor
+LAS:FTL:MCS:03:m1.SMAX                  30 monitor
+LAS:FTL:MCS:03:m1.CNEN                  30 monitor
+LAS:FTL:MCS:03:m1.SREV                  30 monitor
+LAS:FTL:MCS:03:m1.UREV                  30 monitor
+LAS:FTL:MCS:03:m1.MRES                  30 monitor
+LAS:FTL:MCS:03:m1.ERES                  30 monitor
+LAS:FTL:MCS:03:m1.RRES                  30 monitor
+LAS:FTL:MCS:03:m1.UEIP                  30 monitor
+LAS:FTL:MCS:03:m1.URIP                  30 monitor
+LAS:FTL:MCS:03:m1.BVEL                  30 monitor
+LAS:FTL:MCS:03:m1.JVEL                  30 monitor
+LAS:FTL:MCS:03:m1.ACCL                  30 monitor
+LAS:FTL:MCS:03:m1.BACC                  30 monitor
+LAS:FTL:MCS:03:m1.JAR                   30 monitor
+LAS:FTL:MCS:03:m1.VMAX                  30 monitor
+LAS:FTL:MCS:03:m1.VAL                   30 monitor
+LAS:FTL:MCS:03:m1:FW_MEANS              30 monitor
+LAS:FTL:MCS:03:m1:REV_MEANS             30 monitor
+LAS:FTL:MCS:03:m1_able.VAL              30 monitor
+LAS:FTL:MCS:03:m1:STEP_VOLTAGE          30 monitor
+LAS:FTL:MCS:03:m1:STEP_FREQ             30 monitor
+LAS:FTL:MCS:03:m1:STEP_COUNT            30 monitor
+LAS:FTL:MCS:03:m1:TOTAL_STEP_COUNT      30 monitor
+LAS:FTL:MCS:03:m1:TTZV_MODE             30 monitor
+LAS:FTL:MCS:03:m1:FORCE_SLIP_MODE       30 monitor
+LAS:FTL:MCS:03:m1:TTZ_THRESHOLD         30 monitor
+LAS:FTL:MCS:03:m1:PTYPE_RBV             30 monitor
+LAS:FTL:MCS:03:m1:LSCO                  30 monitor
+LAS:FTL:MCS:03:m1:SET_LSCO              30 monitor
+LAS:FTL:MCS:03:m1:LSCI_RBV              30 monitor
+LAS:FTL:MCS:03:m1:SET_LSCI              30 monitor
+LAS:FTL:MCS:03:m1:DRMIN                 30 monitor
+LAS:FTL:MCS:03:m1:SET_DRMIN             30 monitor
+LAS:FTL:MCS:03:m1:DRMAX                 30 monitor
+LAS:FTL:MCS:03:m1:SET_DRMAX             30 monitor
+LAS:FTL:MCS:03:m1:DCIN_RBV              30 monitor
+LAS:FTL:MCS:03:m1:SET_DCIN              30 monitor
+LAS:FTL:MCS:03:m1:CHANTEMP              30 monitor
+LAS:FTL:MCS:03:m1:MODTEMP               30 monitor

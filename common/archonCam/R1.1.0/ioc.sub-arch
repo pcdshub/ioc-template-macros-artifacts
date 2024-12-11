@@ -1,0 +1,16 @@
+#
+# gigECam Archive file for $$IOCNAME
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+

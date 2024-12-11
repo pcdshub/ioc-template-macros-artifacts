@@ -1,0 +1,88 @@
+file lusiAtt-ioc.req
+{
+	{ IOC = "IOC:MFX:ATT" }
+}
+
+file lusiAtt.req
+{
+	{ ATTBASE = "MFX" }
+}
+
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "10"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MFX"
+		ATTNUM  = "11"
+	}
+}
+

@@ -1,0 +1,17 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "XPP:R32:IOC:32:EVR"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "XPP:R32:IOC:32:EVR"	}
+}
+
+file archive_evr_SLAC.archive
+{
+    { EVR = "XPP:R32:EVR:32" }
+}
+

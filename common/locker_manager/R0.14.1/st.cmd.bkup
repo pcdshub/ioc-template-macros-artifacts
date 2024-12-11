@@ -1,0 +1,66 @@
+#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,linux-x86_64)/lockerman
+
+< envPaths
+
+epicsEnvSet( "ENGINEER" , "$$ENGINEER" )
+epicsEnvSet( "IOCSH_PS1", "$$IOCNAME>" )
+epicsEnvSet( "IOCPVROOT", "$$IOC_PV"   )
+epicsEnvSet( "LOCATION",  "$$IF(LOCATION,$$LOCATION,$$IOC_PV)")
+epicsEnvSet( "IOC_TOP",   "$$IOCTOP"   )
+epicsEnvSet( "TOP",       "$$TOP"      )
+epicsEnvSet( "STREAM_PROTOCOL_PATH", "$(IOC_TOP)/app/srcProtocol" )
+
+cd( "$(IOC_TOP)" )
+
+# Run common startup commands for linux soft IOC's
+< /reg/d/iocCommon/All/pre_linux.cmd
+
+# Register all support components
+dbLoadDatabase("dbd/lockerman.dbd")
+lockerman_registerRecordDeviceDriver(pdbbase)
+
+prefixPath("$$IOCTOP/scripts")
+
+#------------------------------------------------------------------------------
+# Load record instances
+
+dbLoadRecords("db/tile.db",     "PREV=,BASE=$$BASE_PV:T0,NEXT=$$BASE_PV:T1,TYPE=header,REVISION=$$IF(HEADER_REVISION,$$HEADER_REVISION,0),TOP=$$BASE_PV,AUTO_IN=1,AUTO_OUT=1")
+dbLoadRecords("db/header_$$IF(HEADER_REVISION,$$HEADER_REVISION,0).db", "PREV=,BASE=$$BASE_PV:T0,NEXT=$$BASE_PV:T1,TYPE=header,REVISION=$$IF(HEADER_REVISION,$$HEADER_REVISION,0),TOP=$$BASE_PV")
+
+$$LOOP(TILE)
+dbLoadRecords("db/tile.db",     "PREV=$$BASE_PV:T$$INDEX,BASE=$$BASE_PV:T$$CALC{INDEX+1},NEXT=$$BASE_PV:T$$CALC{INDEX+2},TYPE=$$TYPE,REVISION=$$REVISION,TOP=$$BASE_PV")
+dbLoadRecords("db/$$(TYPE)_$$(REVISION).db", "PREV=$$BASE_PV:T$$INDEX,BASE=$$BASE_PV:T$$CALC{INDEX+1},NEXT=$$BASE_PV:T$$CALC{INDEX+2},TYPE=$$TYPE,REVISION=$$REVISION,TOP=$$BASE_PV")
+$$ENDLOOP(TILE)
+
+dbLoadRecords("db/tile.db",     "PREV=$$BASE_PV:T$$COUNT(TILE),BASE=$$BASE_PV:T$$CALC{$$COUNT(TILE)+1},NEXT=,TYPE=footer,REVISION=$$IF(FOOTER_REVISION,$$FOOTER_REVISION,0),TOP=$$BASE_PV,AUTO_IN=1,AUTO_OUT=1")
+dbLoadRecords("db/footer_$$IF(FOOTER_REVISION,$$FOOTER_REVISION,0).db", "PREV=$$BASE_PV:T$$COUNT(TILE),BASE=$$BASE_PV:T$$CALC{$$COUNT(TILE)+1},NEXT=,TYPE=footer,REVISION=$$IF(FOOTER_REVISION,$$FOOTER_REVISION,0),TOP=$$BASE_PV")
+
+dbLoadRecords("db/iocSoft.db",		  "IOC=$(IOCPVROOT)" )
+dbLoadRecords("db/save_restoreStatus.db", "P=$(IOCPVROOT):" )
+
+#------------------------------------------------------------------------------
+# Setup autosave
+
+set_savefile_path( "$(IOC_DATA)/$(IOC)/autosave" )
+set_requestfile_path( "$(TOP)/autosave" )
+save_restoreSet_status_prefix( "$(IOCPVROOT):" )
+save_restoreSet_IncompleteSetsOk( 1 )
+save_restoreSet_DatedBackupFiles( 1 )
+
+# Just restore the settings
+set_pass0_restoreFile( "$(IOC).sav" )
+set_pass1_restoreFile( "$(IOC).sav" )
+
+
+# Initialize the IOC and start processing records
+iocInit()
+
+# Create autosave files from info directives
+makeAutosaveFileFromDbInfo( "$(IOC_DATA)/$(IOC)/autosave/autoSettings.req", "autosaveFields" )
+
+# Start autosave backups
+create_monitor_set( "autoSettings.req", 5, "" )
+create_monitor_set( "$(IOC).req", 5, "" )
+
+# All IOCs should dump some common info after initial startup.
+< /reg/d/iocCommon/All/post_linux.cmd

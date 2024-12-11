@@ -1,0 +1,39 @@
+# motion IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+file motion-ioc.req
+{
+	{ IOC = "XCS:IOC:PULSEPICKER:IMS" }
+}
+
+# Generate motor settings PV list for each motor
+# Note: use ims_motor_settings.template for IMS motors
+file ims_motor_settings.tpl-req
+{
+        { MOTOR = "XCS:SB2:MMS:09" }
+        { MOTOR = "XCS:SB2:MMS:08" }
+        { MOTOR = "XCS:SB2:MMS:21" }
+}
+
+# Local extra settings.
+file ims_extra.tpl-req
+{
+        { MOTOR = "XCS:SB2:MMS:09" }
+        { MOTOR = "XCS:SB2:MMS:08" }
+        { MOTOR = "XCS:SB2:MMS:21" }
+}
+
+#autosave list for records specific to pulse picker motor
+file pulse-motor-ims.tpl-req
+{
+        { MOTOR = "XCS:SB2:MMS:09" }
+}
+
+# Autosave list for the soft-position-monitor on the Y axis
+file soft-position-monitor.tpl-req
+{
+ {
+    ROOTPV = "XCS:SB2:MMS:09"
+    POSNAME = "IN_BEAM"
+ }
+}

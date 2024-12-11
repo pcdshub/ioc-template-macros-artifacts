@@ -1,0 +1,12 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+
+
+$$LOOP(RFOF_TX)
+file rfof.archive
+{
+    { IOC = "$$IOC_PV", BASE  = "$$BASE" }
+}
+$$ENDLOOP(RFOF_TX)

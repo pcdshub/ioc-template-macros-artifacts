@@ -1,0 +1,13 @@
+# IOC autosave file
+
+# Generate IOC archive request 
+file concentrator_ioc.req
+{
+    { IOC = "IOC:CXI:DS2:CTR" }
+}
+
+file concentrator_autosave.req
+{
+    { NAME = "CXI:DS2:CTR" }
+}
+

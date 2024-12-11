@@ -1,0 +1,23 @@
+# IOC archive file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file alicat_ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(MASSFLOW)
+file alicat_archive.archive
+{
+    { MFL = "$$NAME" }
+}
+
+$$IF(INTERLOCK)
+file interlock.archive
+{
+    { MFL = "$$NAME" }
+}
+$$ENDIF(INTERLOCK)
+$$ENDLOOP(MASSFLOW)

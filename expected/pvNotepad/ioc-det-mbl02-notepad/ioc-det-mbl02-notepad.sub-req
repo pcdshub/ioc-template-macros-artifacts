@@ -1,0 +1,7 @@
+
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD       }
+            { DET:MBL:02:HUTCH    }
+}

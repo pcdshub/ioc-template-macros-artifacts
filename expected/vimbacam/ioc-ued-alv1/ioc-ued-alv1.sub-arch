@@ -1,0 +1,16 @@
+#
+# gigECam Archive file for ioc-ued-alv1
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "UED:IOC:ALV:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "UED:IOC:ALV:01"	}
+}
+
+

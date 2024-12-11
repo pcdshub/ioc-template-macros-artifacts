@@ -1,0 +1,44 @@
+# IOC archive file
+
+file pidLoop.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02", LOOP = "FREQ" }
+}
+
+file pidLoop.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02", LOOP = "PHAS" }
+}
+
+file tpr_delay.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02", TRIG = "CBD", TPR_BASE = "LAS:LHN:TPR:02", TPR_TRIG = "01" }
+    { BASE = "LAS:LHN:LLG2:02", TRIG = "AMP", TPR_BASE = "LAS:LHN:TPR:02", TPR_TRIG = "03" }
+    { BASE = "LAS:LHN:LLG2:02", TRIG = "PP", TPR_BASE = "LAS:LHN:TPR:02", TPR_TRIG = "05" }
+    { BASE = "LAS:LHN:LLG2:02", TRIG = "TIC", TPR_BASE = "LAS:LHN:TPR:02", TPR_TRIG = "09" }
+}
+
+file atca_phase.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02" }
+}
+
+file combined_control.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02" }
+}
+
+file bucket_jump.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02" }
+}
+
+file calibrate.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02" }
+}
+
+file goose_trig.tpl-arch
+{
+    { BASE = "LAS:LHN:LLG2:02" }
+}

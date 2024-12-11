@@ -1,0 +1,77 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:delay:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:LAS:MMN:01:delay:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:24:pseudo:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:24:pseudo:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:26:pseudo:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MMS:26:pseudo:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy_with_vernier:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:energy_with_vernier:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:theta:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:theta:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:wavelength:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:MON:MPZ:01:wavelength:OphydSetpoint    }
+}
+

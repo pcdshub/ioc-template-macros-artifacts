@@ -1,0 +1,35 @@
+# IOC archive file
+## Replace _IOCPVROOT_ with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+file autosave_piMotion.req
+{
+	{ IOC = AMO:SDL:IOC:40:pi }
+}
+
+
+file autosave_motor.req
+{
+	{ NAME = AMO:SDL:MZM:01 }
+}
+file autosave_motor.req
+{
+	{ NAME = AMO:SDL:MZM:02 }
+}
+file autosave_motor.req
+{
+	{ NAME = AMO:SDL:MZM:03 }
+}
+
+file autosave_online.req
+{
+	{ NAME = AMO:SDL:MZM:01 }
+}
+file autosave_online.req
+{
+	{ NAME = AMO:SDL:MZM:02 }
+}
+file autosave_online.req
+{
+	{ NAME = AMO:SDL:MZM:03 }
+}

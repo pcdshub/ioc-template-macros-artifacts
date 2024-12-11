@@ -1,0 +1,97 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:XGMD:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:10" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:20" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:30" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:40" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:50" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GPI:10" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:60" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:70" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:80" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GCC:90" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "EM2K0:XGMD:GPI:50" }
+}
+
+file srg.archive
+{
+	{ BASE = "EM2K0:XGMD:GSR:1" }
+}
+
+
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:10" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:20" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:30" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:40" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:50" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:60" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:70" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:80" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM2K0:XGMD:PCT:90" }
+}
+
+

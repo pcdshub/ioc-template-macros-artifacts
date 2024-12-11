@@ -1,0 +1,40 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "LAS:IOC:SRC800:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "LAS:IOC:SRC800:01"	}
+}
+
+file raritan.archive
+{
+    { BASE = "LAS:SRC800:01" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="1" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="2" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="3" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="4" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="5" }
+}
+file raritan_sensor.archive
+{
+    { BASE = "LAS:SRC800:01", IDX="6" }
+}

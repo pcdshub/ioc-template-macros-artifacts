@@ -1,0 +1,14 @@
+# Keithley6514 IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file Keithley6514-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(ETM)
+file Keithley6514.tpl-req
+{
+	{ EM = "$$NAME" }
+}
+$$ENDLOOP(ETM)

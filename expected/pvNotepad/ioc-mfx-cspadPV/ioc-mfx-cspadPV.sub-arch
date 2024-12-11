@@ -1,0 +1,480 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_XAXIS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:X0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:X0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:Y0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:Y0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_CALC_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_FRACTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_PHI    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_PHI_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MEAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_STD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQUENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMPLITUDE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_EVENTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RESOLUTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQ_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQ_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMP_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMP_ARRAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RADIUS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RADIUS_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:PXSIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_XWIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_XWIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:LATENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XMIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XMAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSTEP_SIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:BOUNCE_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSCAN_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSCAN_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:PULSE_ENERGY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:TRANS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:E_THRESH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:DET:RE:STATE    }
+}

@@ -1,0 +1,16 @@
+#
+# gigECam Archive file for ioc-det-archon1
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "DET:IOC:CAM:ARCHON:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "DET:IOC:CAM:ARCHON:01"	}
+}
+
+

@@ -1,0 +1,22 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       LAS:R54:IOC:21,
+                EVR             =       LAS:R54:EVR:21
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       LAS:EXP:CVV:01  }
+        {       CAM             =       LAS:EXP:CVV:02  }
+        {       CAM             =       LAS:EXP:CVV:03  }
+        {       CAM             =       LAS:EXP:CVV:04  }
+}
+

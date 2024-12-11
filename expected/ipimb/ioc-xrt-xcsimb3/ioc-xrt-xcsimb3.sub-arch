@@ -1,0 +1,47 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_ipimbIoc.archive
+{
+	{ IOC = "XCS:R38:IOC:43" }
+}
+
+file archive_evr_PMC.archive
+{
+	{ EVR = "XCS:R38:EVR:43" }
+}
+
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:MON:IMB:02" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:DG3:IMB:02" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:MON:IMB:01" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "XCS:DG3:IMB:04" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:MON:IMB:03" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:DG2:IMB:02" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "HFX:DG2:IMB:01" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "XCS:DG3:IMB:03" }
+}

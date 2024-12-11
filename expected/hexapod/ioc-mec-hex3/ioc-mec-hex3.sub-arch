@@ -1,0 +1,14 @@
+# Hexapod IOC instance archive file
+
+# Generate archive PV list for IOC
+file hexapod-ioc.archive
+{
+	{ IOC = "IOC:MEC:HEX3" }
+}
+
+
+# Generate archive PV list for hexapods
+file PIHexapod.tpl-arch
+{
+	{ baseName = "MEC:HEX:03" }
+}

@@ -1,0 +1,6 @@
+# interlock IOC instance autosave file
+
+file interlock.archive
+{
+	{ IOC = "IOC:ILK:QRIXS:DET", BASE="" }
+}

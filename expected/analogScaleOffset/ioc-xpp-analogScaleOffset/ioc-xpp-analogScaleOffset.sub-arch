@@ -1,0 +1,10 @@
+# IOC archive file
+file analogScaleOffset-ioc.archive
+{
+    { IOC = "XPP:USER:REGULATOR" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XPP:USR:OXY", NUM = "01" }
+}

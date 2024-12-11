@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file Keithley-ioc.archive
+{
+    { IOC = "IOC:DET:MBL2:PSV" }
+}
+
+file Keithley.archive
+{
+    { CONT = "DET:MBL2:PSV:01" }
+}

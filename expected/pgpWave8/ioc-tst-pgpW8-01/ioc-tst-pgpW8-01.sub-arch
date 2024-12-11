@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "TST:IOC:W8:01", PREFIX = "TST:W8:REG:01" }
+}
+

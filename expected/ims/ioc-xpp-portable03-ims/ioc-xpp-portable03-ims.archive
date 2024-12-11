@@ -1,0 +1,840 @@
+# IMS archive list
+XPP:USR:PRT:MMS:25.DESC         86400    monitor
+XPP:USR:PRT:MMS:25.TYPE         86400    monitor
+XPP:USR:PRT:MMS:25.PORT         86400    monitor
+XPP:USR:PRT:MMS:25.LM           86400    monitor
+XPP:USR:PRT:MMS:25.SM           86400    monitor
+XPP:USR:PRT:MMS:25.SF           86400    monitor
+XPP:USR:PRT:MMS:25.STSV         86400    monitor
+XPP:USR:PRT:MMS:25.ERSV         86400    monitor
+XPP:USR:PRT:MMS:25.EE           86400    monitor
+XPP:USR:PRT:MMS:25.EL           86400    monitor
+XPP:USR:PRT:MMS:25.ME           86400    monitor
+XPP:USR:PRT:MMS:25.MS           86400    monitor
+XPP:USR:PRT:MMS:25.MT           86400    monitor
+XPP:USR:PRT:MMS:25.HT           86400    monitor
+XPP:USR:PRT:MMS:25.ES           86400    monitor
+XPP:USR:PRT:MMS:25.RCMX         86400    monitor
+XPP:USR:PRT:MMS:25.RC           86400    monitor
+XPP:USR:PRT:MMS:25.HCMX         86400    monitor
+XPP:USR:PRT:MMS:25.HC           86400    monitor
+XPP:USR:PRT:MMS:25.DVER         86400    monitor
+XPP:USR:PRT:MMS:25.MODE         86400    monitor
+XPP:USR:PRT:MMS:25.EGU          86400    monitor
+XPP:USR:PRT:MMS:25.UREV         86400    monitor
+XPP:USR:PRT:MMS:25.FREV         86400    monitor
+XPP:USR:PRT:MMS:25.SREV         86400    monitor
+XPP:USR:PRT:MMS:25.MRES         86400    monitor
+XPP:USR:PRT:MMS:25.ERES         86400    monitor
+XPP:USR:PRT:MMS:25.DIR          86400    monitor
+XPP:USR:PRT:MMS:25.OFF          86400    monitor
+XPP:USR:PRT:MMS:25.FOFF         86400    monitor
+XPP:USR:PRT:MMS:25.HTYP         86400    monitor
+XPP:USR:PRT:MMS:25.HEGE         86400    monitor
+XPP:USR:PRT:MMS:25.BDST         86400    monitor
+XPP:USR:PRT:MMS:25.HDST         86400    monitor
+XPP:USR:PRT:MMS:25.DLLM         86400    monitor
+XPP:USR:PRT:MMS:25.DHLM         86400    monitor
+XPP:USR:PRT:MMS:25.LLM          86400    monitor
+XPP:USR:PRT:MMS:25.HLM          86400    monitor
+XPP:USR:PRT:MMS:25.RTRY         86400    monitor
+XPP:USR:PRT:MMS:25.RDBD         86400    monitor
+XPP:USR:PRT:MMS:25.PDBD         86400    monitor
+XPP:USR:PRT:MMS:25.PREC         86400    monitor
+XPP:USR:PRT:MMS:25.SBAS         86400    monitor
+XPP:USR:PRT:MMS:25.SMAX         86400    monitor
+XPP:USR:PRT:MMS:25.S            86400    monitor
+XPP:USR:PRT:MMS:25.VBAS         86400    monitor
+XPP:USR:PRT:MMS:25.VMAX         86400    monitor
+XPP:USR:PRT:MMS:25.VELO         86400    monitor
+XPP:USR:PRT:MMS:25.BS           86400    monitor
+XPP:USR:PRT:MMS:25.BVEL         86400    monitor
+XPP:USR:PRT:MMS:25.HS           86400    monitor
+XPP:USR:PRT:MMS:25.HVEL         86400    monitor
+XPP:USR:PRT:MMS:25.ACCL         86400    monitor
+XPP:USR:PRT:MMS:25.BACC         86400    monitor
+XPP:USR:PRT:MMS:25.HACC         86400    monitor
+XPP:USR:PRT:MMS:25.TWV          86400    monitor
+XPP:USR:PRT:MMS:25.HOMD         86400    monitor
+XPP:USR:PRT:MMS:25.EGAG         86400    monitor
+XPP:USR:PRT:MMS:25.ERBL         86400    monitor
+XPP:USR:PRT:MMS:25.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:25.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:25.S1           86400    monitor
+XPP:USR:PRT:MMS:25.S2           86400    monitor
+XPP:USR:PRT:MMS:25.S3           86400    monitor
+XPP:USR:PRT:MMS:25.S4           86400    monitor
+XPP:USR:PRT:MMS:25.S9           86400    monitor
+
+XPP:USR:PRT:MMS:25.RES          86400    monitor
+
+XPP:USR:PRT:MMS:25.VAL          2        monitor
+XPP:USR:PRT:MMS:25.DVAL         2        monitor
+XPP:USR:PRT:MMS:25.RVAL         2        monitor
+XPP:USR:PRT:MMS:25.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:25.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:25.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:25.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:25.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:25.RCNT         86400    monitor
+XPP:USR:PRT:MMS:25.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:25.LLS          86400    monitor
+XPP:USR:PRT:MMS:25.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:25.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:25.MIP          0.2      monitor
+XPP:USR:PRT:MMS:25.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:25.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:25.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:25.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:25:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:25:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:25:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:25:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:25:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:26.DESC         86400    monitor
+XPP:USR:PRT:MMS:26.TYPE         86400    monitor
+XPP:USR:PRT:MMS:26.PORT         86400    monitor
+XPP:USR:PRT:MMS:26.LM           86400    monitor
+XPP:USR:PRT:MMS:26.SM           86400    monitor
+XPP:USR:PRT:MMS:26.SF           86400    monitor
+XPP:USR:PRT:MMS:26.STSV         86400    monitor
+XPP:USR:PRT:MMS:26.ERSV         86400    monitor
+XPP:USR:PRT:MMS:26.EE           86400    monitor
+XPP:USR:PRT:MMS:26.EL           86400    monitor
+XPP:USR:PRT:MMS:26.ME           86400    monitor
+XPP:USR:PRT:MMS:26.MS           86400    monitor
+XPP:USR:PRT:MMS:26.MT           86400    monitor
+XPP:USR:PRT:MMS:26.HT           86400    monitor
+XPP:USR:PRT:MMS:26.ES           86400    monitor
+XPP:USR:PRT:MMS:26.RCMX         86400    monitor
+XPP:USR:PRT:MMS:26.RC           86400    monitor
+XPP:USR:PRT:MMS:26.HCMX         86400    monitor
+XPP:USR:PRT:MMS:26.HC           86400    monitor
+XPP:USR:PRT:MMS:26.DVER         86400    monitor
+XPP:USR:PRT:MMS:26.MODE         86400    monitor
+XPP:USR:PRT:MMS:26.EGU          86400    monitor
+XPP:USR:PRT:MMS:26.UREV         86400    monitor
+XPP:USR:PRT:MMS:26.FREV         86400    monitor
+XPP:USR:PRT:MMS:26.SREV         86400    monitor
+XPP:USR:PRT:MMS:26.MRES         86400    monitor
+XPP:USR:PRT:MMS:26.ERES         86400    monitor
+XPP:USR:PRT:MMS:26.DIR          86400    monitor
+XPP:USR:PRT:MMS:26.OFF          86400    monitor
+XPP:USR:PRT:MMS:26.FOFF         86400    monitor
+XPP:USR:PRT:MMS:26.HTYP         86400    monitor
+XPP:USR:PRT:MMS:26.HEGE         86400    monitor
+XPP:USR:PRT:MMS:26.BDST         86400    monitor
+XPP:USR:PRT:MMS:26.HDST         86400    monitor
+XPP:USR:PRT:MMS:26.DLLM         86400    monitor
+XPP:USR:PRT:MMS:26.DHLM         86400    monitor
+XPP:USR:PRT:MMS:26.LLM          86400    monitor
+XPP:USR:PRT:MMS:26.HLM          86400    monitor
+XPP:USR:PRT:MMS:26.RTRY         86400    monitor
+XPP:USR:PRT:MMS:26.RDBD         86400    monitor
+XPP:USR:PRT:MMS:26.PDBD         86400    monitor
+XPP:USR:PRT:MMS:26.PREC         86400    monitor
+XPP:USR:PRT:MMS:26.SBAS         86400    monitor
+XPP:USR:PRT:MMS:26.SMAX         86400    monitor
+XPP:USR:PRT:MMS:26.S            86400    monitor
+XPP:USR:PRT:MMS:26.VBAS         86400    monitor
+XPP:USR:PRT:MMS:26.VMAX         86400    monitor
+XPP:USR:PRT:MMS:26.VELO         86400    monitor
+XPP:USR:PRT:MMS:26.BS           86400    monitor
+XPP:USR:PRT:MMS:26.BVEL         86400    monitor
+XPP:USR:PRT:MMS:26.HS           86400    monitor
+XPP:USR:PRT:MMS:26.HVEL         86400    monitor
+XPP:USR:PRT:MMS:26.ACCL         86400    monitor
+XPP:USR:PRT:MMS:26.BACC         86400    monitor
+XPP:USR:PRT:MMS:26.HACC         86400    monitor
+XPP:USR:PRT:MMS:26.TWV          86400    monitor
+XPP:USR:PRT:MMS:26.HOMD         86400    monitor
+XPP:USR:PRT:MMS:26.EGAG         86400    monitor
+XPP:USR:PRT:MMS:26.ERBL         86400    monitor
+XPP:USR:PRT:MMS:26.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:26.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:26.S1           86400    monitor
+XPP:USR:PRT:MMS:26.S2           86400    monitor
+XPP:USR:PRT:MMS:26.S3           86400    monitor
+XPP:USR:PRT:MMS:26.S4           86400    monitor
+XPP:USR:PRT:MMS:26.S9           86400    monitor
+
+XPP:USR:PRT:MMS:26.RES          86400    monitor
+
+XPP:USR:PRT:MMS:26.VAL          2        monitor
+XPP:USR:PRT:MMS:26.DVAL         2        monitor
+XPP:USR:PRT:MMS:26.RVAL         2        monitor
+XPP:USR:PRT:MMS:26.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:26.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:26.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:26.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:26.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:26.RCNT         86400    monitor
+XPP:USR:PRT:MMS:26.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:26.LLS          86400    monitor
+XPP:USR:PRT:MMS:26.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:26.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:26.MIP          0.2      monitor
+XPP:USR:PRT:MMS:26.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:26.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:26.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:26.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:26:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:26:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:26:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:26:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:26:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:27.DESC         86400    monitor
+XPP:USR:PRT:MMS:27.TYPE         86400    monitor
+XPP:USR:PRT:MMS:27.PORT         86400    monitor
+XPP:USR:PRT:MMS:27.LM           86400    monitor
+XPP:USR:PRT:MMS:27.SM           86400    monitor
+XPP:USR:PRT:MMS:27.SF           86400    monitor
+XPP:USR:PRT:MMS:27.STSV         86400    monitor
+XPP:USR:PRT:MMS:27.ERSV         86400    monitor
+XPP:USR:PRT:MMS:27.EE           86400    monitor
+XPP:USR:PRT:MMS:27.EL           86400    monitor
+XPP:USR:PRT:MMS:27.ME           86400    monitor
+XPP:USR:PRT:MMS:27.MS           86400    monitor
+XPP:USR:PRT:MMS:27.MT           86400    monitor
+XPP:USR:PRT:MMS:27.HT           86400    monitor
+XPP:USR:PRT:MMS:27.ES           86400    monitor
+XPP:USR:PRT:MMS:27.RCMX         86400    monitor
+XPP:USR:PRT:MMS:27.RC           86400    monitor
+XPP:USR:PRT:MMS:27.HCMX         86400    monitor
+XPP:USR:PRT:MMS:27.HC           86400    monitor
+XPP:USR:PRT:MMS:27.DVER         86400    monitor
+XPP:USR:PRT:MMS:27.MODE         86400    monitor
+XPP:USR:PRT:MMS:27.EGU          86400    monitor
+XPP:USR:PRT:MMS:27.UREV         86400    monitor
+XPP:USR:PRT:MMS:27.FREV         86400    monitor
+XPP:USR:PRT:MMS:27.SREV         86400    monitor
+XPP:USR:PRT:MMS:27.MRES         86400    monitor
+XPP:USR:PRT:MMS:27.ERES         86400    monitor
+XPP:USR:PRT:MMS:27.DIR          86400    monitor
+XPP:USR:PRT:MMS:27.OFF          86400    monitor
+XPP:USR:PRT:MMS:27.FOFF         86400    monitor
+XPP:USR:PRT:MMS:27.HTYP         86400    monitor
+XPP:USR:PRT:MMS:27.HEGE         86400    monitor
+XPP:USR:PRT:MMS:27.BDST         86400    monitor
+XPP:USR:PRT:MMS:27.HDST         86400    monitor
+XPP:USR:PRT:MMS:27.DLLM         86400    monitor
+XPP:USR:PRT:MMS:27.DHLM         86400    monitor
+XPP:USR:PRT:MMS:27.LLM          86400    monitor
+XPP:USR:PRT:MMS:27.HLM          86400    monitor
+XPP:USR:PRT:MMS:27.RTRY         86400    monitor
+XPP:USR:PRT:MMS:27.RDBD         86400    monitor
+XPP:USR:PRT:MMS:27.PDBD         86400    monitor
+XPP:USR:PRT:MMS:27.PREC         86400    monitor
+XPP:USR:PRT:MMS:27.SBAS         86400    monitor
+XPP:USR:PRT:MMS:27.SMAX         86400    monitor
+XPP:USR:PRT:MMS:27.S            86400    monitor
+XPP:USR:PRT:MMS:27.VBAS         86400    monitor
+XPP:USR:PRT:MMS:27.VMAX         86400    monitor
+XPP:USR:PRT:MMS:27.VELO         86400    monitor
+XPP:USR:PRT:MMS:27.BS           86400    monitor
+XPP:USR:PRT:MMS:27.BVEL         86400    monitor
+XPP:USR:PRT:MMS:27.HS           86400    monitor
+XPP:USR:PRT:MMS:27.HVEL         86400    monitor
+XPP:USR:PRT:MMS:27.ACCL         86400    monitor
+XPP:USR:PRT:MMS:27.BACC         86400    monitor
+XPP:USR:PRT:MMS:27.HACC         86400    monitor
+XPP:USR:PRT:MMS:27.TWV          86400    monitor
+XPP:USR:PRT:MMS:27.HOMD         86400    monitor
+XPP:USR:PRT:MMS:27.EGAG         86400    monitor
+XPP:USR:PRT:MMS:27.ERBL         86400    monitor
+XPP:USR:PRT:MMS:27.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:27.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:27.S1           86400    monitor
+XPP:USR:PRT:MMS:27.S2           86400    monitor
+XPP:USR:PRT:MMS:27.S3           86400    monitor
+XPP:USR:PRT:MMS:27.S4           86400    monitor
+XPP:USR:PRT:MMS:27.S9           86400    monitor
+
+XPP:USR:PRT:MMS:27.RES          86400    monitor
+
+XPP:USR:PRT:MMS:27.VAL          2        monitor
+XPP:USR:PRT:MMS:27.DVAL         2        monitor
+XPP:USR:PRT:MMS:27.RVAL         2        monitor
+XPP:USR:PRT:MMS:27.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:27.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:27.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:27.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:27.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:27.RCNT         86400    monitor
+XPP:USR:PRT:MMS:27.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:27.LLS          86400    monitor
+XPP:USR:PRT:MMS:27.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:27.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:27.MIP          0.2      monitor
+XPP:USR:PRT:MMS:27.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:27.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:27.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:27.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:27:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:27:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:27:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:27:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:27:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:28.DESC         86400    monitor
+XPP:USR:PRT:MMS:28.TYPE         86400    monitor
+XPP:USR:PRT:MMS:28.PORT         86400    monitor
+XPP:USR:PRT:MMS:28.LM           86400    monitor
+XPP:USR:PRT:MMS:28.SM           86400    monitor
+XPP:USR:PRT:MMS:28.SF           86400    monitor
+XPP:USR:PRT:MMS:28.STSV         86400    monitor
+XPP:USR:PRT:MMS:28.ERSV         86400    monitor
+XPP:USR:PRT:MMS:28.EE           86400    monitor
+XPP:USR:PRT:MMS:28.EL           86400    monitor
+XPP:USR:PRT:MMS:28.ME           86400    monitor
+XPP:USR:PRT:MMS:28.MS           86400    monitor
+XPP:USR:PRT:MMS:28.MT           86400    monitor
+XPP:USR:PRT:MMS:28.HT           86400    monitor
+XPP:USR:PRT:MMS:28.ES           86400    monitor
+XPP:USR:PRT:MMS:28.RCMX         86400    monitor
+XPP:USR:PRT:MMS:28.RC           86400    monitor
+XPP:USR:PRT:MMS:28.HCMX         86400    monitor
+XPP:USR:PRT:MMS:28.HC           86400    monitor
+XPP:USR:PRT:MMS:28.DVER         86400    monitor
+XPP:USR:PRT:MMS:28.MODE         86400    monitor
+XPP:USR:PRT:MMS:28.EGU          86400    monitor
+XPP:USR:PRT:MMS:28.UREV         86400    monitor
+XPP:USR:PRT:MMS:28.FREV         86400    monitor
+XPP:USR:PRT:MMS:28.SREV         86400    monitor
+XPP:USR:PRT:MMS:28.MRES         86400    monitor
+XPP:USR:PRT:MMS:28.ERES         86400    monitor
+XPP:USR:PRT:MMS:28.DIR          86400    monitor
+XPP:USR:PRT:MMS:28.OFF          86400    monitor
+XPP:USR:PRT:MMS:28.FOFF         86400    monitor
+XPP:USR:PRT:MMS:28.HTYP         86400    monitor
+XPP:USR:PRT:MMS:28.HEGE         86400    monitor
+XPP:USR:PRT:MMS:28.BDST         86400    monitor
+XPP:USR:PRT:MMS:28.HDST         86400    monitor
+XPP:USR:PRT:MMS:28.DLLM         86400    monitor
+XPP:USR:PRT:MMS:28.DHLM         86400    monitor
+XPP:USR:PRT:MMS:28.LLM          86400    monitor
+XPP:USR:PRT:MMS:28.HLM          86400    monitor
+XPP:USR:PRT:MMS:28.RTRY         86400    monitor
+XPP:USR:PRT:MMS:28.RDBD         86400    monitor
+XPP:USR:PRT:MMS:28.PDBD         86400    monitor
+XPP:USR:PRT:MMS:28.PREC         86400    monitor
+XPP:USR:PRT:MMS:28.SBAS         86400    monitor
+XPP:USR:PRT:MMS:28.SMAX         86400    monitor
+XPP:USR:PRT:MMS:28.S            86400    monitor
+XPP:USR:PRT:MMS:28.VBAS         86400    monitor
+XPP:USR:PRT:MMS:28.VMAX         86400    monitor
+XPP:USR:PRT:MMS:28.VELO         86400    monitor
+XPP:USR:PRT:MMS:28.BS           86400    monitor
+XPP:USR:PRT:MMS:28.BVEL         86400    monitor
+XPP:USR:PRT:MMS:28.HS           86400    monitor
+XPP:USR:PRT:MMS:28.HVEL         86400    monitor
+XPP:USR:PRT:MMS:28.ACCL         86400    monitor
+XPP:USR:PRT:MMS:28.BACC         86400    monitor
+XPP:USR:PRT:MMS:28.HACC         86400    monitor
+XPP:USR:PRT:MMS:28.TWV          86400    monitor
+XPP:USR:PRT:MMS:28.HOMD         86400    monitor
+XPP:USR:PRT:MMS:28.EGAG         86400    monitor
+XPP:USR:PRT:MMS:28.ERBL         86400    monitor
+XPP:USR:PRT:MMS:28.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:28.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:28.S1           86400    monitor
+XPP:USR:PRT:MMS:28.S2           86400    monitor
+XPP:USR:PRT:MMS:28.S3           86400    monitor
+XPP:USR:PRT:MMS:28.S4           86400    monitor
+XPP:USR:PRT:MMS:28.S9           86400    monitor
+
+XPP:USR:PRT:MMS:28.RES          86400    monitor
+
+XPP:USR:PRT:MMS:28.VAL          2        monitor
+XPP:USR:PRT:MMS:28.DVAL         2        monitor
+XPP:USR:PRT:MMS:28.RVAL         2        monitor
+XPP:USR:PRT:MMS:28.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:28.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:28.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:28.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:28.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:28.RCNT         86400    monitor
+XPP:USR:PRT:MMS:28.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:28.LLS          86400    monitor
+XPP:USR:PRT:MMS:28.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:28.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:28.MIP          0.2      monitor
+XPP:USR:PRT:MMS:28.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:28.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:28.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:28.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:28:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:28:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:28:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:28:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:28:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:29.DESC         86400    monitor
+XPP:USR:PRT:MMS:29.TYPE         86400    monitor
+XPP:USR:PRT:MMS:29.PORT         86400    monitor
+XPP:USR:PRT:MMS:29.LM           86400    monitor
+XPP:USR:PRT:MMS:29.SM           86400    monitor
+XPP:USR:PRT:MMS:29.SF           86400    monitor
+XPP:USR:PRT:MMS:29.STSV         86400    monitor
+XPP:USR:PRT:MMS:29.ERSV         86400    monitor
+XPP:USR:PRT:MMS:29.EE           86400    monitor
+XPP:USR:PRT:MMS:29.EL           86400    monitor
+XPP:USR:PRT:MMS:29.ME           86400    monitor
+XPP:USR:PRT:MMS:29.MS           86400    monitor
+XPP:USR:PRT:MMS:29.MT           86400    monitor
+XPP:USR:PRT:MMS:29.HT           86400    monitor
+XPP:USR:PRT:MMS:29.ES           86400    monitor
+XPP:USR:PRT:MMS:29.RCMX         86400    monitor
+XPP:USR:PRT:MMS:29.RC           86400    monitor
+XPP:USR:PRT:MMS:29.HCMX         86400    monitor
+XPP:USR:PRT:MMS:29.HC           86400    monitor
+XPP:USR:PRT:MMS:29.DVER         86400    monitor
+XPP:USR:PRT:MMS:29.MODE         86400    monitor
+XPP:USR:PRT:MMS:29.EGU          86400    monitor
+XPP:USR:PRT:MMS:29.UREV         86400    monitor
+XPP:USR:PRT:MMS:29.FREV         86400    monitor
+XPP:USR:PRT:MMS:29.SREV         86400    monitor
+XPP:USR:PRT:MMS:29.MRES         86400    monitor
+XPP:USR:PRT:MMS:29.ERES         86400    monitor
+XPP:USR:PRT:MMS:29.DIR          86400    monitor
+XPP:USR:PRT:MMS:29.OFF          86400    monitor
+XPP:USR:PRT:MMS:29.FOFF         86400    monitor
+XPP:USR:PRT:MMS:29.HTYP         86400    monitor
+XPP:USR:PRT:MMS:29.HEGE         86400    monitor
+XPP:USR:PRT:MMS:29.BDST         86400    monitor
+XPP:USR:PRT:MMS:29.HDST         86400    monitor
+XPP:USR:PRT:MMS:29.DLLM         86400    monitor
+XPP:USR:PRT:MMS:29.DHLM         86400    monitor
+XPP:USR:PRT:MMS:29.LLM          86400    monitor
+XPP:USR:PRT:MMS:29.HLM          86400    monitor
+XPP:USR:PRT:MMS:29.RTRY         86400    monitor
+XPP:USR:PRT:MMS:29.RDBD         86400    monitor
+XPP:USR:PRT:MMS:29.PDBD         86400    monitor
+XPP:USR:PRT:MMS:29.PREC         86400    monitor
+XPP:USR:PRT:MMS:29.SBAS         86400    monitor
+XPP:USR:PRT:MMS:29.SMAX         86400    monitor
+XPP:USR:PRT:MMS:29.S            86400    monitor
+XPP:USR:PRT:MMS:29.VBAS         86400    monitor
+XPP:USR:PRT:MMS:29.VMAX         86400    monitor
+XPP:USR:PRT:MMS:29.VELO         86400    monitor
+XPP:USR:PRT:MMS:29.BS           86400    monitor
+XPP:USR:PRT:MMS:29.BVEL         86400    monitor
+XPP:USR:PRT:MMS:29.HS           86400    monitor
+XPP:USR:PRT:MMS:29.HVEL         86400    monitor
+XPP:USR:PRT:MMS:29.ACCL         86400    monitor
+XPP:USR:PRT:MMS:29.BACC         86400    monitor
+XPP:USR:PRT:MMS:29.HACC         86400    monitor
+XPP:USR:PRT:MMS:29.TWV          86400    monitor
+XPP:USR:PRT:MMS:29.HOMD         86400    monitor
+XPP:USR:PRT:MMS:29.EGAG         86400    monitor
+XPP:USR:PRT:MMS:29.ERBL         86400    monitor
+XPP:USR:PRT:MMS:29.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:29.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:29.S1           86400    monitor
+XPP:USR:PRT:MMS:29.S2           86400    monitor
+XPP:USR:PRT:MMS:29.S3           86400    monitor
+XPP:USR:PRT:MMS:29.S4           86400    monitor
+XPP:USR:PRT:MMS:29.S9           86400    monitor
+
+XPP:USR:PRT:MMS:29.RES          86400    monitor
+
+XPP:USR:PRT:MMS:29.VAL          2        monitor
+XPP:USR:PRT:MMS:29.DVAL         2        monitor
+XPP:USR:PRT:MMS:29.RVAL         2        monitor
+XPP:USR:PRT:MMS:29.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:29.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:29.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:29.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:29.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:29.RCNT         86400    monitor
+XPP:USR:PRT:MMS:29.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:29.LLS          86400    monitor
+XPP:USR:PRT:MMS:29.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:29.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:29.MIP          0.2      monitor
+XPP:USR:PRT:MMS:29.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:29.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:29.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:29.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:29:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:29:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:29:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:29:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:29:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:30.DESC         86400    monitor
+XPP:USR:PRT:MMS:30.TYPE         86400    monitor
+XPP:USR:PRT:MMS:30.PORT         86400    monitor
+XPP:USR:PRT:MMS:30.LM           86400    monitor
+XPP:USR:PRT:MMS:30.SM           86400    monitor
+XPP:USR:PRT:MMS:30.SF           86400    monitor
+XPP:USR:PRT:MMS:30.STSV         86400    monitor
+XPP:USR:PRT:MMS:30.ERSV         86400    monitor
+XPP:USR:PRT:MMS:30.EE           86400    monitor
+XPP:USR:PRT:MMS:30.EL           86400    monitor
+XPP:USR:PRT:MMS:30.ME           86400    monitor
+XPP:USR:PRT:MMS:30.MS           86400    monitor
+XPP:USR:PRT:MMS:30.MT           86400    monitor
+XPP:USR:PRT:MMS:30.HT           86400    monitor
+XPP:USR:PRT:MMS:30.ES           86400    monitor
+XPP:USR:PRT:MMS:30.RCMX         86400    monitor
+XPP:USR:PRT:MMS:30.RC           86400    monitor
+XPP:USR:PRT:MMS:30.HCMX         86400    monitor
+XPP:USR:PRT:MMS:30.HC           86400    monitor
+XPP:USR:PRT:MMS:30.DVER         86400    monitor
+XPP:USR:PRT:MMS:30.MODE         86400    monitor
+XPP:USR:PRT:MMS:30.EGU          86400    monitor
+XPP:USR:PRT:MMS:30.UREV         86400    monitor
+XPP:USR:PRT:MMS:30.FREV         86400    monitor
+XPP:USR:PRT:MMS:30.SREV         86400    monitor
+XPP:USR:PRT:MMS:30.MRES         86400    monitor
+XPP:USR:PRT:MMS:30.ERES         86400    monitor
+XPP:USR:PRT:MMS:30.DIR          86400    monitor
+XPP:USR:PRT:MMS:30.OFF          86400    monitor
+XPP:USR:PRT:MMS:30.FOFF         86400    monitor
+XPP:USR:PRT:MMS:30.HTYP         86400    monitor
+XPP:USR:PRT:MMS:30.HEGE         86400    monitor
+XPP:USR:PRT:MMS:30.BDST         86400    monitor
+XPP:USR:PRT:MMS:30.HDST         86400    monitor
+XPP:USR:PRT:MMS:30.DLLM         86400    monitor
+XPP:USR:PRT:MMS:30.DHLM         86400    monitor
+XPP:USR:PRT:MMS:30.LLM          86400    monitor
+XPP:USR:PRT:MMS:30.HLM          86400    monitor
+XPP:USR:PRT:MMS:30.RTRY         86400    monitor
+XPP:USR:PRT:MMS:30.RDBD         86400    monitor
+XPP:USR:PRT:MMS:30.PDBD         86400    monitor
+XPP:USR:PRT:MMS:30.PREC         86400    monitor
+XPP:USR:PRT:MMS:30.SBAS         86400    monitor
+XPP:USR:PRT:MMS:30.SMAX         86400    monitor
+XPP:USR:PRT:MMS:30.S            86400    monitor
+XPP:USR:PRT:MMS:30.VBAS         86400    monitor
+XPP:USR:PRT:MMS:30.VMAX         86400    monitor
+XPP:USR:PRT:MMS:30.VELO         86400    monitor
+XPP:USR:PRT:MMS:30.BS           86400    monitor
+XPP:USR:PRT:MMS:30.BVEL         86400    monitor
+XPP:USR:PRT:MMS:30.HS           86400    monitor
+XPP:USR:PRT:MMS:30.HVEL         86400    monitor
+XPP:USR:PRT:MMS:30.ACCL         86400    monitor
+XPP:USR:PRT:MMS:30.BACC         86400    monitor
+XPP:USR:PRT:MMS:30.HACC         86400    monitor
+XPP:USR:PRT:MMS:30.TWV          86400    monitor
+XPP:USR:PRT:MMS:30.HOMD         86400    monitor
+XPP:USR:PRT:MMS:30.EGAG         86400    monitor
+XPP:USR:PRT:MMS:30.ERBL         86400    monitor
+XPP:USR:PRT:MMS:30.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:30.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:30.S1           86400    monitor
+XPP:USR:PRT:MMS:30.S2           86400    monitor
+XPP:USR:PRT:MMS:30.S3           86400    monitor
+XPP:USR:PRT:MMS:30.S4           86400    monitor
+XPP:USR:PRT:MMS:30.S9           86400    monitor
+
+XPP:USR:PRT:MMS:30.RES          86400    monitor
+
+XPP:USR:PRT:MMS:30.VAL          2        monitor
+XPP:USR:PRT:MMS:30.DVAL         2        monitor
+XPP:USR:PRT:MMS:30.RVAL         2        monitor
+XPP:USR:PRT:MMS:30.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:30.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:30.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:30.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:30.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:30.RCNT         86400    monitor
+XPP:USR:PRT:MMS:30.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:30.LLS          86400    monitor
+XPP:USR:PRT:MMS:30.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:30.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:30.MIP          0.2      monitor
+XPP:USR:PRT:MMS:30.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:30.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:30.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:30.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:30:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:30:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:30:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:30:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:30:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:31.DESC         86400    monitor
+XPP:USR:PRT:MMS:31.TYPE         86400    monitor
+XPP:USR:PRT:MMS:31.PORT         86400    monitor
+XPP:USR:PRT:MMS:31.LM           86400    monitor
+XPP:USR:PRT:MMS:31.SM           86400    monitor
+XPP:USR:PRT:MMS:31.SF           86400    monitor
+XPP:USR:PRT:MMS:31.STSV         86400    monitor
+XPP:USR:PRT:MMS:31.ERSV         86400    monitor
+XPP:USR:PRT:MMS:31.EE           86400    monitor
+XPP:USR:PRT:MMS:31.EL           86400    monitor
+XPP:USR:PRT:MMS:31.ME           86400    monitor
+XPP:USR:PRT:MMS:31.MS           86400    monitor
+XPP:USR:PRT:MMS:31.MT           86400    monitor
+XPP:USR:PRT:MMS:31.HT           86400    monitor
+XPP:USR:PRT:MMS:31.ES           86400    monitor
+XPP:USR:PRT:MMS:31.RCMX         86400    monitor
+XPP:USR:PRT:MMS:31.RC           86400    monitor
+XPP:USR:PRT:MMS:31.HCMX         86400    monitor
+XPP:USR:PRT:MMS:31.HC           86400    monitor
+XPP:USR:PRT:MMS:31.DVER         86400    monitor
+XPP:USR:PRT:MMS:31.MODE         86400    monitor
+XPP:USR:PRT:MMS:31.EGU          86400    monitor
+XPP:USR:PRT:MMS:31.UREV         86400    monitor
+XPP:USR:PRT:MMS:31.FREV         86400    monitor
+XPP:USR:PRT:MMS:31.SREV         86400    monitor
+XPP:USR:PRT:MMS:31.MRES         86400    monitor
+XPP:USR:PRT:MMS:31.ERES         86400    monitor
+XPP:USR:PRT:MMS:31.DIR          86400    monitor
+XPP:USR:PRT:MMS:31.OFF          86400    monitor
+XPP:USR:PRT:MMS:31.FOFF         86400    monitor
+XPP:USR:PRT:MMS:31.HTYP         86400    monitor
+XPP:USR:PRT:MMS:31.HEGE         86400    monitor
+XPP:USR:PRT:MMS:31.BDST         86400    monitor
+XPP:USR:PRT:MMS:31.HDST         86400    monitor
+XPP:USR:PRT:MMS:31.DLLM         86400    monitor
+XPP:USR:PRT:MMS:31.DHLM         86400    monitor
+XPP:USR:PRT:MMS:31.LLM          86400    monitor
+XPP:USR:PRT:MMS:31.HLM          86400    monitor
+XPP:USR:PRT:MMS:31.RTRY         86400    monitor
+XPP:USR:PRT:MMS:31.RDBD         86400    monitor
+XPP:USR:PRT:MMS:31.PDBD         86400    monitor
+XPP:USR:PRT:MMS:31.PREC         86400    monitor
+XPP:USR:PRT:MMS:31.SBAS         86400    monitor
+XPP:USR:PRT:MMS:31.SMAX         86400    monitor
+XPP:USR:PRT:MMS:31.S            86400    monitor
+XPP:USR:PRT:MMS:31.VBAS         86400    monitor
+XPP:USR:PRT:MMS:31.VMAX         86400    monitor
+XPP:USR:PRT:MMS:31.VELO         86400    monitor
+XPP:USR:PRT:MMS:31.BS           86400    monitor
+XPP:USR:PRT:MMS:31.BVEL         86400    monitor
+XPP:USR:PRT:MMS:31.HS           86400    monitor
+XPP:USR:PRT:MMS:31.HVEL         86400    monitor
+XPP:USR:PRT:MMS:31.ACCL         86400    monitor
+XPP:USR:PRT:MMS:31.BACC         86400    monitor
+XPP:USR:PRT:MMS:31.HACC         86400    monitor
+XPP:USR:PRT:MMS:31.TWV          86400    monitor
+XPP:USR:PRT:MMS:31.HOMD         86400    monitor
+XPP:USR:PRT:MMS:31.EGAG         86400    monitor
+XPP:USR:PRT:MMS:31.ERBL         86400    monitor
+XPP:USR:PRT:MMS:31.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:31.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:31.S1           86400    monitor
+XPP:USR:PRT:MMS:31.S2           86400    monitor
+XPP:USR:PRT:MMS:31.S3           86400    monitor
+XPP:USR:PRT:MMS:31.S4           86400    monitor
+XPP:USR:PRT:MMS:31.S9           86400    monitor
+
+XPP:USR:PRT:MMS:31.RES          86400    monitor
+
+XPP:USR:PRT:MMS:31.VAL          2        monitor
+XPP:USR:PRT:MMS:31.DVAL         2        monitor
+XPP:USR:PRT:MMS:31.RVAL         2        monitor
+XPP:USR:PRT:MMS:31.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:31.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:31.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:31.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:31.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:31.RCNT         86400    monitor
+XPP:USR:PRT:MMS:31.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:31.LLS          86400    monitor
+XPP:USR:PRT:MMS:31.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:31.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:31.MIP          0.2      monitor
+XPP:USR:PRT:MMS:31.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:31.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:31.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:31.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:31:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:31:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:31:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:31:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:31:CFG_FILE     86400    monitor
+
+# IMS archive list
+XPP:USR:PRT:MMS:32.DESC         86400    monitor
+XPP:USR:PRT:MMS:32.TYPE         86400    monitor
+XPP:USR:PRT:MMS:32.PORT         86400    monitor
+XPP:USR:PRT:MMS:32.LM           86400    monitor
+XPP:USR:PRT:MMS:32.SM           86400    monitor
+XPP:USR:PRT:MMS:32.SF           86400    monitor
+XPP:USR:PRT:MMS:32.STSV         86400    monitor
+XPP:USR:PRT:MMS:32.ERSV         86400    monitor
+XPP:USR:PRT:MMS:32.EE           86400    monitor
+XPP:USR:PRT:MMS:32.EL           86400    monitor
+XPP:USR:PRT:MMS:32.ME           86400    monitor
+XPP:USR:PRT:MMS:32.MS           86400    monitor
+XPP:USR:PRT:MMS:32.MT           86400    monitor
+XPP:USR:PRT:MMS:32.HT           86400    monitor
+XPP:USR:PRT:MMS:32.ES           86400    monitor
+XPP:USR:PRT:MMS:32.RCMX         86400    monitor
+XPP:USR:PRT:MMS:32.RC           86400    monitor
+XPP:USR:PRT:MMS:32.HCMX         86400    monitor
+XPP:USR:PRT:MMS:32.HC           86400    monitor
+XPP:USR:PRT:MMS:32.DVER         86400    monitor
+XPP:USR:PRT:MMS:32.MODE         86400    monitor
+XPP:USR:PRT:MMS:32.EGU          86400    monitor
+XPP:USR:PRT:MMS:32.UREV         86400    monitor
+XPP:USR:PRT:MMS:32.FREV         86400    monitor
+XPP:USR:PRT:MMS:32.SREV         86400    monitor
+XPP:USR:PRT:MMS:32.MRES         86400    monitor
+XPP:USR:PRT:MMS:32.ERES         86400    monitor
+XPP:USR:PRT:MMS:32.DIR          86400    monitor
+XPP:USR:PRT:MMS:32.OFF          86400    monitor
+XPP:USR:PRT:MMS:32.FOFF         86400    monitor
+XPP:USR:PRT:MMS:32.HTYP         86400    monitor
+XPP:USR:PRT:MMS:32.HEGE         86400    monitor
+XPP:USR:PRT:MMS:32.BDST         86400    monitor
+XPP:USR:PRT:MMS:32.HDST         86400    monitor
+XPP:USR:PRT:MMS:32.DLLM         86400    monitor
+XPP:USR:PRT:MMS:32.DHLM         86400    monitor
+XPP:USR:PRT:MMS:32.LLM          86400    monitor
+XPP:USR:PRT:MMS:32.HLM          86400    monitor
+XPP:USR:PRT:MMS:32.RTRY         86400    monitor
+XPP:USR:PRT:MMS:32.RDBD         86400    monitor
+XPP:USR:PRT:MMS:32.PDBD         86400    monitor
+XPP:USR:PRT:MMS:32.PREC         86400    monitor
+XPP:USR:PRT:MMS:32.SBAS         86400    monitor
+XPP:USR:PRT:MMS:32.SMAX         86400    monitor
+XPP:USR:PRT:MMS:32.S            86400    monitor
+XPP:USR:PRT:MMS:32.VBAS         86400    monitor
+XPP:USR:PRT:MMS:32.VMAX         86400    monitor
+XPP:USR:PRT:MMS:32.VELO         86400    monitor
+XPP:USR:PRT:MMS:32.BS           86400    monitor
+XPP:USR:PRT:MMS:32.BVEL         86400    monitor
+XPP:USR:PRT:MMS:32.HS           86400    monitor
+XPP:USR:PRT:MMS:32.HVEL         86400    monitor
+XPP:USR:PRT:MMS:32.ACCL         86400    monitor
+XPP:USR:PRT:MMS:32.BACC         86400    monitor
+XPP:USR:PRT:MMS:32.HACC         86400    monitor
+XPP:USR:PRT:MMS:32.TWV          86400    monitor
+XPP:USR:PRT:MMS:32.HOMD         86400    monitor
+XPP:USR:PRT:MMS:32.EGAG         86400    monitor
+XPP:USR:PRT:MMS:32.ERBL         86400    monitor
+XPP:USR:PRT:MMS:32.ESKL         86400    monitor
+
+XPP:USR:PRT:MMS:32.DLVL         86400    monitor
+
+XPP:USR:PRT:MMS:32.S1           86400    monitor
+XPP:USR:PRT:MMS:32.S2           86400    monitor
+XPP:USR:PRT:MMS:32.S3           86400    monitor
+XPP:USR:PRT:MMS:32.S4           86400    monitor
+XPP:USR:PRT:MMS:32.S9           86400    monitor
+
+XPP:USR:PRT:MMS:32.RES          86400    monitor
+
+XPP:USR:PRT:MMS:32.VAL          2        monitor
+XPP:USR:PRT:MMS:32.DVAL         2        monitor
+XPP:USR:PRT:MMS:32.RVAL         2        monitor
+XPP:USR:PRT:MMS:32.RRBV         0.2      monitor
+XPP:USR:PRT:MMS:32.DRBV         0.2      monitor
+XPP:USR:PRT:MMS:32.RBV          0.2      monitor
+
+XPP:USR:PRT:MMS:32.ERBV         0.2      monitor
+
+XPP:USR:PRT:MMS:32.DIFF         0.2      monitor
+
+XPP:USR:PRT:MMS:32.RCNT         86400    monitor
+XPP:USR:PRT:MMS:32.MISS         86400    monitor
+
+XPP:USR:PRT:MMS:32.LLS          86400    monitor
+XPP:USR:PRT:MMS:32.HLS          86400    monitor
+
+XPP:USR:PRT:MMS:32.ATHM         86400    monitor
+
+XPP:USR:PRT:MMS:32.MIP          0.2      monitor
+XPP:USR:PRT:MMS:32.MOVN         0.2      monitor
+XPP:USR:PRT:MMS:32.DMOV         0.2      monitor
+XPP:USR:PRT:MMS:32.MSTA         0.2      monitor
+XPP:USR:PRT:MMS:32.HCSV         86400    monitor
+
+XPP:USR:PRT:MMS:32:SAVED_RAW    86400    monitor
+XPP:USR:PRT:MMS:32:SAVED_P      86400    monitor
+
+XPP:USR:PRT:MMS:32:FW_MEANS     86400    monitor
+XPP:USR:PRT:MMS:32:REV_MEANS    86400    monitor
+
+XPP:USR:PRT:MMS:32:CFG_FILE     86400    monitor
+

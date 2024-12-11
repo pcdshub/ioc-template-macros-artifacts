@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:XCS:LAM:PWR:01" }
+}
+
+file LevitonPdu_8.req
+{
+    { PRE = "XCS:LAM:PWR:01" }
+}

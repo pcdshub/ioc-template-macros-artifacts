@@ -1,0 +1,127 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:TIMETOOL:TTALL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USER:MCC:EPHOT:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:DIFF_INTENSITY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:I0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:RATIO    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:JTRK:REQ:DROPPED    }
+}
+

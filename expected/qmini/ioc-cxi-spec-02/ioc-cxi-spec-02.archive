@@ -1,0 +1,119 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:CXI:LAS:SPL:SP2:APP_DIR 30 monitor 
+IOC:CXI:LAS:SPL:SP2:APP_DIR1 30 monitor 
+IOC:CXI:LAS:SPL:SP2:APP_DIR2 30 monitor 
+IOC:CXI:LAS:SPL:SP2:CA_CLNT_CNT 1 monitor 
+IOC:CXI:LAS:SPL:SP2:CA_CONN_CNT 1 monitor 
+IOC:CXI:LAS:SPL:SP2:EPICS_VERS 30 monitor
+IOC:CXI:LAS:SPL:SP2:FD_CNT 1 monitor 
+IOC:CXI:LAS:SPL:SP2:FD_FREE 1 monitor 
+IOC:CXI:LAS:SPL:SP2:FD_MAX 1 monitor 
+IOC:CXI:LAS:SPL:SP2:HOSTNAME 30 monitor
+IOC:CXI:LAS:SPL:SP2:KERNEL_VERS 30 monitor
+IOC:CXI:LAS:SPL:SP2:RECORD_CNT 10 monitor
+IOC:CXI:LAS:SPL:SP2:START_CNT 30 monitor
+IOC:CXI:LAS:SPL:SP2:STARTTOD 30 monitor
+IOC:CXI:LAS:SPL:SP2:ST_SCRIPT 30 monitor 
+IOC:CXI:LAS:SPL:SP2:ST_SCRIPT1 30 monitor 
+IOC:CXI:LAS:SPL:SP2:ST_SCRIPT2 30 monitor 
+IOC:CXI:LAS:SPL:SP2:SUSP_TASK_CNT 30 monitor 
+IOC:CXI:LAS:SPL:SP2:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:CXI:LAS:SPL:SP2:SYS_CPU_LOAD 10
+IOC:CXI:LAS:SPL:SP2:LOAD 10 
+IOC:CXI:LAS:SPL:SP2:MEM_BLK_FREE 10 
+IOC:CXI:LAS:SPL:SP2:MEM_FREE 10 
+IOC:CXI:LAS:SPL:SP2:MEM_USED 10 
+IOC:CXI:LAS:SPL:SP2:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:CXI:LAS:SPL:SP2:SR_rebootStatus			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_rebootStatusStr		1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_statusStr				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_0_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_0_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_1_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_1_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_2_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_2_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_3_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_3_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_4_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_4_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_5_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_5_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_6_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_6_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_7_Status				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_7_StatusStr			1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_0_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_1_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_2_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_3_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_4_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_5_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_6_State				1 monitor
+IOC:CXI:LAS:SPL:SP2:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:CXI:LAS:SPL:SP2:SR_recentlyStr			30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_rebootTime			30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_0_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_1_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_2_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_3_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_4_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_5_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_6_Name				30 monitor
+IOC:CXI:LAS:SPL:SP2:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:CXI:LAS:SPL:SP2:SR_heartbeat				30
+IOC:CXI:LAS:SPL:SP2:SR_0_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_1_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_2_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_3_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_4_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_5_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_6_Time				30
+IOC:CXI:LAS:SPL:SP2:SR_7_Time				30
+
+# Archive list for Qseries spectrometers
+CXI:LAS:SPL:SP2:START_EXPOSURE.SCAN       10   monitor
+CXI:LAS:SPL:SP2:ADJUST_OFFSET             10   monitor
+CXI:LAS:SPL:SP2:CORRECT_NONLINEARITY      10   monitor
+CXI:LAS:SPL:SP2:REMOVE_BAD_PIXELS         10   monitor
+CXI:LAS:SPL:SP2:SUBTRACT_DARK             10   monitor
+CXI:LAS:SPL:SP2:REMOVE_TEMP_BAD_PIXELS    10   monitor
+CXI:LAS:SPL:SP2:NORMALIZE_EXPOSURE        10   monitor
+CXI:LAS:SPL:SP2:SENSITIVITY_CAL           10   monitor
+CXI:LAS:SPL:SP2:CORRECT_PRNU              10   monitor
+CXI:LAS:SPL:SP2:ADDITIONAL_FILTERING      10   monitor
+CXI:LAS:SPL:SP2:SCALE_TO_16BIT            10   monitor
+CXI:LAS:SPL:SP2:TRIG_MODE                 10   monitor
+CXI:LAS:SPL:SP2:SET_TRIG_PIN              10   monitor
+CXI:LAS:SPL:SP2:SET_TRIG_EDGE             10   monitor
+CXI:LAS:SPL:SP2:PROCESSING_STEPS          10   monitor
+CXI:LAS:SPL:SP2:SET_EXPOSURE_TIME         10   monitor
+CXI:LAS:SPL:SP2:SET_TRIG_MODE             10   monitor
+CXI:LAS:SPL:SP2:SET_TRIG_DELAY            10   monitor
+CXI:LAS:SPL:SP2:SET_IO_CONFIG             10   monitor
+CXI:LAS:SPL:SP2:SET_PROCESSING_STEPS      10   monitor
+CXI:LAS:SPL:SP2:DESCRIPTION               10   monitor
+CXI:LAS:SPL:SP2:WIDTH                     10   monitor
+CXI:LAS:SPL:SP2:W0_GUESS                  10   monitor
+CXI:LAS:SPL:SP2:FIT_ON                    10   monitor
+CXI:LAS:SPL:SP2:W0_FIT                    10   monitor
+CXI:LAS:SPL:SP2:FWHM                      10   monitor
+CXI:LAS:SPL:SP2:AMPLITUDE                 10   monitor
+CXI:LAS:SPL:SP2:STDEV                     10   monitor
+CXI:LAS:SPL:SP2:CHISQ                     10   monitor

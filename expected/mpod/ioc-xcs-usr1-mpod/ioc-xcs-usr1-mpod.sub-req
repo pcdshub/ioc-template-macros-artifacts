@@ -1,0 +1,40 @@
+#
+# mpod Autosave request file for ioc-xcs-usr1-mpod
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "XCS:IOC:DET:MPD" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XCS:DET:MPD:CH",             "0" }
+	{ "XCS:DET:MPD:CH",             "1" }
+	{ "XCS:DET:MPD:CH",             "2" }
+	{ "XCS:DET:MPD:CH",             "3" }
+	{ "XCS:DET:MPD:CH",             "4" }
+	{ "XCS:DET:MPD:CH",             "5" }
+	{ "XCS:DET:MPD:CH",             "6" }
+	{ "XCS:DET:MPD:CH",             "7" }
+	{ "XCS:DET:MPD:CH",             "100" }
+	{ "XCS:DET:MPD:CH",             "101" }
+	{ "XCS:DET:MPD:CH",             "102" }
+	{ "XCS:DET:MPD:CH",             "103" }
+	{ "XCS:DET:MPD:CH",             "104" }
+	{ "XCS:DET:MPD:CH",             "105" }
+	{ "XCS:DET:MPD:CH",             "106" }
+	{ "XCS:DET:MPD:CH",             "107" }
+	{ "XCS:DET:MPD:CH",             "200" }
+	{ "XCS:DET:MPD:CH",             "201" }
+	{ "XCS:DET:MPD:CH",             "202" }
+	{ "XCS:DET:MPD:CH",             "203" }
+	{ "XCS:DET:MPD:CH",             "204" }
+	{ "XCS:DET:MPD:CH",             "205" }
+	{ "XCS:DET:MPD:CH",             "206" }
+	{ "XCS:DET:MPD:CH",             "207" }
+}

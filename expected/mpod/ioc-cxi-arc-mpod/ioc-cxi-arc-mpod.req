@@ -1,0 +1,160 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+CXI:IOC:ARC:MPOD:ACCESS
+CXI:IOC:ARC:MPOD:CA_CLNT_CNT.HIGH
+CXI:IOC:ARC:MPOD:CA_CLNT_CNT.HIHI
+CXI:IOC:ARC:MPOD:CA_CONN_CNT.HIGH
+CXI:IOC:ARC:MPOD:CA_CONN_CNT.HIHI
+CXI:IOC:ARC:MPOD:SUSP_TASK_CNT.HIHI
+CXI:IOC:ARC:MPOD:FD_FREE.LOW
+CXI:IOC:ARC:MPOD:FD_FREE.LOLO
+CXI:IOC:ARC:MPOD:IOC_CPU_LOAD.HIGH
+CXI:IOC:ARC:MPOD:IOC_CPU_LOAD.HIHI
+CXI:IOC:ARC:MPOD:MEM_FREE.LOW
+CXI:IOC:ARC:MPOD:MEM_FREE.LOLO
+CXI:IOC:ARC:MPOD:START_CNT
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:0:SetCurrent
+CXI:ARC:MPD:CH:0:SetSwitch
+CXI:ARC:MPD:CH:0:SetVoltage
+CXI:ARC:MPD:CH:0:GetVoltage.DESC
+CXI:ARC:MPD:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:1:SetCurrent
+CXI:ARC:MPD:CH:1:SetSwitch
+CXI:ARC:MPD:CH:1:SetVoltage
+CXI:ARC:MPD:CH:1:GetVoltage.DESC
+CXI:ARC:MPD:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:2:SetCurrent
+CXI:ARC:MPD:CH:2:SetSwitch
+CXI:ARC:MPD:CH:2:SetVoltage
+CXI:ARC:MPD:CH:2:GetVoltage.DESC
+CXI:ARC:MPD:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:3:SetCurrent
+CXI:ARC:MPD:CH:3:SetSwitch
+CXI:ARC:MPD:CH:3:SetVoltage
+CXI:ARC:MPD:CH:3:GetVoltage.DESC
+CXI:ARC:MPD:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:4:SetCurrent
+CXI:ARC:MPD:CH:4:SetSwitch
+CXI:ARC:MPD:CH:4:SetVoltage
+CXI:ARC:MPD:CH:4:GetVoltage.DESC
+CXI:ARC:MPD:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:5:SetCurrent
+CXI:ARC:MPD:CH:5:SetSwitch
+CXI:ARC:MPD:CH:5:SetVoltage
+CXI:ARC:MPD:CH:5:GetVoltage.DESC
+CXI:ARC:MPD:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:6:SetCurrent
+CXI:ARC:MPD:CH:6:SetSwitch
+CXI:ARC:MPD:CH:6:SetVoltage
+CXI:ARC:MPD:CH:6:GetVoltage.DESC
+CXI:ARC:MPD:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:7:SetCurrent
+CXI:ARC:MPD:CH:7:SetSwitch
+CXI:ARC:MPD:CH:7:SetVoltage
+CXI:ARC:MPD:CH:7:GetVoltage.DESC
+CXI:ARC:MPD:CH:7:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:100:SetCurrent
+CXI:ARC:MPD:CH:100:SetSwitch
+CXI:ARC:MPD:CH:100:SetVoltage
+CXI:ARC:MPD:CH:100:GetVoltage.DESC
+CXI:ARC:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:101:SetCurrent
+CXI:ARC:MPD:CH:101:SetSwitch
+CXI:ARC:MPD:CH:101:SetVoltage
+CXI:ARC:MPD:CH:101:GetVoltage.DESC
+CXI:ARC:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:102:SetCurrent
+CXI:ARC:MPD:CH:102:SetSwitch
+CXI:ARC:MPD:CH:102:SetVoltage
+CXI:ARC:MPD:CH:102:GetVoltage.DESC
+CXI:ARC:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:103:SetCurrent
+CXI:ARC:MPD:CH:103:SetSwitch
+CXI:ARC:MPD:CH:103:SetVoltage
+CXI:ARC:MPD:CH:103:GetVoltage.DESC
+CXI:ARC:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:104:SetCurrent
+CXI:ARC:MPD:CH:104:SetSwitch
+CXI:ARC:MPD:CH:104:SetVoltage
+CXI:ARC:MPD:CH:104:GetVoltage.DESC
+CXI:ARC:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:105:SetCurrent
+CXI:ARC:MPD:CH:105:SetSwitch
+CXI:ARC:MPD:CH:105:SetVoltage
+CXI:ARC:MPD:CH:105:GetVoltage.DESC
+CXI:ARC:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:106:SetCurrent
+CXI:ARC:MPD:CH:106:SetSwitch
+CXI:ARC:MPD:CH:106:SetVoltage
+CXI:ARC:MPD:CH:106:GetVoltage.DESC
+CXI:ARC:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:107:SetCurrent
+CXI:ARC:MPD:CH:107:SetSwitch
+CXI:ARC:MPD:CH:107:SetVoltage
+CXI:ARC:MPD:CH:107:GetVoltage.DESC
+CXI:ARC:MPD:CH:107:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:200:SetCurrent
+CXI:ARC:MPD:CH:200:SetSwitch
+CXI:ARC:MPD:CH:200:SetVoltage
+CXI:ARC:MPD:CH:200:GetVoltage.DESC
+CXI:ARC:MPD:CH:200:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:201:SetCurrent
+CXI:ARC:MPD:CH:201:SetSwitch
+CXI:ARC:MPD:CH:201:SetVoltage
+CXI:ARC:MPD:CH:201:GetVoltage.DESC
+CXI:ARC:MPD:CH:201:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:202:SetCurrent
+CXI:ARC:MPD:CH:202:SetSwitch
+CXI:ARC:MPD:CH:202:SetVoltage
+CXI:ARC:MPD:CH:202:GetVoltage.DESC
+CXI:ARC:MPD:CH:202:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:203:SetCurrent
+CXI:ARC:MPD:CH:203:SetSwitch
+CXI:ARC:MPD:CH:203:SetVoltage
+CXI:ARC:MPD:CH:203:GetVoltage.DESC
+CXI:ARC:MPD:CH:203:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:204:SetCurrent
+CXI:ARC:MPD:CH:204:SetSwitch
+CXI:ARC:MPD:CH:204:SetVoltage
+CXI:ARC:MPD:CH:204:GetVoltage.DESC
+CXI:ARC:MPD:CH:204:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:205:SetCurrent
+CXI:ARC:MPD:CH:205:SetSwitch
+CXI:ARC:MPD:CH:205:SetVoltage
+CXI:ARC:MPD:CH:205:GetVoltage.DESC
+CXI:ARC:MPD:CH:205:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:206:SetCurrent
+CXI:ARC:MPD:CH:206:SetSwitch
+CXI:ARC:MPD:CH:206:SetVoltage
+CXI:ARC:MPD:CH:206:GetVoltage.DESC
+CXI:ARC:MPD:CH:206:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:ARC:MPD:CH:207:SetCurrent
+CXI:ARC:MPD:CH:207:SetSwitch
+CXI:ARC:MPD:CH:207:SetVoltage
+CXI:ARC:MPD:CH:207:GetVoltage.DESC
+CXI:ARC:MPD:CH:207:SetVoltage.DESC

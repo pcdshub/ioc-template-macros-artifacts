@@ -1,0 +1,15 @@
+# IOC archive file
+
+# Generate IOC archive request
+file staubli_ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(ROBOT)
+file staubli_archive.archive
+{
+    { NAME = "$$NAME" }
+}
+
+$$ENDLOOP(ROBOT)

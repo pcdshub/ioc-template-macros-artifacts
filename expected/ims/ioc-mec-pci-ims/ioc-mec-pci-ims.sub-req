@@ -1,0 +1,213 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            { MEC:PCI:MMS:ED:X  }
+            
+            { MEC:PCI:MMS:ED:Y  }
+            
+            { MEC:PCI:MMS:PH:Y  }
+            
+            { MEC:PCI:MMS:BS:X  }
+            
+            { MEC:PCI:MMS:BS:Y  }
+            
+            
+            { MEC:PCI:MMS:PH:X   }
+            
+            { MEC:PCI:MMS:PH:Z   }
+            
+            { MEC:PCI:MMS:BS:Z   }
+            
+            { MEC:PCI:MMS:TC:X   }
+            
+            { MEC:PCI:MMS:TC:Z   }
+            
+            { MEC:PCI:MMS:TG:S   }
+            
+            { MEC:PCI:MMS:BL:XC   }
+            
+            { MEC:PCI:MMS:BL:ZC   }
+            }
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            { MEC:PCI:ED:X,        "IN",   "OUT"  }
+            
+            { MEC:PCI:ED:Y,        "IN",   "OUT"  }
+            
+            { MEC:PCI:PH:Y,        "IN",   "OUT"  }
+            
+            { MEC:PCI:BS:X,        "IN",   "OUT"  }
+            
+            { MEC:PCI:BS:Y,        "IN",   "OUT"  }
+            
+            }
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8 }
+            }
+
+file device_with_9states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:XC,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:ZC,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:XF,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:YF,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:ZF,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:U,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:V,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { MEC:PCI:BL:W,  Alignment_Pin,  Set_1,  Set_2,  Set_3,  Set_4 }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TC:XC,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TC:ZC,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TC:S,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:XF,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:YF,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:ZF,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:U,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:V,  Standby,  PCI,  PTY }
+}
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { MEC:PCI:TG:W,  Standby,  PCI,  PTY }
+}
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            
+            { MEC:PCI:PH:X }
+            
+            { MEC:PCI:PCI:SLOT }
+            
+            { MEC:PCI:PCI:Y }
+            
+            { MEC:PCI:PTY:X }
+            
+            { MEC:PCI:PTY:Y }
+            }
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            }
+

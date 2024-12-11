@@ -1,0 +1,126 @@
+# Archive PV list for SR620 Universal Time Interval Counter
+
+# Scan every 1 sec
+# Don't monitor these; they update at 0.1sec periods and can easily
+# overwhelm the archiver.
+LAS:FS11:CNT:TI:GetMeasMean.VAL           1 
+LAS:FS11:CNT:TI:GetOffsetInvMeasMean.VAL  1 
+LAS:FS11:CNT:TI:GetMeasMax.VAL            1 
+LAS:FS11:CNT:TI:GetOffsetInvMeasMax.VAL   1 
+LAS:FS11:CNT:TI:GetMeasMin.VAL            1 
+LAS:FS11:CNT:TI:GetOffsetInvMeasMin.VAL   1 
+LAS:FS11:CNT:TI:GetMeasJitter.VAL         1 
+LAS:FS11:CNT:TI:MeasOffset                1 
+
+# Scan every 60 sec
+LAS:FS11:CNT:TI:EXT:SetTrigThreshold       60 monitor
+LAS:FS11:CNT:TI:EXT:GetTrigThreshold       60 monitor
+LAS:FS11:CNT:TI:A:SetTrigThreshold         60 monitor
+LAS:FS11:CNT:TI:A:GetTrigThreshold         60 monitor
+LAS:FS11:CNT:TI:B:SetTrigThreshold         60 monitor
+LAS:FS11:CNT:TI:B:GetTrigThreshold         60 monitor
+LAS:FS11:CNT:TI:SetRefLvlAmp               60 monitor
+LAS:FS11:CNT:TI:GetRefLvlAmp               60 monitor
+LAS:FS11:CNT:TI:A:SetInputCoupl            60 monitor
+LAS:FS11:CNT:TI:A:GetInputCoupl            60 monitor
+LAS:FS11:CNT:TI:B:SetInputCoupl            60 monitor
+LAS:FS11:CNT:TI:B:GetInputCoupl            60 monitor
+LAS:FS11:CNT:TI:EXT:SetInputTerm           60 monitor
+LAS:FS11:CNT:TI:EXT:GetInputTerm           60 monitor
+LAS:FS11:CNT:TI:A:SetInputTerm             60 monitor
+LAS:FS11:CNT:TI:A:GetInputTerm             60 monitor
+LAS:FS11:CNT:TI:B:SetInputTerm             60 monitor
+LAS:FS11:CNT:TI:B:GetInputTerm             60 monitor
+LAS:FS11:CNT:TI:A:SetTrigMode              60 monitor
+LAS:FS11:CNT:TI:A:GetTrigMode              60 monitor
+LAS:FS11:CNT:TI:B:SetTrigMode              60 monitor
+LAS:FS11:CNT:TI:B:GetTrigMode              60 monitor
+LAS:FS11:CNT:TI:EXT:SetTrigSlope           60 monitor
+LAS:FS11:CNT:TI:EXT:GetTrigSlope           60 monitor
+LAS:FS11:CNT:TI:A:SetTrigSlope             60 monitor
+LAS:FS11:CNT:TI:A:GetTrigSlope             60 monitor
+LAS:FS11:CNT:TI:B:SetTrigSlope             60 monitor
+LAS:FS11:CNT:TI:B:GetTrigSlope             60 monitor
+LAS:FS11:CNT:TI:SetArmMode                 60 monitor
+LAS:FS11:CNT:TI:GetArmMode                 60 monitor
+LAS:FS11:CNT:TI:SetAutoMeasMode            60 monitor
+LAS:FS11:CNT:TI:GetAutoMeasMode            60 monitor
+LAS:FS11:CNT:TI:SetDispRELMode             60 monitor
+LAS:FS11:CNT:TI:GetDispRELMode             60 monitor
+LAS:FS11:CNT:TI:SetGatePeriod              60 monitor
+LAS:FS11:CNT:TI:GetGatePeriod              60 monitor
+LAS:FS11:CNT:TI:SetVarianceType            60 monitor
+LAS:FS11:CNT:TI:GetVarianceType            60 monitor
+LAS:FS11:CNT:TI:SetInstrumentMode          60 monitor
+LAS:FS11:CNT:TI:GetInstrumentMode          60 monitor
+LAS:FS11:CNT:TI:SetSampleSize              60 monitor
+LAS:FS11:CNT:TI:GetSampleSize              60 monitor
+LAS:FS11:CNT:TI:SetMeasSource              60 monitor
+LAS:FS11:CNT:TI:GetMeasSource              60 monitor
+LAS:FS11:CNT:TI:SetDispREL                 60 monitor
+LAS:FS11:CNT:TI:GetDispREL                 60 monitor
+LAS:FS11:CNT:TI:SetDACOutputMode           60 monitor
+LAS:FS11:CNT:TI:GetDACOutputMode           60 monitor
+LAS:FS11:CNT:TI:SetDelayStartPos           60 monitor
+LAS:FS11:CNT:TI:GetDelayStartPos           60 monitor
+LAS:FS11:CNT:TI:SetDelayScanMode           60 monitor
+LAS:FS11:CNT:TI:GetDelayScanMode           60 monitor
+LAS:FS11:CNT:TI:SetDelayScanStepSize       60 monitor
+LAS:FS11:CNT:TI:GetDelayScanStepSize       60 monitor
+LAS:FS11:CNT:TI:SetScanHoldTime            60 monitor
+LAS:FS11:CNT:TI:GetScanHoldTime            60 monitor
+LAS:FS11:CNT:TI:SetScanMode                60 monitor
+LAS:FS11:CNT:TI:GetScanMode                60 monitor
+LAS:FS11:CNT:TI:GetLastScanPoint           60 monitor
+LAS:FS11:CNT:TI:SetNumScanPoints           60 monitor
+LAS:FS11:CNT:TI:GetNumScanPoints           60 monitor
+LAS:FS11:CNT:TI:DAC0:SetScanStartV         60 monitor
+LAS:FS11:CNT:TI:DAC0:GetScanStartV         60 monitor
+LAS:FS11:CNT:TI:DAC1:SetScanStartV         60 monitor
+LAS:FS11:CNT:TI:DAC1:GetScanStartV         60 monitor
+LAS:FS11:CNT:TI:DAC0:GetOutputV            60 monitor
+LAS:FS11:CNT:TI:DAC1:GetOutputV            60 monitor
+LAS:FS11:CNT:TI:DAC0:SetScanStepSize       60 monitor
+LAS:FS11:CNT:TI:DAC0:GetScanStepSize       60 monitor
+LAS:FS11:CNT:TI:DAC1:SetScanStepSize       60 monitor
+LAS:FS11:CNT:TI:DAC1:GetScanStepSize       60 monitor
+LAS:FS11:CNT:TI:SetAutoprintMode           60 monitor
+LAS:FS11:CNT:TI:GetAutoprintMode           60 monitor
+LAS:FS11:CNT:TI:SetCursorPosition          60 monitor
+LAS:FS11:CNT:TI:GetCursorPosition          60 monitor
+LAS:FS11:CNT:TI:SetDisplayGraphType        60 monitor
+LAS:FS11:CNT:TI:GetDisplayGraphType        60 monitor
+LAS:FS11:CNT:TI:SetGraphEnable             60 monitor
+LAS:FS11:CNT:TI:GetGraphEnable             60 monitor
+LAS:FS11:CNT:TI:GetGraphScaleHistV         60 monitor
+LAS:FS11:CNT:TI:GetGraphScaleHistH         60 monitor
+LAS:FS11:CNT:TI:GetGraphScaleHistB         60 monitor
+LAS:FS11:CNT:TI:GetGraphScaleMean          60 monitor
+LAS:FS11:CNT:TI:GetGraphScaleJitter        60 monitor
+LAS:FS11:CNT:TI:SetGraphScaleHistV         60 monitor
+LAS:FS11:CNT:TI:SetGraphScaleHistH         60 monitor
+LAS:FS11:CNT:TI:SetGraphScaleHistB         60 monitor
+LAS:FS11:CNT:TI:SetGraphScaleMean          60 monitor
+LAS:FS11:CNT:TI:SetGraphScaleJitter        60 monitor
+LAS:FS11:CNT:TI:SetPrintingDevice          60 monitor
+LAS:FS11:CNT:TI:GetPrintingDevice          60 monitor
+LAS:FS11:CNT:TI:SetPlotterAddress          60 monitor
+LAS:FS11:CNT:TI:GetPlotterAddress          60 monitor
+LAS:FS11:CNT:TI:SetPlotterPort             60 monitor
+LAS:FS11:CNT:TI:GetPlotterPort             60 monitor
+LAS:FS11:CNT:TI:SetDisplaySource           60 monitor
+LAS:FS11:CNT:TI:GetDisplaySource           60 monitor
+LAS:FS11:CNT:TI:SetExpandMode              60 monitor
+LAS:FS11:CNT:TI:GetExpandMode              60 monitor
+LAS:FS11:CNT:TI:SetClockSource             60 monitor
+LAS:FS11:CNT:TI:GetClockSource             60 monitor
+LAS:FS11:CNT:TI:SetClockFreq               60 monitor
+LAS:FS11:CNT:TI:GetClockFreq               60 monitor
+LAS:FS11:CNT:TI:SetPrinterPortMode         60 monitor
+LAS:FS11:CNT:TI:GetPrinterPortMode         60 monitor
+LAS:FS11:CNT:TI:DVM0:SetVRange             60 monitor
+LAS:FS11:CNT:TI:DVM0:GetVRange             60 monitor
+LAS:FS11:CNT:TI:DVM1:SetVRange             60 monitor
+LAS:FS11:CNT:TI:DVM1:GetVRange             60 monitor
+LAS:FS11:CNT:TI:DVM0:GetV                  60 monitor
+LAS:FS11:CNT:TI:DVM1:GetV                  60 monitor

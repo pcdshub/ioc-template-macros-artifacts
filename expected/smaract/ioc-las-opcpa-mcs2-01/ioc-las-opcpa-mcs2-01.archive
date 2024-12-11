@@ -1,0 +1,202 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:LAS:OPCPA:MCS2:01:APP_DIR1 30 monitor 
+IOC:LAS:OPCPA:MCS2:01:APP_DIR2 30 monitor 
+IOC:LAS:OPCPA:MCS2:01:BSP_REV 30 monitor
+IOC:LAS:OPCPA:MCS2:01:CA_CLNT_CNT 1 monitor 
+IOC:LAS:OPCPA:MCS2:01:CA_CONN_CNT 1 monitor 
+IOC:LAS:OPCPA:MCS2:01:EPICS_VERS 30 monitor
+IOC:LAS:OPCPA:MCS2:01:FD_CNT 1 monitor 
+IOC:LAS:OPCPA:MCS2:01:FD_FREE 1 monitor 
+IOC:LAS:OPCPA:MCS2:01:FD_MAX 1 monitor 
+IOC:LAS:OPCPA:MCS2:01:HOSTNAME 30 monitor
+IOC:LAS:OPCPA:MCS2:01:KERNEL_VERS 30 monitor
+IOC:LAS:OPCPA:MCS2:01:RECORD_CNT 10 monitor
+IOC:LAS:OPCPA:MCS2:01:STARTTOD 30 monitor
+IOC:LAS:OPCPA:MCS2:01:ST_SCRIPT1 30 monitor 
+IOC:LAS:OPCPA:MCS2:01:ST_SCRIPT2 30 monitor 
+IOC:LAS:OPCPA:MCS2:01:SUSP_TASK_CNT 30 monitor 
+IOC:LAS:OPCPA:MCS2:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:LAS:OPCPA:MCS2:01:DAT_MBUF_FREE 10
+IOC:LAS:OPCPA:MCS2:01:DAT_MBUF_MAX 10
+IOC:LAS:OPCPA:MCS2:01:LOAD 30 
+IOC:LAS:OPCPA:MCS2:01:MEM_BLK_FREE 30 
+IOC:LAS:OPCPA:MCS2:01:MEM_FREE 30 
+IOC:LAS:OPCPA:MCS2:01:MEM_USED 30 
+IOC:LAS:OPCPA:MCS2:01:SYS_MBUF_FREE 30 
+# BASE is LAS:OPCPA:MCS2:01, INDEX is 1
+# Template for SmarAct MCS2.
+LAS:OPCPA:MCS2:01:m1.RBV                   30 monitor  
+LAS:OPCPA:MCS2:01:m1.DESC                  30 monitor  
+LAS:OPCPA:MCS2:01:m1.TWV                   30 monitor
+LAS:OPCPA:MCS2:01:m1.OFF                   30 monitor
+LAS:OPCPA:MCS2:01:m1.FOFF                  30 monitor
+LAS:OPCPA:MCS2:01:m1.DIR                   30 monitor
+LAS:OPCPA:MCS2:01:m1.SET                   30 monitor
+LAS:OPCPA:MCS2:01:m1.HLM                   30 monitor
+LAS:OPCPA:MCS2:01:m1.LLM                   30 monitor
+LAS:OPCPA:MCS2:01:m1.DHLM                  30 monitor
+LAS:OPCPA:MCS2:01:m1.DLLM                  30 monitor
+LAS:OPCPA:MCS2:01:m1.VELO                  30 monitor
+LAS:OPCPA:MCS2:01:m1.SBAS                  30 monitor
+LAS:OPCPA:MCS2:01:m1.SMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m1.CNEN                  30 monitor
+LAS:OPCPA:MCS2:01:m1.SREV                  30 monitor
+LAS:OPCPA:MCS2:01:m1.UREV                  30 monitor
+LAS:OPCPA:MCS2:01:m1.MRES                  30 monitor
+LAS:OPCPA:MCS2:01:m1.ERES                  30 monitor
+LAS:OPCPA:MCS2:01:m1.RRES                  30 monitor
+LAS:OPCPA:MCS2:01:m1.UEIP                  30 monitor
+LAS:OPCPA:MCS2:01:m1.URIP                  30 monitor
+LAS:OPCPA:MCS2:01:m1.BVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m1.JVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m1.ACCL                  30 monitor
+LAS:OPCPA:MCS2:01:m1.BACC                  30 monitor
+LAS:OPCPA:MCS2:01:m1.JAR                   30 monitor
+LAS:OPCPA:MCS2:01:m1.VMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m1.VAL                   30 monitor
+LAS:OPCPA:MCS2:01:m1:FW_MEANS              30 monitor
+LAS:OPCPA:MCS2:01:m1:REV_MEANS             30 monitor
+LAS:OPCPA:MCS2:01:m1_able.VAL              30 monitor
+LAS:OPCPA:MCS2:01:m1:STEP_VOLTAGE          30 monitor
+LAS:OPCPA:MCS2:01:m1:STEP_FREQ             30 monitor
+LAS:OPCPA:MCS2:01:m1:STEP_COUNT            30 monitor
+LAS:OPCPA:MCS2:01:m1:TOTAL_STEP_COUNT      30 monitor
+LAS:OPCPA:MCS2:01:m1:TTZV_MODE             30 monitor
+LAS:OPCPA:MCS2:01:m1:FORCE_SLIP_MODE       30 monitor
+LAS:OPCPA:MCS2:01:m1:TTZ_THRESHOLD         30 monitor
+LAS:OPCPA:MCS2:01:m1:PTYPE_RBV             30 monitor
+LAS:OPCPA:MCS2:01:m1:LSCO                  30 monitor
+LAS:OPCPA:MCS2:01:m1:SET_LSCO              30 monitor
+LAS:OPCPA:MCS2:01:m1:LSCI_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m1:SET_LSCI              30 monitor
+LAS:OPCPA:MCS2:01:m1:DRMIN                 30 monitor
+LAS:OPCPA:MCS2:01:m1:SET_DRMIN             30 monitor
+LAS:OPCPA:MCS2:01:m1:DRMAX                 30 monitor
+LAS:OPCPA:MCS2:01:m1:SET_DRMAX             30 monitor
+LAS:OPCPA:MCS2:01:m1:DCIN_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m1:SET_DCIN              30 monitor
+LAS:OPCPA:MCS2:01:m1:CHANTEMP              30 monitor
+LAS:OPCPA:MCS2:01:m1:MODTEMP               30 monitor
+# BASE is LAS:OPCPA:MCS2:01, INDEX is 2
+# Template for SmarAct MCS2.
+LAS:OPCPA:MCS2:01:m2.RBV                   30 monitor  
+LAS:OPCPA:MCS2:01:m2.DESC                  30 monitor  
+LAS:OPCPA:MCS2:01:m2.TWV                   30 monitor
+LAS:OPCPA:MCS2:01:m2.OFF                   30 monitor
+LAS:OPCPA:MCS2:01:m2.FOFF                  30 monitor
+LAS:OPCPA:MCS2:01:m2.DIR                   30 monitor
+LAS:OPCPA:MCS2:01:m2.SET                   30 monitor
+LAS:OPCPA:MCS2:01:m2.HLM                   30 monitor
+LAS:OPCPA:MCS2:01:m2.LLM                   30 monitor
+LAS:OPCPA:MCS2:01:m2.DHLM                  30 monitor
+LAS:OPCPA:MCS2:01:m2.DLLM                  30 monitor
+LAS:OPCPA:MCS2:01:m2.VELO                  30 monitor
+LAS:OPCPA:MCS2:01:m2.SBAS                  30 monitor
+LAS:OPCPA:MCS2:01:m2.SMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m2.CNEN                  30 monitor
+LAS:OPCPA:MCS2:01:m2.SREV                  30 monitor
+LAS:OPCPA:MCS2:01:m2.UREV                  30 monitor
+LAS:OPCPA:MCS2:01:m2.MRES                  30 monitor
+LAS:OPCPA:MCS2:01:m2.ERES                  30 monitor
+LAS:OPCPA:MCS2:01:m2.RRES                  30 monitor
+LAS:OPCPA:MCS2:01:m2.UEIP                  30 monitor
+LAS:OPCPA:MCS2:01:m2.URIP                  30 monitor
+LAS:OPCPA:MCS2:01:m2.BVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m2.JVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m2.ACCL                  30 monitor
+LAS:OPCPA:MCS2:01:m2.BACC                  30 monitor
+LAS:OPCPA:MCS2:01:m2.JAR                   30 monitor
+LAS:OPCPA:MCS2:01:m2.VMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m2.VAL                   30 monitor
+LAS:OPCPA:MCS2:01:m2:FW_MEANS              30 monitor
+LAS:OPCPA:MCS2:01:m2:REV_MEANS             30 monitor
+LAS:OPCPA:MCS2:01:m2_able.VAL              30 monitor
+LAS:OPCPA:MCS2:01:m2:STEP_VOLTAGE          30 monitor
+LAS:OPCPA:MCS2:01:m2:STEP_FREQ             30 monitor
+LAS:OPCPA:MCS2:01:m2:STEP_COUNT            30 monitor
+LAS:OPCPA:MCS2:01:m2:TOTAL_STEP_COUNT      30 monitor
+LAS:OPCPA:MCS2:01:m2:TTZV_MODE             30 monitor
+LAS:OPCPA:MCS2:01:m2:FORCE_SLIP_MODE       30 monitor
+LAS:OPCPA:MCS2:01:m2:TTZ_THRESHOLD         30 monitor
+LAS:OPCPA:MCS2:01:m2:PTYPE_RBV             30 monitor
+LAS:OPCPA:MCS2:01:m2:LSCO                  30 monitor
+LAS:OPCPA:MCS2:01:m2:SET_LSCO              30 monitor
+LAS:OPCPA:MCS2:01:m2:LSCI_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m2:SET_LSCI              30 monitor
+LAS:OPCPA:MCS2:01:m2:DRMIN                 30 monitor
+LAS:OPCPA:MCS2:01:m2:SET_DRMIN             30 monitor
+LAS:OPCPA:MCS2:01:m2:DRMAX                 30 monitor
+LAS:OPCPA:MCS2:01:m2:SET_DRMAX             30 monitor
+LAS:OPCPA:MCS2:01:m2:DCIN_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m2:SET_DCIN              30 monitor
+LAS:OPCPA:MCS2:01:m2:CHANTEMP              30 monitor
+LAS:OPCPA:MCS2:01:m2:MODTEMP               30 monitor
+# BASE is LAS:OPCPA:MCS2:01, INDEX is 3
+# Template for SmarAct MCS2.
+LAS:OPCPA:MCS2:01:m3.RBV                   30 monitor  
+LAS:OPCPA:MCS2:01:m3.DESC                  30 monitor  
+LAS:OPCPA:MCS2:01:m3.TWV                   30 monitor
+LAS:OPCPA:MCS2:01:m3.OFF                   30 monitor
+LAS:OPCPA:MCS2:01:m3.FOFF                  30 monitor
+LAS:OPCPA:MCS2:01:m3.DIR                   30 monitor
+LAS:OPCPA:MCS2:01:m3.SET                   30 monitor
+LAS:OPCPA:MCS2:01:m3.HLM                   30 monitor
+LAS:OPCPA:MCS2:01:m3.LLM                   30 monitor
+LAS:OPCPA:MCS2:01:m3.DHLM                  30 monitor
+LAS:OPCPA:MCS2:01:m3.DLLM                  30 monitor
+LAS:OPCPA:MCS2:01:m3.VELO                  30 monitor
+LAS:OPCPA:MCS2:01:m3.SBAS                  30 monitor
+LAS:OPCPA:MCS2:01:m3.SMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m3.CNEN                  30 monitor
+LAS:OPCPA:MCS2:01:m3.SREV                  30 monitor
+LAS:OPCPA:MCS2:01:m3.UREV                  30 monitor
+LAS:OPCPA:MCS2:01:m3.MRES                  30 monitor
+LAS:OPCPA:MCS2:01:m3.ERES                  30 monitor
+LAS:OPCPA:MCS2:01:m3.RRES                  30 monitor
+LAS:OPCPA:MCS2:01:m3.UEIP                  30 monitor
+LAS:OPCPA:MCS2:01:m3.URIP                  30 monitor
+LAS:OPCPA:MCS2:01:m3.BVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m3.JVEL                  30 monitor
+LAS:OPCPA:MCS2:01:m3.ACCL                  30 monitor
+LAS:OPCPA:MCS2:01:m3.BACC                  30 monitor
+LAS:OPCPA:MCS2:01:m3.JAR                   30 monitor
+LAS:OPCPA:MCS2:01:m3.VMAX                  30 monitor
+LAS:OPCPA:MCS2:01:m3.VAL                   30 monitor
+LAS:OPCPA:MCS2:01:m3:FW_MEANS              30 monitor
+LAS:OPCPA:MCS2:01:m3:REV_MEANS             30 monitor
+LAS:OPCPA:MCS2:01:m3_able.VAL              30 monitor
+LAS:OPCPA:MCS2:01:m3:STEP_VOLTAGE          30 monitor
+LAS:OPCPA:MCS2:01:m3:STEP_FREQ             30 monitor
+LAS:OPCPA:MCS2:01:m3:STEP_COUNT            30 monitor
+LAS:OPCPA:MCS2:01:m3:TOTAL_STEP_COUNT      30 monitor
+LAS:OPCPA:MCS2:01:m3:TTZV_MODE             30 monitor
+LAS:OPCPA:MCS2:01:m3:FORCE_SLIP_MODE       30 monitor
+LAS:OPCPA:MCS2:01:m3:TTZ_THRESHOLD         30 monitor
+LAS:OPCPA:MCS2:01:m3:PTYPE_RBV             30 monitor
+LAS:OPCPA:MCS2:01:m3:LSCO                  30 monitor
+LAS:OPCPA:MCS2:01:m3:SET_LSCO              30 monitor
+LAS:OPCPA:MCS2:01:m3:LSCI_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m3:SET_LSCI              30 monitor
+LAS:OPCPA:MCS2:01:m3:DRMIN                 30 monitor
+LAS:OPCPA:MCS2:01:m3:SET_DRMIN             30 monitor
+LAS:OPCPA:MCS2:01:m3:DRMAX                 30 monitor
+LAS:OPCPA:MCS2:01:m3:SET_DRMAX             30 monitor
+LAS:OPCPA:MCS2:01:m3:DCIN_RBV              30 monitor
+LAS:OPCPA:MCS2:01:m3:SET_DCIN              30 monitor
+LAS:OPCPA:MCS2:01:m3:CHANTEMP              30 monitor
+LAS:OPCPA:MCS2:01:m3:MODTEMP               30 monitor
+# BASE is LAS:OPCPA:MCS2:01, MOD is 0
+# Template for SmarAct Module global.
+LAS:OPCPA:MCS2:01:MOD0:MODTEMP           30 monitor
+LAS:OPCPA:MCS2:01:MOD0:MOD_STATE         30 monitor
+LAS:OPCPA:MCS2:01:MOD0:MOD_STATE_RAW     30 monitor
+LAS:OPCPA:MCS2:01:MOD0:STYPE_ERROR       30 monitor
+LAS:OPCPA:MCS2:01:MOD0:CH1:STYPE_RBV     30 monitor
+LAS:OPCPA:MCS2:01:MOD0:CH2:STYPE_RBV     30 monitor
+LAS:OPCPA:MCS2:01:MOD0:CH3:STYPE_RBV     30 monitor

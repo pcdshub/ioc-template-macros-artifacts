@@ -1,0 +1,1580 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:MODEL_XAXIS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:MODEL_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:MODEL_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:MODEL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:MODEL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:X0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:X0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:Y0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:Y0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_CALC_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_FRACTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_PHI    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_PHI_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:TOTAL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:TOTAL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_MEAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_STD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_FREQUENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_AMPLITUDE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_EVENTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_RESOLUTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_FREQ_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_FREQ_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_AMP_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_AMP_ARRAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_RADIUS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_RADIUS_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:CAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:CAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:PXSIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_X_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:BEAM_Y_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:CAM_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:CAM_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_XWIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_XWIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:TOTAL_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:TOTAL_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:RING_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:PSD_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STATS_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:STREAK_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:JET_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INLINE:NOZZLE_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:DIFFRACT:LATENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:XMIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:XMAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:XSTEP_SIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:BOUNCE_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:XSCAN_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:INJECTOR:XSCAN_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:BEAM:PULSE_ENERGY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:BEAM:TRANS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:BEAM:E_THRESH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:BEAM:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC1:RE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:MODEL_XAXIS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:MODEL_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:MODEL_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:MODEL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:MODEL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:X0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:X0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:Y0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:Y0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_CALC_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_FRACTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_PHI    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_PHI_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:TOTAL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:TOTAL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_MEAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_STD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_FREQUENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_AMPLITUDE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_EVENTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_RESOLUTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_FREQ_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_FREQ_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_AMP_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_AMP_ARRAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_RADIUS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_RADIUS_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:CAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:CAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:PXSIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_X_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:BEAM_Y_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:CAM_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:CAM_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_XWIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_XWIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:JET_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INLINE:NOZZLE_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:TOTAL_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:TOTAL_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:RING_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:PSD_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STATS_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:STREAK_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:DIFFRACT:LATENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:XMIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:XMAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:XSTEP_SIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:BOUNCE_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:XSCAN_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:INJECTOR:XSCAN_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:BEAM:PULSE_ENERGY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:BEAM:TRANS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:BEAM:E_THRESH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:BEAM:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:RE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:CAM_Z    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:CAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:PXSIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Z    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Z_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Z_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:BEAM_Y_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:CAM_PITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:CAM_PITCH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_Z    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_Z_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_ZWIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_ZWIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_PITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_PITCH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_PITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_PITCH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_Z    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_Z_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:JET_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC2:OFFAXIS:NOZZLE_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:MODEL_XAXIS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:MODEL_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:MODEL_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:MODEL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:MODEL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:X0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:X0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:Y0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:Y0_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_CALC_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_FRACTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_PHI    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_PHI_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:TOTAL_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:TOTAL_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_MEAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_STD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_FREQUENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_AMPLITUDE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_RATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_EVENTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_RESOLUTION    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_FREQ_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_FREQ_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_AMP_WF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_AMP_ARRAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_ADU    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_ADU_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_RADIUS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_RADIUS_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_WIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_INTENSITY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_INTENSITY_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:CAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:CAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:PXSIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_X_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:BEAM_Y_PX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:CAM_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:CAM_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_Y_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_XWIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_XWIDTH_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_ROLL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_ROLL_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_X_ERR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:TOTAL_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_Counter    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:TOTAL_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:RING_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:PSD_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STATS_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:STREAK_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:JET_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INLINE:NOZZLE_RepRate    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:DIFFRACT:LATENCY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:XMIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:XMAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:XSTEP_SIZE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:BOUNCE_WIDTH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:XSCAN_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:INJECTOR:XSCAN_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:BEAM:PULSE_ENERGY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:BEAM:TRANS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:BEAM:E_THRESH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:BEAM:STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SC3:RE:STATE    }
+}

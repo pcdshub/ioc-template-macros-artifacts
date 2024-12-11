@@ -1,0 +1,9 @@
+MFX:EPIX:1:MONITOR		86400 monitor
+MFX:EPIX:1:TEMP1         30  monitor
+MFX:EPIX:1:TEMP2         30  monitor
+MFX:EPIX:1:HUMIDITY      30  monitor
+MFX:EPIX:1:ASIC_ANA_CUR  30  monitor
+MFX:EPIX:1:ASIC_DIG_CUR  30  monitor
+MFX:EPIX:1:ASIC_GR_CUR   30  monitor
+MFX:EPIX:1:ANA_IN_V      30  monitor
+MFX:EPIX:1:DIG_IN_V      30  monitor

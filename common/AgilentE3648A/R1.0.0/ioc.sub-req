@@ -1,0 +1,15 @@
+# AgilentE3648A IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file AgilentE3648A-ioc.req
+{
+    { IOC = "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" }
+}
+
+# Generate autosave PV list for each serial device
+$$LOOP(AGILENT)
+file AgilentE3648A.req
+{
+    { DEV = "$$PV" } 
+}
+$$ENDLOOP(AGILENT)

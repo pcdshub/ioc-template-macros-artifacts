@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:LAS:MFX:SDG:01" }
+}
+
+file sdg.tpl-req
+{
+    { BASE = "LAS:MFX:SDG:01" }
+}

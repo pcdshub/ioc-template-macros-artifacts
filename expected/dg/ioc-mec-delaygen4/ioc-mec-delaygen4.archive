@@ -1,0 +1,159 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+MEC:LAS:IOC:DDG:04:APP_DIR 30 monitor 
+MEC:LAS:IOC:DDG:04:APP_DIR1 30 monitor 
+MEC:LAS:IOC:DDG:04:APP_DIR2 30 monitor 
+MEC:LAS:IOC:DDG:04:CA_CLNT_CNT 1 monitor 
+MEC:LAS:IOC:DDG:04:CA_CONN_CNT 1 monitor 
+MEC:LAS:IOC:DDG:04:EPICS_VERS 30 monitor
+MEC:LAS:IOC:DDG:04:FD_CNT 1 monitor 
+MEC:LAS:IOC:DDG:04:FD_FREE 1 monitor 
+MEC:LAS:IOC:DDG:04:FD_MAX 1 monitor 
+MEC:LAS:IOC:DDG:04:HOSTNAME 30 monitor
+MEC:LAS:IOC:DDG:04:KERNEL_VERS 30 monitor
+MEC:LAS:IOC:DDG:04:RECORD_CNT 10 monitor
+MEC:LAS:IOC:DDG:04:START_CNT 30 monitor
+MEC:LAS:IOC:DDG:04:STARTTOD 30 monitor
+MEC:LAS:IOC:DDG:04:ST_SCRIPT 30 monitor 
+MEC:LAS:IOC:DDG:04:ST_SCRIPT1 30 monitor 
+MEC:LAS:IOC:DDG:04:ST_SCRIPT2 30 monitor 
+MEC:LAS:IOC:DDG:04:SUSP_TASK_CNT 30 monitor 
+MEC:LAS:IOC:DDG:04:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+MEC:LAS:IOC:DDG:04:SYS_CPU_LOAD 10
+MEC:LAS:IOC:DDG:04:LOAD 10 
+MEC:LAS:IOC:DDG:04:MEM_BLK_FREE 10 
+MEC:LAS:IOC:DDG:04:MEM_FREE 10 
+MEC:LAS:IOC:DDG:04:MEM_USED 10 
+MEC:LAS:IOC:DDG:04:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+MEC:LAS:IOC:DDG:04:SR_rebootStatus			1 monitor
+MEC:LAS:IOC:DDG:04:SR_status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_rebootStatusStr		1 monitor
+MEC:LAS:IOC:DDG:04:SR_statusStr				1 monitor
+MEC:LAS:IOC:DDG:04:SR_0_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_0_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_1_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_1_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_2_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_2_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_3_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_3_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_4_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_4_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_5_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_5_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_6_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_6_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_7_Status				1 monitor
+MEC:LAS:IOC:DDG:04:SR_7_StatusStr			1 monitor
+MEC:LAS:IOC:DDG:04:SR_0_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_1_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_2_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_3_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_4_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_5_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_6_State				1 monitor
+MEC:LAS:IOC:DDG:04:SR_7_State				1 monitor
+
+# Archive these values only when they change
+MEC:LAS:IOC:DDG:04:SR_recentlyStr			30 monitor
+MEC:LAS:IOC:DDG:04:SR_rebootTime			30 monitor
+MEC:LAS:IOC:DDG:04:SR_0_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_1_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_2_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_3_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_4_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_5_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_6_Name				30 monitor
+MEC:LAS:IOC:DDG:04:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+MEC:LAS:IOC:DDG:04:SR_heartbeat				30
+MEC:LAS:IOC:DDG:04:SR_0_Time				30
+MEC:LAS:IOC:DDG:04:SR_1_Time				30
+MEC:LAS:IOC:DDG:04:SR_2_Time				30
+MEC:LAS:IOC:DDG:04:SR_3_Time				30
+MEC:LAS:IOC:DDG:04:SR_4_Time				30
+MEC:LAS:IOC:DDG:04:SR_5_Time				30
+MEC:LAS:IOC:DDG:04:SR_6_Time				30
+MEC:LAS:IOC:DDG:04:SR_7_Time				30
+
+MEC:LAS:DDG:04:disableScanBI		 5	 monitor
+MEC:LAS:DDG:04:abOutputAmpAI		 30	 monitor
+MEC:LAS:DDG:04:abOutputOffsetAI	 30	 monitor
+MEC:LAS:DDG:04:burstDelayAI		 30	 monitor
+MEC:LAS:DDG:04:burstPeriodAI		 30	 monitor
+MEC:LAS:DDG:04:cdOutputAmpAI		 30	 monitor
+MEC:LAS:DDG:04:cdOutputOffsetAI	 30	 monitor
+MEC:LAS:DDG:04:efOutputAmpAI		 30	 monitor
+MEC:LAS:DDG:04:efOutputOffsetAI	 30	 monitor
+MEC:LAS:DDG:04:ghOutputAmpAI		 30	 monitor
+MEC:LAS:DDG:04:ghOutputOffsetAI	 30	 monitor
+MEC:LAS:DDG:04:tOutputAmpAI		 30	 monitor
+MEC:LAS:DDG:04:tOutputOffsetAI	 30	 monitor
+MEC:LAS:DDG:04:triggerLevelAI	 30	 monitor
+MEC:LAS:DDG:04:triggerRateAI		 30	 monitor
+MEC:LAS:DDG:04:abOutputPolarityBI 30	 monitor
+MEC:LAS:DDG:04:burstConfigBI		 30	 monitor
+MEC:LAS:DDG:04:burstModeBI		 30	 monitor
+MEC:LAS:DDG:04:cdOutputPolarityBI 30	 monitor
+MEC:LAS:DDG:04:efOutputPolarityBI 30	 monitor
+MEC:LAS:DDG:04:ghOutputPolarityBI 30	 monitor
+MEC:LAS:DDG:04:ifaceAutoIpStateBI 30	 monitor
+MEC:LAS:DDG:04:ifaceBareSocketStateBI 30	 monitor
+MEC:LAS:DDG:04:ifaceDhcpStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceGpibStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceLanStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceSerialStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceStaticIpStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceTelnetStateBI	 30	 monitor
+MEC:LAS:DDG:04:ifaceVxiStateBI	 30	 monitor
+MEC:LAS:DDG:04:tOutputPolarityBI	 30	 monitor
+MEC:LAS:DDG:04:burstCountLI		 30	 monitor
+MEC:LAS:DDG:04:ifaceGpibAddrLI	 30	 monitor
+MEC:LAS:DDG:04:statusLI			 30	 monitor
+MEC:LAS:DDG:04:aReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:bReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:cReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:dReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:eReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:fReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:gReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:hReferenceMI		 30	 monitor
+MEC:LAS:DDG:04:ifaceSerialBaudMI	 30	 monitor
+MEC:LAS:DDG:04:triggerInhibitMI	 30	 monitor
+MEC:LAS:DDG:04:triggerSourceMI	 30	 monitor
+MEC:LAS:DDG:04:aDelaySI			 30	 monitor
+MEC:LAS:DDG:04:bDelaySI			 30	 monitor
+MEC:LAS:DDG:04:cDelaySI			 30	 monitor
+MEC:LAS:DDG:04:dDelaySI			 30	 monitor
+MEC:LAS:DDG:04:eDelaySI			 30	 monitor
+MEC:LAS:DDG:04:fDelaySI			 30	 monitor
+MEC:LAS:DDG:04:gDelaySI			 30	 monitor
+MEC:LAS:DDG:04:hDelaySI			 30	 monitor
+MEC:LAS:DDG:04:identSI			 30	 monitor
+MEC:LAS:DDG:04:ifaceGatewaySI	 30	 monitor
+MEC:LAS:DDG:04:ifaceIpAddrSI		 30	 monitor
+MEC:LAS:DDG:04:ifaceMacAddrSI	 30	 monitor
+MEC:LAS:DDG:04:ifaceNetMaskSI	 30	 monitor
+MEC:LAS:DDG:04:statusSI			 30	 monitor
+MEC:LAS:DDG:04					 30	 monitor
+MEC:LAS:DDG:04:abOutputModeNimSS	 30	 monitor
+MEC:LAS:DDG:04:abOutputModeTtlSS	 30	 monitor
+MEC:LAS:DDG:04:cdOutputModeNimSS	 30	 monitor
+MEC:LAS:DDG:04:cdOutputModeTtlSS	 30	 monitor
+MEC:LAS:DDG:04:efOutputModeNimSS	 30	 monitor
+MEC:LAS:DDG:04:efOutputModeTtlSS	 30	 monitor
+MEC:LAS:DDG:04:ghOutputModeNimSS	 30	 monitor
+MEC:LAS:DDG:04:ghOutputModeTtlSS	 30	 monitor
+MEC:LAS:DDG:04:tOutputModeNimSS	 30	 monitor
+MEC:LAS:DDG:04:tOutputModeTtlSS	 30	 monitor

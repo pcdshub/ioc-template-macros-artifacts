@@ -1,0 +1,28 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "IOC:DET:140K:2" }
+}
+
+
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "DET:140K:2:04"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "DET:140K:2:06"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "DET:140K:2:07"  }
+}
+
+
+

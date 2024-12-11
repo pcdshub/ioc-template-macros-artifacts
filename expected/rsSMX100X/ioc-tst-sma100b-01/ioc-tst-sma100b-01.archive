@@ -1,0 +1,153 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:LAS:FTL:SGN:01:APP_DIR 30 monitor 
+IOC:LAS:FTL:SGN:01:APP_DIR1 30 monitor 
+IOC:LAS:FTL:SGN:01:APP_DIR2 30 monitor 
+IOC:LAS:FTL:SGN:01:CA_CLNT_CNT 1 monitor 
+IOC:LAS:FTL:SGN:01:CA_CONN_CNT 1 monitor 
+IOC:LAS:FTL:SGN:01:EPICS_VERS 30 monitor
+IOC:LAS:FTL:SGN:01:FD_CNT 1 monitor 
+IOC:LAS:FTL:SGN:01:FD_FREE 1 monitor 
+IOC:LAS:FTL:SGN:01:FD_MAX 1 monitor 
+IOC:LAS:FTL:SGN:01:HOSTNAME 30 monitor
+IOC:LAS:FTL:SGN:01:KERNEL_VERS 30 monitor
+IOC:LAS:FTL:SGN:01:RECORD_CNT 10 monitor
+IOC:LAS:FTL:SGN:01:START_CNT 30 monitor
+IOC:LAS:FTL:SGN:01:STARTTOD 30 monitor
+IOC:LAS:FTL:SGN:01:ST_SCRIPT 30 monitor 
+IOC:LAS:FTL:SGN:01:ST_SCRIPT1 30 monitor 
+IOC:LAS:FTL:SGN:01:ST_SCRIPT2 30 monitor 
+IOC:LAS:FTL:SGN:01:SUSP_TASK_CNT 30 monitor 
+IOC:LAS:FTL:SGN:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:LAS:FTL:SGN:01:SYS_CPU_LOAD 10
+IOC:LAS:FTL:SGN:01:LOAD 10 
+IOC:LAS:FTL:SGN:01:MEM_BLK_FREE 10 
+IOC:LAS:FTL:SGN:01:MEM_FREE 10 
+IOC:LAS:FTL:SGN:01:MEM_USED 10 
+IOC:LAS:FTL:SGN:01:UPTIME 3600 
+# Archive list for generic streamdevice.
+#
+# These lines should have the format "PV PERIOD_IN_S" or 
+# "PV PERIOD_IN_S monitor".
+#
+# Macros:
+#     IOC  - The IOC base PV.
+#     BASE - The device base PV.
+LAS:FTL:SGN:01:GeneralIdn-Mon            5 monitor
+LAS:FTL:SGN:01:GeneralFreq-RB            5 monitor
+LAS:FTL:SGN:01:GeneralLvl-RB             5 monitor
+LAS:FTL:SGN:01:GeneralRF-Sts             5 monitor
+LAS:FTL:SGN:01:GeneralRFLvl-RB           5 monitor
+LAS:FTL:SGN:01:GeneralAlc-Sts            5 monitor
+LAS:FTL:SGN:01:GeneralPwrAtt-Sts         5 monitor
+LAS:FTL:SGN:01:GeneralPwrLim-RB          5 monitor
+LAS:FTL:SGN:01:GeneralPSweep-Sts         5 monitor
+LAS:FTL:SGN:01:GeneralPPwr-RB            5 monitor
+LAS:FTL:SGN:01:GeneralLvlStart-RB        5 monitor
+LAS:FTL:SGN:01:GeneralPwrStep-RB         5 monitor
+LAS:FTL:SGN:01:GeneralPwrStepMode-Sts    5 monitor
+LAS:FTL:SGN:01:GeneralLvlStop-RB         5 monitor
+LAS:FTL:SGN:01:GeneralAttFixLow-Mon      5 monitor
+LAS:FTL:SGN:01:GeneralAttFixUpp-Mon      5 monitor
+LAS:FTL:SGN:01:GeneralDspUpdt-Sts        5 monitor
+LAS:FTL:SGN:01:GeneralPwrMan-RB          5 monitor
+LAS:FTL:SGN:01:GeneralFMode-Sts          5 monitor
+LAS:FTL:SGN:01:GeneralCalcFMode          5 monitor
+LAS:FTL:SGN:01:GeneralPMode-Sts          5 monitor
+LAS:FTL:SGN:01:GeneralCalcPMode          5 monitor
+LAS:FTL:SGN:01:GeneralLFMode-Mon         5 monitor
+LAS:FTL:SGN:01:GeneralCalcLFMode         5 monitor
+LAS:FTL:SGN:01:GeneralFSweep-Sts         5 monitor
+LAS:FTL:SGN:01:GeneralUsrCorrect-Sts     5 monitor
+LAS:FTL:SGN:01:FreqStartFreq-RB          5 monitor
+LAS:FTL:SGN:01:FreqStopFreq-RB           5 monitor
+LAS:FTL:SGN:01:FreqFStepLin-RB           5 monitor
+LAS:FTL:SGN:01:FreqPhaseCont-Sts         5 monitor
+LAS:FTL:SGN:01:FreqCenterFreq-RB         5 monitor
+LAS:FTL:SGN:01:FreqFreqMan-RB            5 monitor
+LAS:FTL:SGN:01:FreqFreqSpan-RB           5 monitor
+LAS:FTL:SGN:01:FreqStepVar-RB            5 monitor
+LAS:FTL:SGN:01:FreqRange-Sts             5 monitor
+LAS:FTL:SGN:01:FreqPDwellTime-RB         5 monitor
+LAS:FTL:SGN:01:FreqPSweepMode-Sts        5 monitor
+LAS:FTL:SGN:01:FreqPSweepPts-RB          5 monitor
+LAS:FTL:SGN:01:FreqLvlRetr-Sts           5 monitor
+LAS:FTL:SGN:01:FreqPRunnMode-Mon         5 monitor
+LAS:FTL:SGN:01:FreqLvlShp-Sts            5 monitor
+LAS:FTL:SGN:01:FreqPStepLog-RB           5 monitor
+LAS:FTL:SGN:01:FreqLFSweepMode-Sts       5 monitor
+LAS:FTL:SGN:01:FreqFSweepMode-Sts        5 monitor
+LAS:FTL:SGN:01:FreqContPhsLo-Mon         5 monitor
+LAS:FTL:SGN:01:FreqFDwellTime-RB         5 monitor
+LAS:FTL:SGN:01:FreqFSweepPts-RB          5 monitor
+LAS:FTL:SGN:01:FreqFreqRetr-Sts          5 monitor
+LAS:FTL:SGN:01:FreqFRunnMode-Mon         5 monitor
+LAS:FTL:SGN:01:FreqFreqShp-Sts           5 monitor
+LAS:FTL:SGN:01:FreqFStepLog-RB           5 monitor
+LAS:FTL:SGN:01:FreqContPhsHi-Mon         5 monitor
+LAS:FTL:SGN:01:FreqVarMode-Sts           5 monitor
+LAS:FTL:SGN:01:FreqPSpacMode-Mon         5 monitor
+LAS:FTL:SGN:01:FreqFSpacMode-Sts         5 monitor
+LAS:FTL:SGN:01:FreqLFMode-Sts            5 monitor
+LAS:FTL:SGN:01:FreqLFSweepSrc-Sts        5 monitor
+LAS:FTL:SGN:01:FreqLFStartFreq-RB        5 monitor
+LAS:FTL:SGN:01:FreqLFStopFreq-RB         5 monitor
+LAS:FTL:SGN:01:FreqLFSpac-Sts            5 monitor
+LAS:FTL:SGN:01:FreqLFShp-Sts             5 monitor
+LAS:FTL:SGN:01:FreqLFStepLin-RB          5 monitor
+LAS:FTL:SGN:01:FreqLFStepLog-RB          5 monitor
+LAS:FTL:SGN:01:FreqLFDwellTime-RB        5 monitor
+LAS:FTL:SGN:01:FreqPhsCont-Sts           5 monitor
+LAS:FTL:SGN:01:ModAM-Sts                 5 monitor
+LAS:FTL:SGN:01:ModFM-Sts                 5 monitor
+LAS:FTL:SGN:01:ModAMSrc-Sts              5 monitor
+LAS:FTL:SGN:01:ModAMIntSrc-Sts           5 monitor
+LAS:FTL:SGN:01:ModPG-Sts                 5 monitor
+LAS:FTL:SGN:01:ModFMSrc-Sts              5 monitor
+LAS:FTL:SGN:01:ModPulM-Sts               5 monitor
+LAS:FTL:SGN:01:ModPulMWid-RB             5 monitor
+LAS:FTL:SGN:01:ModPulMPol-Sts            5 monitor
+LAS:FTL:SGN:01:ModPulMPeriod-RB          5 monitor
+LAS:FTL:SGN:01:ModPulMMode-Sts           5 monitor
+LAS:FTL:SGN:01:ModAll-Sts                5 monitor
+LAS:FTL:SGN:01:ModAMDepth-RB             5 monitor
+LAS:FTL:SGN:01:ModAMExtCoup-Sts          5 monitor
+LAS:FTL:SGN:01:ModAMIntDepth-RB          5 monitor
+LAS:FTL:SGN:01:ModAMSens-Mon             5 monitor
+LAS:FTL:SGN:01:ModPulMDelay-RB           5 monitor
+LAS:FTL:SGN:01:ModPulMSrc-Sts            5 monitor
+LAS:FTL:SGN:01:ModPulMTrigMode-Sts       5 monitor
+LAS:FTL:SGN:01:ModFMDev-RB               5 monitor
+LAS:FTL:SGN:01:ModFMExtCoup-Sts          5 monitor
+LAS:FTL:SGN:01:ModFMExtDev-RB            5 monitor
+LAS:FTL:SGN:01:ModFMIntDev-RB            5 monitor
+LAS:FTL:SGN:01:ModFMIntSrc-Sts           5 monitor
+LAS:FTL:SGN:01:ModPulMExtGatePol-Sts     5 monitor
+LAS:FTL:SGN:01:ModPulMExtImpdTrig-Sts    5 monitor
+LAS:FTL:SGN:01:ModPulMExtSlopeTrig-Sts   5 monitor
+LAS:FTL:SGN:01:ModFMExtImpd-Sts          5 monitor
+LAS:FTL:SGN:01:ModLFOut-Sts              5 monitor
+LAS:FTL:SGN:01:ModLFOutSrc-Sts           5 monitor
+LAS:FTL:SGN:01:TrigPSweepSrc-Sts         5 monitor
+LAS:FTL:SGN:01:TrigLFSweepSrc-Sts        5 monitor
+LAS:FTL:SGN:01:TrigFSweepSrc-Sts         5 monitor
+LAS:FTL:SGN:01:TrigInpSlopePol-Sts       5 monitor
+LAS:FTL:SGN:01:RoscExtBwid-Sts           5 monitor
+LAS:FTL:SGN:01:RoscSrc-Sts               5 monitor
+LAS:FTL:SGN:01:RoscExtFreq-Sts           5 monitor
+LAS:FTL:SGN:01:RoscExt-Sts               5 monitor
+LAS:FTL:SGN:01:CsynFreq-RB               5 monitor
+LAS:FTL:SGN:01:Csyn-Sts                  5 monitor
+LAS:FTL:SGN:01:CsynOffset-RB             5 monitor
+LAS:FTL:SGN:01:CsynOffset-Sts            5 monitor
+LAS:FTL:SGN:01:NoisBwid-RB               5 monitor
+LAS:FTL:SGN:01:NoisDist-Sts              5 monitor
+LAS:FTL:SGN:01:NoisRelatLvl-Mon          5 monitor
+LAS:FTL:SGN:01:NoisAbsLvl-Mon            5 monitor
+LAS:FTL:SGN:01:NoisBwid-Sts              5 monitor
+LAS:FTL:SGN:01:SaveTrg                   5 monitor

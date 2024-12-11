@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{	IOC = "LM1K4:W8:IOC:02"	}
+}
+

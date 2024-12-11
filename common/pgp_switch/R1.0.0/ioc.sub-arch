@@ -1,0 +1,6 @@
+$$LOOP(SWITCH)
+file pgp_switch.tpl-arch
+{
+    { BASE = "$$BASE" }
+}
+$$ENDLOOP(SWITCH)

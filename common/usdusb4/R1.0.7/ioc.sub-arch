@@ -1,0 +1,19 @@
+# Generate IOC archive request 
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(EVR)
+file archive_evr_$$TYPE.archive
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)
+
+$$LOOP(USDUSB4)
+file USDUSB4.archive
+{
+	{ BASE = "$$NAME:$$CALC{INDEX+1,%02d}" }
+}
+$$ENDLOOP(USDUSB4)

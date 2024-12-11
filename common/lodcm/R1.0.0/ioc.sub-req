@@ -1,0 +1,15 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file lodcm_ioc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(LODCM)
+file lodcm.req
+{
+    { NAME = "$$NAME" }
+}
+$$ENDLOOP(LODCM)

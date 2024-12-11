@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_wave8.req
+{
+	{ BASE = "HFX:DG2:BMMON", EVR = "HFX:DG2:BMMON:EVR" }
+}
+
+file autosave_evr_SLAC.tpl-req
+{
+	{ EVR = "HFX:DG2:BMMON:EVR" }
+}

@@ -1,0 +1,20 @@
+file lusiAtt-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file lusiAtt.req
+{
+	{ ATTBASE = "$$ATTBASE" }
+}
+
+$$LOOP(FILT)
+file lusiFilt.req
+{
+	{
+		ATTBASE = "$$ATTBASE"
+		ATTNUM  = "$$CALC{INDEX+1,%02d}"
+	}
+}
+$$ENDLOOP(FILT)
+

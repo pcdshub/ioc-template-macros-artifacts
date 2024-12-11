@@ -1,0 +1,18 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:XCS:MCS2:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{XCS:MCS2:01:m1 }
+	{XCS:MCS2:01:m2 }
+	{XCS:MCS2:01:m4 }
+	{XCS:MCS2:01:m5 }
+	{XCS:MCS2:01:m7 }
+	{XCS:MCS2:01:m8 }
+}

@@ -1,0 +1,58 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "CXI:IOC:D50:140K" }
+}
+
+
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:00"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:01"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:02"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:03"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:04"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:05"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:06"  }
+}
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:140K:07"  }
+}
+
+
+

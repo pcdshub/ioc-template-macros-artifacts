@@ -1,0 +1,27 @@
+#
+# gigECam Archive file for ioc-im2l1-gige
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IM2L1:PPM:CAM:IOC"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IM2L1:PPM:CAM:IOC"	}
+}
+
+
+file prosilica.tpl-arch
+{
+	{	P = "IM2L1:PPM:CAM", R = ":"	}
+}
+
+file gige-hist.archive
+{
+	{	P = "IM2L1:PPM:CAM", R = ":"	}
+}
+
+

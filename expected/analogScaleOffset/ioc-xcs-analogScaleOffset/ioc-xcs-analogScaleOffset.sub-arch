@@ -1,0 +1,35 @@
+# IOC archive file
+file analogScaleOffset-ioc.archive
+{
+    { IOC = "XCS:USER:REGULATOR" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:REG", NUM = "01" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:REG", NUM = "02" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:OXY", NUM = "01" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:PTD", NUM = "02" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:PTD", NUM = "01" }
+}
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "XCS:USR:PTD", NUM = "03" }
+}

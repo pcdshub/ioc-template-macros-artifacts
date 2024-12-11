@@ -1,0 +1,18 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+$$LOOP(WAVE8)
+file archive_wave8$$IF(SIMPLE,simple,).archive
+{
+	{ IOC = "$$IOC_PV", BASE = "$$NAME" }
+}
+$$ENDLOOP(WAVE8)
+
+$$LOOP(EVR)
+file archive_evr_$$IF(TYPE,$$TYPE,2).tpl-arch
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)

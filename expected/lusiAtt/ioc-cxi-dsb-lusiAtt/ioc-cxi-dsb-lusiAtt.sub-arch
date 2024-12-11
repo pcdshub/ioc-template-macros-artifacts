@@ -1,0 +1,46 @@
+file lusiAtt-ioc.archive
+{
+	{ IOC = "IOC:CXI:ATC" } 
+} 
+
+file lusiAtt.archive
+{
+	{ ATTBASE = "CXI:DSB" }
+}
+
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DSB"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DSB"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DSB"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DSB"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DSB"
+		ATTNUM  = "05"
+	}
+}
+

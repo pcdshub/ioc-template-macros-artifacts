@@ -1,0 +1,24 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:XPP:MCS2:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{XPP:MCS2:01:m1 }
+	{XPP:MCS2:01:m2 }
+	{XPP:MCS2:01:m3 }
+	{XPP:MCS2:01:m4 }
+	{XPP:MCS2:01:m5 }
+	{XPP:MCS2:01:m6 }
+	{XPP:MCS2:01:m7 }
+	{XPP:MCS2:01:m8 }
+	{XPP:MCS2:01:m9 }
+	{XPP:MCS2:01:m10 }
+	{XPP:MCS2:01:m11 }
+	{XPP:MCS2:01:m12 }
+}

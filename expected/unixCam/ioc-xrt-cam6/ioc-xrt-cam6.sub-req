@@ -1,0 +1,56 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       IOC:XRT:P6:CAM
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       IOC:XRT:P6:CAM,
+                EVR             =       HXX:UM6:EVR
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       HXX:UM6:CVP:01  }
+        {       CAM             =       HXX:TST:MCB:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       HXX:UM6:CVP:01 }
+        {       CAM             =       HXX:TST:MCB:01 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       HXX:UM6:CVP:01 }
+}
+file autosave_compress.req
+{
+	{	
+		CAM		=	HXX:UM6:CVP:01,
+	}
+}
+file camdelay.req
+{
+        {       CAM             =       HXX:TST:MCB:01 }
+}
+file autosave_compress.req
+{
+	{	
+		CAM		=	HXX:TST:MCB:01,
+	}
+}
+

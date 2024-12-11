@@ -1,0 +1,176 @@
+
+# This is the archiver file for the IOC
+
+# Example of what's in the config cmd
+#
+# EK9000(NAME=ek9k1,IP=192.168.1.3,PORT=502,SLAVES=4)
+# TERMINAL(EK9000=ek9k1,=TestTerm1-BI,TYPE=EL1004,SLAVE=4,CHANNELS=4) # 4 channels on this device
+# ALIAS(RECORD=TestTerm1-BI,ALIAS=cheese)
+#
+# IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+        { IOC = bhc:tst:ek9000:1 }
+}
+
+
+
+
+file terminal_bo.tpl-arch
+{
+	{ REC=TST:EK9000:BO1:COFFEE }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TST:EK9000:BO1:CHEETOS }
+}
+file terminal_bo.tpl-arch
+{
+	{ REC=TST:EK9000:BO1:CHICKEN }
+}
+
+
+
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AI1:1 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AI1:2 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AI1:3 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AI1:4 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:ENC:1 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:ENC:2 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:1 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:2 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:3 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:4 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:5 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:6 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:7 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:BO2:8 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AO1:1 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AO1:2 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AO1:3 }
+}
+file terminal_ai.tpl-arch
+{
+        { REC=TST:EK9000:AO1:4 }
+}
+
+
+
+
+file terminal_bi.tpl-arch
+{
+        { REC=TST:EK9000:BI1:1 }
+}
+file terminal_bi.tpl-arch
+{
+        { REC=TST:EK9000:BI1:2 }
+}
+file terminal_bi.tpl-arch
+{
+        { REC=TST:EK9000:BI1:3 }
+}
+file terminal_bi.tpl-arch
+{
+        { REC=TST:EK9000:BI1:4 }
+}
+
+
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:1 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:2 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:3 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:4 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:5 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:6 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:7 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:BO1:8 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:THRM1:1 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:THRM1:2 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:THRM1:3 }
+}
+file terminal_bo.tpl-arch
+{
+        { REC=TST:EK9000:THRM1:4 }
+}
+

@@ -1,0 +1,15 @@
+# Generate IOC archive request 
+file archive_protura.archive
+{
+	{ IOC = "MEC:HOM:IOC:01",  }
+	
+}
+
+file protura.archive
+{
+	{ MOTOR = "HXX:HXM:MMS:01:EN"}
+}
+file protura.archive
+{
+	{ MOTOR = "HXX:HXM:MMS:02:EN"}
+}

@@ -1,0 +1,40 @@
+#
+# mpod Autosave request file for ioc-mec-mpod-d60
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "IOC:MEC:MPOD:D60" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "MEC:D60:MPD:CH",             "0" }
+	{ "MEC:D60:MPD:CH",             "1" }
+	{ "MEC:D60:MPD:CH",             "2" }
+	{ "MEC:D60:MPD:CH",             "3" }
+	{ "MEC:D60:MPD:CH",             "4" }
+	{ "MEC:D60:MPD:CH",             "5" }
+	{ "MEC:D60:MPD:CH",             "6" }
+	{ "MEC:D60:MPD:CH",             "7" }
+	{ "MEC:D60:MPD:CH",             "100" }
+	{ "MEC:D60:MPD:CH",             "101" }
+	{ "MEC:D60:MPD:CH",             "102" }
+	{ "MEC:D60:MPD:CH",             "103" }
+	{ "MEC:D60:MPD:CH",             "104" }
+	{ "MEC:D60:MPD:CH",             "105" }
+	{ "MEC:D60:MPD:CH",             "106" }
+	{ "MEC:D60:MPD:CH",             "107" }
+	{ "MEC:D60:MPD:CH",             "200" }
+	{ "MEC:D60:MPD:CH",             "201" }
+	{ "MEC:D60:MPD:CH",             "202" }
+	{ "MEC:D60:MPD:CH",             "203" }
+	{ "MEC:D60:MPD:CH",             "204" }
+	{ "MEC:D60:MPD:CH",             "205" }
+	{ "MEC:D60:MPD:CH",             "206" }
+	{ "MEC:D60:MPD:CH",             "207" }
+}

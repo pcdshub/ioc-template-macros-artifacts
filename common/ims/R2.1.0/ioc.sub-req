@@ -1,0 +1,185 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            $$LOOP(IPM)
+            { $$DIODE_X  }
+            { $$DIODE_Y  }
+            { $$TARGET_Y }
+            $$ENDLOOP(IPM)
+
+            $$LOOP(PIM)
+            { $$MOTOR }
+            $$ENDLOOP(PIM)
+
+            $$LOOP(NAVITAR)
+            { $$ZOOM  }
+            $$IF(FOCUS)
+            { $$FOCUS }
+            $$ENDIF(FOCUS)
+            $$ENDLOOP(NAVITAR)
+
+            $$LOOP(XFLS)
+            { $$X }
+            { $$Y }
+            $$IF(Z)
+            { $$Z }
+            $$ENDIF(Z)
+            $$ENDLOOP(XFLS)
+
+            $$LOOP(SLIT)
+            { $$LEFT   }
+            { $$RIGHT  }
+            { $$TOP    }
+            { $$BOTTOM }
+            $$ENDLOOP(SLIT)
+
+            $$LOOP(REFL)
+            { $$MIRROR }
+            $$ENDLOOP(REFL)
+
+            $$LOOP(INOUT)
+            { $$MOTOR  }
+            $$ENDLOOP(INOUT)
+
+            $$LOOP(MOTOR)
+            { $$NAME   }
+            $$ENDLOOP(MOTOR)
+}
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            $$LOOP(IPM)
+            { $$NAME:DIODE,  "IN",   "OUT"  }
+            $$ENDLOOP(IPM)
+
+            $$LOOP(REFL)
+            { $$NAME:MIRROR, "IN",   "OUT"  }
+            $$ENDLOOP(REFL)
+
+            $$LOOP(INOUT)
+            { $$NAME,        "IN",   "OUT"  }
+            $$ENDLOOP(INOUT)
+}
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            $$LOOP(PIM)
+            { $$NAME,  "DIODE", "YAG",   "OUT"  }
+            $$ENDLOOP(PIM)
+}
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            $$LOOP(XFLS)
+            { $$NAME,  $$IF(L1,$$L1,LENS1), $$IF(L2,$$L2,LENS2), $$IF(L3,$$L3,LENS3), OUT    }
+            $$ENDLOOP(XFLS)
+}
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            $$LOOP(IPM)
+            { $$NAME:TARGET, $$IF(T1,$$T1,1), $$IF(T2,$$T2,2), $$IF(T3,$$T3,3), $$IF(T4,$$T4,4), OUT    }
+            $$ENDLOOP(IPM)
+}
+
+$$LOOP(STATES)
+$$IF(STATE6)
+file device_with_6states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6   }
+            { $$DEVICE,  $$STATE1,  $$STATE2,  $$STATE3,  $$STATE4,  $$STATE5,  $$STATE6 }
+}
+$$ELSE(STATE6)
+$$IF(STATE5)
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { $$DEVICE,  $$STATE1,  $$STATE2,  $$STATE3,  $$STATE4,  $$STATE5 }
+}
+$$ELSE(STATE5)
+$$IF(STATE4)
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4   }
+            { $$DEVICE,  $$STATE1,  $$STATE2,  $$STATE3,  $$STATE4 }
+}
+$$ELSE(STATE4)
+$$IF(STATE3)
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3   }
+            { $$DEVICE,  $$STATE1,  $$STATE2,  $$STATE3 }
+}
+$$ELSE(STATE3)
+$$IF(STATE2)
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2   }
+            { $$DEVICE,  $$STATE1,  $$STATE2 }
+}
+$$ELSE(STATE2)
+file one_state.tpl-req
+{
+    pattern { DEVICE,    STATE    }
+            { $$DEVICE,  $$STATE1 }
+}
+$$ENDIF(STATE2)
+$$ENDIF(STATE3)
+$$ENDIF(STATE4)
+$$ENDIF(STATE5)
+$$ENDIF(STATE6)
+$$ENDLOOP(STATES)
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            $$LOOP(LKUP)
+            { $$NAME }
+            $$ENDLOOP(LKUP)
+}
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            $$LOOP(NAVITAR)
+            { $$NAME }
+            $$ENDLOOP(NAVITAR)
+}
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            $$LOOP(SLIT)
+            { $$NAME }
+            $$ENDLOOP(SLIT)
+}
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            $$LOOP(DISP_ILK)
+            { $$IF(ILK,$$ILK,$$MOTOR:ILK) }
+            $$ENDLOOP(DISP_ILK)
+}
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            $$LOOP(LIMIT_ILK)
+            { $$IF(ILK,$$ILK,$$MOTOR:ILK) }
+            $$ENDLOOP(LIMIT_ILK)
+}
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            $$LOOP(TEMP_ILK)
+            { $$IF(ILK,$$ILK,$$MOTOR:ILK) }
+            $$ENDLOOP(TEMP_ILK)
+}
+

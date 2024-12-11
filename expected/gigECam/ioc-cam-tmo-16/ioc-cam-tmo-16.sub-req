@@ -1,0 +1,9 @@
+#
+# gigECam Autosave request file for ioc-cam-tmo-16
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "TMO:CAM:16:IOC" }
+}

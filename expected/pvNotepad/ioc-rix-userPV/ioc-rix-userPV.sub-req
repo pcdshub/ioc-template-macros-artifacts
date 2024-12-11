@@ -1,0 +1,332 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:DPHI_REQUEST    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:DPHI_STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:MCC:EPHOTK:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:BYKIKS:ABORT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:BYKIKS:LAST_NUM_SHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:USER:BYKIKS:ABORT_EN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:BIN:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:VARS:FLOAT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { RIX:TIMETOOL:TTALL    }
+}
+

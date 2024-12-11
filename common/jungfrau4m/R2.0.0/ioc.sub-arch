@@ -1,0 +1,29 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file jf4m-ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(SLSDET)
+file slsDetector$$TYPE.archive
+{
+    { SLSDET = "$$BASE:CTRL" }
+}
+$$ENDLOOP(SLSDET)
+
+$$LOOP(JFPWR)
+file jfpower.archive
+{
+    { JFPWR = "$$BASE:PWR" }
+}
+$$ENDLOOP(JFPWR)
+
+$$LOOP(BME)
+file bme280.archive
+{
+    { BME = "$$BASE:$$IF(NAME,$$NAME,BME280:$$INDEX)" }
+}
+$$ENDLOOP(BME)

@@ -1,0 +1,1207 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:Ref    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Motor    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Motor    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_Motor    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_x1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_y1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_x2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_y2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:CCM:E    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LAM:Theta    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LAM:Gamma    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:T3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:E    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:GON:REF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:GON:REFD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT_ULIM_LO    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT_ULIM_HI    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI1_TEMP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI_SHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI_FRAMES    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:geometry    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:s2d    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Pix0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Pix0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Pos0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Pos0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_Pos0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_PixS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_PixS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_PosS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_PosS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_PosS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:Lattice_Const    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:Analyzer_Energy    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:ea_lowlim    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:ea_highlim    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_T    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:VARS:J78:GDET_THRES    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:CCM:E    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:CCM:Theta0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:FS4:T0_SHIFTER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:T0_MONITOR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_PULSE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_LEAK    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TIME_DELAY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:FS4_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:FS4_MAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:EVR0_OSC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:EVR0_GATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:SDG0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_PULSE2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_LEAK2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:VIT:T0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:VIT:TD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LXT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LXTTC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OUT_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OUT_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_TRA_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_TRA_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_H_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_H_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_V_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_V_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_F_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_F_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_COMP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_COMP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_WP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_WP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_COMP_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_COMP_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSH_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSH_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSV_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSV_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSF_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSF_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_DELAY_POS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_DELAY_OFF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:TIMETOOL:TTALL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:CCM:THETA0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:CCM:DSPACING    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:CCM:GR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { XCS:CCM:GD    }
+}
+

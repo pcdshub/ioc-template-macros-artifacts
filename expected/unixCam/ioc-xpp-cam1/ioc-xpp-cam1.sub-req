@@ -1,0 +1,40 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       XPP:R32:IOC:32
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       XPP:R32:IOC:32,
+                EVR             =       XPP:R32:EVR:32
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       XPP:GON:CVV:01  }
+        {       CAM             =       XPP:SB3:CVV:01  }
+        {       CAM             =       XPP:SB3:CVV:02  }
+        {       CAM             =       XPP:GON:CVV:04  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       XPP:GON:CVV:01 }
+        {       CAM             =       XPP:SB3:CVV:01 }
+        {       CAM             =       XPP:SB3:CVV:02 }
+        {       CAM             =       XPP:GON:CVV:04 }
+}
+
+

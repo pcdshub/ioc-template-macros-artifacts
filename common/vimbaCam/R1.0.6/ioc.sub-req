@@ -1,0 +1,16 @@
+#
+# gigECam Autosave request file for $$IOCNAME
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$IF(CAM_TYPE,vimba)
+file vimba.req
+{
+    { CAM = "$$CAM_PV" }
+}
+$$ENDIF(CAM_TYPE)

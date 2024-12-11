@@ -1,0 +1,7 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { SXD:SPC:ANDOR:TEMP    }
+}
+

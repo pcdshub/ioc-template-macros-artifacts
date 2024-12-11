@@ -1,0 +1,17 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "EM2K0:XGMD:SHV:01:IOC" }
+}
+
+file iseg_16Ch.req
+{
+	{
+		P			= "EM2K0:XGMD:SHV:01",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "EM2K0:XGMD:SHV:01"
+	}
+}

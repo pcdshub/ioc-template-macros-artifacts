@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:TMO-TRICAM-01" }
+}
+
+file TRiCAM.req
+{
+    { BASE = "TMO-TRICAM-01" }
+}

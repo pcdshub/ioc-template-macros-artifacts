@@ -1,0 +1,115 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:NAME    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:TYPE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:COMM    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:ANGLE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:PITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:VERTICALPITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:HORIZONTALPITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:PATT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:ROW    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:ACC    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:FREQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:CELLS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:WINDOWS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:GAP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:DAQ_STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:USE_DAQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:RECORD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:CONFSEQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:STRRUN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:OKTRG    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:TRG    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:ENDRUN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { MFX:USR:STOP    }
+}

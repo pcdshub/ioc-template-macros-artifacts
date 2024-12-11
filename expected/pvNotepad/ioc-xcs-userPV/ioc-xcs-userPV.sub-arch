@@ -1,0 +1,1205 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:NSHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:NSTEPS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:ISTEP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:ISSCAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:SCANVAR02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MIN02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:SCAN:MAX02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:INT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DIG:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:STRING:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:FLT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD0:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD1:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD2:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:DET:QUAD3:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:GON:140K:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAM:140K:TEMP3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:SET1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:SET2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REF1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REF2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:VER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:UND    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:MCC:EPHOT:REQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:Ref    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Motor    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Motor    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_Motor    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_x1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_y1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_x2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:det_roi_y2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LOM:E2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:CCM:E    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LAM:Theta    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:LAM:Gamma    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:T3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:ATT:E    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:GON:REF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:GON:REFD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT_ULIM_LO    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT_ULIM_HI    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:MCC:EPHOT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI1_TEMP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI_SHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DAQ:PI_FRAMES    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:geometry    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:s2d    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Pix0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Pix0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_Pos0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_Pos0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_Pos0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_PixS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_PixS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:x_PosS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:y_PosS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:DET:th_PosS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:Lattice_Const    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:Analyzer_Energy    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:ea_lowlim    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:710:ea_highlim    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_T    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_X    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATTALL_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT0_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT10_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT20_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT30_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT40_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT50_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT60_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT70_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT80_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT90_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT120_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT130_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT140_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT150_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT160_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT170_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT180_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT190_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:E86:G2_ATT200_Y    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:VARS:J78:GDET_THRES    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:CCM:E    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:CCM:Theta0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:FS4:T0_SHIFTER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:T0_MONITOR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_PULSE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_LEAK    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TIME_DELAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:FS4_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:FS4_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:EVR0_OSC    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:EVR0_GATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:SDG0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_PULSE2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:E_LEAK2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:VIT:T0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:VIT:TD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LXT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LXTTC    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_WP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_WP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OUT_WP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OUT_WP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_TRA_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:CP_TRA_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_H_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_H_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_V_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_V_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_F_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:L1_F_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_WP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_WP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_COMP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:OPA_COMP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_WP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_WP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_COMP_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_COMP_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSH_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSH_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSV_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSV_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSF_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_LENSF_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_DELAY_POS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:USER:LAS:TT_DELAY_OFF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:TIMETOOL:TTALL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:CCM:THETA0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:CCM:DSPACING    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:CCM:GR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XCS:CCM:GD    }
+}

@@ -1,0 +1,15 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+
+file fiber_stretcher.req
+{
+    { BASE = "LAS:FTL:RFOF:FF:01" }
+}
+
+file pidLoop.req
+{
+    { BASE = "LAS:FTL:RFOF:FF:01", LOOP = "PID" }
+}
+

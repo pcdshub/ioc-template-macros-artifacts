@@ -1,0 +1,16 @@
+# Hexapod IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file hexapod-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+# Generate autosave PV list for each hexapod
+file PIHexapod.tpl-req
+{
+$$LOOP(PI887)
+	{ baseName = "$$BASE" }
+$$ENDLOOP(PI887)
+}
+

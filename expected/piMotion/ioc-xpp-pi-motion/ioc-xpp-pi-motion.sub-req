@@ -1,0 +1,15 @@
+# IOC archive file
+## Replace _IOCPVROOT_ with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+file autosave_piMotion.req
+{
+	{ IOC = IOC:XPP:LMC:01 }
+}
+
+file autosave_evr_SLAC.req
+{
+	{ EVR = "XPP:LMC:EVR:01" }
+}
+
+

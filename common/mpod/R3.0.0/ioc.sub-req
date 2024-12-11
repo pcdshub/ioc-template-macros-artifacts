@@ -1,0 +1,21 @@
+#
+# mpod Autosave request file for $$IOCNAME
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+$$LOOP(BOARD)
+$$LOOP(COUNT)
+	{ "$$PREFIX:CH",             "$$IF(INDEX1,0)$$IF(ZMOD)$$CALC{INDEX,%03d}$$ELSE(ZMOD)$$IF(COUNT,16)$$CALC{INDEX,%02d}$$ELSE(COUNT)$$INDEX$$ENDIF(COUNT)$$ENDIF(ZMOD)$$ELSE(INDEX1)$$(INDEX1)$$CALC{INDEX,%02d}$$ENDIF(INDEX1)" }
+$$ENDLOOP(COUNT)
+$$ENDLOOP(BOARD)
+}

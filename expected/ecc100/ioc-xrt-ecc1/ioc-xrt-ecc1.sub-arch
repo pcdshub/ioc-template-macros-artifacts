@@ -1,0 +1,4 @@
+file ecc.archive
+{
+	{ BASE = ECC:XRT:SND:01 }
+}

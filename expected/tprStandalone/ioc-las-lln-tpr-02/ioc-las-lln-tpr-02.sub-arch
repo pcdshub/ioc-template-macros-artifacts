@@ -1,0 +1,16 @@
+# Each tpr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "LLN:IOC:TPR:02"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "LLN:IOC:TPR:02"	}
+}
+
+file pcie_tprTrig.archive
+{
+        {       DEV = "LLN:TPR:02"        }
+}

@@ -1,0 +1,105 @@
+# IMS archive list
+CXI:DG3:MMS:16.DESC         86400    monitor
+CXI:DG3:MMS:16.TYPE         86400    monitor
+CXI:DG3:MMS:16.PORT         86400    monitor
+CXI:DG3:MMS:16.LM           86400    monitor
+CXI:DG3:MMS:16.SM           86400    monitor
+CXI:DG3:MMS:16.SF           86400    monitor
+CXI:DG3:MMS:16.STSV         86400    monitor
+CXI:DG3:MMS:16.ERSV         86400    monitor
+CXI:DG3:MMS:16.EE           86400    monitor
+CXI:DG3:MMS:16.EL           86400    monitor
+CXI:DG3:MMS:16.ME           86400    monitor
+CXI:DG3:MMS:16.MS           86400    monitor
+CXI:DG3:MMS:16.MT           86400    monitor
+CXI:DG3:MMS:16.HT           86400    monitor
+CXI:DG3:MMS:16.ES           86400    monitor
+CXI:DG3:MMS:16.RCMX         86400    monitor
+CXI:DG3:MMS:16.RC           86400    monitor
+CXI:DG3:MMS:16.HCMX         86400    monitor
+CXI:DG3:MMS:16.HC           86400    monitor
+CXI:DG3:MMS:16.DVER         86400    monitor
+CXI:DG3:MMS:16.MODE         86400    monitor
+CXI:DG3:MMS:16.EGU          86400    monitor
+CXI:DG3:MMS:16.UREV         86400    monitor
+CXI:DG3:MMS:16.FREV         86400    monitor
+CXI:DG3:MMS:16.SREV         86400    monitor
+CXI:DG3:MMS:16.MRES         86400    monitor
+CXI:DG3:MMS:16.ERES         86400    monitor
+CXI:DG3:MMS:16.DIR          86400    monitor
+CXI:DG3:MMS:16.OFF          86400    monitor
+CXI:DG3:MMS:16.FOFF         86400    monitor
+CXI:DG3:MMS:16.HTYP         86400    monitor
+CXI:DG3:MMS:16.HEGE         86400    monitor
+CXI:DG3:MMS:16.BDST         86400    monitor
+CXI:DG3:MMS:16.HDST         86400    monitor
+CXI:DG3:MMS:16.DLLM         86400    monitor
+CXI:DG3:MMS:16.DHLM         86400    monitor
+CXI:DG3:MMS:16.LLM          86400    monitor
+CXI:DG3:MMS:16.HLM          86400    monitor
+CXI:DG3:MMS:16.RTRY         86400    monitor
+CXI:DG3:MMS:16.RDBD         86400    monitor
+CXI:DG3:MMS:16.PDBD         86400    monitor
+CXI:DG3:MMS:16.PREC         86400    monitor
+CXI:DG3:MMS:16.SBAS         86400    monitor
+CXI:DG3:MMS:16.SMAX         86400    monitor
+CXI:DG3:MMS:16.S            86400    monitor
+CXI:DG3:MMS:16.VBAS         86400    monitor
+CXI:DG3:MMS:16.VMAX         86400    monitor
+CXI:DG3:MMS:16.VELO         86400    monitor
+CXI:DG3:MMS:16.BS           86400    monitor
+CXI:DG3:MMS:16.BVEL         86400    monitor
+CXI:DG3:MMS:16.HS           86400    monitor
+CXI:DG3:MMS:16.HVEL         86400    monitor
+CXI:DG3:MMS:16.ACCL         86400    monitor
+CXI:DG3:MMS:16.BACC         86400    monitor
+CXI:DG3:MMS:16.HACC         86400    monitor
+CXI:DG3:MMS:16.TWV          86400    monitor
+CXI:DG3:MMS:16.HOMD         86400    monitor
+CXI:DG3:MMS:16.EGAG         86400    monitor
+CXI:DG3:MMS:16.ERBL         86400    monitor
+CXI:DG3:MMS:16.ESKL         86400    monitor
+
+CXI:DG3:MMS:16.DLVL         86400    monitor
+
+CXI:DG3:MMS:16.S1           86400    monitor
+CXI:DG3:MMS:16.S2           86400    monitor
+CXI:DG3:MMS:16.S3           86400    monitor
+CXI:DG3:MMS:16.S4           86400    monitor
+CXI:DG3:MMS:16.S9           86400    monitor
+
+CXI:DG3:MMS:16.RES          86400    monitor
+
+CXI:DG3:MMS:16.VAL          2        monitor
+CXI:DG3:MMS:16.DVAL         2        monitor
+CXI:DG3:MMS:16.RVAL         2        monitor
+CXI:DG3:MMS:16.RRBV         0.2      monitor
+CXI:DG3:MMS:16.DRBV         0.2      monitor
+CXI:DG3:MMS:16.RBV          0.2      monitor
+
+CXI:DG3:MMS:16.ERBV         0.2      monitor
+
+CXI:DG3:MMS:16.DIFF         0.2      monitor
+
+CXI:DG3:MMS:16.RCNT         86400    monitor
+CXI:DG3:MMS:16.MISS         86400    monitor
+
+CXI:DG3:MMS:16.LLS          86400    monitor
+CXI:DG3:MMS:16.HLS          86400    monitor
+
+CXI:DG3:MMS:16.ATHM         86400    monitor
+
+CXI:DG3:MMS:16.MIP          0.2      monitor
+CXI:DG3:MMS:16.MOVN         0.2      monitor
+CXI:DG3:MMS:16.DMOV         0.2      monitor
+CXI:DG3:MMS:16.MSTA         0.2      monitor
+CXI:DG3:MMS:16.HCSV         86400    monitor
+
+CXI:DG3:MMS:16:SAVED_RAW    86400    monitor
+CXI:DG3:MMS:16:SAVED_P      86400    monitor
+
+CXI:DG3:MMS:16:FW_MEANS     86400    monitor
+CXI:DG3:MMS:16:REV_MEANS    86400    monitor
+
+CXI:DG3:MMS:16:CFG_FILE     86400    monitor
+

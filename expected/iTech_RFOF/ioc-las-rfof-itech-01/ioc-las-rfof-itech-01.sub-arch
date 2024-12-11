@@ -1,0 +1,10 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+
+
+file rfof.archive
+{
+    { IOC = "IOC:LAS:RFOF:ITECH:01", BASE  = "LAS:RFOF:ITECH:01" }
+}

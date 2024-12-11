@@ -1,0 +1,34 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+IOC:CXI:ALV:01:ACCESS
+IOC:CXI:ALV:01:CA_CLNT_CNT.HIGH
+IOC:CXI:ALV:01:CA_CLNT_CNT.HIHI
+IOC:CXI:ALV:01:CA_CONN_CNT.HIGH
+IOC:CXI:ALV:01:CA_CONN_CNT.HIHI
+IOC:CXI:ALV:01:SUSP_TASK_CNT.HIHI
+IOC:CXI:ALV:01:FD_FREE.LOW
+IOC:CXI:ALV:01:FD_FREE.LOLO
+IOC:CXI:ALV:01:IOC_CPU_LOAD.HIGH
+IOC:CXI:ALV:01:IOC_CPU_LOAD.HIHI
+IOC:CXI:ALV:01:MEM_FREE.LOW
+IOC:CXI:ALV:01:MEM_FREE.LOLO
+IOC:CXI:ALV:01:START_CNT
+# ADGenICam_settings.req includes ADBase_settings, which seems to be OK
+# because of the info in the .db file.  So we just include the settings from
+# ADGenICam_settings here.
+CXI:ALV:01:FrameRateEnable
+CXI:ALV:01:TriggerSource
+CXI:ALV:01:TriggerOverlap
+CXI:ALV:01:ExposureMode
+CXI:ALV:01:ExposureAuto
+CXI:ALV:01:GainAuto
+CXI:ALV:01:PixelFormat
+# ADVimba_settings:
+CXI:ALV:01:TimeStampMode
+CXI:ALV:01:UniqueIdMode
+CXI:ALV:01:ConvertPixelFormat
+# SLAC settings:
+CXI:ALV:01:XmitRate
+CXI:ALV:01:CamProcDelay
+CXI:ALV:01:DriverProcDelay

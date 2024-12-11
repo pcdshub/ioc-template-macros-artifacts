@@ -1,0 +1,200 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+IOC:KFE:VAC:SUPPORT:ACCESS
+IOC:KFE:VAC:SUPPORT:CA_CLNT_CNT.HIGH
+IOC:KFE:VAC:SUPPORT:CA_CLNT_CNT.HIHI
+IOC:KFE:VAC:SUPPORT:CA_CONN_CNT.HIGH
+IOC:KFE:VAC:SUPPORT:CA_CONN_CNT.HIHI
+IOC:KFE:VAC:SUPPORT:SUSP_TASK_CNT.HIHI
+IOC:KFE:VAC:SUPPORT:FD_FREE.LOW
+IOC:KFE:VAC:SUPPORT:FD_FREE.LOLO
+IOC:KFE:VAC:SUPPORT:IOC_CPU_LOAD.HIGH
+IOC:KFE:VAC:SUPPORT:IOC_CPU_LOAD.HIHI
+IOC:KFE:VAC:SUPPORT:MEM_FREE.LOW
+IOC:KFE:VAC:SUPPORT:MEM_FREE.LOLO
+IOC:KFE:VAC:SUPPORT:START_CNT
+IOC:KFE:VAC:SUPPORT:MEM_BLK_FREE.LOW
+IOC:KFE:VAC:SUPPORT:MEM_BLK_FREE.LOLO
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#RTDSK0:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# RTDSK0:GPI:1:PSTATSPRBCK.HIHI
+# RTDSK0:GPI:1:PSTATSPRBCK.HIGH
+# RTDSK0:GPI:1:PSTATSPRBCK.LOW
+# RTDSK0:GPI:1:PSTATSPRBCK.LOLO
+# RTDSK0:GPI:1:PSTATSPRBCK.HHSV
+# RTDSK0:GPI:1:PSTATSPRBCK.HSV
+# RTDSK0:GPI:1:PSTATSPRBCK.LSV
+# RTDSK0:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+RTDSK0:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# RTDSK0:GPI:1:PSTATENRBCK.ZSV
+# RTDSK0:GPI:1:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#IM1K0:XTES:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.HIHI
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.HIGH
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.LOW
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.LOLO
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.HHSV
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.HSV
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.LSV
+# IM1K0:XTES:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+IM1K0:XTES:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# IM1K0:XTES:GPI:1:PSTATENRBCK.ZSV
+# IM1K0:XTES:GPI:1:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#SL1K0:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# SL1K0:GPI:1:PSTATSPRBCK.HIHI
+# SL1K0:GPI:1:PSTATSPRBCK.HIGH
+# SL1K0:GPI:1:PSTATSPRBCK.LOW
+# SL1K0:GPI:1:PSTATSPRBCK.LOLO
+# SL1K0:GPI:1:PSTATSPRBCK.HHSV
+# SL1K0:GPI:1:PSTATSPRBCK.HSV
+# SL1K0:GPI:1:PSTATSPRBCK.LSV
+# SL1K0:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+SL1K0:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# SL1K0:GPI:1:PSTATENRBCK.ZSV
+# SL1K0:GPI:1:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#TV2K0:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# TV2K0:GPI:1:PSTATSPRBCK.HIHI
+# TV2K0:GPI:1:PSTATSPRBCK.HIGH
+# TV2K0:GPI:1:PSTATSPRBCK.LOW
+# TV2K0:GPI:1:PSTATSPRBCK.LOLO
+# TV2K0:GPI:1:PSTATSPRBCK.HHSV
+# TV2K0:GPI:1:PSTATSPRBCK.HSV
+# TV2K0:GPI:1:PSTATSPRBCK.LSV
+# TV2K0:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+TV2K0:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# TV2K0:GPI:1:PSTATENRBCK.ZSV
+# TV2K0:GPI:1:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#TV2K0:GPI:2:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# TV2K0:GPI:2:PSTATSPRBCK.HIHI
+# TV2K0:GPI:2:PSTATSPRBCK.HIGH
+# TV2K0:GPI:2:PSTATSPRBCK.LOW
+# TV2K0:GPI:2:PSTATSPRBCK.LOLO
+# TV2K0:GPI:2:PSTATSPRBCK.HHSV
+# TV2K0:GPI:2:PSTATSPRBCK.HSV
+# TV2K0:GPI:2:PSTATSPRBCK.LSV
+# TV2K0:GPI:2:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+TV2K0:GPI:2:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# TV2K0:GPI:2:PSTATENRBCK.ZSV
+# TV2K0:GPI:2:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#PA1K0:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# PA1K0:GPI:1:PSTATSPRBCK.HIHI
+# PA1K0:GPI:1:PSTATSPRBCK.HIGH
+# PA1K0:GPI:1:PSTATSPRBCK.LOW
+# PA1K0:GPI:1:PSTATSPRBCK.LOLO
+# PA1K0:GPI:1:PSTATSPRBCK.HHSV
+# PA1K0:GPI:1:PSTATSPRBCK.HSV
+# PA1K0:GPI:1:PSTATSPRBCK.LSV
+# PA1K0:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+PA1K0:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# PA1K0:GPI:1:PSTATENRBCK.ZSV
+# PA1K0:GPI:1:PSTATENRBCK.OSV
+
+# Autosave list for Pirani gauge
+
+# Relay Set Point value
+#MR1K1:BEND:GPI:1:PSTATSPDES.VAL
+
+# Relay set point value readback limits and alarms
+# Relays are not currently supported 
+# 
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.HIHI
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.HIGH
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.LOW
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.LOLO
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.HHSV
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.HSV
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.LSV
+# MR1K1:BEND:GPI:1:PSTATSPRBCK.LLSV
+
+# Relay set point enable value
+MR1K1:BEND:GPI:1:PSTATEN.VAL
+
+# Relay set point enable readback alarms
+# Relays are not currently supported
+#
+# MR1K1:BEND:GPI:1:PSTATENRBCK.ZSV
+# MR1K1:BEND:GPI:1:PSTATENRBCK.OSV
+

@@ -1,0 +1,5 @@
+file exp_state.tpl-arch
+{
+    pattern { P                       }
+            { IOC:XPP:0:EXPSTATE:   }
+}

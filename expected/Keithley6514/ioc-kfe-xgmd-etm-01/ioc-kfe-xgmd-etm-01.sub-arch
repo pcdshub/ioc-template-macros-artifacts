@@ -1,0 +1,32 @@
+# Keithley6514 IOC instance archive file
+
+# Generate archive PV list for IOC
+file Keithley6514-ioc.archive
+{
+	{	IOC = "EM2K0:XGMD:IOC:ETM:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "EM2K0:XGMD:IOC:ETM:01"	}
+}
+
+file Keithley6514.tpl-arch
+{
+	{ EM = "EM2K0:XGMD:ETM:01" }
+}
+
+file ai_hist.archive
+{
+	{ P = "EM2K0:XGMD:ETM:01" }
+}
+file Keithley6514.tpl-arch
+{
+	{ EM = "EM2K0:XGMD:ETM:02" }
+}
+
+file ai_hist.archive
+{
+	{ P = "EM2K0:XGMD:ETM:02" }
+}
+

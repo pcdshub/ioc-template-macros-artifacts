@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:MEC:TTK:02" }
+}
+
+file thermotek.archive
+{
+    { IOC = "IOC:MEC:TTK:02", P  = "MEC:TTK:02" }
+}

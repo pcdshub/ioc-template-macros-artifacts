@@ -1,0 +1,24 @@
+# Aerotech IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = $$IOC_PV }
+}
+
+$$LOOP(ENSEMBLE)
+file aerotech.req
+{
+	pattern
+	{ MOTOR }
+$$LOOP(COUNT)
+	{$$BASE:m$$INDEX }
+$$ENDLOOP(COUNT)
+}
+
+$$IF(DPORT)
+file aerotech_global.req
+{
+	{ BASE = $$BASE }
+}
+$$ENDIF(DPORT)
+$$ENDLOOP(ENSEMBLE)

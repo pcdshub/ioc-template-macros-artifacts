@@ -1,0 +1,38 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:XCS:MCS2:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:XCS:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{XCS:MCS2:01, 1 }
+	{XCS:MCS2:01, 2 }
+	{XCS:MCS2:01, 4 }
+	{XCS:MCS2:01, 5 }
+	{XCS:MCS2:01, 7 }
+	{XCS:MCS2:01, 8 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { XCS:MR1_TIP1 }
+    { XCS:MR1_TILT1 }
+    { XCS:MR2_TIP2 }
+    { XCS:MR2_TILT2 }
+    { XCS:MR3_TIP3 }
+    { XCS:MR3_TILT3 }
+}
+
+

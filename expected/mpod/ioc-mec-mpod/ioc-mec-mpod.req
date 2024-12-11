@@ -1,0 +1,112 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+IOC:MEC:MPOD:ACCESS
+IOC:MEC:MPOD:CA_CLNT_CNT.HIGH
+IOC:MEC:MPOD:CA_CLNT_CNT.HIHI
+IOC:MEC:MPOD:CA_CONN_CNT.HIGH
+IOC:MEC:MPOD:CA_CONN_CNT.HIHI
+IOC:MEC:MPOD:SUSP_TASK_CNT.HIHI
+IOC:MEC:MPOD:FD_FREE.LOW
+IOC:MEC:MPOD:FD_FREE.LOLO
+IOC:MEC:MPOD:IOC_CPU_LOAD.HIGH
+IOC:MEC:MPOD:IOC_CPU_LOAD.HIHI
+IOC:MEC:MPOD:MEM_FREE.LOW
+IOC:MEC:MPOD:MEM_FREE.LOLO
+IOC:MEC:MPOD:START_CNT
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:0:SetCurrent
+MEC:DET:MPD:CH:0:SetSwitch
+MEC:DET:MPD:CH:0:SetVoltage
+MEC:DET:MPD:CH:0:GetVoltage.DESC
+MEC:DET:MPD:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:1:SetCurrent
+MEC:DET:MPD:CH:1:SetSwitch
+MEC:DET:MPD:CH:1:SetVoltage
+MEC:DET:MPD:CH:1:GetVoltage.DESC
+MEC:DET:MPD:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:2:SetCurrent
+MEC:DET:MPD:CH:2:SetSwitch
+MEC:DET:MPD:CH:2:SetVoltage
+MEC:DET:MPD:CH:2:GetVoltage.DESC
+MEC:DET:MPD:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:3:SetCurrent
+MEC:DET:MPD:CH:3:SetSwitch
+MEC:DET:MPD:CH:3:SetVoltage
+MEC:DET:MPD:CH:3:GetVoltage.DESC
+MEC:DET:MPD:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:4:SetCurrent
+MEC:DET:MPD:CH:4:SetSwitch
+MEC:DET:MPD:CH:4:SetVoltage
+MEC:DET:MPD:CH:4:GetVoltage.DESC
+MEC:DET:MPD:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:5:SetCurrent
+MEC:DET:MPD:CH:5:SetSwitch
+MEC:DET:MPD:CH:5:SetVoltage
+MEC:DET:MPD:CH:5:GetVoltage.DESC
+MEC:DET:MPD:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:6:SetCurrent
+MEC:DET:MPD:CH:6:SetSwitch
+MEC:DET:MPD:CH:6:SetVoltage
+MEC:DET:MPD:CH:6:GetVoltage.DESC
+MEC:DET:MPD:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:7:SetCurrent
+MEC:DET:MPD:CH:7:SetSwitch
+MEC:DET:MPD:CH:7:SetVoltage
+MEC:DET:MPD:CH:7:GetVoltage.DESC
+MEC:DET:MPD:CH:7:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:100:SetCurrent
+MEC:DET:MPD:CH:100:SetSwitch
+MEC:DET:MPD:CH:100:SetVoltage
+MEC:DET:MPD:CH:100:GetVoltage.DESC
+MEC:DET:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:101:SetCurrent
+MEC:DET:MPD:CH:101:SetSwitch
+MEC:DET:MPD:CH:101:SetVoltage
+MEC:DET:MPD:CH:101:GetVoltage.DESC
+MEC:DET:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:102:SetCurrent
+MEC:DET:MPD:CH:102:SetSwitch
+MEC:DET:MPD:CH:102:SetVoltage
+MEC:DET:MPD:CH:102:GetVoltage.DESC
+MEC:DET:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:103:SetCurrent
+MEC:DET:MPD:CH:103:SetSwitch
+MEC:DET:MPD:CH:103:SetVoltage
+MEC:DET:MPD:CH:103:GetVoltage.DESC
+MEC:DET:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:104:SetCurrent
+MEC:DET:MPD:CH:104:SetSwitch
+MEC:DET:MPD:CH:104:SetVoltage
+MEC:DET:MPD:CH:104:GetVoltage.DESC
+MEC:DET:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:105:SetCurrent
+MEC:DET:MPD:CH:105:SetSwitch
+MEC:DET:MPD:CH:105:SetVoltage
+MEC:DET:MPD:CH:105:GetVoltage.DESC
+MEC:DET:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:106:SetCurrent
+MEC:DET:MPD:CH:106:SetSwitch
+MEC:DET:MPD:CH:106:SetVoltage
+MEC:DET:MPD:CH:106:GetVoltage.DESC
+MEC:DET:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+MEC:DET:MPD:CH:107:SetCurrent
+MEC:DET:MPD:CH:107:SetSwitch
+MEC:DET:MPD:CH:107:SetVoltage
+MEC:DET:MPD:CH:107:GetVoltage.DESC
+MEC:DET:MPD:CH:107:SetVoltage.DESC

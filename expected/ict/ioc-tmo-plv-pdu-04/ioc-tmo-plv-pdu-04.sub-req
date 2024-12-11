@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file ictIoc.req
+{
+    { IOC = "IOC:TMO:ICT:04" }
+}
+
+file ictPdu.req
+{
+    { PRE = "PDU:TMO:ICT:04" }
+}

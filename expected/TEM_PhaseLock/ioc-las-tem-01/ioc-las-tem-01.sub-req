@@ -1,0 +1,18 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:LAS:TEM:01" }
+}
+
+file archive_SR.tpl-arch
+{
+    { IOC = "IOC:LAS:TEM:01" }
+}
+
+file TEM_PhaseLock.archive
+{
+    { BASE = "LAS:TEM:01" }
+}

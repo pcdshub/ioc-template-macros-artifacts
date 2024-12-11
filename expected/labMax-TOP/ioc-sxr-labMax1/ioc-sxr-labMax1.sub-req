@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{
+		IOC = SXR:EXP:IOC:LEM3,
+	}
+}
+
+file autosave_labMax-Top.tpl-req
+{
+	{
+		P = SXR:EXP:LEM:03,
+	}
+
+}

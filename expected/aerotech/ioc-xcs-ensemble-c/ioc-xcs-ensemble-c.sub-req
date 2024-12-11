@@ -1,0 +1,17 @@
+# Aerotech IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:XCS:ENS:C }
+}
+
+file aerotech.req
+{
+	pattern
+	{ MOTOR }
+	{XCS:ENS:C:m0 }
+	{XCS:ENS:C:m1 }
+	{XCS:ENS:C:m2 }
+	{XCS:ENS:C:m3 }
+}
+

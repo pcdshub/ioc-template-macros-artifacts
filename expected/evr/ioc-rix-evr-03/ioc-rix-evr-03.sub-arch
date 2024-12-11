@@ -1,0 +1,17 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:RIX:CAM:EVR:03"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:RIX:CAM:EVR:03"	}
+}
+
+file archive_evr_SLAC.archive
+{
+    { EVR = "RIX:CAM:EVR:03" }
+}
+

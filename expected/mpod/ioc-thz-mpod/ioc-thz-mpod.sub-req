@@ -1,0 +1,24 @@
+#
+# mpod Autosave request file for ioc-thz-mpod
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "THZ:R03:IOC:01:MPOD" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "THZ:R03:MPD:1:CH",             "0" }
+	{ "THZ:R03:MPD:1:CH",             "1" }
+	{ "THZ:R03:MPD:1:CH",             "2" }
+	{ "THZ:R03:MPD:1:CH",             "3" }
+	{ "THZ:R03:MPD:1:CH",             "4" }
+	{ "THZ:R03:MPD:1:CH",             "5" }
+	{ "THZ:R03:MPD:1:CH",             "6" }
+	{ "THZ:R03:MPD:1:CH",             "7" }
+}

@@ -1,0 +1,14 @@
+# IOC archive file
+
+file ell-ioc.archive
+{
+	{ IOC = "IOC:LM1K4:ATM_DP1_TF1_SL1:ELL:0" }
+}
+
+file ell6.archive
+{
+	{ BASE = "LM1K4:ATM_DP1_TF1_SL1:ELL:M1" }
+}
+
+
+

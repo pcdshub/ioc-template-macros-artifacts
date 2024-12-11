@@ -1,0 +1,16 @@
+# Generate detector control module autosave requests
+file det-ioc.req
+{
+	{ IOC = "IOC:XPP:USR:EPIX:01" }
+}
+
+
+
+file detector-epix.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "XPP:USR:EPIX:01"  }
+}
+
+

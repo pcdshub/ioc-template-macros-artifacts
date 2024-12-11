@@ -1,0 +1,13 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_epixMon.req
+{
+	{ BASE = "XPP:EPIX:0" }
+}
+file autosave_epixMon.req
+{
+	{ BASE = "XPP:EPIX:1" }
+}

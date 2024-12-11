@@ -1,0 +1,27 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:QRIX:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{QRIX:MCS2:01, 1 }
+	{QRIX:MCS2:01, 2 }
+	{QRIX:MCS2:01, 3 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { QRIX:MCS2:01:THZ_H }
+    { QRIX:MCS2:01:MID_IR_TIP }
+    { QRIX:MCS2:01:MID_IR_TILT }
+}
+
+

@@ -1,0 +1,13 @@
+# Generate motor postions PV list for each motor
+# Note: Motor positions are not always restored automatically
+
+# Generate archive PV list for IOC
+file pi663-ioc.req
+{
+	{ IOC = IOC:UED:VT50:01 }
+}
+
+file autosave-pi663-positions.tpl-req
+{
+        {MOTOR = UED:VT50:01}
+}

@@ -1,0 +1,4 @@
+file autosave.req
+{
+	{ BASE = XCS:SND:ECC:B }
+}

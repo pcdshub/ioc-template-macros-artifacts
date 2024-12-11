@@ -1,0 +1,13 @@
+# evg IOC instance autosave file
+
+file evg-ioc.req
+{
+	{ IOC = "IOC:MEC:EVG:0" }
+}
+
+file evg.req
+{
+	pattern
+	{ BASE }
+	{ "" }
+}

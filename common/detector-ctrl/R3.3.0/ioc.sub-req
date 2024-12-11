@@ -1,0 +1,49 @@
+# Generate detector control module autosave requests
+file det-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(CSPAD)
+file detector.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(CSPAD)
+
+$$LOOP(CSPAD140k)
+file detector-140k.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(CSPAD140k)
+
+$$LOOP(EPIX)
+file detector-epix.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(EPIX)
+
+$$LOOP(CSPADARC)
+file cspad-140k.tpl-req
+{
+        pattern
+        {  PRED             }
+        { "$$(NAME):140K:1" }
+        { "$$(NAME):140K:2" }
+        { "$$(NAME):140K:3" }
+        { "$$(NAME):140K:4" }
+        { "$$(NAME):140K:5" }
+        { "$$(NAME):140K:6" }
+        { "$$(NAME):140K:7" }
+        { "$$(NAME):140K:8" }
+}
+$$ENDLOOP(CSPADARC)
+

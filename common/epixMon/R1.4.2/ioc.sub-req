@@ -1,0 +1,23 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+$$LOOP(EPIXMON)
+file autosave_epixMon.req
+{
+	{ BASE = "$$NAME" }
+}
+$$ENDLOOP(EPIXMON)
+$$LOOP(EPIXHRMON)
+file autosave_epixHrMon.req
+{
+	{ BASE = "$$NAME" }
+}
+$$ENDLOOP(EPIXHRMON)
+$$LOOP(EPIXQUADMON)
+file autosave_epixQuadMon.req
+{
+  { BASE = "$$NAME" }
+}
+$$ENDLOOP(EPIXQUADMON)

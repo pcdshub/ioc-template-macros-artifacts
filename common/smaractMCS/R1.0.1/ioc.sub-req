@@ -1,0 +1,17 @@
+# MCS IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = $$IOC_PV }
+}
+
+$$LOOP(MCS)
+file mcs.req
+{
+	pattern
+	{ MOTOR }
+$$LOOP(COUNT)
+	{$$BASE:m$$INDEX }
+$$ENDLOOP(COUNT)
+}
+$$ENDLOOP(MCS)

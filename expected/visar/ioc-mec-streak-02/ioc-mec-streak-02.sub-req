@@ -1,0 +1,10 @@
+# tdkGen IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+
+file visarCamera-ioc.req
+{
+	{
+		P="MEC:STREAK:02", IOC="IOC:MEC:STREAK:02"
+	}
+}

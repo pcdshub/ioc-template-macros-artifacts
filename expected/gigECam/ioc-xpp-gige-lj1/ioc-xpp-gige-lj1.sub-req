@@ -1,0 +1,9 @@
+#
+# gigECam Autosave request file for ioc-xpp-gige-lj1
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:XPP:GIGE:LJ1" }
+}

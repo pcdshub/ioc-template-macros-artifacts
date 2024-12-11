@@ -1,0 +1,8 @@
+# Autosave file for IOC
+
+# Each PgpCamlink IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:XPP:SB3:W82" }
+}
+

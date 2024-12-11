@@ -1,0 +1,9 @@
+#
+# gigECam Autosave request file for ioc-im2k2-gige
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IM2K2:PPM:CAM:IOC" }
+}

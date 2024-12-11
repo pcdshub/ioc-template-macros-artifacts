@@ -1,0 +1,85 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:GMD:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:10" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:20" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:30" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:40" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "EM1K0:GMD:GPI:40" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "EM1K0:GMD:GPI:10" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:50" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:60" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "EM1K0:GMD:GPI:70" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:70" }
+}
+
+file srg.archive
+{
+	{ BASE = "EM1K0:GMD:GSR:1" }
+}
+
+
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:10" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:20" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:30" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:40" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:50" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:60" }
+}
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:70" }
+}
+
+

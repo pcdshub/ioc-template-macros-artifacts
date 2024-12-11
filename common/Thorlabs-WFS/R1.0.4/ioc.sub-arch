@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file wfsIoc.archive
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file wfs.archive
+{
+    { CAM = "$$CAM_PV" }
+}

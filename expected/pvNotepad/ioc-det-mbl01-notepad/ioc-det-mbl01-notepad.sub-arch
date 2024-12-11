@@ -1,0 +1,5 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { DET:MBL:01:HUTCH    }
+}

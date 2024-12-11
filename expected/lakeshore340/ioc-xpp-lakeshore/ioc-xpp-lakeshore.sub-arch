@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file lakeshore_ioc.archive
+{
+    { IOC = "XPP:IOC:TCT" }
+}
+
+file lakeshore_archive.archive
+{
+    { NAME = "XPP:USR:TCT:01" }
+}

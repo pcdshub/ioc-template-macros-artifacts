@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-cxi-gige-05
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:CXI:GIGE:05"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:CXI:GIGE:05"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "CXI:GIGE:05"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", ROI = "ROI1"  }
+        {   CAM = "CXI:GIGE:05", ROI = "ROI2"  }
+        {   CAM = "CXI:GIGE:05", ROI = "ROI3"  }
+        {   CAM = "CXI:GIGE:05", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", STATS = "Stats1"  }
+        {   CAM = "CXI:GIGE:05", STATS = "Stats2"  }
+        {   CAM = "CXI:GIGE:05", STATS = "Stats3"  }
+        {   CAM = "CXI:GIGE:05", STATS = "Stats4"  }
+        {   CAM = "CXI:GIGE:05", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "CXI:GIGE:05", OVER = "Over1"    }
+    }
+
+
+            
+file image_meta.archive
+{
+    {   CAM = "CXI:GIGE:05"    }
+}
+
+
+file archive_evr_SLAC.archive
+{
+	{	EVR = "CXI:GIGE:EVR:05"	}
+}
+
+file prosilica.tpl-arch
+{
+	{	P = "CXI:GIGE:05", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "CXI:GIGE:05", R = ":"	}
+}
+
+

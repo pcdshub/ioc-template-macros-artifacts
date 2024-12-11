@@ -1,0 +1,16 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "CXI:IOC:D50:EPIX" }
+}
+
+
+
+file detector-epix.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "CXI:D50:EPIX:01"  }
+}
+
+

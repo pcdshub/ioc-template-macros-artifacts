@@ -1,0 +1,23 @@
+# IOC archive file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file chiller_ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(CHILLER)
+file chiller_archive.archive
+{
+    { PRE = "$$NAME" }
+}
+$$ENDLOOP(CHILLER)
+
+$$LOOP(FLOWMETER)
+file flow.archive
+{
+    { FLM = "$$NAME" }
+}
+$$ENDLOOP(FLOWMETER)

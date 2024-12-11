@@ -1,0 +1,11 @@
+# Generate IOC archive request 
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:TST:USDUSB4:01" }
+}
+
+
+file USDUSB4.archive
+{
+	{ BASE = "TST:USDUSB4:01" }
+}

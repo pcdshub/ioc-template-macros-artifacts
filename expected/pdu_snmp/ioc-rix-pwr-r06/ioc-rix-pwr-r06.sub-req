@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:RIX:PWR:06:01" }
+}
+
+file Sentry4Pdu_24.req
+{
+    { PRE = "RIX:PWR:06:01" }
+}

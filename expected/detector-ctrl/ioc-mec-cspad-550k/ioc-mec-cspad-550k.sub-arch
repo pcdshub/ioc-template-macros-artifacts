@@ -1,0 +1,16 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "IOC:MEC:CSPAD:550K" }
+}
+
+file detector.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "MEC:CSPAD:550K"  }
+}
+
+
+
+

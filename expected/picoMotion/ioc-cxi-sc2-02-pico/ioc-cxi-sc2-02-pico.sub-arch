@@ -1,0 +1,20 @@
+# motion IOC instance archive file
+
+# Generate archive PV list for IOC
+file pico-ioc.archive
+{
+	{ IOC = IOC:CXI:SC2:02:PICO}
+}
+
+
+# Generate archive PV list for motors
+file archive_motor_noSYNC.tpl-arch
+{
+        { MOTOR = CXI:LAS:PIC:07}
+        { MOTOR = CXI:LAS:PIC:08}
+        { MOTOR = CXI:LAS:PIC:09}
+        { MOTOR = CXI:LAS:PIC:10}
+        { MOTOR = CXI:LAS:PIC:11}
+        { MOTOR = CXI:LAS:PIC:12}
+}
+

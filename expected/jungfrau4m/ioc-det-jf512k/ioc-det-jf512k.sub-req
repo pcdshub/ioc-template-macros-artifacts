@@ -1,0 +1,11 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file jf4m-ioc.req
+{
+    { IOC = "IOC:DET:JF512K" }
+}
+
+
+

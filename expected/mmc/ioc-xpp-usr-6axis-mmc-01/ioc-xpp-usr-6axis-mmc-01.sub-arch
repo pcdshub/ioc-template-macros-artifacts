@@ -1,0 +1,18 @@
+# Generate archive request 
+file mmca_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            
+            { XPP:USR:MMC:01 }
+            
+            { XPP:USR:MMC:02 }
+            
+            { XPP:USR:MMC:03 }
+            
+            { XPP:USR:MMC:04 }
+            
+            { XPP:USR:MMC:05 }
+            
+            { XPP:USR:MMC:06 }
+            }
+

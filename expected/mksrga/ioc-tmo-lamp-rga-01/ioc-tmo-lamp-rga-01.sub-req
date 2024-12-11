@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:TMO:LAMP:RGA:01" }
+}
+
+file mks-microvision.req
+{
+    { BASE = "TMO:LAMP:RGA:01" }
+}

@@ -1,0 +1,18 @@
+# Generate autosave request 
+file mmc_autosave.tpl-req
+{
+    pattern { CTRL   }
+            { TMO:LAMP:3AXIS:MMC:02 }
+}
+
+file mmca_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            
+            { TMO:LAMP:MMC:05 }
+            
+            { TMO:LAMP:MMC:06 }
+            
+            { TMO:LAMP:MMC:07 }
+            }
+

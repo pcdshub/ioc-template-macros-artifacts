@@ -1,0 +1,21 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_epixMon.req
+{
+	{ BASE = "XCS:DET:EPIX:1" }
+}
+file autosave_epixMon.req
+{
+	{ BASE = "XCS:DET:EPIX:2" }
+}
+file autosave_epixMon.req
+{
+	{ BASE = "XCS:DET:EPIX:3" }
+}
+file autosave_epixMon.req
+{
+	{ BASE = "XCS:DET:EPIX:4" }
+}

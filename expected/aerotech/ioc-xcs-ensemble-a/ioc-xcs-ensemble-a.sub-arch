@@ -1,0 +1,38 @@
+# Aerotech IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:XCS:ENS:A" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:XCS:ENS:A" }
+}
+
+file aerotech.archive
+{
+	pattern
+	{ MOTOR   }
+	{ "XCS:ENS:A:m0" }
+	{ "XCS:ENS:A:m1" }
+	{ "XCS:ENS:A:m2" }
+	{ "XCS:ENS:A:m3" }
+	{ "XCS:ENS:A:m4" }
+	{ "XCS:ENS:A:m5" }
+	{ "XCS:ENS:A:m6" }
+	{ "XCS:ENS:A:m7" }
+	{ "XCS:ENS:A:m8" }
+	{ "XCS:SND:T4:X" }
+	{ "XCS:SND:T4:TTH" }
+	{ "XCS:SND:T3:X" }
+	{ "XCS:SND:T3:TH" }
+	{ "XCS:SND:DIA:DCC:Y" }
+	{ "XCS:SND:DIA:DO:X" }
+	{ "XCS:SND:DIA:DCO:X" }
+	{ "XCS:SND:DIA:DCC:X" }
+	{ "XCS:SND:T4:L" }
+}
+
+

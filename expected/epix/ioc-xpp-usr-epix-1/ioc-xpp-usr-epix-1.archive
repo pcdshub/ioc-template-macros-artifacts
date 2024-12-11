@@ -1,0 +1,89 @@
+# Archive values for detector control module
+XPP:USR:EPIX:01:MONSTAT          10        monitor
+XPP:USR:EPIX:01:BIAS             30        monitor
+XPP:USR:EPIX:01:PELTIER          30        monitor
+XPP:USR:EPIX:01:HV_WARNING       30        monitor
+XPP:USR:EPIX:01:HV_ALARM         30        monitor
+XPP:USR:EPIX:01:DLV_WARNING      30        monitor
+XPP:USR:EPIX:01:DLV_ALARM        30        monitor
+XPP:USR:EPIX:01:ALV_WARNING      30        monitor
+XPP:USR:EPIX:01:ALV_ALARM        30        monitor
+XPP:USR:EPIX:01:TEMP_WARNING     30        monitor
+XPP:USR:EPIX:01:TEMP_ALARM       30        monitor
+
+XPP:USR:EPIX:01:TEMP1     	 30        monitor
+XPP:USR:EPIX:01:TEMP2	         30        monitor
+XPP:USR:EPIX:01:PLV_WARNING      30        monitor
+XPP:USR:EPIX:01:PLV_ALARM        30        monitor
+XPP:USR:EPIX:01:HUMIDITY         30        monitor
+XPP:USR:EPIX:01:MONITOR		86400 monitor
+XPP:USR:EPIX:01:SET_MONITOR     60 monitor
+XPP:USR:EPIX:01:MONCHKDELAY     60 monitor
+XPP:USR:EPIX:01:TEMP1           60 monitor
+XPP:USR:EPIX:01:TEMP2           60 monitor
+XPP:USR:EPIX:01:HUMIDITY        60 monitor
+XPP:USR:EPIX:01:ASIC_ANA_CUR    60 monitor
+XPP:USR:EPIX:01:ASIC_DIG_CUR    60 monitor
+XPP:USR:EPIX:01:ASIC_GR_CUR     60 monitor
+XPP:USR:EPIX:01:ANA_IN_V        60 monitor
+XPP:USR:EPIX:01:DIG_IN_V        60 monitor
+XPP:USR:EPIX:01:FWVERSION       60 monitor
+XPP:USR:EPIX:01:FWGITHASH       60 monitor
+XPP:USR:EPIX:01:FWBLDSTR        60 monitor
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:XPP:USR:EPIX:01:SR_rebootStatus			1 monitor
+IOC:XPP:USR:EPIX:01:SR_status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_rebootStatusStr		1 monitor
+IOC:XPP:USR:EPIX:01:SR_statusStr				1 monitor
+IOC:XPP:USR:EPIX:01:SR_0_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_0_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_1_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_1_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_2_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_2_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_3_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_3_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_4_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_4_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_5_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_5_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_6_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_6_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_7_Status				1 monitor
+IOC:XPP:USR:EPIX:01:SR_7_StatusStr			1 monitor
+IOC:XPP:USR:EPIX:01:SR_0_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_1_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_2_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_3_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_4_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_5_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_6_State				1 monitor
+IOC:XPP:USR:EPIX:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:XPP:USR:EPIX:01:SR_recentlyStr			30 monitor
+IOC:XPP:USR:EPIX:01:SR_rebootTime			30 monitor
+IOC:XPP:USR:EPIX:01:SR_0_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_1_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_2_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_3_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_4_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_5_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_6_Name				30 monitor
+IOC:XPP:USR:EPIX:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:XPP:USR:EPIX:01:SR_heartbeat				30
+IOC:XPP:USR:EPIX:01:SR_0_Time				30
+IOC:XPP:USR:EPIX:01:SR_1_Time				30
+IOC:XPP:USR:EPIX:01:SR_2_Time				30
+IOC:XPP:USR:EPIX:01:SR_3_Time				30
+IOC:XPP:USR:EPIX:01:SR_4_Time				30
+IOC:XPP:USR:EPIX:01:SR_5_Time				30
+IOC:XPP:USR:EPIX:01:SR_6_Time				30
+IOC:XPP:USR:EPIX:01:SR_7_Time				30
+

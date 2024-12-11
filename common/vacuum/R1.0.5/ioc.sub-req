@@ -1,0 +1,26 @@
+# vacuum IOC instance autosave file
+
+file vacuum-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(MKS937A_SLOT)
+	$$IF(TYPE,cc)
+	$$ELSE(TYPE)
+	file autosave_937a_$$TYPE.tpl-req
+	{
+		{ device = "$$BASE" }
+	}
+	$$ENDIF(TYPE)
+$$ENDLOOP(MKS937A_SLOT)
+
+$$LOOP(MKS937B_SLOT)
+	$$IF(TYPE,cc)
+	$$ELSE(TYPE)
+	file autosave_937b_$$TYPE.tpl-req
+	{
+		{ device = "$$BASE" }
+	}
+	$$ENDIF(TYPE)
+$$ENDLOOP(MKS937B_SLOT)

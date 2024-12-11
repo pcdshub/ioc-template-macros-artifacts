@@ -1,0 +1,36 @@
+# Aerotech IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:XPP:ENS:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:XPP:ENS:01" }
+}
+
+file aerotech.archive
+{
+	pattern
+	{ MOTOR   }
+	{ "XPP:ENS:02:m0" }
+	{ "XPP:ENS:02:m1" }
+	{ "XPP:ENS:02:m2" }
+	{ "XPP:ENS:02:m3" }
+	{ "XPP:ENS:02:m4" }
+	{ "XPP:ENS:02:m5" }
+	{ "XPP:ENS:02:m6" }
+	{ "XPP:ENS:02:m7" }
+	{ "XPP:USR:ENS:01:m0" }
+	{ "XPP:USR:ENS:01:m1" }
+	{ "XPP:USR:ENS:01:m2" }
+	{ "XPP:USR:ENS:01:m3" }
+	{ "XPP:USR:ENS:01:m4" }
+	{ "XPP:USR:ENS:01:m5" }
+	{ "XPP:USR:ENS:01:m6" }
+	{ "XPP:USR:ENS:01:m7" }
+}
+
+

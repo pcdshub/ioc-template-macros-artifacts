@@ -1,0 +1,87 @@
+#
+# gigECam Archive file for ioc-xpp-gige-18
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XPP:GIGE:18"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XPP:GIGE:18"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "XPP:GIGE:18"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", ROI = "ROI1"  }
+        {   CAM = "XPP:GIGE:18", ROI = "ROI2"  }
+        {   CAM = "XPP:GIGE:18", ROI = "ROI3"  }
+        {   CAM = "XPP:GIGE:18", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", STATS = "Stats1"  }
+        {   CAM = "XPP:GIGE:18", STATS = "Stats2"  }
+        {   CAM = "XPP:GIGE:18", STATS = "Stats3"  }
+        {   CAM = "XPP:GIGE:18", STATS = "Stats4"  }
+        {   CAM = "XPP:GIGE:18", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "XPP:GIGE:18", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "XPP:GIGE:18"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "XPP:GIGE:18", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "XPP:GIGE:18", R = ":"	}
+}
+
+

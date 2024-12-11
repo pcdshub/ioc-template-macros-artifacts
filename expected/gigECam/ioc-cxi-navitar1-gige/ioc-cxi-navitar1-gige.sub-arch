@@ -1,0 +1,87 @@
+#
+# gigECam Archive file for ioc-cxi-navitar1-gige
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:CXI:NAVITAR1:GIGE"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:CXI:NAVITAR1:GIGE"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "CXI:NAVITAR1:GIGE"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", ROI = "ROI1"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", ROI = "ROI2"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", ROI = "ROI3"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", STATS = "Stats1"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", STATS = "Stats2"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", STATS = "Stats3"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", STATS = "Stats4"  }
+        {   CAM = "CXI:NAVITAR1:GIGE", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "CXI:NAVITAR1:GIGE", OVER = "Over1"    }
+    }
+
+
+            
+file image_meta.archive
+{
+    {   CAM = "CXI:NAVITAR1:GIGE"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "CXI:NAVITAR1:GIGE", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "CXI:NAVITAR1:GIGE", R = ":"	}
+}
+
+

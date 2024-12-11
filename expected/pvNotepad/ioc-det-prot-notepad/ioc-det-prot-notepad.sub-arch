@@ -1,0 +1,15 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { DET:PROT:PICKER:READ_DF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { DET:PROT:PICKER:S_CLOSE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { DET:PROT:TRIGGER    }
+}

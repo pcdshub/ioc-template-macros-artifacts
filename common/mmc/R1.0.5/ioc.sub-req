@@ -1,0 +1,15 @@
+# Generate autosave request 
+file mmc_autosave.tpl-req
+{
+    pattern { CTRL   }
+            { $$CTRL }
+}
+
+file mmca_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            $$LOOP(AXIS)
+            { $$NAME }
+            $$ENDLOOP(AXIS)
+}
+

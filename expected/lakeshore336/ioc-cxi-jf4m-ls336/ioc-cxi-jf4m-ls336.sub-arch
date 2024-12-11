@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file ls336-ioc.archive
+{
+    { IOC = "IOC:CXI:JF4M:TCT" }
+}
+
+file ls336.archive
+{
+    { TCT = "CXI:JF4M:TCT" }
+}

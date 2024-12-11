@@ -1,0 +1,21 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO:VAC:PIP:03" }
+}
+
+file qpc_controller.archive
+{
+    { IOC = "IOC:TMO:VAC:PIP:03", BASE  = "TMO:VAC:PIP:03" }
+}
+
+file qpc_channel.archive
+{
+    { CH_BASE = "" , CHANNEL = "1"}
+    { CH_BASE = "" , CHANNEL = "2"}
+    { CH_BASE = "" , CHANNEL = "3"}
+    { CH_BASE = "" , CHANNEL = "4"}
+}

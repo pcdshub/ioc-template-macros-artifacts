@@ -1,0 +1,13 @@
+# IOC archive file
+
+# Generate IOC archive request
+file concentrator_ioc.archive
+{
+    { IOC = "IOC:XCS:DET:CTR" }
+}
+
+file concentrator_archive.archive
+{
+    { NAME = "XCS:DET:CTR" }
+}
+

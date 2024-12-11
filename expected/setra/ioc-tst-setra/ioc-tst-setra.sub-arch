@@ -1,0 +1,6 @@
+# setra IOC instance autosave file
+
+file setra.archive
+{
+	{ IOC = "MEC:IOC:GIGE:01", BASE="TST:SETRA:01" }
+}

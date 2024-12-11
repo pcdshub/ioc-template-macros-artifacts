@@ -1,0 +1,126 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            { XPP:SB2:MMS:27  }
+            
+            { XPP:SB2:MMS:26  }
+            
+            { XPP:SB2:MMS:25  }
+            
+            { XPP:SB2:MMS:24  }
+            
+            { XPP:SB2:MMS:23  }
+            
+            { XPP:SB2:MMS:22  }
+            
+            { XPP:SB2:MMS:21  }
+            
+            { XPP:SB2:MMS:20  }
+            
+            { XPP:SB2:MMS:19  }
+            
+            { XPP:SB2:MMS:18  }
+            
+            { XPP:SB2:MMS:17  }
+            
+            }
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            { XPP:ATT:MIRROR,        "IN",   "OUT"  }
+            
+            { XPP:ATT:20UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:40UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:80UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:160UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:320UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:640UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:1280UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:2560UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:5120UM,        "IN",   "OUT"  }
+            
+            { XPP:ATT:10240UM,        "IN",   "OUT"  }
+            
+            }
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8 }
+            }
+
+file device_with_9states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            }
+

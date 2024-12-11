@@ -1,0 +1,127 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:CXI:USR:PIC:APP_DIR1 30 monitor 
+IOC:CXI:USR:PIC:APP_DIR2 30 monitor 
+IOC:CXI:USR:PIC:BSP_REV 30 monitor
+IOC:CXI:USR:PIC:CA_CLNT_CNT 1 monitor 
+IOC:CXI:USR:PIC:CA_CONN_CNT 1 monitor 
+IOC:CXI:USR:PIC:EPICS_VERS 30 monitor
+IOC:CXI:USR:PIC:FD_CNT 1 monitor 
+IOC:CXI:USR:PIC:FD_FREE 1 monitor 
+IOC:CXI:USR:PIC:FD_MAX 1 monitor 
+IOC:CXI:USR:PIC:HOSTNAME 30 monitor
+IOC:CXI:USR:PIC:KERNEL_VERS 30 monitor
+IOC:CXI:USR:PIC:RECORD_CNT 10 monitor
+IOC:CXI:USR:PIC:STARTTOD 30 monitor
+IOC:CXI:USR:PIC:ST_SCRIPT1 30 monitor 
+IOC:CXI:USR:PIC:ST_SCRIPT2 30 monitor 
+IOC:CXI:USR:PIC:SUSP_TASK_CNT 30 monitor 
+IOC:CXI:USR:PIC:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:CXI:USR:PIC:DAT_MBUF_FREE 10
+IOC:CXI:USR:PIC:DAT_MBUF_MAX 10
+IOC:CXI:USR:PIC:LOAD 30 
+IOC:CXI:USR:PIC:MEM_BLK_FREE 30 
+IOC:CXI:USR:PIC:MEM_FREE 30 
+IOC:CXI:USR:PIC:MEM_USED 30 
+IOC:CXI:USR:PIC:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:CXI:USR:PIC:SR_rebootStatus			1 monitor
+IOC:CXI:USR:PIC:SR_status				1 monitor
+IOC:CXI:USR:PIC:SR_rebootStatusStr		1 monitor
+IOC:CXI:USR:PIC:SR_statusStr				1 monitor
+IOC:CXI:USR:PIC:SR_0_Status				1 monitor
+IOC:CXI:USR:PIC:SR_0_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_1_Status				1 monitor
+IOC:CXI:USR:PIC:SR_1_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_2_Status				1 monitor
+IOC:CXI:USR:PIC:SR_2_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_3_Status				1 monitor
+IOC:CXI:USR:PIC:SR_3_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_4_Status				1 monitor
+IOC:CXI:USR:PIC:SR_4_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_5_Status				1 monitor
+IOC:CXI:USR:PIC:SR_5_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_6_Status				1 monitor
+IOC:CXI:USR:PIC:SR_6_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_7_Status				1 monitor
+IOC:CXI:USR:PIC:SR_7_StatusStr			1 monitor
+IOC:CXI:USR:PIC:SR_0_State				1 monitor
+IOC:CXI:USR:PIC:SR_1_State				1 monitor
+IOC:CXI:USR:PIC:SR_2_State				1 monitor
+IOC:CXI:USR:PIC:SR_3_State				1 monitor
+IOC:CXI:USR:PIC:SR_4_State				1 monitor
+IOC:CXI:USR:PIC:SR_5_State				1 monitor
+IOC:CXI:USR:PIC:SR_6_State				1 monitor
+IOC:CXI:USR:PIC:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:CXI:USR:PIC:SR_recentlyStr			30 monitor
+IOC:CXI:USR:PIC:SR_rebootTime			30 monitor
+IOC:CXI:USR:PIC:SR_0_Name				30 monitor
+IOC:CXI:USR:PIC:SR_1_Name				30 monitor
+IOC:CXI:USR:PIC:SR_2_Name				30 monitor
+IOC:CXI:USR:PIC:SR_3_Name				30 monitor
+IOC:CXI:USR:PIC:SR_4_Name				30 monitor
+IOC:CXI:USR:PIC:SR_5_Name				30 monitor
+IOC:CXI:USR:PIC:SR_6_Name				30 monitor
+IOC:CXI:USR:PIC:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:CXI:USR:PIC:SR_heartbeat				30
+IOC:CXI:USR:PIC:SR_0_Time				30
+IOC:CXI:USR:PIC:SR_1_Time				30
+IOC:CXI:USR:PIC:SR_2_Time				30
+IOC:CXI:USR:PIC:SR_3_Time				30
+IOC:CXI:USR:PIC:SR_4_Time				30
+IOC:CXI:USR:PIC:SR_5_Time				30
+IOC:CXI:USR:PIC:SR_6_Time				30
+IOC:CXI:USR:PIC:SR_7_Time				30
+
+# Motor archive PV list
+CXI:USR:PIC:01.ATHM	1		monitor
+CXI:USR:PIC:01.BDST	10
+CXI:USR:PIC:01.BVEL	10
+CXI:USR:PIC:01.DHLM	10
+CXI:USR:PIC:01.DIR	1		monitor
+CXI:USR:PIC:01.DISA	10
+CXI:USR:PIC:01.DISP	10
+CXI:USR:PIC:01.DLLM	10
+CXI:USR:PIC:01.DRBV	1
+CXI:USR:PIC:01.DVAL	1		monitor
+CXI:USR:PIC:01.EGU	10
+CXI:USR:PIC:01.ERES	1		monitor
+CXI:USR:PIC:01.HLS	1
+CXI:USR:PIC:01.LLS	1
+CXI:USR:PIC:01.MISS	1		monitor
+CXI:USR:PIC:01.MOVN	1
+CXI:USR:PIC:01.MRES	1		monitor
+CXI:USR:PIC:01.MSTA	10
+CXI:USR:PIC:01.OFF	10
+CXI:USR:PIC:01.OMSL	10
+CXI:USR:PIC:01.RBV	1
+CXI:USR:PIC:01.RCNT	10
+CXI:USR:PIC:01.RDBD	1		monitor
+CXI:USR:PIC:01.RMP	1
+CXI:USR:PIC:01.RRES	1		monitor
+CXI:USR:PIC:01.RTRY	10
+CXI:USR:PIC:01.SET	10
+CXI:USR:PIC:01.SPMG	1		monitor
+CXI:USR:PIC:01.SREV	1		monitor
+CXI:USR:PIC:01.STOP	1		monitor
+# CXI:USR:PIC:01.SYNC	1		monitor
+CXI:USR:PIC:01.TDIR	1
+CXI:USR:PIC:01.TWV	10
+CXI:USR:PIC:01.UREV	1		monitor
+CXI:USR:PIC:01.VAL	1
+CXI:USR:PIC:01.VBAS	10
+CXI:USR:PIC:01.VELO	10
+CXI:USR:PIC:01.VMAX	10

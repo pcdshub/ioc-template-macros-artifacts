@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file Keithley-ioc.req
+{
+    { IOC = "IOC:DET:MBL2:PSV" }
+}
+
+file Keithley.req
+{
+    { CONT = "DET:MBL2:PSV:01" }
+}

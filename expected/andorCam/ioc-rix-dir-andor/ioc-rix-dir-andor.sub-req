@@ -1,0 +1,10 @@
+#
+# gigECam Autosave request file for ioc-rix-dir-andor
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "RIX:DIR:IOC:CAM:01" }
+}
+

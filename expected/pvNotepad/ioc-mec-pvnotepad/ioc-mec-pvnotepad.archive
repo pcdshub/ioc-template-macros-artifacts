@@ -1,0 +1,360 @@
+MEC:USER:MCC:DPHI_REQUEST.DESC   86400    monitor
+MEC:USER:MCC:DPHI_REQUEST        86400    monitor
+
+MEC:USER:MCC:DPHI_STATE.DESC   86400    monitor
+MEC:USER:MCC:DPHI_STATE        86400    monitor
+
+MEC:USER:MCC:EPHOT:SET1.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:SET1        86400    monitor
+
+MEC:USER:MCC:EPHOT:SET2.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:SET2        86400    monitor
+
+MEC:USER:MCC:EPHOT:REF1.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:REF1        86400    monitor
+
+MEC:USER:MCC:EPHOT:REF2.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:REF2        86400    monitor
+
+MEC:USER:MCC:EPHOT:VER.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:VER        86400    monitor
+
+MEC:USER:MCC:EPHOT:UND.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:UND        86400    monitor
+
+MEC:USER:MCC:EPHOT:REQ.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:REQ        86400    monitor
+
+MEC:USER:BYKIKS:ABORT.DESC   86400    monitor
+MEC:USER:BYKIKS:ABORT        86400    monitor
+
+MEC:USER:BYKIKS:LAST_NUM_SHOTS.DESC   86400    monitor
+MEC:USER:BYKIKS:LAST_NUM_SHOTS        86400    monitor
+
+MEC:USER:BYKIKS:ABORT_EN.DESC   86400    monitor
+MEC:USER:BYKIKS:ABORT_EN        86400    monitor
+
+MEC:USER:MCC:EPHOT:SET1.DESC   86400    monitor
+MEC:USER:MCC:EPHOT:SET1        86400    monitor
+
+MEC:SCAN:NSHOTS.DESC   86400    monitor
+MEC:SCAN:NSHOTS        86400    monitor
+
+MEC:SCAN:NSTEPS.DESC   86400    monitor
+MEC:SCAN:NSTEPS        86400    monitor
+
+MEC:SCAN:ISTEP.DESC   86400    monitor
+MEC:SCAN:ISTEP        86400    monitor
+
+MEC:SCAN:ISSCAN.DESC   86400    monitor
+MEC:SCAN:ISSCAN        86400    monitor
+
+MEC:SCAN:SCANVAR00.DESC   86400    monitor
+MEC:SCAN:SCANVAR00        86400    monitor
+
+MEC:SCAN:SCANVAR01.DESC   86400    monitor
+MEC:SCAN:SCANVAR01        86400    monitor
+
+MEC:SCAN:SCANVAR02.DESC   86400    monitor
+MEC:SCAN:SCANVAR02        86400    monitor
+
+MEC:SCAN:MIN00.DESC   86400    monitor
+MEC:SCAN:MIN00        86400    monitor
+
+MEC:SCAN:MIN01.DESC   86400    monitor
+MEC:SCAN:MIN01        86400    monitor
+
+MEC:SCAN:MIN02.DESC   86400    monitor
+MEC:SCAN:MIN02        86400    monitor
+
+MEC:SCAN:MAX00.DESC   86400    monitor
+MEC:SCAN:MAX00        86400    monitor
+
+MEC:SCAN:MAX01.DESC   86400    monitor
+MEC:SCAN:MAX01        86400    monitor
+
+MEC:SCAN:MAX02.DESC   86400    monitor
+MEC:SCAN:MAX02        86400    monitor
+
+MEC:VARS:INT:01.DESC   86400    monitor
+MEC:VARS:INT:01        86400    monitor
+
+MEC:VARS:INT:02.DESC   86400    monitor
+MEC:VARS:INT:02        86400    monitor
+
+MEC:VARS:INT:03.DESC   86400    monitor
+MEC:VARS:INT:03        86400    monitor
+
+MEC:VARS:INT:04.DESC   86400    monitor
+MEC:VARS:INT:04        86400    monitor
+
+MEC:VARS:INT:05.DESC   86400    monitor
+MEC:VARS:INT:05        86400    monitor
+
+MEC:VARS:INT:06.DESC   86400    monitor
+MEC:VARS:INT:06        86400    monitor
+
+MEC:VARS:INT:07.DESC   86400    monitor
+MEC:VARS:INT:07        86400    monitor
+
+MEC:VARS:INT:08.DESC   86400    monitor
+MEC:VARS:INT:08        86400    monitor
+
+MEC:VARS:INT:09.DESC   86400    monitor
+MEC:VARS:INT:09        86400    monitor
+
+MEC:VARS:INT:10.DESC   86400    monitor
+MEC:VARS:INT:10        86400    monitor
+
+MEC:VARS:BIN:01.DESC   86400    monitor
+MEC:VARS:BIN:01        86400    monitor
+
+MEC:VARS:BIN:02.DESC   86400    monitor
+MEC:VARS:BIN:02        86400    monitor
+
+MEC:VARS:BIN:03.DESC   86400    monitor
+MEC:VARS:BIN:03        86400    monitor
+
+MEC:VARS:BIN:04.DESC   86400    monitor
+MEC:VARS:BIN:04        86400    monitor
+
+MEC:VARS:BIN:05.DESC   86400    monitor
+MEC:VARS:BIN:05        86400    monitor
+
+MEC:VARS:BIN:06.DESC   86400    monitor
+MEC:VARS:BIN:06        86400    monitor
+
+MEC:VARS:BIN:08.DESC   86400    monitor
+MEC:VARS:BIN:08        86400    monitor
+
+MEC:VARS:BIN:09.DESC   86400    monitor
+MEC:VARS:BIN:09        86400    monitor
+
+MEC:VARS:BIN:10.DESC   86400    monitor
+MEC:VARS:BIN:10        86400    monitor
+
+MEC:VARS:STRING:01.DESC   86400    monitor
+MEC:VARS:STRING:01        86400    monitor
+
+MEC:VARS:STRING:02.DESC   86400    monitor
+MEC:VARS:STRING:02        86400    monitor
+
+MEC:VARS:STRING:03.DESC   86400    monitor
+MEC:VARS:STRING:03        86400    monitor
+
+MEC:VARS:STRING:04.DESC   86400    monitor
+MEC:VARS:STRING:04        86400    monitor
+
+MEC:VARS:STRING:05.DESC   86400    monitor
+MEC:VARS:STRING:05        86400    monitor
+
+MEC:VARS:STRING:06.DESC   86400    monitor
+MEC:VARS:STRING:06        86400    monitor
+
+MEC:VARS:STRING:07.DESC   86400    monitor
+MEC:VARS:STRING:07        86400    monitor
+
+MEC:VARS:STRING:08.DESC   86400    monitor
+MEC:VARS:STRING:08        86400    monitor
+
+MEC:VARS:STRING:09.DESC   86400    monitor
+MEC:VARS:STRING:09        86400    monitor
+
+MEC:VARS:STRING:10.DESC   86400    monitor
+MEC:VARS:STRING:10        86400    monitor
+
+MEC:VARS:FLOAT:01.DESC   86400    monitor
+MEC:VARS:FLOAT:01        86400    monitor
+
+MEC:VARS:FLOAT:02.DESC   86400    monitor
+MEC:VARS:FLOAT:02        86400    monitor
+
+MEC:VARS:FLOAT:03.DESC   86400    monitor
+MEC:VARS:FLOAT:03        86400    monitor
+
+MEC:VARS:FLOAT:04.DESC   86400    monitor
+MEC:VARS:FLOAT:04        86400    monitor
+
+MEC:VARS:FLOAT:05.DESC   86400    monitor
+MEC:VARS:FLOAT:05        86400    monitor
+
+MEC:VARS:FLOAT:06.DESC   86400    monitor
+MEC:VARS:FLOAT:06        86400    monitor
+
+MEC:VARS:FLOAT:07.DESC   86400    monitor
+MEC:VARS:FLOAT:07        86400    monitor
+
+MEC:VARS:FLOAT:08.DESC   86400    monitor
+MEC:VARS:FLOAT:08        86400    monitor
+
+MEC:VARS:FLOAT:09.DESC   86400    monitor
+MEC:VARS:FLOAT:09        86400    monitor
+
+MEC:VARS:FLOAT:10.DESC   86400    monitor
+MEC:VARS:FLOAT:10        86400    monitor
+
+MEC:TIMETOOL:TTALL.DESC   86400    monitor
+MEC:TIMETOOL:TTALL        86400    monitor
+
+MEC:LAS:FLOAT:01.DESC   86400    monitor
+MEC:LAS:FLOAT:01        86400    monitor
+
+MEC:LAS:FLOAT:02.DESC   86400    monitor
+MEC:LAS:FLOAT:02        86400    monitor
+
+MEC:LAS:FLOAT:03.DESC   86400    monitor
+MEC:LAS:FLOAT:03        86400    monitor
+
+MEC:LAS:FLOAT:04.DESC   86400    monitor
+MEC:LAS:FLOAT:04        86400    monitor
+
+MEC:LAS:FLOAT:05.DESC   86400    monitor
+MEC:LAS:FLOAT:05        86400    monitor
+
+MEC:LAS:FLOAT:06.DESC   86400    monitor
+MEC:LAS:FLOAT:06        86400    monitor
+
+MEC:LAS:FLOAT:07.DESC   86400    monitor
+MEC:LAS:FLOAT:07        86400    monitor
+
+MEC:LAS:FLOAT:08.DESC   86400    monitor
+MEC:LAS:FLOAT:08        86400    monitor
+
+MEC:LAS:FLOAT:09.DESC   86400    monitor
+MEC:LAS:FLOAT:09        86400    monitor
+
+MEC:LAS:FLOAT:10.DESC   86400    monitor
+MEC:LAS:FLOAT:10        86400    monitor
+
+MEC:LAS:FLOAT:11.DESC   86400    monitor
+MEC:LAS:FLOAT:11        86400    monitor
+
+MEC:LAS:FLOAT:12.DESC   86400    monitor
+MEC:LAS:FLOAT:12        86400    monitor
+
+MEC:LAS:FLOAT:13.DESC   86400    monitor
+MEC:LAS:FLOAT:13        86400    monitor
+
+MEC:LAS:FLOAT:14.DESC   86400    monitor
+MEC:LAS:FLOAT:14        86400    monitor
+
+MEC:LAS:FLOAT:15.DESC   86400    monitor
+MEC:LAS:FLOAT:15        86400    monitor
+
+MEC:LAS:FLOAT:16.DESC   86400    monitor
+MEC:LAS:FLOAT:16        86400    monitor
+
+MEC:LAS:FLOAT:17.DESC   86400    monitor
+MEC:LAS:FLOAT:17        86400    monitor
+
+MEC:LAS:FLOAT:18.DESC   86400    monitor
+MEC:LAS:FLOAT:18        86400    monitor
+
+MEC:LAS:FLOAT:19.DESC   86400    monitor
+MEC:LAS:FLOAT:19        86400    monitor
+
+MEC:LAS:FLOAT:20.DESC   86400    monitor
+MEC:LAS:FLOAT:20        86400    monitor
+
+MEC:LAS:FLOAT:21.DESC   86400    monitor
+MEC:LAS:FLOAT:21        86400    monitor
+
+MEC:LAS:FLOAT:22.DESC   86400    monitor
+MEC:LAS:FLOAT:22        86400    monitor
+
+MEC:LAS:FLOAT:23.DESC   86400    monitor
+MEC:LAS:FLOAT:23        86400    monitor
+
+MEC:LAS:FLOAT:24.DESC   86400    monitor
+MEC:LAS:FLOAT:24        86400    monitor
+
+MEC:LAS:FLOAT:25.DESC   86400    monitor
+MEC:LAS:FLOAT:25        86400    monitor
+
+MEC:LAS:FLOAT:26.DESC   86400    monitor
+MEC:LAS:FLOAT:26        86400    monitor
+
+MEC:LAS:FLOAT:27.DESC   86400    monitor
+MEC:LAS:FLOAT:27        86400    monitor
+
+MEC:LAS:FLOAT:28.DESC   86400    monitor
+MEC:LAS:FLOAT:28        86400    monitor
+
+MEC:LAS:FLOAT:29.DESC   86400    monitor
+MEC:LAS:FLOAT:29        86400    monitor
+
+MEC:LAS:FLOAT:30.DESC   86400    monitor
+MEC:LAS:FLOAT:30        86400    monitor
+
+MEC:LAS:FLOAT:31.DESC   86400    monitor
+MEC:LAS:FLOAT:31        86400    monitor
+
+MEC:LAS:FLOAT:32.DESC   86400    monitor
+MEC:LAS:FLOAT:32        86400    monitor
+
+MEC:LAS:FLOAT:33.DESC   86400    monitor
+MEC:LAS:FLOAT:33        86400    monitor
+
+MEC:LAS:FLOAT:34.DESC   86400    monitor
+MEC:LAS:FLOAT:34        86400    monitor
+
+MEC:LAS:FLOAT:35.DESC   86400    monitor
+MEC:LAS:FLOAT:35        86400    monitor
+
+MEC:LAS:FLOAT:36.DESC   86400    monitor
+MEC:LAS:FLOAT:36        86400    monitor
+
+MEC:LAS:FLOAT:37.DESC   86400    monitor
+MEC:LAS:FLOAT:37        86400    monitor
+
+MEC:LAS:FLOAT:38.DESC   86400    monitor
+MEC:LAS:FLOAT:38        86400    monitor
+
+MEC:LAS:FLOAT:39.DESC   86400    monitor
+MEC:LAS:FLOAT:39        86400    monitor
+
+MEC:LAS:FLOAT:40.DESC   86400    monitor
+MEC:LAS:FLOAT:40        86400    monitor
+
+MEC:LAS:ARRAY:01.DESC   86400    monitor
+MEC:LAS:ARRAY:01        86400    monitor
+
+MEC:LAS:ARRAY:02.DESC   86400    monitor
+MEC:LAS:ARRAY:02        86400    monitor
+
+MEC:LAS:ARRAY:03.DESC   86400    monitor
+MEC:LAS:ARRAY:03        86400    monitor
+
+MEC:LAS:ARRAY:04.DESC   86400    monitor
+MEC:LAS:ARRAY:04        86400    monitor
+
+MEC:LAS:ARRAY:05.DESC   86400    monitor
+MEC:LAS:ARRAY:05        86400    monitor
+
+MEC:LAS:ARRAY:06.DESC   86400    monitor
+MEC:LAS:ARRAY:06        86400    monitor
+
+MEC:LAS:ARRAY:07.DESC   86400    monitor
+MEC:LAS:ARRAY:07        86400    monitor
+
+MEC:LAS:ARRAY:08.DESC   86400    monitor
+MEC:LAS:ARRAY:08        86400    monitor
+
+MEC:LAS:ARRAY:09.DESC   86400    monitor
+MEC:LAS:ARRAY:09        86400    monitor
+
+MEC:LAS:ARRAY:10.DESC   86400    monitor
+MEC:LAS:ARRAY:10        86400    monitor
+
+MEC:LAS:ARRAY:11.DESC   86400    monitor
+MEC:LAS:ARRAY:11        86400    monitor
+
+MEC:LAS:ARRAY:12.DESC   86400    monitor
+MEC:LAS:ARRAY:12        86400    monitor
+
+MEC:LAS:ARRAY:13.DESC   86400    monitor
+MEC:LAS:ARRAY:13        86400    monitor
+
+MEC:LAS:ARRAY:14.DESC   86400    monitor
+MEC:LAS:ARRAY:14        86400    monitor
+

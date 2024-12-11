@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{
+		IOC = MEC:USR:LEM:01,
+	}
+}
+
+file autosave_labMax-Top.tpl-req
+{
+	{
+		P = MEC:USR:LEM:01,
+	}
+
+}

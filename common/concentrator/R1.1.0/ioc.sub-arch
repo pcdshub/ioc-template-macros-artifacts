@@ -1,0 +1,15 @@
+# IOC archive file
+
+# Generate IOC archive request
+file concentrator_ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(CONCENTRATOR)
+file concentrator_archive.archive
+{
+    { NAME = "$$NAME" }
+}
+
+$$ENDLOOP(CONCENTRATOR)

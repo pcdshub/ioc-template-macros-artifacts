@@ -1,0 +1,216 @@
+TXI:USER:MCC:DPHI_REQUEST.DESC   86400    monitor
+TXI:USER:MCC:DPHI_REQUEST        86400    monitor
+
+TXI:USER:MCC:DPHI_STATE.DESC   86400    monitor
+TXI:USER:MCC:DPHI_STATE        86400    monitor
+
+TXI:USER:MCC:EPHOTK:SET1.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:SET1        86400    monitor
+
+TXI:USER:MCC:EPHOTK:SET2.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:SET2        86400    monitor
+
+TXI:USER:MCC:EPHOTK:REF1.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:REF1        86400    monitor
+
+TXI:USER:MCC:EPHOTK:REF2.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:REF2        86400    monitor
+
+TXI:USER:MCC:EPHOTK:VER.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:VER        86400    monitor
+
+TXI:USER:MCC:EPHOTK:UND.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:UND        86400    monitor
+
+TXI:USER:MCC:EPHOTK:REQ.DESC   86400    monitor
+TXI:USER:MCC:EPHOTK:REQ        86400    monitor
+
+TXI:USER:MCC:EPHOT:SET1.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:SET1        86400    monitor
+
+TXI:USER:MCC:EPHOT:SET2.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:SET2        86400    monitor
+
+TXI:USER:MCC:EPHOT:REF1.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:REF1        86400    monitor
+
+TXI:USER:MCC:EPHOT:REF2.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:REF2        86400    monitor
+
+TXI:USER:MCC:EPHOT:VER.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:VER        86400    monitor
+
+TXI:USER:MCC:EPHOT:UND.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:UND        86400    monitor
+
+TXI:USER:MCC:EPHOT:REQ.DESC   86400    monitor
+TXI:USER:MCC:EPHOT:REQ        86400    monitor
+
+TXI:USER:BYKIKS:ABORT.DESC   86400    monitor
+TXI:USER:BYKIKS:ABORT        86400    monitor
+
+TXI:USER:BYKIKS:LAST_NUM_SHOTS.DESC   86400    monitor
+TXI:USER:BYKIKS:LAST_NUM_SHOTS        86400    monitor
+
+TXI:USER:BYKIKS:ABORT_EN.DESC   86400    monitor
+TXI:USER:BYKIKS:ABORT_EN        86400    monitor
+
+TXI:SCAN:NSHOTS.DESC   86400    monitor
+TXI:SCAN:NSHOTS        86400    monitor
+
+TXI:SCAN:NSTEPS.DESC   86400    monitor
+TXI:SCAN:NSTEPS        86400    monitor
+
+TXI:SCAN:ISTEP.DESC   86400    monitor
+TXI:SCAN:ISTEP        86400    monitor
+
+TXI:SCAN:ISSCAN.DESC   86400    monitor
+TXI:SCAN:ISSCAN        86400    monitor
+
+TXI:SCAN:SCANVAR00.DESC   86400    monitor
+TXI:SCAN:SCANVAR00        86400    monitor
+
+TXI:SCAN:SCANVAR01.DESC   86400    monitor
+TXI:SCAN:SCANVAR01        86400    monitor
+
+TXI:SCAN:SCANVAR02.DESC   86400    monitor
+TXI:SCAN:SCANVAR02        86400    monitor
+
+TXI:SCAN:MIN00.DESC   86400    monitor
+TXI:SCAN:MIN00        86400    monitor
+
+TXI:SCAN:MIN01.DESC   86400    monitor
+TXI:SCAN:MIN01        86400    monitor
+
+TXI:SCAN:MIN02.DESC   86400    monitor
+TXI:SCAN:MIN02        86400    monitor
+
+TXI:SCAN:MAX00.DESC   86400    monitor
+TXI:SCAN:MAX00        86400    monitor
+
+TXI:SCAN:MAX01.DESC   86400    monitor
+TXI:SCAN:MAX01        86400    monitor
+
+TXI:SCAN:MAX02.DESC   86400    monitor
+TXI:SCAN:MAX02        86400    monitor
+
+TXI:VARS:INT:01.DESC   86400    monitor
+TXI:VARS:INT:01        86400    monitor
+
+TXI:VARS:INT:02.DESC   86400    monitor
+TXI:VARS:INT:02        86400    monitor
+
+TXI:VARS:INT:03.DESC   86400    monitor
+TXI:VARS:INT:03        86400    monitor
+
+TXI:VARS:INT:04.DESC   86400    monitor
+TXI:VARS:INT:04        86400    monitor
+
+TXI:VARS:INT:05.DESC   86400    monitor
+TXI:VARS:INT:05        86400    monitor
+
+TXI:VARS:INT:06.DESC   86400    monitor
+TXI:VARS:INT:06        86400    monitor
+
+TXI:VARS:INT:07.DESC   86400    monitor
+TXI:VARS:INT:07        86400    monitor
+
+TXI:VARS:INT:08.DESC   86400    monitor
+TXI:VARS:INT:08        86400    monitor
+
+TXI:VARS:INT:09.DESC   86400    monitor
+TXI:VARS:INT:09        86400    monitor
+
+TXI:VARS:INT:10.DESC   86400    monitor
+TXI:VARS:INT:10        86400    monitor
+
+TXI:VARS:BIN:01.DESC   86400    monitor
+TXI:VARS:BIN:01        86400    monitor
+
+TXI:VARS:BIN:02.DESC   86400    monitor
+TXI:VARS:BIN:02        86400    monitor
+
+TXI:VARS:BIN:03.DESC   86400    monitor
+TXI:VARS:BIN:03        86400    monitor
+
+TXI:VARS:BIN:04.DESC   86400    monitor
+TXI:VARS:BIN:04        86400    monitor
+
+TXI:VARS:BIN:05.DESC   86400    monitor
+TXI:VARS:BIN:05        86400    monitor
+
+TXI:VARS:BIN:06.DESC   86400    monitor
+TXI:VARS:BIN:06        86400    monitor
+
+TXI:VARS:BIN:07.DESC   86400    monitor
+TXI:VARS:BIN:07        86400    monitor
+
+TXI:VARS:BIN:08.DESC   86400    monitor
+TXI:VARS:BIN:08        86400    monitor
+
+TXI:VARS:BIN:09.DESC   86400    monitor
+TXI:VARS:BIN:09        86400    monitor
+
+TXI:VARS:BIN:10.DESC   86400    monitor
+TXI:VARS:BIN:10        86400    monitor
+
+TXI:VARS:STRING:01.DESC   86400    monitor
+TXI:VARS:STRING:01        86400    monitor
+
+TXI:VARS:STRING:02.DESC   86400    monitor
+TXI:VARS:STRING:02        86400    monitor
+
+TXI:VARS:STRING:03.DESC   86400    monitor
+TXI:VARS:STRING:03        86400    monitor
+
+TXI:VARS:STRING:04.DESC   86400    monitor
+TXI:VARS:STRING:04        86400    monitor
+
+TXI:VARS:STRING:05.DESC   86400    monitor
+TXI:VARS:STRING:05        86400    monitor
+
+TXI:VARS:STRING:06.DESC   86400    monitor
+TXI:VARS:STRING:06        86400    monitor
+
+TXI:VARS:STRING:07.DESC   86400    monitor
+TXI:VARS:STRING:07        86400    monitor
+
+TXI:VARS:STRING:08.DESC   86400    monitor
+TXI:VARS:STRING:08        86400    monitor
+
+TXI:VARS:STRING:09.DESC   86400    monitor
+TXI:VARS:STRING:09        86400    monitor
+
+TXI:VARS:STRING:10.DESC   86400    monitor
+TXI:VARS:STRING:10        86400    monitor
+
+TXI:VARS:FLOAT:01.DESC   86400    monitor
+TXI:VARS:FLOAT:01        86400    monitor
+
+TXI:VARS:FLOAT:02.DESC   86400    monitor
+TXI:VARS:FLOAT:02        86400    monitor
+
+TXI:VARS:FLOAT:03.DESC   86400    monitor
+TXI:VARS:FLOAT:03        86400    monitor
+
+TXI:VARS:FLOAT:04.DESC   86400    monitor
+TXI:VARS:FLOAT:04        86400    monitor
+
+TXI:VARS:FLOAT:05.DESC   86400    monitor
+TXI:VARS:FLOAT:05        86400    monitor
+
+TXI:VARS:FLOAT:06.DESC   86400    monitor
+TXI:VARS:FLOAT:06        86400    monitor
+
+TXI:VARS:FLOAT:07.DESC   86400    monitor
+TXI:VARS:FLOAT:07        86400    monitor
+
+TXI:VARS:FLOAT:08.DESC   86400    monitor
+TXI:VARS:FLOAT:08        86400    monitor
+
+TXI:VARS:FLOAT:09.DESC   86400    monitor
+TXI:VARS:FLOAT:09        86400    monitor
+
+TXI:VARS:FLOAT:10.DESC   86400    monitor
+TXI:VARS:FLOAT:10        86400    monitor
+

@@ -1,0 +1,48 @@
+#
+# mpod Archive file for ioc-xpp-usr-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "XPP:IOC:USR:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XPP:R39:MPD:CH",             "0" }
+	{ "XPP:R39:MPD:CH",             "1" }
+	{ "XPP:R39:MPD:CH",             "2" }
+	{ "XPP:R39:MPD:CH",             "3" }
+	{ "XPP:R39:MPD:CH",             "4" }
+	{ "XPP:R39:MPD:CH",             "5" }
+	{ "XPP:R39:MPD:CH",             "6" }
+	{ "XPP:R39:MPD:CH",             "7" }
+	{ "XPP:R39:MPD:CH",             "100" }
+	{ "XPP:R39:MPD:CH",             "101" }
+	{ "XPP:R39:MPD:CH",             "102" }
+	{ "XPP:R39:MPD:CH",             "103" }
+	{ "XPP:R39:MPD:CH",             "104" }
+	{ "XPP:R39:MPD:CH",             "105" }
+	{ "XPP:R39:MPD:CH",             "106" }
+	{ "XPP:R39:MPD:CH",             "107" }
+	{ "XPP:R39:MPD:CH",             "200" }
+	{ "XPP:R39:MPD:CH",             "201" }
+	{ "XPP:R39:MPD:CH",             "202" }
+	{ "XPP:R39:MPD:CH",             "203" }
+	{ "XPP:R39:MPD:CH",             "204" }
+	{ "XPP:R39:MPD:CH",             "205" }
+	{ "XPP:R39:MPD:CH",             "206" }
+	{ "XPP:R39:MPD:CH",             "207" }
+	{ "XPP:R39:MPD:CH",             "300" }
+	{ "XPP:R39:MPD:CH",             "301" }
+	{ "XPP:R39:MPD:CH",             "302" }
+	{ "XPP:R39:MPD:CH",             "303" }
+	{ "XPP:R39:MPD:CH",             "304" }
+	{ "XPP:R39:MPD:CH",             "305" }
+	{ "XPP:R39:MPD:CH",             "306" }
+	{ "XPP:R39:MPD:CH",             "307" }
+}

@@ -1,0 +1,20 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       CXI:R51:IOC:21,
+                EVR             =       CXI:R51:EVR:21
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       CXI:KB1:CVV:01  }
+        {       CAM             =       CXI:KB1:CVV:02  }
+}
+

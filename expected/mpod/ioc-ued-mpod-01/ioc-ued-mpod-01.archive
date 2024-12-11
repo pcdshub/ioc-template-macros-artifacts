@@ -1,0 +1,617 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:UED:MPOD:01:APP_DIR 30 monitor 
+IOC:UED:MPOD:01:APP_DIR1 30 monitor 
+IOC:UED:MPOD:01:APP_DIR2 30 monitor 
+IOC:UED:MPOD:01:CA_CLNT_CNT 1 monitor 
+IOC:UED:MPOD:01:CA_CONN_CNT 1 monitor 
+IOC:UED:MPOD:01:EPICS_VERS 30 monitor
+IOC:UED:MPOD:01:FD_CNT 1 monitor 
+IOC:UED:MPOD:01:FD_FREE 1 monitor 
+IOC:UED:MPOD:01:FD_MAX 1 monitor 
+IOC:UED:MPOD:01:HOSTNAME 30 monitor
+IOC:UED:MPOD:01:KERNEL_VERS 30 monitor
+IOC:UED:MPOD:01:RECORD_CNT 10 monitor
+IOC:UED:MPOD:01:START_CNT 30 monitor
+IOC:UED:MPOD:01:STARTTOD 30 monitor
+IOC:UED:MPOD:01:ST_SCRIPT 30 monitor 
+IOC:UED:MPOD:01:ST_SCRIPT1 30 monitor 
+IOC:UED:MPOD:01:ST_SCRIPT2 30 monitor 
+IOC:UED:MPOD:01:SUSP_TASK_CNT 30 monitor 
+IOC:UED:MPOD:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:UED:MPOD:01:SYS_CPU_LOAD 10
+IOC:UED:MPOD:01:LOAD 10 
+IOC:UED:MPOD:01:MEM_BLK_FREE 10 
+IOC:UED:MPOD:01:MEM_FREE 10 
+IOC:UED:MPOD:01:MEM_USED 10 
+IOC:UED:MPOD:01:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:UED:MPOD:01:SR_rebootStatus			1 monitor
+IOC:UED:MPOD:01:SR_status				1 monitor
+IOC:UED:MPOD:01:SR_rebootStatusStr		1 monitor
+IOC:UED:MPOD:01:SR_statusStr				1 monitor
+IOC:UED:MPOD:01:SR_0_Status				1 monitor
+IOC:UED:MPOD:01:SR_0_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_1_Status				1 monitor
+IOC:UED:MPOD:01:SR_1_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_2_Status				1 monitor
+IOC:UED:MPOD:01:SR_2_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_3_Status				1 monitor
+IOC:UED:MPOD:01:SR_3_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_4_Status				1 monitor
+IOC:UED:MPOD:01:SR_4_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_5_Status				1 monitor
+IOC:UED:MPOD:01:SR_5_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_6_Status				1 monitor
+IOC:UED:MPOD:01:SR_6_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_7_Status				1 monitor
+IOC:UED:MPOD:01:SR_7_StatusStr			1 monitor
+IOC:UED:MPOD:01:SR_0_State				1 monitor
+IOC:UED:MPOD:01:SR_1_State				1 monitor
+IOC:UED:MPOD:01:SR_2_State				1 monitor
+IOC:UED:MPOD:01:SR_3_State				1 monitor
+IOC:UED:MPOD:01:SR_4_State				1 monitor
+IOC:UED:MPOD:01:SR_5_State				1 monitor
+IOC:UED:MPOD:01:SR_6_State				1 monitor
+IOC:UED:MPOD:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:UED:MPOD:01:SR_recentlyStr			30 monitor
+IOC:UED:MPOD:01:SR_rebootTime			30 monitor
+IOC:UED:MPOD:01:SR_0_Name				30 monitor
+IOC:UED:MPOD:01:SR_1_Name				30 monitor
+IOC:UED:MPOD:01:SR_2_Name				30 monitor
+IOC:UED:MPOD:01:SR_3_Name				30 monitor
+IOC:UED:MPOD:01:SR_4_Name				30 monitor
+IOC:UED:MPOD:01:SR_5_Name				30 monitor
+IOC:UED:MPOD:01:SR_6_Name				30 monitor
+IOC:UED:MPOD:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:UED:MPOD:01:SR_heartbeat				30
+IOC:UED:MPOD:01:SR_0_Time				30
+IOC:UED:MPOD:01:SR_1_Time				30
+IOC:UED:MPOD:01:SR_2_Time				30
+IOC:UED:MPOD:01:SR_3_Time				30
+IOC:UED:MPOD:01:SR_4_Time				30
+IOC:UED:MPOD:01:SR_5_Time				30
+IOC:UED:MPOD:01:SR_6_Time				30
+IOC:UED:MPOD:01:SR_7_Time				30
+
+# Archive values for mpod channel
+UED:01:MPD:CH:000:GetCurrent			1		monitor
+UED:01:MPD:CH:000:GetVoltage			1		monitor
+UED:01:MPD:CH:000:SetCurrent			1		monitor
+UED:01:MPD:CH:000:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:000:SetSwitch			1		monitor
+UED:01:MPD:CH:000:SetVoltage			1		monitor
+UED:01:MPD:CH:000:GetCurrentMeasurement		1
+UED:01:MPD:CH:000:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:000:GetVoltageMeasurement		1
+UED:01:MPD:CH:000:GetStatusString		1
+UED:01:MPD:CH:000:GetStatusString		1
+UED:01:MPD:CH:000:Stat_OnOff			1
+UED:01:MPD:CH:000:Stat_Inhibit			1
+UED:01:MPD:CH:000:Stat_VSenseLow		1
+UED:01:MPD:CH:000:Stat_VSenseHigh		1
+UED:01:MPD:CH:000:Stat_VTermHigh		1
+UED:01:MPD:CH:000:Stat_CurrHigh			1
+UED:01:MPD:CH:000:Stat_TempHigh			1
+UED:01:MPD:CH:000:Stat_PowerHigh		1
+UED:01:MPD:CH:000:Stat_Bit8			1
+UED:01:MPD:CH:000:Stat_CommTimeout		1
+UED:01:MPD:CH:000:Stat_CurrLim			1
+UED:01:MPD:CH:000:Stat_VRampUp			1
+UED:01:MPD:CH:000:Stat_VRampDown		1
+UED:01:MPD:CH:000:Stat_EnaKill			1
+UED:01:MPD:CH:000:Stat_EmerOff			1
+UED:01:MPD:CH:000:Stat_Bit15			1
+UED:01:MPD:CH:000:Alarm_OnOffRamp		1
+UED:01:MPD:CH:000:Alarm_MinMax			1
+
+UED:01:MPD:CH:000:GetVoltage.DESC		10
+UED:01:MPD:CH:000:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:001:GetCurrent			1		monitor
+UED:01:MPD:CH:001:GetVoltage			1		monitor
+UED:01:MPD:CH:001:SetCurrent			1		monitor
+UED:01:MPD:CH:001:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:001:SetSwitch			1		monitor
+UED:01:MPD:CH:001:SetVoltage			1		monitor
+UED:01:MPD:CH:001:GetCurrentMeasurement		1
+UED:01:MPD:CH:001:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:001:GetVoltageMeasurement		1
+UED:01:MPD:CH:001:GetStatusString		1
+UED:01:MPD:CH:001:GetStatusString		1
+UED:01:MPD:CH:001:Stat_OnOff			1
+UED:01:MPD:CH:001:Stat_Inhibit			1
+UED:01:MPD:CH:001:Stat_VSenseLow		1
+UED:01:MPD:CH:001:Stat_VSenseHigh		1
+UED:01:MPD:CH:001:Stat_VTermHigh		1
+UED:01:MPD:CH:001:Stat_CurrHigh			1
+UED:01:MPD:CH:001:Stat_TempHigh			1
+UED:01:MPD:CH:001:Stat_PowerHigh		1
+UED:01:MPD:CH:001:Stat_Bit8			1
+UED:01:MPD:CH:001:Stat_CommTimeout		1
+UED:01:MPD:CH:001:Stat_CurrLim			1
+UED:01:MPD:CH:001:Stat_VRampUp			1
+UED:01:MPD:CH:001:Stat_VRampDown		1
+UED:01:MPD:CH:001:Stat_EnaKill			1
+UED:01:MPD:CH:001:Stat_EmerOff			1
+UED:01:MPD:CH:001:Stat_Bit15			1
+UED:01:MPD:CH:001:Alarm_OnOffRamp		1
+UED:01:MPD:CH:001:Alarm_MinMax			1
+
+UED:01:MPD:CH:001:GetVoltage.DESC		10
+UED:01:MPD:CH:001:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:002:GetCurrent			1		monitor
+UED:01:MPD:CH:002:GetVoltage			1		monitor
+UED:01:MPD:CH:002:SetCurrent			1		monitor
+UED:01:MPD:CH:002:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:002:SetSwitch			1		monitor
+UED:01:MPD:CH:002:SetVoltage			1		monitor
+UED:01:MPD:CH:002:GetCurrentMeasurement		1
+UED:01:MPD:CH:002:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:002:GetVoltageMeasurement		1
+UED:01:MPD:CH:002:GetStatusString		1
+UED:01:MPD:CH:002:GetStatusString		1
+UED:01:MPD:CH:002:Stat_OnOff			1
+UED:01:MPD:CH:002:Stat_Inhibit			1
+UED:01:MPD:CH:002:Stat_VSenseLow		1
+UED:01:MPD:CH:002:Stat_VSenseHigh		1
+UED:01:MPD:CH:002:Stat_VTermHigh		1
+UED:01:MPD:CH:002:Stat_CurrHigh			1
+UED:01:MPD:CH:002:Stat_TempHigh			1
+UED:01:MPD:CH:002:Stat_PowerHigh		1
+UED:01:MPD:CH:002:Stat_Bit8			1
+UED:01:MPD:CH:002:Stat_CommTimeout		1
+UED:01:MPD:CH:002:Stat_CurrLim			1
+UED:01:MPD:CH:002:Stat_VRampUp			1
+UED:01:MPD:CH:002:Stat_VRampDown		1
+UED:01:MPD:CH:002:Stat_EnaKill			1
+UED:01:MPD:CH:002:Stat_EmerOff			1
+UED:01:MPD:CH:002:Stat_Bit15			1
+UED:01:MPD:CH:002:Alarm_OnOffRamp		1
+UED:01:MPD:CH:002:Alarm_MinMax			1
+
+UED:01:MPD:CH:002:GetVoltage.DESC		10
+UED:01:MPD:CH:002:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:003:GetCurrent			1		monitor
+UED:01:MPD:CH:003:GetVoltage			1		monitor
+UED:01:MPD:CH:003:SetCurrent			1		monitor
+UED:01:MPD:CH:003:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:003:SetSwitch			1		monitor
+UED:01:MPD:CH:003:SetVoltage			1		monitor
+UED:01:MPD:CH:003:GetCurrentMeasurement		1
+UED:01:MPD:CH:003:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:003:GetVoltageMeasurement		1
+UED:01:MPD:CH:003:GetStatusString		1
+UED:01:MPD:CH:003:GetStatusString		1
+UED:01:MPD:CH:003:Stat_OnOff			1
+UED:01:MPD:CH:003:Stat_Inhibit			1
+UED:01:MPD:CH:003:Stat_VSenseLow		1
+UED:01:MPD:CH:003:Stat_VSenseHigh		1
+UED:01:MPD:CH:003:Stat_VTermHigh		1
+UED:01:MPD:CH:003:Stat_CurrHigh			1
+UED:01:MPD:CH:003:Stat_TempHigh			1
+UED:01:MPD:CH:003:Stat_PowerHigh		1
+UED:01:MPD:CH:003:Stat_Bit8			1
+UED:01:MPD:CH:003:Stat_CommTimeout		1
+UED:01:MPD:CH:003:Stat_CurrLim			1
+UED:01:MPD:CH:003:Stat_VRampUp			1
+UED:01:MPD:CH:003:Stat_VRampDown		1
+UED:01:MPD:CH:003:Stat_EnaKill			1
+UED:01:MPD:CH:003:Stat_EmerOff			1
+UED:01:MPD:CH:003:Stat_Bit15			1
+UED:01:MPD:CH:003:Alarm_OnOffRamp		1
+UED:01:MPD:CH:003:Alarm_MinMax			1
+
+UED:01:MPD:CH:003:GetVoltage.DESC		10
+UED:01:MPD:CH:003:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:004:GetCurrent			1		monitor
+UED:01:MPD:CH:004:GetVoltage			1		monitor
+UED:01:MPD:CH:004:SetCurrent			1		monitor
+UED:01:MPD:CH:004:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:004:SetSwitch			1		monitor
+UED:01:MPD:CH:004:SetVoltage			1		monitor
+UED:01:MPD:CH:004:GetCurrentMeasurement		1
+UED:01:MPD:CH:004:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:004:GetVoltageMeasurement		1
+UED:01:MPD:CH:004:GetStatusString		1
+UED:01:MPD:CH:004:GetStatusString		1
+UED:01:MPD:CH:004:Stat_OnOff			1
+UED:01:MPD:CH:004:Stat_Inhibit			1
+UED:01:MPD:CH:004:Stat_VSenseLow		1
+UED:01:MPD:CH:004:Stat_VSenseHigh		1
+UED:01:MPD:CH:004:Stat_VTermHigh		1
+UED:01:MPD:CH:004:Stat_CurrHigh			1
+UED:01:MPD:CH:004:Stat_TempHigh			1
+UED:01:MPD:CH:004:Stat_PowerHigh		1
+UED:01:MPD:CH:004:Stat_Bit8			1
+UED:01:MPD:CH:004:Stat_CommTimeout		1
+UED:01:MPD:CH:004:Stat_CurrLim			1
+UED:01:MPD:CH:004:Stat_VRampUp			1
+UED:01:MPD:CH:004:Stat_VRampDown		1
+UED:01:MPD:CH:004:Stat_EnaKill			1
+UED:01:MPD:CH:004:Stat_EmerOff			1
+UED:01:MPD:CH:004:Stat_Bit15			1
+UED:01:MPD:CH:004:Alarm_OnOffRamp		1
+UED:01:MPD:CH:004:Alarm_MinMax			1
+
+UED:01:MPD:CH:004:GetVoltage.DESC		10
+UED:01:MPD:CH:004:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:005:GetCurrent			1		monitor
+UED:01:MPD:CH:005:GetVoltage			1		monitor
+UED:01:MPD:CH:005:SetCurrent			1		monitor
+UED:01:MPD:CH:005:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:005:SetSwitch			1		monitor
+UED:01:MPD:CH:005:SetVoltage			1		monitor
+UED:01:MPD:CH:005:GetCurrentMeasurement		1
+UED:01:MPD:CH:005:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:005:GetVoltageMeasurement		1
+UED:01:MPD:CH:005:GetStatusString		1
+UED:01:MPD:CH:005:GetStatusString		1
+UED:01:MPD:CH:005:Stat_OnOff			1
+UED:01:MPD:CH:005:Stat_Inhibit			1
+UED:01:MPD:CH:005:Stat_VSenseLow		1
+UED:01:MPD:CH:005:Stat_VSenseHigh		1
+UED:01:MPD:CH:005:Stat_VTermHigh		1
+UED:01:MPD:CH:005:Stat_CurrHigh			1
+UED:01:MPD:CH:005:Stat_TempHigh			1
+UED:01:MPD:CH:005:Stat_PowerHigh		1
+UED:01:MPD:CH:005:Stat_Bit8			1
+UED:01:MPD:CH:005:Stat_CommTimeout		1
+UED:01:MPD:CH:005:Stat_CurrLim			1
+UED:01:MPD:CH:005:Stat_VRampUp			1
+UED:01:MPD:CH:005:Stat_VRampDown		1
+UED:01:MPD:CH:005:Stat_EnaKill			1
+UED:01:MPD:CH:005:Stat_EmerOff			1
+UED:01:MPD:CH:005:Stat_Bit15			1
+UED:01:MPD:CH:005:Alarm_OnOffRamp		1
+UED:01:MPD:CH:005:Alarm_MinMax			1
+
+UED:01:MPD:CH:005:GetVoltage.DESC		10
+UED:01:MPD:CH:005:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:006:GetCurrent			1		monitor
+UED:01:MPD:CH:006:GetVoltage			1		monitor
+UED:01:MPD:CH:006:SetCurrent			1		monitor
+UED:01:MPD:CH:006:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:006:SetSwitch			1		monitor
+UED:01:MPD:CH:006:SetVoltage			1		monitor
+UED:01:MPD:CH:006:GetCurrentMeasurement		1
+UED:01:MPD:CH:006:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:006:GetVoltageMeasurement		1
+UED:01:MPD:CH:006:GetStatusString		1
+UED:01:MPD:CH:006:GetStatusString		1
+UED:01:MPD:CH:006:Stat_OnOff			1
+UED:01:MPD:CH:006:Stat_Inhibit			1
+UED:01:MPD:CH:006:Stat_VSenseLow		1
+UED:01:MPD:CH:006:Stat_VSenseHigh		1
+UED:01:MPD:CH:006:Stat_VTermHigh		1
+UED:01:MPD:CH:006:Stat_CurrHigh			1
+UED:01:MPD:CH:006:Stat_TempHigh			1
+UED:01:MPD:CH:006:Stat_PowerHigh		1
+UED:01:MPD:CH:006:Stat_Bit8			1
+UED:01:MPD:CH:006:Stat_CommTimeout		1
+UED:01:MPD:CH:006:Stat_CurrLim			1
+UED:01:MPD:CH:006:Stat_VRampUp			1
+UED:01:MPD:CH:006:Stat_VRampDown		1
+UED:01:MPD:CH:006:Stat_EnaKill			1
+UED:01:MPD:CH:006:Stat_EmerOff			1
+UED:01:MPD:CH:006:Stat_Bit15			1
+UED:01:MPD:CH:006:Alarm_OnOffRamp		1
+UED:01:MPD:CH:006:Alarm_MinMax			1
+
+UED:01:MPD:CH:006:GetVoltage.DESC		10
+UED:01:MPD:CH:006:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:007:GetCurrent			1		monitor
+UED:01:MPD:CH:007:GetVoltage			1		monitor
+UED:01:MPD:CH:007:SetCurrent			1		monitor
+UED:01:MPD:CH:007:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:007:SetSwitch			1		monitor
+UED:01:MPD:CH:007:SetVoltage			1		monitor
+UED:01:MPD:CH:007:GetCurrentMeasurement		1
+UED:01:MPD:CH:007:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:007:GetVoltageMeasurement		1
+UED:01:MPD:CH:007:GetStatusString		1
+UED:01:MPD:CH:007:GetStatusString		1
+UED:01:MPD:CH:007:Stat_OnOff			1
+UED:01:MPD:CH:007:Stat_Inhibit			1
+UED:01:MPD:CH:007:Stat_VSenseLow		1
+UED:01:MPD:CH:007:Stat_VSenseHigh		1
+UED:01:MPD:CH:007:Stat_VTermHigh		1
+UED:01:MPD:CH:007:Stat_CurrHigh			1
+UED:01:MPD:CH:007:Stat_TempHigh			1
+UED:01:MPD:CH:007:Stat_PowerHigh		1
+UED:01:MPD:CH:007:Stat_Bit8			1
+UED:01:MPD:CH:007:Stat_CommTimeout		1
+UED:01:MPD:CH:007:Stat_CurrLim			1
+UED:01:MPD:CH:007:Stat_VRampUp			1
+UED:01:MPD:CH:007:Stat_VRampDown		1
+UED:01:MPD:CH:007:Stat_EnaKill			1
+UED:01:MPD:CH:007:Stat_EmerOff			1
+UED:01:MPD:CH:007:Stat_Bit15			1
+UED:01:MPD:CH:007:Alarm_OnOffRamp		1
+UED:01:MPD:CH:007:Alarm_MinMax			1
+
+UED:01:MPD:CH:007:GetVoltage.DESC		10
+UED:01:MPD:CH:007:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:100:GetCurrent			1		monitor
+UED:01:MPD:CH:100:GetVoltage			1		monitor
+UED:01:MPD:CH:100:SetCurrent			1		monitor
+UED:01:MPD:CH:100:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:100:SetSwitch			1		monitor
+UED:01:MPD:CH:100:SetVoltage			1		monitor
+UED:01:MPD:CH:100:GetCurrentMeasurement		1
+UED:01:MPD:CH:100:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:100:GetVoltageMeasurement		1
+UED:01:MPD:CH:100:GetStatusString		1
+UED:01:MPD:CH:100:GetStatusString		1
+UED:01:MPD:CH:100:Stat_OnOff			1
+UED:01:MPD:CH:100:Stat_Inhibit			1
+UED:01:MPD:CH:100:Stat_VSenseLow		1
+UED:01:MPD:CH:100:Stat_VSenseHigh		1
+UED:01:MPD:CH:100:Stat_VTermHigh		1
+UED:01:MPD:CH:100:Stat_CurrHigh			1
+UED:01:MPD:CH:100:Stat_TempHigh			1
+UED:01:MPD:CH:100:Stat_PowerHigh		1
+UED:01:MPD:CH:100:Stat_Bit8			1
+UED:01:MPD:CH:100:Stat_CommTimeout		1
+UED:01:MPD:CH:100:Stat_CurrLim			1
+UED:01:MPD:CH:100:Stat_VRampUp			1
+UED:01:MPD:CH:100:Stat_VRampDown		1
+UED:01:MPD:CH:100:Stat_EnaKill			1
+UED:01:MPD:CH:100:Stat_EmerOff			1
+UED:01:MPD:CH:100:Stat_Bit15			1
+UED:01:MPD:CH:100:Alarm_OnOffRamp		1
+UED:01:MPD:CH:100:Alarm_MinMax			1
+
+UED:01:MPD:CH:100:GetVoltage.DESC		10
+UED:01:MPD:CH:100:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:101:GetCurrent			1		monitor
+UED:01:MPD:CH:101:GetVoltage			1		monitor
+UED:01:MPD:CH:101:SetCurrent			1		monitor
+UED:01:MPD:CH:101:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:101:SetSwitch			1		monitor
+UED:01:MPD:CH:101:SetVoltage			1		monitor
+UED:01:MPD:CH:101:GetCurrentMeasurement		1
+UED:01:MPD:CH:101:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:101:GetVoltageMeasurement		1
+UED:01:MPD:CH:101:GetStatusString		1
+UED:01:MPD:CH:101:GetStatusString		1
+UED:01:MPD:CH:101:Stat_OnOff			1
+UED:01:MPD:CH:101:Stat_Inhibit			1
+UED:01:MPD:CH:101:Stat_VSenseLow		1
+UED:01:MPD:CH:101:Stat_VSenseHigh		1
+UED:01:MPD:CH:101:Stat_VTermHigh		1
+UED:01:MPD:CH:101:Stat_CurrHigh			1
+UED:01:MPD:CH:101:Stat_TempHigh			1
+UED:01:MPD:CH:101:Stat_PowerHigh		1
+UED:01:MPD:CH:101:Stat_Bit8			1
+UED:01:MPD:CH:101:Stat_CommTimeout		1
+UED:01:MPD:CH:101:Stat_CurrLim			1
+UED:01:MPD:CH:101:Stat_VRampUp			1
+UED:01:MPD:CH:101:Stat_VRampDown		1
+UED:01:MPD:CH:101:Stat_EnaKill			1
+UED:01:MPD:CH:101:Stat_EmerOff			1
+UED:01:MPD:CH:101:Stat_Bit15			1
+UED:01:MPD:CH:101:Alarm_OnOffRamp		1
+UED:01:MPD:CH:101:Alarm_MinMax			1
+
+UED:01:MPD:CH:101:GetVoltage.DESC		10
+UED:01:MPD:CH:101:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:102:GetCurrent			1		monitor
+UED:01:MPD:CH:102:GetVoltage			1		monitor
+UED:01:MPD:CH:102:SetCurrent			1		monitor
+UED:01:MPD:CH:102:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:102:SetSwitch			1		monitor
+UED:01:MPD:CH:102:SetVoltage			1		monitor
+UED:01:MPD:CH:102:GetCurrentMeasurement		1
+UED:01:MPD:CH:102:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:102:GetVoltageMeasurement		1
+UED:01:MPD:CH:102:GetStatusString		1
+UED:01:MPD:CH:102:GetStatusString		1
+UED:01:MPD:CH:102:Stat_OnOff			1
+UED:01:MPD:CH:102:Stat_Inhibit			1
+UED:01:MPD:CH:102:Stat_VSenseLow		1
+UED:01:MPD:CH:102:Stat_VSenseHigh		1
+UED:01:MPD:CH:102:Stat_VTermHigh		1
+UED:01:MPD:CH:102:Stat_CurrHigh			1
+UED:01:MPD:CH:102:Stat_TempHigh			1
+UED:01:MPD:CH:102:Stat_PowerHigh		1
+UED:01:MPD:CH:102:Stat_Bit8			1
+UED:01:MPD:CH:102:Stat_CommTimeout		1
+UED:01:MPD:CH:102:Stat_CurrLim			1
+UED:01:MPD:CH:102:Stat_VRampUp			1
+UED:01:MPD:CH:102:Stat_VRampDown		1
+UED:01:MPD:CH:102:Stat_EnaKill			1
+UED:01:MPD:CH:102:Stat_EmerOff			1
+UED:01:MPD:CH:102:Stat_Bit15			1
+UED:01:MPD:CH:102:Alarm_OnOffRamp		1
+UED:01:MPD:CH:102:Alarm_MinMax			1
+
+UED:01:MPD:CH:102:GetVoltage.DESC		10
+UED:01:MPD:CH:102:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:103:GetCurrent			1		monitor
+UED:01:MPD:CH:103:GetVoltage			1		monitor
+UED:01:MPD:CH:103:SetCurrent			1		monitor
+UED:01:MPD:CH:103:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:103:SetSwitch			1		monitor
+UED:01:MPD:CH:103:SetVoltage			1		monitor
+UED:01:MPD:CH:103:GetCurrentMeasurement		1
+UED:01:MPD:CH:103:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:103:GetVoltageMeasurement		1
+UED:01:MPD:CH:103:GetStatusString		1
+UED:01:MPD:CH:103:GetStatusString		1
+UED:01:MPD:CH:103:Stat_OnOff			1
+UED:01:MPD:CH:103:Stat_Inhibit			1
+UED:01:MPD:CH:103:Stat_VSenseLow		1
+UED:01:MPD:CH:103:Stat_VSenseHigh		1
+UED:01:MPD:CH:103:Stat_VTermHigh		1
+UED:01:MPD:CH:103:Stat_CurrHigh			1
+UED:01:MPD:CH:103:Stat_TempHigh			1
+UED:01:MPD:CH:103:Stat_PowerHigh		1
+UED:01:MPD:CH:103:Stat_Bit8			1
+UED:01:MPD:CH:103:Stat_CommTimeout		1
+UED:01:MPD:CH:103:Stat_CurrLim			1
+UED:01:MPD:CH:103:Stat_VRampUp			1
+UED:01:MPD:CH:103:Stat_VRampDown		1
+UED:01:MPD:CH:103:Stat_EnaKill			1
+UED:01:MPD:CH:103:Stat_EmerOff			1
+UED:01:MPD:CH:103:Stat_Bit15			1
+UED:01:MPD:CH:103:Alarm_OnOffRamp		1
+UED:01:MPD:CH:103:Alarm_MinMax			1
+
+UED:01:MPD:CH:103:GetVoltage.DESC		10
+UED:01:MPD:CH:103:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:104:GetCurrent			1		monitor
+UED:01:MPD:CH:104:GetVoltage			1		monitor
+UED:01:MPD:CH:104:SetCurrent			1		monitor
+UED:01:MPD:CH:104:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:104:SetSwitch			1		monitor
+UED:01:MPD:CH:104:SetVoltage			1		monitor
+UED:01:MPD:CH:104:GetCurrentMeasurement		1
+UED:01:MPD:CH:104:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:104:GetVoltageMeasurement		1
+UED:01:MPD:CH:104:GetStatusString		1
+UED:01:MPD:CH:104:GetStatusString		1
+UED:01:MPD:CH:104:Stat_OnOff			1
+UED:01:MPD:CH:104:Stat_Inhibit			1
+UED:01:MPD:CH:104:Stat_VSenseLow		1
+UED:01:MPD:CH:104:Stat_VSenseHigh		1
+UED:01:MPD:CH:104:Stat_VTermHigh		1
+UED:01:MPD:CH:104:Stat_CurrHigh			1
+UED:01:MPD:CH:104:Stat_TempHigh			1
+UED:01:MPD:CH:104:Stat_PowerHigh		1
+UED:01:MPD:CH:104:Stat_Bit8			1
+UED:01:MPD:CH:104:Stat_CommTimeout		1
+UED:01:MPD:CH:104:Stat_CurrLim			1
+UED:01:MPD:CH:104:Stat_VRampUp			1
+UED:01:MPD:CH:104:Stat_VRampDown		1
+UED:01:MPD:CH:104:Stat_EnaKill			1
+UED:01:MPD:CH:104:Stat_EmerOff			1
+UED:01:MPD:CH:104:Stat_Bit15			1
+UED:01:MPD:CH:104:Alarm_OnOffRamp		1
+UED:01:MPD:CH:104:Alarm_MinMax			1
+
+UED:01:MPD:CH:104:GetVoltage.DESC		10
+UED:01:MPD:CH:104:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:105:GetCurrent			1		monitor
+UED:01:MPD:CH:105:GetVoltage			1		monitor
+UED:01:MPD:CH:105:SetCurrent			1		monitor
+UED:01:MPD:CH:105:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:105:SetSwitch			1		monitor
+UED:01:MPD:CH:105:SetVoltage			1		monitor
+UED:01:MPD:CH:105:GetCurrentMeasurement		1
+UED:01:MPD:CH:105:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:105:GetVoltageMeasurement		1
+UED:01:MPD:CH:105:GetStatusString		1
+UED:01:MPD:CH:105:GetStatusString		1
+UED:01:MPD:CH:105:Stat_OnOff			1
+UED:01:MPD:CH:105:Stat_Inhibit			1
+UED:01:MPD:CH:105:Stat_VSenseLow		1
+UED:01:MPD:CH:105:Stat_VSenseHigh		1
+UED:01:MPD:CH:105:Stat_VTermHigh		1
+UED:01:MPD:CH:105:Stat_CurrHigh			1
+UED:01:MPD:CH:105:Stat_TempHigh			1
+UED:01:MPD:CH:105:Stat_PowerHigh		1
+UED:01:MPD:CH:105:Stat_Bit8			1
+UED:01:MPD:CH:105:Stat_CommTimeout		1
+UED:01:MPD:CH:105:Stat_CurrLim			1
+UED:01:MPD:CH:105:Stat_VRampUp			1
+UED:01:MPD:CH:105:Stat_VRampDown		1
+UED:01:MPD:CH:105:Stat_EnaKill			1
+UED:01:MPD:CH:105:Stat_EmerOff			1
+UED:01:MPD:CH:105:Stat_Bit15			1
+UED:01:MPD:CH:105:Alarm_OnOffRamp		1
+UED:01:MPD:CH:105:Alarm_MinMax			1
+
+UED:01:MPD:CH:105:GetVoltage.DESC		10
+UED:01:MPD:CH:105:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:106:GetCurrent			1		monitor
+UED:01:MPD:CH:106:GetVoltage			1		monitor
+UED:01:MPD:CH:106:SetCurrent			1		monitor
+UED:01:MPD:CH:106:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:106:SetSwitch			1		monitor
+UED:01:MPD:CH:106:SetVoltage			1		monitor
+UED:01:MPD:CH:106:GetCurrentMeasurement		1
+UED:01:MPD:CH:106:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:106:GetVoltageMeasurement		1
+UED:01:MPD:CH:106:GetStatusString		1
+UED:01:MPD:CH:106:GetStatusString		1
+UED:01:MPD:CH:106:Stat_OnOff			1
+UED:01:MPD:CH:106:Stat_Inhibit			1
+UED:01:MPD:CH:106:Stat_VSenseLow		1
+UED:01:MPD:CH:106:Stat_VSenseHigh		1
+UED:01:MPD:CH:106:Stat_VTermHigh		1
+UED:01:MPD:CH:106:Stat_CurrHigh			1
+UED:01:MPD:CH:106:Stat_TempHigh			1
+UED:01:MPD:CH:106:Stat_PowerHigh		1
+UED:01:MPD:CH:106:Stat_Bit8			1
+UED:01:MPD:CH:106:Stat_CommTimeout		1
+UED:01:MPD:CH:106:Stat_CurrLim			1
+UED:01:MPD:CH:106:Stat_VRampUp			1
+UED:01:MPD:CH:106:Stat_VRampDown		1
+UED:01:MPD:CH:106:Stat_EnaKill			1
+UED:01:MPD:CH:106:Stat_EmerOff			1
+UED:01:MPD:CH:106:Stat_Bit15			1
+UED:01:MPD:CH:106:Alarm_OnOffRamp		1
+UED:01:MPD:CH:106:Alarm_MinMax			1
+
+UED:01:MPD:CH:106:GetVoltage.DESC		10
+UED:01:MPD:CH:106:SetVoltage.DESC		10
+# Archive values for mpod channel
+UED:01:MPD:CH:107:GetCurrent			1		monitor
+UED:01:MPD:CH:107:GetVoltage			1		monitor
+UED:01:MPD:CH:107:SetCurrent			1		monitor
+UED:01:MPD:CH:107:SetCurrent_snmp		1		monitor
+UED:01:MPD:CH:107:SetSwitch			1		monitor
+UED:01:MPD:CH:107:SetVoltage			1		monitor
+UED:01:MPD:CH:107:GetCurrentMeasurement		1
+UED:01:MPD:CH:107:GetTerminalVoltageMeasurement	1
+UED:01:MPD:CH:107:GetVoltageMeasurement		1
+UED:01:MPD:CH:107:GetStatusString		1
+UED:01:MPD:CH:107:GetStatusString		1
+UED:01:MPD:CH:107:Stat_OnOff			1
+UED:01:MPD:CH:107:Stat_Inhibit			1
+UED:01:MPD:CH:107:Stat_VSenseLow		1
+UED:01:MPD:CH:107:Stat_VSenseHigh		1
+UED:01:MPD:CH:107:Stat_VTermHigh		1
+UED:01:MPD:CH:107:Stat_CurrHigh			1
+UED:01:MPD:CH:107:Stat_TempHigh			1
+UED:01:MPD:CH:107:Stat_PowerHigh		1
+UED:01:MPD:CH:107:Stat_Bit8			1
+UED:01:MPD:CH:107:Stat_CommTimeout		1
+UED:01:MPD:CH:107:Stat_CurrLim			1
+UED:01:MPD:CH:107:Stat_VRampUp			1
+UED:01:MPD:CH:107:Stat_VRampDown		1
+UED:01:MPD:CH:107:Stat_EnaKill			1
+UED:01:MPD:CH:107:Stat_EmerOff			1
+UED:01:MPD:CH:107:Stat_Bit15			1
+UED:01:MPD:CH:107:Alarm_OnOffRamp		1
+UED:01:MPD:CH:107:Alarm_MinMax			1
+
+UED:01:MPD:CH:107:GetVoltage.DESC		10
+UED:01:MPD:CH:107:SetVoltage.DESC		10

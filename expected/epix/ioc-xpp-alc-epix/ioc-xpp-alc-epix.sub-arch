@@ -1,0 +1,68 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file detector-epix.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:01" }
+}
+
+file peltier.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:01" }
+}
+
+file archive_epixMon.archive
+{
+	{ IOC = "IOC:XPP:ALC:EPIX:01", BASE = "XPP:ALC:EPIX:01" }
+}
+file detector-epix.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:02" }
+}
+
+file peltier.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:02" }
+}
+
+file archive_epixMon.archive
+{
+	{ IOC = "IOC:XPP:ALC:EPIX:01", BASE = "XPP:ALC:EPIX:02" }
+}
+file detector-epix.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:03" }
+}
+
+file peltier.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:03" }
+}
+
+file archive_epixMon.archive
+{
+	{ IOC = "IOC:XPP:ALC:EPIX:01", BASE = "XPP:ALC:EPIX:03" }
+}
+file detector-epix.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:04" }
+}
+
+file peltier.tpl-arch
+{
+	{ PRED = "XPP:ALC:EPIX:04" }
+}
+
+file archive_epixMon.archive
+{
+	{ IOC = "IOC:XPP:ALC:EPIX:01", BASE = "XPP:ALC:EPIX:04" }
+}
+
+
+
+file archive_SR.archive
+{
+	{ IOC = "IOC:XPP:ALC:EPIX:01" }
+}

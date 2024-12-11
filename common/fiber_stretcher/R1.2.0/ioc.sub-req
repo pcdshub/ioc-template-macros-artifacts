@@ -1,0 +1,17 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+
+$$LOOP(DEVICE)
+file fiber_stretcher.req
+{
+    { BASE = "$$BASE" }
+}
+
+file pidLoop.req
+{
+    { BASE = "$$BASE", LOOP = "PID" }
+}
+$$ENDLOOP(DEVICE)
+

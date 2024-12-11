@@ -1,0 +1,17 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:TMO:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "LI2K4:IP1:GFS:01" }
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+#
+# gigECam Archive file for ioc-mrco-tmo-gige-01
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "MRCO:CAM:01:IOC"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "MRCO:CAM:01:IOC"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "MRCO:CAM:01"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", ROI = "ROI1"  }
+        {   CAM = "MRCO:CAM:01", ROI = "ROI2"  }
+        {   CAM = "MRCO:CAM:01", ROI = "ROI3"  }
+        {   CAM = "MRCO:CAM:01", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", STATS = "Stats1"  }
+        {   CAM = "MRCO:CAM:01", STATS = "Stats2"  }
+        {   CAM = "MRCO:CAM:01", STATS = "Stats3"  }
+        {   CAM = "MRCO:CAM:01", STATS = "Stats4"  }
+        {   CAM = "MRCO:CAM:01", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "MRCO:CAM:01", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "MRCO:CAM:01"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "MRCO:CAM:01", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "MRCO:CAM:01", R = ":"	}
+}
+
+

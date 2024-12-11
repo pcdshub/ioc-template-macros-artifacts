@@ -1,0 +1,56 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:TITLE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:TXTFILE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:EXP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:FILE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:FILE2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:FILE3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:TAG1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:TAG2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:TAG3    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:RUN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:ELOG:POST    }
+}

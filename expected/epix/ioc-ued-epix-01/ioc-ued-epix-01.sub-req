@@ -1,0 +1,33 @@
+# IOC autosave file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request 
+file detector-epix.tpl-req
+{
+	{ PRED = "UED:EPIX2M:01" }
+}
+
+
+file var.tpl-req
+{
+	{ VAR = "UED:EPIX2M:01:AMBIENT_TEMP" }
+}
+
+file autosave_epixQuadMon.req
+{
+	{ BASE = "UED:EPIX2M:01" }
+}
+
+
+
+
+
+file var.tpl-req
+{
+        pattern
+        { VAR }
+        { UED:EPIX2M:01:CHILLER:ENABLE }
+        { UED:EPIX2M:01:CHILLER:TEMPLIM }
+        { UED:EPIX2M:01:CHILLER:FLOWLIM }
+}

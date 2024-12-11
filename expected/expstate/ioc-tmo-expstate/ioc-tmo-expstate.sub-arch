@@ -1,0 +1,9 @@
+file exp_state.tpl-arch
+{
+    pattern { P                       }
+            { IOC:TMO:0:EXPSTATE:   }
+            { IOC:TMO:1:EXPSTATE:   }
+            { IOC:TMO:2:EXPSTATE:   }
+            { IOC:TMO:3:EXPSTATE:   }
+            { IOC:TMO:4:EXPSTATE:   }
+}

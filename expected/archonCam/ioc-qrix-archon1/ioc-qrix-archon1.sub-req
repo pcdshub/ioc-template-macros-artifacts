@@ -1,0 +1,10 @@
+#
+# gigECam Autosave request file for ioc-qrix-archon1
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "QRIX:STA:IOC:01" }
+}
+

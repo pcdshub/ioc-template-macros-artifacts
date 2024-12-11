@@ -1,0 +1,10 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+
+file rfof.req
+{
+    { IOC = "IOC:LAS:RFOF:ITECH:01", BASE  = "LAS:RFOF:ITECH:01" }
+
+}

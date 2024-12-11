@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_lakeshore335_ioc.archive
+{
+	{ IOC="IOC:TMO:IP2:TCT:01" }
+}
+
+file archive_lakeshore335.archive
+{
+	{ TCT="TMO:IP2:TCT:01" }
+}

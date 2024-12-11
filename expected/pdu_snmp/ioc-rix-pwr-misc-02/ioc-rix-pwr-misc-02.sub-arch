@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:RIX:PWR:MISC:02"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:RIX:PWR:MISC:02"	}
+}
+
+file TrippLitePdu_8.archive
+{
+    { PRE = "RIX:PWR:MISC:02" }
+}

@@ -1,0 +1,6 @@
+# ell IOC instance autosave file
+
+file slice-ioc.req
+{
+	{ IOC = "$$IOC_PV", BASE = "$$BASE" }
+}

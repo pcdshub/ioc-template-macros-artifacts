@@ -1,0 +1,106 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            { STEP:XRT1:441:MOTR   }
+            
+            { STEP:XRT1:442:MOTR   }
+            
+            { STEP:XRT1:443:MOTR   }
+            
+            { STEP:XRT1:444:MOTR   }
+            
+            { STEP:XRT1:445:MOTR   }
+            
+            { STEP:XRT1:446:MOTR   }
+            
+            { STEP:XRT1:447:MOTR   }
+            }
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            }
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8 }
+            }
+
+file device_with_9states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5   }
+            { XRT:HXS:CRYSTAL,  Si(110)R50,  Si(100)R50,  Si(100)R200,  Si(111)R200,  OUT }
+}
+file device_with_6states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6   }
+            { XRT:HXS:FILTER,  Open,  Copper,  Nickel,  SST,  Zn,  Ti }
+}
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            }
+

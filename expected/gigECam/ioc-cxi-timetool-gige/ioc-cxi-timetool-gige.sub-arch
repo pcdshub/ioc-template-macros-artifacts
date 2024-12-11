@@ -1,0 +1,87 @@
+#
+# gigECam Archive file for ioc-cxi-timetool-gige
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:CXI:TIMETOOL:GIGE"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:CXI:TIMETOOL:GIGE"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "CXI:TIMETOOL:GIGE"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", ROI = "ROI1"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", ROI = "ROI2"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", ROI = "ROI3"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", STATS = "Stats1"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", STATS = "Stats2"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", STATS = "Stats3"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", STATS = "Stats4"  }
+        {   CAM = "CXI:TIMETOOL:GIGE", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "CXI:TIMETOOL:GIGE", OVER = "Over1"    }
+    }
+
+
+            
+file image_meta.archive
+{
+    {   CAM = "CXI:TIMETOOL:GIGE"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "CXI:TIMETOOL:GIGE", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "CXI:TIMETOOL:GIGE", R = ":"	}
+}
+
+

@@ -1,0 +1,8 @@
+# IOC archive file
+
+$$LOOP(PYREOS)
+file pyreos.archive
+{
+	{ BASE = "$$BASE", IOC = "$$IOC_PV" }
+}
+$$ENDLOOP(PYREOS)

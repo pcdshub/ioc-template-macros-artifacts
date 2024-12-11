@@ -1,0 +1,84 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LAS:BTS:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{LAS:BTS:MCS2:01,  1 }
+	{LAS:BTS:MCS2:01,  2 }
+	{LAS:BTS:MCS2:01,  3 }
+	{LAS:BTS:MCS2:01,  4 }
+	{LAS:BTS:MCS2:01,  5 }
+	{LAS:BTS:MCS2:01,  6 }
+	{LAS:BTS:MCS2:01,  7 }
+	{LAS:BTS:MCS2:01,  8 }
+	{LAS:BTS:MCS2:01,  9 }
+	{LAS:BTS:MCS2:01,  10 }
+	{LAS:BTS:MCS2:01,  11 }
+	{LAS:BTS:MCS2:01,  12 }
+	{LAS:BTS:MCS2:01,  13 }
+	{LAS:BTS:MCS2:01,  14 }
+	{LAS:BTS:MCS2:01,  15 }
+	{LAS:BTS:MCS2:01,  16 }
+	{LAS:BTS:MCS2:01,  17 }
+	{LAS:BTS:MCS2:01,  18 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                }
+
+file smaract_module.archive
+{
+    pattern
+    { BASE, MOD }
+    { LAS:BTS:MCS2:01,  0 }
+    { LAS:BTS:MCS2:01,  1 }
+    { LAS:BTS:MCS2:01,  2 }
+    { LAS:BTS:MCS2:01,  3 }
+    { LAS:BTS:MCS2:01,  4 }
+    { LAS:BTS:MCS2:01,  5 }
+}

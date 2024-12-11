@@ -1,0 +1,20 @@
+#
+# unixCam IOC archive substitutions file
+#
+
+# Generate generic portion of unixCam archive request 
+file archive_unixCam.archive
+{
+        {
+                IOC             =       IOC:MEC:CAM4,
+                EVR             =       MEC:CAM4:EVR
+        }
+}
+
+# Generate one set per camera
+file archive_edt_unix.archive
+{
+        {       CAM             =       MEC:XT2:CVV:01  }
+        {       CAM             =       MEC:XT2:CVV:02  }
+}
+

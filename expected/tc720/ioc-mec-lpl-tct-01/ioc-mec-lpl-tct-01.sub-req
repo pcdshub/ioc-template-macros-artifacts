@@ -1,0 +1,10 @@
+# tc720 IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+
+file tc720-ioc.req
+{
+	{
+		P="MEC:LPL:TCT:01"
+	}
+}

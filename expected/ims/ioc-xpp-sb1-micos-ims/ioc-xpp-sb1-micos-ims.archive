@@ -1,0 +1,116 @@
+# IMS archive list
+HX2:SB1:MMS:01.DESC         86400    monitor
+HX2:SB1:MMS:01.TYPE         86400    monitor
+HX2:SB1:MMS:01.PORT         86400    monitor
+HX2:SB1:MMS:01.LM           86400    monitor
+HX2:SB1:MMS:01.SM           86400    monitor
+HX2:SB1:MMS:01.SF           86400    monitor
+HX2:SB1:MMS:01.STSV         86400    monitor
+HX2:SB1:MMS:01.ERSV         86400    monitor
+HX2:SB1:MMS:01.EE           86400    monitor
+HX2:SB1:MMS:01.EL           86400    monitor
+HX2:SB1:MMS:01.ME           86400    monitor
+HX2:SB1:MMS:01.MS           86400    monitor
+HX2:SB1:MMS:01.MT           86400    monitor
+HX2:SB1:MMS:01.HT           86400    monitor
+HX2:SB1:MMS:01.ES           86400    monitor
+HX2:SB1:MMS:01.RCMX         86400    monitor
+HX2:SB1:MMS:01.RC           86400    monitor
+HX2:SB1:MMS:01.HCMX         86400    monitor
+HX2:SB1:MMS:01.HC           86400    monitor
+HX2:SB1:MMS:01.DVER         86400    monitor
+HX2:SB1:MMS:01.MODE         86400    monitor
+HX2:SB1:MMS:01.EGU          86400    monitor
+HX2:SB1:MMS:01.UREV         86400    monitor
+HX2:SB1:MMS:01.FREV         86400    monitor
+HX2:SB1:MMS:01.SREV         86400    monitor
+HX2:SB1:MMS:01.MRES         86400    monitor
+HX2:SB1:MMS:01.ERES         86400    monitor
+HX2:SB1:MMS:01.DIR          86400    monitor
+HX2:SB1:MMS:01.OFF          86400    monitor
+HX2:SB1:MMS:01.FOFF         86400    monitor
+HX2:SB1:MMS:01.HTYP         86400    monitor
+HX2:SB1:MMS:01.HEGE         86400    monitor
+HX2:SB1:MMS:01.BDST         86400    monitor
+HX2:SB1:MMS:01.HDST         86400    monitor
+HX2:SB1:MMS:01.DLLM         86400    monitor
+HX2:SB1:MMS:01.DHLM         86400    monitor
+HX2:SB1:MMS:01.LLM          86400    monitor
+HX2:SB1:MMS:01.HLM          86400    monitor
+HX2:SB1:MMS:01.RTRY         86400    monitor
+HX2:SB1:MMS:01.RDBD         86400    monitor
+HX2:SB1:MMS:01.PDBD         86400    monitor
+HX2:SB1:MMS:01.PREC         86400    monitor
+HX2:SB1:MMS:01.SBAS         86400    monitor
+HX2:SB1:MMS:01.SMAX         86400    monitor
+HX2:SB1:MMS:01.S            86400    monitor
+HX2:SB1:MMS:01.VBAS         86400    monitor
+HX2:SB1:MMS:01.VMAX         86400    monitor
+HX2:SB1:MMS:01.VELO         86400    monitor
+HX2:SB1:MMS:01.BS           86400    monitor
+HX2:SB1:MMS:01.BVEL         86400    monitor
+HX2:SB1:MMS:01.HS           86400    monitor
+HX2:SB1:MMS:01.HVEL         86400    monitor
+HX2:SB1:MMS:01.ACCL         86400    monitor
+HX2:SB1:MMS:01.BACC         86400    monitor
+HX2:SB1:MMS:01.HACC         86400    monitor
+HX2:SB1:MMS:01.TWV          86400    monitor
+HX2:SB1:MMS:01.HOMD         86400    monitor
+HX2:SB1:MMS:01.EGAG         86400    monitor
+HX2:SB1:MMS:01.ERBL         86400    monitor
+HX2:SB1:MMS:01.ESKL         86400    monitor
+
+HX2:SB1:MMS:01.DLVL         86400    monitor
+
+HX2:SB1:MMS:01.S1           86400    monitor
+HX2:SB1:MMS:01.S2           86400    monitor
+HX2:SB1:MMS:01.S3           86400    monitor
+HX2:SB1:MMS:01.S4           86400    monitor
+HX2:SB1:MMS:01.S9           86400    monitor
+
+HX2:SB1:MMS:01.RES          86400    monitor
+
+HX2:SB1:MMS:01.VAL          2        monitor
+HX2:SB1:MMS:01.DVAL         2        monitor
+HX2:SB1:MMS:01.RVAL         2        monitor
+HX2:SB1:MMS:01.RRBV         0.2      monitor
+HX2:SB1:MMS:01.DRBV         0.2      monitor
+HX2:SB1:MMS:01.RBV          0.2      monitor
+
+HX2:SB1:MMS:01.ERBV         0.2      monitor
+
+HX2:SB1:MMS:01.DIFF         0.2      monitor
+
+HX2:SB1:MMS:01.RCNT         86400    monitor
+HX2:SB1:MMS:01.MISS         86400    monitor
+
+HX2:SB1:MMS:01.LLS          86400    monitor
+HX2:SB1:MMS:01.HLS          86400    monitor
+
+HX2:SB1:MMS:01.ATHM         86400    monitor
+
+HX2:SB1:MMS:01.MIP          0.2      monitor
+HX2:SB1:MMS:01.MOVN         0.2      monitor
+HX2:SB1:MMS:01.DMOV         0.2      monitor
+HX2:SB1:MMS:01.MSTA         0.2      monitor
+HX2:SB1:MMS:01.HCSV         86400    monitor
+
+HX2:SB1:MMS:01:SAVED_RAW    86400    monitor
+HX2:SB1:MMS:01:SAVED_P      86400    monitor
+
+HX2:SB1:MMS:01:FW_MEANS     86400    monitor
+HX2:SB1:MMS:01:REV_MEANS    86400    monitor
+
+HX2:SB1:MMS:01:CFG_FILE     86400    monitor
+
+# "2-state" archive list
+HX2:REFLASER:MIRROR:IN_SET     86400  monitor
+HX2:REFLASER:MIRROR:IN_DELTA   86400  monitor
+HX2:REFLASER:MIRROR:OUT_SET     86400  monitor
+HX2:REFLASER:MIRROR:OUT_DELTA   86400  monitor
+
+HX2:REFLASER:MIRROR.ONST              86400  monitor
+HX2:REFLASER:MIRROR.ONSV              86400  monitor
+HX2:REFLASER:MIRROR.TWST              86400  monitor
+HX2:REFLASER:MIRROR.TWSV              86400  monitor
+

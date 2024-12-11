@@ -1,0 +1,22 @@
+#
+# gigECam Archive file for ioc-rix-vls-andor
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "RIX:VLS:IOC:CAM:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "RIX:VLS:IOC:CAM:01"	}
+}
+
+file andor.archive
+{
+    {
+        P   = RIX:VLS:CAM:01,
+        R   = :,
+    }
+}

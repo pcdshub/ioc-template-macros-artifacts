@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TST:CR:01" }
+}
+
+file crt.archive
+{
+    { IOC = "IOC:TST:CR:01", BASE  = "TST:CR:01" }
+}

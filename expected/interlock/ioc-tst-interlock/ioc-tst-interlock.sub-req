@@ -1,0 +1,22 @@
+# interlock IOC instance autosave file
+
+file interlock.req
+{
+	{ IOC = "TST:IOC:IL", BASE="TST:IL:01" }
+}
+file interlock.req
+{
+	{ IOC = "TST:IOC:IL", BASE="TST:IL:02" }
+}
+file interlock.req
+{
+	{ IOC = "TST:IOC:IL", BASE="TST:IL:03" }
+}
+file interlock.req
+{
+	{ IOC = "TST:IOC:IL", BASE="TST:IL:04" }
+}
+file interlock.req
+{
+	{ IOC = "TST:IOC:IL", BASE="TST:IL:05" }
+}

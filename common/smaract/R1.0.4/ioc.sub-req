@@ -1,0 +1,25 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = $$IOC_PV }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+$$LOOP(SMARACT)
+$$IF(ALL)
+$$LOOP(COUNT)
+	{$$BASE:m$$CALC{INDEX+1} }
+$$ENDLOOP(COUNT)
+$$ENDIF(ALL)
+$$ENDLOOP(SMARACT)
+$$LOOP(AXIS)
+	{$$SMARACTBASE:m$$CHANNEL }
+$$ENDLOOP(AXIS)
+$$LOOP(CUSTOMAXIS)
+	{$$CUSTOMBASE:m$$CHANNEL }
+$$ENDLOOP(CUSTOMAXIS)
+}

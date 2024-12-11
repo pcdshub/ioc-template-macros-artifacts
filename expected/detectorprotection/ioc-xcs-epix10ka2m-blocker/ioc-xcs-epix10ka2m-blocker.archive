@@ -1,0 +1,101 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:XCS:EPIX:BLOCKER:APP_DIR 30 monitor 
+IOC:XCS:EPIX:BLOCKER:APP_DIR1 30 monitor 
+IOC:XCS:EPIX:BLOCKER:APP_DIR2 30 monitor 
+IOC:XCS:EPIX:BLOCKER:CA_CLNT_CNT 1 monitor 
+IOC:XCS:EPIX:BLOCKER:CA_CONN_CNT 1 monitor 
+IOC:XCS:EPIX:BLOCKER:EPICS_VERS 30 monitor
+IOC:XCS:EPIX:BLOCKER:FD_CNT 1 monitor 
+IOC:XCS:EPIX:BLOCKER:FD_FREE 1 monitor 
+IOC:XCS:EPIX:BLOCKER:FD_MAX 1 monitor 
+IOC:XCS:EPIX:BLOCKER:HOSTNAME 30 monitor
+IOC:XCS:EPIX:BLOCKER:KERNEL_VERS 30 monitor
+IOC:XCS:EPIX:BLOCKER:RECORD_CNT 10 monitor
+IOC:XCS:EPIX:BLOCKER:START_CNT 30 monitor
+IOC:XCS:EPIX:BLOCKER:STARTTOD 30 monitor
+IOC:XCS:EPIX:BLOCKER:ST_SCRIPT 30 monitor 
+IOC:XCS:EPIX:BLOCKER:ST_SCRIPT1 30 monitor 
+IOC:XCS:EPIX:BLOCKER:ST_SCRIPT2 30 monitor 
+IOC:XCS:EPIX:BLOCKER:SUSP_TASK_CNT 30 monitor 
+IOC:XCS:EPIX:BLOCKER:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:XCS:EPIX:BLOCKER:SYS_CPU_LOAD 10
+IOC:XCS:EPIX:BLOCKER:LOAD 10 
+IOC:XCS:EPIX:BLOCKER:MEM_BLK_FREE 10 
+IOC:XCS:EPIX:BLOCKER:MEM_FREE 10 
+IOC:XCS:EPIX:BLOCKER:MEM_USED 10 
+IOC:XCS:EPIX:BLOCKER:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:XCS:EPIX:BLOCKER:SR_rebootStatus			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_rebootStatusStr		1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_statusStr				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_0_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_0_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_1_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_1_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_2_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_2_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_3_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_3_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_4_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_4_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_5_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_5_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_6_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_6_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_7_Status				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_7_StatusStr			1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_0_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_1_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_2_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_3_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_4_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_5_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_6_State				1 monitor
+IOC:XCS:EPIX:BLOCKER:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:XCS:EPIX:BLOCKER:SR_recentlyStr			30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_rebootTime			30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_0_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_1_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_2_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_3_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_4_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_5_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_6_Name				30 monitor
+IOC:XCS:EPIX:BLOCKER:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:XCS:EPIX:BLOCKER:SR_heartbeat				30
+IOC:XCS:EPIX:BLOCKER:SR_0_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_1_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_2_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_3_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_4_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_5_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_6_Time				30
+IOC:XCS:EPIX:BLOCKER:SR_7_Time				30
+
+# Archive these detprot state values only when they change
+XCS:EPIX:BLOCKER:ACTIVE        3600    monitor
+XCS:EPIX:BLOCKER:BLOCKED       300     monitor
+XCS:EPIX:BLOCKER:BLOCK         300     monitor
+XCS:EPIX:BLOCKER:CLOSE         300     monitor
+XCS:EPIX:BLOCKER:CLOSABLE      300     monitor
+XCS:EPIX:BLOCKER:CLOSED        300     monitor
+XCS:EPIX:BLOCKER:STATE         300     monitor
+XCS:EPIX:BLOCKER:PICKER        86400   monitor
+XCS:EPIX:BLOCKER:ADU           3600    monitor
+XCS:EPIX:BLOCKER:NPIX          3600    monitor
+XCS:EPIX:BLOCKER:NPIX_OT       3600    monitor

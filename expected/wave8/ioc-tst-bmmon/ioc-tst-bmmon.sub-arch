@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_wave8.archive
+{
+	{ IOC = "IOC:TST:BMMON", BASE = "WV8:TST:BMMON" }
+}
+
+file archive_evr_SLAC.tpl-arch
+{
+	{ EVR = "EVR:TST:BMMON" }
+}

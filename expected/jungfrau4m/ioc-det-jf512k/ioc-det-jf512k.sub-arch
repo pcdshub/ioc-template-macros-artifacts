@@ -1,0 +1,15 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file jf4m-ioc.archive
+{
+    { IOC = "IOC:DET:JF512K" }
+}
+
+file slsDetectorJF512k.archive
+{
+    { SLSDET = "DET:JF512K:CTRL" }
+}
+
+

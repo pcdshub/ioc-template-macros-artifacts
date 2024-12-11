@@ -1,0 +1,18 @@
+# MODS IOC instance autosave file
+
+file lockerman.tpl-req
+{
+	{ IOC = "IOC:LAS:FTL:LLG2:01" }
+}
+
+file pidLoop.tpl-req
+{
+	{ BASE = "LAS:FTL:LLG2:01", LOOP = "FREQ" }
+}
+
+file pidLoop.tpl-req
+{
+	{ BASE = "LAS:FTL:LLG2:01", LOOP = "PHAS" }
+}
+
+

@@ -1,0 +1,16 @@
+file ecc.archive
+{
+	{ BASE = XCS:SND:ECC:C }
+}
+file ecc_alias.archive
+{
+        { ALIAS = XCS:SND:T4:Y1 }
+}
+file ecc_alias.archive
+{
+        { ALIAS = XCS:SND:T4:Y2 }
+}
+file ecc_alias.archive
+{
+        { ALIAS = XCS:SND:T4:CHI1 }
+}

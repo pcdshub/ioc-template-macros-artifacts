@@ -1,0 +1,19 @@
+# IOC archive file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file alicat_ioc.archive
+{
+    { IOC = "IOC:XCS:USR:MFL" }
+}
+
+file alicat_archive.archive
+{
+    { MFL = "XCS:USR:MFL:01" }
+}
+
+file interlock.archive
+{
+    { MFL = "XCS:USR:MFL:01" }
+}

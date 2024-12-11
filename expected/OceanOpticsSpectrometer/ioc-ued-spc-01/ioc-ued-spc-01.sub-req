@@ -1,0 +1,18 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:UED:SPC:01" }
+}
+
+file archive_SR.tpl-arch
+{
+    { IOC = "IOC:UED:SPC:01" }
+}
+
+file qepro.archive
+{
+    { P = "UED:SPC:01" }
+}

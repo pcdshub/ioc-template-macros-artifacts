@@ -1,0 +1,13 @@
+# IOC archive file
+
+file evg-ioc.archive
+{
+	{ IOC = "IOC:MEC:EVG:0" }
+}
+
+file evg.archive
+{
+	pattern
+	{ BASE }
+	{ "" }
+}

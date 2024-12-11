@@ -1,0 +1,30 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:UED:MCS:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{UED:MCS:01,  0 }
+	{UED:MCS:01,  1 }
+	{UED:MCS:01,  2 }
+	{UED:MCS:01,  3 }
+	{UED:MCS:01,  4 }
+	{UED:MCS:01,  5 }
+	{UED:MCS:01,  6 }
+	{UED:MCS:01,  7 }
+	{UED:MCS:01,  8 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+}
+
+

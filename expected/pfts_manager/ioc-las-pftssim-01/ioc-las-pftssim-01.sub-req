@@ -1,0 +1,5 @@
+# PFTSManager IOC instance autosave file
+
+file dicon.tpl-req {
+     { P = LAS:DICON:SIM }
+}

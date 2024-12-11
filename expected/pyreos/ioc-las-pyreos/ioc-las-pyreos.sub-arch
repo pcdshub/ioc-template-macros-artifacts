@@ -1,0 +1,6 @@
+# IOC archive file
+
+file pyreos.archive
+{
+	{ BASE = "LAS:PYR", IOC = "IOC:LAS:PYR:0" }
+}

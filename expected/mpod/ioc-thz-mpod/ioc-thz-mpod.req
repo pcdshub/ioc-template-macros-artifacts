@@ -1,0 +1,64 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+THZ:R03:IOC:01:MPOD:ACCESS
+THZ:R03:IOC:01:MPOD:CA_CLNT_CNT.HIGH
+THZ:R03:IOC:01:MPOD:CA_CLNT_CNT.HIHI
+THZ:R03:IOC:01:MPOD:CA_CONN_CNT.HIGH
+THZ:R03:IOC:01:MPOD:CA_CONN_CNT.HIHI
+THZ:R03:IOC:01:MPOD:SUSP_TASK_CNT.HIHI
+THZ:R03:IOC:01:MPOD:FD_FREE.LOW
+THZ:R03:IOC:01:MPOD:FD_FREE.LOLO
+THZ:R03:IOC:01:MPOD:IOC_CPU_LOAD.HIGH
+THZ:R03:IOC:01:MPOD:IOC_CPU_LOAD.HIHI
+THZ:R03:IOC:01:MPOD:MEM_FREE.LOW
+THZ:R03:IOC:01:MPOD:MEM_FREE.LOLO
+THZ:R03:IOC:01:MPOD:START_CNT
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:0:SetCurrent
+THZ:R03:MPD:1:CH:0:SetSwitch
+THZ:R03:MPD:1:CH:0:SetVoltage
+THZ:R03:MPD:1:CH:0:GetVoltage.DESC
+THZ:R03:MPD:1:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:1:SetCurrent
+THZ:R03:MPD:1:CH:1:SetSwitch
+THZ:R03:MPD:1:CH:1:SetVoltage
+THZ:R03:MPD:1:CH:1:GetVoltage.DESC
+THZ:R03:MPD:1:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:2:SetCurrent
+THZ:R03:MPD:1:CH:2:SetSwitch
+THZ:R03:MPD:1:CH:2:SetVoltage
+THZ:R03:MPD:1:CH:2:GetVoltage.DESC
+THZ:R03:MPD:1:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:3:SetCurrent
+THZ:R03:MPD:1:CH:3:SetSwitch
+THZ:R03:MPD:1:CH:3:SetVoltage
+THZ:R03:MPD:1:CH:3:GetVoltage.DESC
+THZ:R03:MPD:1:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:4:SetCurrent
+THZ:R03:MPD:1:CH:4:SetSwitch
+THZ:R03:MPD:1:CH:4:SetVoltage
+THZ:R03:MPD:1:CH:4:GetVoltage.DESC
+THZ:R03:MPD:1:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:5:SetCurrent
+THZ:R03:MPD:1:CH:5:SetSwitch
+THZ:R03:MPD:1:CH:5:SetVoltage
+THZ:R03:MPD:1:CH:5:GetVoltage.DESC
+THZ:R03:MPD:1:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:6:SetCurrent
+THZ:R03:MPD:1:CH:6:SetSwitch
+THZ:R03:MPD:1:CH:6:SetVoltage
+THZ:R03:MPD:1:CH:6:GetVoltage.DESC
+THZ:R03:MPD:1:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+THZ:R03:MPD:1:CH:7:SetCurrent
+THZ:R03:MPD:1:CH:7:SetSwitch
+THZ:R03:MPD:1:CH:7:SetVoltage
+THZ:R03:MPD:1:CH:7:GetVoltage.DESC
+THZ:R03:MPD:1:CH:7:SetVoltage.DESC

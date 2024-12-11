@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:XPP:GON:USDUSB4 }
+}
+
+file autosave_evr_SLAC.req
+{
+	{ EVR = "EVR:XPP:GON:USDUSB4" }
+}
+
+file USDUSB4.req
+{
+	{ BASE = "XPP:GON:USDUSB4:01" }
+}

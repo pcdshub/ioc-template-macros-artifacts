@@ -1,0 +1,18 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+$$LOOP(WAVE8)
+file autosave_wave8$$IF(SIMPLE,simple,).req
+{
+	{ BASE = "$$NAME", EVR = "$$EVRNAME" }
+}
+$$ENDLOOP(WAVE8)
+
+$$LOOP(EVR)
+file autosave_evr_$$TYPE.tpl-req
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)

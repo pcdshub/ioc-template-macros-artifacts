@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace _IOCPVROOT_ with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file archive_piMotion.archive
+{
+	{ IOC = "IOC:XPP:LMC:01" }
+}
+
+file archive_evr_SLAC.archive
+{
+	{ EVR = "XPP:LMC:EVR:01" }
+}

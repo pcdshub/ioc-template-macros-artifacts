@@ -1,0 +1,32 @@
+#
+# mpod Autosave request file for ioc-ued-mpod-01
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "IOC:UED:MPOD:01" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "UED:01:MPD:CH",             "000" }
+	{ "UED:01:MPD:CH",             "001" }
+	{ "UED:01:MPD:CH",             "002" }
+	{ "UED:01:MPD:CH",             "003" }
+	{ "UED:01:MPD:CH",             "004" }
+	{ "UED:01:MPD:CH",             "005" }
+	{ "UED:01:MPD:CH",             "006" }
+	{ "UED:01:MPD:CH",             "007" }
+	{ "UED:01:MPD:CH",             "100" }
+	{ "UED:01:MPD:CH",             "101" }
+	{ "UED:01:MPD:CH",             "102" }
+	{ "UED:01:MPD:CH",             "103" }
+	{ "UED:01:MPD:CH",             "104" }
+	{ "UED:01:MPD:CH",             "105" }
+	{ "UED:01:MPD:CH",             "106" }
+	{ "UED:01:MPD:CH",             "107" }
+}

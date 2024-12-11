@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XCS:R44:PWR:32"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XCS:R44:PWR:32"	}
+}
+
+file LevitonPdu_8.archive
+{
+    { PRE = "XCS:R44:PWR:32" }
+}

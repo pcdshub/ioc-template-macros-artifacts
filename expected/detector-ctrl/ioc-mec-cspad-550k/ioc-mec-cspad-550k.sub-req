@@ -1,0 +1,16 @@
+# Generate detector control module autosave requests
+file det-ioc.req
+{
+	{ IOC = "IOC:MEC:CSPAD:550K" }
+}
+
+file detector.tpl-req
+{
+        pattern
+        {   PRED    }
+        { "MEC:CSPAD:550K"  }
+}
+
+
+
+

@@ -1,0 +1,44 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       MFX:REC:IOC:01
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       MFX:REC:IOC:01,
+                EVR             =       MFX:REC:EVR:01
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       MFX:DG1:CVV:01  }
+        {       CAM             =       MFX:DG2:CVV:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       MFX:DG1:CVV:01 }
+        {       CAM             =       MFX:DG2:CVV:01 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       MFX:DG1:CVV:01 }
+}
+file camdelay.req
+{
+        {       CAM             =       MFX:DG2:CVV:01 }
+}
+

@@ -1,0 +1,29 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+file archive_evr_PMC.archive
+{
+	{ EVR = "MEC:TC1:EVR:01" }
+}
+
+file archive_ipimb.archive
+{
+	{ RECNAME = "MEC:TC1:IMB:01" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "MEC:USR:IMB:01" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "MEC:USR:IMB:02" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "MEC:LAS:IMB:02" }
+}
+file archive_ipimb.archive
+{
+	{ RECNAME = "MEC:LAS:IMB:01" }
+}

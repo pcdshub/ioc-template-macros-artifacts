@@ -1,0 +1,420 @@
+# IMS archive list
+CXI:DS2:MMS:09.DESC         86400    monitor
+CXI:DS2:MMS:09.TYPE         86400    monitor
+CXI:DS2:MMS:09.PORT         86400    monitor
+CXI:DS2:MMS:09.LM           86400    monitor
+CXI:DS2:MMS:09.SM           86400    monitor
+CXI:DS2:MMS:09.SF           86400    monitor
+CXI:DS2:MMS:09.STSV         86400    monitor
+CXI:DS2:MMS:09.ERSV         86400    monitor
+CXI:DS2:MMS:09.EE           86400    monitor
+CXI:DS2:MMS:09.EL           86400    monitor
+CXI:DS2:MMS:09.ME           86400    monitor
+CXI:DS2:MMS:09.MS           86400    monitor
+CXI:DS2:MMS:09.MT           86400    monitor
+CXI:DS2:MMS:09.HT           86400    monitor
+CXI:DS2:MMS:09.ES           86400    monitor
+CXI:DS2:MMS:09.RCMX         86400    monitor
+CXI:DS2:MMS:09.RC           86400    monitor
+CXI:DS2:MMS:09.HCMX         86400    monitor
+CXI:DS2:MMS:09.HC           86400    monitor
+CXI:DS2:MMS:09.DVER         86400    monitor
+CXI:DS2:MMS:09.MODE         86400    monitor
+CXI:DS2:MMS:09.EGU          86400    monitor
+CXI:DS2:MMS:09.UREV         86400    monitor
+CXI:DS2:MMS:09.FREV         86400    monitor
+CXI:DS2:MMS:09.SREV         86400    monitor
+CXI:DS2:MMS:09.MRES         86400    monitor
+CXI:DS2:MMS:09.ERES         86400    monitor
+CXI:DS2:MMS:09.DIR          86400    monitor
+CXI:DS2:MMS:09.OFF          86400    monitor
+CXI:DS2:MMS:09.FOFF         86400    monitor
+CXI:DS2:MMS:09.HTYP         86400    monitor
+CXI:DS2:MMS:09.HEGE         86400    monitor
+CXI:DS2:MMS:09.BDST         86400    monitor
+CXI:DS2:MMS:09.HDST         86400    monitor
+CXI:DS2:MMS:09.DLLM         86400    monitor
+CXI:DS2:MMS:09.DHLM         86400    monitor
+CXI:DS2:MMS:09.LLM          86400    monitor
+CXI:DS2:MMS:09.HLM          86400    monitor
+CXI:DS2:MMS:09.RTRY         86400    monitor
+CXI:DS2:MMS:09.RDBD         86400    monitor
+CXI:DS2:MMS:09.PDBD         86400    monitor
+CXI:DS2:MMS:09.PREC         86400    monitor
+CXI:DS2:MMS:09.SBAS         86400    monitor
+CXI:DS2:MMS:09.SMAX         86400    monitor
+CXI:DS2:MMS:09.S            86400    monitor
+CXI:DS2:MMS:09.VBAS         86400    monitor
+CXI:DS2:MMS:09.VMAX         86400    monitor
+CXI:DS2:MMS:09.VELO         86400    monitor
+CXI:DS2:MMS:09.BS           86400    monitor
+CXI:DS2:MMS:09.BVEL         86400    monitor
+CXI:DS2:MMS:09.HS           86400    monitor
+CXI:DS2:MMS:09.HVEL         86400    monitor
+CXI:DS2:MMS:09.ACCL         86400    monitor
+CXI:DS2:MMS:09.BACC         86400    monitor
+CXI:DS2:MMS:09.HACC         86400    monitor
+CXI:DS2:MMS:09.TWV          86400    monitor
+CXI:DS2:MMS:09.HOMD         86400    monitor
+CXI:DS2:MMS:09.EGAG         86400    monitor
+CXI:DS2:MMS:09.ERBL         86400    monitor
+CXI:DS2:MMS:09.ESKL         86400    monitor
+
+CXI:DS2:MMS:09.DLVL         86400    monitor
+
+CXI:DS2:MMS:09.S1           86400    monitor
+CXI:DS2:MMS:09.S2           86400    monitor
+CXI:DS2:MMS:09.S3           86400    monitor
+CXI:DS2:MMS:09.S4           86400    monitor
+CXI:DS2:MMS:09.S9           86400    monitor
+
+CXI:DS2:MMS:09.RES          86400    monitor
+
+CXI:DS2:MMS:09.VAL          2        monitor
+CXI:DS2:MMS:09.DVAL         2        monitor
+CXI:DS2:MMS:09.RVAL         2        monitor
+CXI:DS2:MMS:09.RRBV         0.2      monitor
+CXI:DS2:MMS:09.DRBV         0.2      monitor
+CXI:DS2:MMS:09.RBV          0.2      monitor
+
+CXI:DS2:MMS:09.ERBV         0.2      monitor
+
+CXI:DS2:MMS:09.DIFF         0.2      monitor
+
+CXI:DS2:MMS:09.RCNT         86400    monitor
+CXI:DS2:MMS:09.MISS         86400    monitor
+
+CXI:DS2:MMS:09.LLS          86400    monitor
+CXI:DS2:MMS:09.HLS          86400    monitor
+
+CXI:DS2:MMS:09.ATHM         86400    monitor
+
+CXI:DS2:MMS:09.MIP          0.2      monitor
+CXI:DS2:MMS:09.MOVN         0.2      monitor
+CXI:DS2:MMS:09.DMOV         0.2      monitor
+CXI:DS2:MMS:09.MSTA         0.2      monitor
+CXI:DS2:MMS:09.HCSV         86400    monitor
+
+CXI:DS2:MMS:09:SAVED_RAW    86400    monitor
+CXI:DS2:MMS:09:SAVED_P      86400    monitor
+
+CXI:DS2:MMS:09:FW_MEANS     86400    monitor
+CXI:DS2:MMS:09:REV_MEANS    86400    monitor
+
+CXI:DS2:MMS:09:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:DS2:MMS:10.DESC         86400    monitor
+CXI:DS2:MMS:10.TYPE         86400    monitor
+CXI:DS2:MMS:10.PORT         86400    monitor
+CXI:DS2:MMS:10.LM           86400    monitor
+CXI:DS2:MMS:10.SM           86400    monitor
+CXI:DS2:MMS:10.SF           86400    monitor
+CXI:DS2:MMS:10.STSV         86400    monitor
+CXI:DS2:MMS:10.ERSV         86400    monitor
+CXI:DS2:MMS:10.EE           86400    monitor
+CXI:DS2:MMS:10.EL           86400    monitor
+CXI:DS2:MMS:10.ME           86400    monitor
+CXI:DS2:MMS:10.MS           86400    monitor
+CXI:DS2:MMS:10.MT           86400    monitor
+CXI:DS2:MMS:10.HT           86400    monitor
+CXI:DS2:MMS:10.ES           86400    monitor
+CXI:DS2:MMS:10.RCMX         86400    monitor
+CXI:DS2:MMS:10.RC           86400    monitor
+CXI:DS2:MMS:10.HCMX         86400    monitor
+CXI:DS2:MMS:10.HC           86400    monitor
+CXI:DS2:MMS:10.DVER         86400    monitor
+CXI:DS2:MMS:10.MODE         86400    monitor
+CXI:DS2:MMS:10.EGU          86400    monitor
+CXI:DS2:MMS:10.UREV         86400    monitor
+CXI:DS2:MMS:10.FREV         86400    monitor
+CXI:DS2:MMS:10.SREV         86400    monitor
+CXI:DS2:MMS:10.MRES         86400    monitor
+CXI:DS2:MMS:10.ERES         86400    monitor
+CXI:DS2:MMS:10.DIR          86400    monitor
+CXI:DS2:MMS:10.OFF          86400    monitor
+CXI:DS2:MMS:10.FOFF         86400    monitor
+CXI:DS2:MMS:10.HTYP         86400    monitor
+CXI:DS2:MMS:10.HEGE         86400    monitor
+CXI:DS2:MMS:10.BDST         86400    monitor
+CXI:DS2:MMS:10.HDST         86400    monitor
+CXI:DS2:MMS:10.DLLM         86400    monitor
+CXI:DS2:MMS:10.DHLM         86400    monitor
+CXI:DS2:MMS:10.LLM          86400    monitor
+CXI:DS2:MMS:10.HLM          86400    monitor
+CXI:DS2:MMS:10.RTRY         86400    monitor
+CXI:DS2:MMS:10.RDBD         86400    monitor
+CXI:DS2:MMS:10.PDBD         86400    monitor
+CXI:DS2:MMS:10.PREC         86400    monitor
+CXI:DS2:MMS:10.SBAS         86400    monitor
+CXI:DS2:MMS:10.SMAX         86400    monitor
+CXI:DS2:MMS:10.S            86400    monitor
+CXI:DS2:MMS:10.VBAS         86400    monitor
+CXI:DS2:MMS:10.VMAX         86400    monitor
+CXI:DS2:MMS:10.VELO         86400    monitor
+CXI:DS2:MMS:10.BS           86400    monitor
+CXI:DS2:MMS:10.BVEL         86400    monitor
+CXI:DS2:MMS:10.HS           86400    monitor
+CXI:DS2:MMS:10.HVEL         86400    monitor
+CXI:DS2:MMS:10.ACCL         86400    monitor
+CXI:DS2:MMS:10.BACC         86400    monitor
+CXI:DS2:MMS:10.HACC         86400    monitor
+CXI:DS2:MMS:10.TWV          86400    monitor
+CXI:DS2:MMS:10.HOMD         86400    monitor
+CXI:DS2:MMS:10.EGAG         86400    monitor
+CXI:DS2:MMS:10.ERBL         86400    monitor
+CXI:DS2:MMS:10.ESKL         86400    monitor
+
+CXI:DS2:MMS:10.DLVL         86400    monitor
+
+CXI:DS2:MMS:10.S1           86400    monitor
+CXI:DS2:MMS:10.S2           86400    monitor
+CXI:DS2:MMS:10.S3           86400    monitor
+CXI:DS2:MMS:10.S4           86400    monitor
+CXI:DS2:MMS:10.S9           86400    monitor
+
+CXI:DS2:MMS:10.RES          86400    monitor
+
+CXI:DS2:MMS:10.VAL          2        monitor
+CXI:DS2:MMS:10.DVAL         2        monitor
+CXI:DS2:MMS:10.RVAL         2        monitor
+CXI:DS2:MMS:10.RRBV         0.2      monitor
+CXI:DS2:MMS:10.DRBV         0.2      monitor
+CXI:DS2:MMS:10.RBV          0.2      monitor
+
+CXI:DS2:MMS:10.ERBV         0.2      monitor
+
+CXI:DS2:MMS:10.DIFF         0.2      monitor
+
+CXI:DS2:MMS:10.RCNT         86400    monitor
+CXI:DS2:MMS:10.MISS         86400    monitor
+
+CXI:DS2:MMS:10.LLS          86400    monitor
+CXI:DS2:MMS:10.HLS          86400    monitor
+
+CXI:DS2:MMS:10.ATHM         86400    monitor
+
+CXI:DS2:MMS:10.MIP          0.2      monitor
+CXI:DS2:MMS:10.MOVN         0.2      monitor
+CXI:DS2:MMS:10.DMOV         0.2      monitor
+CXI:DS2:MMS:10.MSTA         0.2      monitor
+CXI:DS2:MMS:10.HCSV         86400    monitor
+
+CXI:DS2:MMS:10:SAVED_RAW    86400    monitor
+CXI:DS2:MMS:10:SAVED_P      86400    monitor
+
+CXI:DS2:MMS:10:FW_MEANS     86400    monitor
+CXI:DS2:MMS:10:REV_MEANS    86400    monitor
+
+CXI:DS2:MMS:10:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:DS2:MMS:11.DESC         86400    monitor
+CXI:DS2:MMS:11.TYPE         86400    monitor
+CXI:DS2:MMS:11.PORT         86400    monitor
+CXI:DS2:MMS:11.LM           86400    monitor
+CXI:DS2:MMS:11.SM           86400    monitor
+CXI:DS2:MMS:11.SF           86400    monitor
+CXI:DS2:MMS:11.STSV         86400    monitor
+CXI:DS2:MMS:11.ERSV         86400    monitor
+CXI:DS2:MMS:11.EE           86400    monitor
+CXI:DS2:MMS:11.EL           86400    monitor
+CXI:DS2:MMS:11.ME           86400    monitor
+CXI:DS2:MMS:11.MS           86400    monitor
+CXI:DS2:MMS:11.MT           86400    monitor
+CXI:DS2:MMS:11.HT           86400    monitor
+CXI:DS2:MMS:11.ES           86400    monitor
+CXI:DS2:MMS:11.RCMX         86400    monitor
+CXI:DS2:MMS:11.RC           86400    monitor
+CXI:DS2:MMS:11.HCMX         86400    monitor
+CXI:DS2:MMS:11.HC           86400    monitor
+CXI:DS2:MMS:11.DVER         86400    monitor
+CXI:DS2:MMS:11.MODE         86400    monitor
+CXI:DS2:MMS:11.EGU          86400    monitor
+CXI:DS2:MMS:11.UREV         86400    monitor
+CXI:DS2:MMS:11.FREV         86400    monitor
+CXI:DS2:MMS:11.SREV         86400    monitor
+CXI:DS2:MMS:11.MRES         86400    monitor
+CXI:DS2:MMS:11.ERES         86400    monitor
+CXI:DS2:MMS:11.DIR          86400    monitor
+CXI:DS2:MMS:11.OFF          86400    monitor
+CXI:DS2:MMS:11.FOFF         86400    monitor
+CXI:DS2:MMS:11.HTYP         86400    monitor
+CXI:DS2:MMS:11.HEGE         86400    monitor
+CXI:DS2:MMS:11.BDST         86400    monitor
+CXI:DS2:MMS:11.HDST         86400    monitor
+CXI:DS2:MMS:11.DLLM         86400    monitor
+CXI:DS2:MMS:11.DHLM         86400    monitor
+CXI:DS2:MMS:11.LLM          86400    monitor
+CXI:DS2:MMS:11.HLM          86400    monitor
+CXI:DS2:MMS:11.RTRY         86400    monitor
+CXI:DS2:MMS:11.RDBD         86400    monitor
+CXI:DS2:MMS:11.PDBD         86400    monitor
+CXI:DS2:MMS:11.PREC         86400    monitor
+CXI:DS2:MMS:11.SBAS         86400    monitor
+CXI:DS2:MMS:11.SMAX         86400    monitor
+CXI:DS2:MMS:11.S            86400    monitor
+CXI:DS2:MMS:11.VBAS         86400    monitor
+CXI:DS2:MMS:11.VMAX         86400    monitor
+CXI:DS2:MMS:11.VELO         86400    monitor
+CXI:DS2:MMS:11.BS           86400    monitor
+CXI:DS2:MMS:11.BVEL         86400    monitor
+CXI:DS2:MMS:11.HS           86400    monitor
+CXI:DS2:MMS:11.HVEL         86400    monitor
+CXI:DS2:MMS:11.ACCL         86400    monitor
+CXI:DS2:MMS:11.BACC         86400    monitor
+CXI:DS2:MMS:11.HACC         86400    monitor
+CXI:DS2:MMS:11.TWV          86400    monitor
+CXI:DS2:MMS:11.HOMD         86400    monitor
+CXI:DS2:MMS:11.EGAG         86400    monitor
+CXI:DS2:MMS:11.ERBL         86400    monitor
+CXI:DS2:MMS:11.ESKL         86400    monitor
+
+CXI:DS2:MMS:11.DLVL         86400    monitor
+
+CXI:DS2:MMS:11.S1           86400    monitor
+CXI:DS2:MMS:11.S2           86400    monitor
+CXI:DS2:MMS:11.S3           86400    monitor
+CXI:DS2:MMS:11.S4           86400    monitor
+CXI:DS2:MMS:11.S9           86400    monitor
+
+CXI:DS2:MMS:11.RES          86400    monitor
+
+CXI:DS2:MMS:11.VAL          2        monitor
+CXI:DS2:MMS:11.DVAL         2        monitor
+CXI:DS2:MMS:11.RVAL         2        monitor
+CXI:DS2:MMS:11.RRBV         0.2      monitor
+CXI:DS2:MMS:11.DRBV         0.2      monitor
+CXI:DS2:MMS:11.RBV          0.2      monitor
+
+CXI:DS2:MMS:11.ERBV         0.2      monitor
+
+CXI:DS2:MMS:11.DIFF         0.2      monitor
+
+CXI:DS2:MMS:11.RCNT         86400    monitor
+CXI:DS2:MMS:11.MISS         86400    monitor
+
+CXI:DS2:MMS:11.LLS          86400    monitor
+CXI:DS2:MMS:11.HLS          86400    monitor
+
+CXI:DS2:MMS:11.ATHM         86400    monitor
+
+CXI:DS2:MMS:11.MIP          0.2      monitor
+CXI:DS2:MMS:11.MOVN         0.2      monitor
+CXI:DS2:MMS:11.DMOV         0.2      monitor
+CXI:DS2:MMS:11.MSTA         0.2      monitor
+CXI:DS2:MMS:11.HCSV         86400    monitor
+
+CXI:DS2:MMS:11:SAVED_RAW    86400    monitor
+CXI:DS2:MMS:11:SAVED_P      86400    monitor
+
+CXI:DS2:MMS:11:FW_MEANS     86400    monitor
+CXI:DS2:MMS:11:REV_MEANS    86400    monitor
+
+CXI:DS2:MMS:11:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:DS2:MMS:12.DESC         86400    monitor
+CXI:DS2:MMS:12.TYPE         86400    monitor
+CXI:DS2:MMS:12.PORT         86400    monitor
+CXI:DS2:MMS:12.LM           86400    monitor
+CXI:DS2:MMS:12.SM           86400    monitor
+CXI:DS2:MMS:12.SF           86400    monitor
+CXI:DS2:MMS:12.STSV         86400    monitor
+CXI:DS2:MMS:12.ERSV         86400    monitor
+CXI:DS2:MMS:12.EE           86400    monitor
+CXI:DS2:MMS:12.EL           86400    monitor
+CXI:DS2:MMS:12.ME           86400    monitor
+CXI:DS2:MMS:12.MS           86400    monitor
+CXI:DS2:MMS:12.MT           86400    monitor
+CXI:DS2:MMS:12.HT           86400    monitor
+CXI:DS2:MMS:12.ES           86400    monitor
+CXI:DS2:MMS:12.RCMX         86400    monitor
+CXI:DS2:MMS:12.RC           86400    monitor
+CXI:DS2:MMS:12.HCMX         86400    monitor
+CXI:DS2:MMS:12.HC           86400    monitor
+CXI:DS2:MMS:12.DVER         86400    monitor
+CXI:DS2:MMS:12.MODE         86400    monitor
+CXI:DS2:MMS:12.EGU          86400    monitor
+CXI:DS2:MMS:12.UREV         86400    monitor
+CXI:DS2:MMS:12.FREV         86400    monitor
+CXI:DS2:MMS:12.SREV         86400    monitor
+CXI:DS2:MMS:12.MRES         86400    monitor
+CXI:DS2:MMS:12.ERES         86400    monitor
+CXI:DS2:MMS:12.DIR          86400    monitor
+CXI:DS2:MMS:12.OFF          86400    monitor
+CXI:DS2:MMS:12.FOFF         86400    monitor
+CXI:DS2:MMS:12.HTYP         86400    monitor
+CXI:DS2:MMS:12.HEGE         86400    monitor
+CXI:DS2:MMS:12.BDST         86400    monitor
+CXI:DS2:MMS:12.HDST         86400    monitor
+CXI:DS2:MMS:12.DLLM         86400    monitor
+CXI:DS2:MMS:12.DHLM         86400    monitor
+CXI:DS2:MMS:12.LLM          86400    monitor
+CXI:DS2:MMS:12.HLM          86400    monitor
+CXI:DS2:MMS:12.RTRY         86400    monitor
+CXI:DS2:MMS:12.RDBD         86400    monitor
+CXI:DS2:MMS:12.PDBD         86400    monitor
+CXI:DS2:MMS:12.PREC         86400    monitor
+CXI:DS2:MMS:12.SBAS         86400    monitor
+CXI:DS2:MMS:12.SMAX         86400    monitor
+CXI:DS2:MMS:12.S            86400    monitor
+CXI:DS2:MMS:12.VBAS         86400    monitor
+CXI:DS2:MMS:12.VMAX         86400    monitor
+CXI:DS2:MMS:12.VELO         86400    monitor
+CXI:DS2:MMS:12.BS           86400    monitor
+CXI:DS2:MMS:12.BVEL         86400    monitor
+CXI:DS2:MMS:12.HS           86400    monitor
+CXI:DS2:MMS:12.HVEL         86400    monitor
+CXI:DS2:MMS:12.ACCL         86400    monitor
+CXI:DS2:MMS:12.BACC         86400    monitor
+CXI:DS2:MMS:12.HACC         86400    monitor
+CXI:DS2:MMS:12.TWV          86400    monitor
+CXI:DS2:MMS:12.HOMD         86400    monitor
+CXI:DS2:MMS:12.EGAG         86400    monitor
+CXI:DS2:MMS:12.ERBL         86400    monitor
+CXI:DS2:MMS:12.ESKL         86400    monitor
+
+CXI:DS2:MMS:12.DLVL         86400    monitor
+
+CXI:DS2:MMS:12.S1           86400    monitor
+CXI:DS2:MMS:12.S2           86400    monitor
+CXI:DS2:MMS:12.S3           86400    monitor
+CXI:DS2:MMS:12.S4           86400    monitor
+CXI:DS2:MMS:12.S9           86400    monitor
+
+CXI:DS2:MMS:12.RES          86400    monitor
+
+CXI:DS2:MMS:12.VAL          2        monitor
+CXI:DS2:MMS:12.DVAL         2        monitor
+CXI:DS2:MMS:12.RVAL         2        monitor
+CXI:DS2:MMS:12.RRBV         0.2      monitor
+CXI:DS2:MMS:12.DRBV         0.2      monitor
+CXI:DS2:MMS:12.RBV          0.2      monitor
+
+CXI:DS2:MMS:12.ERBV         0.2      monitor
+
+CXI:DS2:MMS:12.DIFF         0.2      monitor
+
+CXI:DS2:MMS:12.RCNT         86400    monitor
+CXI:DS2:MMS:12.MISS         86400    monitor
+
+CXI:DS2:MMS:12.LLS          86400    monitor
+CXI:DS2:MMS:12.HLS          86400    monitor
+
+CXI:DS2:MMS:12.ATHM         86400    monitor
+
+CXI:DS2:MMS:12.MIP          0.2      monitor
+CXI:DS2:MMS:12.MOVN         0.2      monitor
+CXI:DS2:MMS:12.DMOV         0.2      monitor
+CXI:DS2:MMS:12.MSTA         0.2      monitor
+CXI:DS2:MMS:12.HCSV         86400    monitor
+
+CXI:DS2:MMS:12:SAVED_RAW    86400    monitor
+CXI:DS2:MMS:12:SAVED_P      86400    monitor
+
+CXI:DS2:MMS:12:FW_MEANS     86400    monitor
+CXI:DS2:MMS:12:REV_MEANS    86400    monitor
+
+CXI:DS2:MMS:12:CFG_FILE     86400    monitor
+

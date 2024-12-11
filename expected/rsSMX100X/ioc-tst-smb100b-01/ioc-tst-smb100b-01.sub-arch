@@ -1,0 +1,14 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TST:GSD:01" }
+}
+
+
+file rssmb100x.archive
+{
+    { IOC = "IOC:TST:GSD:01", BASE  = "TST:GSD:01" }
+}

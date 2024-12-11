@@ -1,0 +1,9 @@
+# Generate autosave request 
+file arcus_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            $$LOOP(PMC100)
+            { $$NAME }
+            $$ENDLOOP(PMC100)
+}
+

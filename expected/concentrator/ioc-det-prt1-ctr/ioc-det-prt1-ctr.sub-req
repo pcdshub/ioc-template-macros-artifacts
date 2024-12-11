@@ -1,0 +1,13 @@
+# IOC autosave file
+
+# Generate IOC archive request 
+file concentrator_ioc.req
+{
+    { IOC = "IOC:DET:MBL:01:CTR" }
+}
+
+file concentrator_autosave.req
+{
+    { NAME = "DET:MBL:01:CTR" }
+}
+

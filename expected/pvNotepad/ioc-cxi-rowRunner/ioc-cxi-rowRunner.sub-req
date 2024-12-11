@@ -1,0 +1,126 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:NAME    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:CHIP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:TYPE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:COMM    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:ANGLE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:PITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:VERTICALPITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:HORIZONTALPITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:PATT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:ROW    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:ACC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:FREQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:CELLS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:WINDOWS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:GAP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:USELASER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:DAQ_STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:USE_DAQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:RECORD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:CONFSEQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:STRRUN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:OKTRG    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:TRG    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:ENDRUN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { CXI:USR:STOP    }
+}

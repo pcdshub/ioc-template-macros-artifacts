@@ -1,0 +1,55 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:TITLE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:TXTFILE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:EXP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:FILE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:FILE2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:FILE3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:TAG1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:TAG2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:TAG3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:RUN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:ELOG:POST    }
+}

@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file lodcm_ioc.archive
+{
+    { IOC = "IOC:XCS:LODCM" }
+}
+
+file lodcm.archive
+{
+    { NAME = "XCS:LODCM" }
+}

@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:LAS:CXI:PWR:01" }
+}
+
+file TrippLitePdu_8.req
+{
+    { PRE = "LAS:CXI:PWR:01" }
+}

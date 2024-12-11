@@ -1,0 +1,12 @@
+#
+# Actually a PV list file!
+#
+# To reread config file:
+#	caput NET:IOC:LAS:RFOF:GW:01:newAsFlag 1
+#
+EVALUATION ORDER ALLOW, DENY
+
+.* ALLOW RWALL 1
+
+
+#

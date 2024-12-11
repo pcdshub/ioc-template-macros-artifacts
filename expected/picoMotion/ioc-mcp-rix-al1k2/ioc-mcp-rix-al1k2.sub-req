@@ -1,0 +1,16 @@
+# Generate motor postions PV list for each motor
+# Note: Motor positions are not always restored automatically
+
+# Generate archive PV list for IOC
+file pico-ioc.req
+{
+	{ IOC = AL1K2:L2SI:MCP:IOC }
+}
+
+file autosave-pico-positions.tpl-req
+{
+        {MOTOR = AL1K2:L2SI:MCP:01}
+        {MOTOR = AL1K2:L2SI:MCP:02}
+        {MOTOR = AL1K2:L2SI:MCP:03}
+        {MOTOR = AL1K2:L2SI:MCP:04}
+}

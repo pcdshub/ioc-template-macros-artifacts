@@ -1,0 +1,114 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            { XPP:GON:MMS:01   }
+            
+            { XPP:GON:MMS:02   }
+            
+            { XPP:GON:MMS:03   }
+            
+            { XPP:GON:MMS:04   }
+            
+            { XPP:GON:MMS:05   }
+            
+            { XPP:GON:MMS:06   }
+            
+            { XPP:GON:MMS:07   }
+            
+            { XPP:GON:MMS:08   }
+            
+            { XPP:GON:MMS:09   }
+            
+            { XPP:GON:MMS:10   }
+            
+            { XPP:GON:MMS:11   }
+            
+            { XPP:GON:MMS:12   }
+            
+            { XPP:GON:MMS:13   }
+            
+            { XPP:GON:MMS:14   }
+            
+            { XPP:GON:MMS:15   }
+            
+            { XPP:GON:MMS:16   }
+            }
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            }
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8 }
+            }
+
+file device_with_9states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            }
+

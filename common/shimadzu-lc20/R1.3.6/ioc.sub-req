@@ -1,0 +1,15 @@
+# lc20 IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file lc20-ioc.req
+{
+        { IOC = "$$IOC_PV" }
+}
+
+# Generate autosave PV list for each serial device
+file lc20.tpl-req
+{
+        $$LOOP(HPLC)
+        { DEV="$$NAME" }
+        $$ENDLOOP(HPLC)
+}

@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file hmp-ioc.req
+{
+    { IOC = "IOC:DET:MBL1:HMP:02" }
+}
+
+file hmp4030.req
+{
+    { HMP = "DET:MBL1:HMP:02" }
+}

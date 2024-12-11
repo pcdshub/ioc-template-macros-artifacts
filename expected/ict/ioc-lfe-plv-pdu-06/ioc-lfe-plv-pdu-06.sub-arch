@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file ictIoc.archive
+{
+	{	IOC = "IOC:LFE:ICT:06"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:LFE:ICT:06"	}
+}
+
+file ictPdu.archive
+{
+    { PRE = "PDU:LFE:ICT:06" }
+}

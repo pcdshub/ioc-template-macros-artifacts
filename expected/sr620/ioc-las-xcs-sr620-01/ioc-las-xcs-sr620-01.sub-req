@@ -1,0 +1,7 @@
+# sr620 IOC instance archive file
+# Generate autosave PV list for each serial device
+file sr620.tpl-req
+{
+	{ P = "LAS:FS4:CNT:TI" }
+}
+

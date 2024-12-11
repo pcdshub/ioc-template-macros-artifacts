@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file hmp-ioc.archive
+{
+    { IOC = "IOC:XPP:DET:HMP:02" }
+}
+
+file hmp4030.archive
+{
+    { HMP = "XPP:DET:HMP:02" }
+}

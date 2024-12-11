@@ -1,0 +1,21 @@
+# IOC autosave file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file detprot_ioc.req
+{
+    { IOC = "IOC:DET:FAKE:BLOCKER" }
+}
+file detprot.req
+{
+    { NAME = "DET:CSPAD:BLOCKER" }
+}
+file detprot.req
+{
+    { NAME = "DET:EPIX:BLOCKER" }
+}
+file detprot.req
+{
+    { NAME = "DET:JUNGFRAU:BLOCKER" }
+}

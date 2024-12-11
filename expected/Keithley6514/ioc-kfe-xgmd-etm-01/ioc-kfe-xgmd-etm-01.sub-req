@@ -1,0 +1,16 @@
+# Keithley6514 IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file Keithley6514-ioc.req
+{
+	{ IOC = "EM2K0:XGMD:IOC:ETM:01" }
+}
+
+file Keithley6514.tpl-req
+{
+	{ EM = "EM2K0:XGMD:ETM:01" }
+}
+file Keithley6514.tpl-req
+{
+	{ EM = "EM2K0:XGMD:ETM:02" }
+}

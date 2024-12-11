@@ -1,0 +1,20 @@
+# lc20 IOC instance archive file
+
+# Generate archive PV list for IOC
+file lc20-ioc.archive
+{
+        { IOC = "MFX:LC20:IOC:01" }
+}
+
+# Generate archive PV list for each serial device
+file lc20.tpl-arch
+{
+        
+        { DEV="MFX:SDS:LC20:01" }
+        
+        { DEV="MFX:SDS:LC20:02" }
+        
+        { DEV="MFX:SDS:LC20:03" }
+        
+        { DEV="MFX:SDS:LC20:04" }
+        }

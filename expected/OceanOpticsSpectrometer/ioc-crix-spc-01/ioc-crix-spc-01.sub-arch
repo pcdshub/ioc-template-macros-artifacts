@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:CRIX:SPC:01" }
+}
+
+file qepro.archive
+{
+    { IOC = "IOC:CRIX:SPC:01", P  = "CRIX:SPC:01" }
+}

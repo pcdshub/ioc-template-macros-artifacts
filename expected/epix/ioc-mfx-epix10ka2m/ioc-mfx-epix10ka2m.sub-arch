@@ -1,0 +1,31 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+
+
+file detector-epix.tpl-arch
+{
+	pattern
+	{ PRED }
+	{ "MFX:EPIX2M:01:Q0" }
+	{ "MFX:EPIX2M:01:Q1" }
+	{ "MFX:EPIX2M:01:Q2" }
+	{ "MFX:EPIX2M:01:Q3" }
+}
+
+file archive_epixQuadMon.archive
+{
+	pattern
+	{ BASE }
+	{ "MFX:EPIX2M:01:Q0" }
+	{ "MFX:EPIX2M:01:Q1" }
+	{ "MFX:EPIX2M:01:Q2" }
+	{ "MFX:EPIX2M:01:Q3" }
+}
+
+file archive_SR.archive
+{
+	{ IOC = "IOC:MFX:EPIX2M" }
+}

@@ -1,0 +1,10 @@
+# IOC archive file
+## Replace CXI:MOB:IOC:DDG with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file visarCamera-ioc.archive
+{
+	{ IOC = "IOC:MEC:STREAK:01", BASE_NAME = "MEC:STREAK:01" }
+}
+

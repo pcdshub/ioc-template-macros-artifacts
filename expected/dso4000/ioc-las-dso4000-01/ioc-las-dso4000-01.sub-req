@@ -1,0 +1,9 @@
+# dso4000 IOC instance autosave file
+
+# Generate autosave PV list for IOC specific PV's
+file dso4000-ioc.req
+{
+	pattern
+	{ IOC,     BASE  }
+	{IOC:LAS:DSO4000:01, LAS:DSO4000:01}
+}

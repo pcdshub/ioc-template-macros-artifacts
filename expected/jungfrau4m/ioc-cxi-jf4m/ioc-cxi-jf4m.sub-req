@@ -1,0 +1,35 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file jf4m-ioc.req
+{
+    { IOC = "IOC:CXI:JF4M" }
+}
+
+file jfpower.req
+{
+    { JFPWR = "CXI:JF4M:PWR" }
+}
+
+file bme280.req
+{
+    { BME = "CXI:JF4M:BME280" }
+}
+
+file newao.req {
+    { NAME = "CXI:JF4M:LAKESHORE_INTERLOCK:LOLO" }
+}
+
+file newao.req {
+    { NAME = "CXI:JF4M:LAKESHORE_INTERLOCK:HIHI" }
+}
+
+
+file newao.req {
+    { NAME = "CXI:JF4M:DEWPOINT_MAX:HIHI" }
+}
+file newao.req {
+    { NAME = "CXI:JF4M:FLOW_INTERLOCK:LOLO" }
+}
+

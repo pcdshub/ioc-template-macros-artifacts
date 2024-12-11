@@ -1,0 +1,50 @@
+# IOC archive file
+
+$$LOOP(FREQLOCK)
+file pidLoop.tpl-arch
+{
+    { BASE = "$$BASE_PV", LOOP = "FREQ" }
+}
+$$ENDLOOP(FREQLOCK)
+
+$$LOOP(PHASLOCK)
+file pidLoop.tpl-arch
+{
+    { BASE = "$$BASE_PV", LOOP = "PHAS" }
+}
+$$ENDLOOP(PHASLOCK)
+
+$$LOOP(TIMECONTROL)
+file tpr_delay.tpl-arch
+{
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_1", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_1" }
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_2", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_2" }
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_3", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_3" }
+    { BASE = "$$BASE_PV", TRIG = "$$TRIG_4", TPR_BASE = "$$TPR_BASE", TPR_TRIG = "$$TPR_TRIG_4" }
+}
+
+file atca_phase.tpl-arch
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file combined_control.tpl-arch
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file bucket_jump.tpl-arch
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file calibrate.tpl-arch
+{
+    { BASE = "$$BASE_PV" }
+}
+
+file goose_trig.tpl-arch
+{
+    { BASE = "$$BASE_PV" }
+}
+$$ENDLOOP(TIMECONTROL)

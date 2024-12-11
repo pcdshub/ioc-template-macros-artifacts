@@ -1,0 +1,4 @@
+file pgp_switch.tpl-req
+{
+    { BASE = "LAS:PSW:01" }
+}

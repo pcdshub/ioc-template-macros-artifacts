@@ -1,0 +1,201 @@
+# Archive values for detector control module
+MFX:EPIX2M:01:Q0:MONSTAT          10        monitor
+MFX:EPIX2M:01:Q0:BIAS             30        monitor
+MFX:EPIX2M:01:Q0:PELTIER          30        monitor
+MFX:EPIX2M:01:Q0:HV_WARNING       30        monitor
+MFX:EPIX2M:01:Q0:HV_ALARM         30        monitor
+MFX:EPIX2M:01:Q0:DLV_WARNING      30        monitor
+MFX:EPIX2M:01:Q0:DLV_ALARM        30        monitor
+MFX:EPIX2M:01:Q0:ALV_WARNING      30        monitor
+MFX:EPIX2M:01:Q0:ALV_ALARM        30        monitor
+MFX:EPIX2M:01:Q0:TEMP_WARNING     30        monitor
+MFX:EPIX2M:01:Q0:TEMP_ALARM       30        monitor
+
+MFX:EPIX2M:01:Q0:TEMP1     	 30        monitor
+MFX:EPIX2M:01:Q0:TEMP2	         30        monitor
+# Archive values for detector control module
+MFX:EPIX2M:01:Q1:MONSTAT          10        monitor
+MFX:EPIX2M:01:Q1:BIAS             30        monitor
+MFX:EPIX2M:01:Q1:PELTIER          30        monitor
+MFX:EPIX2M:01:Q1:HV_WARNING       30        monitor
+MFX:EPIX2M:01:Q1:HV_ALARM         30        monitor
+MFX:EPIX2M:01:Q1:DLV_WARNING      30        monitor
+MFX:EPIX2M:01:Q1:DLV_ALARM        30        monitor
+MFX:EPIX2M:01:Q1:ALV_WARNING      30        monitor
+MFX:EPIX2M:01:Q1:ALV_ALARM        30        monitor
+MFX:EPIX2M:01:Q1:TEMP_WARNING     30        monitor
+MFX:EPIX2M:01:Q1:TEMP_ALARM       30        monitor
+
+MFX:EPIX2M:01:Q1:TEMP1     	 30        monitor
+MFX:EPIX2M:01:Q1:TEMP2	         30        monitor
+# Archive values for detector control module
+MFX:EPIX2M:01:Q2:MONSTAT          10        monitor
+MFX:EPIX2M:01:Q2:BIAS             30        monitor
+MFX:EPIX2M:01:Q2:PELTIER          30        monitor
+MFX:EPIX2M:01:Q2:HV_WARNING       30        monitor
+MFX:EPIX2M:01:Q2:HV_ALARM         30        monitor
+MFX:EPIX2M:01:Q2:DLV_WARNING      30        monitor
+MFX:EPIX2M:01:Q2:DLV_ALARM        30        monitor
+MFX:EPIX2M:01:Q2:ALV_WARNING      30        monitor
+MFX:EPIX2M:01:Q2:ALV_ALARM        30        monitor
+MFX:EPIX2M:01:Q2:TEMP_WARNING     30        monitor
+MFX:EPIX2M:01:Q2:TEMP_ALARM       30        monitor
+
+MFX:EPIX2M:01:Q2:TEMP1     	 30        monitor
+MFX:EPIX2M:01:Q2:TEMP2	         30        monitor
+# Archive values for detector control module
+MFX:EPIX2M:01:Q3:MONSTAT          10        monitor
+MFX:EPIX2M:01:Q3:BIAS             30        monitor
+MFX:EPIX2M:01:Q3:PELTIER          30        monitor
+MFX:EPIX2M:01:Q3:HV_WARNING       30        monitor
+MFX:EPIX2M:01:Q3:HV_ALARM         30        monitor
+MFX:EPIX2M:01:Q3:DLV_WARNING      30        monitor
+MFX:EPIX2M:01:Q3:DLV_ALARM        30        monitor
+MFX:EPIX2M:01:Q3:ALV_WARNING      30        monitor
+MFX:EPIX2M:01:Q3:ALV_ALARM        30        monitor
+MFX:EPIX2M:01:Q3:TEMP_WARNING     30        monitor
+MFX:EPIX2M:01:Q3:TEMP_ALARM       30        monitor
+
+MFX:EPIX2M:01:Q3:TEMP1     	 30        monitor
+MFX:EPIX2M:01:Q3:TEMP2	         30        monitor
+MFX:EPIX2M:01:Q0:MONITOR		86400 monitor
+MFX:EPIX2M:01:Q0:TEMP1         30  monitor
+MFX:EPIX2M:01:Q0:TEMP2         30  monitor
+MFX:EPIX2M:01:Q0:TEMP3         30  monitor
+MFX:EPIX2M:01:Q0:HUMIDITY      30  monitor
+MFX:EPIX2M:01:Q0:ASIC_ANA_CUR  30  monitor
+MFX:EPIX2M:01:Q0:ASIC_DIG_CUR  30  monitor
+MFX:EPIX2M:01:Q0:ASIC_GR_CUR   30  monitor
+MFX:EPIX2M:01:Q0:ANA_IN_V      30  monitor
+MFX:EPIX2M:01:Q0:DIG_IN_V      30  monitor
+MFX:EPIX2M:01:Q0:ANA_TEMP      30  monitor
+MFX:EPIX2M:01:Q0:DIG_TEMP      30  monitor
+MFX:EPIX2M:01:Q0:NCT_LOC_TEMP  30  monitor
+MFX:EPIX2M:01:Q0:NCT_FPGA_TEMP 30  monitor
+MFX:EPIX2M:01:Q0:TROPT_TEMP    30  monitor
+MFX:EPIX2M:01:Q0:TROPT_VOLT    30  monitor
+MFX:EPIX2M:01:Q0:TROPT_TXPWR   30  monitor
+MFX:EPIX2M:01:Q0:TROPT_RXPWR   30  monitor
+MFX:EPIX2M:01:Q0:FWVERSION     30  monitor
+MFX:EPIX2M:01:Q0:FWGITHASH     30  monitor
+MFX:EPIX2M:01:Q0:FWBLDSTR      30  monitor
+MFX:EPIX2M:01:Q1:MONITOR		86400 monitor
+MFX:EPIX2M:01:Q1:TEMP1         30  monitor
+MFX:EPIX2M:01:Q1:TEMP2         30  monitor
+MFX:EPIX2M:01:Q1:TEMP3         30  monitor
+MFX:EPIX2M:01:Q1:HUMIDITY      30  monitor
+MFX:EPIX2M:01:Q1:ASIC_ANA_CUR  30  monitor
+MFX:EPIX2M:01:Q1:ASIC_DIG_CUR  30  monitor
+MFX:EPIX2M:01:Q1:ASIC_GR_CUR   30  monitor
+MFX:EPIX2M:01:Q1:ANA_IN_V      30  monitor
+MFX:EPIX2M:01:Q1:DIG_IN_V      30  monitor
+MFX:EPIX2M:01:Q1:ANA_TEMP      30  monitor
+MFX:EPIX2M:01:Q1:DIG_TEMP      30  monitor
+MFX:EPIX2M:01:Q1:NCT_LOC_TEMP  30  monitor
+MFX:EPIX2M:01:Q1:NCT_FPGA_TEMP 30  monitor
+MFX:EPIX2M:01:Q1:TROPT_TEMP    30  monitor
+MFX:EPIX2M:01:Q1:TROPT_VOLT    30  monitor
+MFX:EPIX2M:01:Q1:TROPT_TXPWR   30  monitor
+MFX:EPIX2M:01:Q1:TROPT_RXPWR   30  monitor
+MFX:EPIX2M:01:Q1:FWVERSION     30  monitor
+MFX:EPIX2M:01:Q1:FWGITHASH     30  monitor
+MFX:EPIX2M:01:Q1:FWBLDSTR      30  monitor
+MFX:EPIX2M:01:Q2:MONITOR		86400 monitor
+MFX:EPIX2M:01:Q2:TEMP1         30  monitor
+MFX:EPIX2M:01:Q2:TEMP2         30  monitor
+MFX:EPIX2M:01:Q2:TEMP3         30  monitor
+MFX:EPIX2M:01:Q2:HUMIDITY      30  monitor
+MFX:EPIX2M:01:Q2:ASIC_ANA_CUR  30  monitor
+MFX:EPIX2M:01:Q2:ASIC_DIG_CUR  30  monitor
+MFX:EPIX2M:01:Q2:ASIC_GR_CUR   30  monitor
+MFX:EPIX2M:01:Q2:ANA_IN_V      30  monitor
+MFX:EPIX2M:01:Q2:DIG_IN_V      30  monitor
+MFX:EPIX2M:01:Q2:ANA_TEMP      30  monitor
+MFX:EPIX2M:01:Q2:DIG_TEMP      30  monitor
+MFX:EPIX2M:01:Q2:NCT_LOC_TEMP  30  monitor
+MFX:EPIX2M:01:Q2:NCT_FPGA_TEMP 30  monitor
+MFX:EPIX2M:01:Q2:TROPT_TEMP    30  monitor
+MFX:EPIX2M:01:Q2:TROPT_VOLT    30  monitor
+MFX:EPIX2M:01:Q2:TROPT_TXPWR   30  monitor
+MFX:EPIX2M:01:Q2:TROPT_RXPWR   30  monitor
+MFX:EPIX2M:01:Q2:FWVERSION     30  monitor
+MFX:EPIX2M:01:Q2:FWGITHASH     30  monitor
+MFX:EPIX2M:01:Q2:FWBLDSTR      30  monitor
+MFX:EPIX2M:01:Q3:MONITOR		86400 monitor
+MFX:EPIX2M:01:Q3:TEMP1         30  monitor
+MFX:EPIX2M:01:Q3:TEMP2         30  monitor
+MFX:EPIX2M:01:Q3:TEMP3         30  monitor
+MFX:EPIX2M:01:Q3:HUMIDITY      30  monitor
+MFX:EPIX2M:01:Q3:ASIC_ANA_CUR  30  monitor
+MFX:EPIX2M:01:Q3:ASIC_DIG_CUR  30  monitor
+MFX:EPIX2M:01:Q3:ASIC_GR_CUR   30  monitor
+MFX:EPIX2M:01:Q3:ANA_IN_V      30  monitor
+MFX:EPIX2M:01:Q3:DIG_IN_V      30  monitor
+MFX:EPIX2M:01:Q3:ANA_TEMP      30  monitor
+MFX:EPIX2M:01:Q3:DIG_TEMP      30  monitor
+MFX:EPIX2M:01:Q3:NCT_LOC_TEMP  30  monitor
+MFX:EPIX2M:01:Q3:NCT_FPGA_TEMP 30  monitor
+MFX:EPIX2M:01:Q3:TROPT_TEMP    30  monitor
+MFX:EPIX2M:01:Q3:TROPT_VOLT    30  monitor
+MFX:EPIX2M:01:Q3:TROPT_TXPWR   30  monitor
+MFX:EPIX2M:01:Q3:TROPT_RXPWR   30  monitor
+MFX:EPIX2M:01:Q3:FWVERSION     30  monitor
+MFX:EPIX2M:01:Q3:FWGITHASH     30  monitor
+MFX:EPIX2M:01:Q3:FWBLDSTR      30  monitor
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:MFX:EPIX2M:SR_rebootStatus			1 monitor
+IOC:MFX:EPIX2M:SR_status				1 monitor
+IOC:MFX:EPIX2M:SR_rebootStatusStr		1 monitor
+IOC:MFX:EPIX2M:SR_statusStr				1 monitor
+IOC:MFX:EPIX2M:SR_0_Status				1 monitor
+IOC:MFX:EPIX2M:SR_0_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_1_Status				1 monitor
+IOC:MFX:EPIX2M:SR_1_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_2_Status				1 monitor
+IOC:MFX:EPIX2M:SR_2_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_3_Status				1 monitor
+IOC:MFX:EPIX2M:SR_3_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_4_Status				1 monitor
+IOC:MFX:EPIX2M:SR_4_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_5_Status				1 monitor
+IOC:MFX:EPIX2M:SR_5_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_6_Status				1 monitor
+IOC:MFX:EPIX2M:SR_6_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_7_Status				1 monitor
+IOC:MFX:EPIX2M:SR_7_StatusStr			1 monitor
+IOC:MFX:EPIX2M:SR_0_State				1 monitor
+IOC:MFX:EPIX2M:SR_1_State				1 monitor
+IOC:MFX:EPIX2M:SR_2_State				1 monitor
+IOC:MFX:EPIX2M:SR_3_State				1 monitor
+IOC:MFX:EPIX2M:SR_4_State				1 monitor
+IOC:MFX:EPIX2M:SR_5_State				1 monitor
+IOC:MFX:EPIX2M:SR_6_State				1 monitor
+IOC:MFX:EPIX2M:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:MFX:EPIX2M:SR_recentlyStr			30 monitor
+IOC:MFX:EPIX2M:SR_rebootTime			30 monitor
+IOC:MFX:EPIX2M:SR_0_Name				30 monitor
+IOC:MFX:EPIX2M:SR_1_Name				30 monitor
+IOC:MFX:EPIX2M:SR_2_Name				30 monitor
+IOC:MFX:EPIX2M:SR_3_Name				30 monitor
+IOC:MFX:EPIX2M:SR_4_Name				30 monitor
+IOC:MFX:EPIX2M:SR_5_Name				30 monitor
+IOC:MFX:EPIX2M:SR_6_Name				30 monitor
+IOC:MFX:EPIX2M:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:MFX:EPIX2M:SR_heartbeat				30
+IOC:MFX:EPIX2M:SR_0_Time				30
+IOC:MFX:EPIX2M:SR_1_Time				30
+IOC:MFX:EPIX2M:SR_2_Time				30
+IOC:MFX:EPIX2M:SR_3_Time				30
+IOC:MFX:EPIX2M:SR_4_Time				30
+IOC:MFX:EPIX2M:SR_5_Time				30
+IOC:MFX:EPIX2M:SR_6_Time				30
+IOC:MFX:EPIX2M:SR_7_Time				30
+

@@ -1,0 +1,25 @@
+# Aerotech IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:TST:ENS:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:TST:ENS:01" }
+}
+
+file aerotech.archive
+{
+	pattern
+	{ MOTOR   }
+	{ "TST:ENS:01:m0" }
+	{ "TST:ENS:01:m1" }
+	{ "TST:ENS:01:m2" }
+	{ ":X" }
+	{ "TST:ENS:THD" }
+}
+
+

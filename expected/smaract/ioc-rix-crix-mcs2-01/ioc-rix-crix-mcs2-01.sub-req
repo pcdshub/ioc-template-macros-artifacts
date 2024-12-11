@@ -1,0 +1,14 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:CRIX:MCS2:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{CRIX:MCS2:01:m1 }
+	{CRIX:MCS2:01:m2 }
+}

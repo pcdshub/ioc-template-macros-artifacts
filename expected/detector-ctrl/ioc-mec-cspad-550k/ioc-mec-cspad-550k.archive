@@ -1,0 +1,135 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:MEC:CSPAD:550K:APP_DIR1 30 monitor 
+IOC:MEC:CSPAD:550K:APP_DIR2 30 monitor 
+IOC:MEC:CSPAD:550K:BSP_REV 30 monitor
+IOC:MEC:CSPAD:550K:CA_CLNT_CNT 1 monitor 
+IOC:MEC:CSPAD:550K:CA_CONN_CNT 1 monitor 
+IOC:MEC:CSPAD:550K:EPICS_VERS 30 monitor
+IOC:MEC:CSPAD:550K:FD_CNT 1 monitor 
+IOC:MEC:CSPAD:550K:FD_FREE 1 monitor 
+IOC:MEC:CSPAD:550K:FD_MAX 1 monitor 
+IOC:MEC:CSPAD:550K:HOSTNAME 30 monitor
+IOC:MEC:CSPAD:550K:KERNEL_VERS 30 monitor
+IOC:MEC:CSPAD:550K:RECORD_CNT 10 monitor
+IOC:MEC:CSPAD:550K:STARTTOD 30 monitor
+IOC:MEC:CSPAD:550K:ST_SCRIPT1 30 monitor 
+IOC:MEC:CSPAD:550K:ST_SCRIPT2 30 monitor 
+IOC:MEC:CSPAD:550K:SUSP_TASK_CNT 30 monitor 
+IOC:MEC:CSPAD:550K:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:MEC:CSPAD:550K:DAT_MBUF_FREE 10
+IOC:MEC:CSPAD:550K:DAT_MBUF_MAX 10
+IOC:MEC:CSPAD:550K:LOAD 30 
+IOC:MEC:CSPAD:550K:MEM_BLK_FREE 30 
+IOC:MEC:CSPAD:550K:MEM_FREE 30 
+IOC:MEC:CSPAD:550K:MEM_USED 30 
+IOC:MEC:CSPAD:550K:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:MEC:CSPAD:550K:SR_rebootStatus			1 monitor
+IOC:MEC:CSPAD:550K:SR_status				1 monitor
+IOC:MEC:CSPAD:550K:SR_rebootStatusStr		1 monitor
+IOC:MEC:CSPAD:550K:SR_statusStr				1 monitor
+IOC:MEC:CSPAD:550K:SR_0_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_0_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_1_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_1_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_2_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_2_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_3_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_3_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_4_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_4_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_5_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_5_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_6_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_6_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_7_Status				1 monitor
+IOC:MEC:CSPAD:550K:SR_7_StatusStr			1 monitor
+IOC:MEC:CSPAD:550K:SR_0_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_1_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_2_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_3_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_4_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_5_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_6_State				1 monitor
+IOC:MEC:CSPAD:550K:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:MEC:CSPAD:550K:SR_recentlyStr			30 monitor
+IOC:MEC:CSPAD:550K:SR_rebootTime			30 monitor
+IOC:MEC:CSPAD:550K:SR_0_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_1_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_2_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_3_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_4_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_5_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_6_Name				30 monitor
+IOC:MEC:CSPAD:550K:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:MEC:CSPAD:550K:SR_heartbeat				30
+IOC:MEC:CSPAD:550K:SR_0_Time				30
+IOC:MEC:CSPAD:550K:SR_1_Time				30
+IOC:MEC:CSPAD:550K:SR_2_Time				30
+IOC:MEC:CSPAD:550K:SR_3_Time				30
+IOC:MEC:CSPAD:550K:SR_4_Time				30
+IOC:MEC:CSPAD:550K:SR_5_Time				30
+IOC:MEC:CSPAD:550K:SR_6_Time				30
+IOC:MEC:CSPAD:550K:SR_7_Time				30
+
+# Archive values for detector control module
+MEC:CSPAD:550K:TEMP0   		1    monitor
+MEC:CSPAD:550K:TEMP1   		1    monitor
+MEC:CSPAD:550K:TEMP2   		1    monitor
+MEC:CSPAD:550K:TEMP3   		1    monitor
+MEC:CSPAD:550K:MAXDLV                10        monitor
+MEC:CSPAD:550K:MAXALV                10        monitor
+MEC:CSPAD:550K:MAXHV                 10        monitor
+MEC:CSPAD:550K:MONSTAT               10        monitor
+MEC:CSPAD:550K:HVQ0_WARNING          30        monitor
+MEC:CSPAD:550K:HVQ0_ALARM            30        monitor
+MEC:CSPAD:550K:HVQ1_WARNING          30        monitor
+MEC:CSPAD:550K:HVQ1_ALARM            30        monitor
+MEC:CSPAD:550K:HVQ2_WARNING          30        monitor
+MEC:CSPAD:550K:HVQ2_ALARM            30        monitor
+MEC:CSPAD:550K:HVQ3_WARNING          30        monitor
+MEC:CSPAD:550K:HVQ3_ALARM            30        monitor
+MEC:CSPAD:550K:DLV_WARNING           30        monitor
+MEC:CSPAD:550K:DLV_ALARM             30        monitor
+MEC:CSPAD:550K:ALV_WARNING           30        monitor
+MEC:CSPAD:550K:ALV_ALARM             30        monitor
+MEC:CSPAD:550K:TEMP_WARNING          30        monitor
+MEC:CSPAD:550K:TEMP_ALARM            30        monitor
+MEC:CSPAD:550K:BIAS                  30        monitor
+MEC:CSPAD:550K:BIAS_IDLE             30        monitor
+MEC:CSPAD:550K:AVDD_SET              30        monitor
+MEC:CSPAD:550K:DVDD_SET              30        monitor
+MEC:CSPAD:550K:DO_PROC_ALARM         30        monitor
+MEC:CSPAD:550K:MONSTAT               10        monitor
+MEC:CSPAD:550K:N_PROC_ALARM          10        monitor
+
+MEC:CSPAD:550K:QUAD0:TEMP0_DISP      30        monitor
+MEC:CSPAD:550K:QUAD0:TEMP1_DISP      30        monitor
+MEC:CSPAD:550K:QUAD0:TEMP2_DISP      30        monitor
+MEC:CSPAD:550K:QUAD0:TEMP3_DISP      30        monitor
+MEC:CSPAD:550K:QUAD1:TEMP0_DISP      30        monitor
+MEC:CSPAD:550K:QUAD1:TEMP1_DISP      30        monitor
+MEC:CSPAD:550K:QUAD1:TEMP2_DISP      30        monitor
+MEC:CSPAD:550K:QUAD1:TEMP3_DISP      30        monitor
+MEC:CSPAD:550K:QUAD2:TEMP0_DISP      30        monitor
+MEC:CSPAD:550K:QUAD2:TEMP1_DISP      30        monitor
+MEC:CSPAD:550K:QUAD2:TEMP2_DISP      30        monitor
+MEC:CSPAD:550K:QUAD2:TEMP3_DISP      30        monitor
+MEC:CSPAD:550K:QUAD3:TEMP0_DISP      30        monitor
+MEC:CSPAD:550K:QUAD3:TEMP1_DISP      30        monitor
+MEC:CSPAD:550K:QUAD3:TEMP2_DISP      30        monitor
+MEC:CSPAD:550K:QUAD3:TEMP3_DISP      30        monitor

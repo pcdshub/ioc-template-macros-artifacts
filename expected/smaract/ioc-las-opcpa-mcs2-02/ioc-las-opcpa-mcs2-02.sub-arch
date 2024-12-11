@@ -1,0 +1,49 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LAS:OPCPA:MCS2:02" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{LAS:OPCPA:MCS2:02,  1 }
+	{LAS:OPCPA:MCS2:02,  2 }
+	{LAS:OPCPA:MCS2:02,  3 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+    
+    
+        
+        
+                }
+
+file smaract_module.archive
+{
+    pattern
+    { BASE, MOD }
+    { LAS:OPCPA:MCS2:02,  0 }
+}

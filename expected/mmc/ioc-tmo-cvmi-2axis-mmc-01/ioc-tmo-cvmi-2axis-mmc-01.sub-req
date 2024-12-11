@@ -1,0 +1,16 @@
+# Generate autosave request 
+file mmc_autosave.tpl-req
+{
+    pattern { CTRL   }
+            { TMO:CVMI:2AXIS:MMC:01 }
+}
+
+file mmca_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            
+            { TMO:CVMI:MMC:05 }
+            
+            { TMO:CVMI:MMC:06 }
+            }
+

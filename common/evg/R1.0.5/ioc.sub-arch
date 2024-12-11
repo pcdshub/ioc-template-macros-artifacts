@@ -1,0 +1,15 @@
+# IOC archive file
+
+file evg-ioc.archive
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file evg.archive
+{
+	pattern
+	{ BASE }
+$$LOOP(EVG)
+	{ "$$BASE" }
+$$ENDLOOP(EVG)
+}

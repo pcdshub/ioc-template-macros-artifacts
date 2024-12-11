@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{
+		IOC = XPP:R35:IOC:43:LPW:03,
+	}
+}
+
+file autosave_labMax-Top.tpl-req
+{
+	{
+		P = XPP:USR:LPW:02,
+	}
+
+}

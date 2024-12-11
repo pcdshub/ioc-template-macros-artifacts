@@ -1,0 +1,264 @@
+TMO:USER:MCC:EPHOTK:VER.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:VER        86400    monitor
+
+TMO:USER:MCC:EPHOTK:UND.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:UND        86400    monitor
+
+TMO:USER:MCC:EPHOTK:REQ.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:REQ        86400    monitor
+
+TMO:USER:MCC:EPHOTK:SET1.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:SET1        86400    monitor
+
+TMO:USER:MCC:EPHOTK:SET2.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:SET2        86400    monitor
+
+TMO:USER:MCC:EPHOTK:REF1.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:REF1        86400    monitor
+
+TMO:USER:MCC:EPHOTK:REF2.DESC   86400    monitor
+TMO:USER:MCC:EPHOTK:REF2        86400    monitor
+
+TMO:USER:MCC:DPHI_REQUEST.DESC   86400    monitor
+TMO:USER:MCC:DPHI_REQUEST        86400    monitor
+
+TMO:USER:MCC:DPHI_STATE.DESC   86400    monitor
+TMO:USER:MCC:DPHI_STATE        86400    monitor
+
+TMO:USER:BYKIKS:ABORT.DESC   86400    monitor
+TMO:USER:BYKIKS:ABORT        86400    monitor
+
+TMO:USER:BYKIKS:LAST_NUM_SHOTS.DESC   86400    monitor
+TMO:USER:BYKIKS:LAST_NUM_SHOTS        86400    monitor
+
+TMO:USER:BYKIKS:ABORT_EN.DESC   86400    monitor
+TMO:USER:BYKIKS:ABORT_EN        86400    monitor
+
+TMO:SCAN:NSHOTS.DESC   86400    monitor
+TMO:SCAN:NSHOTS        86400    monitor
+
+TMO:SCAN:NSTEPS.DESC   86400    monitor
+TMO:SCAN:NSTEPS        86400    monitor
+
+TMO:SCAN:ISTEP.DESC   86400    monitor
+TMO:SCAN:ISTEP        86400    monitor
+
+TMO:SCAN:ISSCAN.DESC   86400    monitor
+TMO:SCAN:ISSCAN        86400    monitor
+
+TMO:SCAN:SCANVAR00.DESC   86400    monitor
+TMO:SCAN:SCANVAR00        86400    monitor
+
+TMO:SCAN:SCANVAR01.DESC   86400    monitor
+TMO:SCAN:SCANVAR01        86400    monitor
+
+TMO:SCAN:SCANVAR02.DESC   86400    monitor
+TMO:SCAN:SCANVAR02        86400    monitor
+
+TMO:SCAN:MIN00.DESC   86400    monitor
+TMO:SCAN:MIN00        86400    monitor
+
+TMO:SCAN:MIN01.DESC   86400    monitor
+TMO:SCAN:MIN01        86400    monitor
+
+TMO:SCAN:MIN02.DESC   86400    monitor
+TMO:SCAN:MIN02        86400    monitor
+
+TMO:SCAN:MAX00.DESC   86400    monitor
+TMO:SCAN:MAX00        86400    monitor
+
+TMO:SCAN:MAX01.DESC   86400    monitor
+TMO:SCAN:MAX01        86400    monitor
+
+TMO:SCAN:MAX02.DESC   86400    monitor
+TMO:SCAN:MAX02        86400    monitor
+
+TMO:VARS:INT:01.DESC   86400    monitor
+TMO:VARS:INT:01        86400    monitor
+
+TMO:VARS:INT:02.DESC   86400    monitor
+TMO:VARS:INT:02        86400    monitor
+
+TMO:VARS:INT:03.DESC   86400    monitor
+TMO:VARS:INT:03        86400    monitor
+
+TMO:VARS:INT:04.DESC   86400    monitor
+TMO:VARS:INT:04        86400    monitor
+
+TMO:VARS:INT:05.DESC   86400    monitor
+TMO:VARS:INT:05        86400    monitor
+
+TMO:VARS:INT:06.DESC   86400    monitor
+TMO:VARS:INT:06        86400    monitor
+
+TMO:VARS:INT:07.DESC   86400    monitor
+TMO:VARS:INT:07        86400    monitor
+
+TMO:VARS:INT:08.DESC   86400    monitor
+TMO:VARS:INT:08        86400    monitor
+
+TMO:VARS:INT:09.DESC   86400    monitor
+TMO:VARS:INT:09        86400    monitor
+
+TMO:VARS:INT:10.DESC   86400    monitor
+TMO:VARS:INT:10        86400    monitor
+
+TMO:VARS:BIN:01.DESC   86400    monitor
+TMO:VARS:BIN:01        86400    monitor
+
+TMO:VARS:BIN:02.DESC   86400    monitor
+TMO:VARS:BIN:02        86400    monitor
+
+TMO:VARS:BIN:03.DESC   86400    monitor
+TMO:VARS:BIN:03        86400    monitor
+
+TMO:VARS:BIN:04.DESC   86400    monitor
+TMO:VARS:BIN:04        86400    monitor
+
+TMO:VARS:BIN:05.DESC   86400    monitor
+TMO:VARS:BIN:05        86400    monitor
+
+TMO:VARS:BIN:06.DESC   86400    monitor
+TMO:VARS:BIN:06        86400    monitor
+
+TMO:VARS:BIN:07.DESC   86400    monitor
+TMO:VARS:BIN:07        86400    monitor
+
+TMO:VARS:BIN:08.DESC   86400    monitor
+TMO:VARS:BIN:08        86400    monitor
+
+TMO:VARS:BIN:09.DESC   86400    monitor
+TMO:VARS:BIN:09        86400    monitor
+
+TMO:VARS:BIN:10.DESC   86400    monitor
+TMO:VARS:BIN:10        86400    monitor
+
+TMO:VARS:STRING:01.DESC   86400    monitor
+TMO:VARS:STRING:01        86400    monitor
+
+TMO:VARS:STRING:02.DESC   86400    monitor
+TMO:VARS:STRING:02        86400    monitor
+
+TMO:VARS:STRING:03.DESC   86400    monitor
+TMO:VARS:STRING:03        86400    monitor
+
+TMO:VARS:STRING:04.DESC   86400    monitor
+TMO:VARS:STRING:04        86400    monitor
+
+TMO:VARS:STRING:05.DESC   86400    monitor
+TMO:VARS:STRING:05        86400    monitor
+
+TMO:VARS:STRING:06.DESC   86400    monitor
+TMO:VARS:STRING:06        86400    monitor
+
+TMO:VARS:STRING:07.DESC   86400    monitor
+TMO:VARS:STRING:07        86400    monitor
+
+TMO:VARS:STRING:08.DESC   86400    monitor
+TMO:VARS:STRING:08        86400    monitor
+
+TMO:VARS:STRING:09.DESC   86400    monitor
+TMO:VARS:STRING:09        86400    monitor
+
+TMO:VARS:STRING:10.DESC   86400    monitor
+TMO:VARS:STRING:10        86400    monitor
+
+TMO:VARS:FLOAT:01.DESC   86400    monitor
+TMO:VARS:FLOAT:01        86400    monitor
+
+TMO:VARS:FLOAT:02.DESC   86400    monitor
+TMO:VARS:FLOAT:02        86400    monitor
+
+TMO:VARS:FLOAT:03.DESC   86400    monitor
+TMO:VARS:FLOAT:03        86400    monitor
+
+TMO:VARS:FLOAT:04.DESC   86400    monitor
+TMO:VARS:FLOAT:04        86400    monitor
+
+TMO:VARS:FLOAT:05.DESC   86400    monitor
+TMO:VARS:FLOAT:05        86400    monitor
+
+TMO:VARS:FLOAT:06.DESC   86400    monitor
+TMO:VARS:FLOAT:06        86400    monitor
+
+TMO:VARS:FLOAT:07.DESC   86400    monitor
+TMO:VARS:FLOAT:07        86400    monitor
+
+TMO:VARS:FLOAT:08.DESC   86400    monitor
+TMO:VARS:FLOAT:08        86400    monitor
+
+TMO:VARS:FLOAT:09.DESC   86400    monitor
+TMO:VARS:FLOAT:09        86400    monitor
+
+TMO:VARS:FLOAT:10.DESC   86400    monitor
+TMO:VARS:FLOAT:10        86400    monitor
+
+TMO:VARS:TTZF_sStatus.DESC   86400    monitor
+TMO:VARS:TTZF_sStatus        86400    monitor
+
+TMO:VARS:TTZF_sPost1.DESC   86400    monitor
+TMO:VARS:TTZF_sPost1        86400    monitor
+
+TMO:VARS:TTZF_sPost2.DESC   86400    monitor
+TMO:VARS:TTZF_sPost2        86400    monitor
+
+TMO:TIMETOOL:TTALL.DESC   86400    monitor
+TMO:TIMETOOL:TTALL        86400    monitor
+
+TMO:TIMETOOL:SHM:TTALL.DESC   86400    monitor
+TMO:TIMETOOL:SHM:TTALL        86400    monitor
+
+TMO:HSD:ALIAS:0.DESC   86400    monitor
+TMO:HSD:ALIAS:0        86400    monitor
+
+TMO:HSD:ALIAS:1.DESC   86400    monitor
+TMO:HSD:ALIAS:1        86400    monitor
+
+TMO:HSD:ALIAS:2.DESC   86400    monitor
+TMO:HSD:ALIAS:2        86400    monitor
+
+TMO:HSD:ALIAS:3.DESC   86400    monitor
+TMO:HSD:ALIAS:3        86400    monitor
+
+TMO:HSD:ALIAS:4.DESC   86400    monitor
+TMO:HSD:ALIAS:4        86400    monitor
+
+TMO:HSD:ALIAS:5.DESC   86400    monitor
+TMO:HSD:ALIAS:5        86400    monitor
+
+TMO:HSD:ALIAS:6.DESC   86400    monitor
+TMO:HSD:ALIAS:6        86400    monitor
+
+TMO:HSD:ALIAS:7.DESC   86400    monitor
+TMO:HSD:ALIAS:7        86400    monitor
+
+TMO:HSD:ALIAS:8.DESC   86400    monitor
+TMO:HSD:ALIAS:8        86400    monitor
+
+TMO:HSD:ALIAS:9.DESC   86400    monitor
+TMO:HSD:ALIAS:9        86400    monitor
+
+TMO:HSD:ALIAS:10.DESC   86400    monitor
+TMO:HSD:ALIAS:10        86400    monitor
+
+TMO:HSD:ALIAS:11.DESC   86400    monitor
+TMO:HSD:ALIAS:11        86400    monitor
+
+TMO:HSD:ALIAS:12.DESC   86400    monitor
+TMO:HSD:ALIAS:12        86400    monitor
+
+TMO:HSD:ALIAS:13.DESC   86400    monitor
+TMO:HSD:ALIAS:13        86400    monitor
+
+TMO:HSD:ALIAS:14.DESC   86400    monitor
+TMO:HSD:ALIAS:14        86400    monitor
+
+TMO:HSD:ALIAS:15.DESC   86400    monitor
+TMO:HSD:ALIAS:15        86400    monitor
+
+KFE:MR1K1:Transmisstion.DESC   86400    monitor
+KFE:MR1K1:Transmisstion        86400    monitor
+
+TMO:MR2K4:Transmisstion.DESC   86400    monitor
+TMO:MR2K4:Transmisstion        86400    monitor
+

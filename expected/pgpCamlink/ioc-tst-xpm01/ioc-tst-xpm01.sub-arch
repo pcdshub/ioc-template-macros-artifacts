@@ -1,0 +1,15 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{	IOC = "TST:IOC:PGP:01"	}
+}
+
+file pgpCamlinkBase.tpl-arch
+{
+    { CAM = "" }
+}
+
+
+
+

@@ -1,0 +1,48 @@
+#
+# mpod Archive file for ioc-det-mobile-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "DET:IOC:DET:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "DET:MBL:MPD:CH",             "0" }
+	{ "DET:MBL:MPD:CH",             "1" }
+	{ "DET:MBL:MPD:CH",             "2" }
+	{ "DET:MBL:MPD:CH",             "3" }
+	{ "DET:MBL:MPD:CH",             "4" }
+	{ "DET:MBL:MPD:CH",             "5" }
+	{ "DET:MBL:MPD:CH",             "6" }
+	{ "DET:MBL:MPD:CH",             "7" }
+	{ "DET:MBL:MPD:CH",             "100" }
+	{ "DET:MBL:MPD:CH",             "101" }
+	{ "DET:MBL:MPD:CH",             "102" }
+	{ "DET:MBL:MPD:CH",             "103" }
+	{ "DET:MBL:MPD:CH",             "104" }
+	{ "DET:MBL:MPD:CH",             "105" }
+	{ "DET:MBL:MPD:CH",             "106" }
+	{ "DET:MBL:MPD:CH",             "107" }
+	{ "DET:MBL:MPD:CH",             "200" }
+	{ "DET:MBL:MPD:CH",             "201" }
+	{ "DET:MBL:MPD:CH",             "202" }
+	{ "DET:MBL:MPD:CH",             "203" }
+	{ "DET:MBL:MPD:CH",             "204" }
+	{ "DET:MBL:MPD:CH",             "205" }
+	{ "DET:MBL:MPD:CH",             "206" }
+	{ "DET:MBL:MPD:CH",             "207" }
+	{ "DET:MBL:MPD:CH",             "208" }
+	{ "DET:MBL:MPD:CH",             "209" }
+	{ "DET:MBL:MPD:CH",             "210" }
+	{ "DET:MBL:MPD:CH",             "211" }
+	{ "DET:MBL:MPD:CH",             "212" }
+	{ "DET:MBL:MPD:CH",             "213" }
+	{ "DET:MBL:MPD:CH",             "214" }
+	{ "DET:MBL:MPD:CH",             "215" }
+}

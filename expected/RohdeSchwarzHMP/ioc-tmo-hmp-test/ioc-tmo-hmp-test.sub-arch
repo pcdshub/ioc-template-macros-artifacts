@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file hmp-ioc.archive
+{
+    { IOC = "IOC:TMO:IP1:HMP:01" }
+}
+
+file hmp4040.archive
+{
+    { HMP = "TMO:IP1:HMP:01" }
+}

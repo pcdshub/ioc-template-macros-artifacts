@@ -1,0 +1,13 @@
+# AgilentE3648A IOC instance archive file
+
+# Generate archive PV list for IOC
+file AgilentE3648A-ioc.archive
+{
+    { IOC = "IOC:XCS:USR:PWR" }
+}
+
+# Generate archive PV list for each serial device
+file AgilentE3648A.archive
+{
+    { DEV = "XCS:USR:PWR:01" } 
+}

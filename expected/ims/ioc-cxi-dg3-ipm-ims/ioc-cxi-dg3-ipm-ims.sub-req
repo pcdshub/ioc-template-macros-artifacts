@@ -1,0 +1,90 @@
+# Generate autosave request 
+file ims_autosave.tpl-req
+{
+    pattern { MOTOR      }
+            
+            { CXI:DG3:MMS:01  }
+            { CXI:DG3:MMS:02  }
+            { CXI:DG3:MMS:03 }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            }
+
+file device_with_2states.tpl-req
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            { CXI:DG3:IPM:DIODE,  "IN",   "OUT"  }
+            
+            
+            
+            
+            }
+
+file device_with_3states.tpl-req
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-req
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-req
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            
+            { CXI:DG3:IPM:TARGET, TARGET1, TARGET2, TARGET3, TARGET4, OUT    }
+            }
+
+file device_with_8states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8 }
+            }
+
+file device_with_9states.tpl-req
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-req
+{
+    pattern { NAME   }
+            }
+
+file disp_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-req
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-req
+{
+    pattern { ILK                         }
+            }
+

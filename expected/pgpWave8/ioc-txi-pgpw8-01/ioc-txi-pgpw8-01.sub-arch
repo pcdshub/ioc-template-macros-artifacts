@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "TXI:RP:W8:IOC:01", PREFIX = "TXI:RP:W8:01" }
+}
+

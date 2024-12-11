@@ -1,0 +1,115 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+TST:IOC:CAM4:APP_DIR 30 monitor 
+TST:IOC:CAM4:APP_DIR1 30 monitor 
+TST:IOC:CAM4:APP_DIR2 30 monitor 
+TST:IOC:CAM4:CA_CLNT_CNT 1 monitor 
+TST:IOC:CAM4:CA_CONN_CNT 1 monitor 
+TST:IOC:CAM4:EPICS_VERS 30 monitor
+TST:IOC:CAM4:FD_CNT 1 monitor 
+TST:IOC:CAM4:FD_FREE 1 monitor 
+TST:IOC:CAM4:FD_MAX 1 monitor 
+TST:IOC:CAM4:HOSTNAME 30 monitor
+TST:IOC:CAM4:KERNEL_VERS 30 monitor
+TST:IOC:CAM4:RECORD_CNT 10 monitor
+TST:IOC:CAM4:START_CNT 30 monitor
+TST:IOC:CAM4:STARTTOD 30 monitor
+TST:IOC:CAM4:ST_SCRIPT 30 monitor 
+TST:IOC:CAM4:ST_SCRIPT1 30 monitor 
+TST:IOC:CAM4:ST_SCRIPT2 30 monitor 
+TST:IOC:CAM4:SUSP_TASK_CNT 30 monitor 
+TST:IOC:CAM4:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+TST:IOC:CAM4:SYS_CPU_LOAD 10
+TST:IOC:CAM4:LOAD 10 
+TST:IOC:CAM4:MEM_BLK_FREE 10 
+TST:IOC:CAM4:MEM_FREE 10 
+TST:IOC:CAM4:MEM_USED 10 
+TST:IOC:CAM4:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+TST:IOC:CAM4:SR_rebootStatus			1 monitor
+TST:IOC:CAM4:SR_status				1 monitor
+TST:IOC:CAM4:SR_rebootStatusStr		1 monitor
+TST:IOC:CAM4:SR_statusStr				1 monitor
+TST:IOC:CAM4:SR_0_Status				1 monitor
+TST:IOC:CAM4:SR_0_StatusStr			1 monitor
+TST:IOC:CAM4:SR_1_Status				1 monitor
+TST:IOC:CAM4:SR_1_StatusStr			1 monitor
+TST:IOC:CAM4:SR_2_Status				1 monitor
+TST:IOC:CAM4:SR_2_StatusStr			1 monitor
+TST:IOC:CAM4:SR_3_Status				1 monitor
+TST:IOC:CAM4:SR_3_StatusStr			1 monitor
+TST:IOC:CAM4:SR_4_Status				1 monitor
+TST:IOC:CAM4:SR_4_StatusStr			1 monitor
+TST:IOC:CAM4:SR_5_Status				1 monitor
+TST:IOC:CAM4:SR_5_StatusStr			1 monitor
+TST:IOC:CAM4:SR_6_Status				1 monitor
+TST:IOC:CAM4:SR_6_StatusStr			1 monitor
+TST:IOC:CAM4:SR_7_Status				1 monitor
+TST:IOC:CAM4:SR_7_StatusStr			1 monitor
+TST:IOC:CAM4:SR_0_State				1 monitor
+TST:IOC:CAM4:SR_1_State				1 monitor
+TST:IOC:CAM4:SR_2_State				1 monitor
+TST:IOC:CAM4:SR_3_State				1 monitor
+TST:IOC:CAM4:SR_4_State				1 monitor
+TST:IOC:CAM4:SR_5_State				1 monitor
+TST:IOC:CAM4:SR_6_State				1 monitor
+TST:IOC:CAM4:SR_7_State				1 monitor
+
+# Archive these values only when they change
+TST:IOC:CAM4:SR_recentlyStr			30 monitor
+TST:IOC:CAM4:SR_rebootTime			30 monitor
+TST:IOC:CAM4:SR_0_Name				30 monitor
+TST:IOC:CAM4:SR_1_Name				30 monitor
+TST:IOC:CAM4:SR_2_Name				30 monitor
+TST:IOC:CAM4:SR_3_Name				30 monitor
+TST:IOC:CAM4:SR_4_Name				30 monitor
+TST:IOC:CAM4:SR_5_Name				30 monitor
+TST:IOC:CAM4:SR_6_Name				30 monitor
+TST:IOC:CAM4:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+TST:IOC:CAM4:SR_heartbeat				30
+TST:IOC:CAM4:SR_0_Time				30
+TST:IOC:CAM4:SR_1_Time				30
+TST:IOC:CAM4:SR_2_Time				30
+TST:IOC:CAM4:SR_3_Time				30
+TST:IOC:CAM4:SR_4_Time				30
+TST:IOC:CAM4:SR_5_Time				30
+TST:IOC:CAM4:SR_6_Time				30
+TST:IOC:CAM4:SR_7_Time				30
+
+# pgpCamlinkBase.tpl-arch
+TST:PGP:CAM4:AcquireTime.VAL	1	monitor
+TST:PGP:CAM4:BeamEventCode_RBV.VAL		1	monitor
+TST:PGP:CAM4:BeamEventCode.VAL		1	monitor
+TST:PGP:CAM4:BeamRepDur.VAL		1	monitor
+TST:PGP:CAM4:BeamRepRate_RBV.VAL		10 scan
+TST:PGP:CAM4:CamAcquireTimeCalc.VAL	1	monitor
+TST:PGP:CAM4:CamDelayScale.EGU		1	monitor
+TST:PGP:CAM4:CamDelayScale.VAL		1	monitor
+TST:PGP:CAM4:CamDrvVersion.VAL	1	monitor
+TST:PGP:CAM4:CamEventCode_RBV.VAL		1	monitor
+TST:PGP:CAM4:CamEventCode.VAL		1	monitor
+TST:PGP:CAM4:CamHwHROI_RBV.VAL	1	monitor
+TST:PGP:CAM4:CamHwVROI_RBV.VAL	1	monitor
+TST:PGP:CAM4:CamInfo.VAL	1	monitor
+TST:PGP:CAM4:CamLibVersion.VAL	1	monitor
+TST:PGP:CAM4:CamMode_RBV.VAL	1	monitor
+TST:PGP:CAM4:CamRepDur.VAL		1	monitor
+TST:PGP:CAM4:CamRepRate_RBV.VAL		10	scan
+TST:PGP:CAM4:CamTrigDelay_RBV.VAL		1	monitor
+TST:PGP:CAM4:CamTrigDelay.VAL		1	monitor
+TST:PGP:CAM4:CamTrigLevel.VAL		1	monitor
+TST:PGP:CAM4:Gain.VAL		1	monitor
+TST:PGP:CAM4:PgpAxiVersion.VAL	1	monitor
+TST:PGP:CAM4:PgpCoreFpgaVersion.VAL		1	monitor
+TST:PGP:CAM4:PgpFebFpgaVersion.VAL		1	monitor

@@ -1,0 +1,117 @@
+# Generate archive request 
+file ims_archive.tpl-arch
+{
+    pattern { MOTOR      }
+            
+            
+            
+            
+            
+            
+            
+            { CXI:DG1:MMS:04   }
+            { CXI:DG1:MMS:05  }
+            { CXI:DG1:MMS:06    }
+            { CXI:DG1:MMS:07 }
+            
+            { CXI:KB1:MMS:01   }
+            { CXI:KB1:MMS:02  }
+            { CXI:KB1:MMS:03    }
+            { CXI:KB1:MMS:04 }
+            
+            { CXI:KB1:MMS:13   }
+            { CXI:KB1:MMS:14  }
+            { CXI:KB1:MMS:15    }
+            { CXI:KB1:MMS:16 }
+            
+            { CXI:DG2:MMS:01   }
+            { CXI:DG2:MMS:02  }
+            { CXI:DG2:MMS:03    }
+            { CXI:DG2:MMS:04 }
+            
+            { CXI:DSB:MMS:01   }
+            { CXI:DSB:MMS:02  }
+            { CXI:DSB:MMS:03    }
+            { CXI:DSB:MMS:04 }
+            
+            
+            
+            
+            }
+
+file device_with_2states.tpl-arch
+{
+    pattern { DEVICE,        STATE1, STATE2 }
+            
+            
+            
+            
+            }
+
+file device_with_3states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,  STATE2,  STATE3 }
+            }
+
+file device_with_4states.tpl-arch
+{
+    pattern { DEVICE,  STATE1,              STATE2,              STATE3,              STATE4 }
+            
+            }
+
+file device_with_5states.tpl-arch
+{
+    pattern { DEVICE,        STATE1,          STATE2,          STATE3,          STATE4,          STATE5 }
+            }
+
+file device_with_8states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8   }
+            }
+
+file device_with_9states.tpl-arch
+{
+    pattern { DEVICE,    STATE1,    STATE2,    STATE3,    STATE4,    STATE5,    STATE6,    STATE7,    STATE8,    STATE9   }
+            }
+
+
+file lkup.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file zoom_lens.tpl-arch
+{
+    pattern { NAME   }
+            }
+
+file slit_4jaw.tpl-arch
+{
+    pattern { NAME   }
+            
+            { CXI:DG1:JAWS }
+            
+            { CXI:KB1:JAWS:US }
+            
+            { CXI:KB1:JAWS:DS }
+            
+            { CXI:DG2:JAWS }
+            
+            { CXI:DSB:JAWS }
+            }
+
+file disp_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file limit_interlock.tpl-arch
+{
+    pattern { ILK                         }
+            }
+
+file temperature_ilk.tpl-arch
+{
+    pattern { ILK                         }
+            }
+

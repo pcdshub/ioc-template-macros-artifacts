@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-sl1k2-gige
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "SL1K2:EXIT:CAM:IOC"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "SL1K2:EXIT:CAM:IOC"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "SL1K2:EXIT:CAM"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STREAM = "IMAGE3"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", ROI = "ROI1"  }
+        {   CAM = "SL1K2:EXIT:CAM", ROI = "ROI2"  }
+        {   CAM = "SL1K2:EXIT:CAM", ROI = "ROI3"  }
+        {   CAM = "SL1K2:EXIT:CAM", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", STATS = "Stats1"  }
+        {   CAM = "SL1K2:EXIT:CAM", STATS = "Stats2"  }
+        {   CAM = "SL1K2:EXIT:CAM", STATS = "Stats3"  }
+        {   CAM = "SL1K2:EXIT:CAM", STATS = "Stats4"  }
+        {   CAM = "SL1K2:EXIT:CAM", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "SL1K2:EXIT:CAM", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "SL1K2:EXIT:CAM"    }
+}
+
+
+
+file prosilica.tpl-arch
+{
+	{	P = "SL1K2:EXIT:CAM", R = ":"	}
+}
+
+
+
+
+file gige-hist.archive
+{
+	{	P = "SL1K2:EXIT:CAM", R = ":"	}
+}
+
+

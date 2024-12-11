@@ -1,0 +1,6 @@
+# Generate autosave request 
+file XPS8_arbitrary_autosave.tpl-req
+{
+    { DEVICE="AMO:LAS:MCN3", POS1="AMO:LAS:MCN3:01", POS2="AMO:LAS:DLS:05:MTR", POS3="AMO:LAS:MIR:08:M8H", POS4="AMO:LAS:MIR:08:M8V", POS5="AMO:LAS:WVP:03:MTR", POS6="AMO:LAS:DLS:06:MTR", POS7="AMO:LAS:MCN3:07", POS8="AMO:LAS:MCN3:08" }
+}
+

@@ -1,0 +1,17 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file lakeshore_ioc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(LAKESHORE)
+$$IF(AUTOSAVE)
+file lakeshore_autosave.req
+{
+    { NAME = "$$NAME" }
+}
+$$ENDIF(AUTOSAVE)
+$$ENDLOOP(LAKESHORE)

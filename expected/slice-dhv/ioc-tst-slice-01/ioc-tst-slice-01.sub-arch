@@ -1,0 +1,6 @@
+# IOC archive file
+
+file slice-ioc.archive
+{
+	{ IOC = "IOC:TST:SLICE:0" , BASE = "LAS:TST:SLICE:01" }
+}

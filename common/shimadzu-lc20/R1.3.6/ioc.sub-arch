@@ -1,0 +1,15 @@
+# lc20 IOC instance archive file
+
+# Generate archive PV list for IOC
+file lc20-ioc.archive
+{
+        { IOC = "$$IOC_PV" }
+}
+
+# Generate archive PV list for each serial device
+file lc20.tpl-arch
+{
+        $$LOOP(HPLC)
+        { DEV="$$NAME" }
+        $$ENDLOOP(HPLC)
+}

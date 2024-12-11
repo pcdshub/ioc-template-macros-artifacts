@@ -1,0 +1,13 @@
+# IOC archive file
+
+# Generate IOC archive request
+file staubli_ioc.archive
+{
+    { IOC = "IOC:XPP:ROB" }
+}
+
+file staubli_archive.archive
+{
+    { NAME = "XPP:ROB" }
+}
+

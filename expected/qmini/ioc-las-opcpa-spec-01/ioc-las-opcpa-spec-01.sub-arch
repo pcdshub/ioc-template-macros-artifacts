@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace CXI:MOB:IOC:DDG with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file qmini-ioc.archive
+{
+	{ IOC = "IOC:LAS:OPCPA:QMINI:01", NAME = "LAS:OPCPA:QMINI:01" }
+}
+
+file adjust.tpl-arch
+{
+    { NAME = "LAS:OPCPA:QMINI:01" }
+}

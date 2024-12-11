@@ -1,0 +1,32 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+IOC:MEC:HMP:01:ACCESS
+IOC:MEC:HMP:01:CA_CLNT_CNT.HIGH
+IOC:MEC:HMP:01:CA_CLNT_CNT.HIHI
+IOC:MEC:HMP:01:CA_CONN_CNT.HIGH
+IOC:MEC:HMP:01:CA_CONN_CNT.HIHI
+IOC:MEC:HMP:01:SUSP_TASK_CNT.HIHI
+IOC:MEC:HMP:01:FD_FREE.LOW
+IOC:MEC:HMP:01:FD_FREE.LOLO
+IOC:MEC:HMP:01:IOC_CPU_LOAD.HIGH
+IOC:MEC:HMP:01:IOC_CPU_LOAD.HIHI
+IOC:MEC:HMP:01:MEM_FREE.LOW
+IOC:MEC:HMP:01:MEM_FREE.LOLO
+IOC:MEC:HMP:01:START_CNT
+IOC:MEC:HMP:01:MEM_BLK_FREE.LOW
+IOC:MEC:HMP:01:MEM_BLK_FREE.LOLO
+# R&S HMP Supply Autosave List
+MEC:HMP:01:SEND
+MEC:HMP:01:RCVE
+MEC:HMP:01:ERROR
+MEC:HMP:01:MODE
+# R&S HMP Supply voltage Channel 1 Autosave List
+# R&S HMP Supply voltage Channel 2 Autosave List
+# R&S HMP Supply voltage Channel 3 Autosave List
+# R&S HMP Supply current Channel 1 Autosave List
+# R&S HMP Supply current Channel 2 Autosave List
+# R&S HMP Supply current Channel 3 Autosave List
+# R&S HMP Supply Output Channel 1 Autosave List
+# R&S HMP Supply Output Channel 2 Autosave List
+# R&S HMP Supply Output Channel 3 Autosave List

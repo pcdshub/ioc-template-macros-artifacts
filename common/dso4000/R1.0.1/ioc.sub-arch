@@ -1,0 +1,11 @@
+# dso4000 IOC instance archive file
+
+# Generate archive PV list for IOC
+file dso4000-ioc.archive
+{
+	pattern
+	{ IOC,     BASE  }
+	{$$IOC_PV, $$BASE}
+}
+
+

@@ -1,0 +1,225 @@
+# IMS archive list
+HXX:UM6:MMS:08.DESC         86400    monitor
+HXX:UM6:MMS:08.TYPE         86400    monitor
+HXX:UM6:MMS:08.PORT         86400    monitor
+HXX:UM6:MMS:08.LM           86400    monitor
+HXX:UM6:MMS:08.SM           86400    monitor
+HXX:UM6:MMS:08.SF           86400    monitor
+HXX:UM6:MMS:08.STSV         86400    monitor
+HXX:UM6:MMS:08.ERSV         86400    monitor
+HXX:UM6:MMS:08.EE           86400    monitor
+HXX:UM6:MMS:08.EL           86400    monitor
+HXX:UM6:MMS:08.ME           86400    monitor
+HXX:UM6:MMS:08.MS           86400    monitor
+HXX:UM6:MMS:08.MT           86400    monitor
+HXX:UM6:MMS:08.HT           86400    monitor
+HXX:UM6:MMS:08.ES           86400    monitor
+HXX:UM6:MMS:08.RCMX         86400    monitor
+HXX:UM6:MMS:08.RC           86400    monitor
+HXX:UM6:MMS:08.HCMX         86400    monitor
+HXX:UM6:MMS:08.HC           86400    monitor
+HXX:UM6:MMS:08.DVER         86400    monitor
+HXX:UM6:MMS:08.MODE         86400    monitor
+HXX:UM6:MMS:08.EGU          86400    monitor
+HXX:UM6:MMS:08.UREV         86400    monitor
+HXX:UM6:MMS:08.FREV         86400    monitor
+HXX:UM6:MMS:08.SREV         86400    monitor
+HXX:UM6:MMS:08.MRES         86400    monitor
+HXX:UM6:MMS:08.ERES         86400    monitor
+HXX:UM6:MMS:08.DIR          86400    monitor
+HXX:UM6:MMS:08.OFF          86400    monitor
+HXX:UM6:MMS:08.FOFF         86400    monitor
+HXX:UM6:MMS:08.HTYP         86400    monitor
+HXX:UM6:MMS:08.HEGE         86400    monitor
+HXX:UM6:MMS:08.BDST         86400    monitor
+HXX:UM6:MMS:08.HDST         86400    monitor
+HXX:UM6:MMS:08.DLLM         86400    monitor
+HXX:UM6:MMS:08.DHLM         86400    monitor
+HXX:UM6:MMS:08.LLM          86400    monitor
+HXX:UM6:MMS:08.HLM          86400    monitor
+HXX:UM6:MMS:08.RTRY         86400    monitor
+HXX:UM6:MMS:08.RDBD         86400    monitor
+HXX:UM6:MMS:08.PDBD         86400    monitor
+HXX:UM6:MMS:08.PREC         86400    monitor
+HXX:UM6:MMS:08.SBAS         86400    monitor
+HXX:UM6:MMS:08.SMAX         86400    monitor
+HXX:UM6:MMS:08.S            86400    monitor
+HXX:UM6:MMS:08.VBAS         86400    monitor
+HXX:UM6:MMS:08.VMAX         86400    monitor
+HXX:UM6:MMS:08.VELO         86400    monitor
+HXX:UM6:MMS:08.BS           86400    monitor
+HXX:UM6:MMS:08.BVEL         86400    monitor
+HXX:UM6:MMS:08.HS           86400    monitor
+HXX:UM6:MMS:08.HVEL         86400    monitor
+HXX:UM6:MMS:08.ACCL         86400    monitor
+HXX:UM6:MMS:08.BACC         86400    monitor
+HXX:UM6:MMS:08.HACC         86400    monitor
+HXX:UM6:MMS:08.TWV          86400    monitor
+HXX:UM6:MMS:08.HOMD         86400    monitor
+HXX:UM6:MMS:08.EGAG         86400    monitor
+HXX:UM6:MMS:08.ERBL         86400    monitor
+HXX:UM6:MMS:08.ESKL         86400    monitor
+
+HXX:UM6:MMS:08.DLVL         86400    monitor
+
+HXX:UM6:MMS:08.S1           86400    monitor
+HXX:UM6:MMS:08.S2           86400    monitor
+HXX:UM6:MMS:08.S3           86400    monitor
+HXX:UM6:MMS:08.S4           86400    monitor
+HXX:UM6:MMS:08.S9           86400    monitor
+
+HXX:UM6:MMS:08.RES          86400    monitor
+
+HXX:UM6:MMS:08.VAL          2        monitor
+HXX:UM6:MMS:08.DVAL         2        monitor
+HXX:UM6:MMS:08.RVAL         2        monitor
+HXX:UM6:MMS:08.RRBV         0.2      monitor
+HXX:UM6:MMS:08.DRBV         0.2      monitor
+HXX:UM6:MMS:08.RBV          0.2      monitor
+
+HXX:UM6:MMS:08.ERBV         0.2      monitor
+
+HXX:UM6:MMS:08.DIFF         0.2      monitor
+
+HXX:UM6:MMS:08.RCNT         86400    monitor
+HXX:UM6:MMS:08.MISS         86400    monitor
+
+HXX:UM6:MMS:08.LLS          86400    monitor
+HXX:UM6:MMS:08.HLS          86400    monitor
+
+HXX:UM6:MMS:08.ATHM         86400    monitor
+
+HXX:UM6:MMS:08.MIP          0.2      monitor
+HXX:UM6:MMS:08.MOVN         0.2      monitor
+HXX:UM6:MMS:08.DMOV         0.2      monitor
+HXX:UM6:MMS:08.MSTA         0.2      monitor
+HXX:UM6:MMS:08.HCSV         86400    monitor
+
+HXX:UM6:MMS:08:SAVED_RAW    86400    monitor
+HXX:UM6:MMS:08:SAVED_P      86400    monitor
+
+HXX:UM6:MMS:08:FW_MEANS     86400    monitor
+HXX:UM6:MMS:08:REV_MEANS    86400    monitor
+
+HXX:UM6:MMS:08:CFG_FILE     86400    monitor
+
+# IMS archive list
+HXX:UM6:CLZ:01.DESC         86400    monitor
+HXX:UM6:CLZ:01.TYPE         86400    monitor
+HXX:UM6:CLZ:01.PORT         86400    monitor
+HXX:UM6:CLZ:01.LM           86400    monitor
+HXX:UM6:CLZ:01.SM           86400    monitor
+HXX:UM6:CLZ:01.SF           86400    monitor
+HXX:UM6:CLZ:01.STSV         86400    monitor
+HXX:UM6:CLZ:01.ERSV         86400    monitor
+HXX:UM6:CLZ:01.EE           86400    monitor
+HXX:UM6:CLZ:01.EL           86400    monitor
+HXX:UM6:CLZ:01.ME           86400    monitor
+HXX:UM6:CLZ:01.MS           86400    monitor
+HXX:UM6:CLZ:01.MT           86400    monitor
+HXX:UM6:CLZ:01.HT           86400    monitor
+HXX:UM6:CLZ:01.ES           86400    monitor
+HXX:UM6:CLZ:01.RCMX         86400    monitor
+HXX:UM6:CLZ:01.RC           86400    monitor
+HXX:UM6:CLZ:01.HCMX         86400    monitor
+HXX:UM6:CLZ:01.HC           86400    monitor
+HXX:UM6:CLZ:01.DVER         86400    monitor
+HXX:UM6:CLZ:01.MODE         86400    monitor
+HXX:UM6:CLZ:01.EGU          86400    monitor
+HXX:UM6:CLZ:01.UREV         86400    monitor
+HXX:UM6:CLZ:01.FREV         86400    monitor
+HXX:UM6:CLZ:01.SREV         86400    monitor
+HXX:UM6:CLZ:01.MRES         86400    monitor
+HXX:UM6:CLZ:01.ERES         86400    monitor
+HXX:UM6:CLZ:01.DIR          86400    monitor
+HXX:UM6:CLZ:01.OFF          86400    monitor
+HXX:UM6:CLZ:01.FOFF         86400    monitor
+HXX:UM6:CLZ:01.HTYP         86400    monitor
+HXX:UM6:CLZ:01.HEGE         86400    monitor
+HXX:UM6:CLZ:01.BDST         86400    monitor
+HXX:UM6:CLZ:01.HDST         86400    monitor
+HXX:UM6:CLZ:01.DLLM         86400    monitor
+HXX:UM6:CLZ:01.DHLM         86400    monitor
+HXX:UM6:CLZ:01.LLM          86400    monitor
+HXX:UM6:CLZ:01.HLM          86400    monitor
+HXX:UM6:CLZ:01.RTRY         86400    monitor
+HXX:UM6:CLZ:01.RDBD         86400    monitor
+HXX:UM6:CLZ:01.PDBD         86400    monitor
+HXX:UM6:CLZ:01.PREC         86400    monitor
+HXX:UM6:CLZ:01.SBAS         86400    monitor
+HXX:UM6:CLZ:01.SMAX         86400    monitor
+HXX:UM6:CLZ:01.S            86400    monitor
+HXX:UM6:CLZ:01.VBAS         86400    monitor
+HXX:UM6:CLZ:01.VMAX         86400    monitor
+HXX:UM6:CLZ:01.VELO         86400    monitor
+HXX:UM6:CLZ:01.BS           86400    monitor
+HXX:UM6:CLZ:01.BVEL         86400    monitor
+HXX:UM6:CLZ:01.HS           86400    monitor
+HXX:UM6:CLZ:01.HVEL         86400    monitor
+HXX:UM6:CLZ:01.ACCL         86400    monitor
+HXX:UM6:CLZ:01.BACC         86400    monitor
+HXX:UM6:CLZ:01.HACC         86400    monitor
+HXX:UM6:CLZ:01.TWV          86400    monitor
+HXX:UM6:CLZ:01.HOMD         86400    monitor
+HXX:UM6:CLZ:01.EGAG         86400    monitor
+HXX:UM6:CLZ:01.ERBL         86400    monitor
+HXX:UM6:CLZ:01.ESKL         86400    monitor
+
+HXX:UM6:CLZ:01.DLVL         86400    monitor
+
+HXX:UM6:CLZ:01.S1           86400    monitor
+HXX:UM6:CLZ:01.S2           86400    monitor
+HXX:UM6:CLZ:01.S3           86400    monitor
+HXX:UM6:CLZ:01.S4           86400    monitor
+HXX:UM6:CLZ:01.S9           86400    monitor
+
+HXX:UM6:CLZ:01.RES          86400    monitor
+
+HXX:UM6:CLZ:01.VAL          2        monitor
+HXX:UM6:CLZ:01.DVAL         2        monitor
+HXX:UM6:CLZ:01.RVAL         2        monitor
+HXX:UM6:CLZ:01.RRBV         0.2      monitor
+HXX:UM6:CLZ:01.DRBV         0.2      monitor
+HXX:UM6:CLZ:01.RBV          0.2      monitor
+
+HXX:UM6:CLZ:01.ERBV         0.2      monitor
+
+HXX:UM6:CLZ:01.DIFF         0.2      monitor
+
+HXX:UM6:CLZ:01.RCNT         86400    monitor
+HXX:UM6:CLZ:01.MISS         86400    monitor
+
+HXX:UM6:CLZ:01.LLS          86400    monitor
+HXX:UM6:CLZ:01.HLS          86400    monitor
+
+HXX:UM6:CLZ:01.ATHM         86400    monitor
+
+HXX:UM6:CLZ:01.MIP          0.2      monitor
+HXX:UM6:CLZ:01.MOVN         0.2      monitor
+HXX:UM6:CLZ:01.DMOV         0.2      monitor
+HXX:UM6:CLZ:01.MSTA         0.2      monitor
+HXX:UM6:CLZ:01.HCSV         86400    monitor
+
+HXX:UM6:CLZ:01:SAVED_RAW    86400    monitor
+HXX:UM6:CLZ:01:SAVED_P      86400    monitor
+
+HXX:UM6:CLZ:01:FW_MEANS     86400    monitor
+HXX:UM6:CLZ:01:REV_MEANS    86400    monitor
+
+HXX:UM6:CLZ:01:CFG_FILE     86400    monitor
+
+# "3-state" archive list
+HXX:UM6:PIM:DIODE_SET     86400  monitor
+HXX:UM6:PIM:DIODE_DELTA   86400  monitor
+HXX:UM6:PIM:YAG_SET     86400  monitor
+HXX:UM6:PIM:YAG_DELTA   86400  monitor
+HXX:UM6:PIM:OUT_SET     86400  monitor
+HXX:UM6:PIM:OUT_DELTA   86400  monitor
+
+HXX:UM6:PIM.ONST              86400  monitor
+HXX:UM6:PIM.ONSV              86400  monitor
+HXX:UM6:PIM.TWST              86400  monitor
+HXX:UM6:PIM.TWSV              86400  monitor
+HXX:UM6:PIM.THST              86400  monitor
+HXX:UM6:PIM.THSV              86400  monitor
+

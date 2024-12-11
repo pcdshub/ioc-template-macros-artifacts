@@ -1,0 +1,106 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:MEC:EPIX:APP_DIR1 30 monitor 
+IOC:MEC:EPIX:APP_DIR2 30 monitor 
+IOC:MEC:EPIX:BSP_REV 30 monitor
+IOC:MEC:EPIX:CA_CLNT_CNT 1 monitor 
+IOC:MEC:EPIX:CA_CONN_CNT 1 monitor 
+IOC:MEC:EPIX:EPICS_VERS 30 monitor
+IOC:MEC:EPIX:FD_CNT 1 monitor 
+IOC:MEC:EPIX:FD_FREE 1 monitor 
+IOC:MEC:EPIX:FD_MAX 1 monitor 
+IOC:MEC:EPIX:HOSTNAME 30 monitor
+IOC:MEC:EPIX:KERNEL_VERS 30 monitor
+IOC:MEC:EPIX:RECORD_CNT 10 monitor
+IOC:MEC:EPIX:STARTTOD 30 monitor
+IOC:MEC:EPIX:ST_SCRIPT1 30 monitor 
+IOC:MEC:EPIX:ST_SCRIPT2 30 monitor 
+IOC:MEC:EPIX:SUSP_TASK_CNT 30 monitor 
+IOC:MEC:EPIX:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:MEC:EPIX:DAT_MBUF_FREE 10
+IOC:MEC:EPIX:DAT_MBUF_MAX 10
+IOC:MEC:EPIX:LOAD 30 
+IOC:MEC:EPIX:MEM_BLK_FREE 30 
+IOC:MEC:EPIX:MEM_FREE 30 
+IOC:MEC:EPIX:MEM_USED 30 
+IOC:MEC:EPIX:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:MEC:EPIX:SR_rebootStatus			1 monitor
+IOC:MEC:EPIX:SR_status				1 monitor
+IOC:MEC:EPIX:SR_rebootStatusStr		1 monitor
+IOC:MEC:EPIX:SR_statusStr				1 monitor
+IOC:MEC:EPIX:SR_0_Status				1 monitor
+IOC:MEC:EPIX:SR_0_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_1_Status				1 monitor
+IOC:MEC:EPIX:SR_1_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_2_Status				1 monitor
+IOC:MEC:EPIX:SR_2_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_3_Status				1 monitor
+IOC:MEC:EPIX:SR_3_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_4_Status				1 monitor
+IOC:MEC:EPIX:SR_4_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_5_Status				1 monitor
+IOC:MEC:EPIX:SR_5_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_6_Status				1 monitor
+IOC:MEC:EPIX:SR_6_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_7_Status				1 monitor
+IOC:MEC:EPIX:SR_7_StatusStr			1 monitor
+IOC:MEC:EPIX:SR_0_State				1 monitor
+IOC:MEC:EPIX:SR_1_State				1 monitor
+IOC:MEC:EPIX:SR_2_State				1 monitor
+IOC:MEC:EPIX:SR_3_State				1 monitor
+IOC:MEC:EPIX:SR_4_State				1 monitor
+IOC:MEC:EPIX:SR_5_State				1 monitor
+IOC:MEC:EPIX:SR_6_State				1 monitor
+IOC:MEC:EPIX:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:MEC:EPIX:SR_recentlyStr			30 monitor
+IOC:MEC:EPIX:SR_rebootTime			30 monitor
+IOC:MEC:EPIX:SR_0_Name				30 monitor
+IOC:MEC:EPIX:SR_1_Name				30 monitor
+IOC:MEC:EPIX:SR_2_Name				30 monitor
+IOC:MEC:EPIX:SR_3_Name				30 monitor
+IOC:MEC:EPIX:SR_4_Name				30 monitor
+IOC:MEC:EPIX:SR_5_Name				30 monitor
+IOC:MEC:EPIX:SR_6_Name				30 monitor
+IOC:MEC:EPIX:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:MEC:EPIX:SR_heartbeat				30
+IOC:MEC:EPIX:SR_0_Time				30
+IOC:MEC:EPIX:SR_1_Time				30
+IOC:MEC:EPIX:SR_2_Time				30
+IOC:MEC:EPIX:SR_3_Time				30
+IOC:MEC:EPIX:SR_4_Time				30
+IOC:MEC:EPIX:SR_5_Time				30
+IOC:MEC:EPIX:SR_6_Time				30
+IOC:MEC:EPIX:SR_7_Time				30
+
+# Archive values for detector control module
+MEC:EPIX:01:MONSTAT          10        monitor
+MEC:EPIX:01:BIAS             30        monitor
+MEC:EPIX:01:HV_WARNING       30        monitor
+MEC:EPIX:01:HV_ALARM         30        monitor
+MEC:EPIX:01:DLV_WARNING      30        monitor
+MEC:EPIX:01:DLV_ALARM        30        monitor
+MEC:EPIX:01:ALV_WARNING      30        monitor
+MEC:EPIX:01:ALV_ALARM        30        monitor
+MEC:EPIX:01:TEMP_WARNING     30        monitor
+MEC:EPIX:01:TEMP_ALARM       30        monitor
+
+MEC:EPIX:01:TEMP0_DISP       30        monitor
+MEC:EPIX:01:TEMP1_DISP       30        monitor
+MEC:EPIX:01:TEMP2_DISP       30        monitor
+MEC:EPIX:01:TEMP3_DISP       30        monitor
+
+

@@ -1,0 +1,23 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+$$LOOP(HVCARD)
+file iseg_$$(N_CHAN)Ch.archive
+{
+	{
+		P			= "$$MOD_PRE",
+		R			= ":",
+		MODULE_ID	= "$$INDEX",
+		DEV			= "$$MOD_PRE"
+	}
+}
+$$ENDLOOP(HVCARD)

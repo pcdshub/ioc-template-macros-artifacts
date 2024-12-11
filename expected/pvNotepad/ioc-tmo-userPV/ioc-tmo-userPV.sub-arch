@@ -1,0 +1,440 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:VER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:UND    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:SET1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:SET2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REF1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:EPHOTK:REF2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:DPHI_REQUEST    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:MCC:DPHI_STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:ABORT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:LAST_NUM_SHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:USER:BYKIKS:ABORT_EN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:NSHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:NSTEPS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:ISTEP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:ISSCAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:SCANVAR02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MIN02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:SCAN:MAX02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:INT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:BIN:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:STRING:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:FLOAT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sStatus    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sPost1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:VARS:TTZF_sPost2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:TIMETOOL:TTALL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:TIMETOOL:SHM:TTALL    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:1    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:3    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:4    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:5    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:6    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:7    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:8    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:9    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:11    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:12    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:13    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:14    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:HSD:ALIAS:15    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { KFE:MR1K1:Transmisstion    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { TMO:MR2K4:Transmisstion    }
+}

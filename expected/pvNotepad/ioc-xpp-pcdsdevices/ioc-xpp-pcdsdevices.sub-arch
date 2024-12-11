@@ -1,0 +1,165 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS11:lxt:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:delay:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:delay:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:02:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:delay:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:delay:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:01:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:delay:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:delay:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:LAS:MMN:16:OphydOffset    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:22:pseudo:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:22:pseudo:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:24:pseudo:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MMS:24:pseudo:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy_with_vernier:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:energy_with_vernier:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:theta:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:theta:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:wavelength:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { XPP:MON:MPZ:07A:wavelength:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_chi:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_eta:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_phi:OphydReadback    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_chi:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_eta:OphydSetpoint    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { :e_phi:OphydSetpoint    }
+}

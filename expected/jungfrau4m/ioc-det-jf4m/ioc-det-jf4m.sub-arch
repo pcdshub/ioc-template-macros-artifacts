@@ -1,0 +1,23 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file jf4m-ioc.archive
+{
+    { IOC = "IOC:DET:JF4M" }
+}
+
+file slsDetectorJF4M.archive
+{
+    { SLSDET = "DET:JF4M:CTRL" }
+}
+
+file jfpower.archive
+{
+    { JFPWR = "DET:JF4M:PWR" }
+}
+
+file bme280.archive
+{
+    { BME = "DET:JF4M:BME280" }
+}

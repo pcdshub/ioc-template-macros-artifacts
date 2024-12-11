@@ -1,0 +1,1409 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+DET:IOC:DET:MPOD:2:APP_DIR 30 monitor 
+DET:IOC:DET:MPOD:2:APP_DIR1 30 monitor 
+DET:IOC:DET:MPOD:2:APP_DIR2 30 monitor 
+DET:IOC:DET:MPOD:2:CA_CLNT_CNT 1 monitor 
+DET:IOC:DET:MPOD:2:CA_CONN_CNT 1 monitor 
+DET:IOC:DET:MPOD:2:EPICS_VERS 30 monitor
+DET:IOC:DET:MPOD:2:FD_CNT 1 monitor 
+DET:IOC:DET:MPOD:2:FD_FREE 1 monitor 
+DET:IOC:DET:MPOD:2:FD_MAX 1 monitor 
+DET:IOC:DET:MPOD:2:HOSTNAME 30 monitor
+DET:IOC:DET:MPOD:2:KERNEL_VERS 30 monitor
+DET:IOC:DET:MPOD:2:RECORD_CNT 10 monitor
+DET:IOC:DET:MPOD:2:START_CNT 30 monitor
+DET:IOC:DET:MPOD:2:STARTTOD 30 monitor
+DET:IOC:DET:MPOD:2:ST_SCRIPT 30 monitor 
+DET:IOC:DET:MPOD:2:ST_SCRIPT1 30 monitor 
+DET:IOC:DET:MPOD:2:ST_SCRIPT2 30 monitor 
+DET:IOC:DET:MPOD:2:SUSP_TASK_CNT 30 monitor 
+DET:IOC:DET:MPOD:2:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+DET:IOC:DET:MPOD:2:SYS_CPU_LOAD 10
+DET:IOC:DET:MPOD:2:LOAD 10 
+DET:IOC:DET:MPOD:2:MEM_BLK_FREE 10 
+DET:IOC:DET:MPOD:2:MEM_FREE 10 
+DET:IOC:DET:MPOD:2:MEM_USED 10 
+DET:IOC:DET:MPOD:2:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+DET:IOC:DET:MPOD:2:SR_rebootStatus			1 monitor
+DET:IOC:DET:MPOD:2:SR_status				1 monitor
+DET:IOC:DET:MPOD:2:SR_rebootStatusStr		1 monitor
+DET:IOC:DET:MPOD:2:SR_statusStr				1 monitor
+DET:IOC:DET:MPOD:2:SR_0_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_0_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_1_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_1_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_2_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_2_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_3_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_3_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_4_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_4_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_5_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_5_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_6_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_6_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_7_Status				1 monitor
+DET:IOC:DET:MPOD:2:SR_7_StatusStr			1 monitor
+DET:IOC:DET:MPOD:2:SR_0_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_1_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_2_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_3_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_4_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_5_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_6_State				1 monitor
+DET:IOC:DET:MPOD:2:SR_7_State				1 monitor
+
+# Archive these values only when they change
+DET:IOC:DET:MPOD:2:SR_recentlyStr			30 monitor
+DET:IOC:DET:MPOD:2:SR_rebootTime			30 monitor
+DET:IOC:DET:MPOD:2:SR_0_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_1_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_2_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_3_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_4_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_5_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_6_Name				30 monitor
+DET:IOC:DET:MPOD:2:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+DET:IOC:DET:MPOD:2:SR_heartbeat				30
+DET:IOC:DET:MPOD:2:SR_0_Time				30
+DET:IOC:DET:MPOD:2:SR_1_Time				30
+DET:IOC:DET:MPOD:2:SR_2_Time				30
+DET:IOC:DET:MPOD:2:SR_3_Time				30
+DET:IOC:DET:MPOD:2:SR_4_Time				30
+DET:IOC:DET:MPOD:2:SR_5_Time				30
+DET:IOC:DET:MPOD:2:SR_6_Time				30
+DET:IOC:DET:MPOD:2:SR_7_Time				30
+
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:00:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:00:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:00:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:00:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:00:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:00:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:00:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:00:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:00:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:00:GetStatusString		1
+DET:MBL2:MPD:CH:00:GetStatusString		1
+DET:MBL2:MPD:CH:00:Stat_OnOff			1
+DET:MBL2:MPD:CH:00:Stat_Inhibit			1
+DET:MBL2:MPD:CH:00:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:00:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:00:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:00:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:00:Stat_TempHigh			1
+DET:MBL2:MPD:CH:00:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:00:Stat_Bit8			1
+DET:MBL2:MPD:CH:00:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:00:Stat_CurrLim			1
+DET:MBL2:MPD:CH:00:Stat_VRampUp			1
+DET:MBL2:MPD:CH:00:Stat_VRampDown		1
+DET:MBL2:MPD:CH:00:Stat_EnaKill			1
+DET:MBL2:MPD:CH:00:Stat_EmerOff			1
+DET:MBL2:MPD:CH:00:Stat_Bit15			1
+DET:MBL2:MPD:CH:00:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:00:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:00:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:00:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:01:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:01:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:01:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:01:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:01:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:01:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:01:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:01:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:01:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:01:GetStatusString		1
+DET:MBL2:MPD:CH:01:GetStatusString		1
+DET:MBL2:MPD:CH:01:Stat_OnOff			1
+DET:MBL2:MPD:CH:01:Stat_Inhibit			1
+DET:MBL2:MPD:CH:01:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:01:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:01:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:01:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:01:Stat_TempHigh			1
+DET:MBL2:MPD:CH:01:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:01:Stat_Bit8			1
+DET:MBL2:MPD:CH:01:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:01:Stat_CurrLim			1
+DET:MBL2:MPD:CH:01:Stat_VRampUp			1
+DET:MBL2:MPD:CH:01:Stat_VRampDown		1
+DET:MBL2:MPD:CH:01:Stat_EnaKill			1
+DET:MBL2:MPD:CH:01:Stat_EmerOff			1
+DET:MBL2:MPD:CH:01:Stat_Bit15			1
+DET:MBL2:MPD:CH:01:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:01:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:01:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:01:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:02:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:02:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:02:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:02:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:02:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:02:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:02:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:02:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:02:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:02:GetStatusString		1
+DET:MBL2:MPD:CH:02:GetStatusString		1
+DET:MBL2:MPD:CH:02:Stat_OnOff			1
+DET:MBL2:MPD:CH:02:Stat_Inhibit			1
+DET:MBL2:MPD:CH:02:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:02:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:02:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:02:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:02:Stat_TempHigh			1
+DET:MBL2:MPD:CH:02:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:02:Stat_Bit8			1
+DET:MBL2:MPD:CH:02:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:02:Stat_CurrLim			1
+DET:MBL2:MPD:CH:02:Stat_VRampUp			1
+DET:MBL2:MPD:CH:02:Stat_VRampDown		1
+DET:MBL2:MPD:CH:02:Stat_EnaKill			1
+DET:MBL2:MPD:CH:02:Stat_EmerOff			1
+DET:MBL2:MPD:CH:02:Stat_Bit15			1
+DET:MBL2:MPD:CH:02:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:02:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:02:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:02:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:03:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:03:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:03:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:03:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:03:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:03:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:03:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:03:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:03:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:03:GetStatusString		1
+DET:MBL2:MPD:CH:03:GetStatusString		1
+DET:MBL2:MPD:CH:03:Stat_OnOff			1
+DET:MBL2:MPD:CH:03:Stat_Inhibit			1
+DET:MBL2:MPD:CH:03:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:03:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:03:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:03:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:03:Stat_TempHigh			1
+DET:MBL2:MPD:CH:03:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:03:Stat_Bit8			1
+DET:MBL2:MPD:CH:03:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:03:Stat_CurrLim			1
+DET:MBL2:MPD:CH:03:Stat_VRampUp			1
+DET:MBL2:MPD:CH:03:Stat_VRampDown		1
+DET:MBL2:MPD:CH:03:Stat_EnaKill			1
+DET:MBL2:MPD:CH:03:Stat_EmerOff			1
+DET:MBL2:MPD:CH:03:Stat_Bit15			1
+DET:MBL2:MPD:CH:03:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:03:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:03:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:03:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:04:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:04:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:04:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:04:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:04:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:04:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:04:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:04:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:04:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:04:GetStatusString		1
+DET:MBL2:MPD:CH:04:GetStatusString		1
+DET:MBL2:MPD:CH:04:Stat_OnOff			1
+DET:MBL2:MPD:CH:04:Stat_Inhibit			1
+DET:MBL2:MPD:CH:04:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:04:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:04:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:04:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:04:Stat_TempHigh			1
+DET:MBL2:MPD:CH:04:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:04:Stat_Bit8			1
+DET:MBL2:MPD:CH:04:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:04:Stat_CurrLim			1
+DET:MBL2:MPD:CH:04:Stat_VRampUp			1
+DET:MBL2:MPD:CH:04:Stat_VRampDown		1
+DET:MBL2:MPD:CH:04:Stat_EnaKill			1
+DET:MBL2:MPD:CH:04:Stat_EmerOff			1
+DET:MBL2:MPD:CH:04:Stat_Bit15			1
+DET:MBL2:MPD:CH:04:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:04:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:04:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:04:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:05:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:05:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:05:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:05:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:05:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:05:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:05:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:05:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:05:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:05:GetStatusString		1
+DET:MBL2:MPD:CH:05:GetStatusString		1
+DET:MBL2:MPD:CH:05:Stat_OnOff			1
+DET:MBL2:MPD:CH:05:Stat_Inhibit			1
+DET:MBL2:MPD:CH:05:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:05:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:05:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:05:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:05:Stat_TempHigh			1
+DET:MBL2:MPD:CH:05:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:05:Stat_Bit8			1
+DET:MBL2:MPD:CH:05:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:05:Stat_CurrLim			1
+DET:MBL2:MPD:CH:05:Stat_VRampUp			1
+DET:MBL2:MPD:CH:05:Stat_VRampDown		1
+DET:MBL2:MPD:CH:05:Stat_EnaKill			1
+DET:MBL2:MPD:CH:05:Stat_EmerOff			1
+DET:MBL2:MPD:CH:05:Stat_Bit15			1
+DET:MBL2:MPD:CH:05:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:05:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:05:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:05:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:06:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:06:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:06:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:06:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:06:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:06:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:06:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:06:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:06:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:06:GetStatusString		1
+DET:MBL2:MPD:CH:06:GetStatusString		1
+DET:MBL2:MPD:CH:06:Stat_OnOff			1
+DET:MBL2:MPD:CH:06:Stat_Inhibit			1
+DET:MBL2:MPD:CH:06:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:06:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:06:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:06:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:06:Stat_TempHigh			1
+DET:MBL2:MPD:CH:06:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:06:Stat_Bit8			1
+DET:MBL2:MPD:CH:06:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:06:Stat_CurrLim			1
+DET:MBL2:MPD:CH:06:Stat_VRampUp			1
+DET:MBL2:MPD:CH:06:Stat_VRampDown		1
+DET:MBL2:MPD:CH:06:Stat_EnaKill			1
+DET:MBL2:MPD:CH:06:Stat_EmerOff			1
+DET:MBL2:MPD:CH:06:Stat_Bit15			1
+DET:MBL2:MPD:CH:06:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:06:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:06:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:06:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:07:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:07:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:07:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:07:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:07:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:07:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:07:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:07:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:07:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:07:GetStatusString		1
+DET:MBL2:MPD:CH:07:GetStatusString		1
+DET:MBL2:MPD:CH:07:Stat_OnOff			1
+DET:MBL2:MPD:CH:07:Stat_Inhibit			1
+DET:MBL2:MPD:CH:07:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:07:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:07:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:07:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:07:Stat_TempHigh			1
+DET:MBL2:MPD:CH:07:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:07:Stat_Bit8			1
+DET:MBL2:MPD:CH:07:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:07:Stat_CurrLim			1
+DET:MBL2:MPD:CH:07:Stat_VRampUp			1
+DET:MBL2:MPD:CH:07:Stat_VRampDown		1
+DET:MBL2:MPD:CH:07:Stat_EnaKill			1
+DET:MBL2:MPD:CH:07:Stat_EmerOff			1
+DET:MBL2:MPD:CH:07:Stat_Bit15			1
+DET:MBL2:MPD:CH:07:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:07:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:07:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:07:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:08:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:08:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:08:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:08:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:08:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:08:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:08:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:08:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:08:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:08:GetStatusString		1
+DET:MBL2:MPD:CH:08:GetStatusString		1
+DET:MBL2:MPD:CH:08:Stat_OnOff			1
+DET:MBL2:MPD:CH:08:Stat_Inhibit			1
+DET:MBL2:MPD:CH:08:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:08:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:08:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:08:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:08:Stat_TempHigh			1
+DET:MBL2:MPD:CH:08:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:08:Stat_Bit8			1
+DET:MBL2:MPD:CH:08:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:08:Stat_CurrLim			1
+DET:MBL2:MPD:CH:08:Stat_VRampUp			1
+DET:MBL2:MPD:CH:08:Stat_VRampDown		1
+DET:MBL2:MPD:CH:08:Stat_EnaKill			1
+DET:MBL2:MPD:CH:08:Stat_EmerOff			1
+DET:MBL2:MPD:CH:08:Stat_Bit15			1
+DET:MBL2:MPD:CH:08:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:08:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:08:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:08:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:09:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:09:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:09:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:09:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:09:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:09:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:09:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:09:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:09:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:09:GetStatusString		1
+DET:MBL2:MPD:CH:09:GetStatusString		1
+DET:MBL2:MPD:CH:09:Stat_OnOff			1
+DET:MBL2:MPD:CH:09:Stat_Inhibit			1
+DET:MBL2:MPD:CH:09:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:09:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:09:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:09:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:09:Stat_TempHigh			1
+DET:MBL2:MPD:CH:09:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:09:Stat_Bit8			1
+DET:MBL2:MPD:CH:09:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:09:Stat_CurrLim			1
+DET:MBL2:MPD:CH:09:Stat_VRampUp			1
+DET:MBL2:MPD:CH:09:Stat_VRampDown		1
+DET:MBL2:MPD:CH:09:Stat_EnaKill			1
+DET:MBL2:MPD:CH:09:Stat_EmerOff			1
+DET:MBL2:MPD:CH:09:Stat_Bit15			1
+DET:MBL2:MPD:CH:09:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:09:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:09:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:09:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:10:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:10:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:10:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:10:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:10:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:10:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:10:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:10:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:10:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:10:GetStatusString		1
+DET:MBL2:MPD:CH:10:GetStatusString		1
+DET:MBL2:MPD:CH:10:Stat_OnOff			1
+DET:MBL2:MPD:CH:10:Stat_Inhibit			1
+DET:MBL2:MPD:CH:10:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:10:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:10:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:10:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:10:Stat_TempHigh			1
+DET:MBL2:MPD:CH:10:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:10:Stat_Bit8			1
+DET:MBL2:MPD:CH:10:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:10:Stat_CurrLim			1
+DET:MBL2:MPD:CH:10:Stat_VRampUp			1
+DET:MBL2:MPD:CH:10:Stat_VRampDown		1
+DET:MBL2:MPD:CH:10:Stat_EnaKill			1
+DET:MBL2:MPD:CH:10:Stat_EmerOff			1
+DET:MBL2:MPD:CH:10:Stat_Bit15			1
+DET:MBL2:MPD:CH:10:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:10:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:10:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:10:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:11:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:11:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:11:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:11:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:11:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:11:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:11:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:11:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:11:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:11:GetStatusString		1
+DET:MBL2:MPD:CH:11:GetStatusString		1
+DET:MBL2:MPD:CH:11:Stat_OnOff			1
+DET:MBL2:MPD:CH:11:Stat_Inhibit			1
+DET:MBL2:MPD:CH:11:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:11:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:11:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:11:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:11:Stat_TempHigh			1
+DET:MBL2:MPD:CH:11:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:11:Stat_Bit8			1
+DET:MBL2:MPD:CH:11:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:11:Stat_CurrLim			1
+DET:MBL2:MPD:CH:11:Stat_VRampUp			1
+DET:MBL2:MPD:CH:11:Stat_VRampDown		1
+DET:MBL2:MPD:CH:11:Stat_EnaKill			1
+DET:MBL2:MPD:CH:11:Stat_EmerOff			1
+DET:MBL2:MPD:CH:11:Stat_Bit15			1
+DET:MBL2:MPD:CH:11:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:11:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:11:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:11:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:12:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:12:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:12:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:12:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:12:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:12:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:12:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:12:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:12:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:12:GetStatusString		1
+DET:MBL2:MPD:CH:12:GetStatusString		1
+DET:MBL2:MPD:CH:12:Stat_OnOff			1
+DET:MBL2:MPD:CH:12:Stat_Inhibit			1
+DET:MBL2:MPD:CH:12:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:12:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:12:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:12:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:12:Stat_TempHigh			1
+DET:MBL2:MPD:CH:12:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:12:Stat_Bit8			1
+DET:MBL2:MPD:CH:12:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:12:Stat_CurrLim			1
+DET:MBL2:MPD:CH:12:Stat_VRampUp			1
+DET:MBL2:MPD:CH:12:Stat_VRampDown		1
+DET:MBL2:MPD:CH:12:Stat_EnaKill			1
+DET:MBL2:MPD:CH:12:Stat_EmerOff			1
+DET:MBL2:MPD:CH:12:Stat_Bit15			1
+DET:MBL2:MPD:CH:12:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:12:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:12:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:12:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:13:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:13:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:13:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:13:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:13:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:13:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:13:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:13:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:13:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:13:GetStatusString		1
+DET:MBL2:MPD:CH:13:GetStatusString		1
+DET:MBL2:MPD:CH:13:Stat_OnOff			1
+DET:MBL2:MPD:CH:13:Stat_Inhibit			1
+DET:MBL2:MPD:CH:13:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:13:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:13:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:13:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:13:Stat_TempHigh			1
+DET:MBL2:MPD:CH:13:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:13:Stat_Bit8			1
+DET:MBL2:MPD:CH:13:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:13:Stat_CurrLim			1
+DET:MBL2:MPD:CH:13:Stat_VRampUp			1
+DET:MBL2:MPD:CH:13:Stat_VRampDown		1
+DET:MBL2:MPD:CH:13:Stat_EnaKill			1
+DET:MBL2:MPD:CH:13:Stat_EmerOff			1
+DET:MBL2:MPD:CH:13:Stat_Bit15			1
+DET:MBL2:MPD:CH:13:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:13:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:13:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:13:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:14:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:14:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:14:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:14:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:14:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:14:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:14:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:14:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:14:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:14:GetStatusString		1
+DET:MBL2:MPD:CH:14:GetStatusString		1
+DET:MBL2:MPD:CH:14:Stat_OnOff			1
+DET:MBL2:MPD:CH:14:Stat_Inhibit			1
+DET:MBL2:MPD:CH:14:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:14:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:14:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:14:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:14:Stat_TempHigh			1
+DET:MBL2:MPD:CH:14:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:14:Stat_Bit8			1
+DET:MBL2:MPD:CH:14:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:14:Stat_CurrLim			1
+DET:MBL2:MPD:CH:14:Stat_VRampUp			1
+DET:MBL2:MPD:CH:14:Stat_VRampDown		1
+DET:MBL2:MPD:CH:14:Stat_EnaKill			1
+DET:MBL2:MPD:CH:14:Stat_EmerOff			1
+DET:MBL2:MPD:CH:14:Stat_Bit15			1
+DET:MBL2:MPD:CH:14:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:14:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:14:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:14:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:15:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:15:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:15:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:15:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:15:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:15:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:15:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:15:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:15:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:15:GetStatusString		1
+DET:MBL2:MPD:CH:15:GetStatusString		1
+DET:MBL2:MPD:CH:15:Stat_OnOff			1
+DET:MBL2:MPD:CH:15:Stat_Inhibit			1
+DET:MBL2:MPD:CH:15:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:15:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:15:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:15:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:15:Stat_TempHigh			1
+DET:MBL2:MPD:CH:15:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:15:Stat_Bit8			1
+DET:MBL2:MPD:CH:15:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:15:Stat_CurrLim			1
+DET:MBL2:MPD:CH:15:Stat_VRampUp			1
+DET:MBL2:MPD:CH:15:Stat_VRampDown		1
+DET:MBL2:MPD:CH:15:Stat_EnaKill			1
+DET:MBL2:MPD:CH:15:Stat_EmerOff			1
+DET:MBL2:MPD:CH:15:Stat_Bit15			1
+DET:MBL2:MPD:CH:15:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:15:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:15:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:15:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:100:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:100:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:100:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:100:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:100:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:100:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:100:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:100:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:100:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:100:GetStatusString		1
+DET:MBL2:MPD:CH:100:GetStatusString		1
+DET:MBL2:MPD:CH:100:Stat_OnOff			1
+DET:MBL2:MPD:CH:100:Stat_Inhibit			1
+DET:MBL2:MPD:CH:100:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:100:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:100:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:100:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:100:Stat_TempHigh			1
+DET:MBL2:MPD:CH:100:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:100:Stat_Bit8			1
+DET:MBL2:MPD:CH:100:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:100:Stat_CurrLim			1
+DET:MBL2:MPD:CH:100:Stat_VRampUp			1
+DET:MBL2:MPD:CH:100:Stat_VRampDown		1
+DET:MBL2:MPD:CH:100:Stat_EnaKill			1
+DET:MBL2:MPD:CH:100:Stat_EmerOff			1
+DET:MBL2:MPD:CH:100:Stat_Bit15			1
+DET:MBL2:MPD:CH:100:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:100:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:100:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:100:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:101:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:101:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:101:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:101:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:101:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:101:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:101:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:101:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:101:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:101:GetStatusString		1
+DET:MBL2:MPD:CH:101:GetStatusString		1
+DET:MBL2:MPD:CH:101:Stat_OnOff			1
+DET:MBL2:MPD:CH:101:Stat_Inhibit			1
+DET:MBL2:MPD:CH:101:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:101:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:101:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:101:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:101:Stat_TempHigh			1
+DET:MBL2:MPD:CH:101:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:101:Stat_Bit8			1
+DET:MBL2:MPD:CH:101:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:101:Stat_CurrLim			1
+DET:MBL2:MPD:CH:101:Stat_VRampUp			1
+DET:MBL2:MPD:CH:101:Stat_VRampDown		1
+DET:MBL2:MPD:CH:101:Stat_EnaKill			1
+DET:MBL2:MPD:CH:101:Stat_EmerOff			1
+DET:MBL2:MPD:CH:101:Stat_Bit15			1
+DET:MBL2:MPD:CH:101:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:101:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:101:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:101:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:102:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:102:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:102:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:102:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:102:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:102:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:102:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:102:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:102:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:102:GetStatusString		1
+DET:MBL2:MPD:CH:102:GetStatusString		1
+DET:MBL2:MPD:CH:102:Stat_OnOff			1
+DET:MBL2:MPD:CH:102:Stat_Inhibit			1
+DET:MBL2:MPD:CH:102:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:102:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:102:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:102:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:102:Stat_TempHigh			1
+DET:MBL2:MPD:CH:102:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:102:Stat_Bit8			1
+DET:MBL2:MPD:CH:102:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:102:Stat_CurrLim			1
+DET:MBL2:MPD:CH:102:Stat_VRampUp			1
+DET:MBL2:MPD:CH:102:Stat_VRampDown		1
+DET:MBL2:MPD:CH:102:Stat_EnaKill			1
+DET:MBL2:MPD:CH:102:Stat_EmerOff			1
+DET:MBL2:MPD:CH:102:Stat_Bit15			1
+DET:MBL2:MPD:CH:102:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:102:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:102:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:102:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:103:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:103:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:103:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:103:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:103:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:103:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:103:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:103:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:103:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:103:GetStatusString		1
+DET:MBL2:MPD:CH:103:GetStatusString		1
+DET:MBL2:MPD:CH:103:Stat_OnOff			1
+DET:MBL2:MPD:CH:103:Stat_Inhibit			1
+DET:MBL2:MPD:CH:103:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:103:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:103:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:103:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:103:Stat_TempHigh			1
+DET:MBL2:MPD:CH:103:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:103:Stat_Bit8			1
+DET:MBL2:MPD:CH:103:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:103:Stat_CurrLim			1
+DET:MBL2:MPD:CH:103:Stat_VRampUp			1
+DET:MBL2:MPD:CH:103:Stat_VRampDown		1
+DET:MBL2:MPD:CH:103:Stat_EnaKill			1
+DET:MBL2:MPD:CH:103:Stat_EmerOff			1
+DET:MBL2:MPD:CH:103:Stat_Bit15			1
+DET:MBL2:MPD:CH:103:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:103:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:103:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:103:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:104:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:104:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:104:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:104:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:104:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:104:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:104:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:104:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:104:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:104:GetStatusString		1
+DET:MBL2:MPD:CH:104:GetStatusString		1
+DET:MBL2:MPD:CH:104:Stat_OnOff			1
+DET:MBL2:MPD:CH:104:Stat_Inhibit			1
+DET:MBL2:MPD:CH:104:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:104:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:104:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:104:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:104:Stat_TempHigh			1
+DET:MBL2:MPD:CH:104:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:104:Stat_Bit8			1
+DET:MBL2:MPD:CH:104:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:104:Stat_CurrLim			1
+DET:MBL2:MPD:CH:104:Stat_VRampUp			1
+DET:MBL2:MPD:CH:104:Stat_VRampDown		1
+DET:MBL2:MPD:CH:104:Stat_EnaKill			1
+DET:MBL2:MPD:CH:104:Stat_EmerOff			1
+DET:MBL2:MPD:CH:104:Stat_Bit15			1
+DET:MBL2:MPD:CH:104:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:104:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:104:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:104:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:105:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:105:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:105:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:105:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:105:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:105:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:105:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:105:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:105:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:105:GetStatusString		1
+DET:MBL2:MPD:CH:105:GetStatusString		1
+DET:MBL2:MPD:CH:105:Stat_OnOff			1
+DET:MBL2:MPD:CH:105:Stat_Inhibit			1
+DET:MBL2:MPD:CH:105:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:105:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:105:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:105:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:105:Stat_TempHigh			1
+DET:MBL2:MPD:CH:105:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:105:Stat_Bit8			1
+DET:MBL2:MPD:CH:105:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:105:Stat_CurrLim			1
+DET:MBL2:MPD:CH:105:Stat_VRampUp			1
+DET:MBL2:MPD:CH:105:Stat_VRampDown		1
+DET:MBL2:MPD:CH:105:Stat_EnaKill			1
+DET:MBL2:MPD:CH:105:Stat_EmerOff			1
+DET:MBL2:MPD:CH:105:Stat_Bit15			1
+DET:MBL2:MPD:CH:105:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:105:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:105:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:105:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:106:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:106:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:106:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:106:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:106:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:106:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:106:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:106:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:106:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:106:GetStatusString		1
+DET:MBL2:MPD:CH:106:GetStatusString		1
+DET:MBL2:MPD:CH:106:Stat_OnOff			1
+DET:MBL2:MPD:CH:106:Stat_Inhibit			1
+DET:MBL2:MPD:CH:106:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:106:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:106:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:106:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:106:Stat_TempHigh			1
+DET:MBL2:MPD:CH:106:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:106:Stat_Bit8			1
+DET:MBL2:MPD:CH:106:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:106:Stat_CurrLim			1
+DET:MBL2:MPD:CH:106:Stat_VRampUp			1
+DET:MBL2:MPD:CH:106:Stat_VRampDown		1
+DET:MBL2:MPD:CH:106:Stat_EnaKill			1
+DET:MBL2:MPD:CH:106:Stat_EmerOff			1
+DET:MBL2:MPD:CH:106:Stat_Bit15			1
+DET:MBL2:MPD:CH:106:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:106:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:106:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:106:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:107:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:107:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:107:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:107:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:107:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:107:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:107:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:107:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:107:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:107:GetStatusString		1
+DET:MBL2:MPD:CH:107:GetStatusString		1
+DET:MBL2:MPD:CH:107:Stat_OnOff			1
+DET:MBL2:MPD:CH:107:Stat_Inhibit			1
+DET:MBL2:MPD:CH:107:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:107:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:107:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:107:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:107:Stat_TempHigh			1
+DET:MBL2:MPD:CH:107:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:107:Stat_Bit8			1
+DET:MBL2:MPD:CH:107:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:107:Stat_CurrLim			1
+DET:MBL2:MPD:CH:107:Stat_VRampUp			1
+DET:MBL2:MPD:CH:107:Stat_VRampDown		1
+DET:MBL2:MPD:CH:107:Stat_EnaKill			1
+DET:MBL2:MPD:CH:107:Stat_EmerOff			1
+DET:MBL2:MPD:CH:107:Stat_Bit15			1
+DET:MBL2:MPD:CH:107:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:107:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:107:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:107:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:200:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:200:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:200:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:200:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:200:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:200:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:200:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:200:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:200:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:200:GetStatusString		1
+DET:MBL2:MPD:CH:200:GetStatusString		1
+DET:MBL2:MPD:CH:200:Stat_OnOff			1
+DET:MBL2:MPD:CH:200:Stat_Inhibit			1
+DET:MBL2:MPD:CH:200:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:200:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:200:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:200:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:200:Stat_TempHigh			1
+DET:MBL2:MPD:CH:200:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:200:Stat_Bit8			1
+DET:MBL2:MPD:CH:200:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:200:Stat_CurrLim			1
+DET:MBL2:MPD:CH:200:Stat_VRampUp			1
+DET:MBL2:MPD:CH:200:Stat_VRampDown		1
+DET:MBL2:MPD:CH:200:Stat_EnaKill			1
+DET:MBL2:MPD:CH:200:Stat_EmerOff			1
+DET:MBL2:MPD:CH:200:Stat_Bit15			1
+DET:MBL2:MPD:CH:200:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:200:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:200:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:200:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:201:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:201:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:201:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:201:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:201:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:201:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:201:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:201:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:201:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:201:GetStatusString		1
+DET:MBL2:MPD:CH:201:GetStatusString		1
+DET:MBL2:MPD:CH:201:Stat_OnOff			1
+DET:MBL2:MPD:CH:201:Stat_Inhibit			1
+DET:MBL2:MPD:CH:201:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:201:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:201:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:201:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:201:Stat_TempHigh			1
+DET:MBL2:MPD:CH:201:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:201:Stat_Bit8			1
+DET:MBL2:MPD:CH:201:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:201:Stat_CurrLim			1
+DET:MBL2:MPD:CH:201:Stat_VRampUp			1
+DET:MBL2:MPD:CH:201:Stat_VRampDown		1
+DET:MBL2:MPD:CH:201:Stat_EnaKill			1
+DET:MBL2:MPD:CH:201:Stat_EmerOff			1
+DET:MBL2:MPD:CH:201:Stat_Bit15			1
+DET:MBL2:MPD:CH:201:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:201:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:201:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:201:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:202:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:202:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:202:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:202:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:202:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:202:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:202:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:202:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:202:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:202:GetStatusString		1
+DET:MBL2:MPD:CH:202:GetStatusString		1
+DET:MBL2:MPD:CH:202:Stat_OnOff			1
+DET:MBL2:MPD:CH:202:Stat_Inhibit			1
+DET:MBL2:MPD:CH:202:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:202:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:202:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:202:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:202:Stat_TempHigh			1
+DET:MBL2:MPD:CH:202:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:202:Stat_Bit8			1
+DET:MBL2:MPD:CH:202:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:202:Stat_CurrLim			1
+DET:MBL2:MPD:CH:202:Stat_VRampUp			1
+DET:MBL2:MPD:CH:202:Stat_VRampDown		1
+DET:MBL2:MPD:CH:202:Stat_EnaKill			1
+DET:MBL2:MPD:CH:202:Stat_EmerOff			1
+DET:MBL2:MPD:CH:202:Stat_Bit15			1
+DET:MBL2:MPD:CH:202:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:202:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:202:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:202:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:203:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:203:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:203:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:203:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:203:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:203:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:203:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:203:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:203:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:203:GetStatusString		1
+DET:MBL2:MPD:CH:203:GetStatusString		1
+DET:MBL2:MPD:CH:203:Stat_OnOff			1
+DET:MBL2:MPD:CH:203:Stat_Inhibit			1
+DET:MBL2:MPD:CH:203:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:203:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:203:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:203:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:203:Stat_TempHigh			1
+DET:MBL2:MPD:CH:203:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:203:Stat_Bit8			1
+DET:MBL2:MPD:CH:203:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:203:Stat_CurrLim			1
+DET:MBL2:MPD:CH:203:Stat_VRampUp			1
+DET:MBL2:MPD:CH:203:Stat_VRampDown		1
+DET:MBL2:MPD:CH:203:Stat_EnaKill			1
+DET:MBL2:MPD:CH:203:Stat_EmerOff			1
+DET:MBL2:MPD:CH:203:Stat_Bit15			1
+DET:MBL2:MPD:CH:203:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:203:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:203:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:203:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:204:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:204:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:204:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:204:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:204:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:204:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:204:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:204:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:204:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:204:GetStatusString		1
+DET:MBL2:MPD:CH:204:GetStatusString		1
+DET:MBL2:MPD:CH:204:Stat_OnOff			1
+DET:MBL2:MPD:CH:204:Stat_Inhibit			1
+DET:MBL2:MPD:CH:204:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:204:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:204:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:204:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:204:Stat_TempHigh			1
+DET:MBL2:MPD:CH:204:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:204:Stat_Bit8			1
+DET:MBL2:MPD:CH:204:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:204:Stat_CurrLim			1
+DET:MBL2:MPD:CH:204:Stat_VRampUp			1
+DET:MBL2:MPD:CH:204:Stat_VRampDown		1
+DET:MBL2:MPD:CH:204:Stat_EnaKill			1
+DET:MBL2:MPD:CH:204:Stat_EmerOff			1
+DET:MBL2:MPD:CH:204:Stat_Bit15			1
+DET:MBL2:MPD:CH:204:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:204:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:204:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:204:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:205:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:205:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:205:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:205:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:205:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:205:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:205:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:205:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:205:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:205:GetStatusString		1
+DET:MBL2:MPD:CH:205:GetStatusString		1
+DET:MBL2:MPD:CH:205:Stat_OnOff			1
+DET:MBL2:MPD:CH:205:Stat_Inhibit			1
+DET:MBL2:MPD:CH:205:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:205:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:205:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:205:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:205:Stat_TempHigh			1
+DET:MBL2:MPD:CH:205:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:205:Stat_Bit8			1
+DET:MBL2:MPD:CH:205:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:205:Stat_CurrLim			1
+DET:MBL2:MPD:CH:205:Stat_VRampUp			1
+DET:MBL2:MPD:CH:205:Stat_VRampDown		1
+DET:MBL2:MPD:CH:205:Stat_EnaKill			1
+DET:MBL2:MPD:CH:205:Stat_EmerOff			1
+DET:MBL2:MPD:CH:205:Stat_Bit15			1
+DET:MBL2:MPD:CH:205:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:205:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:205:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:205:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:206:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:206:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:206:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:206:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:206:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:206:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:206:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:206:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:206:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:206:GetStatusString		1
+DET:MBL2:MPD:CH:206:GetStatusString		1
+DET:MBL2:MPD:CH:206:Stat_OnOff			1
+DET:MBL2:MPD:CH:206:Stat_Inhibit			1
+DET:MBL2:MPD:CH:206:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:206:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:206:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:206:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:206:Stat_TempHigh			1
+DET:MBL2:MPD:CH:206:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:206:Stat_Bit8			1
+DET:MBL2:MPD:CH:206:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:206:Stat_CurrLim			1
+DET:MBL2:MPD:CH:206:Stat_VRampUp			1
+DET:MBL2:MPD:CH:206:Stat_VRampDown		1
+DET:MBL2:MPD:CH:206:Stat_EnaKill			1
+DET:MBL2:MPD:CH:206:Stat_EmerOff			1
+DET:MBL2:MPD:CH:206:Stat_Bit15			1
+DET:MBL2:MPD:CH:206:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:206:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:206:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:206:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:207:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:207:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:207:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:207:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:207:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:207:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:207:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:207:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:207:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:207:GetStatusString		1
+DET:MBL2:MPD:CH:207:GetStatusString		1
+DET:MBL2:MPD:CH:207:Stat_OnOff			1
+DET:MBL2:MPD:CH:207:Stat_Inhibit			1
+DET:MBL2:MPD:CH:207:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:207:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:207:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:207:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:207:Stat_TempHigh			1
+DET:MBL2:MPD:CH:207:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:207:Stat_Bit8			1
+DET:MBL2:MPD:CH:207:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:207:Stat_CurrLim			1
+DET:MBL2:MPD:CH:207:Stat_VRampUp			1
+DET:MBL2:MPD:CH:207:Stat_VRampDown		1
+DET:MBL2:MPD:CH:207:Stat_EnaKill			1
+DET:MBL2:MPD:CH:207:Stat_EmerOff			1
+DET:MBL2:MPD:CH:207:Stat_Bit15			1
+DET:MBL2:MPD:CH:207:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:207:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:207:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:207:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:300:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:300:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:300:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:300:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:300:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:300:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:300:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:300:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:300:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:300:GetStatusString		1
+DET:MBL2:MPD:CH:300:GetStatusString		1
+DET:MBL2:MPD:CH:300:Stat_OnOff			1
+DET:MBL2:MPD:CH:300:Stat_Inhibit			1
+DET:MBL2:MPD:CH:300:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:300:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:300:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:300:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:300:Stat_TempHigh			1
+DET:MBL2:MPD:CH:300:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:300:Stat_Bit8			1
+DET:MBL2:MPD:CH:300:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:300:Stat_CurrLim			1
+DET:MBL2:MPD:CH:300:Stat_VRampUp			1
+DET:MBL2:MPD:CH:300:Stat_VRampDown		1
+DET:MBL2:MPD:CH:300:Stat_EnaKill			1
+DET:MBL2:MPD:CH:300:Stat_EmerOff			1
+DET:MBL2:MPD:CH:300:Stat_Bit15			1
+DET:MBL2:MPD:CH:300:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:300:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:300:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:300:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:301:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:301:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:301:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:301:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:301:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:301:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:301:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:301:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:301:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:301:GetStatusString		1
+DET:MBL2:MPD:CH:301:GetStatusString		1
+DET:MBL2:MPD:CH:301:Stat_OnOff			1
+DET:MBL2:MPD:CH:301:Stat_Inhibit			1
+DET:MBL2:MPD:CH:301:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:301:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:301:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:301:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:301:Stat_TempHigh			1
+DET:MBL2:MPD:CH:301:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:301:Stat_Bit8			1
+DET:MBL2:MPD:CH:301:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:301:Stat_CurrLim			1
+DET:MBL2:MPD:CH:301:Stat_VRampUp			1
+DET:MBL2:MPD:CH:301:Stat_VRampDown		1
+DET:MBL2:MPD:CH:301:Stat_EnaKill			1
+DET:MBL2:MPD:CH:301:Stat_EmerOff			1
+DET:MBL2:MPD:CH:301:Stat_Bit15			1
+DET:MBL2:MPD:CH:301:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:301:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:301:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:301:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:302:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:302:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:302:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:302:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:302:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:302:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:302:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:302:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:302:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:302:GetStatusString		1
+DET:MBL2:MPD:CH:302:GetStatusString		1
+DET:MBL2:MPD:CH:302:Stat_OnOff			1
+DET:MBL2:MPD:CH:302:Stat_Inhibit			1
+DET:MBL2:MPD:CH:302:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:302:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:302:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:302:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:302:Stat_TempHigh			1
+DET:MBL2:MPD:CH:302:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:302:Stat_Bit8			1
+DET:MBL2:MPD:CH:302:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:302:Stat_CurrLim			1
+DET:MBL2:MPD:CH:302:Stat_VRampUp			1
+DET:MBL2:MPD:CH:302:Stat_VRampDown		1
+DET:MBL2:MPD:CH:302:Stat_EnaKill			1
+DET:MBL2:MPD:CH:302:Stat_EmerOff			1
+DET:MBL2:MPD:CH:302:Stat_Bit15			1
+DET:MBL2:MPD:CH:302:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:302:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:302:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:302:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:303:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:303:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:303:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:303:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:303:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:303:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:303:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:303:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:303:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:303:GetStatusString		1
+DET:MBL2:MPD:CH:303:GetStatusString		1
+DET:MBL2:MPD:CH:303:Stat_OnOff			1
+DET:MBL2:MPD:CH:303:Stat_Inhibit			1
+DET:MBL2:MPD:CH:303:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:303:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:303:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:303:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:303:Stat_TempHigh			1
+DET:MBL2:MPD:CH:303:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:303:Stat_Bit8			1
+DET:MBL2:MPD:CH:303:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:303:Stat_CurrLim			1
+DET:MBL2:MPD:CH:303:Stat_VRampUp			1
+DET:MBL2:MPD:CH:303:Stat_VRampDown		1
+DET:MBL2:MPD:CH:303:Stat_EnaKill			1
+DET:MBL2:MPD:CH:303:Stat_EmerOff			1
+DET:MBL2:MPD:CH:303:Stat_Bit15			1
+DET:MBL2:MPD:CH:303:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:303:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:303:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:303:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:304:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:304:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:304:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:304:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:304:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:304:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:304:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:304:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:304:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:304:GetStatusString		1
+DET:MBL2:MPD:CH:304:GetStatusString		1
+DET:MBL2:MPD:CH:304:Stat_OnOff			1
+DET:MBL2:MPD:CH:304:Stat_Inhibit			1
+DET:MBL2:MPD:CH:304:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:304:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:304:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:304:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:304:Stat_TempHigh			1
+DET:MBL2:MPD:CH:304:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:304:Stat_Bit8			1
+DET:MBL2:MPD:CH:304:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:304:Stat_CurrLim			1
+DET:MBL2:MPD:CH:304:Stat_VRampUp			1
+DET:MBL2:MPD:CH:304:Stat_VRampDown		1
+DET:MBL2:MPD:CH:304:Stat_EnaKill			1
+DET:MBL2:MPD:CH:304:Stat_EmerOff			1
+DET:MBL2:MPD:CH:304:Stat_Bit15			1
+DET:MBL2:MPD:CH:304:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:304:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:304:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:304:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:305:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:305:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:305:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:305:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:305:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:305:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:305:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:305:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:305:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:305:GetStatusString		1
+DET:MBL2:MPD:CH:305:GetStatusString		1
+DET:MBL2:MPD:CH:305:Stat_OnOff			1
+DET:MBL2:MPD:CH:305:Stat_Inhibit			1
+DET:MBL2:MPD:CH:305:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:305:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:305:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:305:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:305:Stat_TempHigh			1
+DET:MBL2:MPD:CH:305:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:305:Stat_Bit8			1
+DET:MBL2:MPD:CH:305:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:305:Stat_CurrLim			1
+DET:MBL2:MPD:CH:305:Stat_VRampUp			1
+DET:MBL2:MPD:CH:305:Stat_VRampDown		1
+DET:MBL2:MPD:CH:305:Stat_EnaKill			1
+DET:MBL2:MPD:CH:305:Stat_EmerOff			1
+DET:MBL2:MPD:CH:305:Stat_Bit15			1
+DET:MBL2:MPD:CH:305:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:305:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:305:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:305:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:306:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:306:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:306:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:306:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:306:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:306:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:306:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:306:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:306:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:306:GetStatusString		1
+DET:MBL2:MPD:CH:306:GetStatusString		1
+DET:MBL2:MPD:CH:306:Stat_OnOff			1
+DET:MBL2:MPD:CH:306:Stat_Inhibit			1
+DET:MBL2:MPD:CH:306:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:306:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:306:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:306:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:306:Stat_TempHigh			1
+DET:MBL2:MPD:CH:306:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:306:Stat_Bit8			1
+DET:MBL2:MPD:CH:306:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:306:Stat_CurrLim			1
+DET:MBL2:MPD:CH:306:Stat_VRampUp			1
+DET:MBL2:MPD:CH:306:Stat_VRampDown		1
+DET:MBL2:MPD:CH:306:Stat_EnaKill			1
+DET:MBL2:MPD:CH:306:Stat_EmerOff			1
+DET:MBL2:MPD:CH:306:Stat_Bit15			1
+DET:MBL2:MPD:CH:306:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:306:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:306:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:306:SetVoltage.DESC		10
+# Archive values for mpod channel
+DET:MBL2:MPD:CH:307:GetCurrent			1		monitor
+DET:MBL2:MPD:CH:307:GetVoltage			1		monitor
+DET:MBL2:MPD:CH:307:SetCurrent			1		monitor
+DET:MBL2:MPD:CH:307:SetCurrent_snmp		1		monitor
+DET:MBL2:MPD:CH:307:SetSwitch			1		monitor
+DET:MBL2:MPD:CH:307:SetVoltage			1		monitor
+DET:MBL2:MPD:CH:307:GetCurrentMeasurement		1
+DET:MBL2:MPD:CH:307:GetTerminalVoltageMeasurement	1
+DET:MBL2:MPD:CH:307:GetVoltageMeasurement		1
+DET:MBL2:MPD:CH:307:GetStatusString		1
+DET:MBL2:MPD:CH:307:GetStatusString		1
+DET:MBL2:MPD:CH:307:Stat_OnOff			1
+DET:MBL2:MPD:CH:307:Stat_Inhibit			1
+DET:MBL2:MPD:CH:307:Stat_VSenseLow		1
+DET:MBL2:MPD:CH:307:Stat_VSenseHigh		1
+DET:MBL2:MPD:CH:307:Stat_VTermHigh		1
+DET:MBL2:MPD:CH:307:Stat_CurrHigh			1
+DET:MBL2:MPD:CH:307:Stat_TempHigh			1
+DET:MBL2:MPD:CH:307:Stat_PowerHigh		1
+DET:MBL2:MPD:CH:307:Stat_Bit8			1
+DET:MBL2:MPD:CH:307:Stat_CommTimeout		1
+DET:MBL2:MPD:CH:307:Stat_CurrLim			1
+DET:MBL2:MPD:CH:307:Stat_VRampUp			1
+DET:MBL2:MPD:CH:307:Stat_VRampDown		1
+DET:MBL2:MPD:CH:307:Stat_EnaKill			1
+DET:MBL2:MPD:CH:307:Stat_EmerOff			1
+DET:MBL2:MPD:CH:307:Stat_Bit15			1
+DET:MBL2:MPD:CH:307:Alarm_OnOffRamp		1
+DET:MBL2:MPD:CH:307:Alarm_MinMax			1
+
+DET:MBL2:MPD:CH:307:GetVoltage.DESC		10
+DET:MBL2:MPD:CH:307:SetVoltage.DESC		10

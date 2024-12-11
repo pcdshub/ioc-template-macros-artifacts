@@ -1,0 +1,15 @@
+# AgilentE3648A IOC instance archive file
+
+# Generate archive PV list for IOC
+file AgilentE3648A-ioc.archive
+{
+    { IOC = "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" }
+}
+
+# Generate archive PV list for each serial device
+$$LOOP(AGILENT)
+file AgilentE3648A.archive
+{
+    { DEV = "$$PV" } 
+}
+$$ENDLOOP(AGILENT)

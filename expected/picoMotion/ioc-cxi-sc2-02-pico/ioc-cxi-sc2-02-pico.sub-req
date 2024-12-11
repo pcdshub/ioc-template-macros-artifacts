@@ -1,0 +1,14 @@
+# Generate motor postions PV list for each motor
+# Note: Motor positions are not always restored automatically
+file autosave-pico-positions.tpl-req
+{
+
+        {MOTOR = CXI:LAS:PIC:07}
+        {MOTOR = CXI:LAS:PIC:08}
+        {MOTOR = CXI:LAS:PIC:09}
+        {MOTOR = CXI:LAS:PIC:10}
+        {MOTOR = CXI:LAS:PIC:11}
+        {MOTOR = CXI:LAS:PIC:12}
+
+}
+

@@ -1,0 +1,6 @@
+# Generate autosave request 
+file XPS8_arbitrary_autosave.tpl-req
+{
+    { DEVICE="CXI:DET2:MCN", POS1="CXI:LAS:MMN:18", POS2="CXI:DSD:MMN:02", POS3="CXI:DSD:MMN:03", POS4="CXI:DSD:MMN:04", POS5="CXI:DSD:MMN:05", POS6="CXI:DSD:MMN:06", POS7="CXI:DSD:MMN:07", POS8="CXI:DSD:MMN:08" }
+}
+

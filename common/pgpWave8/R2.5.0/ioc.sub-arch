@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "$$IOC_PV", PREFIX = "$$PGP_PV" }
+}
+

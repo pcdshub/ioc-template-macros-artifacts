@@ -1,0 +1,108 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:CXI:DSD:CHL:APP_DIR 30 monitor 
+IOC:CXI:DSD:CHL:APP_DIR1 30 monitor 
+IOC:CXI:DSD:CHL:APP_DIR2 30 monitor 
+IOC:CXI:DSD:CHL:CA_CLNT_CNT 1 monitor 
+IOC:CXI:DSD:CHL:CA_CONN_CNT 1 monitor 
+IOC:CXI:DSD:CHL:EPICS_VERS 30 monitor
+IOC:CXI:DSD:CHL:FD_CNT 1 monitor 
+IOC:CXI:DSD:CHL:FD_FREE 1 monitor 
+IOC:CXI:DSD:CHL:FD_MAX 1 monitor 
+IOC:CXI:DSD:CHL:HOSTNAME 30 monitor
+IOC:CXI:DSD:CHL:KERNEL_VERS 30 monitor
+IOC:CXI:DSD:CHL:RECORD_CNT 10 monitor
+IOC:CXI:DSD:CHL:START_CNT 30 monitor
+IOC:CXI:DSD:CHL:STARTTOD 30 monitor
+IOC:CXI:DSD:CHL:ST_SCRIPT 30 monitor 
+IOC:CXI:DSD:CHL:ST_SCRIPT1 30 monitor 
+IOC:CXI:DSD:CHL:ST_SCRIPT2 30 monitor 
+IOC:CXI:DSD:CHL:SUSP_TASK_CNT 30 monitor 
+IOC:CXI:DSD:CHL:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:CXI:DSD:CHL:SYS_CPU_LOAD 10
+IOC:CXI:DSD:CHL:LOAD 10 
+IOC:CXI:DSD:CHL:MEM_BLK_FREE 10 
+IOC:CXI:DSD:CHL:MEM_FREE 10 
+IOC:CXI:DSD:CHL:MEM_USED 10 
+IOC:CXI:DSD:CHL:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:CXI:DSD:CHL:SR_rebootStatus			1 monitor
+IOC:CXI:DSD:CHL:SR_status				1 monitor
+IOC:CXI:DSD:CHL:SR_rebootStatusStr		1 monitor
+IOC:CXI:DSD:CHL:SR_statusStr				1 monitor
+IOC:CXI:DSD:CHL:SR_0_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_0_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_1_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_1_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_2_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_2_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_3_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_3_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_4_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_4_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_5_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_5_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_6_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_6_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_7_Status				1 monitor
+IOC:CXI:DSD:CHL:SR_7_StatusStr			1 monitor
+IOC:CXI:DSD:CHL:SR_0_State				1 monitor
+IOC:CXI:DSD:CHL:SR_1_State				1 monitor
+IOC:CXI:DSD:CHL:SR_2_State				1 monitor
+IOC:CXI:DSD:CHL:SR_3_State				1 monitor
+IOC:CXI:DSD:CHL:SR_4_State				1 monitor
+IOC:CXI:DSD:CHL:SR_5_State				1 monitor
+IOC:CXI:DSD:CHL:SR_6_State				1 monitor
+IOC:CXI:DSD:CHL:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:CXI:DSD:CHL:SR_recentlyStr			30 monitor
+IOC:CXI:DSD:CHL:SR_rebootTime			30 monitor
+IOC:CXI:DSD:CHL:SR_0_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_1_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_2_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_3_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_4_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_5_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_6_Name				30 monitor
+IOC:CXI:DSD:CHL:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:CXI:DSD:CHL:SR_heartbeat				30
+IOC:CXI:DSD:CHL:SR_0_Time				30
+IOC:CXI:DSD:CHL:SR_1_Time				30
+IOC:CXI:DSD:CHL:SR_2_Time				30
+IOC:CXI:DSD:CHL:SR_3_Time				30
+IOC:CXI:DSD:CHL:SR_4_Time				30
+IOC:CXI:DSD:CHL:SR_5_Time				30
+IOC:CXI:DSD:CHL:SR_6_Time				30
+IOC:CXI:DSD:CHL:SR_7_Time				30
+
+# Archive these chiller state values only when they change
+CXI:DSD:MODE             30 monitor
+CXI:DSD:PUMP_STATE       30 monitor
+CXI:DSD:MON:FAN			30 monitor
+CXI:DSD:MON:PUMP			30 monitor
+CXI:DSD:MON:RTD:OPN		30 monitor
+CXI:DSD:MON:RTD:SHR		30 monitor
+CXI:DSD:MON:TANK			30 monitor
+CXI:DSD:TEMPERATURE		30 monitor
+CXI:DSD:TEMPERATURE_C    30 monitor
+CXI:DSD:SETPOINT         30 monitor
+CXI:DSD:SETPOINT_C       30 monitor
+CXI:DSD:NEW_SETPOINT     30 monitor
+CXI:DSD:NEW_SETPOINT_C   30 monitor
+
+# Archive these flowmeter values only when they change
+CXI:DSD:FLOW_METER                  30 monitor
+CXI:DSD:FLOW_METER:MON              30 monitor
+

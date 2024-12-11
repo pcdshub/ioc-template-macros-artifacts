@@ -1,0 +1,8 @@
+# Generate archive request 
+file mmca_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            
+            { CXI:SC2:MMC:11 }
+            }
+

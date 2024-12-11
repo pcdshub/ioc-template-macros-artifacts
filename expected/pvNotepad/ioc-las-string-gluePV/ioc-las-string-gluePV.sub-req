@@ -1,0 +1,252 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:11    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:12    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:13    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:14    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:15    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:16    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:17    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:18    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:19    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:20    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:21    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:22    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:23    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:24    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:25    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:26    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:27    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:28    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:29    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:30    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:31    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:32    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:33    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:34    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:35    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:36    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:37    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:38    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:39    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:40    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:41    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:42    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:43    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:44    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:45    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:46    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:47    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:48    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:49    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:50    }
+}
+

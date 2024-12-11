@@ -1,0 +1,89 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:MEC:HMP:01:APP_DIR1 30 monitor 
+IOC:MEC:HMP:01:APP_DIR2 30 monitor 
+IOC:MEC:HMP:01:BSP_REV 30 monitor
+IOC:MEC:HMP:01:CA_CLNT_CNT 1 monitor 
+IOC:MEC:HMP:01:CA_CONN_CNT 1 monitor 
+IOC:MEC:HMP:01:EPICS_VERS 30 monitor
+IOC:MEC:HMP:01:FD_CNT 1 monitor 
+IOC:MEC:HMP:01:FD_FREE 1 monitor 
+IOC:MEC:HMP:01:FD_MAX 1 monitor 
+IOC:MEC:HMP:01:HOSTNAME 30 monitor
+IOC:MEC:HMP:01:KERNEL_VERS 30 monitor
+IOC:MEC:HMP:01:RECORD_CNT 10 monitor
+IOC:MEC:HMP:01:STARTTOD 30 monitor
+IOC:MEC:HMP:01:ST_SCRIPT1 30 monitor 
+IOC:MEC:HMP:01:ST_SCRIPT2 30 monitor 
+IOC:MEC:HMP:01:SUSP_TASK_CNT 30 monitor 
+IOC:MEC:HMP:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:MEC:HMP:01:DAT_MBUF_FREE 10
+IOC:MEC:HMP:01:DAT_MBUF_MAX 10
+IOC:MEC:HMP:01:LOAD 30 
+IOC:MEC:HMP:01:MEM_BLK_FREE 30 
+IOC:MEC:HMP:01:MEM_FREE 30 
+IOC:MEC:HMP:01:MEM_USED 30 
+IOC:MEC:HMP:01:SYS_MBUF_FREE 30 
+# R&S HMP Supply Archive List
+MEC:HMP:01:IDN          300 monitor
+MEC:HMP:01:OUTPUT       10  monitor
+MEC:HMP:01:OUTPUT_RBV   1   monitor
+# R&S HMP Supply voltage Channel 1 Archive List
+MEC:HMP:01:1:VOLT          1   monitor
+MEC:HMP:01:1:SET_VOLT      10  monitor
+MEC:HMP:01:1:SET_VOLT_RBV  10  monitor
+MEC:HMP:01:1:VOLT_STEP     10  monitor
+MEC:HMP:01:1:VOLT_STEP_RBV 10  monitor
+# R&S HMP Supply voltage Channel 2 Archive List
+MEC:HMP:01:2:VOLT          1   monitor
+MEC:HMP:01:2:SET_VOLT      10  monitor
+MEC:HMP:01:2:SET_VOLT_RBV  10  monitor
+MEC:HMP:01:2:VOLT_STEP     10  monitor
+MEC:HMP:01:2:VOLT_STEP_RBV 10  monitor
+# R&S HMP Supply voltage Channel 3 Archive List
+MEC:HMP:01:3:VOLT          1   monitor
+MEC:HMP:01:3:SET_VOLT      10  monitor
+MEC:HMP:01:3:SET_VOLT_RBV  10  monitor
+MEC:HMP:01:3:VOLT_STEP     10  monitor
+MEC:HMP:01:3:VOLT_STEP_RBV 10  monitor
+# R&S HMP Supply current Channel 1 Archive List
+MEC:HMP:01:1:CURR          1   monitor
+MEC:HMP:01:1:SET_CURR      10  monitor
+MEC:HMP:01:1:SET_CURR_RBV  10  monitor
+MEC:HMP:01:1:CURR_STEP     10  monitor
+MEC:HMP:01:1:CURR_STEP_RBV 10  monitor
+# R&S HMP Supply current Channel 2 Archive List
+MEC:HMP:01:2:CURR          1   monitor
+MEC:HMP:01:2:SET_CURR      10  monitor
+MEC:HMP:01:2:SET_CURR_RBV  10  monitor
+MEC:HMP:01:2:CURR_STEP     10  monitor
+MEC:HMP:01:2:CURR_STEP_RBV 10  monitor
+# R&S HMP Supply current Channel 3 Archive List
+MEC:HMP:01:3:CURR          1   monitor
+MEC:HMP:01:3:SET_CURR      10  monitor
+MEC:HMP:01:3:SET_CURR_RBV  10  monitor
+MEC:HMP:01:3:CURR_STEP     10  monitor
+MEC:HMP:01:3:CURR_STEP_RBV 10  monitor
+# R&S HMP Supply OUTPUT Channel 1 Archive List
+MEC:HMP:01:1:SELECT       10  monitor
+MEC:HMP:01:1:SELECT_RBV   1   monitor
+MEC:HMP:01:1:OUTPUT       10  monitor
+MEC:HMP:01:1:OUTPUT_RBV   1   monitor
+MEC:HMP:01:1:STATUS       1   monitor
+# R&S HMP Supply OUTPUT Channel 2 Archive List
+MEC:HMP:01:2:SELECT       10  monitor
+MEC:HMP:01:2:SELECT_RBV   1   monitor
+MEC:HMP:01:2:OUTPUT       10  monitor
+MEC:HMP:01:2:OUTPUT_RBV   1   monitor
+MEC:HMP:01:2:STATUS       1   monitor
+# R&S HMP Supply OUTPUT Channel 3 Archive List
+MEC:HMP:01:3:SELECT       10  monitor
+MEC:HMP:01:3:SELECT_RBV   1   monitor
+MEC:HMP:01:3:OUTPUT       10  monitor
+MEC:HMP:01:3:OUTPUT_RBV   1   monitor
+MEC:HMP:01:3:STATUS       1   monitor

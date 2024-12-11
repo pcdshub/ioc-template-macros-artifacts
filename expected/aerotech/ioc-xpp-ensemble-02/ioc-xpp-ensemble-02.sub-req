@@ -1,0 +1,21 @@
+# Aerotech IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:XPP:ENS:01 }
+}
+
+file aerotech.req
+{
+	pattern
+	{ MOTOR }
+	{XPP:ENS:02:m0 }
+	{XPP:ENS:02:m1 }
+	{XPP:ENS:02:m2 }
+	{XPP:ENS:02:m3 }
+	{XPP:ENS:02:m4 }
+	{XPP:ENS:02:m5 }
+	{XPP:ENS:02:m6 }
+	{XPP:ENS:02:m7 }
+}
+

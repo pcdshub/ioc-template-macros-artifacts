@@ -1,0 +1,11 @@
+file autosave_protura.req
+{
+	{ IOC = "$$IOC_PV",  }
+}
+
+$$LOOP(PROTURA)
+file protura.req
+{
+	{ BASE = "$$BASE:$$IF(EXT,$$EXT,LE)"}
+}
+$$ENDLOOP(PROTURA)

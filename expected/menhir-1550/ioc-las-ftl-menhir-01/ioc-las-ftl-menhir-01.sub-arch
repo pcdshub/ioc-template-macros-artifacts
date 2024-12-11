@@ -1,0 +1,11 @@
+# menhir IOC instance archive file
+
+# Generate archive PV list for IOC
+file menhir-ioc.archive
+{
+	pattern
+	{ IOC,     BASE  }
+	{IOC:LAS:FTL:MENHIR:01, LAS:FTL:MENHIR:01}
+}
+
+

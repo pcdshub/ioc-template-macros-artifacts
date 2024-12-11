@@ -1,0 +1,14 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_wave8.req
+{
+	{ BASE = "CXI:USR:DIO", EVR = "CXI:USR:DIO:EVR" }
+}
+
+file autosave_evr_SLAC.tpl-req
+{
+	{ EVR = "CXI:USR:DIO:EVR" }
+}

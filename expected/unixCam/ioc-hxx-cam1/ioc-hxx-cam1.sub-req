@@ -1,0 +1,27 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       XRT:R50:IOC:37
+        }
+}
+
+# Generate EVR autosave request 
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       XRT:DIA:CVV:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       XRT:DIA:CVV:01 }
+}
+
+

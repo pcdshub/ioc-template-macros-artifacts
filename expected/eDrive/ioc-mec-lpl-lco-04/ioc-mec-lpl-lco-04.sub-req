@@ -1,0 +1,11 @@
+# eDrive IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+
+file eDrive-ioc.req
+#file eDrive.tpl-req
+{
+	{
+		P="MEC:LPL:LCO:04"
+	}
+}

@@ -1,0 +1,18 @@
+# IOC archive file
+
+file ell-ioc.archive
+{
+	{ IOC = "IOC:LM1K4:COM:ELL:2" }
+}
+
+file ell6.archive
+{
+	{ BASE = "LM1K4:COM:ELL:2:M1" }
+}
+
+
+
+file ell.archive
+{
+	{ BASE = "LM1K4:COM:ELL:2:M2" }
+}

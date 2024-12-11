@@ -1,0 +1,14 @@
+# IOC archive file
+
+file ell-ioc.archive
+{
+	{ IOC = "IOC:LAS:LHN:BAY2:ELL:1" }
+}
+
+
+
+
+file ell.archive
+{
+	{ BASE = "LAS:LHN:BAY2:ELL:1:M1" }
+}

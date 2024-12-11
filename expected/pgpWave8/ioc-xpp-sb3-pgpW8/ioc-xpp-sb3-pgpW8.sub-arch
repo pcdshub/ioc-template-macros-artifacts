@@ -1,0 +1,7 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{ IOC = "IOC:XPP:SB3:W82", PREFIX = "XPP:SB3:W82" }
+}
+

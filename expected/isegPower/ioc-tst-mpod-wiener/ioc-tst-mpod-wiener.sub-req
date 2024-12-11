@@ -1,0 +1,35 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "TST:MPOD:IOC" }
+}
+
+file iseg_16Ch.req
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "TST:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "TST:MPOD:01"
+	}
+}
+file iseg_8Ch.req
+{
+	{
+		P			= "TST:MPOD:01",
+		R			= ":",
+		MODULE_ID	= "2",
+		DEV			= "TST:MPOD:01"
+	}
+}

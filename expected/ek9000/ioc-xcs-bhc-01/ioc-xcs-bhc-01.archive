@@ -1,0 +1,32 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:XCS:BHC:01:APP_DIR 30 monitor 
+IOC:XCS:BHC:01:APP_DIR1 30 monitor 
+IOC:XCS:BHC:01:APP_DIR2 30 monitor 
+IOC:XCS:BHC:01:CA_CLNT_CNT 1 monitor 
+IOC:XCS:BHC:01:CA_CONN_CNT 1 monitor 
+IOC:XCS:BHC:01:EPICS_VERS 30 monitor
+IOC:XCS:BHC:01:FD_CNT 1 monitor 
+IOC:XCS:BHC:01:FD_FREE 1 monitor 
+IOC:XCS:BHC:01:FD_MAX 1 monitor 
+IOC:XCS:BHC:01:HOSTNAME 30 monitor
+IOC:XCS:BHC:01:KERNEL_VERS 30 monitor
+IOC:XCS:BHC:01:RECORD_CNT 10 monitor
+IOC:XCS:BHC:01:START_CNT 30 monitor
+IOC:XCS:BHC:01:STARTTOD 30 monitor
+IOC:XCS:BHC:01:ST_SCRIPT 30 monitor 
+IOC:XCS:BHC:01:ST_SCRIPT1 30 monitor 
+IOC:XCS:BHC:01:ST_SCRIPT2 30 monitor 
+IOC:XCS:BHC:01:SUSP_TASK_CNT 30 monitor 
+IOC:XCS:BHC:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:XCS:BHC:01:SYS_CPU_LOAD 10
+IOC:XCS:BHC:01:LOAD 10 
+IOC:XCS:BHC:01:MEM_BLK_FREE 10 
+IOC:XCS:BHC:01:MEM_FREE 10 
+IOC:XCS:BHC:01:MEM_USED 10 
+IOC:XCS:BHC:01:UPTIME 3600 

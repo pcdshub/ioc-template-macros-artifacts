@@ -1,0 +1,129 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "RTDSK0:GCC:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "IM1K0:XTES:GCC:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "RTDSK0:GPI:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "IM1K0:XTES:GPI:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "SL1K0:GCC:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "PCPM3B:GFS:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "SL1K0:GPI:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV2K0:GCC:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV2K0:GCC:2" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "TV2K0:GPI:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "TV2K0:GPI:2" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "PA1K0:GCC:1" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "MR1K1:BEND:GCC:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "PA1K0:GPI:1" }
+}
+file archive_937b_pr.tpl-arch
+{
+	{ device = "MR1K1:BEND:GPI:1" }
+}
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSK0:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSK0:PIP:2" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSK0:PIP:3" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSK0:PIP:4" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "RTDSK0:PIP:5" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR1K1:BEND:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR1K3:TXI:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR2K3:TXI:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "SP1K1:MONO:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "SP1K1:MONO:PIP:2" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV3K0:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PCPM3B:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PA1K0" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PA1K0:PIP:1" }
+}
+
+
+

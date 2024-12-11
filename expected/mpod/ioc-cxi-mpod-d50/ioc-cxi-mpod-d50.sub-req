@@ -1,0 +1,40 @@
+#
+# mpod Autosave request file for ioc-cxi-mpod-d50
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "CXI:IOC:MPOD:D50" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "CXI:D50:MPD:CH",             "0" }
+	{ "CXI:D50:MPD:CH",             "1" }
+	{ "CXI:D50:MPD:CH",             "2" }
+	{ "CXI:D50:MPD:CH",             "3" }
+	{ "CXI:D50:MPD:CH",             "4" }
+	{ "CXI:D50:MPD:CH",             "5" }
+	{ "CXI:D50:MPD:CH",             "6" }
+	{ "CXI:D50:MPD:CH",             "7" }
+	{ "CXI:D50:MPD:CH",             "100" }
+	{ "CXI:D50:MPD:CH",             "101" }
+	{ "CXI:D50:MPD:CH",             "102" }
+	{ "CXI:D50:MPD:CH",             "103" }
+	{ "CXI:D50:MPD:CH",             "104" }
+	{ "CXI:D50:MPD:CH",             "105" }
+	{ "CXI:D50:MPD:CH",             "106" }
+	{ "CXI:D50:MPD:CH",             "107" }
+	{ "CXI:D50:MPD:CH",             "200" }
+	{ "CXI:D50:MPD:CH",             "201" }
+	{ "CXI:D50:MPD:CH",             "202" }
+	{ "CXI:D50:MPD:CH",             "203" }
+	{ "CXI:D50:MPD:CH",             "204" }
+	{ "CXI:D50:MPD:CH",             "205" }
+	{ "CXI:D50:MPD:CH",             "206" }
+	{ "CXI:D50:MPD:CH",             "207" }
+}

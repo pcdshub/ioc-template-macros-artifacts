@@ -1,0 +1,113 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:MENHIR:TST:01:APP_DIR 30 monitor 
+IOC:MENHIR:TST:01:APP_DIR1 30 monitor 
+IOC:MENHIR:TST:01:APP_DIR2 30 monitor 
+IOC:MENHIR:TST:01:CA_CLNT_CNT 1 monitor 
+IOC:MENHIR:TST:01:CA_CONN_CNT 1 monitor 
+IOC:MENHIR:TST:01:EPICS_VERS 30 monitor
+IOC:MENHIR:TST:01:FD_CNT 1 monitor 
+IOC:MENHIR:TST:01:FD_FREE 1 monitor 
+IOC:MENHIR:TST:01:FD_MAX 1 monitor 
+IOC:MENHIR:TST:01:HOSTNAME 30 monitor
+IOC:MENHIR:TST:01:KERNEL_VERS 30 monitor
+IOC:MENHIR:TST:01:RECORD_CNT 10 monitor
+IOC:MENHIR:TST:01:START_CNT 30 monitor
+IOC:MENHIR:TST:01:STARTTOD 30 monitor
+IOC:MENHIR:TST:01:ST_SCRIPT 30 monitor 
+IOC:MENHIR:TST:01:ST_SCRIPT1 30 monitor 
+IOC:MENHIR:TST:01:ST_SCRIPT2 30 monitor 
+IOC:MENHIR:TST:01:SUSP_TASK_CNT 30 monitor 
+IOC:MENHIR:TST:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:MENHIR:TST:01:SYS_CPU_LOAD 10
+IOC:MENHIR:TST:01:LOAD 10 
+IOC:MENHIR:TST:01:MEM_BLK_FREE 10 
+IOC:MENHIR:TST:01:MEM_FREE 10 
+IOC:MENHIR:TST:01:MEM_USED 10 
+IOC:MENHIR:TST:01:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:MENHIR:TST:01:SR_rebootStatus			1 monitor
+IOC:MENHIR:TST:01:SR_status				1 monitor
+IOC:MENHIR:TST:01:SR_rebootStatusStr		1 monitor
+IOC:MENHIR:TST:01:SR_statusStr				1 monitor
+IOC:MENHIR:TST:01:SR_0_Status				1 monitor
+IOC:MENHIR:TST:01:SR_0_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_1_Status				1 monitor
+IOC:MENHIR:TST:01:SR_1_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_2_Status				1 monitor
+IOC:MENHIR:TST:01:SR_2_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_3_Status				1 monitor
+IOC:MENHIR:TST:01:SR_3_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_4_Status				1 monitor
+IOC:MENHIR:TST:01:SR_4_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_5_Status				1 monitor
+IOC:MENHIR:TST:01:SR_5_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_6_Status				1 monitor
+IOC:MENHIR:TST:01:SR_6_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_7_Status				1 monitor
+IOC:MENHIR:TST:01:SR_7_StatusStr			1 monitor
+IOC:MENHIR:TST:01:SR_0_State				1 monitor
+IOC:MENHIR:TST:01:SR_1_State				1 monitor
+IOC:MENHIR:TST:01:SR_2_State				1 monitor
+IOC:MENHIR:TST:01:SR_3_State				1 monitor
+IOC:MENHIR:TST:01:SR_4_State				1 monitor
+IOC:MENHIR:TST:01:SR_5_State				1 monitor
+IOC:MENHIR:TST:01:SR_6_State				1 monitor
+IOC:MENHIR:TST:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:MENHIR:TST:01:SR_recentlyStr			30 monitor
+IOC:MENHIR:TST:01:SR_rebootTime			30 monitor
+IOC:MENHIR:TST:01:SR_0_Name				30 monitor
+IOC:MENHIR:TST:01:SR_1_Name				30 monitor
+IOC:MENHIR:TST:01:SR_2_Name				30 monitor
+IOC:MENHIR:TST:01:SR_3_Name				30 monitor
+IOC:MENHIR:TST:01:SR_4_Name				30 monitor
+IOC:MENHIR:TST:01:SR_5_Name				30 monitor
+IOC:MENHIR:TST:01:SR_6_Name				30 monitor
+IOC:MENHIR:TST:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:MENHIR:TST:01:SR_heartbeat				30
+IOC:MENHIR:TST:01:SR_0_Time				30
+IOC:MENHIR:TST:01:SR_1_Time				30
+IOC:MENHIR:TST:01:SR_2_Time				30
+IOC:MENHIR:TST:01:SR_3_Time				30
+IOC:MENHIR:TST:01:SR_4_Time				30
+IOC:MENHIR:TST:01:SR_5_Time				30
+IOC:MENHIR:TST:01:SR_6_Time				30
+IOC:MENHIR:TST:01:SR_7_Time				30
+
+#
+# List of PVs to archive with timing in seconds between readings and 
+# optionally "monitor".
+#
+# The difference is without "monitor", you will always record at the 
+# specified rate, but with, you will try to get every change, perhaps
+# more, perhaps less.
+#
+# Assume MENHIR:TST:01 is the base PV of the detector and IOC:MENHIR:TST:01 is the IOC PV.
+
+MENHIR:TST:01:ENC_TEMPERATURE     1 monitor
+MENHIR:TST:01:ATM_PRESSURE        1 monitor
+MENHIR:TST:01:REL_HUMIDITY        1 monitor
+MENHIR:TST:01:LD0_TEMPERATURE     1 monitor
+MENHIR:TST:01:PCB_TEMPERATURE     1 monitor
+MENHIR:TST:01:TEC0_CURRENT        1 monitor
+MENHIR:TST:01:LD0_CURRENT         1 monitor
+MENHIR:TST:01:LD0_VOLTAGE         1 monitor
+MENHIR:TST:01:LD0_BFM_VOLTAGE     1 monitor
+MENHIR:TST:01:AVG_POWER           1 monitor
+MENHIR:TST:01:HS_TEMPERATURE      1 monitor
+MENHIR:TST:01:MC_TEMPERATURE      1 monitor
+MENHIR:TST:01:LASER_STATUS        1 monitor
+MENHIR:TST:01:INTERLOCK_STATUS    1 monitor

@@ -1,0 +1,60 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+$$LOOP(SMARACT)
+$$IF(ALL)
+$$LOOP(COUNT)
+	{$$BASE,  $$CALC{INDEX+1} }
+$$ENDLOOP(COUNT)
+$$ENDIF(ALL)
+$$ENDLOOP(SMARACT)
+$$LOOP(AXIS)
+	{$$SMARACTBASE, $$CHANNEL }
+$$ENDLOOP(AXIS)
+$$LOOP(CUSTOMAXIS)
+	{$$CUSTOMBASE, $$CHANNEL }
+$$ENDLOOP(CUSTOMAXIS)
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+$$LOOP(ALIAS)
+    { $$ALIAS }
+$$ENDLOOP(ALIAS)
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    $$LOOP(SMARACT)
+    $$IF(PSLOC){ $$BASE }$$ENDIF(PSLOC)
+    $$ENDLOOP(SMARACT)
+}
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    $$LOOP(SMARACT)
+    $$IF(ALL)
+    $$LOOP(COUNT)
+    $$IF(PSLOC)
+    $$IFCALC{((7&PSMASK) if PSMASK else 7)&(1<<INDEX)}{$$BASE, $$CALC{INDEX+1} }$$ENDIF(CALC)
+    $$ENDIF(PSLOC)
+    $$ENDLOOP(COUNT)
+    $$ENDIF(ALL)
+    $$ENDLOOP(SMARACT)
+}

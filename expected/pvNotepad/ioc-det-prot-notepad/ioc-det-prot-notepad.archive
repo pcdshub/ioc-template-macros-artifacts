@@ -1,0 +1,9 @@
+DET:PROT:PICKER:READ_DF.DESC   86400    monitor
+DET:PROT:PICKER:READ_DF        86400    monitor
+
+DET:PROT:PICKER:S_CLOSE.DESC   86400    monitor
+DET:PROT:PICKER:S_CLOSE        86400    monitor
+
+DET:PROT:TRIGGER.DESC   86400    monitor
+DET:PROT:TRIGGER        86400    monitor
+

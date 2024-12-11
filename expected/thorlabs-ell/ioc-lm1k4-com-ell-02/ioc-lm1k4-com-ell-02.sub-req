@@ -1,0 +1,18 @@
+# ell IOC instance autosave file
+
+file ell-ioc.req
+{
+	{ IOC = "IOC:LM1K4:COM:ELL:2" }
+}
+
+file ell6.req
+{
+	{ BASE = "LM1K4:COM:ELL:2:M1" }
+}
+
+
+
+file ell.req
+{
+	{ BASE = "LM1K4:COM:ELL:2:M2" }
+}

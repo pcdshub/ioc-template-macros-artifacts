@@ -1,0 +1,14 @@
+#
+# gigECam Autosave request file for ioc-cxi-alv-01
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:CXI:ALV:01" }
+}
+
+file vimba.req
+{
+    { CAM = "CXI:ALV:01" }
+}

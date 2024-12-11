@@ -1,0 +1,12 @@
+# Template for SMC100 motor autosave
+# Shamelessly borrowed from ioc/picoMotion's autosave-pico-position.tpl-req
+ LAS:FS14:MMN:FQ.TWV
+ LAS:FS14:MMN:FQ.DESC
+ LAS:FS14:MMN:FQ.OFF 
+ LAS:FS14:MMN:FQ.DHLM
+ LAS:FS14:MMN:FQ.DLLM
+ LAS:FS14:MMN:FQ.VELO 
+ LAS:FS14:MMN:FQ.VAL
+ LAS:FS14:MMN:FQ.RBV
+ LAS:FS14:MMN:FQ.DIR
+

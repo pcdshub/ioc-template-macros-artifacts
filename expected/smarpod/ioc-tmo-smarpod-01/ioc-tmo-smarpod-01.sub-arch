@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO:SPD:01" }
+}
+
+file SmarPod.archive
+{
+    { IOC = "IOC:TMO:SPD:01", BASE  = "TMO:SPD:01" }
+}

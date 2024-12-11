@@ -1,0 +1,40 @@
+#
+# mpod Archive file for ioc-xpp-alcove-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "IOC:XPP:ALC:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XPP:ALC:MPD:CH",             "0" }
+	{ "XPP:ALC:MPD:CH",             "1" }
+	{ "XPP:ALC:MPD:CH",             "2" }
+	{ "XPP:ALC:MPD:CH",             "3" }
+	{ "XPP:ALC:MPD:CH",             "4" }
+	{ "XPP:ALC:MPD:CH",             "5" }
+	{ "XPP:ALC:MPD:CH",             "6" }
+	{ "XPP:ALC:MPD:CH",             "7" }
+	{ "XPP:ALC:MPD:CH",             "100" }
+	{ "XPP:ALC:MPD:CH",             "101" }
+	{ "XPP:ALC:MPD:CH",             "102" }
+	{ "XPP:ALC:MPD:CH",             "103" }
+	{ "XPP:ALC:MPD:CH",             "104" }
+	{ "XPP:ALC:MPD:CH",             "105" }
+	{ "XPP:ALC:MPD:CH",             "106" }
+	{ "XPP:ALC:MPD:CH",             "107" }
+	{ "XPP:ALC:MPD:CH",             "200" }
+	{ "XPP:ALC:MPD:CH",             "201" }
+	{ "XPP:ALC:MPD:CH",             "202" }
+	{ "XPP:ALC:MPD:CH",             "203" }
+	{ "XPP:ALC:MPD:CH",             "204" }
+	{ "XPP:ALC:MPD:CH",             "205" }
+	{ "XPP:ALC:MPD:CH",             "206" }
+	{ "XPP:ALC:MPD:CH",             "207" }
+}

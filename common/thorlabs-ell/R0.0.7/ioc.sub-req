@@ -1,0 +1,34 @@
+# ell IOC instance autosave file
+
+file ell-ioc.req
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(ELL6)
+file ell6.req
+{
+	{ BASE = "$$PORTBASE:M$$ADDRESS" }
+}
+$$ENDLOOP(ELL6)
+
+$$LOOP(ELL9)
+file ell9.req
+{
+	{ BASE = "$$PORTBASE:M$$ADDRESS" }
+}
+$$ENDLOOP(ELL9)
+
+$$LOOP(ELL14)
+file ell.req
+{
+	{ BASE = "$$PORTBASE:M$$ADDRESS" }
+}
+$$ENDLOOP(ELL14)
+
+$$LOOP(ELL20)
+file ell.req
+{
+	{ BASE = "$$PORTBASE:M$$ADDRESS" }
+}
+$$ENDLOOP(ELL20)

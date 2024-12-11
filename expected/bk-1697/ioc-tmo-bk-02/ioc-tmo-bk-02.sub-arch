@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO:BKP:02" }
+}
+
+file bk-1697.archive
+{
+    { IOC = "IOC:TMO:BKP:02", BASE  = "TMO:BKP:02" }
+}

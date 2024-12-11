@@ -1,0 +1,18 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+$$LOOP(QADC)
+file autosave_qadc.req
+{
+	{ BASE = "$$NAME" }
+}
+$$ENDLOOP(QADC)
+
+$$LOOP(QADC134)
+file autosave_qadc134.req
+{
+	{ BASE = "$$NAME" }
+}
+$$ENDLOOP(QADC134)

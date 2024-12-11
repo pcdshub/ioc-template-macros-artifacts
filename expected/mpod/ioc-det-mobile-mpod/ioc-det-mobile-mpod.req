@@ -1,0 +1,208 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+DET:IOC:DET:MPOD:ACCESS
+DET:IOC:DET:MPOD:CA_CLNT_CNT.HIGH
+DET:IOC:DET:MPOD:CA_CLNT_CNT.HIHI
+DET:IOC:DET:MPOD:CA_CONN_CNT.HIGH
+DET:IOC:DET:MPOD:CA_CONN_CNT.HIHI
+DET:IOC:DET:MPOD:SUSP_TASK_CNT.HIHI
+DET:IOC:DET:MPOD:FD_FREE.LOW
+DET:IOC:DET:MPOD:FD_FREE.LOLO
+DET:IOC:DET:MPOD:IOC_CPU_LOAD.HIGH
+DET:IOC:DET:MPOD:IOC_CPU_LOAD.HIHI
+DET:IOC:DET:MPOD:MEM_FREE.LOW
+DET:IOC:DET:MPOD:MEM_FREE.LOLO
+DET:IOC:DET:MPOD:START_CNT
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:0:SetCurrent
+DET:MBL:MPD:CH:0:SetSwitch
+DET:MBL:MPD:CH:0:SetVoltage
+DET:MBL:MPD:CH:0:GetVoltage.DESC
+DET:MBL:MPD:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:1:SetCurrent
+DET:MBL:MPD:CH:1:SetSwitch
+DET:MBL:MPD:CH:1:SetVoltage
+DET:MBL:MPD:CH:1:GetVoltage.DESC
+DET:MBL:MPD:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:2:SetCurrent
+DET:MBL:MPD:CH:2:SetSwitch
+DET:MBL:MPD:CH:2:SetVoltage
+DET:MBL:MPD:CH:2:GetVoltage.DESC
+DET:MBL:MPD:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:3:SetCurrent
+DET:MBL:MPD:CH:3:SetSwitch
+DET:MBL:MPD:CH:3:SetVoltage
+DET:MBL:MPD:CH:3:GetVoltage.DESC
+DET:MBL:MPD:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:4:SetCurrent
+DET:MBL:MPD:CH:4:SetSwitch
+DET:MBL:MPD:CH:4:SetVoltage
+DET:MBL:MPD:CH:4:GetVoltage.DESC
+DET:MBL:MPD:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:5:SetCurrent
+DET:MBL:MPD:CH:5:SetSwitch
+DET:MBL:MPD:CH:5:SetVoltage
+DET:MBL:MPD:CH:5:GetVoltage.DESC
+DET:MBL:MPD:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:6:SetCurrent
+DET:MBL:MPD:CH:6:SetSwitch
+DET:MBL:MPD:CH:6:SetVoltage
+DET:MBL:MPD:CH:6:GetVoltage.DESC
+DET:MBL:MPD:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:7:SetCurrent
+DET:MBL:MPD:CH:7:SetSwitch
+DET:MBL:MPD:CH:7:SetVoltage
+DET:MBL:MPD:CH:7:GetVoltage.DESC
+DET:MBL:MPD:CH:7:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:100:SetCurrent
+DET:MBL:MPD:CH:100:SetSwitch
+DET:MBL:MPD:CH:100:SetVoltage
+DET:MBL:MPD:CH:100:GetVoltage.DESC
+DET:MBL:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:101:SetCurrent
+DET:MBL:MPD:CH:101:SetSwitch
+DET:MBL:MPD:CH:101:SetVoltage
+DET:MBL:MPD:CH:101:GetVoltage.DESC
+DET:MBL:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:102:SetCurrent
+DET:MBL:MPD:CH:102:SetSwitch
+DET:MBL:MPD:CH:102:SetVoltage
+DET:MBL:MPD:CH:102:GetVoltage.DESC
+DET:MBL:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:103:SetCurrent
+DET:MBL:MPD:CH:103:SetSwitch
+DET:MBL:MPD:CH:103:SetVoltage
+DET:MBL:MPD:CH:103:GetVoltage.DESC
+DET:MBL:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:104:SetCurrent
+DET:MBL:MPD:CH:104:SetSwitch
+DET:MBL:MPD:CH:104:SetVoltage
+DET:MBL:MPD:CH:104:GetVoltage.DESC
+DET:MBL:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:105:SetCurrent
+DET:MBL:MPD:CH:105:SetSwitch
+DET:MBL:MPD:CH:105:SetVoltage
+DET:MBL:MPD:CH:105:GetVoltage.DESC
+DET:MBL:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:106:SetCurrent
+DET:MBL:MPD:CH:106:SetSwitch
+DET:MBL:MPD:CH:106:SetVoltage
+DET:MBL:MPD:CH:106:GetVoltage.DESC
+DET:MBL:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:107:SetCurrent
+DET:MBL:MPD:CH:107:SetSwitch
+DET:MBL:MPD:CH:107:SetVoltage
+DET:MBL:MPD:CH:107:GetVoltage.DESC
+DET:MBL:MPD:CH:107:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:200:SetCurrent
+DET:MBL:MPD:CH:200:SetSwitch
+DET:MBL:MPD:CH:200:SetVoltage
+DET:MBL:MPD:CH:200:GetVoltage.DESC
+DET:MBL:MPD:CH:200:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:201:SetCurrent
+DET:MBL:MPD:CH:201:SetSwitch
+DET:MBL:MPD:CH:201:SetVoltage
+DET:MBL:MPD:CH:201:GetVoltage.DESC
+DET:MBL:MPD:CH:201:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:202:SetCurrent
+DET:MBL:MPD:CH:202:SetSwitch
+DET:MBL:MPD:CH:202:SetVoltage
+DET:MBL:MPD:CH:202:GetVoltage.DESC
+DET:MBL:MPD:CH:202:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:203:SetCurrent
+DET:MBL:MPD:CH:203:SetSwitch
+DET:MBL:MPD:CH:203:SetVoltage
+DET:MBL:MPD:CH:203:GetVoltage.DESC
+DET:MBL:MPD:CH:203:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:204:SetCurrent
+DET:MBL:MPD:CH:204:SetSwitch
+DET:MBL:MPD:CH:204:SetVoltage
+DET:MBL:MPD:CH:204:GetVoltage.DESC
+DET:MBL:MPD:CH:204:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:205:SetCurrent
+DET:MBL:MPD:CH:205:SetSwitch
+DET:MBL:MPD:CH:205:SetVoltage
+DET:MBL:MPD:CH:205:GetVoltage.DESC
+DET:MBL:MPD:CH:205:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:206:SetCurrent
+DET:MBL:MPD:CH:206:SetSwitch
+DET:MBL:MPD:CH:206:SetVoltage
+DET:MBL:MPD:CH:206:GetVoltage.DESC
+DET:MBL:MPD:CH:206:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:207:SetCurrent
+DET:MBL:MPD:CH:207:SetSwitch
+DET:MBL:MPD:CH:207:SetVoltage
+DET:MBL:MPD:CH:207:GetVoltage.DESC
+DET:MBL:MPD:CH:207:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:208:SetCurrent
+DET:MBL:MPD:CH:208:SetSwitch
+DET:MBL:MPD:CH:208:SetVoltage
+DET:MBL:MPD:CH:208:GetVoltage.DESC
+DET:MBL:MPD:CH:208:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:209:SetCurrent
+DET:MBL:MPD:CH:209:SetSwitch
+DET:MBL:MPD:CH:209:SetVoltage
+DET:MBL:MPD:CH:209:GetVoltage.DESC
+DET:MBL:MPD:CH:209:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:210:SetCurrent
+DET:MBL:MPD:CH:210:SetSwitch
+DET:MBL:MPD:CH:210:SetVoltage
+DET:MBL:MPD:CH:210:GetVoltage.DESC
+DET:MBL:MPD:CH:210:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:211:SetCurrent
+DET:MBL:MPD:CH:211:SetSwitch
+DET:MBL:MPD:CH:211:SetVoltage
+DET:MBL:MPD:CH:211:GetVoltage.DESC
+DET:MBL:MPD:CH:211:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:212:SetCurrent
+DET:MBL:MPD:CH:212:SetSwitch
+DET:MBL:MPD:CH:212:SetVoltage
+DET:MBL:MPD:CH:212:GetVoltage.DESC
+DET:MBL:MPD:CH:212:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:213:SetCurrent
+DET:MBL:MPD:CH:213:SetSwitch
+DET:MBL:MPD:CH:213:SetVoltage
+DET:MBL:MPD:CH:213:GetVoltage.DESC
+DET:MBL:MPD:CH:213:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:214:SetCurrent
+DET:MBL:MPD:CH:214:SetSwitch
+DET:MBL:MPD:CH:214:SetVoltage
+DET:MBL:MPD:CH:214:GetVoltage.DESC
+DET:MBL:MPD:CH:214:SetVoltage.DESC
+# Autosave values for mpod channel settings
+DET:MBL:MPD:CH:215:SetCurrent
+DET:MBL:MPD:CH:215:SetSwitch
+DET:MBL:MPD:CH:215:SetVoltage
+DET:MBL:MPD:CH:215:GetVoltage.DESC
+DET:MBL:MPD:CH:215:SetVoltage.DESC

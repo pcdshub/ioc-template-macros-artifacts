@@ -1,0 +1,6 @@
+# Generate autosave request 
+file XPS8_autosave.tpl-req
+{
+    { DEVICE="MEC:PPL:MMN", C1="17", C2="18", C3="19", C4="20", C5="21", C6="22", C7="23", C8="24" }
+}
+

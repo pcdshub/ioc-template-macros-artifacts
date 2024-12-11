@@ -1,0 +1,40 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file jf4m-ioc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(JFPWR)
+file jfpower.req
+{
+    { JFPWR = "$$BASE:PWR" }
+}
+$$ENDLOOP(JFPWR)
+
+$$LOOP(BME)
+file bme280.req
+{
+    { BME = "$$BASE:$$IF(NAME,$$NAME,BME280:$$INDEX)" }
+}
+$$ENDLOOP(BME)
+
+$$LOOP(INTERLOCK)
+$$IF(LOPV)$$ELSE(LOPV)
+$$IF(LO)
+file newao.req {
+    { NAME = "$$BASE:$$IF(NAME,$$NAME,INTERLOCK$$INDEX):LOLO" }
+}
+$$ENDIF(LO)
+$$ENDIF(LOPV)
+
+$$IF(HIPV)$$ELSE(HIPV)
+$$IF(HI)
+file newao.req {
+    { NAME = "$$BASE:$$IF(NAME,$$NAME,INTERLOCK$$INDEX):HIHI" }
+}
+$$ENDIF(HI)
+$$ENDIF(HIPV)
+$$ENDLOOP(INTERLOCK)

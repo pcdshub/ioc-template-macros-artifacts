@@ -1,0 +1,55 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:RIX:VAC:SUPPORT" }
+}
+
+
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "ST1K2:PPS:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR2K2:FLAT:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR3K2:KBH:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "MR4K2:KBV:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "IM5K2:PPM:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV4K2:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PA1K2:PIP:1" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "QRIX:SC:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "QRIX:SC:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "QRIX:OPT:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "QRIX:DET:PIP:01" }
+}
+

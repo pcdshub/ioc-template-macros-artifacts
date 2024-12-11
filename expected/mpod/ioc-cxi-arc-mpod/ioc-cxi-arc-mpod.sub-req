@@ -1,0 +1,40 @@
+#
+# mpod Autosave request file for ioc-cxi-arc-mpod
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "CXI:IOC:ARC:MPOD" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "CXI:ARC:MPD:CH",             "0" }
+	{ "CXI:ARC:MPD:CH",             "1" }
+	{ "CXI:ARC:MPD:CH",             "2" }
+	{ "CXI:ARC:MPD:CH",             "3" }
+	{ "CXI:ARC:MPD:CH",             "4" }
+	{ "CXI:ARC:MPD:CH",             "5" }
+	{ "CXI:ARC:MPD:CH",             "6" }
+	{ "CXI:ARC:MPD:CH",             "7" }
+	{ "CXI:ARC:MPD:CH",             "100" }
+	{ "CXI:ARC:MPD:CH",             "101" }
+	{ "CXI:ARC:MPD:CH",             "102" }
+	{ "CXI:ARC:MPD:CH",             "103" }
+	{ "CXI:ARC:MPD:CH",             "104" }
+	{ "CXI:ARC:MPD:CH",             "105" }
+	{ "CXI:ARC:MPD:CH",             "106" }
+	{ "CXI:ARC:MPD:CH",             "107" }
+	{ "CXI:ARC:MPD:CH",             "200" }
+	{ "CXI:ARC:MPD:CH",             "201" }
+	{ "CXI:ARC:MPD:CH",             "202" }
+	{ "CXI:ARC:MPD:CH",             "203" }
+	{ "CXI:ARC:MPD:CH",             "204" }
+	{ "CXI:ARC:MPD:CH",             "205" }
+	{ "CXI:ARC:MPD:CH",             "206" }
+	{ "CXI:ARC:MPD:CH",             "207" }
+}

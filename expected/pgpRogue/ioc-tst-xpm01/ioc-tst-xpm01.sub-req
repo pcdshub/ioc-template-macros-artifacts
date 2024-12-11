@@ -1,0 +1,8 @@
+# Autosave file for IOC
+
+# Each pgpRogue IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "TST:IOC:PGP:01" }
+}
+

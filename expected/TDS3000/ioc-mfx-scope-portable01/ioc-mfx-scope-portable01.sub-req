@@ -1,0 +1,9 @@
+# TDS3000 IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+file TDS3000-ioc.req
+{
+    { IOC = "MFX:IOC:TDS3000:01" }
+}
+
+

@@ -1,0 +1,23 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:CXI:MCS2:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:CXI:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{CXI:MCS2:01, 1 }
+	{CXI:MCS2:01, 2 }
+	{CXI:MCS2:01, 3 }
+}
+
+

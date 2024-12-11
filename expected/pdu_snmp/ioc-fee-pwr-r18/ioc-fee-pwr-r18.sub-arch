@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:FEE:PWR:R18"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:FEE:PWR:R18"	}
+}
+
+file Sentry4Pdu_24.archive
+{
+    { PRE = "FEE:PWR:R18:01" }
+}

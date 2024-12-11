@@ -1,0 +1,81 @@
+file lusiAtt-ioc.archive
+{
+	{ IOC = "IOC:XPP:ATT" } 
+} 
+
+file lusiAtt.archive
+{
+	{ ATTBASE = "XPP" }
+}
+
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XPP"
+		ATTNUM  = "10"
+	}
+}
+

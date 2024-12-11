@@ -1,0 +1,466 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:LAS:MCS2:01:APP_DIR1 30 monitor 
+IOC:LAS:MCS2:01:APP_DIR2 30 monitor 
+IOC:LAS:MCS2:01:BSP_REV 30 monitor
+IOC:LAS:MCS2:01:CA_CLNT_CNT 1 monitor 
+IOC:LAS:MCS2:01:CA_CONN_CNT 1 monitor 
+IOC:LAS:MCS2:01:EPICS_VERS 30 monitor
+IOC:LAS:MCS2:01:FD_CNT 1 monitor 
+IOC:LAS:MCS2:01:FD_FREE 1 monitor 
+IOC:LAS:MCS2:01:FD_MAX 1 monitor 
+IOC:LAS:MCS2:01:HOSTNAME 30 monitor
+IOC:LAS:MCS2:01:KERNEL_VERS 30 monitor
+IOC:LAS:MCS2:01:RECORD_CNT 10 monitor
+IOC:LAS:MCS2:01:STARTTOD 30 monitor
+IOC:LAS:MCS2:01:ST_SCRIPT1 30 monitor 
+IOC:LAS:MCS2:01:ST_SCRIPT2 30 monitor 
+IOC:LAS:MCS2:01:SUSP_TASK_CNT 30 monitor 
+IOC:LAS:MCS2:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:LAS:MCS2:01:DAT_MBUF_FREE 10
+IOC:LAS:MCS2:01:DAT_MBUF_MAX 10
+IOC:LAS:MCS2:01:LOAD 30 
+IOC:LAS:MCS2:01:MEM_BLK_FREE 30 
+IOC:LAS:MCS2:01:MEM_FREE 30 
+IOC:LAS:MCS2:01:MEM_USED 30 
+IOC:LAS:MCS2:01:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:LAS:MCS2:01:SR_rebootStatus			1 monitor
+IOC:LAS:MCS2:01:SR_status				1 monitor
+IOC:LAS:MCS2:01:SR_rebootStatusStr		1 monitor
+IOC:LAS:MCS2:01:SR_statusStr				1 monitor
+IOC:LAS:MCS2:01:SR_0_Status				1 monitor
+IOC:LAS:MCS2:01:SR_0_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_1_Status				1 monitor
+IOC:LAS:MCS2:01:SR_1_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_2_Status				1 monitor
+IOC:LAS:MCS2:01:SR_2_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_3_Status				1 monitor
+IOC:LAS:MCS2:01:SR_3_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_4_Status				1 monitor
+IOC:LAS:MCS2:01:SR_4_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_5_Status				1 monitor
+IOC:LAS:MCS2:01:SR_5_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_6_Status				1 monitor
+IOC:LAS:MCS2:01:SR_6_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_7_Status				1 monitor
+IOC:LAS:MCS2:01:SR_7_StatusStr			1 monitor
+IOC:LAS:MCS2:01:SR_0_State				1 monitor
+IOC:LAS:MCS2:01:SR_1_State				1 monitor
+IOC:LAS:MCS2:01:SR_2_State				1 monitor
+IOC:LAS:MCS2:01:SR_3_State				1 monitor
+IOC:LAS:MCS2:01:SR_4_State				1 monitor
+IOC:LAS:MCS2:01:SR_5_State				1 monitor
+IOC:LAS:MCS2:01:SR_6_State				1 monitor
+IOC:LAS:MCS2:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:LAS:MCS2:01:SR_recentlyStr			30 monitor
+IOC:LAS:MCS2:01:SR_rebootTime			30 monitor
+IOC:LAS:MCS2:01:SR_0_Name				30 monitor
+IOC:LAS:MCS2:01:SR_1_Name				30 monitor
+IOC:LAS:MCS2:01:SR_2_Name				30 monitor
+IOC:LAS:MCS2:01:SR_3_Name				30 monitor
+IOC:LAS:MCS2:01:SR_4_Name				30 monitor
+IOC:LAS:MCS2:01:SR_5_Name				30 monitor
+IOC:LAS:MCS2:01:SR_6_Name				30 monitor
+IOC:LAS:MCS2:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:LAS:MCS2:01:SR_heartbeat				30
+IOC:LAS:MCS2:01:SR_0_Time				30
+IOC:LAS:MCS2:01:SR_1_Time				30
+IOC:LAS:MCS2:01:SR_2_Time				30
+IOC:LAS:MCS2:01:SR_3_Time				30
+IOC:LAS:MCS2:01:SR_4_Time				30
+IOC:LAS:MCS2:01:SR_5_Time				30
+IOC:LAS:MCS2:01:SR_6_Time				30
+IOC:LAS:MCS2:01:SR_7_Time				30
+
+# BASE is LAS:MCS2:01, INDEX is 0
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m0.RBV                   30 monitor  
+LAS:MCS2:01:m0.DESC                  30 monitor  
+LAS:MCS2:01:m0.TWV                   30 monitor
+LAS:MCS2:01:m0.OFF                   30 monitor
+LAS:MCS2:01:m0.FOFF                  30 monitor
+LAS:MCS2:01:m0.DIR                   30 monitor
+LAS:MCS2:01:m0.SET                   30 monitor
+LAS:MCS2:01:m0.HLM                   30 monitor
+LAS:MCS2:01:m0.LLM                   30 monitor
+LAS:MCS2:01:m0.DHLM                  30 monitor
+LAS:MCS2:01:m0.DLLM                  30 monitor
+LAS:MCS2:01:m0.VELO                  30 monitor
+LAS:MCS2:01:m0.SBAS                  30 monitor
+LAS:MCS2:01:m0.SMAX                  30 monitor
+LAS:MCS2:01:m0.CNEN                  30 monitor
+LAS:MCS2:01:m0.SREV                  30 monitor
+LAS:MCS2:01:m0.UREV                  30 monitor
+LAS:MCS2:01:m0.MRES                  30 monitor
+LAS:MCS2:01:m0.ERES                  30 monitor
+LAS:MCS2:01:m0.RRES                  30 monitor
+LAS:MCS2:01:m0.UEIP                  30 monitor
+LAS:MCS2:01:m0.URIP                  30 monitor
+LAS:MCS2:01:m0.BVEL                  30 monitor
+LAS:MCS2:01:m0.JVEL                  30 monitor
+LAS:MCS2:01:m0.ACCL                  30 monitor
+LAS:MCS2:01:m0.BACC                  30 monitor
+LAS:MCS2:01:m0.JAR                   30 monitor
+LAS:MCS2:01:m0.VMAX                  30 monitor
+LAS:MCS2:01:m0.VAL                   30 monitor
+LAS:MCS2:01:m0:FW_MEANS              30 monitor
+LAS:MCS2:01:m0:REV_MEANS             30 monitor
+LAS:MCS2:01:m0_able.VAL              30 monitor
+LAS:MCS2:01:m0:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m0:STEP_FREQ             30 monitor
+LAS:MCS2:01:m0:STEP_COUNT            30 monitor
+LAS:MCS2:01:m0:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m0:TTZV_MODE             30 monitor
+LAS:MCS2:01:m0:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m0:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m0:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 1
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m1.RBV                   30 monitor  
+LAS:MCS2:01:m1.DESC                  30 monitor  
+LAS:MCS2:01:m1.TWV                   30 monitor
+LAS:MCS2:01:m1.OFF                   30 monitor
+LAS:MCS2:01:m1.FOFF                  30 monitor
+LAS:MCS2:01:m1.DIR                   30 monitor
+LAS:MCS2:01:m1.SET                   30 monitor
+LAS:MCS2:01:m1.HLM                   30 monitor
+LAS:MCS2:01:m1.LLM                   30 monitor
+LAS:MCS2:01:m1.DHLM                  30 monitor
+LAS:MCS2:01:m1.DLLM                  30 monitor
+LAS:MCS2:01:m1.VELO                  30 monitor
+LAS:MCS2:01:m1.SBAS                  30 monitor
+LAS:MCS2:01:m1.SMAX                  30 monitor
+LAS:MCS2:01:m1.CNEN                  30 monitor
+LAS:MCS2:01:m1.SREV                  30 monitor
+LAS:MCS2:01:m1.UREV                  30 monitor
+LAS:MCS2:01:m1.MRES                  30 monitor
+LAS:MCS2:01:m1.ERES                  30 monitor
+LAS:MCS2:01:m1.RRES                  30 monitor
+LAS:MCS2:01:m1.UEIP                  30 monitor
+LAS:MCS2:01:m1.URIP                  30 monitor
+LAS:MCS2:01:m1.BVEL                  30 monitor
+LAS:MCS2:01:m1.JVEL                  30 monitor
+LAS:MCS2:01:m1.ACCL                  30 monitor
+LAS:MCS2:01:m1.BACC                  30 monitor
+LAS:MCS2:01:m1.JAR                   30 monitor
+LAS:MCS2:01:m1.VMAX                  30 monitor
+LAS:MCS2:01:m1.VAL                   30 monitor
+LAS:MCS2:01:m1:FW_MEANS              30 monitor
+LAS:MCS2:01:m1:REV_MEANS             30 monitor
+LAS:MCS2:01:m1_able.VAL              30 monitor
+LAS:MCS2:01:m1:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m1:STEP_FREQ             30 monitor
+LAS:MCS2:01:m1:STEP_COUNT            30 monitor
+LAS:MCS2:01:m1:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m1:TTZV_MODE             30 monitor
+LAS:MCS2:01:m1:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m1:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m1:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 2
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m2.RBV                   30 monitor  
+LAS:MCS2:01:m2.DESC                  30 monitor  
+LAS:MCS2:01:m2.TWV                   30 monitor
+LAS:MCS2:01:m2.OFF                   30 monitor
+LAS:MCS2:01:m2.FOFF                  30 monitor
+LAS:MCS2:01:m2.DIR                   30 monitor
+LAS:MCS2:01:m2.SET                   30 monitor
+LAS:MCS2:01:m2.HLM                   30 monitor
+LAS:MCS2:01:m2.LLM                   30 monitor
+LAS:MCS2:01:m2.DHLM                  30 monitor
+LAS:MCS2:01:m2.DLLM                  30 monitor
+LAS:MCS2:01:m2.VELO                  30 monitor
+LAS:MCS2:01:m2.SBAS                  30 monitor
+LAS:MCS2:01:m2.SMAX                  30 monitor
+LAS:MCS2:01:m2.CNEN                  30 monitor
+LAS:MCS2:01:m2.SREV                  30 monitor
+LAS:MCS2:01:m2.UREV                  30 monitor
+LAS:MCS2:01:m2.MRES                  30 monitor
+LAS:MCS2:01:m2.ERES                  30 monitor
+LAS:MCS2:01:m2.RRES                  30 monitor
+LAS:MCS2:01:m2.UEIP                  30 monitor
+LAS:MCS2:01:m2.URIP                  30 monitor
+LAS:MCS2:01:m2.BVEL                  30 monitor
+LAS:MCS2:01:m2.JVEL                  30 monitor
+LAS:MCS2:01:m2.ACCL                  30 monitor
+LAS:MCS2:01:m2.BACC                  30 monitor
+LAS:MCS2:01:m2.JAR                   30 monitor
+LAS:MCS2:01:m2.VMAX                  30 monitor
+LAS:MCS2:01:m2.VAL                   30 monitor
+LAS:MCS2:01:m2:FW_MEANS              30 monitor
+LAS:MCS2:01:m2:REV_MEANS             30 monitor
+LAS:MCS2:01:m2_able.VAL              30 monitor
+LAS:MCS2:01:m2:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m2:STEP_FREQ             30 monitor
+LAS:MCS2:01:m2:STEP_COUNT            30 monitor
+LAS:MCS2:01:m2:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m2:TTZV_MODE             30 monitor
+LAS:MCS2:01:m2:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m2:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m2:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 3
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m3.RBV                   30 monitor  
+LAS:MCS2:01:m3.DESC                  30 monitor  
+LAS:MCS2:01:m3.TWV                   30 monitor
+LAS:MCS2:01:m3.OFF                   30 monitor
+LAS:MCS2:01:m3.FOFF                  30 monitor
+LAS:MCS2:01:m3.DIR                   30 monitor
+LAS:MCS2:01:m3.SET                   30 monitor
+LAS:MCS2:01:m3.HLM                   30 monitor
+LAS:MCS2:01:m3.LLM                   30 monitor
+LAS:MCS2:01:m3.DHLM                  30 monitor
+LAS:MCS2:01:m3.DLLM                  30 monitor
+LAS:MCS2:01:m3.VELO                  30 monitor
+LAS:MCS2:01:m3.SBAS                  30 monitor
+LAS:MCS2:01:m3.SMAX                  30 monitor
+LAS:MCS2:01:m3.CNEN                  30 monitor
+LAS:MCS2:01:m3.SREV                  30 monitor
+LAS:MCS2:01:m3.UREV                  30 monitor
+LAS:MCS2:01:m3.MRES                  30 monitor
+LAS:MCS2:01:m3.ERES                  30 monitor
+LAS:MCS2:01:m3.RRES                  30 monitor
+LAS:MCS2:01:m3.UEIP                  30 monitor
+LAS:MCS2:01:m3.URIP                  30 monitor
+LAS:MCS2:01:m3.BVEL                  30 monitor
+LAS:MCS2:01:m3.JVEL                  30 monitor
+LAS:MCS2:01:m3.ACCL                  30 monitor
+LAS:MCS2:01:m3.BACC                  30 monitor
+LAS:MCS2:01:m3.JAR                   30 monitor
+LAS:MCS2:01:m3.VMAX                  30 monitor
+LAS:MCS2:01:m3.VAL                   30 monitor
+LAS:MCS2:01:m3:FW_MEANS              30 monitor
+LAS:MCS2:01:m3:REV_MEANS             30 monitor
+LAS:MCS2:01:m3_able.VAL              30 monitor
+LAS:MCS2:01:m3:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m3:STEP_FREQ             30 monitor
+LAS:MCS2:01:m3:STEP_COUNT            30 monitor
+LAS:MCS2:01:m3:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m3:TTZV_MODE             30 monitor
+LAS:MCS2:01:m3:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m3:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m3:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 4
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m4.RBV                   30 monitor  
+LAS:MCS2:01:m4.DESC                  30 monitor  
+LAS:MCS2:01:m4.TWV                   30 monitor
+LAS:MCS2:01:m4.OFF                   30 monitor
+LAS:MCS2:01:m4.FOFF                  30 monitor
+LAS:MCS2:01:m4.DIR                   30 monitor
+LAS:MCS2:01:m4.SET                   30 monitor
+LAS:MCS2:01:m4.HLM                   30 monitor
+LAS:MCS2:01:m4.LLM                   30 monitor
+LAS:MCS2:01:m4.DHLM                  30 monitor
+LAS:MCS2:01:m4.DLLM                  30 monitor
+LAS:MCS2:01:m4.VELO                  30 monitor
+LAS:MCS2:01:m4.SBAS                  30 monitor
+LAS:MCS2:01:m4.SMAX                  30 monitor
+LAS:MCS2:01:m4.CNEN                  30 monitor
+LAS:MCS2:01:m4.SREV                  30 monitor
+LAS:MCS2:01:m4.UREV                  30 monitor
+LAS:MCS2:01:m4.MRES                  30 monitor
+LAS:MCS2:01:m4.ERES                  30 monitor
+LAS:MCS2:01:m4.RRES                  30 monitor
+LAS:MCS2:01:m4.UEIP                  30 monitor
+LAS:MCS2:01:m4.URIP                  30 monitor
+LAS:MCS2:01:m4.BVEL                  30 monitor
+LAS:MCS2:01:m4.JVEL                  30 monitor
+LAS:MCS2:01:m4.ACCL                  30 monitor
+LAS:MCS2:01:m4.BACC                  30 monitor
+LAS:MCS2:01:m4.JAR                   30 monitor
+LAS:MCS2:01:m4.VMAX                  30 monitor
+LAS:MCS2:01:m4.VAL                   30 monitor
+LAS:MCS2:01:m4:FW_MEANS              30 monitor
+LAS:MCS2:01:m4:REV_MEANS             30 monitor
+LAS:MCS2:01:m4_able.VAL              30 monitor
+LAS:MCS2:01:m4:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m4:STEP_FREQ             30 monitor
+LAS:MCS2:01:m4:STEP_COUNT            30 monitor
+LAS:MCS2:01:m4:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m4:TTZV_MODE             30 monitor
+LAS:MCS2:01:m4:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m4:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m4:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 5
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m5.RBV                   30 monitor  
+LAS:MCS2:01:m5.DESC                  30 monitor  
+LAS:MCS2:01:m5.TWV                   30 monitor
+LAS:MCS2:01:m5.OFF                   30 monitor
+LAS:MCS2:01:m5.FOFF                  30 monitor
+LAS:MCS2:01:m5.DIR                   30 monitor
+LAS:MCS2:01:m5.SET                   30 monitor
+LAS:MCS2:01:m5.HLM                   30 monitor
+LAS:MCS2:01:m5.LLM                   30 monitor
+LAS:MCS2:01:m5.DHLM                  30 monitor
+LAS:MCS2:01:m5.DLLM                  30 monitor
+LAS:MCS2:01:m5.VELO                  30 monitor
+LAS:MCS2:01:m5.SBAS                  30 monitor
+LAS:MCS2:01:m5.SMAX                  30 monitor
+LAS:MCS2:01:m5.CNEN                  30 monitor
+LAS:MCS2:01:m5.SREV                  30 monitor
+LAS:MCS2:01:m5.UREV                  30 monitor
+LAS:MCS2:01:m5.MRES                  30 monitor
+LAS:MCS2:01:m5.ERES                  30 monitor
+LAS:MCS2:01:m5.RRES                  30 monitor
+LAS:MCS2:01:m5.UEIP                  30 monitor
+LAS:MCS2:01:m5.URIP                  30 monitor
+LAS:MCS2:01:m5.BVEL                  30 monitor
+LAS:MCS2:01:m5.JVEL                  30 monitor
+LAS:MCS2:01:m5.ACCL                  30 monitor
+LAS:MCS2:01:m5.BACC                  30 monitor
+LAS:MCS2:01:m5.JAR                   30 monitor
+LAS:MCS2:01:m5.VMAX                  30 monitor
+LAS:MCS2:01:m5.VAL                   30 monitor
+LAS:MCS2:01:m5:FW_MEANS              30 monitor
+LAS:MCS2:01:m5:REV_MEANS             30 monitor
+LAS:MCS2:01:m5_able.VAL              30 monitor
+LAS:MCS2:01:m5:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m5:STEP_FREQ             30 monitor
+LAS:MCS2:01:m5:STEP_COUNT            30 monitor
+LAS:MCS2:01:m5:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m5:TTZV_MODE             30 monitor
+LAS:MCS2:01:m5:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m5:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m5:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 6
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m6.RBV                   30 monitor  
+LAS:MCS2:01:m6.DESC                  30 monitor  
+LAS:MCS2:01:m6.TWV                   30 monitor
+LAS:MCS2:01:m6.OFF                   30 monitor
+LAS:MCS2:01:m6.FOFF                  30 monitor
+LAS:MCS2:01:m6.DIR                   30 monitor
+LAS:MCS2:01:m6.SET                   30 monitor
+LAS:MCS2:01:m6.HLM                   30 monitor
+LAS:MCS2:01:m6.LLM                   30 monitor
+LAS:MCS2:01:m6.DHLM                  30 monitor
+LAS:MCS2:01:m6.DLLM                  30 monitor
+LAS:MCS2:01:m6.VELO                  30 monitor
+LAS:MCS2:01:m6.SBAS                  30 monitor
+LAS:MCS2:01:m6.SMAX                  30 monitor
+LAS:MCS2:01:m6.CNEN                  30 monitor
+LAS:MCS2:01:m6.SREV                  30 monitor
+LAS:MCS2:01:m6.UREV                  30 monitor
+LAS:MCS2:01:m6.MRES                  30 monitor
+LAS:MCS2:01:m6.ERES                  30 monitor
+LAS:MCS2:01:m6.RRES                  30 monitor
+LAS:MCS2:01:m6.UEIP                  30 monitor
+LAS:MCS2:01:m6.URIP                  30 monitor
+LAS:MCS2:01:m6.BVEL                  30 monitor
+LAS:MCS2:01:m6.JVEL                  30 monitor
+LAS:MCS2:01:m6.ACCL                  30 monitor
+LAS:MCS2:01:m6.BACC                  30 monitor
+LAS:MCS2:01:m6.JAR                   30 monitor
+LAS:MCS2:01:m6.VMAX                  30 monitor
+LAS:MCS2:01:m6.VAL                   30 monitor
+LAS:MCS2:01:m6:FW_MEANS              30 monitor
+LAS:MCS2:01:m6:REV_MEANS             30 monitor
+LAS:MCS2:01:m6_able.VAL              30 monitor
+LAS:MCS2:01:m6:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m6:STEP_FREQ             30 monitor
+LAS:MCS2:01:m6:STEP_COUNT            30 monitor
+LAS:MCS2:01:m6:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m6:TTZV_MODE             30 monitor
+LAS:MCS2:01:m6:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m6:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m6:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 7
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m7.RBV                   30 monitor  
+LAS:MCS2:01:m7.DESC                  30 monitor  
+LAS:MCS2:01:m7.TWV                   30 monitor
+LAS:MCS2:01:m7.OFF                   30 monitor
+LAS:MCS2:01:m7.FOFF                  30 monitor
+LAS:MCS2:01:m7.DIR                   30 monitor
+LAS:MCS2:01:m7.SET                   30 monitor
+LAS:MCS2:01:m7.HLM                   30 monitor
+LAS:MCS2:01:m7.LLM                   30 monitor
+LAS:MCS2:01:m7.DHLM                  30 monitor
+LAS:MCS2:01:m7.DLLM                  30 monitor
+LAS:MCS2:01:m7.VELO                  30 monitor
+LAS:MCS2:01:m7.SBAS                  30 monitor
+LAS:MCS2:01:m7.SMAX                  30 monitor
+LAS:MCS2:01:m7.CNEN                  30 monitor
+LAS:MCS2:01:m7.SREV                  30 monitor
+LAS:MCS2:01:m7.UREV                  30 monitor
+LAS:MCS2:01:m7.MRES                  30 monitor
+LAS:MCS2:01:m7.ERES                  30 monitor
+LAS:MCS2:01:m7.RRES                  30 monitor
+LAS:MCS2:01:m7.UEIP                  30 monitor
+LAS:MCS2:01:m7.URIP                  30 monitor
+LAS:MCS2:01:m7.BVEL                  30 monitor
+LAS:MCS2:01:m7.JVEL                  30 monitor
+LAS:MCS2:01:m7.ACCL                  30 monitor
+LAS:MCS2:01:m7.BACC                  30 monitor
+LAS:MCS2:01:m7.JAR                   30 monitor
+LAS:MCS2:01:m7.VMAX                  30 monitor
+LAS:MCS2:01:m7.VAL                   30 monitor
+LAS:MCS2:01:m7:FW_MEANS              30 monitor
+LAS:MCS2:01:m7:REV_MEANS             30 monitor
+LAS:MCS2:01:m7_able.VAL              30 monitor
+LAS:MCS2:01:m7:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m7:STEP_FREQ             30 monitor
+LAS:MCS2:01:m7:STEP_COUNT            30 monitor
+LAS:MCS2:01:m7:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m7:TTZV_MODE             30 monitor
+LAS:MCS2:01:m7:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m7:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m7:PTYPE_RBV             30 monitor
+# BASE is LAS:MCS2:01, INDEX is 8
+# Template for SmarAct MCS2.
+LAS:MCS2:01:m8.RBV                   30 monitor  
+LAS:MCS2:01:m8.DESC                  30 monitor  
+LAS:MCS2:01:m8.TWV                   30 monitor
+LAS:MCS2:01:m8.OFF                   30 monitor
+LAS:MCS2:01:m8.FOFF                  30 monitor
+LAS:MCS2:01:m8.DIR                   30 monitor
+LAS:MCS2:01:m8.SET                   30 monitor
+LAS:MCS2:01:m8.HLM                   30 monitor
+LAS:MCS2:01:m8.LLM                   30 monitor
+LAS:MCS2:01:m8.DHLM                  30 monitor
+LAS:MCS2:01:m8.DLLM                  30 monitor
+LAS:MCS2:01:m8.VELO                  30 monitor
+LAS:MCS2:01:m8.SBAS                  30 monitor
+LAS:MCS2:01:m8.SMAX                  30 monitor
+LAS:MCS2:01:m8.CNEN                  30 monitor
+LAS:MCS2:01:m8.SREV                  30 monitor
+LAS:MCS2:01:m8.UREV                  30 monitor
+LAS:MCS2:01:m8.MRES                  30 monitor
+LAS:MCS2:01:m8.ERES                  30 monitor
+LAS:MCS2:01:m8.RRES                  30 monitor
+LAS:MCS2:01:m8.UEIP                  30 monitor
+LAS:MCS2:01:m8.URIP                  30 monitor
+LAS:MCS2:01:m8.BVEL                  30 monitor
+LAS:MCS2:01:m8.JVEL                  30 monitor
+LAS:MCS2:01:m8.ACCL                  30 monitor
+LAS:MCS2:01:m8.BACC                  30 monitor
+LAS:MCS2:01:m8.JAR                   30 monitor
+LAS:MCS2:01:m8.VMAX                  30 monitor
+LAS:MCS2:01:m8.VAL                   30 monitor
+LAS:MCS2:01:m8:FW_MEANS              30 monitor
+LAS:MCS2:01:m8:REV_MEANS             30 monitor
+LAS:MCS2:01:m8_able.VAL              30 monitor
+LAS:MCS2:01:m8:STEP_VOLTAGE          30 monitor
+LAS:MCS2:01:m8:STEP_FREQ             30 monitor
+LAS:MCS2:01:m8:STEP_COUNT            30 monitor
+LAS:MCS2:01:m8:TOTAL_STEP_COUNT      30 monitor
+LAS:MCS2:01:m8:TTZV_MODE             30 monitor
+LAS:MCS2:01:m8:FORCE_SLIP_MODE       30 monitor
+LAS:MCS2:01:m8:TTZ_THRESHOLD         30 monitor
+LAS:MCS2:01:m8:PTYPE_RBV             30 monitor

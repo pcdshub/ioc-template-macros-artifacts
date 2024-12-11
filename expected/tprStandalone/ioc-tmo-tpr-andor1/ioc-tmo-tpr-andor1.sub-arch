@@ -1,0 +1,16 @@
+# Each tpr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "TMO:IOC:ANDOR:TPR:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "TMO:IOC:ANDOR:TPR:01"	}
+}
+
+file pcie_tprTrig.archive
+{
+        {       DEV = "TMO:ANDOR:TPR:01"        }
+}

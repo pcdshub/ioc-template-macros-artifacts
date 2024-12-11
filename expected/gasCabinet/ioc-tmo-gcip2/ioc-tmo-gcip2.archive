@@ -1,0 +1,230 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:TMO:IP2:GC:APP_DIR1 30 monitor 
+IOC:TMO:IP2:GC:APP_DIR2 30 monitor 
+IOC:TMO:IP2:GC:BSP_REV 30 monitor
+IOC:TMO:IP2:GC:CA_CLNT_CNT 1 monitor 
+IOC:TMO:IP2:GC:CA_CONN_CNT 1 monitor 
+IOC:TMO:IP2:GC:EPICS_VERS 30 monitor
+IOC:TMO:IP2:GC:FD_CNT 1 monitor 
+IOC:TMO:IP2:GC:FD_FREE 1 monitor 
+IOC:TMO:IP2:GC:FD_MAX 1 monitor 
+IOC:TMO:IP2:GC:HOSTNAME 30 monitor
+IOC:TMO:IP2:GC:KERNEL_VERS 30 monitor
+IOC:TMO:IP2:GC:RECORD_CNT 10 monitor
+IOC:TMO:IP2:GC:STARTTOD 30 monitor
+IOC:TMO:IP2:GC:ST_SCRIPT1 30 monitor 
+IOC:TMO:IP2:GC:ST_SCRIPT2 30 monitor 
+IOC:TMO:IP2:GC:SUSP_TASK_CNT 30 monitor 
+IOC:TMO:IP2:GC:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:TMO:IP2:GC:DAT_MBUF_FREE 10
+IOC:TMO:IP2:GC:DAT_MBUF_MAX 10
+IOC:TMO:IP2:GC:LOAD 30 
+IOC:TMO:IP2:GC:MEM_BLK_FREE 30 
+IOC:TMO:IP2:GC:MEM_FREE 30 
+IOC:TMO:IP2:GC:MEM_USED 30 
+IOC:TMO:IP2:GC:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:TMO:IP2:GC:SR_rebootStatus			1 monitor
+IOC:TMO:IP2:GC:SR_status				1 monitor
+IOC:TMO:IP2:GC:SR_rebootStatusStr		1 monitor
+IOC:TMO:IP2:GC:SR_statusStr				1 monitor
+IOC:TMO:IP2:GC:SR_0_Status				1 monitor
+IOC:TMO:IP2:GC:SR_0_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_1_Status				1 monitor
+IOC:TMO:IP2:GC:SR_1_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_2_Status				1 monitor
+IOC:TMO:IP2:GC:SR_2_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_3_Status				1 monitor
+IOC:TMO:IP2:GC:SR_3_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_4_Status				1 monitor
+IOC:TMO:IP2:GC:SR_4_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_5_Status				1 monitor
+IOC:TMO:IP2:GC:SR_5_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_6_Status				1 monitor
+IOC:TMO:IP2:GC:SR_6_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_7_Status				1 monitor
+IOC:TMO:IP2:GC:SR_7_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_0_State				1 monitor
+IOC:TMO:IP2:GC:SR_1_State				1 monitor
+IOC:TMO:IP2:GC:SR_2_State				1 monitor
+IOC:TMO:IP2:GC:SR_3_State				1 monitor
+IOC:TMO:IP2:GC:SR_4_State				1 monitor
+IOC:TMO:IP2:GC:SR_5_State				1 monitor
+IOC:TMO:IP2:GC:SR_6_State				1 monitor
+IOC:TMO:IP2:GC:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:TMO:IP2:GC:SR_recentlyStr			30 monitor
+IOC:TMO:IP2:GC:SR_rebootTime			30 monitor
+IOC:TMO:IP2:GC:SR_0_Name				30 monitor
+IOC:TMO:IP2:GC:SR_1_Name				30 monitor
+IOC:TMO:IP2:GC:SR_2_Name				30 monitor
+IOC:TMO:IP2:GC:SR_3_Name				30 monitor
+IOC:TMO:IP2:GC:SR_4_Name				30 monitor
+IOC:TMO:IP2:GC:SR_5_Name				30 monitor
+IOC:TMO:IP2:GC:SR_6_Name				30 monitor
+IOC:TMO:IP2:GC:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:TMO:IP2:GC:SR_heartbeat				30
+IOC:TMO:IP2:GC:SR_0_Time				30
+IOC:TMO:IP2:GC:SR_1_Time				30
+IOC:TMO:IP2:GC:SR_2_Time				30
+IOC:TMO:IP2:GC:SR_3_Time				30
+IOC:TMO:IP2:GC:SR_4_Time				30
+IOC:TMO:IP2:GC:SR_5_Time				30
+IOC:TMO:IP2:GC:SR_6_Time				30
+IOC:TMO:IP2:GC:SR_7_Time				30
+
+TMO:IP2:HAZ:HPT:1:RN_RBV        60 monitor
+TMO:IP2:HAZ:LPT:1:RN_RBV        60 monitor
+TMO:IP2:HAZ:VPT:1:RN_RBV        60 monitor
+TMO:IP2:HAZ:HPT:2:RN_RBV        60 monitor
+TMO:IP2:HAZ:LPT:2:RN_RBV        60 monitor
+TMO:IP2:HAZ:VPT:2:RN_RBV        60 monitor
+TMO:IP2:HAZ:LPT:3:RN_RBV        60 monitor
+TMO:IP2:HAZ:MODE_PNL_A_RBV      60 monitor
+TMO:IP2:HAZ:MODE_PNL_B_RBV      60 monitor
+TMO:IP2:HAZ:HPI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:HPV:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:PGI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:LPI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:LPV:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:VGS:2:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:HPI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:HPV:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:PGI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:LPI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:LPV:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:VGS:1:OPN_DO_RBV    60 monitor
+TMO:IP2:HAZ:RED_SYSTEM_A_RBV    60 monitor
+TMO:IP2:HAZ:RED_SYSTEM_B_RBV    60 monitor
+TMO:IP2:HAZ:YELLOW_SYSTEM_A_RBV 60 monitor
+TMO:IP2:HAZ:YELLOW_SYSTEM_B_RBV 60 monitor
+TMO:IP2:HAZ:GREEN_SYSTEM_A_RBV  60 monitor
+TMO:IP2:HAZ:GREEN_SYSTEM_B_RBV  60 monitor
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:TMO:IP2:GC:APP_DIR1 30 monitor 
+IOC:TMO:IP2:GC:APP_DIR2 30 monitor 
+IOC:TMO:IP2:GC:BSP_REV 30 monitor
+IOC:TMO:IP2:GC:CA_CLNT_CNT 1 monitor 
+IOC:TMO:IP2:GC:CA_CONN_CNT 1 monitor 
+IOC:TMO:IP2:GC:EPICS_VERS 30 monitor
+IOC:TMO:IP2:GC:FD_CNT 1 monitor 
+IOC:TMO:IP2:GC:FD_FREE 1 monitor 
+IOC:TMO:IP2:GC:FD_MAX 1 monitor 
+IOC:TMO:IP2:GC:HOSTNAME 30 monitor
+IOC:TMO:IP2:GC:KERNEL_VERS 30 monitor
+IOC:TMO:IP2:GC:RECORD_CNT 10 monitor
+IOC:TMO:IP2:GC:STARTTOD 30 monitor
+IOC:TMO:IP2:GC:ST_SCRIPT1 30 monitor 
+IOC:TMO:IP2:GC:ST_SCRIPT2 30 monitor 
+IOC:TMO:IP2:GC:SUSP_TASK_CNT 30 monitor 
+IOC:TMO:IP2:GC:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:TMO:IP2:GC:DAT_MBUF_FREE 10
+IOC:TMO:IP2:GC:DAT_MBUF_MAX 10
+IOC:TMO:IP2:GC:LOAD 30 
+IOC:TMO:IP2:GC:MEM_BLK_FREE 30 
+IOC:TMO:IP2:GC:MEM_FREE 30 
+IOC:TMO:IP2:GC:MEM_USED 30 
+IOC:TMO:IP2:GC:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:TMO:IP2:GC:SR_rebootStatus			1 monitor
+IOC:TMO:IP2:GC:SR_status				1 monitor
+IOC:TMO:IP2:GC:SR_rebootStatusStr		1 monitor
+IOC:TMO:IP2:GC:SR_statusStr				1 monitor
+IOC:TMO:IP2:GC:SR_0_Status				1 monitor
+IOC:TMO:IP2:GC:SR_0_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_1_Status				1 monitor
+IOC:TMO:IP2:GC:SR_1_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_2_Status				1 monitor
+IOC:TMO:IP2:GC:SR_2_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_3_Status				1 monitor
+IOC:TMO:IP2:GC:SR_3_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_4_Status				1 monitor
+IOC:TMO:IP2:GC:SR_4_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_5_Status				1 monitor
+IOC:TMO:IP2:GC:SR_5_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_6_Status				1 monitor
+IOC:TMO:IP2:GC:SR_6_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_7_Status				1 monitor
+IOC:TMO:IP2:GC:SR_7_StatusStr			1 monitor
+IOC:TMO:IP2:GC:SR_0_State				1 monitor
+IOC:TMO:IP2:GC:SR_1_State				1 monitor
+IOC:TMO:IP2:GC:SR_2_State				1 monitor
+IOC:TMO:IP2:GC:SR_3_State				1 monitor
+IOC:TMO:IP2:GC:SR_4_State				1 monitor
+IOC:TMO:IP2:GC:SR_5_State				1 monitor
+IOC:TMO:IP2:GC:SR_6_State				1 monitor
+IOC:TMO:IP2:GC:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:TMO:IP2:GC:SR_recentlyStr			30 monitor
+IOC:TMO:IP2:GC:SR_rebootTime			30 monitor
+IOC:TMO:IP2:GC:SR_0_Name				30 monitor
+IOC:TMO:IP2:GC:SR_1_Name				30 monitor
+IOC:TMO:IP2:GC:SR_2_Name				30 monitor
+IOC:TMO:IP2:GC:SR_3_Name				30 monitor
+IOC:TMO:IP2:GC:SR_4_Name				30 monitor
+IOC:TMO:IP2:GC:SR_5_Name				30 monitor
+IOC:TMO:IP2:GC:SR_6_Name				30 monitor
+IOC:TMO:IP2:GC:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:TMO:IP2:GC:SR_heartbeat				30
+IOC:TMO:IP2:GC:SR_0_Time				30
+IOC:TMO:IP2:GC:SR_1_Time				30
+IOC:TMO:IP2:GC:SR_2_Time				30
+IOC:TMO:IP2:GC:SR_3_Time				30
+IOC:TMO:IP2:GC:SR_4_Time				30
+IOC:TMO:IP2:GC:SR_5_Time				30
+IOC:TMO:IP2:GC:SR_6_Time				30
+IOC:TMO:IP2:GC:SR_7_Time				30
+
+TMO:IP2:NONHAZ:HPT:1:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:LPT:1:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:VPT:1:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:HPT:2:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:LPT:2:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:VPT:2:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:LPT:3:RN_RBV        60 monitor
+TMO:IP2:NONHAZ:MODE_PNL_A_RBV      60 monitor
+TMO:IP2:NONHAZ:MODE_PNL_B_RBV      60 monitor
+TMO:IP2:NONHAZ:HPI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:HPV:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:PGI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:LPI:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:LPV:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:VGS:2:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:HPI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:HPV:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:PGI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:LPI:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:LPV:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:VGS:1:OPN_DO_RBV    60 monitor
+TMO:IP2:NONHAZ:RED_SYSTEM_A_RBV    60 monitor
+TMO:IP2:NONHAZ:RED_SYSTEM_B_RBV    60 monitor
+TMO:IP2:NONHAZ:YELLOW_SYSTEM_A_RBV 60 monitor
+TMO:IP2:NONHAZ:YELLOW_SYSTEM_B_RBV 60 monitor
+TMO:IP2:NONHAZ:GREEN_SYSTEM_A_RBV  60 monitor
+TMO:IP2:NONHAZ:GREEN_SYSTEM_B_RBV  60 monitor

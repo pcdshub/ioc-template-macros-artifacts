@@ -1,0 +1,65 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LMXPP:MCS2:01" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{LMXPP:MCS2:01, 1 }
+	{LMXPP:MCS2:01, 2 }
+	{LMXPP:MCS2:01, 3 }
+	{LMXPP:MCS2:01, 4 }
+	{LMXPP:MCS2:01, 5 }
+	{LMXPP:MCS2:01, 6 }
+	{LMXPP:MCS2:01, 7 }
+	{LMXPP:MCS2:01, 8 }
+	{LMXPP:MCS2:01, 9 }
+	{LMXPP:MCS2:01, 10 }
+	{LMXPP:MCS2:01, 11 }
+	{LMXPP:MCS2:01, 12 }
+	{LMXPP:MCS2:01, 13 }
+	{LMXPP:MCS2:01, 14 }
+	{LMXPP:MCS2:01, 15 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+    { LMXPP:INJ_MP1_MR1_TIP1 }
+    { LMXPP:INJ_MP1_MR1_TILT1 }
+    { LMXPP:INJ_MP1_ZOO1_LS2 }
+    { LMXPP:INJ_MP1_ZOO1_LS3 }
+    { LMXPP:INJ_MP1_MR3_TIP1 }
+    { LMXPP:INJ_MP1_MR3_TILT1 }
+    { LMXPP:INJ_MP1_MR4_TIP1 }
+    { LMXPP:INJ_MP1_MR4_TILT1 }
+    { LMXPP:NOT_USED }
+    { LMXPP:USER_0 }
+    { LMXPP:USER_1 }
+    { LMXPP:USER_2 }
+    { LMXPP:USER_3 }
+    { LMXPP:USER_4 }
+    { LMXPP:USER_5 }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+        }

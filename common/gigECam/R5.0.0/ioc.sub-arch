@@ -1,0 +1,50 @@
+#
+# gigECam Archive file for $$IOCNAME
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+$$IF(EVR_PV)
+$$IF(EVR_TYPE,PMC)
+file archive_evr_PMC.archive
+{
+	{	EVR = "$$EVR_PV"	}
+}
+$$ELSE(EVR_TYPE)
+file archive_evr_SLAC.archive
+{
+	{	EVR = "$$EVR_PV"	}
+}
+$$ENDIF(EVR_TYPE)
+$$ENDIF(EVR_PV)
+
+$$IF(CAM_TYPE,prosilica)
+file prosilica.tpl-arch
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+$$ENDIF(CAM_TYPE)
+
+file gige-hist.archive
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+
+$$IF(BLD)
+$$IF(HIST)
+file bld-hist.archive
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+$$ENDIF(HIST)
+$$ENDIF(BLD)
+

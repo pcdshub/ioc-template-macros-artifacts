@@ -1,0 +1,470 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:INT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:BIN:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:STRING:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:VARS:FLOAT:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_VAL:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:NEVT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:RUNNO    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:BEGIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:END    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:WAIT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:DCONNECT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CONNECT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CONF    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:EXP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:COLLDONE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_DESC:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:STR_VAL:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:DAQ:CPV:NUM_DESC:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:NSHOTS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:NSTEPS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:ISTEP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:ISSCAN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:SCANVAR02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MIN02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX00    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:SCAN:MAX02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:MCC:EPHOT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:FS5:T0_SHIFTER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:T0_MONITOR    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_PULSE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_LEAK    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:TIME_DELAY    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:FS5_MIN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:FS5_MAX    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:EVR0_OSC    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:EVR0_GATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:SDG0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_PULSE2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LAS:E_LEAK2    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:VIT:T0    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:VIT:TD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LXT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USER:LXTTC    }
+}

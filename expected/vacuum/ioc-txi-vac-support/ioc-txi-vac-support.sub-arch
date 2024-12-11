@@ -1,0 +1,69 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:TXI:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV4K3:GFS:01" }
+}
+file archive_937b_cc.tpl-arch
+{
+	{ device = "TV4L1:GFS:01" }
+}
+
+
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV1K3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "ST1K3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PC1K3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PC1K3:PIP:02" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV2k3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV3K3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV4k3:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "ST1L1:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "PC2L1:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV4L1:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV3L:PIP:01" }
+}
+file archive_qpc.tpl-arch
+{
+        { BASE = "TV5L1:PIP:01" }
+}
+
+
+

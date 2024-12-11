@@ -1,0 +1,21 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:UED:MCS:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{UED:MCS:01:m1 }
+	{UED:MCS:01:m2 }
+	{UED:MCS:01:m3 }
+	{UED:MCS:01:m4 }
+	{UED:MCS:01:m5 }
+	{UED:MCS:01:m6 }
+	{UED:MCS:01:m7 }
+	{UED:MCS:01:m8 }
+	{UED:MCS:01:m9 }
+}

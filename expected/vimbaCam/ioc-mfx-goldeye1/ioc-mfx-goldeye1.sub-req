@@ -1,0 +1,14 @@
+#
+# gigECam Autosave request file for ioc-mfx-goldeye1
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "MFX:IOC:GDE:01" }
+}
+
+file vimba.req
+{
+    { CAM = "MFX:GDE:01" }
+}

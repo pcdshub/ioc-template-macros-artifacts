@@ -1,0 +1,16 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "XCS:IOC:DET" }
+}
+
+file detector.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "XCS:DET"  }
+}
+
+
+
+

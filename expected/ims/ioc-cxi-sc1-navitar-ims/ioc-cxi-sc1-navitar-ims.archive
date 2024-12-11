@@ -1,0 +1,456 @@
+# IMS archive list
+CXI:SC1:CLZ:02.DESC         86400    monitor
+CXI:SC1:CLZ:02.TYPE         86400    monitor
+CXI:SC1:CLZ:02.PORT         86400    monitor
+CXI:SC1:CLZ:02.LM           86400    monitor
+CXI:SC1:CLZ:02.SM           86400    monitor
+CXI:SC1:CLZ:02.SF           86400    monitor
+CXI:SC1:CLZ:02.STSV         86400    monitor
+CXI:SC1:CLZ:02.ERSV         86400    monitor
+CXI:SC1:CLZ:02.EE           86400    monitor
+CXI:SC1:CLZ:02.EL           86400    monitor
+CXI:SC1:CLZ:02.ME           86400    monitor
+CXI:SC1:CLZ:02.MS           86400    monitor
+CXI:SC1:CLZ:02.MT           86400    monitor
+CXI:SC1:CLZ:02.HT           86400    monitor
+CXI:SC1:CLZ:02.ES           86400    monitor
+CXI:SC1:CLZ:02.RCMX         86400    monitor
+CXI:SC1:CLZ:02.RC           86400    monitor
+CXI:SC1:CLZ:02.HCMX         86400    monitor
+CXI:SC1:CLZ:02.HC           86400    monitor
+CXI:SC1:CLZ:02.DVER         86400    monitor
+CXI:SC1:CLZ:02.MODE         86400    monitor
+CXI:SC1:CLZ:02.EGU          86400    monitor
+CXI:SC1:CLZ:02.UREV         86400    monitor
+CXI:SC1:CLZ:02.FREV         86400    monitor
+CXI:SC1:CLZ:02.SREV         86400    monitor
+CXI:SC1:CLZ:02.MRES         86400    monitor
+CXI:SC1:CLZ:02.ERES         86400    monitor
+CXI:SC1:CLZ:02.DIR          86400    monitor
+CXI:SC1:CLZ:02.OFF          86400    monitor
+CXI:SC1:CLZ:02.FOFF         86400    monitor
+CXI:SC1:CLZ:02.HTYP         86400    monitor
+CXI:SC1:CLZ:02.HEGE         86400    monitor
+CXI:SC1:CLZ:02.BDST         86400    monitor
+CXI:SC1:CLZ:02.HDST         86400    monitor
+CXI:SC1:CLZ:02.DLLM         86400    monitor
+CXI:SC1:CLZ:02.DHLM         86400    monitor
+CXI:SC1:CLZ:02.LLM          86400    monitor
+CXI:SC1:CLZ:02.HLM          86400    monitor
+CXI:SC1:CLZ:02.RTRY         86400    monitor
+CXI:SC1:CLZ:02.RDBD         86400    monitor
+CXI:SC1:CLZ:02.PDBD         86400    monitor
+CXI:SC1:CLZ:02.PREC         86400    monitor
+CXI:SC1:CLZ:02.SBAS         86400    monitor
+CXI:SC1:CLZ:02.SMAX         86400    monitor
+CXI:SC1:CLZ:02.S            86400    monitor
+CXI:SC1:CLZ:02.VBAS         86400    monitor
+CXI:SC1:CLZ:02.VMAX         86400    monitor
+CXI:SC1:CLZ:02.VELO         86400    monitor
+CXI:SC1:CLZ:02.BS           86400    monitor
+CXI:SC1:CLZ:02.BVEL         86400    monitor
+CXI:SC1:CLZ:02.HS           86400    monitor
+CXI:SC1:CLZ:02.HVEL         86400    monitor
+CXI:SC1:CLZ:02.ACCL         86400    monitor
+CXI:SC1:CLZ:02.BACC         86400    monitor
+CXI:SC1:CLZ:02.HACC         86400    monitor
+CXI:SC1:CLZ:02.TWV          86400    monitor
+CXI:SC1:CLZ:02.HOMD         86400    monitor
+CXI:SC1:CLZ:02.EGAG         86400    monitor
+CXI:SC1:CLZ:02.ERBL         86400    monitor
+CXI:SC1:CLZ:02.ESKL         86400    monitor
+
+CXI:SC1:CLZ:02.DLVL         86400    monitor
+
+CXI:SC1:CLZ:02.S1           86400    monitor
+CXI:SC1:CLZ:02.S2           86400    monitor
+CXI:SC1:CLZ:02.S3           86400    monitor
+CXI:SC1:CLZ:02.S4           86400    monitor
+CXI:SC1:CLZ:02.S9           86400    monitor
+
+CXI:SC1:CLZ:02.RES          86400    monitor
+
+CXI:SC1:CLZ:02.VAL          2        monitor
+CXI:SC1:CLZ:02.DVAL         2        monitor
+CXI:SC1:CLZ:02.RVAL         2        monitor
+CXI:SC1:CLZ:02.RRBV         0.2      monitor
+CXI:SC1:CLZ:02.DRBV         0.2      monitor
+CXI:SC1:CLZ:02.RBV          0.2      monitor
+
+CXI:SC1:CLZ:02.ERBV         0.2      monitor
+
+CXI:SC1:CLZ:02.DIFF         0.2      monitor
+
+CXI:SC1:CLZ:02.RCNT         86400    monitor
+CXI:SC1:CLZ:02.MISS         86400    monitor
+
+CXI:SC1:CLZ:02.LLS          86400    monitor
+CXI:SC1:CLZ:02.HLS          86400    monitor
+
+CXI:SC1:CLZ:02.ATHM         86400    monitor
+
+CXI:SC1:CLZ:02.MIP          0.2      monitor
+CXI:SC1:CLZ:02.MOVN         0.2      monitor
+CXI:SC1:CLZ:02.DMOV         0.2      monitor
+CXI:SC1:CLZ:02.MSTA         0.2      monitor
+CXI:SC1:CLZ:02.HCSV         86400    monitor
+
+CXI:SC1:CLZ:02:SAVED_RAW    86400    monitor
+CXI:SC1:CLZ:02:SAVED_P      86400    monitor
+
+CXI:SC1:CLZ:02:FW_MEANS     86400    monitor
+CXI:SC1:CLZ:02:REV_MEANS    86400    monitor
+
+CXI:SC1:CLZ:02:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:SC1:CLF:02.DESC         86400    monitor
+CXI:SC1:CLF:02.TYPE         86400    monitor
+CXI:SC1:CLF:02.PORT         86400    monitor
+CXI:SC1:CLF:02.LM           86400    monitor
+CXI:SC1:CLF:02.SM           86400    monitor
+CXI:SC1:CLF:02.SF           86400    monitor
+CXI:SC1:CLF:02.STSV         86400    monitor
+CXI:SC1:CLF:02.ERSV         86400    monitor
+CXI:SC1:CLF:02.EE           86400    monitor
+CXI:SC1:CLF:02.EL           86400    monitor
+CXI:SC1:CLF:02.ME           86400    monitor
+CXI:SC1:CLF:02.MS           86400    monitor
+CXI:SC1:CLF:02.MT           86400    monitor
+CXI:SC1:CLF:02.HT           86400    monitor
+CXI:SC1:CLF:02.ES           86400    monitor
+CXI:SC1:CLF:02.RCMX         86400    monitor
+CXI:SC1:CLF:02.RC           86400    monitor
+CXI:SC1:CLF:02.HCMX         86400    monitor
+CXI:SC1:CLF:02.HC           86400    monitor
+CXI:SC1:CLF:02.DVER         86400    monitor
+CXI:SC1:CLF:02.MODE         86400    monitor
+CXI:SC1:CLF:02.EGU          86400    monitor
+CXI:SC1:CLF:02.UREV         86400    monitor
+CXI:SC1:CLF:02.FREV         86400    monitor
+CXI:SC1:CLF:02.SREV         86400    monitor
+CXI:SC1:CLF:02.MRES         86400    monitor
+CXI:SC1:CLF:02.ERES         86400    monitor
+CXI:SC1:CLF:02.DIR          86400    monitor
+CXI:SC1:CLF:02.OFF          86400    monitor
+CXI:SC1:CLF:02.FOFF         86400    monitor
+CXI:SC1:CLF:02.HTYP         86400    monitor
+CXI:SC1:CLF:02.HEGE         86400    monitor
+CXI:SC1:CLF:02.BDST         86400    monitor
+CXI:SC1:CLF:02.HDST         86400    monitor
+CXI:SC1:CLF:02.DLLM         86400    monitor
+CXI:SC1:CLF:02.DHLM         86400    monitor
+CXI:SC1:CLF:02.LLM          86400    monitor
+CXI:SC1:CLF:02.HLM          86400    monitor
+CXI:SC1:CLF:02.RTRY         86400    monitor
+CXI:SC1:CLF:02.RDBD         86400    monitor
+CXI:SC1:CLF:02.PDBD         86400    monitor
+CXI:SC1:CLF:02.PREC         86400    monitor
+CXI:SC1:CLF:02.SBAS         86400    monitor
+CXI:SC1:CLF:02.SMAX         86400    monitor
+CXI:SC1:CLF:02.S            86400    monitor
+CXI:SC1:CLF:02.VBAS         86400    monitor
+CXI:SC1:CLF:02.VMAX         86400    monitor
+CXI:SC1:CLF:02.VELO         86400    monitor
+CXI:SC1:CLF:02.BS           86400    monitor
+CXI:SC1:CLF:02.BVEL         86400    monitor
+CXI:SC1:CLF:02.HS           86400    monitor
+CXI:SC1:CLF:02.HVEL         86400    monitor
+CXI:SC1:CLF:02.ACCL         86400    monitor
+CXI:SC1:CLF:02.BACC         86400    monitor
+CXI:SC1:CLF:02.HACC         86400    monitor
+CXI:SC1:CLF:02.TWV          86400    monitor
+CXI:SC1:CLF:02.HOMD         86400    monitor
+CXI:SC1:CLF:02.EGAG         86400    monitor
+CXI:SC1:CLF:02.ERBL         86400    monitor
+CXI:SC1:CLF:02.ESKL         86400    monitor
+
+CXI:SC1:CLF:02.DLVL         86400    monitor
+
+CXI:SC1:CLF:02.S1           86400    monitor
+CXI:SC1:CLF:02.S2           86400    monitor
+CXI:SC1:CLF:02.S3           86400    monitor
+CXI:SC1:CLF:02.S4           86400    monitor
+CXI:SC1:CLF:02.S9           86400    monitor
+
+CXI:SC1:CLF:02.RES          86400    monitor
+
+CXI:SC1:CLF:02.VAL          2        monitor
+CXI:SC1:CLF:02.DVAL         2        monitor
+CXI:SC1:CLF:02.RVAL         2        monitor
+CXI:SC1:CLF:02.RRBV         0.2      monitor
+CXI:SC1:CLF:02.DRBV         0.2      monitor
+CXI:SC1:CLF:02.RBV          0.2      monitor
+
+CXI:SC1:CLF:02.ERBV         0.2      monitor
+
+CXI:SC1:CLF:02.DIFF         0.2      monitor
+
+CXI:SC1:CLF:02.RCNT         86400    monitor
+CXI:SC1:CLF:02.MISS         86400    monitor
+
+CXI:SC1:CLF:02.LLS          86400    monitor
+CXI:SC1:CLF:02.HLS          86400    monitor
+
+CXI:SC1:CLF:02.ATHM         86400    monitor
+
+CXI:SC1:CLF:02.MIP          0.2      monitor
+CXI:SC1:CLF:02.MOVN         0.2      monitor
+CXI:SC1:CLF:02.DMOV         0.2      monitor
+CXI:SC1:CLF:02.MSTA         0.2      monitor
+CXI:SC1:CLF:02.HCSV         86400    monitor
+
+CXI:SC1:CLF:02:SAVED_RAW    86400    monitor
+CXI:SC1:CLF:02:SAVED_P      86400    monitor
+
+CXI:SC1:CLF:02:FW_MEANS     86400    monitor
+CXI:SC1:CLF:02:REV_MEANS    86400    monitor
+
+CXI:SC1:CLF:02:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:SC1:CLZ:03.DESC         86400    monitor
+CXI:SC1:CLZ:03.TYPE         86400    monitor
+CXI:SC1:CLZ:03.PORT         86400    monitor
+CXI:SC1:CLZ:03.LM           86400    monitor
+CXI:SC1:CLZ:03.SM           86400    monitor
+CXI:SC1:CLZ:03.SF           86400    monitor
+CXI:SC1:CLZ:03.STSV         86400    monitor
+CXI:SC1:CLZ:03.ERSV         86400    monitor
+CXI:SC1:CLZ:03.EE           86400    monitor
+CXI:SC1:CLZ:03.EL           86400    monitor
+CXI:SC1:CLZ:03.ME           86400    monitor
+CXI:SC1:CLZ:03.MS           86400    monitor
+CXI:SC1:CLZ:03.MT           86400    monitor
+CXI:SC1:CLZ:03.HT           86400    monitor
+CXI:SC1:CLZ:03.ES           86400    monitor
+CXI:SC1:CLZ:03.RCMX         86400    monitor
+CXI:SC1:CLZ:03.RC           86400    monitor
+CXI:SC1:CLZ:03.HCMX         86400    monitor
+CXI:SC1:CLZ:03.HC           86400    monitor
+CXI:SC1:CLZ:03.DVER         86400    monitor
+CXI:SC1:CLZ:03.MODE         86400    monitor
+CXI:SC1:CLZ:03.EGU          86400    monitor
+CXI:SC1:CLZ:03.UREV         86400    monitor
+CXI:SC1:CLZ:03.FREV         86400    monitor
+CXI:SC1:CLZ:03.SREV         86400    monitor
+CXI:SC1:CLZ:03.MRES         86400    monitor
+CXI:SC1:CLZ:03.ERES         86400    monitor
+CXI:SC1:CLZ:03.DIR          86400    monitor
+CXI:SC1:CLZ:03.OFF          86400    monitor
+CXI:SC1:CLZ:03.FOFF         86400    monitor
+CXI:SC1:CLZ:03.HTYP         86400    monitor
+CXI:SC1:CLZ:03.HEGE         86400    monitor
+CXI:SC1:CLZ:03.BDST         86400    monitor
+CXI:SC1:CLZ:03.HDST         86400    monitor
+CXI:SC1:CLZ:03.DLLM         86400    monitor
+CXI:SC1:CLZ:03.DHLM         86400    monitor
+CXI:SC1:CLZ:03.LLM          86400    monitor
+CXI:SC1:CLZ:03.HLM          86400    monitor
+CXI:SC1:CLZ:03.RTRY         86400    monitor
+CXI:SC1:CLZ:03.RDBD         86400    monitor
+CXI:SC1:CLZ:03.PDBD         86400    monitor
+CXI:SC1:CLZ:03.PREC         86400    monitor
+CXI:SC1:CLZ:03.SBAS         86400    monitor
+CXI:SC1:CLZ:03.SMAX         86400    monitor
+CXI:SC1:CLZ:03.S            86400    monitor
+CXI:SC1:CLZ:03.VBAS         86400    monitor
+CXI:SC1:CLZ:03.VMAX         86400    monitor
+CXI:SC1:CLZ:03.VELO         86400    monitor
+CXI:SC1:CLZ:03.BS           86400    monitor
+CXI:SC1:CLZ:03.BVEL         86400    monitor
+CXI:SC1:CLZ:03.HS           86400    monitor
+CXI:SC1:CLZ:03.HVEL         86400    monitor
+CXI:SC1:CLZ:03.ACCL         86400    monitor
+CXI:SC1:CLZ:03.BACC         86400    monitor
+CXI:SC1:CLZ:03.HACC         86400    monitor
+CXI:SC1:CLZ:03.TWV          86400    monitor
+CXI:SC1:CLZ:03.HOMD         86400    monitor
+CXI:SC1:CLZ:03.EGAG         86400    monitor
+CXI:SC1:CLZ:03.ERBL         86400    monitor
+CXI:SC1:CLZ:03.ESKL         86400    monitor
+
+CXI:SC1:CLZ:03.DLVL         86400    monitor
+
+CXI:SC1:CLZ:03.S1           86400    monitor
+CXI:SC1:CLZ:03.S2           86400    monitor
+CXI:SC1:CLZ:03.S3           86400    monitor
+CXI:SC1:CLZ:03.S4           86400    monitor
+CXI:SC1:CLZ:03.S9           86400    monitor
+
+CXI:SC1:CLZ:03.RES          86400    monitor
+
+CXI:SC1:CLZ:03.VAL          2        monitor
+CXI:SC1:CLZ:03.DVAL         2        monitor
+CXI:SC1:CLZ:03.RVAL         2        monitor
+CXI:SC1:CLZ:03.RRBV         0.2      monitor
+CXI:SC1:CLZ:03.DRBV         0.2      monitor
+CXI:SC1:CLZ:03.RBV          0.2      monitor
+
+CXI:SC1:CLZ:03.ERBV         0.2      monitor
+
+CXI:SC1:CLZ:03.DIFF         0.2      monitor
+
+CXI:SC1:CLZ:03.RCNT         86400    monitor
+CXI:SC1:CLZ:03.MISS         86400    monitor
+
+CXI:SC1:CLZ:03.LLS          86400    monitor
+CXI:SC1:CLZ:03.HLS          86400    monitor
+
+CXI:SC1:CLZ:03.ATHM         86400    monitor
+
+CXI:SC1:CLZ:03.MIP          0.2      monitor
+CXI:SC1:CLZ:03.MOVN         0.2      monitor
+CXI:SC1:CLZ:03.DMOV         0.2      monitor
+CXI:SC1:CLZ:03.MSTA         0.2      monitor
+CXI:SC1:CLZ:03.HCSV         86400    monitor
+
+CXI:SC1:CLZ:03:SAVED_RAW    86400    monitor
+CXI:SC1:CLZ:03:SAVED_P      86400    monitor
+
+CXI:SC1:CLZ:03:FW_MEANS     86400    monitor
+CXI:SC1:CLZ:03:REV_MEANS    86400    monitor
+
+CXI:SC1:CLZ:03:CFG_FILE     86400    monitor
+
+# IMS archive list
+CXI:SC1:CLF:03.DESC         86400    monitor
+CXI:SC1:CLF:03.TYPE         86400    monitor
+CXI:SC1:CLF:03.PORT         86400    monitor
+CXI:SC1:CLF:03.LM           86400    monitor
+CXI:SC1:CLF:03.SM           86400    monitor
+CXI:SC1:CLF:03.SF           86400    monitor
+CXI:SC1:CLF:03.STSV         86400    monitor
+CXI:SC1:CLF:03.ERSV         86400    monitor
+CXI:SC1:CLF:03.EE           86400    monitor
+CXI:SC1:CLF:03.EL           86400    monitor
+CXI:SC1:CLF:03.ME           86400    monitor
+CXI:SC1:CLF:03.MS           86400    monitor
+CXI:SC1:CLF:03.MT           86400    monitor
+CXI:SC1:CLF:03.HT           86400    monitor
+CXI:SC1:CLF:03.ES           86400    monitor
+CXI:SC1:CLF:03.RCMX         86400    monitor
+CXI:SC1:CLF:03.RC           86400    monitor
+CXI:SC1:CLF:03.HCMX         86400    monitor
+CXI:SC1:CLF:03.HC           86400    monitor
+CXI:SC1:CLF:03.DVER         86400    monitor
+CXI:SC1:CLF:03.MODE         86400    monitor
+CXI:SC1:CLF:03.EGU          86400    monitor
+CXI:SC1:CLF:03.UREV         86400    monitor
+CXI:SC1:CLF:03.FREV         86400    monitor
+CXI:SC1:CLF:03.SREV         86400    monitor
+CXI:SC1:CLF:03.MRES         86400    monitor
+CXI:SC1:CLF:03.ERES         86400    monitor
+CXI:SC1:CLF:03.DIR          86400    monitor
+CXI:SC1:CLF:03.OFF          86400    monitor
+CXI:SC1:CLF:03.FOFF         86400    monitor
+CXI:SC1:CLF:03.HTYP         86400    monitor
+CXI:SC1:CLF:03.HEGE         86400    monitor
+CXI:SC1:CLF:03.BDST         86400    monitor
+CXI:SC1:CLF:03.HDST         86400    monitor
+CXI:SC1:CLF:03.DLLM         86400    monitor
+CXI:SC1:CLF:03.DHLM         86400    monitor
+CXI:SC1:CLF:03.LLM          86400    monitor
+CXI:SC1:CLF:03.HLM          86400    monitor
+CXI:SC1:CLF:03.RTRY         86400    monitor
+CXI:SC1:CLF:03.RDBD         86400    monitor
+CXI:SC1:CLF:03.PDBD         86400    monitor
+CXI:SC1:CLF:03.PREC         86400    monitor
+CXI:SC1:CLF:03.SBAS         86400    monitor
+CXI:SC1:CLF:03.SMAX         86400    monitor
+CXI:SC1:CLF:03.S            86400    monitor
+CXI:SC1:CLF:03.VBAS         86400    monitor
+CXI:SC1:CLF:03.VMAX         86400    monitor
+CXI:SC1:CLF:03.VELO         86400    monitor
+CXI:SC1:CLF:03.BS           86400    monitor
+CXI:SC1:CLF:03.BVEL         86400    monitor
+CXI:SC1:CLF:03.HS           86400    monitor
+CXI:SC1:CLF:03.HVEL         86400    monitor
+CXI:SC1:CLF:03.ACCL         86400    monitor
+CXI:SC1:CLF:03.BACC         86400    monitor
+CXI:SC1:CLF:03.HACC         86400    monitor
+CXI:SC1:CLF:03.TWV          86400    monitor
+CXI:SC1:CLF:03.HOMD         86400    monitor
+CXI:SC1:CLF:03.EGAG         86400    monitor
+CXI:SC1:CLF:03.ERBL         86400    monitor
+CXI:SC1:CLF:03.ESKL         86400    monitor
+
+CXI:SC1:CLF:03.DLVL         86400    monitor
+
+CXI:SC1:CLF:03.S1           86400    monitor
+CXI:SC1:CLF:03.S2           86400    monitor
+CXI:SC1:CLF:03.S3           86400    monitor
+CXI:SC1:CLF:03.S4           86400    monitor
+CXI:SC1:CLF:03.S9           86400    monitor
+
+CXI:SC1:CLF:03.RES          86400    monitor
+
+CXI:SC1:CLF:03.VAL          2        monitor
+CXI:SC1:CLF:03.DVAL         2        monitor
+CXI:SC1:CLF:03.RVAL         2        monitor
+CXI:SC1:CLF:03.RRBV         0.2      monitor
+CXI:SC1:CLF:03.DRBV         0.2      monitor
+CXI:SC1:CLF:03.RBV          0.2      monitor
+
+CXI:SC1:CLF:03.ERBV         0.2      monitor
+
+CXI:SC1:CLF:03.DIFF         0.2      monitor
+
+CXI:SC1:CLF:03.RCNT         86400    monitor
+CXI:SC1:CLF:03.MISS         86400    monitor
+
+CXI:SC1:CLF:03.LLS          86400    monitor
+CXI:SC1:CLF:03.HLS          86400    monitor
+
+CXI:SC1:CLF:03.ATHM         86400    monitor
+
+CXI:SC1:CLF:03.MIP          0.2      monitor
+CXI:SC1:CLF:03.MOVN         0.2      monitor
+CXI:SC1:CLF:03.DMOV         0.2      monitor
+CXI:SC1:CLF:03.MSTA         0.2      monitor
+CXI:SC1:CLF:03.HCSV         86400    monitor
+
+CXI:SC1:CLF:03:SAVED_RAW    86400    monitor
+CXI:SC1:CLF:03:SAVED_P      86400    monitor
+
+CXI:SC1:CLF:03:FW_MEANS     86400    monitor
+CXI:SC1:CLF:03:REV_MEANS    86400    monitor
+
+CXI:SC1:CLF:03:CFG_FILE     86400    monitor
+
+# "zoom lens" archive list
+CXI:SC1:NAVITAR02:NOPH         86400    monitor
+CXI:SC1:NAVITAR02:NOPV         86400    monitor
+CXI:SC1:NAVITAR02:PIXH         86400    monitor
+CXI:SC1:NAVITAR02:PIXV         86400    monitor
+CXI:SC1:NAVITAR02:CENH         86400    monitor
+CXI:SC1:NAVITAR02:CENV         86400    monitor
+
+CXI:SC1:NAVITAR02:ZOOM.NMAX    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.NPTS    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.LABL    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.XVAL    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.YVAL    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.DVAL    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.INIT    86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.VAL     86400    monitor
+CXI:SC1:NAVITAR02:ZOOM.LVAL    86400    monitor
+
+# "zoom lens" archive list
+CXI:SC1:NAVITAR03:NOPH         86400    monitor
+CXI:SC1:NAVITAR03:NOPV         86400    monitor
+CXI:SC1:NAVITAR03:PIXH         86400    monitor
+CXI:SC1:NAVITAR03:PIXV         86400    monitor
+CXI:SC1:NAVITAR03:CENH         86400    monitor
+CXI:SC1:NAVITAR03:CENV         86400    monitor
+
+CXI:SC1:NAVITAR03:ZOOM.NMAX    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.NPTS    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.LABL    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.XVAL    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.YVAL    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.DVAL    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.INIT    86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.VAL     86400    monitor
+CXI:SC1:NAVITAR03:ZOOM.LVAL    86400    monitor
+

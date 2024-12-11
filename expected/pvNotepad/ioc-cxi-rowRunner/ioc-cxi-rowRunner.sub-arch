@@ -1,0 +1,125 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:NAME    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:CHIP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:TYPE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:COMM    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:ANGLE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:PITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:VERTICALPITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:HORIZONTALPITCH    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:PATT    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:ROW    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:ACC    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:FREQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:CELLS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:WINDOWS    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:GAP    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:USELASER    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:DAQ_STATE    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:USE_DAQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:RECORD    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:CONFSEQ    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:STRRUN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:OKTRG    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:TRG    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:ENDRUN    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { CXI:USR:STOP    }
+}

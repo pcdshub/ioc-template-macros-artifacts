@@ -1,0 +1,9 @@
+#
+# gigECam Autosave request file for ioc-cxi-gige-03
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:CXI:GIGE:03" }
+}

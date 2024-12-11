@@ -1,0 +1,22 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(SMA)
+file rssma100x.req
+{
+    { BASE = "$$BASE" }
+}
+$$ENDLOOP(SMA)
+
+$$LOOP(SMB)
+file rssmb100x.req
+{
+    { BASE = "$$BASE" }
+}
+$$ENDLOOP(SMB)

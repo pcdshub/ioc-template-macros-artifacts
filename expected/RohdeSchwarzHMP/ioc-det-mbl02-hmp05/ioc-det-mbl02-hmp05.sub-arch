@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file hmp-ioc.archive
+{
+    { IOC = "IOC:DET:MBL2:HMP:05" }
+}
+
+file hmp2020.archive
+{
+    { HMP = "DET:MBL2:HMP:05" }
+}

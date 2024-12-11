@@ -1,0 +1,107 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+LAS:IOC:SRC800:01:APP_DIR 30 monitor 
+LAS:IOC:SRC800:01:APP_DIR1 30 monitor 
+LAS:IOC:SRC800:01:APP_DIR2 30 monitor 
+LAS:IOC:SRC800:01:CA_CLNT_CNT 1 monitor 
+LAS:IOC:SRC800:01:CA_CONN_CNT 1 monitor 
+LAS:IOC:SRC800:01:EPICS_VERS 30 monitor
+LAS:IOC:SRC800:01:FD_CNT 1 monitor 
+LAS:IOC:SRC800:01:FD_FREE 1 monitor 
+LAS:IOC:SRC800:01:FD_MAX 1 monitor 
+LAS:IOC:SRC800:01:HOSTNAME 30 monitor
+LAS:IOC:SRC800:01:KERNEL_VERS 30 monitor
+LAS:IOC:SRC800:01:RECORD_CNT 10 monitor
+LAS:IOC:SRC800:01:START_CNT 30 monitor
+LAS:IOC:SRC800:01:STARTTOD 30 monitor
+LAS:IOC:SRC800:01:ST_SCRIPT 30 monitor 
+LAS:IOC:SRC800:01:ST_SCRIPT1 30 monitor 
+LAS:IOC:SRC800:01:ST_SCRIPT2 30 monitor 
+LAS:IOC:SRC800:01:SUSP_TASK_CNT 30 monitor 
+LAS:IOC:SRC800:01:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+LAS:IOC:SRC800:01:SYS_CPU_LOAD 10
+LAS:IOC:SRC800:01:LOAD 10 
+LAS:IOC:SRC800:01:MEM_BLK_FREE 10 
+LAS:IOC:SRC800:01:MEM_FREE 10 
+LAS:IOC:SRC800:01:MEM_USED 10 
+LAS:IOC:SRC800:01:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+LAS:IOC:SRC800:01:SR_rebootStatus			1 monitor
+LAS:IOC:SRC800:01:SR_status				1 monitor
+LAS:IOC:SRC800:01:SR_rebootStatusStr		1 monitor
+LAS:IOC:SRC800:01:SR_statusStr				1 monitor
+LAS:IOC:SRC800:01:SR_0_Status				1 monitor
+LAS:IOC:SRC800:01:SR_0_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_1_Status				1 monitor
+LAS:IOC:SRC800:01:SR_1_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_2_Status				1 monitor
+LAS:IOC:SRC800:01:SR_2_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_3_Status				1 monitor
+LAS:IOC:SRC800:01:SR_3_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_4_Status				1 monitor
+LAS:IOC:SRC800:01:SR_4_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_5_Status				1 monitor
+LAS:IOC:SRC800:01:SR_5_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_6_Status				1 monitor
+LAS:IOC:SRC800:01:SR_6_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_7_Status				1 monitor
+LAS:IOC:SRC800:01:SR_7_StatusStr			1 monitor
+LAS:IOC:SRC800:01:SR_0_State				1 monitor
+LAS:IOC:SRC800:01:SR_1_State				1 monitor
+LAS:IOC:SRC800:01:SR_2_State				1 monitor
+LAS:IOC:SRC800:01:SR_3_State				1 monitor
+LAS:IOC:SRC800:01:SR_4_State				1 monitor
+LAS:IOC:SRC800:01:SR_5_State				1 monitor
+LAS:IOC:SRC800:01:SR_6_State				1 monitor
+LAS:IOC:SRC800:01:SR_7_State				1 monitor
+
+# Archive these values only when they change
+LAS:IOC:SRC800:01:SR_recentlyStr			30 monitor
+LAS:IOC:SRC800:01:SR_rebootTime			30 monitor
+LAS:IOC:SRC800:01:SR_0_Name				30 monitor
+LAS:IOC:SRC800:01:SR_1_Name				30 monitor
+LAS:IOC:SRC800:01:SR_2_Name				30 monitor
+LAS:IOC:SRC800:01:SR_3_Name				30 monitor
+LAS:IOC:SRC800:01:SR_4_Name				30 monitor
+LAS:IOC:SRC800:01:SR_5_Name				30 monitor
+LAS:IOC:SRC800:01:SR_6_Name				30 monitor
+LAS:IOC:SRC800:01:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+LAS:IOC:SRC800:01:SR_heartbeat				30
+LAS:IOC:SRC800:01:SR_0_Time				30
+LAS:IOC:SRC800:01:SR_1_Time				30
+LAS:IOC:SRC800:01:SR_2_Time				30
+LAS:IOC:SRC800:01:SR_3_Time				30
+LAS:IOC:SRC800:01:SR_4_Time				30
+LAS:IOC:SRC800:01:SR_5_Time				30
+LAS:IOC:SRC800:01:SR_6_Time				30
+LAS:IOC:SRC800:01:SR_7_Time				30
+
+LAS:SRC800:01:VAL1_RBV 5 monitor
+LAS:SRC800:01:SVAL1_RBV 5 monitor
+
+LAS:SRC800:01:VAL2_RBV 5 monitor
+LAS:SRC800:01:SVAL2_RBV 5 monitor
+
+LAS:SRC800:01:VAL3_RBV 5 monitor
+LAS:SRC800:01:SVAL3_RBV 5 monitor
+
+LAS:SRC800:01:VAL4_RBV 5 monitor
+LAS:SRC800:01:SVAL4_RBV 5 monitor
+
+LAS:SRC800:01:VAL5_RBV 5 monitor
+LAS:SRC800:01:SVAL5_RBV 5 monitor
+
+LAS:SRC800:01:VAL6_RBV 5 monitor
+LAS:SRC800:01:SVAL6_RBV 5 monitor
+

@@ -1,0 +1,13 @@
+# IOC archive file
+## Replace XCS:USR with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file detprot_ioc.archive
+{
+    { IOC = "IOC:CXI:JF4M:BLOCKER" }
+}
+file detprot.archive
+{
+    { NAME = "CXI:JF4M:BLOCKER" }
+}

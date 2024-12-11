@@ -1,0 +1,30 @@
+
+# Generate archive PV list for IOC
+file motion-ioc.archive
+{
+	{ IOC = "XCS:IOC:PULSEPICKER:IMS" }
+}
+
+
+# Generate archive PV list for motors
+file archive_motor-mc.tpl-arch
+{
+        { MOTOR = "XCS:SB2:MMS:09" }
+        { MOTOR = "XCS:SB2:MMS:08" }
+        { MOTOR = "XCS:SB2:MMS:21" }
+}
+
+#archive list for records specific to pulse picker motor
+file pulse-motor-ims.tpl-arch
+{
+        { MOTOR = "XCS:SB2:MMS:09" }
+}
+
+# Archive list for soft-position-monitor on the Y axis
+file soft-position-monitor.tpl-arch
+{
+ {
+    ROOTPV = "XCS:SB2:MMS:09"
+    POSNAME = "IN_BEAM"
+ }
+}

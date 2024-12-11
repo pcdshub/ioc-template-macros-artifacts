@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:LAS:S2:PWR:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:LAS:S2:PWR:01"	}
+}
+
+file SentryPdu_8.archive
+{
+    { PRE = "LAS:S2:PWR:01" }
+}

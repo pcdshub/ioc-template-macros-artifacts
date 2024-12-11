@@ -1,0 +1,15 @@
+# Each pgp IOC needs one of these
+
+file pgp-ioc.archive
+{
+	{	IOC = "IOC:B84:LAB2:O1000"	}
+}
+
+file pgpCamlinkBase.tpl-arch
+{
+    { CAM = "CAMR:B84:LAB2:O1000" }
+}
+
+
+
+

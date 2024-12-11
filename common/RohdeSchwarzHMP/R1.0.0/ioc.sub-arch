@@ -1,0 +1,15 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file hmp-ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(HMP)
+file hmp$$TYPE.archive
+{
+    { HMP = "$$NAME" }
+}
+$$ENDLOOP(HMP)

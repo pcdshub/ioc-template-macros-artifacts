@@ -1,0 +1,13 @@
+# agilent5322 IOC instance archive file
+
+# Generate autosave PV list for IOC specific PV's
+file agilent5322-ioc.req
+{
+	{ IOC = "LAS:LHN:IOC:CNT:02:FQ" }
+}
+
+# Generate autosave PV list for each serial device
+file agilent5322.tpl-req
+{
+	{ DEVICE = "LAS:LHN:CNT:02:FQ" }
+}

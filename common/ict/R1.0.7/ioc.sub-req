@@ -1,0 +1,14 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file ictIoc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(PDU)
+file ictPdu.req
+{
+    { PRE = "$$NAME" }
+}
+$$ENDLOOP(PDU)

@@ -1,0 +1,17 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:GMD:VAC:SUPPORT" }
+}
+
+
+
+
+
+file archive_twistorr.tpl-arch
+{
+        { BASE = "EM1K0:GMD:PCT:10" }
+}
+
+

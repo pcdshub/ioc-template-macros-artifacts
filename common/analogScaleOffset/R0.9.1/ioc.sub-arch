@@ -1,0 +1,12 @@
+# IOC archive file
+file analogScaleOffset-ioc.archive
+{
+    { IOC = "$$IOC_PV" }
+}
+$$LOOP(ANALOG)
+
+file analogScaleOffset-archive.archive
+{
+    { DEV = "$$NAME", NUM = "$$NUM" }
+}
+$$ENDLOOP(ANALOG)

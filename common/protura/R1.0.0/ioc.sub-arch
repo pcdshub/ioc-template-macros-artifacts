@@ -1,0 +1,13 @@
+# Generate IOC archive request 
+file archive_protura.archive
+{
+	{ IOC = "$$IOC_PV",  }
+	
+}
+
+$$LOOP(PROTURA)
+file protura.archive
+{
+	{ MOTOR = "$$BASE:$$IF(EXT,$$EXT,LE)"}
+}
+$$ENDLOOP(PROTURA)

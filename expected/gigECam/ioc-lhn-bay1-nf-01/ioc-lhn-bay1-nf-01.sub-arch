@@ -1,0 +1,91 @@
+#
+# gigECam Archive file for ioc-lhn-bay1-nf-01
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:LAS:LHN:BAY1:CAM:01"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:LAS:LHN:BAY1:CAM:01"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "LAS:LHN:BAY1:CAM:01"    }
+}
+
+
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STREAM = "DATA1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STREAM = "IMAGE1"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STREAM = "IMAGE2"    }
+    }
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STREAM = "THUMBNAIL"    }
+    }
+
+
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", ROI = "ROI1"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", ROI = "ROI2"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", ROI = "ROI3"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STATS = "Stats1"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STATS = "Stats2"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STATS = "Stats3"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STATS = "Stats4"  }
+        {   CAM = "LAS:LHN:BAY1:CAM:01", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "LAS:LHN:BAY1:CAM:01", OVER = "Over1"    }
+    }
+
+
+
+file image_meta.archive
+{
+    {   CAM = "LAS:LHN:BAY1:CAM:01"    }
+}
+
+
+file archive_evr_SLAC.archive
+{
+	{	EVR = "EVR:LAS:LHN:01:NF"	}
+}
+
+
+file pcds_ad_basler.tpl-arch
+{
+    {   CAM = "LAS:LHN:BAY1:CAM:01" }
+}
+
+
+
+file gige-hist.archive
+{
+	{	P = "LAS:LHN:BAY1:CAM:01", R = ":"	}
+}
+
+

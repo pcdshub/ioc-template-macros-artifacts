@@ -1,0 +1,33 @@
+# IOC archive file
+## Replace _IOCPVROOT_ with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+file autosave_piMotion.req
+{
+	{ IOC = $$IOC_PV }
+}
+
+$$LOOP(EVR)
+file autosave_evr_$$TYPE.req
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)
+
+$$LOOP(MOTOR)
+$$IF(MODEL,LMC)$$ELSE(MODEL)
+file autosave_motor.req
+{
+	{ NAME = $$NAME }
+}
+$$ENDIF(MODEL)
+$$ENDLOOP(MOTOR)
+
+$$IF(MODEL,E-517)
+$$LOOP(MOTOR)
+file autosave_online.req
+{
+	{ NAME = $$NAME }
+}
+$$ENDLOOP(MOTOR)
+$$ENDIF(MODEL)

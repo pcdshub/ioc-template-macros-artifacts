@@ -1,0 +1,7 @@
+# HPLS200 IOC instance archive file
+
+# Generate archive PV list for each serial device
+file HPLS200.tpl-arch
+{
+	{ P = "$$DEVICE" }
+}

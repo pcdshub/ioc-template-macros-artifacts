@@ -1,0 +1,32 @@
+#
+# mpod Archive file for ioc-mec-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "IOC:MEC:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "MEC:DET:MPD:CH",             "0" }
+	{ "MEC:DET:MPD:CH",             "1" }
+	{ "MEC:DET:MPD:CH",             "2" }
+	{ "MEC:DET:MPD:CH",             "3" }
+	{ "MEC:DET:MPD:CH",             "4" }
+	{ "MEC:DET:MPD:CH",             "5" }
+	{ "MEC:DET:MPD:CH",             "6" }
+	{ "MEC:DET:MPD:CH",             "7" }
+	{ "MEC:DET:MPD:CH",             "100" }
+	{ "MEC:DET:MPD:CH",             "101" }
+	{ "MEC:DET:MPD:CH",             "102" }
+	{ "MEC:DET:MPD:CH",             "103" }
+	{ "MEC:DET:MPD:CH",             "104" }
+	{ "MEC:DET:MPD:CH",             "105" }
+	{ "MEC:DET:MPD:CH",             "106" }
+	{ "MEC:DET:MPD:CH",             "107" }
+}

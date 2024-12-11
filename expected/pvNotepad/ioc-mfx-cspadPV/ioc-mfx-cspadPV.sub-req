@@ -1,0 +1,482 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_XAXIS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_INTENSITY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_INTENSITY_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_ADU    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:MODEL_ADU_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:X0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:X0_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:Y0    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:Y0_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_X_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Y_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_CALC_RATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_FRACTION    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_PHI    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_PHI_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_WIDTH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_WIDTH_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_INTENSITY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_INTENSITY_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_ADU    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_ADU_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MEAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_STD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_MAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQUENCY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMPLITUDE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_EVENTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RESOLUTION    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQ_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_FREQ_WF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMP_WF    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_AMP_ARRAY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_ADU    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_ADU_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RADIUS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RADIUS_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_WIDTH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_WIDTH_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_INTENSITY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_INTENSITY_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:PXSIZE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_X_PX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:BEAM_Y_PX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_ROLL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:CAM_ROLL_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_X_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Y    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Y_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_XWIDTH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_XWIDTH_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_ROLL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_ROLL_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_ROLL    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_ROLL_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_X    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_X_ERR    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_Counter    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:TOTAL_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:RING_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:PSD_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STATS_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:STREAK_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:JET_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INLINE:NOZZLE_RepRate    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:DIFFRACT:LATENCY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XMIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XMAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSTEP_SIZE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:BOUNCE_WIDTH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSCAN_MIN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:INJECTOR:XSCAN_MAX    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:PULSE_ENERGY    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:TRANS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:E_THRESH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:BEAM:STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:DET:RE:STATE    }
+}
+

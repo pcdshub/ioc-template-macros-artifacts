@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file wfsIoc.archive
+{
+	{	IOC = "IOC:LAS:WFS:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:LAS:WFS:01"	}
+}
+
+file wfs.archive
+{
+    { CAM = "LAS:WFS:01" }
+}

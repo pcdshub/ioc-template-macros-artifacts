@@ -1,0 +1,17 @@
+#
+# Actually a PV list file!
+#
+# To reread config file:
+#	caput NET:IOC:LAS:FTL:PFTS:GW:01:newAsFlag 1
+#
+EVALUATION ORDER ALLOW, DENY
+
+
+
+#/cds/group/pcds/epics/ioc/common/local_gateway/R1.0.2/extra/ioc-las-ftl-pfts-gw-01.extra
+
+CYCLE:P104.* ALLOW
+CYCLE:LINK10.* ALLOW
+
+CYCLE:P104.* ALLOW     RWLAS
+CYCLE:LINK10.* ALLOW   RWLAS

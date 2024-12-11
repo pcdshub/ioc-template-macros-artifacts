@@ -1,0 +1,128 @@
+#
+# gigECam Archive file for $$IOCNAME
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+
+file pcds_ad.tpl-arch
+{
+    {   CAM = "$$CAM_PV"    }
+}
+
+
+$$LOOP(STREAM)
+file pcds_ad_stream.tpl-arch
+    {
+        {   CAM = "$$CAM_PV", STREAM = "$$IMAGE_NAME"    }
+    }
+$$ENDLOOP(STREAM)
+
+
+$$IF(PLUGINS,commonPlugins)
+    file pcds_ad_plugin_roi.tpl-arch
+    {
+        {   CAM = "$$CAM_PV", ROI = "ROI1"  }
+        {   CAM = "$$CAM_PV", ROI = "ROI2"  }
+        {   CAM = "$$CAM_PV", ROI = "ROI3"  }
+        {   CAM = "$$CAM_PV", ROI = "ROI4"  }
+    }
+
+
+    file pcds_ad_plugin_stats.tpl-arch
+    {
+        {   CAM = "$$CAM_PV", STATS = "Stats1"  }
+        {   CAM = "$$CAM_PV", STATS = "Stats2"  }
+        {   CAM = "$$CAM_PV", STATS = "Stats3"  }
+        {   CAM = "$$CAM_PV", STATS = "Stats4"  }
+        {   CAM = "$$CAM_PV", STATS = "Stats5"  }
+    }
+
+    file pcds_ad_plugin_overlay.tpl-arch
+    {
+        {   CAM = "$$CAM_PV", OVER = "Over1"    }
+    }
+$$ENDIF(PLUGINS)
+
+
+$$LOOP(PLUGIN)
+    $$IF(NAME,ROI)
+        file pcds_ad_plugin_roi.tpl-arch
+        {
+            {   CAM = "$$CAM_PV", ROI = "ROI$$IF(NUM,$$NUM,1)"  }
+        }
+    $$ENDIF(NAME)
+    $$IF(NAME,Stats)
+        file pcds_ad_plugin_stats.tpl-arch
+        {
+            {   CAM = "$$CAM_PV", STATS = "Stats$$IF(NUM,$$NUM,1)"  }
+        }
+    $$ENDIF(NAME)
+    $$IF(NAME,Overlay)
+        file pcds_ad_plugin_overlay.tpl-arch
+        {
+            {   CAM = "$$CAM_PV", OVER = "Over$$IF(NUM,$$NUM,1)"  }
+        }
+    $$ENDIF(NAME)
+$$ENDLOOP(PLUGIN)
+
+file image_meta.archive
+{
+    {   CAM = "$$CAM_PV"    }
+}
+
+
+$$IF(EVR_PV)
+$$IF(EVR_TYPE,PMC)
+file archive_evr_PMC.archive
+{
+	{	EVR = "$$EVR_PV"	}
+}
+$$ELSE(EVR_TYPE)
+file archive_evr_SLAC.archive
+{
+	{	EVR = "$$EVR_PV"	}
+}
+$$ENDIF(EVR_TYPE)
+$$ENDIF(EVR_PV)
+
+$$IF(CAM_TYPE,prosilica)
+file prosilica.tpl-arch
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+$$ENDIF(CAM_TYPE)
+
+$$IF(CAM_TYPE,Basler)
+file pcds_ad_basler.tpl-arch
+{
+    {   CAM = "$$CAM_PV" }
+}
+$$ENDIF(CAM_TYPE)
+
+
+
+file gige-hist.archive
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+
+$$IF(BLD)
+$$IF(HIST)
+file bld-hist.archive
+{
+	{	P = "$$CAM_PV", R = ":"	}
+}
+$$ENDIF(HIST)
+$$ENDIF(BLD)
+

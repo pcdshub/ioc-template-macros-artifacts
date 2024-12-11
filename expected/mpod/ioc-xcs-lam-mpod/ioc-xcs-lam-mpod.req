@@ -1,0 +1,112 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+XCS:IOC:LAM:MPOD:ACCESS
+XCS:IOC:LAM:MPOD:CA_CLNT_CNT.HIGH
+XCS:IOC:LAM:MPOD:CA_CLNT_CNT.HIHI
+XCS:IOC:LAM:MPOD:CA_CONN_CNT.HIGH
+XCS:IOC:LAM:MPOD:CA_CONN_CNT.HIHI
+XCS:IOC:LAM:MPOD:SUSP_TASK_CNT.HIHI
+XCS:IOC:LAM:MPOD:FD_FREE.LOW
+XCS:IOC:LAM:MPOD:FD_FREE.LOLO
+XCS:IOC:LAM:MPOD:IOC_CPU_LOAD.HIGH
+XCS:IOC:LAM:MPOD:IOC_CPU_LOAD.HIHI
+XCS:IOC:LAM:MPOD:MEM_FREE.LOW
+XCS:IOC:LAM:MPOD:MEM_FREE.LOLO
+XCS:IOC:LAM:MPOD:START_CNT
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:0:SetCurrent
+XCS:LAM:MPD:CH:0:SetSwitch
+XCS:LAM:MPD:CH:0:SetVoltage
+XCS:LAM:MPD:CH:0:GetVoltage.DESC
+XCS:LAM:MPD:CH:0:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:1:SetCurrent
+XCS:LAM:MPD:CH:1:SetSwitch
+XCS:LAM:MPD:CH:1:SetVoltage
+XCS:LAM:MPD:CH:1:GetVoltage.DESC
+XCS:LAM:MPD:CH:1:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:2:SetCurrent
+XCS:LAM:MPD:CH:2:SetSwitch
+XCS:LAM:MPD:CH:2:SetVoltage
+XCS:LAM:MPD:CH:2:GetVoltage.DESC
+XCS:LAM:MPD:CH:2:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:3:SetCurrent
+XCS:LAM:MPD:CH:3:SetSwitch
+XCS:LAM:MPD:CH:3:SetVoltage
+XCS:LAM:MPD:CH:3:GetVoltage.DESC
+XCS:LAM:MPD:CH:3:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:4:SetCurrent
+XCS:LAM:MPD:CH:4:SetSwitch
+XCS:LAM:MPD:CH:4:SetVoltage
+XCS:LAM:MPD:CH:4:GetVoltage.DESC
+XCS:LAM:MPD:CH:4:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:5:SetCurrent
+XCS:LAM:MPD:CH:5:SetSwitch
+XCS:LAM:MPD:CH:5:SetVoltage
+XCS:LAM:MPD:CH:5:GetVoltage.DESC
+XCS:LAM:MPD:CH:5:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:6:SetCurrent
+XCS:LAM:MPD:CH:6:SetSwitch
+XCS:LAM:MPD:CH:6:SetVoltage
+XCS:LAM:MPD:CH:6:GetVoltage.DESC
+XCS:LAM:MPD:CH:6:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:7:SetCurrent
+XCS:LAM:MPD:CH:7:SetSwitch
+XCS:LAM:MPD:CH:7:SetVoltage
+XCS:LAM:MPD:CH:7:GetVoltage.DESC
+XCS:LAM:MPD:CH:7:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:100:SetCurrent
+XCS:LAM:MPD:CH:100:SetSwitch
+XCS:LAM:MPD:CH:100:SetVoltage
+XCS:LAM:MPD:CH:100:GetVoltage.DESC
+XCS:LAM:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:101:SetCurrent
+XCS:LAM:MPD:CH:101:SetSwitch
+XCS:LAM:MPD:CH:101:SetVoltage
+XCS:LAM:MPD:CH:101:GetVoltage.DESC
+XCS:LAM:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:102:SetCurrent
+XCS:LAM:MPD:CH:102:SetSwitch
+XCS:LAM:MPD:CH:102:SetVoltage
+XCS:LAM:MPD:CH:102:GetVoltage.DESC
+XCS:LAM:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:103:SetCurrent
+XCS:LAM:MPD:CH:103:SetSwitch
+XCS:LAM:MPD:CH:103:SetVoltage
+XCS:LAM:MPD:CH:103:GetVoltage.DESC
+XCS:LAM:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:104:SetCurrent
+XCS:LAM:MPD:CH:104:SetSwitch
+XCS:LAM:MPD:CH:104:SetVoltage
+XCS:LAM:MPD:CH:104:GetVoltage.DESC
+XCS:LAM:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:105:SetCurrent
+XCS:LAM:MPD:CH:105:SetSwitch
+XCS:LAM:MPD:CH:105:SetVoltage
+XCS:LAM:MPD:CH:105:GetVoltage.DESC
+XCS:LAM:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:106:SetCurrent
+XCS:LAM:MPD:CH:106:SetSwitch
+XCS:LAM:MPD:CH:106:SetVoltage
+XCS:LAM:MPD:CH:106:GetVoltage.DESC
+XCS:LAM:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+XCS:LAM:MPD:CH:107:SetCurrent
+XCS:LAM:MPD:CH:107:SetSwitch
+XCS:LAM:MPD:CH:107:SetVoltage
+XCS:LAM:MPD:CH:107:GetVoltage.DESC
+XCS:LAM:MPD:CH:107:SetVoltage.DESC

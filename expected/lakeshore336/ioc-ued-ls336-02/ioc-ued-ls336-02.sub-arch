@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file ls336-ioc.archive
+{
+    { IOC = "IOC:UED:USR:TCT:02" }
+}
+
+file ls336.archive
+{
+    { TCT = "UED:USR:TCT:02" }
+}

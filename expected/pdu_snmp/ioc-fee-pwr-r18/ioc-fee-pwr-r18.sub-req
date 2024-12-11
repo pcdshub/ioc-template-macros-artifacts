@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:FEE:PWR:R18" }
+}
+
+file Sentry4Pdu_24.req
+{
+    { PRE = "FEE:PWR:R18:01" }
+}

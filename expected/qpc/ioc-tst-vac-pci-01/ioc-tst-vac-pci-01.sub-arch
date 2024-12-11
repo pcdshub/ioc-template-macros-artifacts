@@ -1,0 +1,21 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TST:VAC:PIP:01" }
+}
+
+file qpc_controller.archive
+{
+    { IOC = "IOC:TST:VAC:PIP:01", BASE  = "TST:VAC:PIP:01" }
+}
+
+file qpc_channel.archive
+{
+    { CH_BASE = "MR1K4:SOMS:PIP:01" , CHANNEL = "1"}
+    { CH_BASE = "ST1K4:TEST:PIP:01" , CHANNEL = "2"}
+    { CH_BASE = "ST2K4:BCS:PIP:01" , CHANNEL = "3"}
+    { CH_BASE = "ST3K4:PPS:PIP:01" , CHANNEL = "4"}
+}

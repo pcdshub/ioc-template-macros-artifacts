@@ -1,0 +1,5 @@
+# Generate autosave request 
+file smc100.tpl-req
+{
+    { MOTOR="LAS:FS14:MMN:FQ" }
+}

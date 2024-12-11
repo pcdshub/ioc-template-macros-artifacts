@@ -1,0 +1,116 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:NAME    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:TYPE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:COMM    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:ANGLE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:PITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:VERTICALPITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:HORIZONTALPITCH    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:PATT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:ROW    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:ACC    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:FREQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:CELLS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:WINDOWS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:GAP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:DAQ_STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:USE_DAQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:RECORD    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:CONFSEQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:STRRUN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:OKTRG    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:TRG    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:ENDRUN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MFX:USR:STOP    }
+}

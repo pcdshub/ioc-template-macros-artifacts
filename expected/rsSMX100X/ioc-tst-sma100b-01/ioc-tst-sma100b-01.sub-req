@@ -1,0 +1,14 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:LAS:FTL:SGN:01" }
+}
+
+file rssma100x.req
+{
+    { BASE = "LAS:FTL:SGN:01" }
+}
+

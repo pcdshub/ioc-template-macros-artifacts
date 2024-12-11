@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:CXI:TTK" }
+}
+
+file thermotek.req
+{
+    { P = "CXI:JF4M:TTK" }
+}

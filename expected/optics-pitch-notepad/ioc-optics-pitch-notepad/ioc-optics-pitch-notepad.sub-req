@@ -1,0 +1,72 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L0:PITCH:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L0:PITCH:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L0:PITCH:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L0:PITCH:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L4:PITCH:MEC:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L4:PITCH:MEC:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L4:PITCH:MFX:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L4:PITCH:MFX:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L3:PITCH:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR1L3:PITCH:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L3:PITCH:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L3:PITCH:Coating2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L3:PITCH:CCM:Coating1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { MR2L3:PITCH:CCM:Coating2    }
+}
+

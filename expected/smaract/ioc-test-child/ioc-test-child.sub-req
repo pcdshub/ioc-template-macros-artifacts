@@ -1,0 +1,23 @@
+# Smaract IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:LAS:MCS2:01 }
+}
+
+file smaract.req
+{
+	pattern
+	{ MOTOR }
+	{LAS:TST:MCS2:02:m1 }
+	{LAS:TST:MCS2:02:m2 }
+	{LAS:TST:MCS2:02:m4 }
+	{LAS:TST:MCS2:02:m5 }
+	{LAS:TST:MCS2:02:m7 }
+	{LAS:TST:MCS2:02:m8 }
+	{LAS:TST:MCS2:02:m10 }
+	{LAS:TST:MCS2:02:m12 }
+	{LAS:TST:MCS2:02:m13 }
+	{LAS:TST:MCS2:02:m14 }
+	{LAS:TST:MCS2:02:m16 }
+}

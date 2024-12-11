@@ -1,0 +1,81 @@
+file lusiAtt-ioc.archive
+{
+	{ IOC = "IOC:XRT:DIA" } 
+} 
+
+file lusiAtt.archive
+{
+	{ ATTBASE = "XRT:DIA" }
+}
+
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XRT:DIA"
+		ATTNUM  = "10"
+	}
+}
+

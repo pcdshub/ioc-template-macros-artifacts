@@ -1,0 +1,507 @@
+XPP:ARI1.DESC   86400    monitor
+XPP:ARI1        86400    monitor
+
+XPP:ARI2.DESC   86400    monitor
+XPP:ARI2        86400    monitor
+
+XPP:ARF1.DESC   86400    monitor
+XPP:ARF1        86400    monitor
+
+XPP:ARF2.DESC   86400    monitor
+XPP:ARF2        86400    monitor
+
+XPP:ARS1.DESC   86400    monitor
+XPP:ARS1        86400    monitor
+
+XPP:ARS2.DESC   86400    monitor
+XPP:ARS2        86400    monitor
+
+XPP:F1.DESC   86400    monitor
+XPP:F1        86400    monitor
+
+XPP:F2.DESC   86400    monitor
+XPP:F2        86400    monitor
+
+XPP:F3.DESC   86400    monitor
+XPP:F3        86400    monitor
+
+XPP:DAQ:CPV:NUM_VAL:01.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_VAL:01        86400    monitor
+
+XPP:DAQ:CPV:NUM_VAL:02.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_VAL:02        86400    monitor
+
+XPP:DAQ:CPV:NUM_VAL:03.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_VAL:03        86400    monitor
+
+XPP:DAQ:NEVT.DESC   86400    monitor
+XPP:DAQ:NEVT        86400    monitor
+
+XPP:DAQ:RUNNO.DESC   86400    monitor
+XPP:DAQ:RUNNO        86400    monitor
+
+XPP:DAQ:BEGIN.DESC   86400    monitor
+XPP:DAQ:BEGIN        86400    monitor
+
+XPP:DAQ:END.DESC   86400    monitor
+XPP:DAQ:END        86400    monitor
+
+XPP:DAQ:WAIT.DESC   86400    monitor
+XPP:DAQ:WAIT        86400    monitor
+
+XPP:DAQ:DCONNECT.DESC   86400    monitor
+XPP:DAQ:DCONNECT        86400    monitor
+
+XPP:DAQ:CONNECT.DESC   86400    monitor
+XPP:DAQ:CONNECT        86400    monitor
+
+XPP:DAQ:CONF.DESC   86400    monitor
+XPP:DAQ:CONF        86400    monitor
+
+XPP:DAQ:EXP.DESC   86400    monitor
+XPP:DAQ:EXP        86400    monitor
+
+XPP:DAQ:COLLDONE.DESC   86400    monitor
+XPP:DAQ:COLLDONE        86400    monitor
+
+XPP:DAQ:CPV:STR_DESC:01.DESC   86400    monitor
+XPP:DAQ:CPV:STR_DESC:01        86400    monitor
+
+XPP:DAQ:CPV:STR_DESC:02.DESC   86400    monitor
+XPP:DAQ:CPV:STR_DESC:02        86400    monitor
+
+XPP:DAQ:CPV:STR_DESC:03.DESC   86400    monitor
+XPP:DAQ:CPV:STR_DESC:03        86400    monitor
+
+XPP:DAQ:CPV:STR_VAL:01.DESC   86400    monitor
+XPP:DAQ:CPV:STR_VAL:01        86400    monitor
+
+XPP:DAQ:CPV:STR_VAL:02.DESC   86400    monitor
+XPP:DAQ:CPV:STR_VAL:02        86400    monitor
+
+XPP:DAQ:CPV:STR_VAL:03.DESC   86400    monitor
+XPP:DAQ:CPV:STR_VAL:03        86400    monitor
+
+XPP:DAQ:CPV:NUM_DESC:01.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_DESC:01        86400    monitor
+
+XPP:DAQ:CPV:NUM_DESC:02.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_DESC:02        86400    monitor
+
+XPP:DAQ:CPV:NUM_DESC:03.DESC   86400    monitor
+XPP:DAQ:CPV:NUM_DESC:03        86400    monitor
+
+XPP:SCAN:NSHOTS.DESC   86400    monitor
+XPP:SCAN:NSHOTS        86400    monitor
+
+XPP:SCAN:NSTEPS.DESC   86400    monitor
+XPP:SCAN:NSTEPS        86400    monitor
+
+XPP:SCAN:ISTEP.DESC   86400    monitor
+XPP:SCAN:ISTEP        86400    monitor
+
+XPP:SCAN:ISSCAN.DESC   86400    monitor
+XPP:SCAN:ISSCAN        86400    monitor
+
+XPP:SCAN:SCANVAR00.DESC   86400    monitor
+XPP:SCAN:SCANVAR00        86400    monitor
+
+XPP:SCAN:SCANVAR01.DESC   86400    monitor
+XPP:SCAN:SCANVAR01        86400    monitor
+
+XPP:SCAN:SCANVAR02.DESC   86400    monitor
+XPP:SCAN:SCANVAR02        86400    monitor
+
+XPP:SCAN:MIN00.DESC   86400    monitor
+XPP:SCAN:MIN00        86400    monitor
+
+XPP:SCAN:MIN01.DESC   86400    monitor
+XPP:SCAN:MIN01        86400    monitor
+
+XPP:SCAN:MIN02.DESC   86400    monitor
+XPP:SCAN:MIN02        86400    monitor
+
+XPP:SCAN:MAX00.DESC   86400    monitor
+XPP:SCAN:MAX00        86400    monitor
+
+XPP:SCAN:MAX01.DESC   86400    monitor
+XPP:SCAN:MAX01        86400    monitor
+
+XPP:SCAN:MAX02.DESC   86400    monitor
+XPP:SCAN:MAX02        86400    monitor
+
+XPP:VARS:INT:01.DESC   86400    monitor
+XPP:VARS:INT:01        86400    monitor
+
+XPP:VARS:INT:02.DESC   86400    monitor
+XPP:VARS:INT:02        86400    monitor
+
+XPP:VARS:INT:03.DESC   86400    monitor
+XPP:VARS:INT:03        86400    monitor
+
+XPP:VARS:INT:04.DESC   86400    monitor
+XPP:VARS:INT:04        86400    monitor
+
+XPP:VARS:INT:05.DESC   86400    monitor
+XPP:VARS:INT:05        86400    monitor
+
+XPP:VARS:INT:06.DESC   86400    monitor
+XPP:VARS:INT:06        86400    monitor
+
+XPP:VARS:INT:07.DESC   86400    monitor
+XPP:VARS:INT:07        86400    monitor
+
+XPP:VARS:INT:08.DESC   86400    monitor
+XPP:VARS:INT:08        86400    monitor
+
+XPP:VARS:INT:09.DESC   86400    monitor
+XPP:VARS:INT:09        86400    monitor
+
+XPP:VARS:INT:10.DESC   86400    monitor
+XPP:VARS:INT:10        86400    monitor
+
+XPP:VARS:BIN:01.DESC   86400    monitor
+XPP:VARS:BIN:01        86400    monitor
+
+XPP:VARS:BIN:02.DESC   86400    monitor
+XPP:VARS:BIN:02        86400    monitor
+
+XPP:VARS:BIN:03.DESC   86400    monitor
+XPP:VARS:BIN:03        86400    monitor
+
+XPP:VARS:BIN:04.DESC   86400    monitor
+XPP:VARS:BIN:04        86400    monitor
+
+XPP:VARS:BIN:05.DESC   86400    monitor
+XPP:VARS:BIN:05        86400    monitor
+
+XPP:VARS:BIN:06.DESC   86400    monitor
+XPP:VARS:BIN:06        86400    monitor
+
+XPP:VARS:BIN:07.DESC   86400    monitor
+XPP:VARS:BIN:07        86400    monitor
+
+XPP:VARS:BIN:08.DESC   86400    monitor
+XPP:VARS:BIN:08        86400    monitor
+
+XPP:VARS:BIN:09.DESC   86400    monitor
+XPP:VARS:BIN:09        86400    monitor
+
+XPP:VARS:BIN:10.DESC   86400    monitor
+XPP:VARS:BIN:10        86400    monitor
+
+XPP:VARS:STRING:01.DESC   86400    monitor
+XPP:VARS:STRING:01        86400    monitor
+
+XPP:VARS:STRING:02.DESC   86400    monitor
+XPP:VARS:STRING:02        86400    monitor
+
+XPP:VARS:STRING:03.DESC   86400    monitor
+XPP:VARS:STRING:03        86400    monitor
+
+XPP:VARS:STRING:04.DESC   86400    monitor
+XPP:VARS:STRING:04        86400    monitor
+
+XPP:VARS:STRING:05.DESC   86400    monitor
+XPP:VARS:STRING:05        86400    monitor
+
+XPP:VARS:STRING:06.DESC   86400    monitor
+XPP:VARS:STRING:06        86400    monitor
+
+XPP:VARS:STRING:07.DESC   86400    monitor
+XPP:VARS:STRING:07        86400    monitor
+
+XPP:VARS:STRING:08.DESC   86400    monitor
+XPP:VARS:STRING:08        86400    monitor
+
+XPP:VARS:STRING:09.DESC   86400    monitor
+XPP:VARS:STRING:09        86400    monitor
+
+XPP:VARS:STRING:10.DESC   86400    monitor
+XPP:VARS:STRING:10        86400    monitor
+
+XPP:VARS:FLOAT:01.DESC   86400    monitor
+XPP:VARS:FLOAT:01        86400    monitor
+
+XPP:VARS:FLOAT:02.DESC   86400    monitor
+XPP:VARS:FLOAT:02        86400    monitor
+
+XPP:VARS:FLOAT:03.DESC   86400    monitor
+XPP:VARS:FLOAT:03        86400    monitor
+
+XPP:VARS:FLOAT:04.DESC   86400    monitor
+XPP:VARS:FLOAT:04        86400    monitor
+
+XPP:VARS:FLOAT:05.DESC   86400    monitor
+XPP:VARS:FLOAT:05        86400    monitor
+
+XPP:VARS:FLOAT:06.DESC   86400    monitor
+XPP:VARS:FLOAT:06        86400    monitor
+
+XPP:VARS:FLOAT:07.DESC   86400    monitor
+XPP:VARS:FLOAT:07        86400    monitor
+
+XPP:VARS:FLOAT:08.DESC   86400    monitor
+XPP:VARS:FLOAT:08        86400    monitor
+
+XPP:VARS:FLOAT:09.DESC   86400    monitor
+XPP:VARS:FLOAT:09        86400    monitor
+
+XPP:VARS:FLOAT:10.DESC   86400    monitor
+XPP:VARS:FLOAT:10        86400    monitor
+
+XPP:USER:R39:140K:TEMP0.DESC   86400    monitor
+XPP:USER:R39:140K:TEMP0        86400    monitor
+
+XPP:USER:R39:140K:TEMP1.DESC   86400    monitor
+XPP:USER:R39:140K:TEMP1        86400    monitor
+
+XPP:USER:R39:140K:TEMP2.DESC   86400    monitor
+XPP:USER:R39:140K:TEMP2        86400    monitor
+
+XPP:USER:R39:140K:TEMP3.DESC   86400    monitor
+XPP:USER:R39:140K:TEMP3        86400    monitor
+
+XPP:USER:R39:140K:04:TEMP0.DESC   86400    monitor
+XPP:USER:R39:140K:04:TEMP0        86400    monitor
+
+XPP:USER:R39:140K:04:TEMP1.DESC   86400    monitor
+XPP:USER:R39:140K:04:TEMP1        86400    monitor
+
+XPP:USER:R39:140K:04:TEMP2.DESC   86400    monitor
+XPP:USER:R39:140K:04:TEMP2        86400    monitor
+
+XPP:USER:R39:140K:04:TEMP3.DESC   86400    monitor
+XPP:USER:R39:140K:04:TEMP3        86400    monitor
+
+XPP:USER:R39:140K:06:TEMP0.DESC   86400    monitor
+XPP:USER:R39:140K:06:TEMP0        86400    monitor
+
+XPP:USER:R39:140K:06:TEMP1.DESC   86400    monitor
+XPP:USER:R39:140K:06:TEMP1        86400    monitor
+
+XPP:USER:R39:140K:06:TEMP2.DESC   86400    monitor
+XPP:USER:R39:140K:06:TEMP2        86400    monitor
+
+XPP:USER:R39:140K:06:TEMP3.DESC   86400    monitor
+XPP:USER:R39:140K:06:TEMP3        86400    monitor
+
+XPP:USER:R39:140K:07:TEMP0.DESC   86400    monitor
+XPP:USER:R39:140K:07:TEMP0        86400    monitor
+
+XPP:USER:R39:140K:07:TEMP1.DESC   86400    monitor
+XPP:USER:R39:140K:07:TEMP1        86400    monitor
+
+XPP:USER:R39:140K:07:TEMP2.DESC   86400    monitor
+XPP:USER:R39:140K:07:TEMP2        86400    monitor
+
+XPP:USER:R39:140K:07:TEMP3.DESC   86400    monitor
+XPP:USER:R39:140K:07:TEMP3        86400    monitor
+
+XPP:USER:MCC:EPHOT:SET1.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:SET1        86400    monitor
+
+XPP:USER:MCC:EPHOT:SET2.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:SET2        86400    monitor
+
+XPP:USER:MCC:EPHOT:REF1.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:REF1        86400    monitor
+
+XPP:USER:MCC:EPHOT:REF2.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:REF2        86400    monitor
+
+XPP:USER:MCC:EPHOT:VER.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:VER        86400    monitor
+
+XPP:USER:MCC:EPHOT:UND.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:UND        86400    monitor
+
+XPP:USER:MCC:EPHOT:REQ.DESC   86400    monitor
+XPP:USER:MCC:EPHOT:REQ        86400    monitor
+
+XPP:USER:CCM:E.DESC   86400    monitor
+XPP:USER:CCM:E        86400    monitor
+
+XPP:USER:CCM:Theta0.DESC   86400    monitor
+XPP:USER:CCM:Theta0        86400    monitor
+
+XPP:USER:FS3:T0_SHIFTER.DESC   86400    monitor
+XPP:USER:FS3:T0_SHIFTER        86400    monitor
+
+XPP:USER:LAS:LeCroyScope_P1.DESC   86400    monitor
+XPP:USER:LAS:LeCroyScope_P1        86400    monitor
+
+XPP:USER:LAS:LeCroyScope_P2.DESC   86400    monitor
+XPP:USER:LAS:LeCroyScope_P2        86400    monitor
+
+XPP:USER:LAS:LeCroyScope_P3.DESC   86400    monitor
+XPP:USER:LAS:LeCroyScope_P3        86400    monitor
+
+XPP:USER:LAS:LeCroyScope_P4.DESC   86400    monitor
+XPP:USER:LAS:LeCroyScope_P4        86400    monitor
+
+XPP:USER:LAS:E_PULSE.DESC   86400    monitor
+XPP:USER:LAS:E_PULSE        86400    monitor
+
+XPP:USER:LAS:E0.DESC   86400    monitor
+XPP:USER:LAS:E0        86400    monitor
+
+XPP:USER:LAS:E_LEAK.DESC   86400    monitor
+XPP:USER:LAS:E_LEAK        86400    monitor
+
+XPP:USER:LAS:TIME_DELAY.DESC   86400    monitor
+XPP:USER:LAS:TIME_DELAY        86400    monitor
+
+XPP:USER:LAS:FS3_MIN.DESC   86400    monitor
+XPP:USER:LAS:FS3_MIN        86400    monitor
+
+XPP:USER:LAS:FS3_MAX.DESC   86400    monitor
+XPP:USER:LAS:FS3_MAX        86400    monitor
+
+XPP:USER:LAS:EVR0_OSC.DESC   86400    monitor
+XPP:USER:LAS:EVR0_OSC        86400    monitor
+
+XPP:USER:LAS:EVR0_GATE.DESC   86400    monitor
+XPP:USER:LAS:EVR0_GATE        86400    monitor
+
+XPP:USER:LAS:SDG0.DESC   86400    monitor
+XPP:USER:LAS:SDG0        86400    monitor
+
+XPP:USER:LAS:E_PULSE2.DESC   86400    monitor
+XPP:USER:LAS:E_PULSE2        86400    monitor
+
+XPP:USER:LAS:E02.DESC   86400    monitor
+XPP:USER:LAS:E02        86400    monitor
+
+XPP:USER:LAS:E_LEAK2.DESC   86400    monitor
+XPP:USER:LAS:E_LEAK2        86400    monitor
+
+XPP:USER:VIT:T0.DESC   86400    monitor
+XPP:USER:VIT:T0        86400    monitor
+
+XPP:USER:VIT:TD.DESC   86400    monitor
+XPP:USER:VIT:TD        86400    monitor
+
+XPP:USER:LXT.DESC   86400    monitor
+XPP:USER:LXT        86400    monitor
+
+XPP:USER:LXTTC.DESC   86400    monitor
+XPP:USER:LXTTC        86400    monitor
+
+XPP:USER:LAS:CP_WP_POS.DESC   86400    monitor
+XPP:USER:LAS:CP_WP_POS        86400    monitor
+
+XPP:USER:LAS:CP_WP_OFF.DESC   86400    monitor
+XPP:USER:LAS:CP_WP_OFF        86400    monitor
+
+XPP:USER:LAS:OUT_WP_POS.DESC   86400    monitor
+XPP:USER:LAS:OUT_WP_POS        86400    monitor
+
+XPP:USER:LAS:OUT_WP_OFF.DESC   86400    monitor
+XPP:USER:LAS:OUT_WP_OFF        86400    monitor
+
+XPP:USER:LAS:CP_TRA_POS.DESC   86400    monitor
+XPP:USER:LAS:CP_TRA_POS        86400    monitor
+
+XPP:USER:LAS:CP_TRA_OFF.DESC   86400    monitor
+XPP:USER:LAS:CP_TRA_OFF        86400    monitor
+
+XPP:USER:LAS:L1_H_POS.DESC   86400    monitor
+XPP:USER:LAS:L1_H_POS        86400    monitor
+
+XPP:USER:LAS:L1_H_OFF.DESC   86400    monitor
+XPP:USER:LAS:L1_H_OFF        86400    monitor
+
+XPP:USER:LAS:L1_V_POS.DESC   86400    monitor
+XPP:USER:LAS:L1_V_POS        86400    monitor
+
+XPP:USER:LAS:L1_V_OFF.DESC   86400    monitor
+XPP:USER:LAS:L1_V_OFF        86400    monitor
+
+XPP:USER:LAS:L1_F_POS.DESC   86400    monitor
+XPP:USER:LAS:L1_F_POS        86400    monitor
+
+XPP:USER:LAS:L1_F_OFF.DESC   86400    monitor
+XPP:USER:LAS:L1_F_OFF        86400    monitor
+
+XPP:USER:LAS:NEW_7_POS.DESC   86400    monitor
+XPP:USER:LAS:NEW_7_POS        86400    monitor
+
+XPP:USER:LAS:NEW_7_OFF.DESC   86400    monitor
+XPP:USER:LAS:NEW_7_OFF        86400    monitor
+
+XPP:USER:LAS:OPA_WP_POS.DESC   86400    monitor
+XPP:USER:LAS:OPA_WP_POS        86400    monitor
+
+XPP:USER:LAS:OPA_WP_OFF.DESC   86400    monitor
+XPP:USER:LAS:OPA_WP_OFF        86400    monitor
+
+XPP:USER:LAS:OPA_COMP_POS.DESC   86400    monitor
+XPP:USER:LAS:OPA_COMP_POS        86400    monitor
+
+XPP:USER:LAS:OPA_COMP_OFF.DESC   86400    monitor
+XPP:USER:LAS:OPA_COMP_OFF        86400    monitor
+
+XPP:USER:LAS:TT_WP_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_WP_POS        86400    monitor
+
+XPP:USER:LAS:TT_WP_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_WP_OFF        86400    monitor
+
+XPP:USER:LAS:TT_COMP_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_COMP_POS        86400    monitor
+
+XPP:USER:LAS:TT_COMP_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_COMP_OFF        86400    monitor
+
+XPP:USER:LAS:TT_LENSH_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSH_POS        86400    monitor
+
+XPP:USER:LAS:TT_LENSH_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSH_OFF        86400    monitor
+
+XPP:USER:LAS:TT_LENSV_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSV_POS        86400    monitor
+
+XPP:USER:LAS:TT_LENSV_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSV_OFF        86400    monitor
+
+XPP:USER:LAS:TT_LENSF_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSF_POS        86400    monitor
+
+XPP:USER:LAS:TT_LENSF_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_LENSF_OFF        86400    monitor
+
+XPP:USER:LAS:TT_DELAY_POS.DESC   86400    monitor
+XPP:USER:LAS:TT_DELAY_POS        86400    monitor
+
+XPP:USER:LAS:TT_DELAY_OFF.DESC   86400    monitor
+XPP:USER:LAS:TT_DELAY_OFF        86400    monitor
+
+XPP:TIMETOOL:TTALL.DESC   86400    monitor
+XPP:TIMETOOL:TTALL        86400    monitor
+
+XPP:TIMETOOL:TTALL2.DESC   86400    monitor
+XPP:TIMETOOL:TTALL2        86400    monitor
+
+XPP:USER:ENCODER.DESC   86400    monitor
+XPP:USER:ENCODER        86400    monitor
+
+XPP:ISTAR:GateMode.DESC   86400    monitor
+XPP:ISTAR:GateMode        86400    monitor
+
+XPP:ISTAR:MCPGain.DESC   86400    monitor
+XPP:ISTAR:MCPGain        86400    monitor
+
+XPP:CCM:THETA0.DESC   86400    monitor
+XPP:CCM:THETA0        86400    monitor
+
+XPP:CCM:DSPACING.DESC   86400    monitor
+XPP:CCM:DSPACING        86400    monitor
+
+XPP:CCM:GR.DESC   86400    monitor
+XPP:CCM:GR        86400    monitor
+
+XPP:CCM:GD.DESC   86400    monitor
+XPP:CCM:GD        86400    monitor
+

@@ -1,0 +1,22 @@
+#
+# gigECam Archive file for ioc-det-andor1
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "DET:IOC:CAM:ANDOR1"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "DET:IOC:CAM:ANDOR1"	}
+}
+
+file andor.archive
+{
+    {
+        P   = DET:CAM:ANDOR1,
+        R   = :,
+    }
+}

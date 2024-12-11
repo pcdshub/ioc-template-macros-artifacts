@@ -1,0 +1,256 @@
+# iocAdmin autosave template
+# Format:
+# <PVNAME>
+CXI:IOC:MPOD:D51:ACCESS
+CXI:IOC:MPOD:D51:CA_CLNT_CNT.HIGH
+CXI:IOC:MPOD:D51:CA_CLNT_CNT.HIHI
+CXI:IOC:MPOD:D51:CA_CONN_CNT.HIGH
+CXI:IOC:MPOD:D51:CA_CONN_CNT.HIHI
+CXI:IOC:MPOD:D51:SUSP_TASK_CNT.HIHI
+CXI:IOC:MPOD:D51:FD_FREE.LOW
+CXI:IOC:MPOD:D51:FD_FREE.LOLO
+CXI:IOC:MPOD:D51:IOC_CPU_LOAD.HIGH
+CXI:IOC:MPOD:D51:IOC_CPU_LOAD.HIHI
+CXI:IOC:MPOD:D51:MEM_FREE.LOW
+CXI:IOC:MPOD:D51:MEM_FREE.LOLO
+CXI:IOC:MPOD:D51:START_CNT
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:000:SetCurrent
+CXI:D51:MPD:CH:000:SetSwitch
+CXI:D51:MPD:CH:000:SetVoltage
+CXI:D51:MPD:CH:000:GetVoltage.DESC
+CXI:D51:MPD:CH:000:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:001:SetCurrent
+CXI:D51:MPD:CH:001:SetSwitch
+CXI:D51:MPD:CH:001:SetVoltage
+CXI:D51:MPD:CH:001:GetVoltage.DESC
+CXI:D51:MPD:CH:001:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:002:SetCurrent
+CXI:D51:MPD:CH:002:SetSwitch
+CXI:D51:MPD:CH:002:SetVoltage
+CXI:D51:MPD:CH:002:GetVoltage.DESC
+CXI:D51:MPD:CH:002:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:003:SetCurrent
+CXI:D51:MPD:CH:003:SetSwitch
+CXI:D51:MPD:CH:003:SetVoltage
+CXI:D51:MPD:CH:003:GetVoltage.DESC
+CXI:D51:MPD:CH:003:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:004:SetCurrent
+CXI:D51:MPD:CH:004:SetSwitch
+CXI:D51:MPD:CH:004:SetVoltage
+CXI:D51:MPD:CH:004:GetVoltage.DESC
+CXI:D51:MPD:CH:004:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:005:SetCurrent
+CXI:D51:MPD:CH:005:SetSwitch
+CXI:D51:MPD:CH:005:SetVoltage
+CXI:D51:MPD:CH:005:GetVoltage.DESC
+CXI:D51:MPD:CH:005:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:006:SetCurrent
+CXI:D51:MPD:CH:006:SetSwitch
+CXI:D51:MPD:CH:006:SetVoltage
+CXI:D51:MPD:CH:006:GetVoltage.DESC
+CXI:D51:MPD:CH:006:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:007:SetCurrent
+CXI:D51:MPD:CH:007:SetSwitch
+CXI:D51:MPD:CH:007:SetVoltage
+CXI:D51:MPD:CH:007:GetVoltage.DESC
+CXI:D51:MPD:CH:007:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:008:SetCurrent
+CXI:D51:MPD:CH:008:SetSwitch
+CXI:D51:MPD:CH:008:SetVoltage
+CXI:D51:MPD:CH:008:GetVoltage.DESC
+CXI:D51:MPD:CH:008:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:009:SetCurrent
+CXI:D51:MPD:CH:009:SetSwitch
+CXI:D51:MPD:CH:009:SetVoltage
+CXI:D51:MPD:CH:009:GetVoltage.DESC
+CXI:D51:MPD:CH:009:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:010:SetCurrent
+CXI:D51:MPD:CH:010:SetSwitch
+CXI:D51:MPD:CH:010:SetVoltage
+CXI:D51:MPD:CH:010:GetVoltage.DESC
+CXI:D51:MPD:CH:010:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:011:SetCurrent
+CXI:D51:MPD:CH:011:SetSwitch
+CXI:D51:MPD:CH:011:SetVoltage
+CXI:D51:MPD:CH:011:GetVoltage.DESC
+CXI:D51:MPD:CH:011:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:012:SetCurrent
+CXI:D51:MPD:CH:012:SetSwitch
+CXI:D51:MPD:CH:012:SetVoltage
+CXI:D51:MPD:CH:012:GetVoltage.DESC
+CXI:D51:MPD:CH:012:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:013:SetCurrent
+CXI:D51:MPD:CH:013:SetSwitch
+CXI:D51:MPD:CH:013:SetVoltage
+CXI:D51:MPD:CH:013:GetVoltage.DESC
+CXI:D51:MPD:CH:013:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:014:SetCurrent
+CXI:D51:MPD:CH:014:SetSwitch
+CXI:D51:MPD:CH:014:SetVoltage
+CXI:D51:MPD:CH:014:GetVoltage.DESC
+CXI:D51:MPD:CH:014:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:015:SetCurrent
+CXI:D51:MPD:CH:015:SetSwitch
+CXI:D51:MPD:CH:015:SetVoltage
+CXI:D51:MPD:CH:015:GetVoltage.DESC
+CXI:D51:MPD:CH:015:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:100:SetCurrent
+CXI:D51:MPD:CH:100:SetSwitch
+CXI:D51:MPD:CH:100:SetVoltage
+CXI:D51:MPD:CH:100:GetVoltage.DESC
+CXI:D51:MPD:CH:100:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:101:SetCurrent
+CXI:D51:MPD:CH:101:SetSwitch
+CXI:D51:MPD:CH:101:SetVoltage
+CXI:D51:MPD:CH:101:GetVoltage.DESC
+CXI:D51:MPD:CH:101:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:102:SetCurrent
+CXI:D51:MPD:CH:102:SetSwitch
+CXI:D51:MPD:CH:102:SetVoltage
+CXI:D51:MPD:CH:102:GetVoltage.DESC
+CXI:D51:MPD:CH:102:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:103:SetCurrent
+CXI:D51:MPD:CH:103:SetSwitch
+CXI:D51:MPD:CH:103:SetVoltage
+CXI:D51:MPD:CH:103:GetVoltage.DESC
+CXI:D51:MPD:CH:103:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:104:SetCurrent
+CXI:D51:MPD:CH:104:SetSwitch
+CXI:D51:MPD:CH:104:SetVoltage
+CXI:D51:MPD:CH:104:GetVoltage.DESC
+CXI:D51:MPD:CH:104:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:105:SetCurrent
+CXI:D51:MPD:CH:105:SetSwitch
+CXI:D51:MPD:CH:105:SetVoltage
+CXI:D51:MPD:CH:105:GetVoltage.DESC
+CXI:D51:MPD:CH:105:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:106:SetCurrent
+CXI:D51:MPD:CH:106:SetSwitch
+CXI:D51:MPD:CH:106:SetVoltage
+CXI:D51:MPD:CH:106:GetVoltage.DESC
+CXI:D51:MPD:CH:106:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:107:SetCurrent
+CXI:D51:MPD:CH:107:SetSwitch
+CXI:D51:MPD:CH:107:SetVoltage
+CXI:D51:MPD:CH:107:GetVoltage.DESC
+CXI:D51:MPD:CH:107:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:200:SetCurrent
+CXI:D51:MPD:CH:200:SetSwitch
+CXI:D51:MPD:CH:200:SetVoltage
+CXI:D51:MPD:CH:200:GetVoltage.DESC
+CXI:D51:MPD:CH:200:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:201:SetCurrent
+CXI:D51:MPD:CH:201:SetSwitch
+CXI:D51:MPD:CH:201:SetVoltage
+CXI:D51:MPD:CH:201:GetVoltage.DESC
+CXI:D51:MPD:CH:201:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:202:SetCurrent
+CXI:D51:MPD:CH:202:SetSwitch
+CXI:D51:MPD:CH:202:SetVoltage
+CXI:D51:MPD:CH:202:GetVoltage.DESC
+CXI:D51:MPD:CH:202:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:203:SetCurrent
+CXI:D51:MPD:CH:203:SetSwitch
+CXI:D51:MPD:CH:203:SetVoltage
+CXI:D51:MPD:CH:203:GetVoltage.DESC
+CXI:D51:MPD:CH:203:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:204:SetCurrent
+CXI:D51:MPD:CH:204:SetSwitch
+CXI:D51:MPD:CH:204:SetVoltage
+CXI:D51:MPD:CH:204:GetVoltage.DESC
+CXI:D51:MPD:CH:204:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:205:SetCurrent
+CXI:D51:MPD:CH:205:SetSwitch
+CXI:D51:MPD:CH:205:SetVoltage
+CXI:D51:MPD:CH:205:GetVoltage.DESC
+CXI:D51:MPD:CH:205:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:206:SetCurrent
+CXI:D51:MPD:CH:206:SetSwitch
+CXI:D51:MPD:CH:206:SetVoltage
+CXI:D51:MPD:CH:206:GetVoltage.DESC
+CXI:D51:MPD:CH:206:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:207:SetCurrent
+CXI:D51:MPD:CH:207:SetSwitch
+CXI:D51:MPD:CH:207:SetVoltage
+CXI:D51:MPD:CH:207:GetVoltage.DESC
+CXI:D51:MPD:CH:207:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:300:SetCurrent
+CXI:D51:MPD:CH:300:SetSwitch
+CXI:D51:MPD:CH:300:SetVoltage
+CXI:D51:MPD:CH:300:GetVoltage.DESC
+CXI:D51:MPD:CH:300:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:301:SetCurrent
+CXI:D51:MPD:CH:301:SetSwitch
+CXI:D51:MPD:CH:301:SetVoltage
+CXI:D51:MPD:CH:301:GetVoltage.DESC
+CXI:D51:MPD:CH:301:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:302:SetCurrent
+CXI:D51:MPD:CH:302:SetSwitch
+CXI:D51:MPD:CH:302:SetVoltage
+CXI:D51:MPD:CH:302:GetVoltage.DESC
+CXI:D51:MPD:CH:302:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:303:SetCurrent
+CXI:D51:MPD:CH:303:SetSwitch
+CXI:D51:MPD:CH:303:SetVoltage
+CXI:D51:MPD:CH:303:GetVoltage.DESC
+CXI:D51:MPD:CH:303:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:304:SetCurrent
+CXI:D51:MPD:CH:304:SetSwitch
+CXI:D51:MPD:CH:304:SetVoltage
+CXI:D51:MPD:CH:304:GetVoltage.DESC
+CXI:D51:MPD:CH:304:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:305:SetCurrent
+CXI:D51:MPD:CH:305:SetSwitch
+CXI:D51:MPD:CH:305:SetVoltage
+CXI:D51:MPD:CH:305:GetVoltage.DESC
+CXI:D51:MPD:CH:305:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:306:SetCurrent
+CXI:D51:MPD:CH:306:SetSwitch
+CXI:D51:MPD:CH:306:SetVoltage
+CXI:D51:MPD:CH:306:GetVoltage.DESC
+CXI:D51:MPD:CH:306:SetVoltage.DESC
+# Autosave values for mpod channel settings
+CXI:D51:MPD:CH:307:SetCurrent
+CXI:D51:MPD:CH:307:SetSwitch
+CXI:D51:MPD:CH:307:SetVoltage
+CXI:D51:MPD:CH:307:GetVoltage.DESC
+CXI:D51:MPD:CH:307:SetVoltage.DESC

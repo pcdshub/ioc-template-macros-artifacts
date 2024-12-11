@@ -1,0 +1,138 @@
+# IOC autosave file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request 
+$$LOOP(EPIX)
+file detector-epix.tpl-req
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+
+$$IF(QUAD)
+$$ELSE(QUAD)
+file peltier.tpl-req
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+$$ENDIF(QUAD)
+
+$$IF(TEMPPV)
+$$ELSE(TEMPPV)
+file var.tpl-req
+{
+	{ VAR = "$$BASE:$$NAME:AMBIENT_TEMP" }
+}
+$$ENDIF(TEMPPV)
+
+$$IF(PGPBOX)
+file autosave_epix$$IF(QUAD,Quad,)Mon.req
+{
+	{ BASE = "$$BASE:$$NAME" }
+}
+$$ENDIF(PGPBOX)
+$$ENDLOOP(EPIX)
+
+$$LOOP(EPIXHR)
+file detector-epix.tpl-req
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+
+file peltier.tpl-req
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+
+$$IF(TEMPPV)
+$$ELSE(TEMPPV)
+file var.tpl-req
+{
+	{ VAR = "$$BASE:$$NAME:AMBIENT_TEMP" }
+}
+$$ENDIF(TEMPPV)
+
+$$IF(PGPBOX)
+file autosave_epixHrMon.req
+{
+	{ BASE = "$$BASE:$$NAME" }
+}
+$$ENDIF(PGPBOX)
+$$ENDLOOP(EPIXHR)
+
+$$LOOP(EPIX2M)
+file detector-epix.tpl-req
+{
+	pattern
+	{ PRED }
+	{ "$$BASE:$$NAME:Q0" }
+	{ "$$BASE:$$NAME:Q1" }
+	{ "$$BASE:$$NAME:Q2" }
+	{ "$$BASE:$$NAME:Q3" }
+}
+
+$$IF(TEMPPV)
+$$ELSE(TEMPPV)
+file var.tpl-req
+{
+	pattern
+	{ VAR }
+	{ "$$BASE:$$NAME:Q0:AMBIENT_TEMP" }
+	{ "$$BASE:$$NAME:Q1:AMBIENT_TEMP" }
+	{ "$$BASE:$$NAME:Q2:AMBIENT_TEMP" }
+	{ "$$BASE:$$NAME:Q3:AMBIENT_TEMP" }
+}
+$$ENDIF(TEMPPV)
+
+file epix2m.req
+{
+	{ PRED = "$$BASE:$$NAME" }
+}
+
+file autosave_epixQuadMon.req
+{
+	pattern
+	{ BASE }
+	{ "$$BASE:$$NAME:Q0" }
+	{ "$$BASE:$$NAME:Q1" }
+	{ "$$BASE:$$NAME:Q2" }
+	{ "$$BASE:$$NAME:Q3" }
+}
+$$ENDLOOP(EPIX2M)
+
+$$LOOP(VAR)
+file var.tpl-req
+{
+	{ VAR = "$$BASE:$$NAME" }
+}
+$$ENDLOOP(VAR)
+
+$$LOOP(INTERLOCK)
+file var.tpl-req
+{
+	{ VAR = "$$BASE:$$EPIXNAME:INTER$$INDEX:ENABLE" }
+}
+$$ENDLOOP(INTERLOCK)
+
+$$LOOP(CHILLER)
+file var.tpl-req
+{
+        pattern
+        { VAR }
+$$LOOP(EPIX)
+        { $$BASE:$$NAME:CHILLER:ENABLE }
+        { $$BASE:$$NAME:CHILLER:TEMPLIM }
+        { $$BASE:$$NAME:CHILLER:FLOWLIM }
+$$ENDLOOP(EPIX)
+$$LOOP(EPIXHR)
+        { $$BASE:$$NAME:CHILLER:ENABLE }
+        { $$BASE:$$NAME:CHILLER:TEMPLIM }
+        { $$BASE:$$NAME:CHILLER:FLOWLIM }
+$$ENDLOOP(EPIXHR)
+$$LOOP(EPIX2M)
+        { $$BASE:$$NAME:CHILLER:ENABLE }
+        { $$BASE:$$NAME:CHILLER:TEMPLIM }
+        { $$BASE:$$NAME:CHILLER:FLOWLIM }
+$$ENDLOOP(EPIX2M)
+}
+$$ENDLOOP(CHILLER)

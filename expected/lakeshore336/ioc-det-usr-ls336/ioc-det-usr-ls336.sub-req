@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file ls336-ioc.req
+{
+    { IOC = "IOC:DET:USR:TCT" }
+}
+
+file ls336.req
+{
+    { TCT = "DET:USR:TCT:01" }
+}

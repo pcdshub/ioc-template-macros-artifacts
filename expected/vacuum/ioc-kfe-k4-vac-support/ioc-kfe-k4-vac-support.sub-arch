@@ -1,0 +1,17 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "IOC:KFE:VAC:SUPPORT" }
+}
+
+
+file archive_937b_cc.tpl-arch
+{
+	{ device = "EM1K0:GMD:GCC:10" }
+}
+
+
+
+
+

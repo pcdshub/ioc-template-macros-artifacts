@@ -1,0 +1,6 @@
+# Generate archive request 
+file XPS8_archive.tpl-arch
+{
+    { DEVICE="MFX:HRA:MMN", C1="25", C2="26", C3="27", C4="28", C5="29", C6="30", C7="31", C8="32" }
+}
+

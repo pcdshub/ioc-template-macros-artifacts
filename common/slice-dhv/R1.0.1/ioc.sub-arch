@@ -1,0 +1,6 @@
+# IOC archive file
+
+file slice-ioc.archive
+{
+	{ IOC = "$$IOC_PV" , BASE = "$$BASE" }
+}

@@ -1,0 +1,13 @@
+# MCS IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:LAS:MCS:01 }
+}
+
+file mcs.req
+{
+	pattern
+	{ MOTOR }
+	{LAS:MCS:01:m0 }
+}

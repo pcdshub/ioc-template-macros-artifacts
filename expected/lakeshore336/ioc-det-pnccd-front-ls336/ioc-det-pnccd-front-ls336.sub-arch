@@ -1,0 +1,17 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file ls336-ioc.archive
+{
+    { IOC = "IOC:PNCCD:TCT:FRONT" }
+}
+
+file ls336.archive
+{
+    { TCT = "PNCCD:TCT:FRONT:01" }
+}
+file ls336.archive
+{
+    { TCT = "PNCCD:TCT:FRONT:02" }
+}

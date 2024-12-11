@@ -1,0 +1,18 @@
+# Generate autosave request 
+file arcus_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            
+            { CXI:USR:MZM:01 }
+            
+            { CXI:USR:MZM:02 }
+            
+            { CXI:USR:MZM:03 }
+            
+            { CXI:USR:MZM:04 }
+            
+            { CXI:USR:MZM:05 }
+            
+            { CXI:USR:MZM:06 }
+            }
+

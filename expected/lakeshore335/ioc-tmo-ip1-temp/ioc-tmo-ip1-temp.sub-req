@@ -1,0 +1,13 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_lakeshore335_ioc.req
+{
+	{ IOC="IOC:TMO:IP1:TCT:01" }
+}
+
+file autosave_lakeshore335.req
+{
+	{ TCT="TMO:IP1:TCT:01" }
+}

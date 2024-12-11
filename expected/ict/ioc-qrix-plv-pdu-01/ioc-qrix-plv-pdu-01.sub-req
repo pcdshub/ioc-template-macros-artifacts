@@ -1,0 +1,12 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file ictIoc.req
+{
+    { IOC = "IOC:QRIX:ICT:01" }
+}
+
+file ictPdu.req
+{
+    { PRE = "QRIX:PDU:ICT:01" }
+}

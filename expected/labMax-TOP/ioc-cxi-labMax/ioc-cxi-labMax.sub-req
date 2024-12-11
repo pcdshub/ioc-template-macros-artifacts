@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{
+		IOC = CXI:EXP:IOC:LEM,
+	}
+}
+
+file autosave_labMax-Top.tpl-req
+{
+	{
+		P = CXI:EXP:LEM:01,
+	}
+
+}

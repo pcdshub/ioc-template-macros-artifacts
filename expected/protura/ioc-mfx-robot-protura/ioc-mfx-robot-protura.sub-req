@@ -1,0 +1,9 @@
+file autosave_protura.req
+{
+	{ IOC = "IOC:MFX:ROB:PRTA",  }
+}
+
+file protura.req
+{
+	{ BASE = "MFX:ROB:MMS:08:LE"}
+}

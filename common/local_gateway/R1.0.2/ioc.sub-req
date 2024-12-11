@@ -1,0 +1,21 @@
+#
+# Actually a PV list file!
+#
+# To reread config file:
+#	caput NET:$$TRANSLATE(IOCNAME,"abcdefghijklmnopqrstuvwxyz-","ABCDEFGHIJKLMNOPQRSTUVWXYZ:"):newAsFlag 1
+#
+EVALUATION ORDER ALLOW, DENY
+
+$$IF(NODEFAULT)
+$$ELSE(NODEFAULT)
+.* ALLOW RWALL 1
+$$ENDIF(NODEFAULT)
+
+$$IF(NOARRAY)
+.*:ArrayData   DENY
+$$ENDIF(NOARRAY)
+
+#$$EXTRA_RULES
+$$IF(EXTRA_RULES)
+$$INCLUDE($$EXTRA_RULES)
+$$ENDIF(EXTRA_RULES)

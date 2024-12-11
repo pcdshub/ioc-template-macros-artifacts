@@ -1,0 +1,6 @@
+# Generate archive request 
+file XPS8_arbitrary_archive.tpl-arch
+{
+    { DEVICE="LAS:NEH:MCN4", POS1="LAS:NEH:MMN:01", POS2="LAS:NEH:MMN:02", POS3="LAS:NEH:MMN:03", POS4="LAS:NEH:MMN:04", POS5="LAS:FS1:MMN:FQ", POS6="LAS:FS2:MMN:FQ", POS7="LAS:FS3:MMN:FQ", POS8="LAS:NEH:MMN:08" }
+}
+

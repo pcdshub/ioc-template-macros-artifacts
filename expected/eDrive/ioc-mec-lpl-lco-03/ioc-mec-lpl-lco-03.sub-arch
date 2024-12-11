@@ -1,0 +1,10 @@
+# IOC archive file
+## Replace CXI:MOB:IOC:DDG with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file eDrive-ioc.archive
+{
+	{ IOC = "MEC:LPL:LCO:IOC:03", BASE_NAME = "MEC:LPL:LCO:03" }
+}
+

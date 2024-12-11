@@ -1,0 +1,15 @@
+# IOC archive file
+## Replace _IOCPVROOT_ with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+file autosave_piMotion.req
+{
+	{ IOC = IOC:MFX:PIZ:02 }
+}
+
+
+file autosave_motor.req
+{
+	{ NAME = MFX:HRA:PIZ:02 }
+}
+

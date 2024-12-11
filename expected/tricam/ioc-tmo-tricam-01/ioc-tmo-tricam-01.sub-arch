@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:TMO-TRICAM-01" }
+}
+
+file TRiCAM.archive
+{
+    { IOC = "IOC:TMO-TRICAM-01", BASE  = "TMO-TRICAM-01" }
+}

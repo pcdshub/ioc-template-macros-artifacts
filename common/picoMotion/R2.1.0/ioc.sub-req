@@ -1,0 +1,11 @@
+# Generate motor postions PV list for each motor
+# Note: Motor positions are not always restored automatically
+file autosave-pico-positions.tpl-req
+{
+
+$$LOOP(PICO_MOTOR)
+        {MOTOR = $$NAME}
+$$ENDLOOP(PICO_MOTOR)
+
+}
+

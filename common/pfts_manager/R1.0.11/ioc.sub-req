@@ -1,0 +1,7 @@
+# PFTSManager IOC instance autosave file
+
+$$LOOP(DICON)
+file dicon.tpl-req {
+     { P = $$BASE }
+}
+$$ENDLOOP(DICON)

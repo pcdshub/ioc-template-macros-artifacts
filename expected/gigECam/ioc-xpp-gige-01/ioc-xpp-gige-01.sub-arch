@@ -1,0 +1,16 @@
+#
+# gigECam Archive file for ioc-xpp-gige-01
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XPP:GIGE:01"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XPP:GIGE:01"	}
+}
+
+

@@ -1,0 +1,15 @@
+# Generate IOC archive request 
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:XPP:GON:USDUSB4" }
+}
+
+file archive_evr_SLAC.archive
+{
+	{ EVR = "EVR:XPP:GON:USDUSB4" }
+}
+
+file USDUSB4.archive
+{
+	{ BASE = "XPP:GON:USDUSB4:01" }
+}

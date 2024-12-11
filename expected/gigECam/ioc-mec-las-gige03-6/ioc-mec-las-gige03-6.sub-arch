@@ -1,0 +1,37 @@
+#
+# gigECam Archive file for ioc-mec-las-gige03-6
+#
+
+# Each gigE IOC needs one of these
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "MEC:LAS:GIGE:IOC6"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "MEC:LAS:GIGE:IOC6"	}
+}
+
+file ADBase.tpl-arch
+{
+    {   P = "MEC:LAS:GIGE:CAM6",	R = ":" 	}
+}
+
+file prosilica.tpl-arch
+{
+    {   P = "MEC:LAS:GIGE:CAM6",	R = ":" 	}
+}
+
+# Bring in the pcds plugin archive pv's
+file pcdsPlugins.archive
+{
+    {   CAM = "MEC:LAS:GIGE:CAM6"	}
+}
+
+#file cross.tpl-arch
+#{
+#    {   P = "MEC:LAS:GIGE:CAM6",	R = ":" 	}
+#}
+
+

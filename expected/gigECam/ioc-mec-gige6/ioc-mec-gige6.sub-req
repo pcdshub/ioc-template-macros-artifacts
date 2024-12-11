@@ -1,0 +1,32 @@
+#
+# gigECam Autosave request file for ioc-mec-gige6
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+	{	IOC = "MEC:IOC:GIGE:06"	}
+}
+
+file ADBase_settings.req
+{
+    {   P = "MEC:GIGE:06",	R = ":" 	}
+}
+
+file prosilica_settings.req
+{
+    {   P = "MEC:GIGE:06",	R = ":" 	}
+}
+
+# Bring in the pcds plugin autosave pv's
+file pcdsPlugins.req
+{
+    {   CAM = "MEC:GIGE:06"	}
+}
+
+file cross_settings.req
+{
+    {   P = "MEC:GIGE:06",	R = ":" 	}
+}
+
+

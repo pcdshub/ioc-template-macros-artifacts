@@ -1,0 +1,250 @@
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:01    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:02    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:03    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:04    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:05    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:06    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:07    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:08    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:09    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:10    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:11    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:12    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:13    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:14    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:15    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:16    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:17    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:18    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:19    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:20    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:21    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:22    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:23    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:24    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:25    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:26    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:27    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:28    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:29    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:30    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:31    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:32    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:33    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:34    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:35    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:36    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:37    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:38    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:39    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:40    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:41    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:42    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:43    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:44    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:45    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:46    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:47    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:48    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:49    }
+}
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { LAS:TIMING:STR:50    }
+}

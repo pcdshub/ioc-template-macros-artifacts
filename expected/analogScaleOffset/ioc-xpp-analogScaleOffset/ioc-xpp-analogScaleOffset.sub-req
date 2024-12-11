@@ -1,0 +1,12 @@
+# IOC autosave file
+
+#Generate autosave request for ioc-XCS-analogScaleOffset.req
+file analogScaleOffset-ioc.req
+{
+    { IOC = "XPP:USER:REGULATOR" }
+}
+
+file analogScaleOffset-autosave.req
+{
+    { DEV = "XPP:USR:OXY", NUM = "01" }
+}

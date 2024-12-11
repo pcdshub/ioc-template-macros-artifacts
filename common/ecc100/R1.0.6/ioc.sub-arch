@@ -1,0 +1,12 @@
+$$LOOP(ECC)
+file ecc.archive
+{
+	{ BASE = $$NAME }
+}
+$$ENDLOOP(ECC)
+$$LOOP(MOTORALIAS)
+file ecc_alias.archive
+{
+        { ALIAS = $$ALIAS }
+}
+$$ENDLOOP(MOTORALIAS)

@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file ls336-ioc.archive
+{
+    { IOC = "IOC:CRIX:CRYO:TCT:01" }
+}
+
+file ls336.archive
+{
+    { TCT = "CRIX:CRYO:TCT:01" }
+}

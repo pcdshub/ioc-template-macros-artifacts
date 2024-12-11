@@ -1,0 +1,20 @@
+# Aerotech IOC instance autosave file
+
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:TST:ENS:01 }
+}
+
+file aerotech.req
+{
+	pattern
+	{ MOTOR }
+	{TST:ENS:01:m0 }
+	{TST:ENS:01:m1 }
+	{TST:ENS:01:m2 }
+}
+
+file aerotech_global.req
+{
+	{ BASE = TST:ENS:01 }
+}

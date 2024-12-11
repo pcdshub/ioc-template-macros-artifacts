@@ -1,0 +1,9 @@
+# IOC archive file
+## Replace CXI:MOB:IOC:DDG with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file qmini-ioc.archive
+{
+	{ IOC = "IOC:MEC:LAS_SPL_SP1", NAME = "MEC:LAS_SPL_SP1" }
+}

@@ -1,0 +1,28 @@
+# Aerotech IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file aerotech.archive
+{
+	pattern
+	{ MOTOR   }
+$$LOOP(ENSEMBLE)
+$$LOOP(COUNT)
+	{ "$$BASE:m$$INDEX" }
+$$ENDLOOP(COUNT)
+$$ENDLOOP(ENSEMBLE)
+$$LOOP(MOTORALIAS)
+	{ "$$ABASE:$$ALIAS" }
+$$ENDLOOP(MOTORALIAS)
+}
+
+

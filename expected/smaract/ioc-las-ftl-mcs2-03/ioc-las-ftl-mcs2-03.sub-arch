@@ -1,0 +1,38 @@
+# Smaract IOC instance archive file
+
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LAS:FTL:MCS:03" }
+}
+
+file smaract.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{LAS:FTL:MCS:03,  1 }
+}
+
+file smaract_alias.archive
+{
+    pattern
+    { ALIAS }
+}
+
+
+file picoscale.archive
+{
+	pattern
+	{ BASE }
+    
+    
+    }
+
+file picoscale_axis.archive
+{
+	pattern
+	{ BASE, N }
+    
+    
+    
+                }

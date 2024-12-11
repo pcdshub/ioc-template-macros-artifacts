@@ -1,0 +1,40 @@
+#
+# mpod Archive file for ioc-xpp-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "XPP:IOC:DET:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "XPP:DET:MPD:CH",             "0" }
+	{ "XPP:DET:MPD:CH",             "1" }
+	{ "XPP:DET:MPD:CH",             "2" }
+	{ "XPP:DET:MPD:CH",             "3" }
+	{ "XPP:DET:MPD:CH",             "4" }
+	{ "XPP:DET:MPD:CH",             "5" }
+	{ "XPP:DET:MPD:CH",             "6" }
+	{ "XPP:DET:MPD:CH",             "7" }
+	{ "XPP:DET:MPD:CH",             "100" }
+	{ "XPP:DET:MPD:CH",             "101" }
+	{ "XPP:DET:MPD:CH",             "102" }
+	{ "XPP:DET:MPD:CH",             "103" }
+	{ "XPP:DET:MPD:CH",             "104" }
+	{ "XPP:DET:MPD:CH",             "105" }
+	{ "XPP:DET:MPD:CH",             "106" }
+	{ "XPP:DET:MPD:CH",             "107" }
+	{ "XPP:DET:MPD:CH",             "200" }
+	{ "XPP:DET:MPD:CH",             "201" }
+	{ "XPP:DET:MPD:CH",             "202" }
+	{ "XPP:DET:MPD:CH",             "203" }
+	{ "XPP:DET:MPD:CH",             "204" }
+	{ "XPP:DET:MPD:CH",             "205" }
+	{ "XPP:DET:MPD:CH",             "206" }
+	{ "XPP:DET:MPD:CH",             "207" }
+}

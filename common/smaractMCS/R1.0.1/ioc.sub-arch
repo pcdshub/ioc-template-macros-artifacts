@@ -1,0 +1,24 @@
+# MCS IOC instance archive file
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+file mcs.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+$$LOOP(MCS)
+$$LOOP(COUNT)
+	{ $$BASE, $$INDEX }
+$$ENDLOOP(COUNT)
+$$ENDLOOP(MCS)
+}
+
+

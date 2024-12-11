@@ -1,0 +1,6 @@
+# sr620 IOC instance archive file
+# Generate archive PV list for each serial device
+file sr620.tpl-arch
+{
+	{ P = "LAS:FS45:CNT:TI" }
+}

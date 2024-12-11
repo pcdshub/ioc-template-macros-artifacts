@@ -1,0 +1,36 @@
+LAS:FS14:lxt:OphydOffset.DESC   86400    monitor
+LAS:FS14:lxt:OphydOffset        86400    monitor
+
+LAS:FS14:lxt:OphydReadback.DESC   86400    monitor
+LAS:FS14:lxt:OphydReadback        86400    monitor
+
+LAS:FS14:lxt:OphydSetpoint.DESC   86400    monitor
+LAS:FS14:lxt:OphydSetpoint        86400    monitor
+
+LAS:LHN:LLG2:01:lxt:OphydOffset.DESC   86400    monitor
+LAS:LHN:LLG2:01:lxt:OphydOffset        86400    monitor
+
+LAS:LHN:LLG2:01:lxt:OphydReadback.DESC   86400    monitor
+LAS:LHN:LLG2:01:lxt:OphydReadback        86400    monitor
+
+LAS:LHN:LLG2:01:lxt:OphydSetpoint.DESC   86400    monitor
+LAS:LHN:LLG2:01:lxt:OphydSetpoint        86400    monitor
+
+LAS:TMO:lxt:OphydOffset.DESC   86400    monitor
+LAS:TMO:lxt:OphydOffset        86400    monitor
+
+LAS:TMO:lxt:OphydReadback.DESC   86400    monitor
+LAS:TMO:lxt:OphydReadback        86400    monitor
+
+LAS:TMO:lxt:OphydSetpoint.DESC   86400    monitor
+LAS:TMO:lxt:OphydSetpoint        86400    monitor
+
+LM1K4:COM_MP2_DLY1:OphydOffset.DESC   86400    monitor
+LM1K4:COM_MP2_DLY1:OphydOffset        86400    monitor
+
+LM1K4:COM_MP2_DLY1:delay:OphydReadback.DESC   86400    monitor
+LM1K4:COM_MP2_DLY1:delay:OphydReadback        86400    monitor
+
+LM1K4:COM_MP2_DLY1:delay:OphydSetpoint.DESC   86400    monitor
+LM1K4:COM_MP2_DLY1:delay:OphydSetpoint        86400    monitor
+

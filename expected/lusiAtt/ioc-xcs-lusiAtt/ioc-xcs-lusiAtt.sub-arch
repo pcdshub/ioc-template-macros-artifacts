@@ -1,0 +1,81 @@
+file lusiAtt-ioc.archive
+{
+	{ IOC = "IOC:XCS:ATT" } 
+} 
+
+file lusiAtt.archive
+{
+	{ ATTBASE = "XCS" }
+}
+
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "XCS"
+		ATTNUM  = "10"
+	}
+}
+

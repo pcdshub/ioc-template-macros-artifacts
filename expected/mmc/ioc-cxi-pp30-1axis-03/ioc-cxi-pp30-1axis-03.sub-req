@@ -1,0 +1,14 @@
+# Generate autosave request 
+file mmc_autosave.tpl-req
+{
+    pattern { CTRL   }
+            { IOC:CXI:SC2:PP30:1AXIS:03 }
+}
+
+file mmca_autosave.tpl-req
+{
+    pattern { MOTOR  }
+            
+            { CXI:USR:MMC:09 }
+            }
+

@@ -1,0 +1,6 @@
+IOC:TST:0:EXPSTATE:StateOptions   100    monitor
+IOC:TST:0:EXPSTATE:StateOptionsJSON   100    monitor
+IOC:TST:0:EXPSTATE:StateIndex   1    monitor
+IOC:TST:0:EXPSTATE:StateString   1    monitor
+IOC:TST:0:EXPSTATE:State   1    monitor
+IOC:TST:0:EXPSTATE:UserStatus   1    monitor

@@ -1,0 +1,14 @@
+file autosave_iocAdmin.tpl-req
+{
+	{ IOC = IOC:TST:USDUSB4:01 }
+}
+
+file autosave_evr_SLAC.req
+{
+	{ EVR = "EVR:TST:01" }
+}
+
+file USDUSB4.req
+{
+	{ BASE = "TST:USDUSB4:01" }
+}

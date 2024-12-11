@@ -1,0 +1,16 @@
+# Generate motor postions PV list for each motor
+# Note: Motor positions are not always restored automatically
+
+# Generate archive PV list for IOC
+file pico-ioc.req
+{
+	{ IOC = IOC:XPP:LAS:PIC }
+}
+
+file autosave-pico-positions.tpl-req
+{
+        {MOTOR = XPP:LAS:PIC:01}
+        {MOTOR = XPP:LAS:PIC:02}
+        {MOTOR = XPP:LAS:PIC:03}
+        {MOTOR = XPP:LAS:PIC:04}
+}

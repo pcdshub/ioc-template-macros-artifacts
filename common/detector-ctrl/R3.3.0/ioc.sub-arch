@@ -1,0 +1,49 @@
+# Generate detector control module archive requests
+file det-ioc.archive
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(CSPAD)
+file detector.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(CSPAD)
+
+$$LOOP(CSPAD140k)
+file detector-140k.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(CSPAD140k)
+
+$$LOOP(EPIX)
+file detector-epix.tpl-arch
+{
+        pattern
+        {   PRED    }
+        { "$$NAME"  }
+}
+$$ENDLOOP(EPIX)
+
+$$LOOP(CSPADARC)
+file cspad-140k.tpl-arch
+{
+        pattern
+        {  PRED             }
+        { "$$(NAME):140K:1" }
+        { "$$(NAME):140K:2" }
+        { "$$(NAME):140K:3" }
+        { "$$(NAME):140K:4" }
+        { "$$(NAME):140K:5" }
+        { "$$(NAME):140K:6" }
+        { "$$(NAME):140K:7" }
+        { "$$(NAME):140K:8" }
+}
+$$ENDLOOP(CSPADARC)
+

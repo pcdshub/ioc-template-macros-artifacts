@@ -1,0 +1,27 @@
+# IOC autosave file
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request
+file autosave_iocAdmin.tpl-arch
+{
+    { IOC = "$$IOC_PV" }
+}
+
+file archive_SR.tpl-arch
+{
+    { IOC = "$$IOC_PV" }
+}
+
+file qpc_controller
+{
+    { BASE = "$$BASE"}    
+}
+
+$$LOOP(QPC)
+file qpc_channel.archive
+{
+$$LOOP(QPC_SLOT)
+    { CH_BASE = "$$CH_BASE" , CHANNEL = "$$CHANNEL"}
+$$ENDLOOP(QPC_SLOT)
+}
+$$ENDLOOP(QPC)

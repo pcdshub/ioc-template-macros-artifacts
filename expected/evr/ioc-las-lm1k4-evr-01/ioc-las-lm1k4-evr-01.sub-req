@@ -1,0 +1,13 @@
+# Autosave file for IOC
+
+# Each evr IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "IOC:LM1K4:EVR:01" }
+}
+
+file autosave_evr_SLAC.req
+{
+    { EVR = "LM1K4:EVR:01" }
+}
+

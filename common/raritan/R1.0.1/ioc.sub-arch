@@ -1,0 +1,18 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "$$IOC_PV"	}
+}
+
+$$LOOP(SNMP_DEVICE)
+file $$(TYPE).archive
+{
+    { BASE = "$$BASE"$$IF(IDX), IDX="$$IDX"$$ENDIF(IDX) }
+}
+$$ENDLOOP(SNMP_DEVICE)

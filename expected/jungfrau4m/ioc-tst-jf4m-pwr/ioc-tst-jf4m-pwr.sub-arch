@@ -1,0 +1,15 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file jf4m-ioc.archive
+{
+    { IOC = "IOC:TST:JF4M:PWR" }
+}
+
+
+file jfpower.archive
+{
+    { JFPWR = "TST:JF4M:PWR" }
+}
+

@@ -1,0 +1,183 @@
+# iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+IOC:MEC:HEX2:APP_DIR1 30 monitor 
+IOC:MEC:HEX2:APP_DIR2 30 monitor 
+IOC:MEC:HEX2:BSP_REV 30 monitor
+IOC:MEC:HEX2:CA_CLNT_CNT 1 monitor 
+IOC:MEC:HEX2:CA_CONN_CNT 1 monitor 
+IOC:MEC:HEX2:EPICS_VERS 30 monitor
+IOC:MEC:HEX2:FD_CNT 1 monitor 
+IOC:MEC:HEX2:FD_FREE 1 monitor 
+IOC:MEC:HEX2:FD_MAX 1 monitor 
+IOC:MEC:HEX2:HOSTNAME 30 monitor
+IOC:MEC:HEX2:KERNEL_VERS 30 monitor
+IOC:MEC:HEX2:RECORD_CNT 10 monitor
+IOC:MEC:HEX2:STARTTOD 30 monitor
+IOC:MEC:HEX2:ST_SCRIPT1 30 monitor 
+IOC:MEC:HEX2:ST_SCRIPT2 30 monitor 
+IOC:MEC:HEX2:SUSP_TASK_CNT 30 monitor 
+IOC:MEC:HEX2:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+IOC:MEC:HEX2:DAT_MBUF_FREE 10
+IOC:MEC:HEX2:DAT_MBUF_MAX 10
+IOC:MEC:HEX2:LOAD 30 
+IOC:MEC:HEX2:MEM_BLK_FREE 30 
+IOC:MEC:HEX2:MEM_FREE 30 
+IOC:MEC:HEX2:MEM_USED 30 
+IOC:MEC:HEX2:SYS_MBUF_FREE 30 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+IOC:MEC:HEX2:SR_rebootStatus			1 monitor
+IOC:MEC:HEX2:SR_status				1 monitor
+IOC:MEC:HEX2:SR_rebootStatusStr		1 monitor
+IOC:MEC:HEX2:SR_statusStr				1 monitor
+IOC:MEC:HEX2:SR_0_Status				1 monitor
+IOC:MEC:HEX2:SR_0_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_1_Status				1 monitor
+IOC:MEC:HEX2:SR_1_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_2_Status				1 monitor
+IOC:MEC:HEX2:SR_2_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_3_Status				1 monitor
+IOC:MEC:HEX2:SR_3_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_4_Status				1 monitor
+IOC:MEC:HEX2:SR_4_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_5_Status				1 monitor
+IOC:MEC:HEX2:SR_5_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_6_Status				1 monitor
+IOC:MEC:HEX2:SR_6_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_7_Status				1 monitor
+IOC:MEC:HEX2:SR_7_StatusStr			1 monitor
+IOC:MEC:HEX2:SR_0_State				1 monitor
+IOC:MEC:HEX2:SR_1_State				1 monitor
+IOC:MEC:HEX2:SR_2_State				1 monitor
+IOC:MEC:HEX2:SR_3_State				1 monitor
+IOC:MEC:HEX2:SR_4_State				1 monitor
+IOC:MEC:HEX2:SR_5_State				1 monitor
+IOC:MEC:HEX2:SR_6_State				1 monitor
+IOC:MEC:HEX2:SR_7_State				1 monitor
+
+# Archive these values only when they change
+IOC:MEC:HEX2:SR_recentlyStr			30 monitor
+IOC:MEC:HEX2:SR_rebootTime			30 monitor
+IOC:MEC:HEX2:SR_0_Name				30 monitor
+IOC:MEC:HEX2:SR_1_Name				30 monitor
+IOC:MEC:HEX2:SR_2_Name				30 monitor
+IOC:MEC:HEX2:SR_3_Name				30 monitor
+IOC:MEC:HEX2:SR_4_Name				30 monitor
+IOC:MEC:HEX2:SR_5_Name				30 monitor
+IOC:MEC:HEX2:SR_6_Name				30 monitor
+IOC:MEC:HEX2:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+IOC:MEC:HEX2:SR_heartbeat				30
+IOC:MEC:HEX2:SR_0_Time				30
+IOC:MEC:HEX2:SR_1_Time				30
+IOC:MEC:HEX2:SR_2_Time				30
+IOC:MEC:HEX2:SR_3_Time				30
+IOC:MEC:HEX2:SR_4_Time				30
+IOC:MEC:HEX2:SR_5_Time				30
+IOC:MEC:HEX2:SR_6_Time				30
+IOC:MEC:HEX2:SR_7_Time				30
+
+# Archive PV list for PI Hexapod
+
+# Scan every 5 sec
+MEC:HEX:02:X		5
+MEC:HEX:02:Y		5
+MEC:HEX:02:Z		5
+MEC:HEX:02:U		5
+MEC:HEX:02:V		5
+MEC:HEX:02:W		5
+MEC:HEX:02:syncTarget:X			5
+MEC:HEX:02:syncTarget:Y			5
+MEC:HEX:02:syncTarget:Z			5
+MEC:HEX:02:syncTarget:U			5
+MEC:HEX:02:syncTarget:V			5
+MEC:HEX:02:syncTarget:W			5
+MEC:HEX:02:startSyncMove			5
+MEC:HEX:02:ini			5
+MEC:HEX:02:vel			5
+MEC:HEX:02:R			5
+MEC:HEX:02:S			5
+MEC:HEX:02:T			5
+MEC:HEX:02:limit:pos:X			5
+MEC:HEX:02:limit:pos:Y			5
+MEC:HEX:02:limit:pos:Z			5
+MEC:HEX:02:limit:pos:U			5
+MEC:HEX:02:limit:pos:V			5
+MEC:HEX:02:limit:pos:W			5
+MEC:HEX:02:limit:neg:X			5
+MEC:HEX:02:limit:neg:Y			5
+MEC:HEX:02:limit:neg:Z			5
+MEC:HEX:02:limit:neg:U			5
+MEC:HEX:02:limit:neg:V			5
+MEC:HEX:02:limit:neg:W			5
+MEC:HEX:02:error:long			5
+MEC:HEX:02:lastError:calc			5
+MEC:HEX:02:lastError:long			5
+MEC:HEX:02:lastError			5
+MEC:HEX:02:moving			5
+MEC:HEX:02:R:rbv			5
+MEC:HEX:02:S:rbv			5
+MEC:HEX:02:T:rbv			5
+MEC:HEX:02:vel:rbv			5
+MEC:HEX:02:scanPosLimit			5
+MEC:HEX:02:scanNegLimit			5
+MEC:HEX:02:limit:pos:X:rbv			5
+MEC:HEX:02:limit:pos:Y:rbv			5
+MEC:HEX:02:limit:pos:Z:rbv			5
+MEC:HEX:02:limit:pos:U:rbv			5
+MEC:HEX:02:limit:pos:V:rbv			5
+MEC:HEX:02:limit:pos:W:rbv			5
+MEC:HEX:02:limit:neg:X:rbv			5
+MEC:HEX:02:limit:neg:Y:rbv			5
+MEC:HEX:02:limit:neg:Z:rbv			5
+MEC:HEX:02:limit:neg:U:rbv			5
+MEC:HEX:02:limit:neg:V:rbv			5
+MEC:HEX:02:limit:neg:W:rbv			5
+MEC:HEX:02:X:rbv			5
+MEC:HEX:02:Y:rbv			5
+MEC:HEX:02:Z:rbv			5
+MEC:HEX:02:U:rbv			5
+MEC:HEX:02:V:rbv			5
+MEC:HEX:02:W:rbv			5
+MEC:HEX:02:Xpr             5
+MEC:HEX:02:Xpr.DRVL        5
+MEC:HEX:02:Xpr.DRVH        5
+MEC:HEX:02:Xpr:rbv         5
+MEC:HEX:02:Ypr             5
+MEC:HEX:02:Ypr.DRVL        5
+MEC:HEX:02:Ypr.DRVH        5
+MEC:HEX:02:Ypr:rbv         5
+MEC:HEX:02:Zpr             5
+MEC:HEX:02:Zpr.DRVL        5
+MEC:HEX:02:Zpr.DRVH        5
+MEC:HEX:02:Zpr:rbv         5
+MEC:HEX:02:Upr             5
+MEC:HEX:02:Upr.DRVL        5
+MEC:HEX:02:Upr.DRVH        5
+MEC:HEX:02:Upr:rbv         5
+MEC:HEX:02:Vpr             5
+MEC:HEX:02:Vpr.DRVL        5
+MEC:HEX:02:Vpr.DRVH        5
+MEC:HEX:02:Vpr:rbv         5
+MEC:HEX:02:Wpr             5
+MEC:HEX:02:Wpr.DRVL        5
+MEC:HEX:02:Wpr.DRVH        5
+MEC:HEX:02:Wpr:rbv         5
+MEC:HEX:02:Rpr             5
+MEC:HEX:02:Rpr:rbv         5
+MEC:HEX:02:Spr             5
+MEC:HEX:02:Spr:rbv         5
+MEC:HEX:02:Tpr             5
+MEC:HEX:02:Tpr:rbv         5
+MEC:HEX:02:Xproffset       5
+MEC:HEX:02:Yproffset       5
+MEC:HEX:02:Zproffset       5

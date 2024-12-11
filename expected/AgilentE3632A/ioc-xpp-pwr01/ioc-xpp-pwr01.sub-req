@@ -1,0 +1,19 @@
+# AgilentE3632A IOC instance autosave file
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.tpl-req
+{
+        {      IOC    =  "IOC:XPP:PWR01" }
+}
+
+# Generate autosave PV list for IOC specific PV's
+file AgilentE3632A-ioc.req
+{
+	{ IOC = "IOC:XPP:PWR01" }
+}
+
+# Generate autosave PV list for each serial device
+file AgilentE3632A.tpl-req
+{
+	{ DEV = "XPP:EXP:PWR:01" } 
+}

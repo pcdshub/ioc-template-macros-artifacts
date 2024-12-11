@@ -1,0 +1,44 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       IOC:XCS:CAM:03
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       IOC:XCS:CAM:03,
+                EVR             =       XCS:R44:EVR:03
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       XCS:SB2:CVV:01  }
+        {       CAM             =       XCS:GON:CVV:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       XCS:SB2:CVV:01 }
+        {       CAM             =       XCS:GON:CVV:01 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       XCS:SB2:CVV:01 }
+}
+file camdelay.req
+{
+        {       CAM             =       XCS:GON:CVV:01 }
+}
+

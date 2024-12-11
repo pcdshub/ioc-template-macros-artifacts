@@ -1,0 +1,123 @@
+# IMS archive list
+HFX:MON:CLZ:01.DESC         86400    monitor
+HFX:MON:CLZ:01.TYPE         86400    monitor
+HFX:MON:CLZ:01.PORT         86400    monitor
+HFX:MON:CLZ:01.LM           86400    monitor
+HFX:MON:CLZ:01.SM           86400    monitor
+HFX:MON:CLZ:01.SF           86400    monitor
+HFX:MON:CLZ:01.STSV         86400    monitor
+HFX:MON:CLZ:01.ERSV         86400    monitor
+HFX:MON:CLZ:01.EE           86400    monitor
+HFX:MON:CLZ:01.EL           86400    monitor
+HFX:MON:CLZ:01.ME           86400    monitor
+HFX:MON:CLZ:01.MS           86400    monitor
+HFX:MON:CLZ:01.MT           86400    monitor
+HFX:MON:CLZ:01.HT           86400    monitor
+HFX:MON:CLZ:01.ES           86400    monitor
+HFX:MON:CLZ:01.RCMX         86400    monitor
+HFX:MON:CLZ:01.RC           86400    monitor
+HFX:MON:CLZ:01.HCMX         86400    monitor
+HFX:MON:CLZ:01.HC           86400    monitor
+HFX:MON:CLZ:01.DVER         86400    monitor
+HFX:MON:CLZ:01.MODE         86400    monitor
+HFX:MON:CLZ:01.EGU          86400    monitor
+HFX:MON:CLZ:01.UREV         86400    monitor
+HFX:MON:CLZ:01.FREV         86400    monitor
+HFX:MON:CLZ:01.SREV         86400    monitor
+HFX:MON:CLZ:01.MRES         86400    monitor
+HFX:MON:CLZ:01.ERES         86400    monitor
+HFX:MON:CLZ:01.DIR          86400    monitor
+HFX:MON:CLZ:01.OFF          86400    monitor
+HFX:MON:CLZ:01.FOFF         86400    monitor
+HFX:MON:CLZ:01.HTYP         86400    monitor
+HFX:MON:CLZ:01.HEGE         86400    monitor
+HFX:MON:CLZ:01.BDST         86400    monitor
+HFX:MON:CLZ:01.HDST         86400    monitor
+HFX:MON:CLZ:01.DLLM         86400    monitor
+HFX:MON:CLZ:01.DHLM         86400    monitor
+HFX:MON:CLZ:01.LLM          86400    monitor
+HFX:MON:CLZ:01.HLM          86400    monitor
+HFX:MON:CLZ:01.RTRY         86400    monitor
+HFX:MON:CLZ:01.RDBD         86400    monitor
+HFX:MON:CLZ:01.PDBD         86400    monitor
+HFX:MON:CLZ:01.PREC         86400    monitor
+HFX:MON:CLZ:01.SBAS         86400    monitor
+HFX:MON:CLZ:01.SMAX         86400    monitor
+HFX:MON:CLZ:01.S            86400    monitor
+HFX:MON:CLZ:01.VBAS         86400    monitor
+HFX:MON:CLZ:01.VMAX         86400    monitor
+HFX:MON:CLZ:01.VELO         86400    monitor
+HFX:MON:CLZ:01.BS           86400    monitor
+HFX:MON:CLZ:01.BVEL         86400    monitor
+HFX:MON:CLZ:01.HS           86400    monitor
+HFX:MON:CLZ:01.HVEL         86400    monitor
+HFX:MON:CLZ:01.ACCL         86400    monitor
+HFX:MON:CLZ:01.BACC         86400    monitor
+HFX:MON:CLZ:01.HACC         86400    monitor
+HFX:MON:CLZ:01.TWV          86400    monitor
+HFX:MON:CLZ:01.HOMD         86400    monitor
+HFX:MON:CLZ:01.EGAG         86400    monitor
+HFX:MON:CLZ:01.ERBL         86400    monitor
+HFX:MON:CLZ:01.ESKL         86400    monitor
+
+HFX:MON:CLZ:01.DLVL         86400    monitor
+
+HFX:MON:CLZ:01.S1           86400    monitor
+HFX:MON:CLZ:01.S2           86400    monitor
+HFX:MON:CLZ:01.S3           86400    monitor
+HFX:MON:CLZ:01.S4           86400    monitor
+HFX:MON:CLZ:01.S9           86400    monitor
+
+HFX:MON:CLZ:01.RES          86400    monitor
+
+HFX:MON:CLZ:01.VAL          2        monitor
+HFX:MON:CLZ:01.DVAL         2        monitor
+HFX:MON:CLZ:01.RVAL         2        monitor
+HFX:MON:CLZ:01.RRBV         0.2      monitor
+HFX:MON:CLZ:01.DRBV         0.2      monitor
+HFX:MON:CLZ:01.RBV          0.2      monitor
+
+HFX:MON:CLZ:01.ERBV         0.2      monitor
+
+HFX:MON:CLZ:01.DIFF         0.2      monitor
+
+HFX:MON:CLZ:01.RCNT         86400    monitor
+HFX:MON:CLZ:01.MISS         86400    monitor
+
+HFX:MON:CLZ:01.LLS          86400    monitor
+HFX:MON:CLZ:01.HLS          86400    monitor
+
+HFX:MON:CLZ:01.ATHM         86400    monitor
+
+HFX:MON:CLZ:01.MIP          0.2      monitor
+HFX:MON:CLZ:01.MOVN         0.2      monitor
+HFX:MON:CLZ:01.DMOV         0.2      monitor
+HFX:MON:CLZ:01.MSTA         0.2      monitor
+HFX:MON:CLZ:01.HCSV         86400    monitor
+
+HFX:MON:CLZ:01:SAVED_RAW    86400    monitor
+HFX:MON:CLZ:01:SAVED_P      86400    monitor
+
+HFX:MON:CLZ:01:FW_MEANS     86400    monitor
+HFX:MON:CLZ:01:REV_MEANS    86400    monitor
+
+HFX:MON:CLZ:01:CFG_FILE     86400    monitor
+
+# "zoom lens" archive list
+HFX:MON:NAVITAR:NOPH         86400    monitor
+HFX:MON:NAVITAR:NOPV         86400    monitor
+HFX:MON:NAVITAR:PIXH         86400    monitor
+HFX:MON:NAVITAR:PIXV         86400    monitor
+HFX:MON:NAVITAR:CENH         86400    monitor
+HFX:MON:NAVITAR:CENV         86400    monitor
+
+HFX:MON:NAVITAR:ZOOM.NMAX    86400    monitor
+HFX:MON:NAVITAR:ZOOM.NPTS    86400    monitor
+HFX:MON:NAVITAR:ZOOM.LABL    86400    monitor
+HFX:MON:NAVITAR:ZOOM.XVAL    86400    monitor
+HFX:MON:NAVITAR:ZOOM.YVAL    86400    monitor
+HFX:MON:NAVITAR:ZOOM.DVAL    86400    monitor
+HFX:MON:NAVITAR:ZOOM.INIT    86400    monitor
+HFX:MON:NAVITAR:ZOOM.VAL     86400    monitor
+HFX:MON:NAVITAR:ZOOM.LVAL    86400    monitor
+

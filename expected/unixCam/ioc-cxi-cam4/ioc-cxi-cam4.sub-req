@@ -1,0 +1,36 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       CXI:R57:IOC:21
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       CXI:R57:IOC:21,
+                EVR             =       CXI:R57:EVR:21
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       CXI:SC1:CVV:01  }
+        {       CAM             =       CXI:SC1:CVV:04  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       CXI:SC1:CVV:01 }
+        {       CAM             =       CXI:SC1:CVV:04 }
+}
+
+

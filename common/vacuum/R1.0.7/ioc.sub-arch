@@ -1,0 +1,43 @@
+# IOC archive file
+
+file vacuum-ioc.archive
+{
+	{ IOC = "$$IOC_PV" }
+}
+
+$$LOOP(MKS937A_SLOT)
+file archive_937a_$$TYPE.tpl-arch
+{
+	{ device = "$$BASE" }
+}
+$$ENDLOOP(MKS937A_SLOT)
+
+$$LOOP(MKS937B_SLOT)
+file archive_937b_$$TYPE.tpl-arch
+{
+	{ device = "$$BASE" }
+}
+$$ENDLOOP(MKS937B_SLOT)
+
+$$LOOP(SRG)
+file srg.archive
+{
+	{ BASE = "$$BASE" }
+}
+$$ENDLOOP(SRG)
+
+$$LOOP(QPC_SLOT)
+file archive_qpc.tpl-arch
+{
+        { BASE = "$$BASE" }
+}
+$$ENDLOOP(QPC_SLOT)
+
+$$LOOP(TWISTORR)
+file archive_twistorr.tpl-arch
+{
+        { BASE = "$$BASE" }
+}
+$$ENDLOOP(TWISTORR)
+
+

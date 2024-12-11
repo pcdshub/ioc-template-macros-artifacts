@@ -1,0 +1,38 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       XRT:R44:IOC:38
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_PMC.req
+{
+        {
+                IOC             =       XRT:R44:IOC:38,
+                EVR             =       XRT:R44:EVR:38
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       MEC:HXM:CVV:01  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       MEC:HXM:CVV:01 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       MEC:HXM:CVV:01 }
+}
+

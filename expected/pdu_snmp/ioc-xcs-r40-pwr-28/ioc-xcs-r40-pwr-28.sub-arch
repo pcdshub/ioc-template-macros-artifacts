@@ -1,0 +1,16 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "IOC:XCS:R40:PWR:28"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "IOC:XCS:R40:PWR:28"	}
+}
+
+file SentryPdu_8.archive
+{
+    { PRE = "XCS:R40:PWR:28" }
+}

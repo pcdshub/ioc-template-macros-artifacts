@@ -1,0 +1,30 @@
+# Each evr IOC needs one of these
+
+file archive_iocAdmin.tpl-arch
+{
+	{	IOC = "TMO:MPOD:FIM:IOC:02"	}
+}
+
+file archive_SR.tpl-arch
+{
+	{	IOC = "TMO:MPOD:FIM:IOC:02"	}
+}
+
+file iseg_12Ch.archive
+{
+	{
+		P			= "MR9K8:FIM:SHV",
+		R			= ":",
+		MODULE_ID	= "0",
+		DEV			= "MR9K8:FIM:SHV"
+	}
+}
+file iseg_12Ch.archive
+{
+	{
+		P			= "MR9K9:FIM:SHV",
+		R			= ":",
+		MODULE_ID	= "1",
+		DEV			= "MR9K9:FIM:SHV"
+	}
+}

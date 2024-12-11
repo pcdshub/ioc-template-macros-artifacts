@@ -1,0 +1,18 @@
+# IOC archive file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request 
+file autosave_ipimb.req
+{
+$$LOOP(IPIMB)
+	{ RECNAME = "$$NAME" }
+$$ENDLOOP(IPIMB)
+}
+
+$$LOOP(EVR)
+file autosave_evr_$$TYPE.req
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)

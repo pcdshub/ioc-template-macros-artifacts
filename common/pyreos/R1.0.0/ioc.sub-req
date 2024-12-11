@@ -1,0 +1,22 @@
+# pyreos IOC instance autosave file
+
+$$LOOP(PYREOS)
+file pyreos.req
+{
+	{ BASE = "$$BASE", IOC = "$$IOC_PV" }
+}
+
+$$IF(TRIG)
+file pyreos_evr.req
+{
+	{ BASE = "$$BASE", IOC = "$$IOC_PV" }
+}
+$$ENDIF(TRIG)
+$$ENDLOOP(PYREOS)
+
+$$LOOP(EVR)
+file autosave_evr_$$TYPE.req
+{
+	{ EVR = "$$NAME" }
+}
+$$ENDLOOP(EVR)

@@ -1,0 +1,56 @@
+#
+# mpod Autosave request file for ioc-cxi-mpod-d51
+#
+
+# Generate IOC autosave request 
+file mpod.req
+{
+	{ IOC = "CXI:IOC:MPOD:D51" }
+}
+
+# Generate mpod module autosave requests 
+file mpod_channel.tpl-req
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "CXI:D51:MPD:CH",             "000" }
+	{ "CXI:D51:MPD:CH",             "001" }
+	{ "CXI:D51:MPD:CH",             "002" }
+	{ "CXI:D51:MPD:CH",             "003" }
+	{ "CXI:D51:MPD:CH",             "004" }
+	{ "CXI:D51:MPD:CH",             "005" }
+	{ "CXI:D51:MPD:CH",             "006" }
+	{ "CXI:D51:MPD:CH",             "007" }
+	{ "CXI:D51:MPD:CH",             "008" }
+	{ "CXI:D51:MPD:CH",             "009" }
+	{ "CXI:D51:MPD:CH",             "010" }
+	{ "CXI:D51:MPD:CH",             "011" }
+	{ "CXI:D51:MPD:CH",             "012" }
+	{ "CXI:D51:MPD:CH",             "013" }
+	{ "CXI:D51:MPD:CH",             "014" }
+	{ "CXI:D51:MPD:CH",             "015" }
+	{ "CXI:D51:MPD:CH",             "100" }
+	{ "CXI:D51:MPD:CH",             "101" }
+	{ "CXI:D51:MPD:CH",             "102" }
+	{ "CXI:D51:MPD:CH",             "103" }
+	{ "CXI:D51:MPD:CH",             "104" }
+	{ "CXI:D51:MPD:CH",             "105" }
+	{ "CXI:D51:MPD:CH",             "106" }
+	{ "CXI:D51:MPD:CH",             "107" }
+	{ "CXI:D51:MPD:CH",             "200" }
+	{ "CXI:D51:MPD:CH",             "201" }
+	{ "CXI:D51:MPD:CH",             "202" }
+	{ "CXI:D51:MPD:CH",             "203" }
+	{ "CXI:D51:MPD:CH",             "204" }
+	{ "CXI:D51:MPD:CH",             "205" }
+	{ "CXI:D51:MPD:CH",             "206" }
+	{ "CXI:D51:MPD:CH",             "207" }
+	{ "CXI:D51:MPD:CH",             "300" }
+	{ "CXI:D51:MPD:CH",             "301" }
+	{ "CXI:D51:MPD:CH",             "302" }
+	{ "CXI:D51:MPD:CH",             "303" }
+	{ "CXI:D51:MPD:CH",             "304" }
+	{ "CXI:D51:MPD:CH",             "305" }
+	{ "CXI:D51:MPD:CH",             "306" }
+	{ "CXI:D51:MPD:CH",             "307" }
+}

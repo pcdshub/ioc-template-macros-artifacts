@@ -1,0 +1,29 @@
+# IOC autosave file
+## Replace TST:R01:IOC:22 with the PV prefix used for
+## iocAdmin PV's on this IOC
+
+# Generate IOC autosave request 
+file detector-epix.tpl-req
+{
+	{ PRED = "XCS:EPIX:03" }
+}
+
+file peltier.tpl-req
+{
+	{ PRED = "XCS:EPIX:03" }
+}
+
+file var.tpl-req
+{
+	{ VAR = "XCS:EPIX:03:AMBIENT_TEMP" }
+}
+
+file autosave_epixMon.req
+{
+	{ BASE = "XCS:EPIX:03" }
+}
+
+
+
+
+

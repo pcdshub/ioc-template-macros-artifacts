@@ -1,0 +1,20 @@
+# MCS IOC instance archive file
+
+file archive_iocAdmin.tpl-arch
+{
+	{ IOC = "IOC:LAS:MCS:01" }
+}
+
+file archive_SR.tpl-arch
+{
+	{ IOC = "IOC:LAS:MCS:01" }
+}
+
+file mcs.archive
+{
+	pattern
+	{ BASE,   INDEX   }
+	{ LAS:MCS:01, 0 }
+}
+
+

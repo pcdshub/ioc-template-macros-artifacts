@@ -1,0 +1,6 @@
+# interlock IOC instance autosave file
+
+file interlock.req
+{
+	{ IOC = "IOC:ILK:QRIXS:DET", BASE="" }
+}

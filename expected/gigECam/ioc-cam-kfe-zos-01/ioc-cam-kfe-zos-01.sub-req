@@ -1,0 +1,9 @@
+#
+# gigECam Autosave request file for ioc-cam-kfe-zos-01
+#
+
+# Each gigE IOC needs one of these
+file autosave_iocAdmin.tpl-req
+{
+    { IOC = "ST1K1:ZOS:CAM:01:IOC" }
+}

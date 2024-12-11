@@ -1,0 +1,50 @@
+#
+# unixCam IOC substitutions file
+#
+
+# Generate iocAdmin autosave request 
+file autosave_iocAdmin.req
+{
+        {
+                IOC             =       IOC:MEC:HXS:OPAL1K
+        }
+}
+
+# Generate EVR autosave request 
+file autosave_evr_SLAC.req
+{
+        {
+                IOC             =       IOC:MEC:HXS:OPAL1K,
+                EVR             =       EVR:MEC:HXS
+        }
+}
+
+# Generate one set per camera
+file autosave_edt_unix.req
+{
+        {       CAM             =       MEC:OPAL1K:1  }
+}
+
+
+file cameras.req
+{
+        {       CAM             =       MEC:OPAL1K:1 }
+}
+
+file camdelay.req
+{
+        {       CAM             =       MEC:OPAL1K:1 }
+}
+file autosave_doprj.req
+{
+	{	
+		CAM		=	MEC:OPAL1K:1,
+	}
+}
+file autosave_compress.req
+{
+	{	
+		CAM		=	MEC:OPAL1K:1,
+	}
+}
+

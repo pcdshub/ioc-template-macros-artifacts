@@ -1,0 +1,99 @@
+LAS:FS11:lxt:OphydOffset.DESC   86400    monitor
+LAS:FS11:lxt:OphydOffset        86400    monitor
+
+LAS:FS11:lxt:OphydSetpoint.DESC   86400    monitor
+LAS:FS11:lxt:OphydSetpoint        86400    monitor
+
+LAS:FS11:lxt:OphydReadback.DESC   86400    monitor
+LAS:FS11:lxt:OphydReadback        86400    monitor
+
+LAS:FS14:lxt:OphydOffset.DESC   86400    monitor
+LAS:FS14:lxt:OphydOffset        86400    monitor
+
+LAS:FS14:lxt:OphydSetpoint.DESC   86400    monitor
+LAS:FS14:lxt:OphydSetpoint        86400    monitor
+
+LAS:FS14:lxt:OphydReadback.DESC   86400    monitor
+LAS:FS14:lxt:OphydReadback        86400    monitor
+
+XPP:LAS:MMN:02:delay:OphydReadback.DESC   86400    monitor
+XPP:LAS:MMN:02:delay:OphydReadback        86400    monitor
+
+XPP:LAS:MMN:02:delay:OphydSetpoint.DESC   86400    monitor
+XPP:LAS:MMN:02:delay:OphydSetpoint        86400    monitor
+
+XPP:LAS:MMN:02:OphydOffset.DESC   86400    monitor
+XPP:LAS:MMN:02:OphydOffset        86400    monitor
+
+XPP:LAS:MMN:01:delay:OphydReadback.DESC   86400    monitor
+XPP:LAS:MMN:01:delay:OphydReadback        86400    monitor
+
+XPP:LAS:MMN:01:delay:OphydSetpoint.DESC   86400    monitor
+XPP:LAS:MMN:01:delay:OphydSetpoint        86400    monitor
+
+XPP:LAS:MMN:01:OphydOffset.DESC   86400    monitor
+XPP:LAS:MMN:01:OphydOffset        86400    monitor
+
+XPP:LAS:MMN:16:delay:OphydReadback.DESC   86400    monitor
+XPP:LAS:MMN:16:delay:OphydReadback        86400    monitor
+
+XPP:LAS:MMN:16:delay:OphydSetpoint.DESC   86400    monitor
+XPP:LAS:MMN:16:delay:OphydSetpoint        86400    monitor
+
+XPP:LAS:MMN:16:OphydOffset.DESC   86400    monitor
+XPP:LAS:MMN:16:OphydOffset        86400    monitor
+
+XPP:MON:MMS:22:pseudo:OphydReadback.DESC   86400    monitor
+XPP:MON:MMS:22:pseudo:OphydReadback        86400    monitor
+
+XPP:MON:MMS:22:pseudo:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MMS:22:pseudo:OphydSetpoint        86400    monitor
+
+XPP:MON:MMS:24:pseudo:OphydReadback.DESC   86400    monitor
+XPP:MON:MMS:24:pseudo:OphydReadback        86400    monitor
+
+XPP:MON:MMS:24:pseudo:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MMS:24:pseudo:OphydSetpoint        86400    monitor
+
+XPP:MON:MPZ:07A:energy:OphydReadback.DESC   86400    monitor
+XPP:MON:MPZ:07A:energy:OphydReadback        86400    monitor
+
+XPP:MON:MPZ:07A:energy:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MPZ:07A:energy:OphydSetpoint        86400    monitor
+
+XPP:MON:MPZ:07A:energy_with_vernier:OphydReadback.DESC   86400    monitor
+XPP:MON:MPZ:07A:energy_with_vernier:OphydReadback        86400    monitor
+
+XPP:MON:MPZ:07A:energy_with_vernier:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MPZ:07A:energy_with_vernier:OphydSetpoint        86400    monitor
+
+XPP:MON:MPZ:07A:theta:OphydReadback.DESC   86400    monitor
+XPP:MON:MPZ:07A:theta:OphydReadback        86400    monitor
+
+XPP:MON:MPZ:07A:theta:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MPZ:07A:theta:OphydSetpoint        86400    monitor
+
+XPP:MON:MPZ:07A:wavelength:OphydReadback.DESC   86400    monitor
+XPP:MON:MPZ:07A:wavelength:OphydReadback        86400    monitor
+
+XPP:MON:MPZ:07A:wavelength:OphydSetpoint.DESC   86400    monitor
+XPP:MON:MPZ:07A:wavelength:OphydSetpoint        86400    monitor
+
+:e_chi:OphydReadback.DESC   86400    monitor
+:e_chi:OphydReadback        86400    monitor
+
+:e_eta:OphydReadback.DESC   86400    monitor
+:e_eta:OphydReadback        86400    monitor
+
+:e_phi:OphydReadback.DESC   86400    monitor
+:e_phi:OphydReadback        86400    monitor
+
+:e_chi:OphydSetpoint.DESC   86400    monitor
+:e_chi:OphydSetpoint        86400    monitor
+
+:e_eta:OphydSetpoint.DESC   86400    monitor
+:e_eta:OphydSetpoint        86400    monitor
+
+:e_phi:OphydSetpoint.DESC   86400    monitor
+:e_phi:OphydSetpoint        86400    monitor
+

@@ -1,0 +1,84 @@
+
+# This is the archiver file for the IOC
+
+# Example of what's in the config cmd
+#
+# EK9000(NAME=ek9k1,IP=192.168.1.3,PORT=502,SLAVES=4)
+# TERMINAL(EK9000=ek9k1,=TestTerm1-BI,TYPE=EL1004,SLAVE=4,CHANNELS=4) # 4 channels on this device
+# ALIAS(RECORD=TestTerm1-BI,ALIAS=cheese)
+#
+# IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+        { IOC = IOC:LFE:RTD:01 }
+}
+
+file terminal_ai.tpl-arch
+{
+	{ REC=L0S6:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=L0S7:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=L0S8:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=L0S9:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR1L0:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR1L0:RTD:2:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR1L0:RTD:3:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR1L0:RTD:4:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR2L0:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR2L0:RTD:2:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR2L0:RTD:3:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=MR2L0:RTD:4:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=TV3L0:RTD:1:TEMP }
+}
+file terminal_ai.tpl-arch
+{
+	{ REC=PC3L0:RTD:1:TEMP }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

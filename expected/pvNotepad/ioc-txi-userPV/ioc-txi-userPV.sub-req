@@ -1,0 +1,362 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:DPHI_REQUEST    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:DPHI_STATE    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOTK:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:SET1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:SET2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:REF1    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:REF2    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:VER    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:UND    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:MCC:EPHOT:REQ    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:BYKIKS:ABORT    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:BYKIKS:LAST_NUM_SHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:USER:BYKIKS:ABORT_EN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:NSHOTS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:NSTEPS    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:ISTEP    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:ISSCAN    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:SCANVAR00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:SCANVAR01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:SCANVAR02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MIN00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MIN01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MIN02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MAX00    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MAX01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:SCAN:MAX02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:INT:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:BIN:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:STRING:10    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:01    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:02    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:03    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:04    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:05    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:06    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:07    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:08    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:09    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { TXI:VARS:FLOAT:10    }
+}
+

@@ -1,0 +1,15 @@
+# IOC autosave file
+
+# Generate IOC archive request 
+file concentrator_ioc.req
+{
+    { IOC = "$$IOC_PV" }
+}
+
+$$LOOP(CONCENTRATOR)
+file concentrator_autosave.req
+{
+    { NAME = "$$NAME" }
+}
+
+$$ENDLOOP(CONCENTRATOR)

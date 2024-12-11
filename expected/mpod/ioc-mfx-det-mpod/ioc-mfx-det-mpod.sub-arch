@@ -1,0 +1,56 @@
+#
+# mpod Archive file for ioc-mfx-det-mpod
+#
+
+# Generate IOC archive request 
+file mpod.archive
+{
+	{ IOC = "MFX:IOC:DET:MPOD" }
+}
+
+# Generate mpod module archive requests 
+file mpod_channel.tpl-arch
+{
+	pattern
+	{	CHANNEL,		CHN	}
+	{ "MFX:DET:MPD:CH",             "000" }
+	{ "MFX:DET:MPD:CH",             "001" }
+	{ "MFX:DET:MPD:CH",             "002" }
+	{ "MFX:DET:MPD:CH",             "003" }
+	{ "MFX:DET:MPD:CH",             "004" }
+	{ "MFX:DET:MPD:CH",             "005" }
+	{ "MFX:DET:MPD:CH",             "006" }
+	{ "MFX:DET:MPD:CH",             "007" }
+	{ "MFX:DET:MPD:CH",             "008" }
+	{ "MFX:DET:MPD:CH",             "009" }
+	{ "MFX:DET:MPD:CH",             "010" }
+	{ "MFX:DET:MPD:CH",             "011" }
+	{ "MFX:DET:MPD:CH",             "012" }
+	{ "MFX:DET:MPD:CH",             "013" }
+	{ "MFX:DET:MPD:CH",             "014" }
+	{ "MFX:DET:MPD:CH",             "015" }
+	{ "MFX:DET:MPD:CH",             "100" }
+	{ "MFX:DET:MPD:CH",             "101" }
+	{ "MFX:DET:MPD:CH",             "102" }
+	{ "MFX:DET:MPD:CH",             "103" }
+	{ "MFX:DET:MPD:CH",             "104" }
+	{ "MFX:DET:MPD:CH",             "105" }
+	{ "MFX:DET:MPD:CH",             "106" }
+	{ "MFX:DET:MPD:CH",             "107" }
+	{ "MFX:DET:MPD:CH",             "200" }
+	{ "MFX:DET:MPD:CH",             "201" }
+	{ "MFX:DET:MPD:CH",             "202" }
+	{ "MFX:DET:MPD:CH",             "203" }
+	{ "MFX:DET:MPD:CH",             "204" }
+	{ "MFX:DET:MPD:CH",             "205" }
+	{ "MFX:DET:MPD:CH",             "206" }
+	{ "MFX:DET:MPD:CH",             "207" }
+	{ "MFX:DET:MPD:CH",             "300" }
+	{ "MFX:DET:MPD:CH",             "301" }
+	{ "MFX:DET:MPD:CH",             "302" }
+	{ "MFX:DET:MPD:CH",             "303" }
+	{ "MFX:DET:MPD:CH",             "304" }
+	{ "MFX:DET:MPD:CH",             "305" }
+	{ "MFX:DET:MPD:CH",             "306" }
+	{ "MFX:DET:MPD:CH",             "307" }
+}

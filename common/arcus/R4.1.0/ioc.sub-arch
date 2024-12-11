@@ -1,0 +1,9 @@
+# Generate archive request 
+file arcus_archive.tpl-arch
+{
+    pattern { MOTOR  }
+            $$LOOP(PMC100)
+            { $$NAME }
+            $$ENDLOOP(PMC100)
+}
+

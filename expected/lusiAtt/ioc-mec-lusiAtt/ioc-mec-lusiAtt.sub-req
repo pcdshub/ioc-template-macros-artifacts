@@ -1,0 +1,81 @@
+file lusiAtt-ioc.req
+{
+	{ IOC = "IOC:MEC:ATT" }
+}
+
+file lusiAtt.req
+{
+	{ ATTBASE = "MEC" }
+}
+
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.req
+{
+	{
+		ATTBASE = "MEC"
+		ATTNUM  = "10"
+	}
+}
+

@@ -1,0 +1,881 @@
+# archive_iocAdmin Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive these values only when they change
+CXI:IOC:MPOD:D50:APP_DIR 30 monitor 
+CXI:IOC:MPOD:D50:APP_DIR1 30 monitor 
+CXI:IOC:MPOD:D50:APP_DIR2 30 monitor 
+CXI:IOC:MPOD:D50:CA_CLNT_CNT 1 monitor 
+CXI:IOC:MPOD:D50:CA_CONN_CNT 1 monitor 
+CXI:IOC:MPOD:D50:EPICS_VERS 30 monitor
+CXI:IOC:MPOD:D50:FD_CNT 1 monitor 
+CXI:IOC:MPOD:D50:FD_FREE 1 monitor 
+CXI:IOC:MPOD:D50:FD_MAX 1 monitor 
+CXI:IOC:MPOD:D50:HOSTNAME 30 monitor
+CXI:IOC:MPOD:D50:KERNEL_VERS 30 monitor
+CXI:IOC:MPOD:D50:RECORD_CNT 10 monitor
+CXI:IOC:MPOD:D50:START_CNT 30 monitor
+CXI:IOC:MPOD:D50:STARTTOD 30 monitor
+CXI:IOC:MPOD:D50:ST_SCRIPT 30 monitor 
+CXI:IOC:MPOD:D50:ST_SCRIPT1 30 monitor 
+CXI:IOC:MPOD:D50:ST_SCRIPT2 30 monitor 
+CXI:IOC:MPOD:D50:SUSP_TASK_CNT 30 monitor 
+CXI:IOC:MPOD:D50:SYSRESET 30 monitor 
+
+# Archive these values at the specified rate
+CXI:IOC:MPOD:D50:SYS_CPU_LOAD 10
+CXI:IOC:MPOD:D50:LOAD 10 
+CXI:IOC:MPOD:D50:MEM_BLK_FREE 10 
+CXI:IOC:MPOD:D50:MEM_FREE 10 
+CXI:IOC:MPOD:D50:MEM_USED 10 
+CXI:IOC:MPOD:D50:UPTIME 3600 
+# autosave Save/Restore Archive template
+# Format:
+# <PVNAME> <PERIOD> [ monitor ]
+
+# Archive each status change
+CXI:IOC:MPOD:D50:SR_rebootStatus			1 monitor
+CXI:IOC:MPOD:D50:SR_status				1 monitor
+CXI:IOC:MPOD:D50:SR_rebootStatusStr		1 monitor
+CXI:IOC:MPOD:D50:SR_statusStr				1 monitor
+CXI:IOC:MPOD:D50:SR_0_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_0_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_1_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_1_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_2_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_2_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_3_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_3_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_4_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_4_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_5_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_5_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_6_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_6_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_7_Status				1 monitor
+CXI:IOC:MPOD:D50:SR_7_StatusStr			1 monitor
+CXI:IOC:MPOD:D50:SR_0_State				1 monitor
+CXI:IOC:MPOD:D50:SR_1_State				1 monitor
+CXI:IOC:MPOD:D50:SR_2_State				1 monitor
+CXI:IOC:MPOD:D50:SR_3_State				1 monitor
+CXI:IOC:MPOD:D50:SR_4_State				1 monitor
+CXI:IOC:MPOD:D50:SR_5_State				1 monitor
+CXI:IOC:MPOD:D50:SR_6_State				1 monitor
+CXI:IOC:MPOD:D50:SR_7_State				1 monitor
+
+# Archive these values only when they change
+CXI:IOC:MPOD:D50:SR_recentlyStr			30 monitor
+CXI:IOC:MPOD:D50:SR_rebootTime			30 monitor
+CXI:IOC:MPOD:D50:SR_0_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_1_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_2_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_3_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_4_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_5_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_6_Name				30 monitor
+CXI:IOC:MPOD:D50:SR_7_Name				30 monitor
+
+# Archive these values at the specified rate
+CXI:IOC:MPOD:D50:SR_heartbeat				30
+CXI:IOC:MPOD:D50:SR_0_Time				30
+CXI:IOC:MPOD:D50:SR_1_Time				30
+CXI:IOC:MPOD:D50:SR_2_Time				30
+CXI:IOC:MPOD:D50:SR_3_Time				30
+CXI:IOC:MPOD:D50:SR_4_Time				30
+CXI:IOC:MPOD:D50:SR_5_Time				30
+CXI:IOC:MPOD:D50:SR_6_Time				30
+CXI:IOC:MPOD:D50:SR_7_Time				30
+
+# Archive values for mpod channel
+CXI:D50:MPD:CH:0:GetCurrent			1		monitor
+CXI:D50:MPD:CH:0:GetVoltage			1		monitor
+CXI:D50:MPD:CH:0:SetCurrent			1		monitor
+CXI:D50:MPD:CH:0:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:0:SetSwitch			1		monitor
+CXI:D50:MPD:CH:0:SetVoltage			1		monitor
+CXI:D50:MPD:CH:0:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:0:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:0:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:0:GetStatusString		1
+CXI:D50:MPD:CH:0:GetStatusString		1
+CXI:D50:MPD:CH:0:Stat_OnOff			1
+CXI:D50:MPD:CH:0:Stat_Inhibit			1
+CXI:D50:MPD:CH:0:Stat_VSenseLow		1
+CXI:D50:MPD:CH:0:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:0:Stat_VTermHigh		1
+CXI:D50:MPD:CH:0:Stat_CurrHigh			1
+CXI:D50:MPD:CH:0:Stat_TempHigh			1
+CXI:D50:MPD:CH:0:Stat_PowerHigh		1
+CXI:D50:MPD:CH:0:Stat_Bit8			1
+CXI:D50:MPD:CH:0:Stat_CommTimeout		1
+CXI:D50:MPD:CH:0:Stat_CurrLim			1
+CXI:D50:MPD:CH:0:Stat_VRampUp			1
+CXI:D50:MPD:CH:0:Stat_VRampDown		1
+CXI:D50:MPD:CH:0:Stat_EnaKill			1
+CXI:D50:MPD:CH:0:Stat_EmerOff			1
+CXI:D50:MPD:CH:0:Stat_Bit15			1
+CXI:D50:MPD:CH:0:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:0:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:0:GetVoltage.DESC		10
+CXI:D50:MPD:CH:0:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:1:GetCurrent			1		monitor
+CXI:D50:MPD:CH:1:GetVoltage			1		monitor
+CXI:D50:MPD:CH:1:SetCurrent			1		monitor
+CXI:D50:MPD:CH:1:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:1:SetSwitch			1		monitor
+CXI:D50:MPD:CH:1:SetVoltage			1		monitor
+CXI:D50:MPD:CH:1:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:1:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:1:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:1:GetStatusString		1
+CXI:D50:MPD:CH:1:GetStatusString		1
+CXI:D50:MPD:CH:1:Stat_OnOff			1
+CXI:D50:MPD:CH:1:Stat_Inhibit			1
+CXI:D50:MPD:CH:1:Stat_VSenseLow		1
+CXI:D50:MPD:CH:1:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:1:Stat_VTermHigh		1
+CXI:D50:MPD:CH:1:Stat_CurrHigh			1
+CXI:D50:MPD:CH:1:Stat_TempHigh			1
+CXI:D50:MPD:CH:1:Stat_PowerHigh		1
+CXI:D50:MPD:CH:1:Stat_Bit8			1
+CXI:D50:MPD:CH:1:Stat_CommTimeout		1
+CXI:D50:MPD:CH:1:Stat_CurrLim			1
+CXI:D50:MPD:CH:1:Stat_VRampUp			1
+CXI:D50:MPD:CH:1:Stat_VRampDown		1
+CXI:D50:MPD:CH:1:Stat_EnaKill			1
+CXI:D50:MPD:CH:1:Stat_EmerOff			1
+CXI:D50:MPD:CH:1:Stat_Bit15			1
+CXI:D50:MPD:CH:1:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:1:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:1:GetVoltage.DESC		10
+CXI:D50:MPD:CH:1:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:2:GetCurrent			1		monitor
+CXI:D50:MPD:CH:2:GetVoltage			1		monitor
+CXI:D50:MPD:CH:2:SetCurrent			1		monitor
+CXI:D50:MPD:CH:2:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:2:SetSwitch			1		monitor
+CXI:D50:MPD:CH:2:SetVoltage			1		monitor
+CXI:D50:MPD:CH:2:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:2:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:2:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:2:GetStatusString		1
+CXI:D50:MPD:CH:2:GetStatusString		1
+CXI:D50:MPD:CH:2:Stat_OnOff			1
+CXI:D50:MPD:CH:2:Stat_Inhibit			1
+CXI:D50:MPD:CH:2:Stat_VSenseLow		1
+CXI:D50:MPD:CH:2:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:2:Stat_VTermHigh		1
+CXI:D50:MPD:CH:2:Stat_CurrHigh			1
+CXI:D50:MPD:CH:2:Stat_TempHigh			1
+CXI:D50:MPD:CH:2:Stat_PowerHigh		1
+CXI:D50:MPD:CH:2:Stat_Bit8			1
+CXI:D50:MPD:CH:2:Stat_CommTimeout		1
+CXI:D50:MPD:CH:2:Stat_CurrLim			1
+CXI:D50:MPD:CH:2:Stat_VRampUp			1
+CXI:D50:MPD:CH:2:Stat_VRampDown		1
+CXI:D50:MPD:CH:2:Stat_EnaKill			1
+CXI:D50:MPD:CH:2:Stat_EmerOff			1
+CXI:D50:MPD:CH:2:Stat_Bit15			1
+CXI:D50:MPD:CH:2:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:2:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:2:GetVoltage.DESC		10
+CXI:D50:MPD:CH:2:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:3:GetCurrent			1		monitor
+CXI:D50:MPD:CH:3:GetVoltage			1		monitor
+CXI:D50:MPD:CH:3:SetCurrent			1		monitor
+CXI:D50:MPD:CH:3:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:3:SetSwitch			1		monitor
+CXI:D50:MPD:CH:3:SetVoltage			1		monitor
+CXI:D50:MPD:CH:3:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:3:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:3:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:3:GetStatusString		1
+CXI:D50:MPD:CH:3:GetStatusString		1
+CXI:D50:MPD:CH:3:Stat_OnOff			1
+CXI:D50:MPD:CH:3:Stat_Inhibit			1
+CXI:D50:MPD:CH:3:Stat_VSenseLow		1
+CXI:D50:MPD:CH:3:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:3:Stat_VTermHigh		1
+CXI:D50:MPD:CH:3:Stat_CurrHigh			1
+CXI:D50:MPD:CH:3:Stat_TempHigh			1
+CXI:D50:MPD:CH:3:Stat_PowerHigh		1
+CXI:D50:MPD:CH:3:Stat_Bit8			1
+CXI:D50:MPD:CH:3:Stat_CommTimeout		1
+CXI:D50:MPD:CH:3:Stat_CurrLim			1
+CXI:D50:MPD:CH:3:Stat_VRampUp			1
+CXI:D50:MPD:CH:3:Stat_VRampDown		1
+CXI:D50:MPD:CH:3:Stat_EnaKill			1
+CXI:D50:MPD:CH:3:Stat_EmerOff			1
+CXI:D50:MPD:CH:3:Stat_Bit15			1
+CXI:D50:MPD:CH:3:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:3:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:3:GetVoltage.DESC		10
+CXI:D50:MPD:CH:3:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:4:GetCurrent			1		monitor
+CXI:D50:MPD:CH:4:GetVoltage			1		monitor
+CXI:D50:MPD:CH:4:SetCurrent			1		monitor
+CXI:D50:MPD:CH:4:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:4:SetSwitch			1		monitor
+CXI:D50:MPD:CH:4:SetVoltage			1		monitor
+CXI:D50:MPD:CH:4:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:4:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:4:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:4:GetStatusString		1
+CXI:D50:MPD:CH:4:GetStatusString		1
+CXI:D50:MPD:CH:4:Stat_OnOff			1
+CXI:D50:MPD:CH:4:Stat_Inhibit			1
+CXI:D50:MPD:CH:4:Stat_VSenseLow		1
+CXI:D50:MPD:CH:4:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:4:Stat_VTermHigh		1
+CXI:D50:MPD:CH:4:Stat_CurrHigh			1
+CXI:D50:MPD:CH:4:Stat_TempHigh			1
+CXI:D50:MPD:CH:4:Stat_PowerHigh		1
+CXI:D50:MPD:CH:4:Stat_Bit8			1
+CXI:D50:MPD:CH:4:Stat_CommTimeout		1
+CXI:D50:MPD:CH:4:Stat_CurrLim			1
+CXI:D50:MPD:CH:4:Stat_VRampUp			1
+CXI:D50:MPD:CH:4:Stat_VRampDown		1
+CXI:D50:MPD:CH:4:Stat_EnaKill			1
+CXI:D50:MPD:CH:4:Stat_EmerOff			1
+CXI:D50:MPD:CH:4:Stat_Bit15			1
+CXI:D50:MPD:CH:4:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:4:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:4:GetVoltage.DESC		10
+CXI:D50:MPD:CH:4:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:5:GetCurrent			1		monitor
+CXI:D50:MPD:CH:5:GetVoltage			1		monitor
+CXI:D50:MPD:CH:5:SetCurrent			1		monitor
+CXI:D50:MPD:CH:5:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:5:SetSwitch			1		monitor
+CXI:D50:MPD:CH:5:SetVoltage			1		monitor
+CXI:D50:MPD:CH:5:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:5:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:5:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:5:GetStatusString		1
+CXI:D50:MPD:CH:5:GetStatusString		1
+CXI:D50:MPD:CH:5:Stat_OnOff			1
+CXI:D50:MPD:CH:5:Stat_Inhibit			1
+CXI:D50:MPD:CH:5:Stat_VSenseLow		1
+CXI:D50:MPD:CH:5:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:5:Stat_VTermHigh		1
+CXI:D50:MPD:CH:5:Stat_CurrHigh			1
+CXI:D50:MPD:CH:5:Stat_TempHigh			1
+CXI:D50:MPD:CH:5:Stat_PowerHigh		1
+CXI:D50:MPD:CH:5:Stat_Bit8			1
+CXI:D50:MPD:CH:5:Stat_CommTimeout		1
+CXI:D50:MPD:CH:5:Stat_CurrLim			1
+CXI:D50:MPD:CH:5:Stat_VRampUp			1
+CXI:D50:MPD:CH:5:Stat_VRampDown		1
+CXI:D50:MPD:CH:5:Stat_EnaKill			1
+CXI:D50:MPD:CH:5:Stat_EmerOff			1
+CXI:D50:MPD:CH:5:Stat_Bit15			1
+CXI:D50:MPD:CH:5:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:5:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:5:GetVoltage.DESC		10
+CXI:D50:MPD:CH:5:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:6:GetCurrent			1		monitor
+CXI:D50:MPD:CH:6:GetVoltage			1		monitor
+CXI:D50:MPD:CH:6:SetCurrent			1		monitor
+CXI:D50:MPD:CH:6:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:6:SetSwitch			1		monitor
+CXI:D50:MPD:CH:6:SetVoltage			1		monitor
+CXI:D50:MPD:CH:6:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:6:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:6:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:6:GetStatusString		1
+CXI:D50:MPD:CH:6:GetStatusString		1
+CXI:D50:MPD:CH:6:Stat_OnOff			1
+CXI:D50:MPD:CH:6:Stat_Inhibit			1
+CXI:D50:MPD:CH:6:Stat_VSenseLow		1
+CXI:D50:MPD:CH:6:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:6:Stat_VTermHigh		1
+CXI:D50:MPD:CH:6:Stat_CurrHigh			1
+CXI:D50:MPD:CH:6:Stat_TempHigh			1
+CXI:D50:MPD:CH:6:Stat_PowerHigh		1
+CXI:D50:MPD:CH:6:Stat_Bit8			1
+CXI:D50:MPD:CH:6:Stat_CommTimeout		1
+CXI:D50:MPD:CH:6:Stat_CurrLim			1
+CXI:D50:MPD:CH:6:Stat_VRampUp			1
+CXI:D50:MPD:CH:6:Stat_VRampDown		1
+CXI:D50:MPD:CH:6:Stat_EnaKill			1
+CXI:D50:MPD:CH:6:Stat_EmerOff			1
+CXI:D50:MPD:CH:6:Stat_Bit15			1
+CXI:D50:MPD:CH:6:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:6:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:6:GetVoltage.DESC		10
+CXI:D50:MPD:CH:6:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:7:GetCurrent			1		monitor
+CXI:D50:MPD:CH:7:GetVoltage			1		monitor
+CXI:D50:MPD:CH:7:SetCurrent			1		monitor
+CXI:D50:MPD:CH:7:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:7:SetSwitch			1		monitor
+CXI:D50:MPD:CH:7:SetVoltage			1		monitor
+CXI:D50:MPD:CH:7:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:7:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:7:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:7:GetStatusString		1
+CXI:D50:MPD:CH:7:GetStatusString		1
+CXI:D50:MPD:CH:7:Stat_OnOff			1
+CXI:D50:MPD:CH:7:Stat_Inhibit			1
+CXI:D50:MPD:CH:7:Stat_VSenseLow		1
+CXI:D50:MPD:CH:7:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:7:Stat_VTermHigh		1
+CXI:D50:MPD:CH:7:Stat_CurrHigh			1
+CXI:D50:MPD:CH:7:Stat_TempHigh			1
+CXI:D50:MPD:CH:7:Stat_PowerHigh		1
+CXI:D50:MPD:CH:7:Stat_Bit8			1
+CXI:D50:MPD:CH:7:Stat_CommTimeout		1
+CXI:D50:MPD:CH:7:Stat_CurrLim			1
+CXI:D50:MPD:CH:7:Stat_VRampUp			1
+CXI:D50:MPD:CH:7:Stat_VRampDown		1
+CXI:D50:MPD:CH:7:Stat_EnaKill			1
+CXI:D50:MPD:CH:7:Stat_EmerOff			1
+CXI:D50:MPD:CH:7:Stat_Bit15			1
+CXI:D50:MPD:CH:7:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:7:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:7:GetVoltage.DESC		10
+CXI:D50:MPD:CH:7:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:100:GetCurrent			1		monitor
+CXI:D50:MPD:CH:100:GetVoltage			1		monitor
+CXI:D50:MPD:CH:100:SetCurrent			1		monitor
+CXI:D50:MPD:CH:100:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:100:SetSwitch			1		monitor
+CXI:D50:MPD:CH:100:SetVoltage			1		monitor
+CXI:D50:MPD:CH:100:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:100:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:100:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:100:GetStatusString		1
+CXI:D50:MPD:CH:100:GetStatusString		1
+CXI:D50:MPD:CH:100:Stat_OnOff			1
+CXI:D50:MPD:CH:100:Stat_Inhibit			1
+CXI:D50:MPD:CH:100:Stat_VSenseLow		1
+CXI:D50:MPD:CH:100:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:100:Stat_VTermHigh		1
+CXI:D50:MPD:CH:100:Stat_CurrHigh			1
+CXI:D50:MPD:CH:100:Stat_TempHigh			1
+CXI:D50:MPD:CH:100:Stat_PowerHigh		1
+CXI:D50:MPD:CH:100:Stat_Bit8			1
+CXI:D50:MPD:CH:100:Stat_CommTimeout		1
+CXI:D50:MPD:CH:100:Stat_CurrLim			1
+CXI:D50:MPD:CH:100:Stat_VRampUp			1
+CXI:D50:MPD:CH:100:Stat_VRampDown		1
+CXI:D50:MPD:CH:100:Stat_EnaKill			1
+CXI:D50:MPD:CH:100:Stat_EmerOff			1
+CXI:D50:MPD:CH:100:Stat_Bit15			1
+CXI:D50:MPD:CH:100:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:100:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:100:GetVoltage.DESC		10
+CXI:D50:MPD:CH:100:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:101:GetCurrent			1		monitor
+CXI:D50:MPD:CH:101:GetVoltage			1		monitor
+CXI:D50:MPD:CH:101:SetCurrent			1		monitor
+CXI:D50:MPD:CH:101:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:101:SetSwitch			1		monitor
+CXI:D50:MPD:CH:101:SetVoltage			1		monitor
+CXI:D50:MPD:CH:101:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:101:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:101:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:101:GetStatusString		1
+CXI:D50:MPD:CH:101:GetStatusString		1
+CXI:D50:MPD:CH:101:Stat_OnOff			1
+CXI:D50:MPD:CH:101:Stat_Inhibit			1
+CXI:D50:MPD:CH:101:Stat_VSenseLow		1
+CXI:D50:MPD:CH:101:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:101:Stat_VTermHigh		1
+CXI:D50:MPD:CH:101:Stat_CurrHigh			1
+CXI:D50:MPD:CH:101:Stat_TempHigh			1
+CXI:D50:MPD:CH:101:Stat_PowerHigh		1
+CXI:D50:MPD:CH:101:Stat_Bit8			1
+CXI:D50:MPD:CH:101:Stat_CommTimeout		1
+CXI:D50:MPD:CH:101:Stat_CurrLim			1
+CXI:D50:MPD:CH:101:Stat_VRampUp			1
+CXI:D50:MPD:CH:101:Stat_VRampDown		1
+CXI:D50:MPD:CH:101:Stat_EnaKill			1
+CXI:D50:MPD:CH:101:Stat_EmerOff			1
+CXI:D50:MPD:CH:101:Stat_Bit15			1
+CXI:D50:MPD:CH:101:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:101:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:101:GetVoltage.DESC		10
+CXI:D50:MPD:CH:101:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:102:GetCurrent			1		monitor
+CXI:D50:MPD:CH:102:GetVoltage			1		monitor
+CXI:D50:MPD:CH:102:SetCurrent			1		monitor
+CXI:D50:MPD:CH:102:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:102:SetSwitch			1		monitor
+CXI:D50:MPD:CH:102:SetVoltage			1		monitor
+CXI:D50:MPD:CH:102:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:102:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:102:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:102:GetStatusString		1
+CXI:D50:MPD:CH:102:GetStatusString		1
+CXI:D50:MPD:CH:102:Stat_OnOff			1
+CXI:D50:MPD:CH:102:Stat_Inhibit			1
+CXI:D50:MPD:CH:102:Stat_VSenseLow		1
+CXI:D50:MPD:CH:102:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:102:Stat_VTermHigh		1
+CXI:D50:MPD:CH:102:Stat_CurrHigh			1
+CXI:D50:MPD:CH:102:Stat_TempHigh			1
+CXI:D50:MPD:CH:102:Stat_PowerHigh		1
+CXI:D50:MPD:CH:102:Stat_Bit8			1
+CXI:D50:MPD:CH:102:Stat_CommTimeout		1
+CXI:D50:MPD:CH:102:Stat_CurrLim			1
+CXI:D50:MPD:CH:102:Stat_VRampUp			1
+CXI:D50:MPD:CH:102:Stat_VRampDown		1
+CXI:D50:MPD:CH:102:Stat_EnaKill			1
+CXI:D50:MPD:CH:102:Stat_EmerOff			1
+CXI:D50:MPD:CH:102:Stat_Bit15			1
+CXI:D50:MPD:CH:102:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:102:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:102:GetVoltage.DESC		10
+CXI:D50:MPD:CH:102:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:103:GetCurrent			1		monitor
+CXI:D50:MPD:CH:103:GetVoltage			1		monitor
+CXI:D50:MPD:CH:103:SetCurrent			1		monitor
+CXI:D50:MPD:CH:103:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:103:SetSwitch			1		monitor
+CXI:D50:MPD:CH:103:SetVoltage			1		monitor
+CXI:D50:MPD:CH:103:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:103:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:103:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:103:GetStatusString		1
+CXI:D50:MPD:CH:103:GetStatusString		1
+CXI:D50:MPD:CH:103:Stat_OnOff			1
+CXI:D50:MPD:CH:103:Stat_Inhibit			1
+CXI:D50:MPD:CH:103:Stat_VSenseLow		1
+CXI:D50:MPD:CH:103:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:103:Stat_VTermHigh		1
+CXI:D50:MPD:CH:103:Stat_CurrHigh			1
+CXI:D50:MPD:CH:103:Stat_TempHigh			1
+CXI:D50:MPD:CH:103:Stat_PowerHigh		1
+CXI:D50:MPD:CH:103:Stat_Bit8			1
+CXI:D50:MPD:CH:103:Stat_CommTimeout		1
+CXI:D50:MPD:CH:103:Stat_CurrLim			1
+CXI:D50:MPD:CH:103:Stat_VRampUp			1
+CXI:D50:MPD:CH:103:Stat_VRampDown		1
+CXI:D50:MPD:CH:103:Stat_EnaKill			1
+CXI:D50:MPD:CH:103:Stat_EmerOff			1
+CXI:D50:MPD:CH:103:Stat_Bit15			1
+CXI:D50:MPD:CH:103:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:103:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:103:GetVoltage.DESC		10
+CXI:D50:MPD:CH:103:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:104:GetCurrent			1		monitor
+CXI:D50:MPD:CH:104:GetVoltage			1		monitor
+CXI:D50:MPD:CH:104:SetCurrent			1		monitor
+CXI:D50:MPD:CH:104:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:104:SetSwitch			1		monitor
+CXI:D50:MPD:CH:104:SetVoltage			1		monitor
+CXI:D50:MPD:CH:104:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:104:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:104:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:104:GetStatusString		1
+CXI:D50:MPD:CH:104:GetStatusString		1
+CXI:D50:MPD:CH:104:Stat_OnOff			1
+CXI:D50:MPD:CH:104:Stat_Inhibit			1
+CXI:D50:MPD:CH:104:Stat_VSenseLow		1
+CXI:D50:MPD:CH:104:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:104:Stat_VTermHigh		1
+CXI:D50:MPD:CH:104:Stat_CurrHigh			1
+CXI:D50:MPD:CH:104:Stat_TempHigh			1
+CXI:D50:MPD:CH:104:Stat_PowerHigh		1
+CXI:D50:MPD:CH:104:Stat_Bit8			1
+CXI:D50:MPD:CH:104:Stat_CommTimeout		1
+CXI:D50:MPD:CH:104:Stat_CurrLim			1
+CXI:D50:MPD:CH:104:Stat_VRampUp			1
+CXI:D50:MPD:CH:104:Stat_VRampDown		1
+CXI:D50:MPD:CH:104:Stat_EnaKill			1
+CXI:D50:MPD:CH:104:Stat_EmerOff			1
+CXI:D50:MPD:CH:104:Stat_Bit15			1
+CXI:D50:MPD:CH:104:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:104:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:104:GetVoltage.DESC		10
+CXI:D50:MPD:CH:104:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:105:GetCurrent			1		monitor
+CXI:D50:MPD:CH:105:GetVoltage			1		monitor
+CXI:D50:MPD:CH:105:SetCurrent			1		monitor
+CXI:D50:MPD:CH:105:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:105:SetSwitch			1		monitor
+CXI:D50:MPD:CH:105:SetVoltage			1		monitor
+CXI:D50:MPD:CH:105:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:105:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:105:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:105:GetStatusString		1
+CXI:D50:MPD:CH:105:GetStatusString		1
+CXI:D50:MPD:CH:105:Stat_OnOff			1
+CXI:D50:MPD:CH:105:Stat_Inhibit			1
+CXI:D50:MPD:CH:105:Stat_VSenseLow		1
+CXI:D50:MPD:CH:105:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:105:Stat_VTermHigh		1
+CXI:D50:MPD:CH:105:Stat_CurrHigh			1
+CXI:D50:MPD:CH:105:Stat_TempHigh			1
+CXI:D50:MPD:CH:105:Stat_PowerHigh		1
+CXI:D50:MPD:CH:105:Stat_Bit8			1
+CXI:D50:MPD:CH:105:Stat_CommTimeout		1
+CXI:D50:MPD:CH:105:Stat_CurrLim			1
+CXI:D50:MPD:CH:105:Stat_VRampUp			1
+CXI:D50:MPD:CH:105:Stat_VRampDown		1
+CXI:D50:MPD:CH:105:Stat_EnaKill			1
+CXI:D50:MPD:CH:105:Stat_EmerOff			1
+CXI:D50:MPD:CH:105:Stat_Bit15			1
+CXI:D50:MPD:CH:105:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:105:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:105:GetVoltage.DESC		10
+CXI:D50:MPD:CH:105:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:106:GetCurrent			1		monitor
+CXI:D50:MPD:CH:106:GetVoltage			1		monitor
+CXI:D50:MPD:CH:106:SetCurrent			1		monitor
+CXI:D50:MPD:CH:106:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:106:SetSwitch			1		monitor
+CXI:D50:MPD:CH:106:SetVoltage			1		monitor
+CXI:D50:MPD:CH:106:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:106:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:106:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:106:GetStatusString		1
+CXI:D50:MPD:CH:106:GetStatusString		1
+CXI:D50:MPD:CH:106:Stat_OnOff			1
+CXI:D50:MPD:CH:106:Stat_Inhibit			1
+CXI:D50:MPD:CH:106:Stat_VSenseLow		1
+CXI:D50:MPD:CH:106:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:106:Stat_VTermHigh		1
+CXI:D50:MPD:CH:106:Stat_CurrHigh			1
+CXI:D50:MPD:CH:106:Stat_TempHigh			1
+CXI:D50:MPD:CH:106:Stat_PowerHigh		1
+CXI:D50:MPD:CH:106:Stat_Bit8			1
+CXI:D50:MPD:CH:106:Stat_CommTimeout		1
+CXI:D50:MPD:CH:106:Stat_CurrLim			1
+CXI:D50:MPD:CH:106:Stat_VRampUp			1
+CXI:D50:MPD:CH:106:Stat_VRampDown		1
+CXI:D50:MPD:CH:106:Stat_EnaKill			1
+CXI:D50:MPD:CH:106:Stat_EmerOff			1
+CXI:D50:MPD:CH:106:Stat_Bit15			1
+CXI:D50:MPD:CH:106:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:106:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:106:GetVoltage.DESC		10
+CXI:D50:MPD:CH:106:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:107:GetCurrent			1		monitor
+CXI:D50:MPD:CH:107:GetVoltage			1		monitor
+CXI:D50:MPD:CH:107:SetCurrent			1		monitor
+CXI:D50:MPD:CH:107:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:107:SetSwitch			1		monitor
+CXI:D50:MPD:CH:107:SetVoltage			1		monitor
+CXI:D50:MPD:CH:107:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:107:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:107:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:107:GetStatusString		1
+CXI:D50:MPD:CH:107:GetStatusString		1
+CXI:D50:MPD:CH:107:Stat_OnOff			1
+CXI:D50:MPD:CH:107:Stat_Inhibit			1
+CXI:D50:MPD:CH:107:Stat_VSenseLow		1
+CXI:D50:MPD:CH:107:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:107:Stat_VTermHigh		1
+CXI:D50:MPD:CH:107:Stat_CurrHigh			1
+CXI:D50:MPD:CH:107:Stat_TempHigh			1
+CXI:D50:MPD:CH:107:Stat_PowerHigh		1
+CXI:D50:MPD:CH:107:Stat_Bit8			1
+CXI:D50:MPD:CH:107:Stat_CommTimeout		1
+CXI:D50:MPD:CH:107:Stat_CurrLim			1
+CXI:D50:MPD:CH:107:Stat_VRampUp			1
+CXI:D50:MPD:CH:107:Stat_VRampDown		1
+CXI:D50:MPD:CH:107:Stat_EnaKill			1
+CXI:D50:MPD:CH:107:Stat_EmerOff			1
+CXI:D50:MPD:CH:107:Stat_Bit15			1
+CXI:D50:MPD:CH:107:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:107:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:107:GetVoltage.DESC		10
+CXI:D50:MPD:CH:107:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:200:GetCurrent			1		monitor
+CXI:D50:MPD:CH:200:GetVoltage			1		monitor
+CXI:D50:MPD:CH:200:SetCurrent			1		monitor
+CXI:D50:MPD:CH:200:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:200:SetSwitch			1		monitor
+CXI:D50:MPD:CH:200:SetVoltage			1		monitor
+CXI:D50:MPD:CH:200:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:200:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:200:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:200:GetStatusString		1
+CXI:D50:MPD:CH:200:GetStatusString		1
+CXI:D50:MPD:CH:200:Stat_OnOff			1
+CXI:D50:MPD:CH:200:Stat_Inhibit			1
+CXI:D50:MPD:CH:200:Stat_VSenseLow		1
+CXI:D50:MPD:CH:200:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:200:Stat_VTermHigh		1
+CXI:D50:MPD:CH:200:Stat_CurrHigh			1
+CXI:D50:MPD:CH:200:Stat_TempHigh			1
+CXI:D50:MPD:CH:200:Stat_PowerHigh		1
+CXI:D50:MPD:CH:200:Stat_Bit8			1
+CXI:D50:MPD:CH:200:Stat_CommTimeout		1
+CXI:D50:MPD:CH:200:Stat_CurrLim			1
+CXI:D50:MPD:CH:200:Stat_VRampUp			1
+CXI:D50:MPD:CH:200:Stat_VRampDown		1
+CXI:D50:MPD:CH:200:Stat_EnaKill			1
+CXI:D50:MPD:CH:200:Stat_EmerOff			1
+CXI:D50:MPD:CH:200:Stat_Bit15			1
+CXI:D50:MPD:CH:200:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:200:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:200:GetVoltage.DESC		10
+CXI:D50:MPD:CH:200:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:201:GetCurrent			1		monitor
+CXI:D50:MPD:CH:201:GetVoltage			1		monitor
+CXI:D50:MPD:CH:201:SetCurrent			1		monitor
+CXI:D50:MPD:CH:201:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:201:SetSwitch			1		monitor
+CXI:D50:MPD:CH:201:SetVoltage			1		monitor
+CXI:D50:MPD:CH:201:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:201:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:201:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:201:GetStatusString		1
+CXI:D50:MPD:CH:201:GetStatusString		1
+CXI:D50:MPD:CH:201:Stat_OnOff			1
+CXI:D50:MPD:CH:201:Stat_Inhibit			1
+CXI:D50:MPD:CH:201:Stat_VSenseLow		1
+CXI:D50:MPD:CH:201:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:201:Stat_VTermHigh		1
+CXI:D50:MPD:CH:201:Stat_CurrHigh			1
+CXI:D50:MPD:CH:201:Stat_TempHigh			1
+CXI:D50:MPD:CH:201:Stat_PowerHigh		1
+CXI:D50:MPD:CH:201:Stat_Bit8			1
+CXI:D50:MPD:CH:201:Stat_CommTimeout		1
+CXI:D50:MPD:CH:201:Stat_CurrLim			1
+CXI:D50:MPD:CH:201:Stat_VRampUp			1
+CXI:D50:MPD:CH:201:Stat_VRampDown		1
+CXI:D50:MPD:CH:201:Stat_EnaKill			1
+CXI:D50:MPD:CH:201:Stat_EmerOff			1
+CXI:D50:MPD:CH:201:Stat_Bit15			1
+CXI:D50:MPD:CH:201:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:201:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:201:GetVoltage.DESC		10
+CXI:D50:MPD:CH:201:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:202:GetCurrent			1		monitor
+CXI:D50:MPD:CH:202:GetVoltage			1		monitor
+CXI:D50:MPD:CH:202:SetCurrent			1		monitor
+CXI:D50:MPD:CH:202:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:202:SetSwitch			1		monitor
+CXI:D50:MPD:CH:202:SetVoltage			1		monitor
+CXI:D50:MPD:CH:202:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:202:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:202:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:202:GetStatusString		1
+CXI:D50:MPD:CH:202:GetStatusString		1
+CXI:D50:MPD:CH:202:Stat_OnOff			1
+CXI:D50:MPD:CH:202:Stat_Inhibit			1
+CXI:D50:MPD:CH:202:Stat_VSenseLow		1
+CXI:D50:MPD:CH:202:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:202:Stat_VTermHigh		1
+CXI:D50:MPD:CH:202:Stat_CurrHigh			1
+CXI:D50:MPD:CH:202:Stat_TempHigh			1
+CXI:D50:MPD:CH:202:Stat_PowerHigh		1
+CXI:D50:MPD:CH:202:Stat_Bit8			1
+CXI:D50:MPD:CH:202:Stat_CommTimeout		1
+CXI:D50:MPD:CH:202:Stat_CurrLim			1
+CXI:D50:MPD:CH:202:Stat_VRampUp			1
+CXI:D50:MPD:CH:202:Stat_VRampDown		1
+CXI:D50:MPD:CH:202:Stat_EnaKill			1
+CXI:D50:MPD:CH:202:Stat_EmerOff			1
+CXI:D50:MPD:CH:202:Stat_Bit15			1
+CXI:D50:MPD:CH:202:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:202:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:202:GetVoltage.DESC		10
+CXI:D50:MPD:CH:202:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:203:GetCurrent			1		monitor
+CXI:D50:MPD:CH:203:GetVoltage			1		monitor
+CXI:D50:MPD:CH:203:SetCurrent			1		monitor
+CXI:D50:MPD:CH:203:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:203:SetSwitch			1		monitor
+CXI:D50:MPD:CH:203:SetVoltage			1		monitor
+CXI:D50:MPD:CH:203:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:203:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:203:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:203:GetStatusString		1
+CXI:D50:MPD:CH:203:GetStatusString		1
+CXI:D50:MPD:CH:203:Stat_OnOff			1
+CXI:D50:MPD:CH:203:Stat_Inhibit			1
+CXI:D50:MPD:CH:203:Stat_VSenseLow		1
+CXI:D50:MPD:CH:203:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:203:Stat_VTermHigh		1
+CXI:D50:MPD:CH:203:Stat_CurrHigh			1
+CXI:D50:MPD:CH:203:Stat_TempHigh			1
+CXI:D50:MPD:CH:203:Stat_PowerHigh		1
+CXI:D50:MPD:CH:203:Stat_Bit8			1
+CXI:D50:MPD:CH:203:Stat_CommTimeout		1
+CXI:D50:MPD:CH:203:Stat_CurrLim			1
+CXI:D50:MPD:CH:203:Stat_VRampUp			1
+CXI:D50:MPD:CH:203:Stat_VRampDown		1
+CXI:D50:MPD:CH:203:Stat_EnaKill			1
+CXI:D50:MPD:CH:203:Stat_EmerOff			1
+CXI:D50:MPD:CH:203:Stat_Bit15			1
+CXI:D50:MPD:CH:203:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:203:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:203:GetVoltage.DESC		10
+CXI:D50:MPD:CH:203:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:204:GetCurrent			1		monitor
+CXI:D50:MPD:CH:204:GetVoltage			1		monitor
+CXI:D50:MPD:CH:204:SetCurrent			1		monitor
+CXI:D50:MPD:CH:204:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:204:SetSwitch			1		monitor
+CXI:D50:MPD:CH:204:SetVoltage			1		monitor
+CXI:D50:MPD:CH:204:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:204:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:204:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:204:GetStatusString		1
+CXI:D50:MPD:CH:204:GetStatusString		1
+CXI:D50:MPD:CH:204:Stat_OnOff			1
+CXI:D50:MPD:CH:204:Stat_Inhibit			1
+CXI:D50:MPD:CH:204:Stat_VSenseLow		1
+CXI:D50:MPD:CH:204:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:204:Stat_VTermHigh		1
+CXI:D50:MPD:CH:204:Stat_CurrHigh			1
+CXI:D50:MPD:CH:204:Stat_TempHigh			1
+CXI:D50:MPD:CH:204:Stat_PowerHigh		1
+CXI:D50:MPD:CH:204:Stat_Bit8			1
+CXI:D50:MPD:CH:204:Stat_CommTimeout		1
+CXI:D50:MPD:CH:204:Stat_CurrLim			1
+CXI:D50:MPD:CH:204:Stat_VRampUp			1
+CXI:D50:MPD:CH:204:Stat_VRampDown		1
+CXI:D50:MPD:CH:204:Stat_EnaKill			1
+CXI:D50:MPD:CH:204:Stat_EmerOff			1
+CXI:D50:MPD:CH:204:Stat_Bit15			1
+CXI:D50:MPD:CH:204:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:204:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:204:GetVoltage.DESC		10
+CXI:D50:MPD:CH:204:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:205:GetCurrent			1		monitor
+CXI:D50:MPD:CH:205:GetVoltage			1		monitor
+CXI:D50:MPD:CH:205:SetCurrent			1		monitor
+CXI:D50:MPD:CH:205:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:205:SetSwitch			1		monitor
+CXI:D50:MPD:CH:205:SetVoltage			1		monitor
+CXI:D50:MPD:CH:205:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:205:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:205:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:205:GetStatusString		1
+CXI:D50:MPD:CH:205:GetStatusString		1
+CXI:D50:MPD:CH:205:Stat_OnOff			1
+CXI:D50:MPD:CH:205:Stat_Inhibit			1
+CXI:D50:MPD:CH:205:Stat_VSenseLow		1
+CXI:D50:MPD:CH:205:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:205:Stat_VTermHigh		1
+CXI:D50:MPD:CH:205:Stat_CurrHigh			1
+CXI:D50:MPD:CH:205:Stat_TempHigh			1
+CXI:D50:MPD:CH:205:Stat_PowerHigh		1
+CXI:D50:MPD:CH:205:Stat_Bit8			1
+CXI:D50:MPD:CH:205:Stat_CommTimeout		1
+CXI:D50:MPD:CH:205:Stat_CurrLim			1
+CXI:D50:MPD:CH:205:Stat_VRampUp			1
+CXI:D50:MPD:CH:205:Stat_VRampDown		1
+CXI:D50:MPD:CH:205:Stat_EnaKill			1
+CXI:D50:MPD:CH:205:Stat_EmerOff			1
+CXI:D50:MPD:CH:205:Stat_Bit15			1
+CXI:D50:MPD:CH:205:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:205:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:205:GetVoltage.DESC		10
+CXI:D50:MPD:CH:205:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:206:GetCurrent			1		monitor
+CXI:D50:MPD:CH:206:GetVoltage			1		monitor
+CXI:D50:MPD:CH:206:SetCurrent			1		monitor
+CXI:D50:MPD:CH:206:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:206:SetSwitch			1		monitor
+CXI:D50:MPD:CH:206:SetVoltage			1		monitor
+CXI:D50:MPD:CH:206:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:206:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:206:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:206:GetStatusString		1
+CXI:D50:MPD:CH:206:GetStatusString		1
+CXI:D50:MPD:CH:206:Stat_OnOff			1
+CXI:D50:MPD:CH:206:Stat_Inhibit			1
+CXI:D50:MPD:CH:206:Stat_VSenseLow		1
+CXI:D50:MPD:CH:206:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:206:Stat_VTermHigh		1
+CXI:D50:MPD:CH:206:Stat_CurrHigh			1
+CXI:D50:MPD:CH:206:Stat_TempHigh			1
+CXI:D50:MPD:CH:206:Stat_PowerHigh		1
+CXI:D50:MPD:CH:206:Stat_Bit8			1
+CXI:D50:MPD:CH:206:Stat_CommTimeout		1
+CXI:D50:MPD:CH:206:Stat_CurrLim			1
+CXI:D50:MPD:CH:206:Stat_VRampUp			1
+CXI:D50:MPD:CH:206:Stat_VRampDown		1
+CXI:D50:MPD:CH:206:Stat_EnaKill			1
+CXI:D50:MPD:CH:206:Stat_EmerOff			1
+CXI:D50:MPD:CH:206:Stat_Bit15			1
+CXI:D50:MPD:CH:206:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:206:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:206:GetVoltage.DESC		10
+CXI:D50:MPD:CH:206:SetVoltage.DESC		10
+# Archive values for mpod channel
+CXI:D50:MPD:CH:207:GetCurrent			1		monitor
+CXI:D50:MPD:CH:207:GetVoltage			1		monitor
+CXI:D50:MPD:CH:207:SetCurrent			1		monitor
+CXI:D50:MPD:CH:207:SetCurrent_snmp		1		monitor
+CXI:D50:MPD:CH:207:SetSwitch			1		monitor
+CXI:D50:MPD:CH:207:SetVoltage			1		monitor
+CXI:D50:MPD:CH:207:GetCurrentMeasurement		1
+CXI:D50:MPD:CH:207:GetTerminalVoltageMeasurement	1
+CXI:D50:MPD:CH:207:GetVoltageMeasurement		1
+CXI:D50:MPD:CH:207:GetStatusString		1
+CXI:D50:MPD:CH:207:GetStatusString		1
+CXI:D50:MPD:CH:207:Stat_OnOff			1
+CXI:D50:MPD:CH:207:Stat_Inhibit			1
+CXI:D50:MPD:CH:207:Stat_VSenseLow		1
+CXI:D50:MPD:CH:207:Stat_VSenseHigh		1
+CXI:D50:MPD:CH:207:Stat_VTermHigh		1
+CXI:D50:MPD:CH:207:Stat_CurrHigh			1
+CXI:D50:MPD:CH:207:Stat_TempHigh			1
+CXI:D50:MPD:CH:207:Stat_PowerHigh		1
+CXI:D50:MPD:CH:207:Stat_Bit8			1
+CXI:D50:MPD:CH:207:Stat_CommTimeout		1
+CXI:D50:MPD:CH:207:Stat_CurrLim			1
+CXI:D50:MPD:CH:207:Stat_VRampUp			1
+CXI:D50:MPD:CH:207:Stat_VRampDown		1
+CXI:D50:MPD:CH:207:Stat_EnaKill			1
+CXI:D50:MPD:CH:207:Stat_EmerOff			1
+CXI:D50:MPD:CH:207:Stat_Bit15			1
+CXI:D50:MPD:CH:207:Alarm_OnOffRamp		1
+CXI:D50:MPD:CH:207:Alarm_MinMax			1
+
+CXI:D50:MPD:CH:207:GetVoltage.DESC		10
+CXI:D50:MPD:CH:207:SetVoltage.DESC		10

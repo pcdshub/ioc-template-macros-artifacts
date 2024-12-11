@@ -1,0 +1,62 @@
+
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:FS14:lxt:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:LHN:LLG2:01:lxt:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LAS:TMO:lxt:OphydSetpoint    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:OphydOffset    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:delay:OphydReadback    }
+}
+file autosave_record.tpl-req
+{
+    pattern { RECORD                 }
+            { LM1K4:COM_MP2_DLY1:delay:OphydSetpoint    }
+}
+

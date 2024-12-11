@@ -1,0 +1,81 @@
+file lusiAtt-ioc.archive
+{
+	{ IOC = "IOC:CXI:DIA:ATC" } 
+} 
+
+file lusiAtt.archive
+{
+	{ ATTBASE = "CXI:DIA" }
+}
+
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "01"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "02"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "03"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "04"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "05"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "06"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "07"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "08"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "09"
+	}
+}
+file lusiFilt.archive
+{
+	{
+		ATTBASE = "CXI:DIA"
+		ATTNUM  = "10"
+	}
+}
+
